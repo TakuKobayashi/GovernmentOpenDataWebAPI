@@ -1,0 +1,48 @@
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: mysql
+    command: mysqld --character-set-server=${MYSQL_CHARSET} --collation-server=${MYSQL_COLLATE}
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+      TZ: ${TZ}
+    ports:
+      - ${MYSQL_PORT}:3306
+    volumes:
+      - mysql-data:/var/lib/mysql
+    networks:
+      - appandserver
+
+  nodejs:
+    container_name: government_open_data
+    environment:
+      MYSQL_HOST: mysql
+      MYSQL_USER: ${MYSQL_USERNAME}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      TZ: ${TZ}
+    tty: true
+    ports:
+      - '3123:3123'
+    build:
+      context: .
+      dockerfile: ./dockers/setup-nodejs/Dockerfile
+    # ソースコードを格納するフォルダをマウント
+    #（ホスト側の./をコンテナの/appにマウント）
+    volumes:
+      - ./:/app
+    # 起動時のカレントフォルダを指定
+    working_dir: /app
+    # 起動後に実行するコマンドを指定
+    networks:
+      - appandserver
+    #依存関係（apiコンテナより先にdbコンテナが起動するように設定）
+    depends_on:
+      - mysql
+
+networks:
+  appandserver:
+
+volumes:
+  mysql-data:

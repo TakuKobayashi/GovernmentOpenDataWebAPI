@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "outDir": "dist",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "allowJs": false,
+    "declaration": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/sequelize/**/*.js"],
+  "exclude": [
+    "**/*.spec.ts",
+    "node_modules",
+    "dist",
+    "scripts"
+  ],
+}
