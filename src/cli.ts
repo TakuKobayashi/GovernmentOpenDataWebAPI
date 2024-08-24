@@ -1,6 +1,6 @@
 import { program, Command } from 'commander';
 import packageJson from '../package.json';
-import XLSX from 'xlsx';
+import XLSX, { WorkBook } from 'xlsx';
 import path from 'path';
 import fs from 'fs';
 import axios from 'axios';
@@ -61,32 +61,48 @@ dataCommand
     const prisma = new PrismaClient();
     const categories = await prisma.category.findMany();
     for (const categoryModel of categories) {
-      const convertedApiFormatDataObjs: any[] = [];
-      const csvFilePathes = fg.sync(path.join('resources', 'origin-data', '**', '*.csv'));
+      const csvFilePathes = fg.sync(['resources', 'origin-data', '**', '*.csv'].join('/'));
       for (const csvFilePath of csvFilePathes) {
         const readFileData = fs.readFileSync(csvFilePath, 'utf8');
         const workbook = XLSX.read(readFileData, { type: 'string' });
-        const sheetNames = Object.keys(workbook.Sheets);
-        const themeRows: any[] = XLSX.utils.sheet_to_json(workbook.Sheets[sheetNames[0]]);
-        for (const rowObj of themeRows) {
-          const newPlaceModel = {
-            name: rowObj['施設名'],
-            lat: rowObj['緯度'],
-            lon: rowObj['経度'],
-            categoryId: categoryModel.id,
-            extra_info: {
-              males_count: rowObj['男性トイレ数'] || 0,
-              females_count: rowObj['女性トイレ数'] || 0,
-              multipurposes_count: rowObj['バリアフリートイレ数'] || 0,
-            },
-          };
-          convertedApiFormatDataObjs.push(newPlaceModel);
-        }
+        const convertedApiFormatDataObjs = importPlaceDataFromWorkbook(workbook, categoryModel.id);
+        await prisma.place.createMany({ data: convertedApiFormatDataObjs });
+      }
+      const xlsxFilePathes = fg.sync(['resources', 'origin-data', '**', '*.xlsx'].join('/'));
+      for (const xlsxFilePath of xlsxFilePathes) {
+        const workbook = XLSX.readFile(xlsxFilePath);
+        const convertedApiFormatDataObjs = importPlaceDataFromWorkbook(workbook, categoryModel.id);
         await prisma.place.createMany({ data: convertedApiFormatDataObjs });
       }
     }
     console.log('data:import');
   });
+
+function importPlaceDataFromWorkbook(workbook: WorkBook, categoryId: number): any[] {
+  const convertedApiFormatDataObjs: any[] = [];
+  const sheetNames = Object.keys(workbook.Sheets);
+  for (const sheetName of sheetNames) {
+    const themeRows: any[] = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName]);
+    for (const rowObj of themeRows) {
+      console.log(rowObj)
+      const newPlaceModel = {
+        name: rowObj['施設名'] || rowObj['名称'],
+        lat: Number(rowObj['緯度']),
+        lon: Number(rowObj['経度']),
+        categoryId: categoryId,
+        extra_info: {
+          males_count: Number(rowObj['男性トイレ数'] || rowObj['男性トイレ_総数'] || 0),
+          females_count: Number(rowObj['女性トイレ数'] || rowObj['女性トイレ_総数'] || 0),
+          multipurposes_count: Number(rowObj['バリアフリートイレ数'] || rowObj['多機能トイレ_数'] || 0),
+        },
+      };
+      if (newPlaceModel.name && newPlaceModel.lat && newPlaceModel.lon) {
+        convertedApiFormatDataObjs.push(newPlaceModel);
+      }
+    }
+  }
+  return convertedApiFormatDataObjs;
+}
 
 dataCommand
   .command('export')
@@ -124,6 +140,18 @@ program
   .command('build')
   .description('')
   .action(async (options: any) => {});
+
+  program
+  .command('seeder')
+  .description('')
+  .action(async (options: any) => {
+    const prisma = new PrismaClient();
+    await prisma.category.create({
+      data: {
+        title: 'toilet',
+      }
+    });
+  });
 
 program
   .command('deploy')
