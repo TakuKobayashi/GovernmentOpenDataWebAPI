@@ -33,7 +33,7 @@
     "typedoc": "^0.26.6",
     "typescript": "^5.4.5",
     "typings": "^2.1.1",
-    "xlsx": "^0.18.5"
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
   },
   "license": "MIT"
 }
