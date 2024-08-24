@@ -1,7 +1,7 @@
 services:
   mysql:
     image: mysql:5.7
-    container_name: mysql
+    container_name: government_open_data_mysql
     command: mysqld --character-set-server=${MYSQL_CHARSET} --collation-server=${MYSQL_COLLATE}
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
