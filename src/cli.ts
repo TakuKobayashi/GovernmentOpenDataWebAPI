@@ -49,7 +49,7 @@ dataCommand
   .command('export')
   .description('')
   .action(async (options: any) => {
-    const convertedApiFormatObjs: any[] = [];
+    const convertedApiFormatDataObjs: any[] = [];
     const csvFilePathes = fg.sync(path.join('resources', 'origin-data', '**', '*.csv'));
     for (const csvFilePath of csvFilePathes) {
       const readFileData = fs.readFileSync(csvFilePath, 'utf8');
@@ -58,19 +58,22 @@ dataCommand
       const themeRows: any[] = XLSX.utils.sheet_to_json(workbook.Sheets[sheetNames[0]]);
       for(const rowObj of themeRows) {
         const apiFormat = {
-          category: 'toilet',
           name: rowObj['施設名'],
           lat: rowObj['緯度'],
           lon: rowObj['経度'],
+          males_count: rowObj['男性トイレ数'] || 0,
+          females_count: rowObj['女性トイレ数'] || 0,
+          multipurposes_count: rowObj['バリアフリートイレ数'] || 0,
+
         }
-        convertedApiFormatObjs.push(apiFormat)
+        convertedApiFormatDataObjs.push(apiFormat)
       }
     }
     const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, 'category', 'toilet', 'list.json');
     if (!fs.existsSync(path.dirname(willSaveFilePath))) {
       fs.mkdirSync(path.dirname(willSaveFilePath), { recursive: true });
     }
-    fs.writeFileSync(willSaveFilePath, JSON.stringify(convertedApiFormatObjs));
+    fs.writeFileSync(willSaveFilePath, JSON.stringify({category: 'toilet', data: convertedApiFormatDataObjs}));
   });
 
 program.addCommand(dataCommand);
