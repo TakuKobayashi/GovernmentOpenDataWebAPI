@@ -6,7 +6,9 @@
     "format": "prettier --config .prettierrc --write \"src/**/*.{ts,js}\"",
     "docs": "typedoc --tsconfig tsconfig.json --entryPoints src/**/*.ts --out docs/",
     "ts-node": "ts-node",
-    "commander": "ts-node src/cli.ts"
+    "commander": "ts-node src/cli.ts",
+    "build": "ts-node src/cli.ts data export",
+    "deploy": "ts-node src/cli.ts data export & gh-pages -d build"
   },
   "author": "TakuKobayashi",
   "private": true,
@@ -25,6 +27,7 @@
     "documentation": "^14.0.3",
     "dotenv": "^16.4.5",
     "fast-glob": "^3.3.2",
+    "gh-pages": "^6.1.1",
     "prettier": "^3.2.5",
     "ts-node": "^10.9.2",
     "typedoc": "^0.26.6",
