@@ -1,9 +1,9 @@
 import { program, Command } from 'commander';
 import packageJson from '../package.json';
 import XLSX from 'xlsx';
-import path from 'path'
-import fs from 'fs'
-import axios from 'axios'
+import path from 'path';
+import fs from 'fs';
+import axios from 'axios';
 import { config } from 'dotenv';
 config();
 
@@ -20,11 +20,13 @@ dataCommand
     const workbook = XLSX.readFile(path.join('resources', 'master-data', 'download-file-info.csv'));
     const sheetNames = Object.keys(workbook.Sheets);
     const themeRows = XLSX.utils.sheet_to_json(workbook.Sheets[sheetNames[0]]);
-    const downloadUrls = themeRows.map((themeRow: any) => { return new URL(themeRow.url) })
-    for(const url of downloadUrls) {
-      const response = await axios.get(url.href, { responseType: 'arraybuffer' })
-      const textData = new TextDecoder('shift-jis').decode(response.data.buffer)
-      fs.writeFileSync(path.basename(url.pathname), textData)
+    const downloadUrls = themeRows.map((themeRow: any) => {
+      return new URL(themeRow.url);
+    });
+    for (const url of downloadUrls) {
+      const response = await axios.get(url.href, { responseType: 'arraybuffer' });
+      const textData = new TextDecoder('shift-jis').decode(response.data.buffer);
+      fs.writeFileSync(path.basename(url.pathname), textData);
     }
     console.log(downloadUrls);
     console.log('data:download');
