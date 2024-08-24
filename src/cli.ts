@@ -23,13 +23,15 @@ dataCommand
     const downloadUrls = themeRows.map((themeRow: any) => {
       return new URL(themeRow.url);
     });
-    for (const url of downloadUrls) {
-      const response = await axios.get(url.href, { responseType: 'arraybuffer' });
+    for (const downloadUrl of downloadUrls) {
+      const response = await axios.get(downloadUrl.href, { responseType: 'arraybuffer' });
       const textData = new TextDecoder('shift-jis').decode(response.data.buffer);
-      fs.writeFileSync(path.basename(url.pathname), textData);
+      const willSaveFilePath: string = path.join('resources', 'origin-data', downloadUrl.hostname, ...downloadUrl.pathname.split('/'));
+      if (!fs.existsSync(path.dirname(willSaveFilePath))) {
+        fs.mkdirSync(path.dirname(willSaveFilePath), { recursive: true });
+      }
+      fs.writeFileSync(willSaveFilePath, textData);
     }
-    console.log(downloadUrls);
-    console.log('data:download');
   });
 
 dataCommand
