@@ -13,11 +13,13 @@
   "author": "TakuKobayashi",
   "private": true,
   "dependencies": {
+    "@prisma/client": "5.18.0",
     "axios": "^1.7.5",
     "cheerio": "^1.0.0",
     "encoding-japanese": "^2.2.0",
     "lodash": "^4.17.21",
-    "mysql2": "^3.11.0"
+    "mysql2": "^3.11.0",
+    "prisma": "^5.18.0"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
