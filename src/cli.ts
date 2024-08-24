@@ -5,6 +5,7 @@ import path from 'path';
 import fs from 'fs';
 import axios from 'axios';
 import fg from 'fast-glob';
+import Encoding from 'encoding-japanese';
 import { config } from 'dotenv';
 config();
 
@@ -29,7 +30,15 @@ dataCommand
     });
     for (const downloadUrl of downloadUrls) {
       const response = await axios.get(downloadUrl.href, { responseType: 'arraybuffer' });
-      const textData = new TextDecoder('shift-jis').decode(response.data.buffer);
+      const detectedEncoding = Encoding.detect(response.data);
+      let textData: string = '';
+      if(detectedEncoding === 'SJIS') {
+        textData = new TextDecoder('shift-jis').decode(response.data.buffer);
+      } else if(detectedEncoding === 'UTF8' || detectedEncoding === 'UTF32') {
+        textData = response.data.toString()
+      } else {
+        textData = response.data.toString()
+      }
       const willSaveFilePath: string = path.join('resources', 'origin-data', downloadUrl.hostname, ...downloadUrl.pathname.split('/'));
       if (!fs.existsSync(path.dirname(willSaveFilePath))) {
         fs.mkdirSync(path.dirname(willSaveFilePath), { recursive: true });
