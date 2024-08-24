@@ -4,6 +4,7 @@ import XLSX from 'xlsx';
 import path from 'path';
 import fs from 'fs';
 import axios from 'axios';
+import fg from 'fast-glob';
 import { config } from 'dotenv';
 config();
 
@@ -45,7 +46,14 @@ dataCommand
   .command('export')
   .description('')
   .action(async (options: any) => {
-    console.log('data:import');
+    const csvFilePathes = fg.sync(path.join('resources', 'origin-data', '**', '*.csv'));
+    for (const csvFilePath of csvFilePathes) {
+      const readFileData = fs.readFileSync(csvFilePath, 'utf8');
+      const workbook = XLSX.read(readFileData, { type: 'string' });
+      const sheetNames = Object.keys(workbook.Sheets);
+      const themeRows = XLSX.utils.sheet_to_json(workbook.Sheets[sheetNames[0]]);
+      console.log(themeRows);
+    }
   });
 
 program.addCommand(dataCommand);
