@@ -30,20 +30,25 @@ dataCommand
     });
     for (const downloadUrl of downloadUrls) {
       const response = await axios.get(downloadUrl.href, { responseType: 'arraybuffer' });
-      const detectedEncoding = Encoding.detect(response.data);
-      let textData: string = '';
-      if(detectedEncoding === 'SJIS') {
-        textData = new TextDecoder('shift-jis').decode(response.data.buffer);
-      } else if(detectedEncoding === 'UTF8' || detectedEncoding === 'UTF32') {
-        textData = response.data.toString()
-      } else {
-        textData = response.data.toString()
-      }
+      const extFileName = path.extname(downloadUrl.pathname);
       const willSaveFilePath: string = path.join('resources', 'origin-data', downloadUrl.hostname, ...downloadUrl.pathname.split('/'));
       if (!fs.existsSync(path.dirname(willSaveFilePath))) {
         fs.mkdirSync(path.dirname(willSaveFilePath), { recursive: true });
       }
-      fs.writeFileSync(willSaveFilePath, textData);
+      if(extFileName === '.xlsx') {
+        fs.writeFileSync(willSaveFilePath, response.data);
+      } else {
+        const detectedEncoding = Encoding.detect(response.data);
+        let textData: string = '';
+        if(detectedEncoding === 'SJIS') {
+          textData = new TextDecoder('shift-jis').decode(response.data.buffer);
+        } else if(detectedEncoding === 'UTF8' || detectedEncoding === 'UTF32') {
+          textData = response.data.toString()
+        } else {
+          textData = response.data.toString()
+        }
+        fs.writeFileSync(willSaveFilePath, textData);
+      }
     }
   });
 
