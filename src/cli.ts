@@ -6,6 +6,8 @@ import fs from 'fs';
 import axios from 'axios';
 import fg from 'fast-glob';
 import Encoding from 'encoding-japanese';
+
+import { PrismaClient } from '@prisma/client';
 import { config } from 'dotenv';
 config();
 
@@ -35,17 +37,17 @@ dataCommand
       if (!fs.existsSync(path.dirname(willSaveFilePath))) {
         fs.mkdirSync(path.dirname(willSaveFilePath), { recursive: true });
       }
-      if(extFileName === '.xlsx') {
+      if (extFileName === '.xlsx') {
         fs.writeFileSync(willSaveFilePath, response.data);
       } else {
         const detectedEncoding = Encoding.detect(response.data);
         let textData: string = '';
-        if(detectedEncoding === 'SJIS') {
+        if (detectedEncoding === 'SJIS') {
           textData = new TextDecoder('shift-jis').decode(response.data.buffer);
-        } else if(detectedEncoding === 'UTF8' || detectedEncoding === 'UTF32') {
-          textData = response.data.toString()
+        } else if (detectedEncoding === 'UTF8' || detectedEncoding === 'UTF32') {
+          textData = response.data.toString();
         } else {
-          textData = response.data.toString()
+          textData = response.data.toString();
         }
         fs.writeFileSync(willSaveFilePath, textData);
       }
@@ -56,6 +58,33 @@ dataCommand
   .command('import')
   .description('')
   .action(async (options: any) => {
+    const prisma = new PrismaClient();
+    const categories = await prisma.category.findMany();
+    for (const categoryModel of categories) {
+      const convertedApiFormatDataObjs: any[] = [];
+      const csvFilePathes = fg.sync(path.join('resources', 'origin-data', '**', '*.csv'));
+      for (const csvFilePath of csvFilePathes) {
+        const readFileData = fs.readFileSync(csvFilePath, 'utf8');
+        const workbook = XLSX.read(readFileData, { type: 'string' });
+        const sheetNames = Object.keys(workbook.Sheets);
+        const themeRows: any[] = XLSX.utils.sheet_to_json(workbook.Sheets[sheetNames[0]]);
+        for (const rowObj of themeRows) {
+          const newPlaceModel = {
+            name: rowObj['施設名'],
+            lat: rowObj['緯度'],
+            lon: rowObj['経度'],
+            categoryId: categoryModel.id,
+            extra_info: {
+              males_count: rowObj['男性トイレ数'] || 0,
+              females_count: rowObj['女性トイレ数'] || 0,
+              multipurposes_count: rowObj['バリアフリートイレ数'] || 0,
+            },
+          };
+          convertedApiFormatDataObjs.push(newPlaceModel);
+        }
+        await prisma.place.createMany({ data: convertedApiFormatDataObjs });
+      }
+    }
     console.log('data:import');
   });
 
@@ -70,7 +99,7 @@ dataCommand
       const workbook = XLSX.read(readFileData, { type: 'string' });
       const sheetNames = Object.keys(workbook.Sheets);
       const themeRows: any[] = XLSX.utils.sheet_to_json(workbook.Sheets[sheetNames[0]]);
-      for(const rowObj of themeRows) {
+      for (const rowObj of themeRows) {
         const apiFormat = {
           name: rowObj['施設名'],
           lat: rowObj['緯度'],
@@ -78,16 +107,15 @@ dataCommand
           males_count: rowObj['男性トイレ数'] || 0,
           females_count: rowObj['女性トイレ数'] || 0,
           multipurposes_count: rowObj['バリアフリートイレ数'] || 0,
-
-        }
-        convertedApiFormatDataObjs.push(apiFormat)
+        };
+        convertedApiFormatDataObjs.push(apiFormat);
       }
     }
     const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, 'category', 'toilet', 'list.json');
     if (!fs.existsSync(path.dirname(willSaveFilePath))) {
       fs.mkdirSync(path.dirname(willSaveFilePath), { recursive: true });
     }
-    fs.writeFileSync(willSaveFilePath, JSON.stringify({category: 'toilet', data: convertedApiFormatDataObjs}));
+    fs.writeFileSync(willSaveFilePath, JSON.stringify({ category: 'toilet', data: convertedApiFormatDataObjs }));
   });
 
 program.addCommand(dataCommand);

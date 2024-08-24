@@ -16,4 +16,20 @@ datasource db {
 model category {
   id        Int     @id @default(autoincrement())
   title     String  @unique
+  places    place[]
+}
+
+model place {
+  id           Int     @id @default(autoincrement())
+  name         String
+  address      String?
+  lat          Float?
+  lon          Float?
+  geohash      String?
+  categoryId   Int?
+  extra_info   Json?
+  category     category?       @relation(fields: [categoryId], references: [id])
+  @@index([geohash])
+  @@index([address])
+  @@index([categoryId])
 }
