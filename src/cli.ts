@@ -84,7 +84,6 @@ function importPlaceDataFromWorkbook(workbook: WorkBook, categoryId: number): an
   for (const sheetName of sheetNames) {
     const themeRows: any[] = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName]);
     for (const rowObj of themeRows) {
-      console.log(rowObj)
       const newPlaceModel = {
         name: rowObj['施設名'] || rowObj['名称'],
         lat: Number(rowObj['緯度']),
