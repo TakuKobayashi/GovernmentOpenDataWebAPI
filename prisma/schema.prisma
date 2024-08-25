@@ -1,9 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -14,22 +8,23 @@ datasource db {
 }
 
 model category {
-  id        Int     @id @default(autoincrement())
-  title     String  @unique
-  places    place[]
+  id     Int     @id @default(autoincrement())
+  title  String  @unique
+  places place[]
 }
 
 model place {
-  id           Int     @id @default(autoincrement())
-  name         String
-  address      String?
-  lat          Float?
-  lon          Float?
-  geohash      String?
-  categoryId   Int?
-  extra_info   Json?
-  category     category?       @relation(fields: [categoryId], references: [id])
+  id          Int       @id @default(autoincrement())
+  name        String
+  address     String?
+  lat         Float?
+  lon         Float?
+  geohash     String?
+  category_id Int?
+  extra_info  Json?
+  category    category? @relation(fields: [category_id], references: [id])
+
   @@index([geohash])
   @@index([address])
-  @@index([categoryId])
+  @@index([category_id])
 }

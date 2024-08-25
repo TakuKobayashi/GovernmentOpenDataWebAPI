@@ -6,14 +6,14 @@ CREATE TABLE `place` (
     `lat` DOUBLE NULL,
     `lon` DOUBLE NULL,
     `geohash` VARCHAR(191) NULL,
-    `categoryId` INTEGER NULL,
+    `category_id` INTEGER NULL,
     `extra_info` JSON NULL,
 
     INDEX `place_geohash_idx`(`geohash`),
     INDEX `place_address_idx`(`address`),
-    INDEX `place_categoryId_idx`(`categoryId`),
+    INDEX `place_category_id_idx`(`category_id`),
     PRIMARY KEY (`id`)
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 -- AddForeignKey
-ALTER TABLE `place` ADD CONSTRAINT `place_categoryId_fkey` FOREIGN KEY (`categoryId`) REFERENCES `category`(`id`) ON DELETE SET NULL ON UPDATE CASCADE;
+ALTER TABLE `place` ADD CONSTRAINT `place_category_id_fkey` FOREIGN KEY (`category_id`) REFERENCES `category`(`id`) ON DELETE SET NULL ON UPDATE CASCADE;

@@ -88,7 +88,7 @@ function importPlaceDataFromWorkbook(workbook: WorkBook, categoryId: number): an
         name: rowObj['施設名'] || rowObj['名称'],
         lat: Number(rowObj['緯度']),
         lon: Number(rowObj['経度']),
-        categoryId: categoryId,
+        category_id: categoryId,
         extra_info: {
           males_count: Number(rowObj['男性トイレ数'] || rowObj['男性トイレ_総数'] || 0),
           females_count: Number(rowObj['女性トイレ数'] || rowObj['女性トイレ_総数'] || 0),
@@ -138,9 +138,30 @@ program.addCommand(dataCommand);
 program
   .command('build')
   .description('')
-  .action(async (options: any) => {});
+  .action(async (options: any) => {
+    const prisma = new PrismaClient();
+    const categories = await prisma.category.findMany();
+    for (const categoryModel of categories) {
+      const placeModels = await prisma.place.findMany({
+        where: { category_id: categoryModel.id },
+      });
+      const convertedApiFormatDataObjs = placeModels.map((placeModel) => {
+        return {
+          name: placeModel.name,
+          lat: placeModel.lat,
+          lon: placeModel.lon,
+          ...(placeModel.extra_info as object),
+        };
+      });
+      const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, 'category', categoryModel.title, 'list.json');
+      if (!fs.existsSync(path.dirname(willSaveFilePath))) {
+        fs.mkdirSync(path.dirname(willSaveFilePath), { recursive: true });
+      }
+      fs.writeFileSync(willSaveFilePath, JSON.stringify({ category: categoryModel.title, data: convertedApiFormatDataObjs }));
+    }
+  });
 
-  program
+program
   .command('seeder')
   .description('')
   .action(async (options: any) => {
@@ -148,7 +169,7 @@ program
     await prisma.category.create({
       data: {
         title: 'toilet',
-      }
+      },
     });
   });
 

@@ -7,8 +7,8 @@
     "docs": "typedoc --tsconfig tsconfig.json --entryPoints src/**/*.ts --out docs/",
     "ts-node": "ts-node",
     "commander": "ts-node src/cli.ts",
-    "build": "ts-node src/cli.ts data export",
-    "deploy": "ts-node src/cli.ts data export & gh-pages -d build"
+    "build": "ts-node src/cli.ts build",
+    "deploy": "ts-node src/cli.ts build & gh-pages -d build"
   },
   "author": "TakuKobayashi",
   "private": true,
