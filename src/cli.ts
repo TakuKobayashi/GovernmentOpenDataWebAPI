@@ -86,13 +86,14 @@ function importPlaceDataFromWorkbook(workbook: WorkBook, categoryId: number): an
     for (const rowObj of themeRows) {
       const newPlaceModel = {
         name: rowObj['施設名'] || rowObj['名称'],
-        lat: Number(rowObj['緯度']),
-        lon: Number(rowObj['経度']),
+        address: (rowObj['所在地'] || rowObj['住所'] || rowObj['所在地_連結表記']).normalize('NFKC'),
+        lat: Number(rowObj['緯度'] || rowObj['X座標']),
+        lon: Number(rowObj['経度'] || rowObj['Y座標']),
         category_id: categoryId,
         extra_info: {
-          males_count: Number(rowObj['男性トイレ数'] || rowObj['男性トイレ_総数'] || 0),
-          females_count: Number(rowObj['女性トイレ数'] || rowObj['女性トイレ_総数'] || 0),
-          multipurposes_count: Number(rowObj['バリアフリートイレ数'] || rowObj['多機能トイレ_数'] || 0),
+          males_count: Number(rowObj['男性トイレ数'] || rowObj['男性トイレ_総数'] || rowObj['男性トイレ総数'] || 0),
+          females_count: Number(rowObj['女性トイレ数'] || rowObj['女性トイレ_総数'] || rowObj['女性トイレ総数'] || 0),
+          multipurposes_count: Number(rowObj['バリアフリートイレ数'] || rowObj['多機能トイレ_数'] || rowObj['多機能トイレ数'] || 0),
         },
       };
       if (newPlaceModel.name && newPlaceModel.lat && newPlaceModel.lon) {
