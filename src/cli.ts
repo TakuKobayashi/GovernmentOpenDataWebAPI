@@ -8,6 +8,7 @@ import fg from 'fast-glob';
 import Encoding from 'encoding-japanese';
 import { PrismaClient } from '@prisma/client';
 import { importPlaceDataFromWorkbook } from './models/place';
+import { saveToLocalFileFromString, saveToLocalFileFromBuffer } from './util';
 import { config } from 'dotenv';
 config();
 
@@ -34,11 +35,8 @@ dataCommand
       const response = await axios.get(downloadUrl.href, { responseType: 'arraybuffer' });
       const extFileName = path.extname(downloadUrl.pathname);
       const willSaveFilePath: string = path.join('resources', 'origin-data', downloadUrl.hostname, ...downloadUrl.pathname.split('/'));
-      if (!fs.existsSync(path.dirname(willSaveFilePath))) {
-        fs.mkdirSync(path.dirname(willSaveFilePath), { recursive: true });
-      }
       if (extFileName === '.xlsx') {
-        fs.writeFileSync(willSaveFilePath, response.data);
+        saveToLocalFileFromBuffer(willSaveFilePath, response.data);
       } else {
         const detectedEncoding = Encoding.detect(response.data);
         let textData: string = '';
@@ -49,7 +47,7 @@ dataCommand
         } else {
           textData = response.data.toString();
         }
-        fs.writeFileSync(willSaveFilePath, textData);
+        saveToLocalFileFromString(willSaveFilePath, textData);
       }
     }
   });
@@ -102,10 +100,7 @@ dataCommand
       }
     }
     const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, 'category', 'toilet', 'list.json');
-    if (!fs.existsSync(path.dirname(willSaveFilePath))) {
-      fs.mkdirSync(path.dirname(willSaveFilePath), { recursive: true });
-    }
-    fs.writeFileSync(willSaveFilePath, JSON.stringify({ category: 'toilet', data: convertedApiFormatDataObjs }));
+    saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ category: 'toilet', data: convertedApiFormatDataObjs }));
   });
 
 program.addCommand(dataCommand);
@@ -123,16 +118,14 @@ program
       const convertedApiFormatDataObjs = placeModels.map((placeModel) => {
         return {
           name: placeModel.name,
+          address: placeModel.address,
           lat: placeModel.lat,
           lon: placeModel.lon,
           ...(placeModel.extra_info as object),
         };
       });
       const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, 'category', categoryModel.title, 'list.json');
-      if (!fs.existsSync(path.dirname(willSaveFilePath))) {
-        fs.mkdirSync(path.dirname(willSaveFilePath), { recursive: true });
-      }
-      fs.writeFileSync(willSaveFilePath, JSON.stringify({ category: categoryModel.title, data: convertedApiFormatDataObjs }));
+      saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ category: categoryModel.title, data: convertedApiFormatDataObjs }));
     }
   });
 
