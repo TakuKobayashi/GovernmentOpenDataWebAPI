@@ -8,7 +8,7 @@ import fg from 'fast-glob';
 import Encoding from 'encoding-japanese';
 import { PrismaClient } from '@prisma/client';
 import { importPlaceDataFromWorkbook } from './models/place';
-import { saveToLocalFileFromString, saveToLocalFileFromBuffer } from './util';
+import { saveToLocalFileFromString, saveToLocalFileFromBuffer, loadSpreadSheetRowObject } from './util';
 import { config } from 'dotenv';
 config();
 
@@ -24,12 +24,10 @@ dataCommand
   .command('download')
   .description('')
   .action(async (options: any) => {
-    const readFileData = fs.readFileSync(path.join('resources', 'master-data', 'download-file-info.csv'), 'utf8');
-    const workbook = XLSX.read(readFileData, { type: 'string' });
-    const sheetNames = Object.keys(workbook.Sheets);
-    const themeRows = XLSX.utils.sheet_to_json(workbook.Sheets[sheetNames[0]]);
-    const downloadUrls = themeRows.map((themeRow: any) => {
-      return new URL(themeRow.url);
+    const downloadInfoFilePath = path.join('resources', 'master-data', 'download-file-info.csv');
+    const downloadUrls: URL[] = [];
+    loadSpreadSheetRowObject(downloadInfoFilePath, (sheetName: string, rowObj: any) => {
+      downloadUrls.push(new URL(rowObj.url));
     });
     for (const downloadUrl of downloadUrls) {
       const response = await axios.get(downloadUrl.href, { responseType: 'arraybuffer' });

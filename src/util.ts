@@ -1,7 +1,18 @@
 import path from 'path';
 import fs from 'fs';
+import XLSX from 'xlsx';
 
-export function onRowObjectFromLoadSpreadSheetFile() {}
+export function loadSpreadSheetRowObject(filepath: string, onThemeRow: (sheetName: string, rowObj: any) => void) {
+  const readFileData = fs.readFileSync(filepath, 'utf8');
+  const workbook = XLSX.read(readFileData, { type: 'string' });
+  const sheetNames = Object.keys(workbook.Sheets);
+  for (const sheetName of sheetNames) {
+    const themeRows: any[] = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName]);
+    for (const rowObj of themeRows) {
+      onThemeRow(sheetName, rowObj);
+    }
+  }
+}
 
 export function saveToLocalFileFromString(filepath: string, data: string) {
   saveToLocalFileFromBuffer(filepath, Buffer.from(data, 'utf8'));
