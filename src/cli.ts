@@ -16,6 +16,8 @@ program.storeOptionsAsProperties(false);
 
 program.version(packageJson.version, '-v, --version');
 
+const prisma = new PrismaClient({ log: ['query'] });
+
 const API_VERSION_NAME = 'v1';
 
 const dataCommand = new Command('data');
@@ -54,7 +56,6 @@ dataCommand
   .command('import')
   .description('')
   .action(async (options: any) => {
-    const prisma = new PrismaClient();
     const categories = await prisma.category.findMany();
     for (const categoryModel of categories) {
       const csvFilePathes = fg.sync(['resources', 'origin-data', '**', '*.csv'].join('/'));
@@ -62,13 +63,13 @@ dataCommand
         const readFileData = fs.readFileSync(csvFilePath, 'utf8');
         const workbook = XLSX.read(readFileData, { type: 'string' });
         const convertedApiFormatDataObjs = importPlaceDataFromWorkbook(workbook, categoryModel.id);
-        await prisma.place.createMany({ data: convertedApiFormatDataObjs });
+        await prisma.place.createMany({ data: convertedApiFormatDataObjs, skipDuplicates: true });
       }
       const xlsxFilePathes = fg.sync(['resources', 'origin-data', '**', '*.xlsx'].join('/'));
       for (const xlsxFilePath of xlsxFilePathes) {
         const workbook = XLSX.readFile(xlsxFilePath);
         const convertedApiFormatDataObjs = importPlaceDataFromWorkbook(workbook, categoryModel.id);
-        await prisma.place.createMany({ data: convertedApiFormatDataObjs });
+        await prisma.place.createMany({ data: convertedApiFormatDataObjs, skipDuplicates: true });
       }
     }
     console.log('data:import');
@@ -107,7 +108,6 @@ program
   .command('build')
   .description('')
   .action(async (options: any) => {
-    const prisma = new PrismaClient();
     const categories = await prisma.category.findMany();
     for (const categoryModel of categories) {
       const placeModels = await prisma.place.findMany({
@@ -131,7 +131,6 @@ program
   .command('seeder')
   .description('')
   .action(async (options: any) => {
-    const prisma = new PrismaClient();
     await prisma.category.create({
       data: {
         title: 'toilet',
