@@ -1,13 +1,13 @@
 import { program, Command } from 'commander';
 import packageJson from '../package.json';
-import XLSX, { WorkBook } from 'xlsx';
+import XLSX from 'xlsx';
 import path from 'path';
 import fs from 'fs';
 import axios from 'axios';
 import fg from 'fast-glob';
 import Encoding from 'encoding-japanese';
-
 import { PrismaClient } from '@prisma/client';
+import { importPlaceDataFromWorkbook } from './models/place';
 import { config } from 'dotenv';
 config();
 
@@ -77,32 +77,6 @@ dataCommand
     }
     console.log('data:import');
   });
-
-function importPlaceDataFromWorkbook(workbook: WorkBook, categoryId: number): any[] {
-  const convertedApiFormatDataObjs: any[] = [];
-  const sheetNames = Object.keys(workbook.Sheets);
-  for (const sheetName of sheetNames) {
-    const themeRows: any[] = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName]);
-    for (const rowObj of themeRows) {
-      const newPlaceModel = {
-        name: rowObj['施設名'] || rowObj['名称'],
-        address: (rowObj['所在地'] || rowObj['住所'] || rowObj['所在地_連結表記']).normalize('NFKC'),
-        lat: Number(rowObj['緯度'] || rowObj['X座標']),
-        lon: Number(rowObj['経度'] || rowObj['Y座標']),
-        category_id: categoryId,
-        extra_info: {
-          males_count: Number(rowObj['男性トイレ数'] || rowObj['男性トイレ_総数'] || rowObj['男性トイレ総数'] || 0),
-          females_count: Number(rowObj['女性トイレ数'] || rowObj['女性トイレ_総数'] || rowObj['女性トイレ総数'] || 0),
-          multipurposes_count: Number(rowObj['バリアフリートイレ数'] || rowObj['多機能トイレ_数'] || rowObj['多機能トイレ数'] || 0),
-        },
-      };
-      if (newPlaceModel.name && newPlaceModel.lat && newPlaceModel.lon) {
-        convertedApiFormatDataObjs.push(newPlaceModel);
-      }
-    }
-  }
-  return convertedApiFormatDataObjs;
-}
 
 dataCommand
   .command('export')
