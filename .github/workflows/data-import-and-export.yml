@@ -65,6 +65,8 @@ jobs:
       run: yarn run commander data export
     - name: upload sql
       run: |
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config user.name "github-actions[bot]"
         git add resources/sqls/
         git commit --allow-empty -m "add `date +%Y-%m-%d-%H:%M:%S` sqls"
         git checkout .
