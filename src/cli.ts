@@ -6,17 +6,16 @@ import fs from 'fs';
 import axios from 'axios';
 import fg from 'fast-glob';
 import Encoding from 'encoding-japanese';
-import { PrismaClient } from '@prisma/client';
 import { importPlaceDataFromWorkbook } from './models/place';
-import { saveToLocalFileFromString, saveToLocalFileFromBuffer, loadSpreadSheetRowObject } from './util';
+import { prismaClient } from './utils/prisma-common';
+import { saveToLocalFileFromString, saveToLocalFileFromBuffer, loadSpreadSheetRowObject } from './utils/util';
+import { exportToInsertSQL } from './utils/data-exporters';
 import { config } from 'dotenv';
 config();
 
 program.storeOptionsAsProperties(false);
 
 program.version(packageJson.version, '-v, --version');
-
-const prisma = new PrismaClient({ log: ['query'] });
 
 const API_VERSION_NAME = 'v1';
 
@@ -56,20 +55,20 @@ dataCommand
   .command('import')
   .description('')
   .action(async (options: any) => {
-    const categories = await prisma.category.findMany();
+    const categories = await prismaClient.category.findMany();
     for (const categoryModel of categories) {
       const csvFilePathes = fg.sync(['resources', 'origin-data', '**', '*.csv'].join('/'));
       for (const csvFilePath of csvFilePathes) {
         const readFileData = fs.readFileSync(csvFilePath, 'utf8');
         const workbook = XLSX.read(readFileData, { type: 'string' });
         const convertedApiFormatDataObjs = importPlaceDataFromWorkbook(workbook, categoryModel.id);
-        await prisma.place.createMany({ data: convertedApiFormatDataObjs, skipDuplicates: true });
+        await prismaClient.place.createMany({ data: convertedApiFormatDataObjs, skipDuplicates: true });
       }
       const xlsxFilePathes = fg.sync(['resources', 'origin-data', '**', '*.xlsx'].join('/'));
       for (const xlsxFilePath of xlsxFilePathes) {
         const workbook = XLSX.readFile(xlsxFilePath);
         const convertedApiFormatDataObjs = importPlaceDataFromWorkbook(workbook, categoryModel.id);
-        await prisma.place.createMany({ data: convertedApiFormatDataObjs, skipDuplicates: true });
+        await prismaClient.place.createMany({ data: convertedApiFormatDataObjs, skipDuplicates: true });
       }
     }
     console.log('data:import');
@@ -79,27 +78,7 @@ dataCommand
   .command('export')
   .description('')
   .action(async (options: any) => {
-    const convertedApiFormatDataObjs: any[] = [];
-    const csvFilePathes = fg.sync(path.join('resources', 'origin-data', '**', '*.csv'));
-    for (const csvFilePath of csvFilePathes) {
-      const readFileData = fs.readFileSync(csvFilePath, 'utf8');
-      const workbook = XLSX.read(readFileData, { type: 'string' });
-      const sheetNames = Object.keys(workbook.Sheets);
-      const themeRows: any[] = XLSX.utils.sheet_to_json(workbook.Sheets[sheetNames[0]]);
-      for (const rowObj of themeRows) {
-        const apiFormat = {
-          name: rowObj['施設名'],
-          lat: rowObj['緯度'],
-          lon: rowObj['経度'],
-          males_count: rowObj['男性トイレ数'] || 0,
-          females_count: rowObj['女性トイレ数'] || 0,
-          multipurposes_count: rowObj['バリアフリートイレ数'] || 0,
-        };
-        convertedApiFormatDataObjs.push(apiFormat);
-      }
-    }
-    const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, 'category', 'toilet', 'list.json');
-    saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ category: 'toilet', data: convertedApiFormatDataObjs }));
+    await exportToInsertSQL();
   });
 
 program.addCommand(dataCommand);
@@ -108,9 +87,9 @@ program
   .command('build')
   .description('')
   .action(async (options: any) => {
-    const categories = await prisma.category.findMany();
+    const categories = await prismaClient.category.findMany();
     for (const categoryModel of categories) {
-      const placeModels = await prisma.place.findMany({
+      const placeModels = await prismaClient.place.findMany({
         where: { category_id: categoryModel.id },
       });
       const convertedApiFormatDataObjs = placeModels.map((placeModel) => {
@@ -131,7 +110,7 @@ program
   .command('seeder')
   .description('')
   .action(async (options: any) => {
-    await prisma.category.create({
+    await prismaClient.category.create({
       data: {
         title: 'toilet',
       },
