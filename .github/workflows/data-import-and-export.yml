@@ -70,7 +70,6 @@ jobs:
         git add resources/sqls/
         git commit --allow-empty -m "add `date +%Y-%m-%d-%H:%M:%S` sqls"
         git checkout .
-        git pull --rebase origin export-sql
         git push origin export-sql
     - uses: actions/upload-artifact@v4
       with:
