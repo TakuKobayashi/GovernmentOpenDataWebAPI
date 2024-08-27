@@ -30,7 +30,7 @@ jobs:
     - name: setup ubuntu
       run: |
         sudo apt-get --quiet update --yes
-        sudo apt-get --quiet install --yes default-mysql-client
+        sudo apt-get --quiet install --yes default-mysql-client git
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
       with:
@@ -61,8 +61,15 @@ jobs:
       run: yarn run commander seeder
     - name: data import
       run: yarn run commander data import
-    - name: data import
+    - name: export sql
       run: yarn run commander data export
+    - name: upload sql
+      run: |
+        git add resources/sqls/
+        git commit --allow-empty -m "add `date +%Y-%m-%d-%H:%M:%S` sqls"
+        git checkout .
+        git pull --rebase origin export-sql
+        git push origin export-sql
     - uses: actions/upload-artifact@v4
       with:
         name: sqls
