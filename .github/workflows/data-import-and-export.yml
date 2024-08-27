@@ -39,7 +39,7 @@ jobs:
     - name: yarn install
       run: yarn install
     - name: prisma setup
-      run: yar run prisma generate
+      run: yarn run prisma generate
     - name: prisma migrate
       run: yarn run prisma migrate reset --force
     - name: data setup
