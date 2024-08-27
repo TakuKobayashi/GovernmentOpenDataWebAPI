@@ -40,10 +40,16 @@ jobs:
     - name: Register .env
       working-directory: ./
       env:
+        MYSQL_USERNAME: ${{ secrets.MYSQL_USERNAME }}
+        MYSQL_HOST: ${{ secrets.MYSQL_HOST }}
+        MYSQL_ROOT_PASSWORD: ${{ secrets.MYSQL_ROOT_PASSWORD }}
         MYSQL_DATABASE: ${{ secrets.MYSQL_DATABASE }}
         MYSQL_PORT: ${{ secrets.MYSQL_PORT }}
         DATABASE_URL: ${{ secrets.DATABASE_URL }}
       run: |
+        echo "MYSQL_USERNAME=${MYSQL_USERNAME}" >> ./.env
+        echo "MYSQL_HOST=${MYSQL_HOST}" >> ./.env
+        echo "MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}" >> ./.env
         echo "MYSQL_DATABASE=${MYSQL_DATABASE}" >> ./.env
         echo "MYSQL_PORT=${MYSQL_PORT}" >> ./.env
         echo "DATABASE_URL=${DATABASE_URL}" >> ./.env
