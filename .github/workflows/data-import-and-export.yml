@@ -18,7 +18,6 @@ jobs:
           - 3306:3306
         env:
           MYSQL_ROOT_PASSWORD: ${{ secrets.MYSQL_ROOT_PASSWORD }}
-          MYSQL_DATABASE: hoge
           MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
           TZ: ${{ secrets.TZ }}
         options: >-
@@ -38,6 +37,16 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: yarn install
       run: yarn install
+    - name: Register .env
+      working-directory: ./
+      env:
+        MYSQL_DATABASE: ${{ secrets.MYSQL_DATABASE }}
+        MYSQL_PORT: ${{ secrets.MYSQL_PORT }}
+        DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      run: |
+        echo "MYSQL_DATABASE=${MYSQL_DATABASE}" >> ./.env
+        echo "MYSQL_PORT=${MYSQL_PORT}" >> ./.env
+        echo "DATABASE_URL=${DATABASE_URL}" >> ./.env
     - name: prisma setup
       run: yarn run prisma generate
     - name: prisma migrate
