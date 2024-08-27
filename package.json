@@ -6,6 +6,7 @@
     "format": "prettier --config .prettierrc --write \"src/**/*.{ts,js}\"",
     "docs": "typedoc --tsconfig tsconfig.json --entryPoints src/**/*.ts --out docs/",
     "ts-node": "ts-node",
+    "prisma": "prisma",
     "commander": "ts-node src/cli.ts",
     "build": "ts-node src/cli.ts build",
     "deploy": "ts-node src/cli.ts build & gh-pages -d build"
