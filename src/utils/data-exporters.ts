@@ -3,9 +3,9 @@ import _ from 'lodash';
 import fs from 'fs';
 import readline from 'readline';
 import { config } from 'dotenv';
-config()
+config();
 
-import { prismaClient } from './prisma-common'
+import { prismaClient } from './prisma-common';
 const util = require('node:util');
 const child_process = require('node:child_process');
 const fsPromise = fs.promises;
@@ -18,7 +18,7 @@ const databaseConfig = {
   host: process.env.MYSQL_HOST,
   password: process.env.MYSQL_ROOT_PASSWORD,
   database: process.env.MYSQL_DATABASE,
-}
+};
 
 // 分割するファイルの数がこの数字を超えたら新しくディレクトリを作るようにする
 const dividDirectoryFileCount = 100;
