@@ -7,8 +7,8 @@ on:
 
 name: Data Import and Export
 jobs:
-  deploy:
-    name: deploy
+  importexport:
+    name: Data Import and Export
     runs-on: ubuntu-latest
     strategy:
       matrix:
