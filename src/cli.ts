@@ -5,6 +5,7 @@ import path from 'path';
 import fs from 'fs';
 import axios from 'axios';
 import fg from 'fast-glob';
+import readline from 'readline';
 import Encoding from 'encoding-japanese';
 import { importPlaceDataFromWorkbook } from './models/place';
 import { prismaClient } from './utils/prisma-common';
@@ -110,11 +111,21 @@ program
   .command('seeder')
   .description('')
   .action(async (options: any) => {
-    await prismaClient.category.create({
-      data: {
-        title: 'toilet',
-      },
-    });
+    const sqlFilePathes = fg.sync(['resources', 'sqls', '**', '*.sql'].join('/'));
+    for (const sqlFilePath of sqlFilePathes) {
+      await new Promise<void>((resolve, reject) => {
+        const executeSqlPromises: Promise<number>[] = [];
+        const insertSqlFileStream = fs.createReadStream(sqlFilePath);
+        const reader = readline.createInterface({ input: insertSqlFileStream });
+        reader.on('line', async (insertSql) => {
+          executeSqlPromises.push(prismaClient.$executeRawUnsafe(insertSql));
+        });
+        reader.on('close', async () => {
+          await Promise.all(executeSqlPromises);
+          resolve();
+        });
+      });
+    }
   });
 
 program
