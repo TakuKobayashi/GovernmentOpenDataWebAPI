@@ -4,6 +4,8 @@ on:
       - master
     paths:
       - resources/sqls/**/*.sql
+      - prisma/**/*.sql
+      - src/**/*.ts
 
 name: JSON Build And Deploy
 jobs:
