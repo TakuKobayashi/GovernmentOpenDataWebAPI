@@ -56,7 +56,7 @@ jobs:
     - name: prisma migrate
       run: yarn run prisma migrate reset --force
     - name: data setup
-      run: yarn run commander seeder
+      run: yarn run commander data setup
     - name: data import
       run: yarn run commander data import
     - name: export sql
