@@ -1,0 +1,67 @@
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - resources/sqls/**/*.sql
+
+name: JSON Build And Deploy
+jobs:
+  builddeploy:
+    name: Data Import and Export
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
+    steps:
+    - uses: actions/checkout@v4
+    - uses: shogo82148/actions-setup-mysql@v1
+      with:
+        mysql-version: "5.7"
+        root-password: ${{ secrets.MYSQL_ROOT_PASSWORD }}
+        my-cnf: |
+          [mysqld]
+          character-set-server=utf8mb4
+          collation-server=utf8mb4_unicode_ci
+          [client]
+          default-character-set=utf8mb4
+    - name: setup ubuntu
+      run: |
+        sudo apt-get --quiet update --yes
+        sudo apt-get --quiet install --yes default-mysql-client git
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: yarn install
+      run: yarn install
+    - name: Register .env
+      working-directory: ./
+      env:
+        MYSQL_USERNAME: ${{ secrets.MYSQL_USERNAME }}
+        MYSQL_HOST: ${{ secrets.MYSQL_HOST }}
+        MYSQL_ROOT_PASSWORD: ${{ secrets.MYSQL_ROOT_PASSWORD }}
+        MYSQL_DATABASE: ${{ secrets.MYSQL_DATABASE }}
+        MYSQL_PORT: ${{ secrets.MYSQL_PORT }}
+        DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      run: |
+        echo "MYSQL_USERNAME=${MYSQL_USERNAME}" >> ./.env
+        echo "MYSQL_HOST=${MYSQL_HOST}" >> ./.env
+        echo "MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}" >> ./.env
+        echo "MYSQL_DATABASE=${MYSQL_DATABASE}" >> ./.env
+        echo "MYSQL_PORT=${MYSQL_PORT}" >> ./.env
+        echo "DATABASE_URL=${DATABASE_URL}" >> ./.env
+    - name: prisma setup
+      run: yarn run prisma generate
+    - name: prisma migrate
+      run: yarn run prisma migrate reset --force
+    - name: data import
+      run: yarn run commander data import
+    - name: build to json
+      run: yarn run build
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        publish_branch: gh-pages
+        publish_dir: build
