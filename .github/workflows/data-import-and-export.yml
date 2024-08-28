@@ -13,22 +13,22 @@ jobs:
     strategy:
       matrix:
         node-version: [18.x]
-    services:
-      mysql:
-        image: mysql:5.7
-        ports:
-          - 3306:3306
-        env:
-          MYSQL_ROOT_PASSWORD: ${{ secrets.MYSQL_ROOT_PASSWORD }}
-          MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
-          TZ: ${{ secrets.TZ }}
-        options: >-
-          --health-cmd "mysqladmin ping -h 127.0.0.1"
-          --health-interval 20s
-          --health-timeout 10s
-          --health-retries 10
     steps:
     - uses: actions/checkout@v4
+    - uses: shogo82148/actions-setup-mysql@v1
+      env:
+        MYSQL_CHARSET: ${{ secrets.MYSQL_CHARSET }}
+        MYSQL_COLLATE: ${{ secrets.MYSQL_COLLATE }}
+        MYSQL_ENCODING: ${{ secrets.MYSQL_ENCODING }}
+      with:
+        mysql-version: "5.7"
+        root-password: ${{ secrets.MYSQL_ROOT_PASSWORD }}
+        my-cnf: |
+          [mysqld]
+          character-set-server=${MYSQL_CHARSET}
+          collation-server=${MYSQL_COLLATE}
+          [client]
+          default-character-set=${MYSQL_ENCODING}
     - name: setup ubuntu
       run: |
         sudo apt-get --quiet update --yes
