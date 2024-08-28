@@ -26,21 +26,17 @@ dataCommand
   .command('setup')
   .description('')
   .action(async (options: any) => {
+    const categoryFilePath = path.join('resources', 'master-data', 'category.csv');
+    const newCategoryObjs: { title: string }[] = [];
+    loadSpreadSheetRowObject(categoryFilePath, (sheetName: string, rowObj: any) => {
+      newCategoryObjs.push({ title: rowObj.title });
+    });
+    await prismaClient.category.createMany({ data: newCategoryObjs, skipDuplicates: true });
     const downloadInfoFilePath = path.join('resources', 'master-data', 'download-file-info.csv');
     const downloadUrls: URL[] = [];
-    const categoryTitles: string[] = [];
     loadSpreadSheetRowObject(downloadInfoFilePath, (sheetName: string, rowObj: any) => {
       downloadUrls.push(new URL(rowObj.url));
-      if (rowObj.keyword && !categoryTitles.includes(rowObj.keyword)) {
-        categoryTitles.push(rowObj.keyword);
-      }
     });
-    const newCategoryObj = categoryTitles.map((categoryTitle) => {
-      return {
-        title: categoryTitle,
-      };
-    });
-    await prismaClient.category.createMany({ data: newCategoryObj, skipDuplicates: true });
   });
 
 dataCommand
