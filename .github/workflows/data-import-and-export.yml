@@ -16,19 +16,15 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - uses: shogo82148/actions-setup-mysql@v1
-      env:
-        MYSQL_CHARSET: ${{ secrets.MYSQL_CHARSET }}
-        MYSQL_COLLATE: ${{ secrets.MYSQL_COLLATE }}
-        MYSQL_ENCODING: ${{ secrets.MYSQL_ENCODING }}
       with:
         mysql-version: "5.7"
         root-password: ${{ secrets.MYSQL_ROOT_PASSWORD }}
         my-cnf: |
           [mysqld]
-          character-set-server=${MYSQL_CHARSET}
-          collation-server=${MYSQL_COLLATE}
+          character-set-server=utf8mb4
+          collation-server=utf8mb4_unicode_ci
           [client]
-          default-character-set=${MYSQL_ENCODING}
+          default-character-set=utf8mb4
     - name: setup ubuntu
       run: |
         sudo apt-get --quiet update --yes
