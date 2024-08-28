@@ -89,7 +89,6 @@ dataCommand
         await prismaClient.place.createMany({ data: convertedApiFormatDataObjs, skipDuplicates: true });
       }
     }
-    console.log('data:import');
   });
 
 dataCommand
