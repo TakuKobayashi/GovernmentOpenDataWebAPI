@@ -15,7 +15,6 @@ export interface PlaceInterface {
   lat?: number;
   lon?: number;
   geohash?: string;
-  category_id?: number;
   extra_info: { [key: string]: any };
 }
 
@@ -25,7 +24,6 @@ export class PlaceModel implements PlaceInterface {
   lat?: number;
   lon?: number;
   geohash?: string;
-  category_id?: number;
   extra_info: { [key: string]: any } = {};
 
   async setLocationInfo() {
@@ -49,7 +47,7 @@ export class PlaceModel implements PlaceInterface {
   }
 }
 
-export function importPlaceDataFromWorkbook(workbook: WorkBook, categoryId: number): PlaceModel[] {
+export function importPlaceDataFromWorkbook(workbook: WorkBook): PlaceModel[] {
   const convertedApiFormatDataObjs: PlaceModel[] = [];
   const sheetNames = Object.keys(workbook.Sheets);
   for (const sheetName of sheetNames) {
