@@ -3,62 +3,69 @@ generator client {
 }
 
 datasource db {
-  provider = "mysql"
-  url      = env("DATABASE_URL")
+  provider     = "mysql"
+  url          = env("DATABASE_URL")
   relationMode = "prisma"
 }
 
 model category {
-  id          Int     @id @default(autoincrement())
-  title       String  @unique
-  description String? @db.Text
-  places      place[]
-  crawlers    crawler_category[]
+  id                 Int                @id @default(autoincrement())
+  title              String             @unique
+  description        String?            @db.Text
+  place_categories   place_category[]
+  crawler_categories crawler_category[]
 }
 
 model place {
-  id          Int       @id @default(autoincrement())
-  name        String
-  province    String?
-  city        String?
-  address     String?
-  lat         Float?
-  lon         Float?
-  geohash     String?
-  category_id Int?
-  extra_info  Json?
-  category    category? @relation(fields: [category_id], references: [id])
+  id               Int              @id @default(autoincrement())
+  name             String
+  province         String?
+  city             String?
+  address          String?
+  lat              Float?
+  lon              Float?
+  geohash          String?
+  extra_info       Json?
+  place_categories place_category[]
 
   @@index([geohash])
-  @@index([category_id])
+}
+
+model place_category {
+  id          Int      @id @default(autoincrement())
+  place_id    Int
+  category_id Int
+  place       place    @relation(fields: [place_id], references: [id])
+  category    category @relation(fields: [category_id], references: [id])
+
+  @@unique([category_id, place_id])
 }
 
 model crawler {
-  id               Int       @id @default(autoincrement())
-  origin_url       String    @unique
-  checksum         String?
-  saved_file_path  String?
-  need_manual_edit Boolean   @default(false)
-  last_updated_at  DateTime?
-  categories crawler_category[]
+  id                 Int                @id @default(autoincrement())
+  origin_url         String             @unique
+  checksum           String?
+  need_manual_edit   Boolean            @default(false)
+  last_updated_at    DateTime?
+  crawler_categories crawler_category[]
 
   @@index([last_updated_at])
 }
 
 model gsimuni {
-  id                Int      @id @default(autoincrement())
+  id                Int    @id @default(autoincrement())
   prefecture_number Int
   prefecture_name   String
-  municd            Int      @unique
+  municd            Int    @unique
   municipality      String
 }
 
 model crawler_category {
-  id               Int       @id @default(autoincrement())
-  crawler_id       Int
-  category_id      Int
-  crawler          crawler     @relation(fields: [crawler_id], references: [id])
-  category         category    @relation(fields: [category_id], references: [id])
+  id          Int      @id @default(autoincrement())
+  crawler_id  Int
+  category_id Int
+  crawler     crawler  @relation(fields: [crawler_id], references: [id])
+  category    category @relation(fields: [category_id], references: [id])
 
   @@unique([crawler_id, category_id])
 }

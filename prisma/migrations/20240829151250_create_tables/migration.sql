@@ -18,11 +18,19 @@ CREATE TABLE `place` (
     `lat` DOUBLE NULL,
     `lon` DOUBLE NULL,
     `geohash` VARCHAR(191) NULL,
-    `category_id` INTEGER NULL,
     `extra_info` JSON NULL,
 
     INDEX `place_geohash_idx`(`geohash`),
-    INDEX `place_category_id_idx`(`category_id`),
+    PRIMARY KEY (`id`)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+-- CreateTable
+CREATE TABLE `place_category` (
+    `id` INTEGER NOT NULL AUTO_INCREMENT,
+    `place_id` INTEGER NOT NULL,
+    `category_id` INTEGER NOT NULL,
+
+    UNIQUE INDEX `place_category_category_id_place_id_key`(`category_id`, `place_id`),
     PRIMARY KEY (`id`)
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
@@ -31,7 +39,6 @@ CREATE TABLE `crawler` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
     `origin_url` VARCHAR(191) NOT NULL,
     `checksum` VARCHAR(191) NULL,
-    `saved_file_path` VARCHAR(191) NULL,
     `need_manual_edit` BOOLEAN NOT NULL DEFAULT false,
     `last_updated_at` DATETIME(3) NULL,
 
