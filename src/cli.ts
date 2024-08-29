@@ -6,14 +6,12 @@ import fs from 'fs';
 import axios from 'axios';
 import fg from 'fast-glob';
 import crypto from 'crypto';
-import readline from 'readline';
 import Encoding from 'encoding-japanese';
 import { buildPlacesDataFromWorkbook } from './models/place';
 import { prismaClient } from './utils/prisma-common';
 import { saveToLocalFileFromString, saveToLocalFileFromBuffer, loadSpreadSheetRowObject } from './utils/util';
 import { exportToInsertSQL } from './utils/data-exporters';
 import { config } from 'dotenv';
-import { includes } from 'lodash';
 config();
 
 program.storeOptionsAsProperties(false);
@@ -234,31 +232,5 @@ program
       saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ category: categoryModel.title, data: convertedApiFormatDataObjs }));
     }
   });
-
-program
-  .command('seeder')
-  .description('')
-  .action(async (options: any) => {
-    const sqlFilePathes = fg.sync(['resources', 'sqls', '**', '*.sql'].join('/'));
-    for (const sqlFilePath of sqlFilePathes) {
-      await new Promise<void>((resolve, reject) => {
-        const executeSqlPromises: Promise<number>[] = [];
-        const insertSqlFileStream = fs.createReadStream(sqlFilePath);
-        const reader = readline.createInterface({ input: insertSqlFileStream });
-        reader.on('line', async (insertSql) => {
-          executeSqlPromises.push(prismaClient.$executeRawUnsafe(insertSql));
-        });
-        reader.on('close', async () => {
-          await Promise.all(executeSqlPromises);
-          resolve();
-        });
-      });
-    }
-  });
-
-program
-  .command('deploy')
-  .description('')
-  .action(async (options: any) => {});
 
 program.parse(process.argv);
