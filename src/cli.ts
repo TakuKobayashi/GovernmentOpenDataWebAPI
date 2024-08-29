@@ -26,6 +26,16 @@ dataCommand
   .command('setup')
   .description('')
   .action(async (options: any) => {
+    const downloadMuniJSFileBinaryResponse = await axios.get('https://maps.gsi.go.jp/js/muni.js', { responseType: 'arraybuffer' });
+    const textData = downloadMuniJSFileBinaryResponse.data.toString();
+    const matches = textData.match(/'(.*?)'/g) || []
+    const csvLines = matches.map((matched) => matched.substr(1, matched.length - 2));
+    for(const csvLine of csvLines) {
+      const cells = csvLine.split(',');
+      console.log(cells);
+    }
+    const muniJSFilePath = path.join('resources', 'libraries', 'muni.js');
+    saveToLocalFileFromString(muniJSFilePath, textData);
     const categoryFilePath = path.join('resources', 'master-data', 'category.csv');
     const newCategoryObjs: { title: string }[] = [];
     loadSpreadSheetRowObject(categoryFilePath, (sheetName: string, rowObj: any) => {
