@@ -52,8 +52,14 @@ dataCommand
     });
     const categoryModels = await prismaClient.$transaction(
       newCategoryObjs.map((newCategoryObj) => {
-        return prismaClient.category.create({
-          data: newCategoryObj,
+        return prismaClient.category.upsert({
+          where: {
+            title: newCategoryObj.title,
+          },
+          update: {
+            description: newCategoryObj.description,
+          },
+          create: newCategoryObj,
         });
       }),
     );
@@ -66,25 +72,32 @@ dataCommand
         create: { category_id: number }[];
       };
     }[] = [];
+    const alreadyUrlExistCrawlers = await prismaClient.crawler.findMany({
+      select: {
+        origin_url: true,
+      },
+    });
     loadSpreadSheetRowObject(downloadInfoFilePath, async (sheetName: string, rowObj: any) => {
-      const targetCategoryModel = categoryModels.find((categoryModel) => categoryModel.title === rowObj.categoryTitle);
-      const newCrawlerObj: {
-        origin_url: string;
-        category_id?: number;
-        need_manual_edit?: boolean;
-        crawler_categories?: {
-          create: { category_id: number }[];
+      if (alreadyUrlExistCrawlers.every((alreadyUrlExistCrawler) => alreadyUrlExistCrawler.origin_url !== rowObj.url)) {
+        const targetCategoryModel = categoryModels.find((categoryModel) => categoryModel.title === rowObj.categoryTitle);
+        const newCrawlerObj: {
+          origin_url: string;
+          category_id?: number;
+          need_manual_edit?: boolean;
+          crawler_categories?: {
+            create: { category_id: number }[];
+          };
+        } = {
+          origin_url: rowObj.url,
+          need_manual_edit: Boolean(rowObj.need_manual_edit),
         };
-      } = {
-        origin_url: rowObj.url,
-        need_manual_edit: Boolean(rowObj.need_manual_edit),
-      };
-      if (targetCategoryModel) {
-        newCrawlerObj.crawler_categories = {
-          create: [{ category_id: targetCategoryModel?.id }],
-        };
+        if (targetCategoryModel) {
+          newCrawlerObj.crawler_categories = {
+            create: [{ category_id: targetCategoryModel?.id }],
+          };
+        }
+        newCrawlerObjs.push(newCrawlerObj);
       }
-      newCrawlerObjs.push(newCrawlerObj);
     });
     await prismaClient.$transaction(
       newCrawlerObjs.map((newCrawlerObj) => {
