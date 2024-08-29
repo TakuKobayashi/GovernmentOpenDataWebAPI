@@ -11,8 +11,11 @@
     "build": "ts-node src/cli.ts build",
     "deploy": "ts-node src/cli.ts build & gh-pages -d build"
   },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
   "author": "TakuKobayashi",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@prisma/client": "5.18.0",
     "axios": "^1.7.5",
@@ -28,7 +31,7 @@
     "@types/cheerio": "^0.22.35",
     "@types/encoding-japanese": "^2.2.1",
     "@types/lodash": "^4.17.0",
-    "@types/node": "^22.5.0",
+    "@types/node": "^22.5.1",
     "commander": "^12.0.0",
     "documentation": "^14.0.3",
     "dotenv": "^16.4.5",

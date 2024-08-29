@@ -55,8 +55,6 @@ jobs:
       run: yarn run prisma generate
     - name: prisma migrate
       run: yarn run prisma migrate reset --force
-    - name: exec seeder
-      run: yarn run commander seeder
     - name: data setup
       run: yarn run commander data setup
     - name: data download
