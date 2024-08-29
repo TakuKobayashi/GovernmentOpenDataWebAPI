@@ -47,7 +47,7 @@ export class PlaceModel implements PlaceInterface {
   }
 }
 
-export function importPlaceDataFromWorkbook(workbook: WorkBook): PlaceModel[] {
+export function buildPlacesDataFromWorkbook(workbook: WorkBook): PlaceModel[] {
   const convertedApiFormatDataObjs: PlaceModel[] = [];
   const sheetNames = Object.keys(workbook.Sheets);
   for (const sheetName of sheetNames) {
