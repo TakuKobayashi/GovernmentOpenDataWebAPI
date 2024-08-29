@@ -1,17 +1,19 @@
 import { program, Command } from 'commander';
 import packageJson from '../package.json';
-import XLSX from 'xlsx';
+import XLSX, { WorkBook } from 'xlsx';
 import path from 'path';
 import fs from 'fs';
 import axios from 'axios';
 import fg from 'fast-glob';
+import crypto from 'crypto';
 import readline from 'readline';
 import Encoding from 'encoding-japanese';
-import { importPlaceDataFromWorkbook } from './models/place';
+import { buildPlacesDataFromWorkbook } from './models/place';
 import { prismaClient } from './utils/prisma-common';
 import { saveToLocalFileFromString, saveToLocalFileFromBuffer, loadSpreadSheetRowObject } from './utils/util';
 import { exportToInsertSQL } from './utils/data-exporters';
 import { config } from 'dotenv';
+import { includes } from 'lodash';
 config();
 
 program.storeOptionsAsProperties(false);
@@ -28,37 +30,82 @@ dataCommand
   .action(async (options: any) => {
     const downloadMuniJSFileBinaryResponse = await axios.get('https://maps.gsi.go.jp/js/muni.js', { responseType: 'arraybuffer' });
     const textData = downloadMuniJSFileBinaryResponse.data.toString();
-    const matches = textData.match(/'(.*?)'/g) || []
-    const csvLines = matches.map((matched) => matched.substr(1, matched.length - 2));
-    for(const csvLine of csvLines) {
-      const cells = csvLine.split(',');
-      console.log(cells);
-    }
     const muniJSFilePath = path.join('resources', 'libraries', 'muni.js');
     saveToLocalFileFromString(muniJSFilePath, textData);
+    const matches = textData.match(/'(.*?)'/g) || [];
+    const csvLines = matches.map((matched) => matched.substr(1, matched.length - 2));
+    const newGsiMuniObjs: { prefecture_number: number; prefecture_name: string; municd: number; municipality: string }[] = [];
+    for (const csvLine of csvLines) {
+      const cells = csvLine.split(',');
+      newGsiMuniObjs.push({
+        prefecture_number: Number(cells[0]),
+        prefecture_name: cells[1],
+        municd: Number(cells[2]),
+        municipality: cells[3].toString().trim().normalize('NFKC'),
+      });
+    }
+    await prismaClient.gsimuni.createMany({ data: newGsiMuniObjs, skipDuplicates: true });
     const categoryFilePath = path.join('resources', 'master-data', 'category.csv');
-    const newCategoryObjs: { title: string }[] = [];
+    const newCategoryObjs: { title: string; description: string }[] = [];
     loadSpreadSheetRowObject(categoryFilePath, (sheetName: string, rowObj: any) => {
-      newCategoryObjs.push({ title: rowObj.title });
+      newCategoryObjs.push({ title: rowObj.title, description: rowObj.description });
     });
-    await prismaClient.category.createMany({ data: newCategoryObjs, skipDuplicates: true });
+    const categoryModels = await prismaClient.$transaction(
+      newCategoryObjs.map((newCategoryObj) => {
+        return prismaClient.category.create({
+          data: newCategoryObj,
+        });
+      }),
+    );
     const downloadInfoFilePath = path.join('resources', 'master-data', 'download-file-info.csv');
-    const downloadUrls: URL[] = [];
-    loadSpreadSheetRowObject(downloadInfoFilePath, (sheetName: string, rowObj: any) => {
-      downloadUrls.push(new URL(rowObj.url));
+    const newCrawlerObjs: {
+      origin_url: string;
+      category_id?: number;
+      need_manual_edit?: boolean;
+      crawler_categories?: {
+        create: { category_id: number }[];
+      };
+    }[] = [];
+    loadSpreadSheetRowObject(downloadInfoFilePath, async (sheetName: string, rowObj: any) => {
+      const targetCategoryModel = categoryModels.find((categoryModel) => categoryModel.title === rowObj.categoryTitle);
+      const newCrawlerObj: {
+        origin_url: string;
+        category_id?: number;
+        need_manual_edit?: boolean;
+        crawler_categories?: {
+          create: { category_id: number }[];
+        };
+      } = {
+        origin_url: rowObj.url,
+        need_manual_edit: Boolean(rowObj.need_manual_edit),
+      };
+      if (targetCategoryModel) {
+        newCrawlerObj.crawler_categories = {
+          create: [{ category_id: targetCategoryModel?.id }],
+        };
+      }
+      newCrawlerObjs.push(newCrawlerObj);
     });
+    await prismaClient.$transaction(
+      newCrawlerObjs.map((newCrawlerObj) => {
+        return prismaClient.crawler.create({
+          data: newCrawlerObj,
+        });
+      }),
+    );
   });
 
 dataCommand
   .command('download')
   .description('')
   .action(async (options: any) => {
-    const downloadInfoFilePath = path.join('resources', 'master-data', 'download-file-info.csv');
-    const downloadUrls: URL[] = [];
-    loadSpreadSheetRowObject(downloadInfoFilePath, (sheetName: string, rowObj: any) => {
-      downloadUrls.push(new URL(rowObj.url));
+    const crawlerModels = await prismaClient.crawler.findMany({
+      where: {
+        need_manual_edit: false,
+      },
     });
-    for (const downloadUrl of downloadUrls) {
+    for (const crawlerModel of crawlerModels) {
+      const downloadUrl = new URL(crawlerModel.origin_url);
       const response = await axios.get(downloadUrl.href, { responseType: 'arraybuffer' });
       const extFileName = path.extname(downloadUrl.pathname);
       const willSaveFilePath: string = path.join('resources', 'origin-data', downloadUrl.hostname, ...downloadUrl.pathname.split('/'));
@@ -76,6 +123,15 @@ dataCommand
         }
         saveToLocalFileFromString(willSaveFilePath, textData);
       }
+      await prismaClient.crawler.update({
+        where: {
+          id: crawlerModel.id,
+        },
+        data: {
+          last_updated_at: new Date(),
+          checksum: crypto.createHash('sha512').update(response.data.buffer.toString('hex')).digest('hex'),
+        },
+      });
     }
   });
 
@@ -83,20 +139,45 @@ dataCommand
   .command('import')
   .description('')
   .action(async (options: any) => {
-    const categories = await prismaClient.category.findMany();
-    for (const categoryModel of categories) {
-      const csvFilePathes = fg.sync(['resources', 'origin-data', '**', '*.csv'].join('/'));
-      for (const csvFilePath of csvFilePathes) {
-        const readFileData = fs.readFileSync(csvFilePath, 'utf8');
-        const workbook = XLSX.read(readFileData, { type: 'string' });
-        const convertedApiFormatDataObjs = importPlaceDataFromWorkbook(workbook, categoryModel.id);
-        await prismaClient.place.createMany({ data: convertedApiFormatDataObjs, skipDuplicates: true });
-      }
-      const xlsxFilePathes = fg.sync(['resources', 'origin-data', '**', '*.xlsx'].join('/'));
-      for (const xlsxFilePath of xlsxFilePathes) {
-        const workbook = XLSX.readFile(xlsxFilePath);
-        const convertedApiFormatDataObjs = importPlaceDataFromWorkbook(workbook, categoryModel.id);
-        await prismaClient.place.createMany({ data: convertedApiFormatDataObjs, skipDuplicates: true });
+    const crawlerModels = await prismaClient.crawler.findMany({
+      where: {
+        checksum: { not: null },
+        last_updated_at: { not: null },
+      },
+      include: {
+        crawler_categories: true,
+      },
+    });
+    for (const crawlerModel of crawlerModels) {
+      const downloadUrl = new URL(crawlerModel.origin_url);
+      const filePathes = fg.sync(['resources', 'origin-data', downloadUrl.hostname, downloadUrl.pathname].join('/'));
+      for (const filePath of filePathes) {
+        let workbook: WorkBook | undefined;
+        if (path.extname(filePath) === '.csv') {
+          const readFileData = fs.readFileSync(filePath, 'utf8');
+          workbook = XLSX.read(readFileData, { type: 'string' });
+        } else if (path.extname(filePath) === '.xlsx') {
+          workbook = XLSX.readFile(filePath);
+        }
+        if (workbook) {
+          const newPlaceModels = buildPlacesDataFromWorkbook(workbook);
+          await prismaClient.$transaction(
+            newPlaceModels.map((newPlaceModel) => {
+              return prismaClient.place.create({
+                data: {
+                  ...newPlaceModel,
+                  place_categories: {
+                    create: crawlerModel.crawler_categories.map((crawlerCategoryModel) => {
+                      return {
+                        category_id: crawlerCategoryModel.category_id,
+                      };
+                    }),
+                  },
+                },
+              });
+            }),
+          );
+        }
       }
     }
   });
@@ -114,10 +195,18 @@ program
   .command('build')
   .description('')
   .action(async (options: any) => {
-    const categories = await prismaClient.category.findMany();
+    const categories = await prismaClient.category.findMany({
+      include: {
+        place_categories: true,
+      },
+    });
     for (const categoryModel of categories) {
       const placeModels = await prismaClient.place.findMany({
-        where: { category_id: categoryModel.id },
+        where: {
+          id: {
+            in: categoryModel.place_categories.map((placeCategoryModel) => placeCategoryModel.place_id),
+          },
+        },
       });
       const convertedApiFormatDataObjs = placeModels.map((placeModel) => {
         return {
