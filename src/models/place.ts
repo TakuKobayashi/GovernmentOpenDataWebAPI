@@ -31,28 +31,59 @@ export class PlaceModel implements PlaceInterface {
   geohash?: string;
   extra_info: { [key: string]: any } = {};
 
+  private adjustAddress() {
+    if (this.address && this.province && !this.address.startsWith(this.province)) {
+      if (this.city) {
+        if (this.address.startsWith(this.city)) {
+          this.address = [this.province, this.address].join();
+        } else {
+          this.address = [this.province, this.city, this.address].join();
+        }
+      }
+    }
+  }
+
   async setLocationInfo() {
+    this.adjustAddress();
     if (this.lat && this.lon && !this.address) {
+      // https://nominatim.org/release-docs/latest/api/Reverse/
+      const response = await axios.get('https://nominatim.openstreetmap.org/reverse', {
+        params: { lat: this.lat, lon: this.lon, format: 'json' },
+      });
+      const placeData = response.data || {};
+      console.log(placeData);
+      if (placeData.address) {
+        const addressData = placeData.address;
+        // https://zenn.dev/ttskch/articles/309423d26a1aaa
+        const postCodeResponse = await axios.get(`https://jp-postal-code-api.ttskch.com/api/v1/${addressData.postcode.split('-').join()}.json`)
+        const prefecture = ((postCodeResponse.data.addresses || [])[0] || {}).ja?.prefecture
+        if(!this.province) {
+          this.province = prefecture
+        }
+        if(!this.city) {
+          this.city = addressData.city
+        }
+        this.address = [prefecture, addressData.city, addressData.neighbourhood].join()
+        console.log(this.address);
+      }
     } else if (!this.lat && !this.lon && this.address) {
+      console.log(this.address);
       const response = await axios.get('https://msearch.gsi.go.jp/address-search/AddressSearch', {
         params: { q: this.address },
       });
       const gecodeData = response.data || [];
+      console.log(gecodeData);
       const feature = gecodeData[0];
       if (feature) {
         const [lon, lat] = feature.geometry.coordinates;
-        return {
-          title: feature.properties.title,
-          address: feature.properties.title,
-          latitude: lat,
-          longitude: lon,
-        };
+        this.lat = lat;
+        this.lon = lon;
       }
     }
   }
 }
 
-export function buildPlacesDataFromWorkbook(workbook: WorkBook): PlaceModel[] {
+export async function buildPlacesDataFromWorkbook(workbook: WorkBook): Promise<PlaceModel[]> {
   const convertedApiFormatDataObjs: PlaceModel[] = [];
   const sheetNames = Object.keys(workbook.Sheets);
   for (const sheetName of sheetNames) {
@@ -82,6 +113,7 @@ export function buildPlacesDataFromWorkbook(workbook: WorkBook): PlaceModel[] {
         }
       }
       if (newPlaceModel.name && ((newPlaceModel.lat && newPlaceModel.lon) || newPlaceModel.address)) {
+        await newPlaceModel.setLocationInfo();
         convertedApiFormatDataObjs.push(newPlaceModel);
       }
     }
