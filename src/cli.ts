@@ -171,7 +171,7 @@ dataCommand
           workbook = XLSX.readFile(filePath);
         }
         if (workbook) {
-          const newPlaceModels = buildPlacesDataFromWorkbook(workbook);
+          const newPlaceModels = await buildPlacesDataFromWorkbook(workbook);
           await prismaClient.$transaction(
             newPlaceModels.map((newPlaceModel) => {
               return prismaClient.place.create({
