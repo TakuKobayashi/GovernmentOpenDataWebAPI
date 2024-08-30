@@ -1,5 +1,6 @@
 import XLSX, { WorkBook } from 'xlsx';
 import axios from 'axios';
+import { encodeBase32 } from 'geohashing';
 
 const candidateNameKeys = ['施設名', '名称'];
 const candidateAddressKeys = ['所在地', '住所', '所在地_連結表記'];
@@ -74,6 +75,13 @@ export class PlaceModel implements PlaceInterface {
         this.lat = Number(lat);
         this.lon = Number(lon);
       }
+    }
+    this.setGeohash();
+  }
+
+  private setGeohash() {
+    if (this.lat && this.lon) {
+      this.geohash = encodeBase32(this.lat, this.lon);
     }
   }
 }
