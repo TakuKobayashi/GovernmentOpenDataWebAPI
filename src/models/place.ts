@@ -89,6 +89,10 @@ export class PlaceModel implements PlaceInterface {
         this.lon = Number(lon);
       }
     }
+    if (this.address) {
+      this.address = this.address.replace(/,/g, '-');
+      this.address = this.address.split(' ').join('');
+    }
     this.setGeohash();
   }
 
