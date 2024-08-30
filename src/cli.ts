@@ -23,7 +23,7 @@ const API_VERSION_NAME = 'v1';
 const dataCommand = new Command('data');
 
 dataCommand
-  .command('setup')
+  .command('import:master')
   .description('')
   .action(async (options: any) => {
     const downloadMuniJSFileBinaryResponse = await axios.get('https://maps.gsi.go.jp/js/muni.js', { responseType: 'arraybuffer' });
@@ -147,7 +147,7 @@ dataCommand
   });
 
 dataCommand
-  .command('import')
+  .command('import:origin')
   .description('')
   .action(async (options: any) => {
     const crawlerModels = await prismaClient.crawler.findMany({
@@ -193,14 +193,18 @@ dataCommand
     }
   });
 
-dataCommand
+program.addCommand(dataCommand);
+
+const sqlCommand = new Command('sql');
+
+sqlCommand
   .command('export')
   .description('')
   .action(async (options: any) => {
     await exportToInsertSQL();
   });
 
-program.addCommand(dataCommand);
+program.addCommand(sqlCommand);
 
 program
   .command('build')
