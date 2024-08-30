@@ -226,6 +226,8 @@ program
       const convertedApiFormatDataObjs = placeModels.map((placeModel) => {
         return {
           name: placeModel.name,
+          province: placeModel.province,
+          city: placeModel.city,
           address: placeModel.address,
           lat: placeModel.lat,
           lon: placeModel.lon,
