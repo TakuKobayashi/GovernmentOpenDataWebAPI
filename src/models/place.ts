@@ -75,7 +75,7 @@ export class PlaceModel implements PlaceInterface {
           const cityElement = addressElements.find((addressElement) => addressElement.Level === 'city');
           this.city = cityElement?.Name;
         }
-        this.address = addressData.Address;
+        this.address = addressData.Address?.normalize('NFKC');
       }
     } else if (!this.lat && !this.lon && this.address) {
       const response = await axios.get('https://map.yahooapis.jp/geocode/V1/geoCoder', {
