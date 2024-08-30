@@ -6,6 +6,7 @@ import fs from 'fs';
 import axios from 'axios';
 import fg from 'fast-glob';
 import crypto from 'crypto';
+import _ from 'lodash';
 import Encoding from 'encoding-japanese';
 import { buildPlacesDataFromWorkbook } from './models/place';
 import { prismaClient } from './utils/prisma-common';
@@ -223,20 +224,32 @@ program
           },
         },
       });
-      const convertedApiFormatDataObjs = placeModels.map((placeModel) => {
-        return {
-          name: placeModel.name,
-          province: placeModel.province,
-          city: placeModel.city,
-          address: placeModel.address,
-          lat: placeModel.lat,
-          lon: placeModel.lon,
-          ...(placeModel.extra_info as object),
-        };
-      });
+      const categoryApiObjs = placeModels.map((placeModel) => convertToApiFormatDataObjs(placeModel));
       const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, 'category', categoryModel.title, 'list.json');
-      saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ category: categoryModel.title, data: convertedApiFormatDataObjs }));
+      saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ category: categoryModel.title, data: categoryApiObjs }));
+      const provincePlaceModels = _.groupBy(placeModels, (placeModel) => placeModel.province);
+      for (const province of Object.keys(provincePlaceModels)) {
+        const provincePlaces = provincePlaceModels[province];
+        const cityPlaceModels = _.groupBy(provincePlaces, (placeModel) => placeModel.city);
+        for (const city of Object.keys(cityPlaceModels)) {
+          const provinceCityApiObjs = cityPlaceModels[city].map((placeModel) => convertToApiFormatDataObjs(placeModel));
+          const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, province, city, `${categoryModel.title}.json`);
+          saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ category: categoryModel.title, data: provinceCityApiObjs }));
+        }
+      }
     }
   });
+
+function convertToApiFormatDataObjs(placeModel: any): any {
+  return {
+    name: placeModel.name,
+    province: placeModel.province,
+    city: placeModel.city,
+    address: placeModel.address,
+    lat: placeModel.lat,
+    lon: placeModel.lon,
+    ...(placeModel.extra_info as object),
+  };
+}
 
 program.parse(process.argv);
