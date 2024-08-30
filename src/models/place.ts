@@ -35,9 +35,9 @@ export class PlaceModel implements PlaceInterface {
     if (this.address && this.province && !this.address.startsWith(this.province)) {
       if (this.city) {
         if (this.address.startsWith(this.city)) {
-          this.address = [this.province, this.address].join();
+          this.address = this.province.toString() + this.address.toString();
         } else {
-          this.address = [this.province, this.city, this.address].join();
+          this.address = this.province.toString() + this.city.toString() + this.address.toString();
         }
       }
     }
@@ -46,38 +46,33 @@ export class PlaceModel implements PlaceInterface {
   async setLocationInfo() {
     this.adjustAddress();
     if (this.lat && this.lon && !this.address) {
-      // https://nominatim.org/release-docs/latest/api/Reverse/
-      const response = await axios.get('https://nominatim.openstreetmap.org/reverse', {
-        params: { lat: this.lat, lon: this.lon, format: 'json' },
+      const response = await axios.get('https://map.yahooapis.jp/geoapi/V1/reverseGeoCoder', {
+        params: { appid: process.env.YAHOO_API_CLIENT_ID, lat: this.lat, lon: this.lon, output: 'json' },
       });
-      const placeData = response.data || {};
-      console.log(placeData);
-      if (placeData.address) {
-        const addressData = placeData.address;
-        // https://zenn.dev/ttskch/articles/309423d26a1aaa
-        const postCodeResponse = await axios.get(`https://jp-postal-code-api.ttskch.com/api/v1/${addressData.postcode.split('-').join()}.json`)
-        const prefecture = ((postCodeResponse.data.addresses || [])[0] || {}).ja?.prefecture
-        if(!this.province) {
-          this.province = prefecture
+      const placeFeatureData = response.data.Feature || [];
+      if (placeFeatureData[0]) {
+        const addressData = placeFeatureData[0].Property || {};
+        const addressElements = addressData.AddressElement || [];
+        if (!this.province) {
+          const prefectureElement = addressElements.find((addressElement) => addressElement.Level === 'prefecture');
+          this.province = prefectureElement?.Name;
         }
-        if(!this.city) {
-          this.city = addressData.city
+        if (!this.city) {
+          const cityElement = addressElements.find((addressElement) => addressElement.Level === 'city');
+          this.city = cityElement?.Name;
         }
-        this.address = [prefecture, addressData.city, addressData.neighbourhood].join()
-        console.log(this.address);
+        this.address = addressData.Address;
       }
     } else if (!this.lat && !this.lon && this.address) {
-      console.log(this.address);
-      const response = await axios.get('https://msearch.gsi.go.jp/address-search/AddressSearch', {
-        params: { q: this.address },
+      const response = await axios.get('https://map.yahooapis.jp/geocode/V1/geoCoder', {
+        params: { appid: process.env.YAHOO_API_CLIENT_ID, query: this.address, output: 'json' },
       });
-      const gecodeData = response.data || [];
-      console.log(gecodeData);
+      const gecodeData = response.data.Feature || [];
       const feature = gecodeData[0];
       if (feature) {
-        const [lon, lat] = feature.geometry.coordinates;
-        this.lat = lat;
-        this.lon = lon;
+        const [lon, lat] = feature.Geometry.Coordinates.split(',');
+        this.lat = Number(lat);
+        this.lon = Number(lon);
       }
     }
   }
