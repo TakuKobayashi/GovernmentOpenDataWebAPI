@@ -44,8 +44,21 @@ export class PlaceModel implements PlaceInterface {
     }
   }
 
+  private adjustLatLon() {
+    if (this.lat && this.lon) {
+      // 緯度、経度が間違えて入れ替えている場合がある
+      if (this.lat < -90 || 90 < this.lat) {
+        const prevLat = this.lat;
+        const prevLon = this.lon;
+        this.lat = prevLon;
+        this.lon = prevLat;
+      }
+    }
+  }
+
   async setLocationInfo() {
     this.adjustAddress();
+    this.adjustLatLon();
     if (this.lat && this.lon && !this.address) {
       const response = await axios.get('https://map.yahooapis.jp/geoapi/V1/reverseGeoCoder', {
         params: { appid: process.env.YAHOO_API_CLIENT_ID, lat: this.lat, lon: this.lon, output: 'json' },
