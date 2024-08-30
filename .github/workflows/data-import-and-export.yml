@@ -55,12 +55,12 @@ jobs:
       run: yarn run prisma generate
     - name: prisma migrate
       run: yarn run prisma migrate deploy
-    - name: data setup
-      run: yarn run commander data setup
-    - name: data import
-      run: yarn run commander data import
+    - name: import master data
+      run: yarn run commander data import:master
+    - name: import origin data
+      run: yarn run commander data import:origin
     - name: export sql
-      run: yarn run commander data export
+      run: yarn run commander sql export
     - name: upload sql
       run: |
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
