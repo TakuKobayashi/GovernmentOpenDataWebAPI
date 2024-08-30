@@ -3,6 +3,8 @@ import axios from 'axios';
 
 const candidateNameKeys = ['施設名', '名称'];
 const candidateAddressKeys = ['所在地', '住所', '所在地_連結表記'];
+const candidateProvinceKeys = ['都道府県名', '所在地_都道府県'];
+const candidateCityKeys = ['市区町村名', '所在地_市区町村'];
 const candidateLatKeys = ['緯度', 'X座標'];
 const candidateLonKeys = ['経度', 'Y座標'];
 const candidateMalesCountKeys = ['男性トイレ数', '男性トイレ_総数', '男性トイレ総数'];
@@ -11,6 +13,7 @@ const multipurposesCountKeys = ['バリアフリートイレ数', '多機能ト�
 
 export interface PlaceInterface {
   name: string;
+  province?: string;
   address?: string;
   lat?: number;
   lon?: number;
@@ -20,6 +23,8 @@ export interface PlaceInterface {
 
 export class PlaceModel implements PlaceInterface {
   name: string = '';
+  province?: string;
+  city?: string;
   address?: string;
   lat?: number;
   lon?: number;
@@ -58,6 +63,10 @@ export function buildPlacesDataFromWorkbook(workbook: WorkBook): PlaceModel[] {
       for (const rowKey of rowKeys) {
         if (candidateNameKeys.includes(rowKey)) {
           newPlaceModel.name = rowObj[rowKey].toString().trim();
+        } else if (candidateProvinceKeys.includes(rowKey)) {
+          newPlaceModel.province = rowObj[rowKey].toString().trim();
+        } else if (candidateCityKeys.includes(rowKey)) {
+          newPlaceModel.city = rowObj[rowKey].toString().trim();
         } else if (candidateAddressKeys.includes(rowKey)) {
           newPlaceModel.address = rowObj[rowKey].toString().trim().normalize('NFKC');
         } else if (candidateLatKeys.includes(rowKey)) {
