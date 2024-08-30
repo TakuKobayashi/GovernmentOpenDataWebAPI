@@ -44,6 +44,7 @@ jobs:
         MYSQL_DATABASE: ${{ secrets.MYSQL_DATABASE }}
         MYSQL_PORT: ${{ secrets.MYSQL_PORT }}
         DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        YAHOO_API_CLIENT_ID: ${{ secrets.YAHOO_API_CLIENT_ID }}
       run: |
         echo "MYSQL_USERNAME=${MYSQL_USERNAME}" >> ./.env
         echo "MYSQL_HOST=${MYSQL_HOST}" >> ./.env
@@ -51,6 +52,7 @@ jobs:
         echo "MYSQL_DATABASE=${MYSQL_DATABASE}" >> ./.env
         echo "MYSQL_PORT=${MYSQL_PORT}" >> ./.env
         echo "DATABASE_URL=${DATABASE_URL}" >> ./.env
+        echo "YAHOO_API_CLIENT_ID=${YAHOO_API_CLIENT_ID}" >> ./.env
     - name: prisma setup
       run: yarn run prisma generate
     - name: prisma migrate
