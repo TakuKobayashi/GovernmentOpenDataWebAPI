@@ -8,6 +8,7 @@ import fg from 'fast-glob';
 import crypto from 'crypto';
 import _ from 'lodash';
 import Encoding from 'encoding-japanese';
+import nodeHtmlParser from 'node-html-parser';
 import { buildPlacesDataFromWorkbook } from './models/place';
 import { prismaClient } from './utils/prisma-common';
 import { saveToLocalFileFromString, saveToLocalFileFromBuffer, loadSpreadSheetRowObject } from './utils/util';
@@ -261,6 +262,42 @@ program
       }
     }
   });
+
+const crawlCommand = new Command('crawl');
+
+crawlCommand
+  .command('master-file')
+  .description('')
+  .action(async (options: any) => {
+    //const downloadRootFilePath = path.join('resources', 'master-data', 'download-root-info.csv');
+    const urls: URL[] = [];
+    /*
+    loadSpreadSheetRowObject(downloadRootFilePath, (sheetName: string, rowObj: any) => {
+      urls.push(new URL(rowObj.url));
+    });
+    */
+    urls.push(new URL('https://catalog.data.metro.tokyo.lg.jp/dataset?q=トイレ'));
+    const results: URL[] = [];
+    for (const url of urls) {
+      const response = await axios.get(url.toString());
+      const root = nodeHtmlParser.parse(response.data.toString());
+      const itemDoms = root.querySelectorAll('.dataset-item');
+      for (const itemDom of itemDoms) {
+        const datasetContents = itemDom.querySelectorAll('.dataset-content');
+        for (const datasetContentItemDom of datasetContents) {
+          const contentAtagDom = datasetContentItemDom.querySelector('a');
+          const aTagAttrs = contentAtagDom?.attrs || {};
+          const resultUrl = new URL(url);
+          resultUrl.pathname = aTagAttrs.href || '/';
+          resultUrl.search = '';
+          results.push(resultUrl);
+        }
+      }
+    }
+    console.log(results.map((result) => result.href));
+  });
+
+program.addCommand(crawlCommand);
 
 function convertToApiFormatDataObjs(placeModel: any): any {
   return {

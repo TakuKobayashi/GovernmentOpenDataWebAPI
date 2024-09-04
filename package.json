@@ -19,11 +19,11 @@
   "dependencies": {
     "@prisma/client": "5.18.0",
     "axios": "^1.7.5",
-    "cheerio": "^1.0.0",
     "encoding-japanese": "^2.2.0",
     "geohashing": "^2.0.1",
     "lodash": "^4.17.21",
     "mysql2": "^3.11.0",
+    "node-html-parser": "^6.1.13",
     "prisma": "^5.18.0"
   },
   "devDependencies": {
