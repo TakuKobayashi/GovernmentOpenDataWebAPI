@@ -202,7 +202,7 @@ dataCommand
     const crawlerModels = await prismaClient.crawler.findMany({
       include: { crawler_categories: { include: { category: true } } },
     });
-    const downloadFileInfoCsvAppendStream = fs.createWriteStream(downloadInfoFilePath, { flags: 'a' });
+    const downloadFileInfoCsvAppendStream = fs.createWriteStream(downloadInfoFilePath);
     const csvHeaders = ['url', 'categoryTitle', 'needManualEdit'];
     downloadFileInfoCsvAppendStream.write(csvHeaders.join(','));
     for (const crawlerModel of crawlerModels) {
