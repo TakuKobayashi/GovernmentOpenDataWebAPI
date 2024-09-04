@@ -68,3 +68,25 @@ CREATE TABLE `crawler_category` (
     UNIQUE INDEX `crawler_category_crawler_id_category_id_key`(`crawler_id`, `category_id`),
     PRIMARY KEY (`id`)
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+-- CreateTable
+CREATE TABLE `crawler_root` (
+    `id` INTEGER NOT NULL AUTO_INCREMENT,
+    `url` VARCHAR(191) NOT NULL,
+    `search_word` VARCHAR(191) NULL,
+    `last_updated_at` DATETIME(3) NULL,
+
+    UNIQUE INDEX `crawler_root_url_key`(`url`),
+    INDEX `crawler_root_last_updated_at_idx`(`last_updated_at`),
+    PRIMARY KEY (`id`)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+-- CreateTable
+CREATE TABLE `crawler_parent_and_child` (
+    `id` INTEGER NOT NULL AUTO_INCREMENT,
+    `crawler_id` INTEGER NOT NULL,
+    `crawler_root_id` INTEGER NOT NULL,
+
+    UNIQUE INDEX `crawler_parent_and_child_crawler_root_id_crawler_id_key`(`crawler_root_id`, `crawler_id`),
+    PRIMARY KEY (`id`)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
