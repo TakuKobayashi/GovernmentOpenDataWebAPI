@@ -66,7 +66,6 @@ dataCommand
     const downloadInfoFilePath = path.join('resources', 'master-data', 'download-file-info.csv');
     const newCrawlerObjs: {
       origin_url: string;
-      category_id?: number;
       need_manual_edit?: boolean;
       crawler_categories?: {
         create: { category_id: number }[];
@@ -82,7 +81,6 @@ dataCommand
         const targetCategoryModel = categoryModels.find((categoryModel) => categoryModel.title === rowObj.categoryTitle);
         const newCrawlerObj: {
           origin_url: string;
-          category_id?: number;
           need_manual_edit?: boolean;
           crawler_categories?: {
             create: { category_id: number }[];
@@ -165,13 +163,12 @@ dataCommand
         checksum: { not: null },
         last_updated_at: { not: null },
       },
-      include: {
-        crawler_categories: true,
-      },
+      include: { crawler_categories: { include: { category: true } } },
     });
     for (const crawlerModel of crawlerModels) {
       const downloadUrl = new URL(crawlerModel.origin_url);
-      const filePathes = fg.sync(['resources', 'origin-data', downloadUrl.hostname, downloadUrl.pathname].join('/'));
+      const categoryTitle = crawlerModel.crawler_categories[0]?.category?.title || 'unknown';
+      const filePathes = fg.sync(['resources', 'origin-data', categoryTitle, downloadUrl.hostname, downloadUrl.pathname].join('/'));
       for (const filePath of filePathes) {
         let workbook: WorkBook | undefined;
         if (path.extname(filePath) === '.csv') {
