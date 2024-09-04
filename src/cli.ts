@@ -194,6 +194,29 @@ dataCommand
     }
   });
 
+dataCommand
+  .command('export:master')
+  .description('')
+  .action(async (options: any) => {
+    const downloadInfoFilePath = path.join('resources', 'master-data', 'download-file-info.csv');
+    const crawlerModels = await prismaClient.crawler.findMany({
+      include: { crawler_categories: { include: { category: true } } },
+    });
+    const downloadFileInfoCsvAppendStream = fs.createWriteStream(downloadInfoFilePath, { flags: 'a'})
+    const csvHeaders = ['url','categoryTitle','needManualEdit'];
+    downloadFileInfoCsvAppendStream.write(csvHeaders.join(','))
+    for(const crawlerModel of crawlerModels) {
+      for(const crawlerCategory of crawlerModel.crawler_categories) {
+        downloadFileInfoCsvAppendStream.write([
+          crawlerModel.origin_url,
+          crawlerCategory.category.title,
+          crawlerModel.need_manual_edit,
+        ].join(','));
+      }
+    }
+    downloadFileInfoCsvAppendStream.end();
+  })
+
 program.addCommand(dataCommand);
 
 const sqlCommand = new Command('sql');
