@@ -116,12 +116,20 @@ dataCommand
       where: {
         need_manual_edit: false,
       },
+      include: { crawler_categories: { include: { category: true } } },
     });
     for (const crawlerModel of crawlerModels) {
       const downloadUrl = new URL(crawlerModel.origin_url);
       const response = await axios.get(downloadUrl.href, { responseType: 'arraybuffer' });
       const extFileName = path.extname(downloadUrl.pathname);
-      const willSaveFilePath: string = path.join('resources', 'origin-data', downloadUrl.hostname, ...downloadUrl.pathname.split('/'));
+      const categoryTitle = crawlerModel.crawler_categories[0]?.category?.title || 'unknown';
+      const willSaveFilePath: string = path.join(
+        'resources',
+        'origin-data',
+        categoryTitle,
+        downloadUrl.hostname,
+        ...downloadUrl.pathname.split('/'),
+      );
       if (extFileName === '.xlsx') {
         saveToLocalFileFromBuffer(willSaveFilePath, response.data);
       } else {
