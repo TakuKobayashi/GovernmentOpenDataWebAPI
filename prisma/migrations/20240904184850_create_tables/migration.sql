@@ -38,6 +38,7 @@ CREATE TABLE `place_category` (
 CREATE TABLE `crawler` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
     `origin_url` VARCHAR(191) NOT NULL,
+    `origin_title` VARCHAR(191) NULL,
     `checksum` VARCHAR(191) NULL,
     `need_manual_edit` BOOLEAN NOT NULL DEFAULT false,
     `last_updated_at` DATETIME(3) NULL,

@@ -44,6 +44,7 @@ model place_category {
 model crawler {
   id                 Int                        @id @default(autoincrement())
   origin_url         String                     @unique
+  origin_title       String?
   checksum           String?
   need_manual_edit   Boolean                    @default(false)
   last_updated_at    DateTime?
