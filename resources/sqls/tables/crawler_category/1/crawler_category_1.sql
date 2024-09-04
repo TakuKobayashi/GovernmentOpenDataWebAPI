@@ -9,3 +9,5 @@ INSERT INTO `crawler_category` (`id`, `crawler_id`, `category_id`) VALUES (8,8,1
 INSERT INTO `crawler_category` (`id`, `crawler_id`, `category_id`) VALUES (9,9,1);
 INSERT INTO `crawler_category` (`id`, `crawler_id`, `category_id`) VALUES (10,10,1);
 INSERT INTO `crawler_category` (`id`, `crawler_id`, `category_id`) VALUES (11,11,1);
+INSERT INTO `crawler_category` (`id`, `crawler_id`, `category_id`) VALUES (12,12,1);
+INSERT INTO `crawler_category` (`id`, `crawler_id`, `category_id`) VALUES (13,13,1);
