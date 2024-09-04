@@ -88,7 +88,7 @@ dataCommand
           };
         } = {
           origin_url: rowObj.url,
-          need_manual_edit: Boolean(rowObj.need_manual_edit),
+          need_manual_edit: Boolean(rowObj.needManualEdit),
         };
         if (targetCategoryModel) {
           newCrawlerObj.crawler_categories = {
