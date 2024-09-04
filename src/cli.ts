@@ -207,8 +207,9 @@ dataCommand
     downloadFileInfoCsvAppendStream.write(csvHeaders.join(','));
     for (const crawlerModel of crawlerModels) {
       for (const crawlerCategory of crawlerModel.crawler_categories) {
+        downloadFileInfoCsvAppendStream.write('\n');
         downloadFileInfoCsvAppendStream.write(
-          [crawlerModel.origin_url, crawlerCategory.category.title, crawlerModel.need_manual_edit].join(','),
+          [crawlerModel.origin_url, crawlerCategory.category.title, Number(crawlerModel.need_manual_edit)].join(','),
         );
       }
     }
