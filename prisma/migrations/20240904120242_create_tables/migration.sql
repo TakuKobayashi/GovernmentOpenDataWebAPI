@@ -74,10 +74,8 @@ CREATE TABLE `crawler_root` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
     `url` VARCHAR(191) NOT NULL,
     `search_word` VARCHAR(191) NULL,
-    `last_updated_at` DATETIME(3) NULL,
 
     UNIQUE INDEX `crawler_root_url_key`(`url`),
-    INDEX `crawler_root_last_updated_at_idx`(`last_updated_at`),
     PRIMARY KEY (`id`)
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 

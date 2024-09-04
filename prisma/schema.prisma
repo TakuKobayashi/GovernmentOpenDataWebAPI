@@ -72,13 +72,10 @@ model crawler_category {
 }
 
 model crawler_root {
-  id              Int                        @id @default(autoincrement())
-  url             String                     @unique
-  search_word     String?
-  last_updated_at DateTime?
-  childlen        crawler_parent_and_child[]
-
-  @@index([last_updated_at])
+  id          Int                        @id @default(autoincrement())
+  url         String                     @unique
+  search_word String?
+  childlen    crawler_parent_and_child[]
 }
 
 model crawler_parent_and_child {
