@@ -8,16 +8,19 @@ datasource db {
   relationMode = "prisma"
 }
 
-model category {
-  id                 Int                @id @default(autoincrement())
-  title              String             @unique
-  description        String?            @db.Text
-  place_categories   place_category[]
-  crawler_categories crawler_category[]
+model Category {
+  id                 Int               @id @default(autoincrement())
+  title              String            @unique
+  description        String?           @db.Text
+  place_categories   DataCategory[]
+  crawler_categories CrawlerCategory[]
+
+  @@map("categories")
 }
 
-model place {
-  id               Int              @id @default(autoincrement())
+model Place {
+  id               Int            @id @default(autoincrement())
+  hashcode         String         @unique
   name             String
   province         String?
   city             String?
@@ -25,66 +28,112 @@ model place {
   lat              Float?
   lon              Float?
   geohash          String?
-  extra_info       Json?
-  place_categories place_category[]
+  place_categories DataCategory[] @relation("PlaceSource")
 
   @@index([geohash])
+  @@map("places")
 }
 
-model place_category {
-  id          Int      @id @default(autoincrement())
-  place_id    Int
+model DataCategory {
+  id          Int        @id @default(autoincrement())
+  source_id   Int
+  source_type SourceType
   category_id Int
-  place       place    @relation(fields: [place_id], references: [id])
-  category    category @relation(fields: [category_id], references: [id])
+  extra_info  Json?
+  place       Place      @relation("PlaceSource", fields: [source_id], references: [id], map: "place_source_id")
+  category    Category   @relation(fields: [category_id], references: [id])
 
-  @@unique([category_id, place_id])
+  @@unique([source_type, source_id, category_id])
+  @@map("data_categories")
 }
 
-model crawler {
-  id                 Int                        @id @default(autoincrement())
-  origin_url         String                     @unique
+model Crawler {
+  id                 Int                   @id @default(autoincrement())
+  origin_url         String                @unique
+  origin_file_ext    String                @default(".html")
   origin_title       String?
   checksum           String?
-  need_manual_edit   Boolean                    @default(false)
+  need_manual_edit   Boolean               @default(false)
   last_updated_at    DateTime?
-  crawler_categories crawler_category[]
-  parents            crawler_parent_and_child[]
+  crawler_categories CrawlerCategory[]
+  crawler_keywords   CrawlerKeyword[]
+  parents            CrawlerRootRelation[] @relation("CrawlerOriginUrl")
 
   @@index([last_updated_at])
+  @@map("crawlers")
 }
 
-model gsimuni {
+model Gsimuni {
   id                Int    @id @default(autoincrement())
   prefecture_number Int
   prefecture_name   String
   municd            Int    @unique
   municipality      String
+
+  @@map("gsimunis")
 }
 
-model crawler_category {
+model CrawlerCategory {
   id          Int      @id @default(autoincrement())
   crawler_id  Int
   category_id Int
-  crawler     crawler  @relation(fields: [crawler_id], references: [id])
-  category    category @relation(fields: [category_id], references: [id])
+  crawler     Crawler  @relation(fields: [crawler_id], references: [id])
+  category    Category @relation(fields: [category_id], references: [id])
 
   @@unique([crawler_id, category_id])
+  @@map("crawler_categories")
 }
 
-model crawler_root {
-  id          Int                        @id @default(autoincrement())
-  url         String                     @unique
-  search_word String?
-  childlen    crawler_parent_and_child[]
+model CrawlerRoot {
+  id       Int                   @id @default(autoincrement())
+  url      String                @unique
+  childlen CrawlerRootRelation[]
+  parents  CrawlerRootRelation[] @relation("CrawlerRootUrl")
+
+  @@map("crawler_roots")
 }
 
-model crawler_parent_and_child {
-  id              Int          @id @default(autoincrement())
-  crawler_id      Int
-  crawler_root_id Int
-  crawler         crawler      @relation(fields: [crawler_id], references: [id])
-  crawler_root    crawler_root @relation(fields: [crawler_root_id], references: [id])
+model CrawlerRootRelation {
+  id                   Int         @id @default(autoincrement())
+  to_url               String
+  to_crawler_type      CrawlerType
+  from_crawler_root_id Int
+  crawler              Crawler     @relation("CrawlerOriginUrl", fields: [to_url], references: [origin_url], map: "crawler_to_url")
+  child_crawler_root   CrawlerRoot @relation("CrawlerRootUrl", fields: [to_url], references: [url], map: "crawler_root_to_url")
+  parent_crawler_root  CrawlerRoot @relation(fields: [from_crawler_root_id], references: [id])
 
-  @@unique([crawler_root_id, crawler_id])
+  @@unique([from_crawler_root_id, to_crawler_type, to_url])
+  @@index([to_crawler_type, to_url])
+  @@map("crawler_root_relations")
+}
+
+model CrawlerKeyword {
+  id         Int     @id @default(autoincrement())
+  crawler_id Int
+  keyword_id Int
+  score      Float   @default(0)
+  crawler    Crawler @relation(fields: [crawler_id], references: [id])
+  keyword    Keyword @relation(fields: [keyword_id], references: [id])
+
+  @@unique([keyword_id, crawler_id])
+  @@index([crawler_id])
+  @@map("crawler_keywords")
+}
+
+model Keyword {
+  id               Int              @id @default(autoincrement())
+  word             String           @unique
+  appear_count     Int              @default(0)
+  crawler_keywords CrawlerKeyword[]
+
+  @@map("keywords")
+}
+
+enum SourceType {
+  Place
+}
+
+enum CrawlerType {
+  CrawlerRoot
+  Crawler
 }
