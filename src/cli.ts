@@ -206,23 +206,33 @@ dataCommand
   .description('')
   .action(async (options: any) => {
     const downloadInfoFilePath = path.join('resources', 'master-data', 'download-file-info.csv');
+    const downloadRootInfoFilePath = path.join('resources', 'master-data', 'download-root-info.csv');
     const crawlerModels = await prismaClient.crawler.findMany({
-      include: { crawler_categories: { include: { category: true } } },
+      include: {
+        crawler_categories: { include: { category: true } },
+        parents: { include: { crawler_root: true } },
+      },
     });
-    const downloadFileInfoCsvAppendStream = fs.createWriteStream(downloadInfoFilePath);
-    const csvHeaders = ['url', 'categoryTitle', 'title', 'needManualEdit'];
-    downloadFileInfoCsvAppendStream.write(csvHeaders.join(','));
+    const downloadFileInfoCsvStream = fs.createWriteStream(downloadInfoFilePath);
+    const downloadRootInfoCsvStream = fs.createWriteStream(downloadRootInfoFilePath);
+    downloadRootInfoCsvStream.write(['url', 'categoryTitle'].join(','));
+    downloadFileInfoCsvStream.write(['url', 'categoryTitle', 'title', 'needManualEdit'].join(','));
     for (const crawlerModel of crawlerModels) {
       for (const crawlerCategory of crawlerModel.crawler_categories) {
-        downloadFileInfoCsvAppendStream.write('\n');
-        downloadFileInfoCsvAppendStream.write(
+        for (const crawlerParentAndChild of crawlerModel.parents) {
+          downloadRootInfoCsvStream.write('\n');
+          downloadRootInfoCsvStream.write([crawlerParentAndChild.crawler_root.url, crawlerCategory.category.title].join(','));
+        }
+        downloadFileInfoCsvStream.write('\n');
+        downloadFileInfoCsvStream.write(
           [crawlerModel.origin_url, crawlerCategory.category.title, crawlerModel.origin_title, Number(crawlerModel.need_manual_edit)].join(
             ',',
           ),
         );
       }
     }
-    downloadFileInfoCsvAppendStream.end();
+    downloadRootInfoCsvStream.end();
+    downloadFileInfoCsvStream.end();
   });
 
 program.addCommand(dataCommand);
