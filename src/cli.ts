@@ -13,6 +13,7 @@ import { buildPlacesDataFromWorkbook } from './models/place';
 import { prismaClient } from './utils/prisma-common';
 import { saveToLocalFileFromString, saveToLocalFileFromBuffer, loadSpreadSheetRowObject } from './utils/util';
 import { exportToInsertSQL } from './utils/data-exporters';
+import { sleep } from './utils/util';
 import { config } from 'dotenv';
 config();
 
@@ -274,32 +275,106 @@ crawlCommand
   .command('master-file')
   .description('')
   .action(async (options: any) => {
-    //const downloadRootFilePath = path.join('resources', 'master-data', 'download-root-info.csv');
-    const urls: URL[] = [];
-    /*
-    loadSpreadSheetRowObject(downloadRootFilePath, (sheetName: string, rowObj: any) => {
-      urls.push(new URL(rowObj.url));
+    const currentCrawlerRootModels = await prismaClient.crawler_root.findMany({
+      select: {
+        url: true,
+      },
     });
-    */
-    urls.push(new URL('https://catalog.data.metro.tokyo.lg.jp/dataset?q=トイレ'));
-    const results: URL[] = [];
-    for (const url of urls) {
-      const response = await axios.get(url.toString());
-      const root = nodeHtmlParser.parse(response.data.toString());
-      const itemDoms = root.querySelectorAll('.dataset-item');
-      for (const itemDom of itemDoms) {
-        const datasetContents = itemDom.querySelectorAll('.dataset-content');
-        for (const datasetContentItemDom of datasetContents) {
-          const contentAtagDom = datasetContentItemDom.querySelector('a');
-          const aTagAttrs = contentAtagDom?.attrs || {};
-          const resultUrl = new URL(url);
-          resultUrl.pathname = aTagAttrs.href || '/';
-          resultUrl.search = '';
-          results.push(resultUrl);
+    const currentUrlSet: Set<String> = new Set(currentCrawlerRootModels.map((currentCrawlerRootModel) => currentCrawlerRootModel.url));
+    const rootUrlCategoryTitle: { [url: string]: string } = {};
+    const newRootUrlObjFromCSV: { url: string; search_word?: string }[] = [];
+    const downloadRootFilePath = path.join('resources', 'master-data', 'download-root-info.csv');
+    loadSpreadSheetRowObject(downloadRootFilePath, (sheetName: string, rowObj: any) => {
+      if (!currentUrlSet.has(rowObj.url)) {
+        rootUrlCategoryTitle[rowObj.url] = rowObj.categoryTitle;
+        newRootUrlObjFromCSV.push({
+          url: rowObj.url,
+        });
+      }
+    });
+    await prismaClient.crawler_root.createMany({ data: newRootUrlObjFromCSV, skipDuplicates: true });
+
+    const searchKeywordCategories: { keyword: string; categoryTitle: string }[] = [];
+    const searchKeywordFilePath = path.join('resources', 'master-data', 'search-keyword.csv');
+    loadSpreadSheetRowObject(searchKeywordFilePath, (sheetName: string, rowObj: any) => {
+      searchKeywordCategories.push({ keyword: rowObj.keyword, categoryTitle: rowObj.categoryTitle });
+    });
+    for (const keywordCategory of searchKeywordCategories) {
+      const searchUrl = new URL('https://catalog.data.metro.tokyo.lg.jp/dataset');
+      let pageNumber = 1;
+      while (true) {
+        const newRootUrlObj: { url: string; search_word?: string }[] = [];
+        const searchParams = new URLSearchParams({ q: keywordCategory.keyword, page: pageNumber.toString() });
+        searchUrl.search = searchParams.toString();
+        const response = await axios.get(searchUrl.toString());
+        const root = nodeHtmlParser.parse(response.data.toString());
+        const itemDoms = root.querySelectorAll('.dataset-item');
+        if (itemDoms.length <= 0) {
+          break;
         }
+        for (const itemDom of itemDoms) {
+          const datasetContents = itemDom.querySelectorAll('.dataset-content');
+          for (const datasetContentItemDom of datasetContents) {
+            const contentAtagDom = datasetContentItemDom.querySelector('a');
+            const aTagAttrs = contentAtagDom?.attrs || {};
+            const downloadRootUrl = new URL(searchUrl);
+            downloadRootUrl.pathname = aTagAttrs.href || '/';
+            downloadRootUrl.search = '';
+            if (!currentUrlSet.has(downloadRootUrl.href)) {
+              newRootUrlObj.push({
+                url: downloadRootUrl.href,
+                search_word: keywordCategory.keyword,
+              });
+              rootUrlCategoryTitle[downloadRootUrl.href] = keywordCategory.categoryTitle;
+            }
+          }
+        }
+        await prismaClient.crawler_root.createMany({ data: newRootUrlObj, skipDuplicates: true });
+        pageNumber = pageNumber + 1;
+        await sleep(1000);
       }
     }
-    console.log(results.map((result) => result.href));
+    const categoryModels = await prismaClient.category.findMany();
+    const titleCategory = _.keyBy(categoryModels, (categoryModel) => categoryModel.title);
+    const crawlerRootModels = await prismaClient.crawler_root.findMany();
+    for (const crawlerRootModel of crawlerRootModels) {
+      const response = await axios.get(crawlerRootModel.url);
+      const root = nodeHtmlParser.parse(response.data.toString());
+      const resourceItemDoms = root.querySelectorAll('li.resource-item');
+      for (const resourceItemDom of resourceItemDoms) {
+        const titleDom = resourceItemDom.querySelector('a.heading');
+        const titleAttrs = titleDom?.attrs || {};
+        const downloadLinkDom = resourceItemDom.querySelector('a.resource-url-analytics');
+        const downloadLinkAttrs = downloadLinkDom?.attrs || {};
+        if (downloadLinkAttrs.href) {
+          await prismaClient.crawler.upsert({
+            where: {
+              origin_url: downloadLinkAttrs.href,
+            },
+            update: {},
+            create: {
+              origin_title: titleAttrs.title,
+              origin_url: downloadLinkAttrs.href,
+              crawler_categories: {
+                create: [
+                  {
+                    category_id: titleCategory[rootUrlCategoryTitle[crawlerRootModel.url]].id,
+                  },
+                ],
+              },
+              parents: {
+                create: [
+                  {
+                    crawler_root_id: crawlerRootModel.id,
+                  },
+                ],
+              },
+            },
+          });
+        }
+      }
+      await sleep(1000);
+    }
   });
 
 program.addCommand(crawlCommand);
@@ -314,6 +389,21 @@ function convertToApiFormatDataObjs(placeModel: any): any {
     lon: placeModel.lon,
     ...(placeModel.extra_info as object),
   };
+}
+
+async function scrapeOpendataFileUrls(downloadRootUrls: URL[]): Promise<URL[]> {
+  const downloadFileUrls: URL[] = [];
+  for (const url of downloadRootUrls) {
+    const response = await axios.get(url.toString());
+    const root = nodeHtmlParser.parse(response.data.toString());
+    const downloadLinkDoms = root.querySelectorAll('a.resource-url-analytics');
+    for (const downloadLinkDom of downloadLinkDoms) {
+      const downloadLinkAttrs = downloadLinkDom.attrs || {};
+      downloadFileUrls.push(new URL(downloadLinkAttrs.href));
+    }
+    await sleep(1000);
+  }
+  return downloadFileUrls;
 }
 
 program.parse(process.argv);
