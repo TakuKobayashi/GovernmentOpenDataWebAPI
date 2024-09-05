@@ -1,5 +1,5 @@
 import XLSX, { WorkBook } from 'xlsx';
-import axios from 'axios';
+import { requestGeoCoder, requestReverceGeoCoder } from '../utils/yahoo-api';
 import { encodeBase32 } from 'geohashing';
 
 const candidateNameKeys = ['施設名', '名称'];
@@ -60,10 +60,8 @@ export class PlaceModel implements PlaceInterface {
     this.adjustAddress();
     this.adjustLatLon();
     if (this.lat && this.lon && !this.address) {
-      const response = await axios.get('https://map.yahooapis.jp/geoapi/V1/reverseGeoCoder', {
-        params: { appid: process.env.YAHOO_API_CLIENT_ID, lat: this.lat, lon: this.lon, output: 'json' },
-      });
-      const placeFeatureData = response.data.Feature || [];
+      const reverceGeoCodeResultData = await requestReverceGeoCoder(this.lat, this.lon);
+      const placeFeatureData = reverceGeoCodeResultData.Feature || [];
       if (placeFeatureData[0]) {
         const addressData = placeFeatureData[0].Property || {};
         const addressElements = addressData.AddressElement || [];
@@ -78,10 +76,8 @@ export class PlaceModel implements PlaceInterface {
         this.address = addressData.Address?.normalize('NFKC');
       }
     } else if (!this.lat && !this.lon && this.address) {
-      const response = await axios.get('https://map.yahooapis.jp/geocode/V1/geoCoder', {
-        params: { appid: process.env.YAHOO_API_CLIENT_ID, query: this.address, output: 'json' },
-      });
-      const gecodeData = response.data.Feature || [];
+      const geoCodeResultData = await requestGeoCoder(this.address);
+      const gecodeData = geoCodeResultData.Feature || [];
       const feature = gecodeData[0];
       if (feature) {
         const [lon, lat] = feature.Geometry.Coordinates.split(',');
