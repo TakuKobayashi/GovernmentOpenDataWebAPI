@@ -210,13 +210,15 @@ dataCommand
       include: { crawler_categories: { include: { category: true } } },
     });
     const downloadFileInfoCsvAppendStream = fs.createWriteStream(downloadInfoFilePath);
-    const csvHeaders = ['url', 'categoryTitle', 'needManualEdit'];
+    const csvHeaders = ['url', 'categoryTitle', 'title', 'needManualEdit'];
     downloadFileInfoCsvAppendStream.write(csvHeaders.join(','));
     for (const crawlerModel of crawlerModels) {
       for (const crawlerCategory of crawlerModel.crawler_categories) {
         downloadFileInfoCsvAppendStream.write('\n');
         downloadFileInfoCsvAppendStream.write(
-          [crawlerModel.origin_url, crawlerCategory.category.title, Number(crawlerModel.need_manual_edit)].join(','),
+          [crawlerModel.origin_url, crawlerCategory.category.title, crawlerModel.origin_title, Number(crawlerModel.need_manual_edit)].join(
+            ',',
+          ),
         );
       }
     }
