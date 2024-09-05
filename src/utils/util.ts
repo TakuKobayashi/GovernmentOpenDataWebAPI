@@ -24,3 +24,7 @@ export function saveToLocalFileFromBuffer(filepath: string, data: Buffer) {
   }
   fs.writeFileSync(filepath, data);
 }
+
+export async function sleep(millisecond: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, millisecond));
+}
