@@ -10,6 +10,7 @@ import _ from 'lodash';
 import Encoding from 'encoding-japanese';
 import nodeHtmlParser from 'node-html-parser';
 import { buildPlacesDataFromWorkbook } from './models/place';
+import { importGsiMuni } from './models/gsimuni';
 import { prismaClient } from './utils/prisma-common';
 import { saveToLocalFileFromString, saveToLocalFileFromBuffer, loadSpreadSheetRowObject } from './utils/util';
 import { exportToInsertSQL } from './utils/data-exporters';
@@ -29,23 +30,7 @@ dataCommand
   .command('import:master')
   .description('')
   .action(async (options: any) => {
-    const downloadMuniJSFileBinaryResponse = await axios.get('https://maps.gsi.go.jp/js/muni.js', { responseType: 'arraybuffer' });
-    const textData = downloadMuniJSFileBinaryResponse.data.toString();
-    const muniJSFilePath = path.join('resources', 'libraries', 'muni.js');
-    saveToLocalFileFromString(muniJSFilePath, textData);
-    const matches = textData.match(/'(.*?)'/g) || [];
-    const csvLines = matches.map((matched) => matched.substr(1, matched.length - 2));
-    const newGsiMuniObjs: { prefecture_number: number; prefecture_name: string; municd: number; municipality: string }[] = [];
-    for (const csvLine of csvLines) {
-      const cells = csvLine.split(',');
-      newGsiMuniObjs.push({
-        prefecture_number: Number(cells[0]),
-        prefecture_name: cells[1],
-        municd: Number(cells[2]),
-        municipality: cells[3].toString().trim().normalize('NFKC'),
-      });
-    }
-    await prismaClient.gsimuni.createMany({ data: newGsiMuniObjs, skipDuplicates: true });
+    await importGsiMuni();
     const categoryFilePath = path.join('resources', 'master-data', 'category.csv');
     const newCategoryObjs: { title: string; description: string }[] = [];
     loadSpreadSheetRowObject(categoryFilePath, (sheetName: string, rowObj: any) => {
@@ -53,7 +38,7 @@ dataCommand
     });
     const categoryModels = await prismaClient.$transaction(
       newCategoryObjs.map((newCategoryObj) => {
-        return prismaClient.category.upsert({
+        return prismaClient.Category.upsert({
           where: {
             title: newCategoryObj.title,
           },
@@ -65,73 +50,80 @@ dataCommand
       }),
     );
     const downloadInfoFilePath = path.join('resources', 'master-data', 'download-file-info.csv');
+    const crawlerUrlCategoryId = {};
     const newCrawlerObjs: {
       origin_url: string;
+      origin_file_ext: string;
       need_manual_edit?: boolean;
-      crawler_categories?: {
-        create: { category_id: number }[];
-      };
     }[] = [];
-    const alreadyUrlExistCrawlers = await prismaClient.crawler.findMany({
+    const alreadyUrlExistCrawlers = await prismaClient.Crawler.findMany({
       select: {
         origin_url: true,
       },
     });
+    const alreadyExistOriginUrlSet: Set<string> = new Set(
+      alreadyUrlExistCrawlers.map((alreadyUrlExistCrawler) => alreadyUrlExistCrawler.origin_url),
+    );
     loadSpreadSheetRowObject(downloadInfoFilePath, async (sheetName: string, rowObj: any) => {
-      if (alreadyUrlExistCrawlers.every((alreadyUrlExistCrawler) => alreadyUrlExistCrawler.origin_url !== rowObj.url)) {
+      if (!alreadyExistOriginUrlSet.has(rowObj.url)) {
         const targetCategoryModel = categoryModels.find((categoryModel) => categoryModel.title === rowObj.categoryTitle);
         const newCrawlerObj: {
           origin_url: string;
+          origin_file_ext: string;
           need_manual_edit?: boolean;
-          crawler_categories?: {
-            create: { category_id: number }[];
-          };
         } = {
           origin_url: rowObj.url,
+          origin_file_ext: path.extname(rowObj.url),
           need_manual_edit: Boolean(rowObj.needManualEdit),
         };
         if (targetCategoryModel) {
-          newCrawlerObj.crawler_categories = {
-            create: [{ category_id: targetCategoryModel?.id }],
-          };
+          crawlerUrlCategoryId[newCrawlerObj.origin_url] = targetCategoryModel?.id;
         }
         newCrawlerObjs.push(newCrawlerObj);
       }
     });
-    await prismaClient.$transaction(
-      newCrawlerObjs.map((newCrawlerObj) => {
-        return prismaClient.crawler.create({
-          data: newCrawlerObj,
-        });
+    await prismaClient.Crawler.createMany({ data: newCrawlerObjs });
+    const createCrawlerModels = await prismaClient.Crawler.findMany({
+      where: {
+        origin_url: {
+          in: Object.keys(crawlerUrlCategoryId),
+        },
+      },
+      select: {
+        id: true,
+        origin_url: true,
+      },
+    });
+    await prismaClient.CrawlerCategory.createMany({
+      data: createCrawlerModels.map((crawler) => {
+        return {
+          crawler_id: crawler.id,
+          category_id: crawlerUrlCategoryId[crawler.origin_url],
+        };
       }),
-    );
+    });
   });
 
 dataCommand
   .command('download')
   .description('')
   .action(async (options: any) => {
-    const crawlerModels = await prismaClient.crawler.findMany({
+    const crawlerModels = await prismaClient.Crawler.findMany({
       where: {
         need_manual_edit: false,
       },
-      include: { crawler_categories: { include: { category: true } } },
+      include: {
+        crawler_categories: { include: { category: true } },
+        crawler_keywords: { include: { keyword: true } },
+      },
     });
     for (const crawlerModel of crawlerModels) {
-      const downloadUrl = new URL(crawlerModel.origin_url);
-      const response = await axios.get(downloadUrl.href, { responseType: 'arraybuffer' });
-      const extFileName = path.extname(downloadUrl.pathname);
-      const categoryTitle = crawlerModel.crawler_categories[0]?.category?.title || 'unknown';
-      const willSaveFilePath: string = path.join(
-        'resources',
-        'origin-data',
-        categoryTitle,
-        downloadUrl.hostname,
-        ...downloadUrl.pathname.split('/'),
-      );
+      const extFileName = path.extname(crawlerModel.origin_url);
+      const willSaveFilePath: string = path.join(...getSaveOriginFilePathParts(crawlerModel));
+      const response = await axios.get(crawlerModel.origin_url, { responseType: 'arraybuffer' });
       if (extFileName === '.xlsx') {
         saveToLocalFileFromBuffer(willSaveFilePath, response.data);
-      } else {
+      } else if (extFileName === '.csv') {
         const detectedEncoding = Encoding.detect(response.data);
         let textData: string = '';
         if (detectedEncoding === 'SJIS') {
@@ -143,7 +135,7 @@ dataCommand
         }
         saveToLocalFileFromString(willSaveFilePath, textData);
       }
-      await prismaClient.crawler.update({
+      await prismaClient.Crawler.update({
         where: {
           id: crawlerModel.id,
         },
@@ -159,17 +151,18 @@ dataCommand
   .command('import:origin')
   .description('')
   .action(async (options: any) => {
-    const crawlerModels = await prismaClient.crawler.findMany({
+    const crawlerModels = await prismaClient.Crawler.findMany({
       where: {
         checksum: { not: null },
         last_updated_at: { not: null },
       },
-      include: { crawler_categories: { include: { category: true } } },
+      include: {
+        crawler_categories: { include: { category: true } },
+        crawler_keywords: { include: { keyword: true } },
+      },
     });
     for (const crawlerModel of crawlerModels) {
-      const downloadUrl = new URL(crawlerModel.origin_url);
-      const categoryTitle = crawlerModel.crawler_categories[0]?.category?.title || 'unknown';
-      const filePathes = fg.sync(['resources', 'origin-data', categoryTitle, downloadUrl.hostname, downloadUrl.pathname].join('/'));
+      const filePathes = fg.sync(getSaveOriginFilePathParts(crawlerModel).join('/'));
       for (const filePath of filePathes) {
         let workbook: WorkBook | undefined;
         if (path.extname(filePath) === '.csv') {
@@ -180,7 +173,7 @@ dataCommand
         }
         if (workbook) {
           const buildPlaceModels = buildPlacesDataFromWorkbook(workbook);
-          const currentPlaceModels = await prismaClient.place.findMany({
+          const currentPlaceModels = await prismaClient.Place.findMany({
             where: {
               hashcode: {
                 in: buildPlaceModels.map((placeModel) => placeModel.hashcode),
@@ -190,13 +183,14 @@ dataCommand
               hashcode: true,
             },
           });
-          const newPlaceModels = buildPlaceModels.filter((placeModel) =>
-            currentPlaceModels.every((currentPlaceModel) => placeModel.hashcode !== currentPlaceModel.hashcode),
+          const currentHashCodeSet: Set<string> = new Set(currentPlaceModels.map((currentPlaceModel) => currentPlaceModel.hashcode));
+          const newPlaceModels = buildPlaceModels.filter(
+            (placeModel) => placeModel.hashcode && !currentHashCodeSet.has(placeModel.hashcode),
           );
           await Promise.all(newPlaceModels.map((newPlaceModel) => newPlaceModel.setLocationInfo()));
           await prismaClient.$transaction(
             newPlaceModels.map((newPlaceModel) => {
-              return prismaClient.place.create({
+              return prismaClient.Place.create({
                 data: {
                   ...newPlaceModel,
                   place_categories: {
@@ -223,7 +217,7 @@ dataCommand
   .action(async (options: any) => {
     const downloadInfoFilePath = path.join('resources', 'master-data', 'download-file-info.csv');
     const downloadRootInfoFilePath = path.join('resources', 'master-data', 'download-root-info.csv');
-    const crawlerModels = await prismaClient.crawler.findMany({
+    const crawlerModels = await prismaClient.Crawler.findMany({
       include: {
         crawler_categories: { include: { category: true } },
         parents: { include: { crawler_root: true } },
@@ -268,13 +262,13 @@ program
   .command('build')
   .description('')
   .action(async (options: any) => {
-    const categories = await prismaClient.category.findMany({
+    const categories = await prismaClient.Category.findMany({
       include: {
         place_categories: true,
       },
     });
     for (const categoryModel of categories) {
-      const placeModels = await prismaClient.place.findMany({
+      const placeModels = await prismaClient.Place.findMany({
         where: {
           id: {
             in: categoryModel.place_categories.map((placeCategoryModel) => placeCategoryModel.place_id),
@@ -303,24 +297,23 @@ crawlCommand
   .command('master-file')
   .description('')
   .action(async (options: any) => {
-    const currentCrawlerRootModels = await prismaClient.crawler_root.findMany({
+    const currentCrawlerRootModels = await prismaClient.CrawlerRoot.findMany({
       select: {
         url: true,
       },
     });
-    const currentUrlSet: Set<String> = new Set(currentCrawlerRootModels.map((currentCrawlerRootModel) => currentCrawlerRootModel.url));
+    const currentRootUrlSet: Set<String> = new Set(currentCrawlerRootModels.map((currentCrawlerRootModel) => currentCrawlerRootModel.url));
     const rootUrlCategoryTitle: { [url: string]: string } = {};
-    const newRootUrlObjFromCSV: { url: string; search_word?: string }[] = [];
+    const newRootUrlObjFromCSV: { url: string }[] = [];
     const downloadRootFilePath = path.join('resources', 'master-data', 'download-root-info.csv');
     loadSpreadSheetRowObject(downloadRootFilePath, (sheetName: string, rowObj: any) => {
-      if (!currentUrlSet.has(rowObj.url)) {
+      if (!currentRootUrlSet.has(rowObj.url)) {
         rootUrlCategoryTitle[rowObj.url] = rowObj.categoryTitle;
-        newRootUrlObjFromCSV.push({
-          url: rowObj.url,
-        });
+        newRootUrlObjFromCSV.push({ url: rowObj.url });
+        currentRootUrlSet.add(rowObj.url);
       }
     });
-    await prismaClient.crawler_root.createMany({ data: newRootUrlObjFromCSV, skipDuplicates: true });
+    await prismaClient.CrawlerRoot.createMany({ data: newRootUrlObjFromCSV, skipDuplicates: true });
 
     const searchKeywordCategories: { keyword: string; categoryTitle: string }[] = [];
     const searchKeywordFilePath = path.join('resources', 'master-data', 'search-keyword.csv');
@@ -331,7 +324,7 @@ crawlCommand
       const searchUrl = new URL('https://catalog.data.metro.tokyo.lg.jp/dataset');
       let pageNumber = 1;
       while (true) {
-        const newRootUrlObj: { url: string; search_word?: string }[] = [];
+        const newRootUrlObjs: { url: string }[] = [];
         const searchParams = new URLSearchParams({ q: keywordCategory.keyword, page: pageNumber.toString() });
         searchUrl.search = searchParams.toString();
         const response = await axios.get(searchUrl.toString());
@@ -348,24 +341,30 @@ crawlCommand
             const downloadRootUrl = new URL(searchUrl);
             downloadRootUrl.pathname = aTagAttrs.href || '/';
             downloadRootUrl.search = '';
-            if (!currentUrlSet.has(downloadRootUrl.href)) {
-              newRootUrlObj.push({
-                url: downloadRootUrl.href,
-                search_word: keywordCategory.keyword,
-              });
+            if (!currentRootUrlSet.has(downloadRootUrl.href)) {
+              newRootUrlObjs.push({ url: downloadRootUrl.href });
+              currentRootUrlSet.add(downloadRootUrl.href);
               rootUrlCategoryTitle[downloadRootUrl.href] = keywordCategory.categoryTitle;
             }
           }
         }
-        await prismaClient.crawler_root.createMany({ data: newRootUrlObj, skipDuplicates: true });
+        await prismaClient.CrawlerRoot.createMany({ data: newRootUrlObjs, skipDuplicates: true });
         pageNumber = pageNumber + 1;
         await sleep(1000);
       }
     }
-    const categoryModels = await prismaClient.category.findMany();
+
+    const categoryModels = await prismaClient.Category.findMany();
     const titleCategory = _.keyBy(categoryModels, (categoryModel) => categoryModel.title);
-    const crawlerRootModels = await prismaClient.crawler_root.findMany();
+    const crawlerRootModels = await prismaClient.CrawlerRoot.findMany();
     for (const crawlerRootModel of crawlerRootModels) {
+      const newUrlCategoryId: { [url: string]: number } = {};
+      const newUrlRootId: { [url: string]: number } = {};
+      const newCrawlerObjs: {
+        origin_url: string;
+        origin_title: string;
+        origin_file_ext: string;
+      }[] = [];
       const response = await axios.get(crawlerRootModel.url);
       const root = nodeHtmlParser.parse(response.data.toString());
       const resourceItemDoms = root.querySelectorAll('li.resource-item');
@@ -375,37 +374,60 @@ crawlCommand
         const downloadLinkDom = resourceItemDom.querySelector('a.resource-url-analytics');
         const downloadLinkAttrs = downloadLinkDom?.attrs || {};
         if (downloadLinkAttrs.href) {
-          await prismaClient.crawler.upsert({
-            where: {
-              origin_url: downloadLinkAttrs.href,
-            },
-            update: {},
-            create: {
-              origin_title: titleAttrs.title,
-              origin_url: downloadLinkAttrs.href,
-              crawler_categories: {
-                create: [
-                  {
-                    category_id: titleCategory[rootUrlCategoryTitle[crawlerRootModel.url]].id,
-                  },
-                ],
-              },
-              parents: {
-                create: [
-                  {
-                    crawler_root_id: crawlerRootModel.id,
-                  },
-                ],
-              },
-            },
+          newCrawlerObjs.push({
+            origin_title: titleAttrs.title,
+            origin_url: downloadLinkAttrs.href,
+            origin_file_ext: path.extname(downloadLinkAttrs.href),
           });
+          newUrlCategoryId[downloadLinkAttrs.href] = titleCategory[rootUrlCategoryTitle[crawlerRootModel.url]].id;
+          newUrlRootId[downloadLinkAttrs.href] = crawlerRootModel.id;
         }
       }
+      await prismaClient.Crawler.createMany({ data: newCrawlerObjs, skipDuplicates: true });
+      const createCrawlers = await prismaClient.Crawler.findMany({
+        where: {
+          origin_url: {
+            in: newCrawlerObjs.map((crawler) => crawler.origin_url),
+          },
+        },
+        select: {
+          id: true,
+          origin_url: true,
+        },
+      });
+      await prismaClient.CrawlerCategory.createMany({
+        data: createCrawlers.map((crawler) => {
+          return {
+            crawler_id: crawler.id,
+            category_id: newUrlCategoryId[crawler.origin_url],
+          };
+        }),
+        skipDuplicates: true,
+      });
+      await prismaClient.CrawlerRootRelation.createMany({
+        data: createCrawlers.map((crawler) => {
+          return {
+            to_url: crawler.origin_url,
+            to_crawler_type: 'Crawler',
+            from_crawler_root_id: newUrlRootId[crawler.origin_url],
+          };
+        }),
+        skipDuplicates: true,
+      });
       await sleep(1000);
     }
   });
 
 program.addCommand(crawlCommand);
+
+function getSaveOriginFilePathParts(crawlerModel: any): string[] {
+  const downloadUrl = new URL(crawlerModel.origin_url);
+  const crawlerKeywordModel = _.maxBy(crawlerModel.crawler_keywords, (cKeyword) => {
+    return cKeyword.keyword.appear_count;
+  });
+  const dirTitle = crawlerKeywordModel?.keyword?.word || crawlerModel.crawler_categories[0]?.category?.title || 'unknown';
+  return ['resources', 'origin-data', dirTitle, downloadUrl.hostname, ...downloadUrl.pathname.split('/')];
+}
 
 function convertToApiFormatDataObjs(placeModel: any): any {
   return {
@@ -417,21 +439,6 @@ function convertToApiFormatDataObjs(placeModel: any): any {
     lon: placeModel.lon,
     ...(placeModel.extra_info as object),
   };
-}
-
-async function scrapeOpendataFileUrls(downloadRootUrls: URL[]): Promise<URL[]> {
-  const downloadFileUrls: URL[] = [];
-  for (const url of downloadRootUrls) {
-    const response = await axios.get(url.toString());
-    const root = nodeHtmlParser.parse(response.data.toString());
-    const downloadLinkDoms = root.querySelectorAll('a.resource-url-analytics');
-    for (const downloadLinkDom of downloadLinkDoms) {
-      const downloadLinkAttrs = downloadLinkDom.attrs || {};
-      downloadFileUrls.push(new URL(downloadLinkAttrs.href));
-    }
-    await sleep(1000);
-  }
-  return downloadFileUrls;
 }
 
 program.parse(process.argv);
