@@ -1,4 +1,5 @@
 import XLSX, { WorkBook } from 'xlsx';
+import crypto from 'crypto';
 import { requestGeoCoder, requestReverceGeoCoder } from '../utils/yahoo-api';
 import { encodeBase32 } from 'geohashing';
 
@@ -14,23 +15,37 @@ const multipurposesCountKeys = ['バリアフリートイレ数', '多機能ト�
 
 export interface PlaceInterface {
   name: string;
+  hashcode?: string;
   province?: string;
   address?: string;
   lat?: number;
   lon?: number;
   geohash?: string;
-  extra_info: { [key: string]: any };
 }
 
 export class PlaceModel implements PlaceInterface {
   name: string = '';
+  hashcode?: string;
   province?: string;
   city?: string;
   address?: string;
   lat?: number;
   lon?: number;
   geohash?: string;
-  extra_info: { [key: string]: any } = {};
+
+  private stashExtraInfo: { [key: string]: any } = {};
+
+  updateStashExtraInfo(extraInfo: { [key: string]: any }) {
+    this.stashExtraInfo = { ...this.stashExtraInfo, ...extraInfo };
+  }
+
+  clearStashExtraInfo() {
+    this.stashExtraInfo = {};
+  }
+
+  getStashExtraInfo(): { [key: string]: any } {
+    return this.stashExtraInfo;
+  }
 
   private adjustAddress() {
     if (this.address && this.province && !this.address.startsWith(this.province)) {
@@ -56,9 +71,25 @@ export class PlaceModel implements PlaceInterface {
     }
   }
 
-  async setLocationInfo() {
+  setCalcedHashCode() {
+    if (this.name) {
+      if (this.lat && this.lon && !this.address) {
+        const hashSource = [this.name, this.lat, this.lon].join(':');
+        this.hashcode = crypto.createHash('sha512').update(hashSource).digest('hex');
+      } else if (!this.lat && !this.lon && this.address) {
+        const hashSource = [this.name, this.address].join(':');
+        this.hashcode = crypto.createHash('sha512').update(hashSource).digest('hex');
+      }
+    }
+  }
+
+  adjustCustomData() {
     this.adjustAddress();
     this.adjustLatLon();
+    this.setCalcedHashCode();
+  }
+
+  async setLocationInfo() {
     if (this.lat && this.lon && !this.address) {
       const reverceGeoCodeResultData = await requestReverceGeoCoder(this.lat, this.lon);
       const placeFeatureData = reverceGeoCodeResultData.Feature || [];
@@ -99,7 +130,7 @@ export class PlaceModel implements PlaceInterface {
   }
 }
 
-export async function buildPlacesDataFromWorkbook(workbook: WorkBook): Promise<PlaceModel[]> {
+export function buildPlacesDataFromWorkbook(workbook: WorkBook): PlaceModel[] {
   const convertedApiFormatDataObjs: PlaceModel[] = [];
   const sheetNames = Object.keys(workbook.Sheets);
   for (const sheetName of sheetNames) {
@@ -121,15 +152,15 @@ export async function buildPlacesDataFromWorkbook(workbook: WorkBook): Promise<P
         } else if (candidateLonKeys.includes(rowKey)) {
           newPlaceModel.lon = Number(rowObj[rowKey]);
         } else if (candidateMalesCountKeys.includes(rowKey)) {
-          newPlaceModel.extra_info.males_count = Number(rowObj[rowKey]);
+          newPlaceModel.updateStashExtraInfo({ males_count: Number(rowObj[rowKey]) });
         } else if (candidateFemalesCountKeys.includes(rowKey)) {
-          newPlaceModel.extra_info.females_count = Number(rowObj[rowKey]);
+          newPlaceModel.updateStashExtraInfo({ females_count: Number(rowObj[rowKey]) });
         } else if (multipurposesCountKeys.includes(rowKey)) {
-          newPlaceModel.extra_info.multipurposes_count = Number(rowObj[rowKey]);
+          newPlaceModel.updateStashExtraInfo({ multipurposes_count: Number(rowObj[rowKey]) });
         }
       }
       if (newPlaceModel.name && ((newPlaceModel.lat && newPlaceModel.lon) || newPlaceModel.address)) {
-        await newPlaceModel.setLocationInfo();
+        newPlaceModel.adjustCustomData();
         convertedApiFormatDataObjs.push(newPlaceModel);
       }
     }
