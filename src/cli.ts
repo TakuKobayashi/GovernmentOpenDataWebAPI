@@ -179,7 +179,21 @@ dataCommand
           workbook = XLSX.readFile(filePath);
         }
         if (workbook) {
-          const newPlaceModels = await buildPlacesDataFromWorkbook(workbook);
+          const buildPlaceModels = buildPlacesDataFromWorkbook(workbook);
+          const currentPlaceModels = await prismaClient.place.findMany({
+            where: {
+              hashcode: {
+                in: buildPlaceModels.map((placeModel) => placeModel.hashcode),
+              },
+            },
+            select: {
+              hashcode: true,
+            },
+          });
+          const newPlaceModels = buildPlaceModels.filter((placeModel) =>
+            currentPlaceModels.every((currentPlaceModel) => placeModel.hashcode !== currentPlaceModel.hashcode),
+          );
+          await Promise.all(newPlaceModels.map((newPlaceModel) => newPlaceModel.setLocationInfo()));
           await prismaClient.$transaction(
             newPlaceModels.map((newPlaceModel) => {
               return prismaClient.place.create({
@@ -188,6 +202,8 @@ dataCommand
                   place_categories: {
                     create: crawlerModel.crawler_categories.map((crawlerCategoryModel) => {
                       return {
+                        source_type: 'Place',
+                        extra_info: newPlaceModel.getStashExtraInfo(),
                         category_id: crawlerCategoryModel.category_id,
                       };
                     }),
