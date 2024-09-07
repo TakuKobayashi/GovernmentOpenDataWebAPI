@@ -1,0 +1,13 @@
+INSERT INTO `crawler_categories` (`id`, `crawler_id`, `category_id`) VALUES (1,1,1);
+INSERT INTO `crawler_categories` (`id`, `crawler_id`, `category_id`) VALUES (2,2,1);
+INSERT INTO `crawler_categories` (`id`, `crawler_id`, `category_id`) VALUES (3,5,1);
+INSERT INTO `crawler_categories` (`id`, `crawler_id`, `category_id`) VALUES (4,7,1);
+INSERT INTO `crawler_categories` (`id`, `crawler_id`, `category_id`) VALUES (5,4,1);
+INSERT INTO `crawler_categories` (`id`, `crawler_id`, `category_id`) VALUES (6,13,1);
+INSERT INTO `crawler_categories` (`id`, `crawler_id`, `category_id`) VALUES (7,9,1);
+INSERT INTO `crawler_categories` (`id`, `crawler_id`, `category_id`) VALUES (8,12,1);
+INSERT INTO `crawler_categories` (`id`, `crawler_id`, `category_id`) VALUES (9,10,1);
+INSERT INTO `crawler_categories` (`id`, `crawler_id`, `category_id`) VALUES (10,6,1);
+INSERT INTO `crawler_categories` (`id`, `crawler_id`, `category_id`) VALUES (11,11,1);
+INSERT INTO `crawler_categories` (`id`, `crawler_id`, `category_id`) VALUES (12,8,1);
+INSERT INTO `crawler_categories` (`id`, `crawler_id`, `category_id`) VALUES (13,3,1);
