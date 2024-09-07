@@ -3,12 +3,12 @@ on:
     branches:
       - master
     paths:
-      - resources/origin-data/**
+      - resources/master-data/**/*.csv
 
-name: Data Import and Export
+name: Data Download And Import
 jobs:
-  importexport:
-    name: Data Import and Export
+  download:
+    name: Data Download And Import
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -56,9 +56,11 @@ jobs:
     - name: prisma setup
       run: yarn run prisma generate
     - name: prisma migrate
-      run: yarn run prisma migrate deploy
+      run: yarn run prisma migrate reset --force
     - name: import master data
       run: yarn run commander data import:master
+    - name: data download
+      run: yarn run commander data download
     - name: import origin data
       run: yarn run commander data import:origin
     - name: export sql
@@ -67,12 +69,13 @@ jobs:
       run: |
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config user.name "github-actions[bot]"
+        git add resources/origin-data/
         git add resources/sqls/
-        git commit --allow-empty -m "add `date +%Y-%m-%d-%H:%M:%S` sqls"
+        git commit --allow-empty -m "add `date +%Y-%m-%d-%H:%M:%S` origin-data"
         git checkout .
         git pull --rebase origin master
         git push origin master
     - uses: actions/upload-artifact@v4
       with:
-        name: sqls
-        path: resources/sqls
+        name: resources
+        path: resources
