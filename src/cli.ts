@@ -50,6 +50,7 @@ dataCommand
       }),
     );
     const titleCategory = _.keyBy(categoryModels, (categoryModel) => categoryModel.title);
+
     const downloadInfoFilePath = path.join('resources', 'master-data', 'download-file-info.csv');
     const crawlerUrlCategory: {
       [url: string]: {
@@ -86,12 +87,24 @@ dataCommand
         newCrawlerObjs.push(newCrawlerObj);
       }
     });
+    const currentCrawlers = await prismaClient.crawler.findMany({
+      where: {
+        origin_url: {
+          in: Object.keys(crawlerUrlCategory),
+        },
+      },
+      select: {
+        origin_url: true,
+      },
+    });
+    const currentCrawlerSet = new Set(currentCrawlers.map((currentCrawler) => currentCrawler.origin_url));
+    const willCreateCrawlerObjs = newCrawlerObjs.filter((newCrawlerObj) => !currentCrawlerSet.has(newCrawlerObj.origin_url));
     await prismaClient.$transaction(async (tx) => {
-      await tx.crawler.createMany({ data: newCrawlerObjs });
+      await tx.crawler.createMany({ data: willCreateCrawlerObjs });
       const createCrawlerModels = await tx.crawler.findMany({
         where: {
           origin_url: {
-            in: Object.keys(crawlerUrlCategory),
+            in: willCreateCrawlerObjs.map((willCreateCrawlerObj) => willCreateCrawlerObj.origin_url),
           },
         },
         select: {
@@ -549,6 +562,7 @@ crawlCommand
           newUrlRootId[downloadLinkAttrs.href] = crawlerRootModel.id;
         }
       }
+      const newUniqCrawlerObjs = _.uniqBy(newCrawlerObjs, (newCrawlerObj) => newCrawlerObj.origin_url);
       const currentCrawlers = await prismaClient.crawler.findMany({
         where: {
           origin_url: {
@@ -560,7 +574,7 @@ crawlCommand
         },
       });
       const currentCrawlerSet = new Set(currentCrawlers.map((currentCrawler) => currentCrawler.origin_url));
-      const willCreateCrawlerObjs = newCrawlerObjs.filter((newCrawlerObj) => !currentCrawlerSet.has(newCrawlerObj.origin_url));
+      const willCreateCrawlerObjs = newUniqCrawlerObjs.filter((newCrawlerObj) => !currentCrawlerSet.has(newCrawlerObj.origin_url));
       await prismaClient.$transaction(async (tx) => {
         await tx.crawler.createMany({ data: willCreateCrawlerObjs });
         const createCrawlers = await tx.crawler.findMany({
