@@ -67,10 +67,11 @@ CREATE TABLE `gsimunis` (
 -- CreateTable
 CREATE TABLE `crawler_categories` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
+    `crawler_type` ENUM('CrawlerRoot', 'Crawler') NOT NULL,
     `crawler_id` INTEGER NOT NULL,
     `category_id` INTEGER NOT NULL,
 
-    UNIQUE INDEX `crawler_categories_crawler_id_category_id_key`(`crawler_id`, `category_id`),
+    UNIQUE INDEX `crawler_categories_crawler_type_crawler_id_category_id_key`(`crawler_type`, `crawler_id`, `category_id`),
     PRIMARY KEY (`id`)
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
