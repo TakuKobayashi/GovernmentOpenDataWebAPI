@@ -16,7 +16,6 @@ import { saveToLocalFileFromString, saveToLocalFileFromBuffer, loadSpreadSheetRo
 import { exportToInsertSQL } from './utils/data-exporters';
 import { sleep } from './utils/util';
 import { config } from 'dotenv';
-import { CrawlerType } from '@prisma/client';
 config();
 
 program.storeOptionsAsProperties(false);
@@ -266,7 +265,6 @@ dataCommand
   .description('')
   .action(async (options: any) => {
     const downloadInfoFilePath = path.join('resources', 'master-data', 'download-file-info.csv');
-    const downloadRootInfoFilePath = path.join('resources', 'master-data', 'download-root-info.csv');
     const crawlerModels = await prismaClient.crawler.findMany({
       include: {
         crawler_categories: { include: { category: true } },
@@ -291,6 +289,7 @@ dataCommand
         crawler_categories: { include: { category: true } },
       },
     });
+    const downloadRootInfoFilePath = path.join('resources', 'master-data', 'download-root-info.csv');
     const downloadRootInfoCsvStream = fs.createWriteStream(downloadRootInfoFilePath);
     downloadRootInfoCsvStream.write(['url', 'categoryTitle'].join(','));
     for (const crawlerRootModel of crawlerRootModels) {
@@ -435,9 +434,11 @@ crawlCommand
       where: {
         last_updated_at: null,
       },
+      include: {
+        crawler_categories: true,
+      },
     });
     for (const crawlerRootModel of crawlerRootModels) {
-      const newUrlCategoryId: { [url: string]: number } = {};
       const newUrlRootId: { [url: string]: number } = {};
       const newCrawlerObjs: {
         origin_url: string;
@@ -474,13 +475,17 @@ crawlCommand
         },
       });
       await prismaClient.crawlerCategory.createMany({
-        data: createCrawlers.map((crawler) => {
-          return {
-            crawler_id: crawler.id,
-            crawler_type: 'Crawler',
-            category_id: newUrlCategoryId[crawler.origin_url],
-          };
-        }),
+        data: createCrawlers
+          .map<any[]>((crawler) => {
+            return crawlerRootModel.crawler_categories.map((rootCategory) => {
+              return {
+                crawler_id: crawler.id,
+                crawler_type: 'Crawler',
+                category_id: rootCategory.category_id,
+              };
+            });
+          })
+          .flat(),
         skipDuplicates: true,
       });
       await prismaClient.crawlerRootRelation.createMany({
