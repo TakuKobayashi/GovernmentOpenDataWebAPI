@@ -282,38 +282,52 @@ dataCommand
   .description('')
   .action(async (options: any) => {
     const downloadInfoFilePath = path.join('resources', 'master-data', 'download-file-info.csv');
-    const crawlerModels = await prismaClient.crawler.findMany({
+    const crawlerModels = await prismaClient.crawler.findMany();
+    const crawlerCategories = await prismaClient.crawlerCategory.findMany({
+      where: {
+        crawler_id: {
+          in: crawlerModels.map((crawlerModel) => crawlerModel.id),
+        },
+        crawler_type: 'Crawler',
+      },
       include: {
-        crawler_categories: { include: { category: true } },
+        category: true,
       },
     });
+    const crawlerIdCrawlerCategory = _.keyBy(crawlerCategories, (crawlerCategory) => crawlerCategory.crawler_id);
     const downloadFileInfoCsvStream = fs.createWriteStream(downloadInfoFilePath);
     downloadFileInfoCsvStream.write(['url', 'categoryTitle', 'title', 'needManualEdit'].join(','));
     for (const crawlerModel of crawlerModels) {
-      for (const crawlerCategory of crawlerModel.crawler_categories) {
-        downloadFileInfoCsvStream.write('\n');
-        downloadFileInfoCsvStream.write(
-          [crawlerModel.origin_url, crawlerCategory.category.title, crawlerModel.origin_title, Number(crawlerModel.need_manual_edit)].join(
-            ',',
-          ),
-        );
-      }
+      const crawlerCategory = crawlerIdCrawlerCategory[crawlerModel.id];
+      downloadFileInfoCsvStream.write('\n');
+      downloadFileInfoCsvStream.write(
+        [crawlerModel.origin_url, crawlerCategory.category.title, crawlerModel.origin_title, Number(crawlerModel.need_manual_edit)].join(
+          ',',
+        ),
+      );
     }
     downloadFileInfoCsvStream.end();
 
-    const crawlerRootModels = await prismaClient.crawlerRoot.findMany({
+    const crawlerRootModels = await prismaClient.crawlerRoot.findMany();
+    const crawlerRootCategories = await prismaClient.crawlerCategory.findMany({
+      where: {
+        crawler_id: {
+          in: crawlerRootModels.map((crawlerRootModel) => crawlerRootModel.id),
+        },
+        crawler_type: 'CrawlerRoot',
+      },
       include: {
-        crawler_categories: { include: { category: true } },
+        category: true,
       },
     });
+    const crawlerRootIdCrawlerCategory = _.keyBy(crawlerRootCategories, (crawlerCategory) => crawlerCategory.crawler_id);
     const downloadRootInfoFilePath = path.join('resources', 'master-data', 'download-root-info.csv');
     const downloadRootInfoCsvStream = fs.createWriteStream(downloadRootInfoFilePath);
     downloadRootInfoCsvStream.write(['url', 'categoryTitle'].join(','));
     for (const crawlerRootModel of crawlerRootModels) {
-      for (const crawlerCategory of crawlerRootModel.crawler_categories) {
-        downloadRootInfoCsvStream.write('\n');
-        downloadRootInfoCsvStream.write([crawlerRootModel.url, crawlerCategory.category.title].join(','));
-      }
+      const crawlerCategory = crawlerRootIdCrawlerCategory[crawlerRootModel.id];
+      downloadRootInfoCsvStream.write('\n');
+      downloadRootInfoCsvStream.write([crawlerRootModel.url, crawlerCategory.category.title].join(','));
     }
     downloadRootInfoCsvStream.end();
   });
