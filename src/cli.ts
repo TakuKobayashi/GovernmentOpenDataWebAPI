@@ -270,10 +270,8 @@ dataCommand
     const crawlerModels = await prismaClient.crawler.findMany({
       include: {
         crawler_categories: { include: { category: true } },
-        parents: { include: { parent_crawler_root: true } },
       },
     });
-    const rootUrlCategoryTitle: { [url: string]: string } = {};
     const downloadFileInfoCsvStream = fs.createWriteStream(downloadInfoFilePath);
     downloadFileInfoCsvStream.write(['url', 'categoryTitle', 'title', 'needManualEdit'].join(','));
     for (const crawlerModel of crawlerModels) {
@@ -284,17 +282,22 @@ dataCommand
             ',',
           ),
         );
-        for (const crawlerRootRelation of crawlerModel.parents) {
-          rootUrlCategoryTitle[crawlerRootRelation.parent_crawler_root.url] = crawlerCategory.category.title;
-        }
       }
     }
     downloadFileInfoCsvStream.end();
+
+    const crawlerRootModels = await prismaClient.crawlerRoot.findMany({
+      include: {
+        crawler_categories: { include: { category: true } },
+      },
+    });
     const downloadRootInfoCsvStream = fs.createWriteStream(downloadRootInfoFilePath);
     downloadRootInfoCsvStream.write(['url', 'categoryTitle'].join(','));
-    for (const rootUrl of Object.keys(rootUrlCategoryTitle)) {
-      downloadRootInfoCsvStream.write('\n');
-      downloadRootInfoCsvStream.write([rootUrl, rootUrlCategoryTitle[rootUrl]].join(','));
+    for (const crawlerRootModel of crawlerRootModels) {
+      for (const crawlerCategory of crawlerRootModel.crawler_categories) {
+        downloadRootInfoCsvStream.write('\n');
+        downloadRootInfoCsvStream.write([crawlerRootModel.url, crawlerCategory.category.title].join(','));
+      }
     }
     downloadRootInfoCsvStream.end();
   });
