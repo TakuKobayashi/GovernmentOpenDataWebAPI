@@ -73,10 +73,10 @@ export class PlaceModel implements PlaceInterface {
 
   setCalcedHashCode() {
     if (this.name) {
-      if (this.lat && this.lon && !this.address) {
+      if (this.lat && this.lon) {
         const hashSource = [this.name, this.lat, this.lon].join(':');
         this.hashcode = crypto.createHash('sha512').update(hashSource).digest('hex');
-      } else if (!this.lat && !this.lon && this.address) {
+      } else if (this.address) {
         const hashSource = [this.name, this.address].join(':');
         this.hashcode = crypto.createHash('sha512').update(hashSource).digest('hex');
       }
@@ -131,7 +131,7 @@ export class PlaceModel implements PlaceInterface {
 }
 
 export function buildPlacesDataFromWorkbook(workbook: WorkBook): PlaceModel[] {
-  const convertedApiFormatDataObjs: PlaceModel[] = [];
+  const convertedHashcodeApiFormatDataObjs: { [hashcode: string]: PlaceModel } = {};
   const sheetNames = Object.keys(workbook.Sheets);
   for (const sheetName of sheetNames) {
     const themeRows: any[] = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName]);
@@ -161,9 +161,9 @@ export function buildPlacesDataFromWorkbook(workbook: WorkBook): PlaceModel[] {
       }
       if (newPlaceModel.name && ((newPlaceModel.lat && newPlaceModel.lon) || newPlaceModel.address)) {
         newPlaceModel.adjustCustomData();
-        convertedApiFormatDataObjs.push(newPlaceModel);
+        convertedHashcodeApiFormatDataObjs[newPlaceModel.hashcode] = newPlaceModel;
       }
     }
   }
-  return convertedApiFormatDataObjs;
+  return Object.values(convertedHashcodeApiFormatDataObjs);
 }
