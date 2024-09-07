@@ -51,7 +51,13 @@ dataCommand
     );
     const titleCategory = _.keyBy(categoryModels, (categoryModel) => categoryModel.title);
     const downloadInfoFilePath = path.join('resources', 'master-data', 'download-file-info.csv');
-    const crawlerUrlCategoryId = {};
+    const crawlerUrlCategory: {
+      [url: string]: {
+        id: number;
+        title: string;
+        description: string | null;
+      };
+    } = {};
     const newCrawlerObjs: {
       origin_url: string;
       origin_file_ext: string;
@@ -67,7 +73,6 @@ dataCommand
     );
     loadSpreadSheetRowObject(downloadInfoFilePath, async (sheetName: string, rowObj: any) => {
       if (!alreadyExistOriginUrlSet.has(rowObj.url)) {
-        const targetCategoryModel = categoryModels.find((categoryModel) => categoryModel.title === rowObj.categoryTitle);
         const newCrawlerObj: {
           origin_url: string;
           origin_file_ext: string;
@@ -77,32 +82,32 @@ dataCommand
           origin_file_ext: path.extname(rowObj.url),
           need_manual_edit: Boolean(rowObj.needManualEdit),
         };
-        if (targetCategoryModel) {
-          crawlerUrlCategoryId[newCrawlerObj.origin_url] = targetCategoryModel?.id;
-        }
+        crawlerUrlCategory[newCrawlerObj.origin_url] = titleCategory[rowObj.categoryTitle];
         newCrawlerObjs.push(newCrawlerObj);
       }
     });
-    await prismaClient.crawler.createMany({ data: newCrawlerObjs });
-    const createCrawlerModels = await prismaClient.crawler.findMany({
-      where: {
-        origin_url: {
-          in: Object.keys(crawlerUrlCategoryId),
+    await prismaClient.$transaction(async (tx) => {
+      await tx.crawler.createMany({ data: newCrawlerObjs });
+      const createCrawlerModels = await tx.crawler.findMany({
+        where: {
+          origin_url: {
+            in: Object.keys(crawlerUrlCategory),
+          },
         },
-      },
-      select: {
-        id: true,
-        origin_url: true,
-      },
-    });
-    await prismaClient.crawlerCategory.createMany({
-      data: createCrawlerModels.map((crawler) => {
-        return {
-          crawler_id: crawler.id,
-          crawler_type: 'Crawler',
-          category_id: crawlerUrlCategoryId[crawler.origin_url],
-        };
-      }),
+        select: {
+          id: true,
+          origin_url: true,
+        },
+      });
+      await tx.crawlerCategory.createMany({
+        data: createCrawlerModels.map((crawler) => {
+          return {
+            crawler_id: crawler.id,
+            crawler_type: 'Crawler',
+            category_id: crawlerUrlCategory[crawler.origin_url].id,
+          };
+        }),
+      });
     });
 
     const currentCrawlerRootModels = await prismaClient.crawlerRoot.findMany({
@@ -111,36 +116,48 @@ dataCommand
       },
     });
     const currentRootUrlSet: Set<String> = new Set(currentCrawlerRootModels.map((currentCrawlerRootModel) => currentCrawlerRootModel.url));
-    const rootUrlCategoryTitle: { [url: string]: string } = {};
-    const newRootUrlObjFromCSV: { url: string }[] = [];
+    const rootUrlCategory: {
+      [url: string]: {
+        id: number;
+        title: string;
+        description: string | null;
+      };
+    } = {};
     const downloadRootFilePath = path.join('resources', 'master-data', 'download-root-info.csv');
     loadSpreadSheetRowObject(downloadRootFilePath, (sheetName: string, rowObj: any) => {
       if (!currentRootUrlSet.has(rowObj.url)) {
-        newRootUrlObjFromCSV.push({ url: rowObj.url });
         currentRootUrlSet.add(rowObj.url);
-        rootUrlCategoryTitle[rowObj.url] = rowObj.categoryTitle;
+        rootUrlCategory[rowObj.url] = titleCategory[rowObj.categoryTitle];
       }
     });
-    await prismaClient.crawlerRoot.createMany({ data: newRootUrlObjFromCSV });
-    const cratedCrawlerRoots = await prismaClient.crawlerRoot.findMany({
-      where: {
-        url: {
-          in: newRootUrlObjFromCSV.map((newRootUrlObj) => newRootUrlObj.url),
+    await prismaClient.$transaction(async (tx) => {
+      await tx.crawlerRoot.createMany({
+        data: Object.keys(rootUrlCategory).map((rootUrl) => {
+          return {
+            url: rootUrl,
+          };
+        }),
+      });
+      const cratedCrawlerRoots = await tx.crawlerRoot.findMany({
+        where: {
+          url: {
+            in: Object.keys(rootUrlCategory),
+          },
         },
-      },
-      select: {
-        id: true,
-        url: true,
-      },
-    });
-    await prismaClient.crawlerCategory.createMany({
-      data: cratedCrawlerRoots.map((crawlerRoot) => {
-        return {
-          crawler_id: crawlerRoot.id,
-          crawler_type: 'CrawlerRoot',
-          category_id: titleCategory[rootUrlCategoryTitle[crawlerRoot.url]]?.id,
-        };
-      }),
+        select: {
+          id: true,
+          url: true,
+        },
+      });
+      await tx.crawlerCategory.createMany({
+        data: cratedCrawlerRoots.map((crawlerRoot) => {
+          return {
+            crawler_id: crawlerRoot.id,
+            crawler_type: 'CrawlerRoot',
+            category_id: rootUrlCategory[crawlerRoot.url].id,
+          };
+        }),
+      });
     });
   });
 
@@ -177,7 +194,7 @@ dataCommand
         }
         saveToLocalFileFromString(willSaveFilePath, textData);
       }
-      await prismaClient.crawler.update({
+      await prismaClient.crawler.updateMany({
         where: {
           id: crawlerModel.id,
         },
@@ -365,8 +382,7 @@ crawlCommand
       const searchUrl = new URL('https://catalog.data.metro.tokyo.lg.jp/dataset');
       let pageNumber = 1;
       while (true) {
-        const rootUrlCategoryTitle: { [url: string]: string } = {};
-        const newRootUrlObjs: { url: string }[] = [];
+        const rootUrlCategory: { [url: string]: any } = {};
         const searchParams = new URLSearchParams({ q: keywordCategory.keyword, page: pageNumber.toString() });
         searchUrl.search = searchParams.toString();
         const response = await axios.get(searchUrl.toString());
@@ -383,42 +399,48 @@ crawlCommand
             const downloadRootUrl = new URL(searchUrl);
             downloadRootUrl.pathname = aTagAttrs.href || '/';
             downloadRootUrl.search = '';
-            newRootUrlObjs.push({ url: downloadRootUrl.href });
-            rootUrlCategoryTitle[downloadRootUrl.href] = keywordCategory.categoryTitle;
+            rootUrlCategory[downloadRootUrl.href] = titleCategory[keywordCategory.categoryTitle];
           }
         }
         const currentRoots = await prismaClient.crawlerRoot.findMany({
           where: {
             url: {
-              in: newRootUrlObjs.map((newRootUrlObj) => newRootUrlObj.url),
+              in: Object.keys(rootUrlCategory),
             },
           },
           select: {
             url: true,
           },
         });
-        const currentRootUrlSet: Set<string> = new Set(currentRoots.map((currentRoot) => currentRoot.url));
-        const willCreateRootUrlObjs = newRootUrlObjs.filter((newRootUrlObj) => !currentRootUrlSet.has(newRootUrlObj.url));
-        await prismaClient.crawlerRoot.createMany({ data: willCreateRootUrlObjs, skipDuplicates: true });
-        const cratedCrawlerRoots = await prismaClient.crawlerRoot.findMany({
-          where: {
-            url: {
-              in: willCreateRootUrlObjs.map((newRootUrlObj) => newRootUrlObj.url),
+        for (const currentRoot of currentRoots) {
+          delete rootUrlCategory[currentRoot.url];
+        }
+        await prismaClient.$transaction(async (tx) => {
+          await tx.crawlerRoot.createMany({
+            data: Object.keys(rootUrlCategory).map((newUrl) => {
+              return { url: newUrl };
+            }),
+          });
+          const cratedCrawlerRoots = await tx.crawlerRoot.findMany({
+            where: {
+              url: {
+                in: Object.keys(rootUrlCategory),
+              },
             },
-          },
-          select: {
-            id: true,
-            url: true,
-          },
-        });
-        await prismaClient.crawlerCategory.createMany({
-          data: cratedCrawlerRoots.map((crawlerRoot) => {
-            return {
-              crawler_id: crawlerRoot.id,
-              crawler_type: 'CrawlerRoot',
-              category_id: titleCategory[rootUrlCategoryTitle[crawlerRoot.url]]?.id,
-            };
-          }),
+            select: {
+              id: true,
+              url: true,
+            },
+          });
+          await tx.crawlerCategory.createMany({
+            data: cratedCrawlerRoots.map((crawlerRoot) => {
+              return {
+                crawler_id: crawlerRoot.id,
+                crawler_type: 'CrawlerRoot',
+                category_id: rootUrlCategory[crawlerRoot.url].id,
+              };
+            }),
+          });
         });
         pageNumber = pageNumber + 1;
         await sleep(1000);
@@ -434,17 +456,23 @@ crawlCommand
       where: {
         last_updated_at: null,
       },
-      include: {
-        crawler_categories: true,
+    });
+    const rootCrawlerCategories = await prismaClient.crawlerCategory.findMany({
+      where: {
+        crawler_id: {
+          in: crawlerRootModels.map((crawlerRootModel) => crawlerRootModel.id),
+        },
+        crawler_type: 'CrawlerRoot',
       },
     });
+    const rootIdCrawlerCategory = _.keyBy(rootCrawlerCategories, (rootCC) => rootCC.crawler_id);
     for (const crawlerRootModel of crawlerRootModels) {
       const newUrlRootId: { [url: string]: number } = {};
-      const newCrawlerObjs: {
+      const newCrawlerObjSet: Set<{
         origin_url: string;
         origin_title: string;
         origin_file_ext: string;
-      }[] = [];
+      }> = new Set();
       const response = await axios.get(crawlerRootModel.url);
       const root = nodeHtmlParser.parse(response.data.toString());
       const resourceItemDoms = root.querySelectorAll('li.resource-item');
@@ -454,7 +482,7 @@ crawlCommand
         const downloadLinkDom = resourceItemDom.querySelector('a.resource-url-analytics');
         const downloadLinkAttrs = downloadLinkDom?.attrs || {};
         if (downloadLinkAttrs.href) {
-          newCrawlerObjs.push({
+          newCrawlerObjSet.add({
             origin_title: titleAttrs.title,
             origin_url: downloadLinkAttrs.href,
             origin_file_ext: path.extname(downloadLinkAttrs.href),
@@ -462,49 +490,45 @@ crawlCommand
           newUrlRootId[downloadLinkAttrs.href] = crawlerRootModel.id;
         }
       }
-      await prismaClient.crawler.createMany({ data: newCrawlerObjs, skipDuplicates: true });
-      const createCrawlers = await prismaClient.crawler.findMany({
-        where: {
-          origin_url: {
-            in: newCrawlerObjs.map((crawler) => crawler.origin_url),
+      await prismaClient.$transaction(async (tx) => {
+        await tx.crawler.createMany({ data: Array.from(newCrawlerObjSet), skipDuplicates: true });
+        const createCrawlers = await tx.crawler.findMany({
+          where: {
+            origin_url: {
+              in: Object.keys(newUrlRootId),
+            },
           },
-        },
-        select: {
-          id: true,
-          origin_url: true,
-        },
-      });
-      await prismaClient.crawlerCategory.createMany({
-        data: createCrawlers
-          .map<any[]>((crawler) => {
-            return crawlerRootModel.crawler_categories.map((rootCategory) => {
-              return {
-                crawler_id: crawler.id,
-                crawler_type: 'Crawler',
-                category_id: rootCategory.category_id,
-              };
-            });
-          })
-          .flat(),
-        skipDuplicates: true,
-      });
-      await prismaClient.crawlerRootRelation.createMany({
-        data: createCrawlers.map((crawler) => {
-          return {
-            to_url: crawler.origin_url,
-            to_crawler_type: 'Crawler',
-            from_crawler_root_id: newUrlRootId[crawler.origin_url],
-          };
-        }),
-        skipDuplicates: true,
-      });
-      await prismaClient.crawlerRoot.update({
-        where: {
-          id: crawlerRootModel.id,
-        },
-        data: {
-          last_updated_at: new Date(),
-        },
+          select: {
+            id: true,
+            origin_url: true,
+          },
+        });
+        await tx.crawlerCategory.createMany({
+          data: createCrawlers.map((crawler) => {
+            return {
+              crawler_id: crawler.id,
+              crawler_type: 'Crawler',
+              category_id: rootIdCrawlerCategory[crawlerRootModel.id].category_id,
+            };
+          }),
+        });
+        await tx.crawlerRootRelation.createMany({
+          data: createCrawlers.map((crawler) => {
+            return {
+              to_url: crawler.origin_url,
+              to_crawler_type: 'Crawler',
+              from_crawler_root_id: newUrlRootId[crawler.origin_url],
+            };
+          }),
+        });
+        await tx.crawlerRoot.updateMany({
+          where: {
+            id: crawlerRootModel.id,
+          },
+          data: {
+            last_updated_at: new Date(),
+          },
+        });
       });
       await sleep(1000);
     }
