@@ -316,10 +316,10 @@ crawlCommand
     const downloadRootFilePath = path.join('resources', 'master-data', 'download-root-info.csv');
     loadSpreadSheetRowObject(downloadRootFilePath, (sheetName: string, rowObj: any) => {
       if (!currentRootUrlSet.has(rowObj.url)) {
-        rootUrlCategoryTitle[rowObj.url] = rowObj.categoryTitle;
         newRootUrlObjFromCSV.push({ url: rowObj.url });
         currentRootUrlSet.add(rowObj.url);
       }
+      rootUrlCategoryTitle[rowObj.url] = rowObj.categoryTitle;
     });
     await prismaClient.crawlerRoot.createMany({ data: newRootUrlObjFromCSV, skipDuplicates: true });
 
@@ -352,8 +352,8 @@ crawlCommand
             if (!currentRootUrlSet.has(downloadRootUrl.href)) {
               newRootUrlObjs.push({ url: downloadRootUrl.href });
               currentRootUrlSet.add(downloadRootUrl.href);
-              rootUrlCategoryTitle[downloadRootUrl.href] = keywordCategory.categoryTitle;
             }
+            rootUrlCategoryTitle[downloadRootUrl.href] = keywordCategory.categoryTitle;
           }
         }
         await prismaClient.crawlerRoot.createMany({ data: newRootUrlObjs, skipDuplicates: true });
@@ -364,7 +364,11 @@ crawlCommand
 
     const categoryModels = await prismaClient.category.findMany();
     const titleCategory = _.keyBy(categoryModels, (categoryModel) => categoryModel.title);
-    const crawlerRootModels = await prismaClient.crawlerRoot.findMany();
+    const crawlerRootModels = await prismaClient.crawlerRoot.findMany({
+      where: {
+        last_updated_at: null,
+      },
+    });
     for (const crawlerRootModel of crawlerRootModels) {
       const newUrlCategoryId: { [url: string]: number } = {};
       const newUrlRootId: { [url: string]: number } = {};
@@ -421,6 +425,14 @@ crawlCommand
           };
         }),
         skipDuplicates: true,
+      });
+      await prismaClient.crawlerRoot.update({
+        where: {
+          id: crawlerRootModel.id,
+        },
+        data: {
+          last_updated_at: new Date(),
+        },
       });
       await sleep(1000);
     }
