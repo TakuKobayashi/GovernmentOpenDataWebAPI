@@ -111,6 +111,8 @@ dataCommand
     const crawlerModels = await prismaClient.crawler.findMany({
       where: {
         need_manual_edit: false,
+        checksum: null,
+        last_updated_at: null,
       },
       include: {
         crawler_categories: { include: { category: true } },
