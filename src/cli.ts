@@ -171,18 +171,38 @@ dataCommand
         checksum: null,
         last_updated_at: null,
       },
+    });
+    const crawlerCategories = await prismaClient.crawlerCategory.findMany({
+      where: {
+        crawler_id: {
+          in: crawlerModels.map((crawlerModel) => crawlerModel.id),
+        },
+        crawler_type: 'Crawler',
+      },
       include: {
-        crawler_categories: { include: { category: true } },
-        crawler_keywords: { include: { keyword: true } },
+        category: true,
       },
     });
+    const crawlerIdCrawlerCategory = _.keyBy(crawlerCategories, (crawlerCategory) => crawlerCategory.crawler_id);
+
+    const crawlerKeywords = await prismaClient.crawlerKeyword.findMany({
+      where: {
+        crawler_id: {
+          in: crawlerModels.map((crawlerModel) => crawlerModel.id),
+        },
+      },
+      include: {
+        keyword: true,
+      },
+    });
+    const crawlerIdcrawlerKeywords = _.groupBy(crawlerKeywords, (crawlerKeyword) => crawlerKeyword.crawler_id);
+
     for (const crawlerModel of crawlerModels) {
-      const extFileName = path.extname(crawlerModel.origin_url);
-      const willSaveFilePath: string = path.join(...getSaveOriginFilePathParts(crawlerModel));
+      const willSaveFilePath: string = path.join(
+        ...getSaveOriginFilePathParts(crawlerModel, crawlerIdcrawlerKeywords[crawlerModel.id], crawlerIdCrawlerCategory[crawlerModel.id]),
+      );
       const response = await axios.get(crawlerModel.origin_url, { responseType: 'arraybuffer' });
-      if (extFileName === '.xlsx') {
-        saveToLocalFileFromBuffer(willSaveFilePath, response.data);
-      } else if (extFileName === '.csv') {
+      if (crawlerModel.origin_file_ext === '.csv' || crawlerModel.origin_file_ext === '.json') {
         const detectedEncoding = Encoding.detect(response.data);
         let textData: string = '';
         if (detectedEncoding === 'SJIS') {
@@ -193,6 +213,10 @@ dataCommand
           textData = response.data.toString();
         }
         saveToLocalFileFromString(willSaveFilePath, textData);
+      } else if (crawlerModel.origin_file_ext === '.xlsx') {
+        saveToLocalFileFromBuffer(willSaveFilePath, response.data);
+      } else {
+        saveToLocalFileFromBuffer(willSaveFilePath, response.data);
       }
       await prismaClient.crawler.updateMany({
         where: {
@@ -215,13 +239,36 @@ dataCommand
         checksum: { not: null },
         last_updated_at: { not: null },
       },
+    });
+    const crawlerCategories = await prismaClient.crawlerCategory.findMany({
+      where: {
+        crawler_id: {
+          in: crawlerModels.map((crawlerModel) => crawlerModel.id),
+        },
+        crawler_type: 'Crawler',
+      },
       include: {
-        crawler_categories: { include: { category: true } },
-        crawler_keywords: { include: { keyword: true } },
+        category: true,
       },
     });
+    const crawlerIdCrawlerCategory = _.keyBy(crawlerCategories, (crawlerCategory) => crawlerCategory.crawler_id);
+
+    const crawlerKeywords = await prismaClient.crawlerKeyword.findMany({
+      where: {
+        crawler_id: {
+          in: crawlerModels.map((crawlerModel) => crawlerModel.id),
+        },
+      },
+      include: {
+        keyword: true,
+      },
+    });
+    const crawlerIdcrawlerKeywords = _.groupBy(crawlerKeywords, (crawlerKeyword) => crawlerKeyword.crawler_id);
     for (const crawlerModel of crawlerModels) {
-      const filePathes = fg.sync(getSaveOriginFilePathParts(crawlerModel).join('/'));
+      const crawlerCategory = crawlerIdCrawlerCategory[crawlerModel.id];
+      const filePathes = fg.sync(
+        getSaveOriginFilePathParts(crawlerModel, crawlerIdcrawlerKeywords[crawlerModel.id], crawlerCategory).join('/'),
+      );
       for (const filePath of filePathes) {
         let workbook: WorkBook | undefined;
         if (path.extname(filePath) === '.csv') {
@@ -260,13 +307,11 @@ dataCommand
                   lon: newPlaceModel.lon,
                   geohash: newPlaceModel.geohash,
                   place_categories: {
-                    create: crawlerModel.crawler_categories.map((crawlerCategoryModel) => {
-                      return {
-                        source_type: 'Place',
-                        extra_info: newPlaceModel.getStashExtraInfo(),
-                        category_id: crawlerCategoryModel.category_id,
-                      };
-                    }),
+                    create: {
+                      source_type: 'Place',
+                      extra_info: newPlaceModel.getStashExtraInfo(),
+                      category_id: crawlerCategory.category_id,
+                    },
                   },
                 },
               });
@@ -550,16 +595,18 @@ crawlCommand
 
 program.addCommand(crawlCommand);
 
-function getSaveOriginFilePathParts(crawlerModel: {
-  origin_url: string;
-  crawler_keywords: { keyword: { appear_count: number; word: string } }[];
-  crawler_categories: { category: { title: string } }[];
-}): string[] {
+function getSaveOriginFilePathParts(
+  crawlerModel: {
+    origin_url: string;
+  },
+  keywords: { keyword: { appear_count: number; word: string } }[] = [],
+  crawlerCategory: { category: { title: string } } | undefined = undefined,
+): string[] {
   const downloadUrl = new URL(crawlerModel.origin_url);
-  const crawlerKeywordModel = _.maxBy(crawlerModel.crawler_keywords, (cKeyword) => {
+  const crawlerKeywordModel = _.maxBy(keywords, (cKeyword) => {
     return cKeyword.keyword.appear_count;
   });
-  const dirTitle = crawlerKeywordModel?.keyword?.word || crawlerModel.crawler_categories[0]?.category?.title || 'unknown';
+  const dirTitle = crawlerKeywordModel?.keyword?.word || crawlerCategory?.category?.title || 'unknown';
   return ['resources', 'origin-data', dirTitle, downloadUrl.hostname, ...downloadUrl.pathname.split('/')];
 }
 
