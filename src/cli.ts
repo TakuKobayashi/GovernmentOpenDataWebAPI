@@ -527,11 +527,11 @@ crawlCommand
     const rootIdCrawlerCategory = _.keyBy(rootCrawlerCategories, (rootCC) => rootCC.crawler_id);
     for (const crawlerRootModel of crawlerRootModels) {
       const newUrlRootId: { [url: string]: number } = {};
-      const newCrawlerObjSet: Set<{
+      const newCrawlerObjs: {
         origin_url: string;
         origin_title: string;
         origin_file_ext: string;
-      }> = new Set();
+      }[] = [];
       const response = await axios.get(crawlerRootModel.url);
       const root = nodeHtmlParser.parse(response.data.toString());
       const resourceItemDoms = root.querySelectorAll('li.resource-item');
@@ -541,7 +541,7 @@ crawlCommand
         const downloadLinkDom = resourceItemDom.querySelector('a.resource-url-analytics');
         const downloadLinkAttrs = downloadLinkDom?.attrs || {};
         if (downloadLinkAttrs.href) {
-          newCrawlerObjSet.add({
+          newCrawlerObjs.push({
             origin_title: titleAttrs.title,
             origin_url: downloadLinkAttrs.href,
             origin_file_ext: path.extname(downloadLinkAttrs.href),
@@ -549,12 +549,24 @@ crawlCommand
           newUrlRootId[downloadLinkAttrs.href] = crawlerRootModel.id;
         }
       }
+      const currentCrawlers = await prismaClient.crawler.findMany({
+        where: {
+          origin_url: {
+            in: Object.keys(newUrlRootId),
+          },
+        },
+        select: {
+          origin_url: true,
+        },
+      });
+      const currentCrawlerSet = new Set(currentCrawlers.map((currentCrawler) => currentCrawler.origin_url));
+      const willCreateCrawlerObjs = newCrawlerObjs.filter((newCrawlerObj) => !currentCrawlerSet.has(newCrawlerObj.origin_url));
       await prismaClient.$transaction(async (tx) => {
-        await tx.crawler.createMany({ data: Array.from(newCrawlerObjSet), skipDuplicates: true });
+        await tx.crawler.createMany({ data: willCreateCrawlerObjs });
         const createCrawlers = await tx.crawler.findMany({
           where: {
             origin_url: {
-              in: Object.keys(newUrlRootId),
+              in: willCreateCrawlerObjs.map((willCreateCrawlerObj) => willCreateCrawlerObj.origin_url),
             },
           },
           select: {
