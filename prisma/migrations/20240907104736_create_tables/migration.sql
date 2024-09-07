@@ -78,6 +78,7 @@ CREATE TABLE `crawler_categories` (
 CREATE TABLE `crawler_roots` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
     `url` VARCHAR(191) NOT NULL,
+    `last_updated_at` DATETIME(3) NULL,
 
     UNIQUE INDEX `crawler_roots_url_key`(`url`),
     PRIMARY KEY (`id`)

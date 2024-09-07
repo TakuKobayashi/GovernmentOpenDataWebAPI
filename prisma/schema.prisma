@@ -85,10 +85,11 @@ model CrawlerCategory {
 }
 
 model CrawlerRoot {
-  id       Int                   @id @default(autoincrement())
-  url      String                @unique
-  childlen CrawlerRootRelation[]
-  parents  CrawlerRootRelation[] @relation("CrawlerRootUrl")
+  id              Int                   @id @default(autoincrement())
+  url             String                @unique
+  last_updated_at DateTime?
+  childlen        CrawlerRootRelation[]
+  parents         CrawlerRootRelation[] @relation("CrawlerRootUrl")
 
   @@map("crawler_roots")
 }
