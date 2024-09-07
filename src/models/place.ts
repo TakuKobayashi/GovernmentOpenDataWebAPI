@@ -15,7 +15,7 @@ const multipurposesCountKeys = ['バリアフリートイレ数', '多機能ト�
 
 export interface PlaceInterface {
   name: string;
-  hashcode?: string;
+  hashcode: string;
   province?: string;
   address?: string;
   lat?: number;
@@ -25,7 +25,7 @@ export interface PlaceInterface {
 
 export class PlaceModel implements PlaceInterface {
   name: string = '';
-  hashcode?: string;
+  hashcode: string = '';
   province?: string;
   city?: string;
   address?: string;

@@ -20,7 +20,7 @@ export async function importGsiMuni() {
       municipality: cells[3].toString().trim().normalize('NFKC'),
     });
   }
-  const currentGsiMuniObjs = await prismaClient.Gsimuni.findMany({
+  const currentGsiMuniObjs = await prismaClient.gsimuni.findMany({
     where: {
       municd: {
         in: newGsiMuniObjs.map((gsiMuniObj) => gsiMuniObj.municd),
@@ -31,7 +31,7 @@ export async function importGsiMuni() {
     },
   });
   const currentMunicdSet: Set<number> = new Set(currentGsiMuniObjs.map((currentGsiMuniObj) => currentGsiMuniObj.municd));
-  await prismaClient.Gsimuni.createMany({
+  await prismaClient.gsimuni.createMany({
     data: newGsiMuniObjs.filter((gsiMuniObj) => !currentMunicdSet.has(gsiMuniObj.municd)),
   });
 }

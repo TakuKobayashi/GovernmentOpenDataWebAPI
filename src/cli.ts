@@ -38,7 +38,7 @@ dataCommand
     });
     const categoryModels = await prismaClient.$transaction(
       newCategoryObjs.map((newCategoryObj) => {
-        return prismaClient.Category.upsert({
+        return prismaClient.category.upsert({
           where: {
             title: newCategoryObj.title,
           },
@@ -56,7 +56,7 @@ dataCommand
       origin_file_ext: string;
       need_manual_edit?: boolean;
     }[] = [];
-    const alreadyUrlExistCrawlers = await prismaClient.Crawler.findMany({
+    const alreadyUrlExistCrawlers = await prismaClient.crawler.findMany({
       select: {
         origin_url: true,
       },
@@ -82,8 +82,8 @@ dataCommand
         newCrawlerObjs.push(newCrawlerObj);
       }
     });
-    await prismaClient.Crawler.createMany({ data: newCrawlerObjs });
-    const createCrawlerModels = await prismaClient.Crawler.findMany({
+    await prismaClient.crawler.createMany({ data: newCrawlerObjs });
+    const createCrawlerModels = await prismaClient.crawler.findMany({
       where: {
         origin_url: {
           in: Object.keys(crawlerUrlCategoryId),
@@ -94,7 +94,7 @@ dataCommand
         origin_url: true,
       },
     });
-    await prismaClient.CrawlerCategory.createMany({
+    await prismaClient.crawlerCategory.createMany({
       data: createCrawlerModels.map((crawler) => {
         return {
           crawler_id: crawler.id,
@@ -108,7 +108,7 @@ dataCommand
   .command('download')
   .description('')
   .action(async (options: any) => {
-    const crawlerModels = await prismaClient.Crawler.findMany({
+    const crawlerModels = await prismaClient.crawler.findMany({
       where: {
         need_manual_edit: false,
       },
@@ -135,7 +135,7 @@ dataCommand
         }
         saveToLocalFileFromString(willSaveFilePath, textData);
       }
-      await prismaClient.Crawler.update({
+      await prismaClient.crawler.update({
         where: {
           id: crawlerModel.id,
         },
@@ -151,7 +151,7 @@ dataCommand
   .command('import:origin')
   .description('')
   .action(async (options: any) => {
-    const crawlerModels = await prismaClient.Crawler.findMany({
+    const crawlerModels = await prismaClient.crawler.findMany({
       where: {
         checksum: { not: null },
         last_updated_at: { not: null },
@@ -173,10 +173,10 @@ dataCommand
         }
         if (workbook) {
           const buildPlaceModels = buildPlacesDataFromWorkbook(workbook);
-          const currentPlaceModels = await prismaClient.Place.findMany({
+          const currentPlaceModels = await prismaClient.place.findMany({
             where: {
               hashcode: {
-                in: buildPlaceModels.map((placeModel) => placeModel.hashcode),
+                in: _.compact(buildPlaceModels.map((placeModel) => placeModel.hashcode)),
               },
             },
             select: {
@@ -190,7 +190,7 @@ dataCommand
           await Promise.all(newPlaceModels.map((newPlaceModel) => newPlaceModel.setLocationInfo()));
           await prismaClient.$transaction(
             newPlaceModels.map((newPlaceModel) => {
-              return prismaClient.Place.create({
+              return prismaClient.place.create({
                 data: {
                   ...newPlaceModel,
                   place_categories: {
@@ -217,10 +217,10 @@ dataCommand
   .action(async (options: any) => {
     const downloadInfoFilePath = path.join('resources', 'master-data', 'download-file-info.csv');
     const downloadRootInfoFilePath = path.join('resources', 'master-data', 'download-root-info.csv');
-    const crawlerModels = await prismaClient.Crawler.findMany({
+    const crawlerModels = await prismaClient.crawler.findMany({
       include: {
         crawler_categories: { include: { category: true } },
-        parents: { include: { crawler_root: true } },
+        parents: { include: { parent_crawler_root: true } },
       },
     });
     const downloadFileInfoCsvStream = fs.createWriteStream(downloadInfoFilePath);
@@ -229,9 +229,9 @@ dataCommand
     downloadFileInfoCsvStream.write(['url', 'categoryTitle', 'title', 'needManualEdit'].join(','));
     for (const crawlerModel of crawlerModels) {
       for (const crawlerCategory of crawlerModel.crawler_categories) {
-        for (const crawlerParentAndChild of crawlerModel.parents) {
+        for (const crawlerRootRelation of crawlerModel.parents) {
           downloadRootInfoCsvStream.write('\n');
-          downloadRootInfoCsvStream.write([crawlerParentAndChild.crawler_root.url, crawlerCategory.category.title].join(','));
+          downloadRootInfoCsvStream.write([crawlerRootRelation.parent_crawler_root.url, crawlerCategory.category.title].join(','));
         }
         downloadFileInfoCsvStream.write('\n');
         downloadFileInfoCsvStream.write(
@@ -262,16 +262,17 @@ program
   .command('build')
   .description('')
   .action(async (options: any) => {
-    const categories = await prismaClient.Category.findMany({
+    const categories = await prismaClient.category.findMany({
       include: {
-        place_categories: true,
+        data_categories: true,
       },
     });
     for (const categoryModel of categories) {
-      const placeModels = await prismaClient.Place.findMany({
+      const placeCategories = categoryModel.data_categories.filter((placeCategoryModel) => placeCategoryModel.source_type === 'Place');
+      const placeModels = await prismaClient.place.findMany({
         where: {
           id: {
-            in: categoryModel.place_categories.map((placeCategoryModel) => placeCategoryModel.place_id),
+            in: placeCategories.map((placeCategoryModel) => placeCategoryModel.source_id),
           },
         },
       });
@@ -297,7 +298,7 @@ crawlCommand
   .command('master-file')
   .description('')
   .action(async (options: any) => {
-    const currentCrawlerRootModels = await prismaClient.CrawlerRoot.findMany({
+    const currentCrawlerRootModels = await prismaClient.crawlerRoot.findMany({
       select: {
         url: true,
       },
@@ -313,7 +314,7 @@ crawlCommand
         currentRootUrlSet.add(rowObj.url);
       }
     });
-    await prismaClient.CrawlerRoot.createMany({ data: newRootUrlObjFromCSV, skipDuplicates: true });
+    await prismaClient.crawlerRoot.createMany({ data: newRootUrlObjFromCSV, skipDuplicates: true });
 
     const searchKeywordCategories: { keyword: string; categoryTitle: string }[] = [];
     const searchKeywordFilePath = path.join('resources', 'master-data', 'search-keyword.csv');
@@ -348,15 +349,15 @@ crawlCommand
             }
           }
         }
-        await prismaClient.CrawlerRoot.createMany({ data: newRootUrlObjs, skipDuplicates: true });
+        await prismaClient.crawlerRoot.createMany({ data: newRootUrlObjs, skipDuplicates: true });
         pageNumber = pageNumber + 1;
         await sleep(1000);
       }
     }
 
-    const categoryModels = await prismaClient.Category.findMany();
+    const categoryModels = await prismaClient.category.findMany();
     const titleCategory = _.keyBy(categoryModels, (categoryModel) => categoryModel.title);
-    const crawlerRootModels = await prismaClient.CrawlerRoot.findMany();
+    const crawlerRootModels = await prismaClient.crawlerRoot.findMany();
     for (const crawlerRootModel of crawlerRootModels) {
       const newUrlCategoryId: { [url: string]: number } = {};
       const newUrlRootId: { [url: string]: number } = {};
@@ -383,8 +384,8 @@ crawlCommand
           newUrlRootId[downloadLinkAttrs.href] = crawlerRootModel.id;
         }
       }
-      await prismaClient.Crawler.createMany({ data: newCrawlerObjs, skipDuplicates: true });
-      const createCrawlers = await prismaClient.Crawler.findMany({
+      await prismaClient.crawler.createMany({ data: newCrawlerObjs, skipDuplicates: true });
+      const createCrawlers = await prismaClient.crawler.findMany({
         where: {
           origin_url: {
             in: newCrawlerObjs.map((crawler) => crawler.origin_url),
@@ -395,7 +396,7 @@ crawlCommand
           origin_url: true,
         },
       });
-      await prismaClient.CrawlerCategory.createMany({
+      await prismaClient.crawlerCategory.createMany({
         data: createCrawlers.map((crawler) => {
           return {
             crawler_id: crawler.id,
@@ -404,7 +405,7 @@ crawlCommand
         }),
         skipDuplicates: true,
       });
-      await prismaClient.CrawlerRootRelation.createMany({
+      await prismaClient.crawlerRootRelation.createMany({
         data: createCrawlers.map((crawler) => {
           return {
             to_url: crawler.origin_url,
@@ -420,7 +421,11 @@ crawlCommand
 
 program.addCommand(crawlCommand);
 
-function getSaveOriginFilePathParts(crawlerModel: any): string[] {
+function getSaveOriginFilePathParts(crawlerModel: {
+  origin_url: string;
+  crawler_keywords: { keyword: { appear_count: number; word: string } }[];
+  crawler_categories: { category: { title: string } }[];
+}): string[] {
   const downloadUrl = new URL(crawlerModel.origin_url);
   const crawlerKeywordModel = _.maxBy(crawlerModel.crawler_keywords, (cKeyword) => {
     return cKeyword.keyword.appear_count;
