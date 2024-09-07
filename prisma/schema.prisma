@@ -12,7 +12,7 @@ model Category {
   id                 Int               @id @default(autoincrement())
   title              String            @unique
   description        String?           @db.Text
-  place_categories   DataCategory[]
+  data_categories    DataCategory[]
   crawler_categories CrawlerCategory[]
 
   @@map("categories")
