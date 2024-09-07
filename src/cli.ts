@@ -16,6 +16,7 @@ import { saveToLocalFileFromString, saveToLocalFileFromBuffer, loadSpreadSheetRo
 import { exportToInsertSQL } from './utils/data-exporters';
 import { sleep } from './utils/util';
 import { config } from 'dotenv';
+import { CrawlerType } from '@prisma/client';
 config();
 
 program.storeOptionsAsProperties(false);
@@ -98,6 +99,7 @@ dataCommand
       data: createCrawlerModels.map((crawler) => {
         return {
           crawler_id: crawler.id,
+          crawler_type: 'Crawler',
           category_id: crawlerUrlCategoryId[crawler.origin_url],
         };
       }),
@@ -417,6 +419,7 @@ crawlCommand
         data: createCrawlers.map((crawler) => {
           return {
             crawler_id: crawler.id,
+            crawler_type: 'Crawler',
             category_id: newUrlCategoryId[crawler.origin_url],
           };
         }),
