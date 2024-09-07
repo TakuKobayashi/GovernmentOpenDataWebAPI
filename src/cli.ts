@@ -192,7 +192,14 @@ dataCommand
             newPlaceModels.map((newPlaceModel) => {
               return prismaClient.place.create({
                 data: {
-                  ...newPlaceModel,
+                  name: newPlaceModel.name,
+                  hashcode: newPlaceModel.hashcode,
+                  province: newPlaceModel.province,
+                  city: newPlaceModel.city,
+                  address: newPlaceModel.address,
+                  lat: newPlaceModel.lat,
+                  lon: newPlaceModel.lon,
+                  geohash: newPlaceModel.geohash,
                   place_categories: {
                     create: crawlerModel.crawler_categories.map((crawlerCategoryModel) => {
                       return {
