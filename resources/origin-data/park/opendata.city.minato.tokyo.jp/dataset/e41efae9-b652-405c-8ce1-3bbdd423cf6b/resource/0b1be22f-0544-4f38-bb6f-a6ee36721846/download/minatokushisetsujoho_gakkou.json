@@ -1,0 +1,4622 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.747716",
+                    "35.6484",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝保育園",
+                "分類": "区立認可保育園",
+                "地区": "芝地区",
+                "所在地": "港区芝五丁目18番1-101号",
+                "連絡先": "電話番号：03-3455-4669 ファックス番号：03-3455-5137",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750533",
+                    "35.654291",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝公園保育園",
+                "分類": "区立認可保育園",
+                "地区": "芝地区",
+                "所在地": "港区芝公園二丁目7番3号",
+                "連絡先": "電話：03-3438-0435 ファックス：03-5473-7569",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.743532",
+                    "35.655912",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "飯倉保育園",
+                "分類": "区立認可保育園",
+                "地区": "麻布地区",
+                "所在地": "港区東麻布一丁目21番2号",
+                "連絡先": "電話番号：03-3583-1786 ファックス番号：03-3583-4347",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.727587",
+                    "35.651113",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "本村保育園",
+                "分類": "区立認可保育園",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布丁目四丁目6番7号",
+                "連絡先": "電話番号：03-3444-2385 ファックス番号：03-3444-2436",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.72407",
+                    "35.647872",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "南麻布保育園",
+                "分類": "区立認可保育園",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目2番29-101号",
+                "連絡先": "電話番号：03-3442-8068 ファックス番号：03-3442-0823",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.722718",
+                    "35.660833",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "西麻布保育園",
+                "分類": "区立認可保育園",
+                "地区": "麻布地区",
+                "所在地": "港区西麻布二丁目13番3号 ※平成26年11月より、現在地へ移転",
+                "連絡先": "電話番号：03-3409-4924 ファックス番号：03-3486-9190",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.73503726256826",
+                    "35.66126125908505",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "麻布保育園",
+                "分類": "区立認可保育園",
+                "地区": "麻布地区",
+                "所在地": "港区六本木五丁目16番46号",
+                "連絡先": "電話番号：03-5545-7135 ファックス番号：03-3583-0647",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/07.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/07.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734061",
+                    "35.671125",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂保育園",
+                "分類": "区立認可保育園",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂五丁目5番26-101号",
+                "連絡先": "電話番号：03-3583-2155 ファックス番号：03-3583-5642",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/08.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/08.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.725527",
+                    "35.671188",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "南青山保育園",
+                "分類": "区立認可保育園",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山一丁目3番15号",
+                "連絡先": "電話番号：03-3401-1650 ファックス番号：03-3401-1756",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/09.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/09.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.712670",
+                    "35.667216",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "青山保育園",
+                "分類": "区立認可保育園",
+                "地区": "赤坂地区",
+                "所在地": "港区北青山三丁目4番1-101号",
+                "連絡先": "電話番号：03-3401-1723 ファックス番号：03-3401-0536",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/10.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/10.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735724",
+                    "35.633207",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪保育園",
+                "分類": "区立認可保育園",
+                "地区": "高輪地区",
+                "所在地": "港区高輪三丁目18番15号",
+                "連絡先": "電話番号：03-3449-1641 ファックス番号：03-3449-0858",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/11.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/11.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.738726",
+                    "35.640411",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "伊皿子坂保育園",
+                "分類": "区立認可保育園",
+                "地区": "高輪地区",
+                "所在地": "港区三田四丁目19番30号",
+                "連絡先": "電話：03-3444-7601 ファックス：03-3444-0167",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/12.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/12.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731076",
+                    "35.644936",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "白金保育園",
+                "分類": "区立認可保育園",
+                "地区": "高輪地区",
+                "所在地": "港区白金三丁目10番12号",
+                "連絡先": "電話番号：03-3441-5076 ファックス番号：03-3444-9825",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/13.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/13.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.747918",
+                    "35.629827",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "こうなん保育園",
+                "分類": "区立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目2番3-101号",
+                "連絡先": "電話番号：03-3450-3800 ファックス番号：03-3450-9129",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/14.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/14.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7773040343295",
+                    "35.629537796532645",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "台場保育園",
+                "分類": "区立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区台場一丁目5番1号",
+                "連絡先": "電話番号：03-5500-2360 ファックス番号：03-5500-2368",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/15.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/15.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.752365",
+                    "35.640426",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浦アイランドこども園",
+                "分類": "認定こども園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦四丁目20番1号",
+                "連絡先": "電話番号：03-5443-7337 ファックス番号：03-5443-7337",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/16.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/16.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.742559",
+                    "35.658203",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "東麻布保育園",
+                "分類": "区立認可保育園",
+                "地区": "麻布地区",
+                "所在地": "港区東麻布二丁目1番1号",
+                "連絡先": "電話番号：03-3584-3811 ファックス番号：03-3584-3812",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/17.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/17.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.716584",
+                    "35.66396",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "青南保育室",
+                "分類": "港区保育室",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山四丁目19番18号",
+                "連絡先": "電話番号：03-5770-3933 ファックス番号：03-5770-3934",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/20.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/20.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.745528",
+                    "35.643735",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "たまち保育室",
+                "分類": "港区保育室",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦三丁目4番1号　グランパークプラザ棟",
+                "連絡先": "電話番号：03-5484-6088 ファックス番号：03-5484-6089",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/21.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/21.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737205",
+                    "35.633431",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "桂坂保育室",
+                "分類": "港区保育室",
+                "地区": "高輪地区",
+                "所在地": "港区高輪三丁目19番36号",
+                "連絡先": "電話番号：03-5475-6646 ファックス番号：03-6277-4235",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/22.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/22.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731967",
+                    "35.63676",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "愛星保育園",
+                "分類": "私立認可保育園",
+                "地区": "高輪地区",
+                "所在地": "港区高輪一丁目27番40号",
+                "連絡先": "電話番号：03-3441-5410 ファックス番号：03-3441-5436",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/23.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/23.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.727554",
+                    "35.642807",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "みつばち保育園",
+                "分類": "私立認可保育園",
+                "地区": "高輪地区",
+                "所在地": "港区白金四丁目7番2号",
+                "連絡先": "電話番号：03-3444-8767 ファックス番号：03-3444-8367",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/24.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/24.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735335",
+                    "35.642366",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "みなと保育園",
+                "分類": "私立認可保育園",
+                "地区": "高輪地区",
+                "所在地": "港区高輪一丁目6番9号",
+                "連絡先": "電話番号：03-3443-3406 ファックス番号：03-3443-3573",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/25.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/25.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750726",
+                    "35.627761",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ベネッセ港南保育園",
+                "分類": "私立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目6番7号",
+                "連絡先": "電話番号：03-5783-5871 ファックス番号：03-5783-5873",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/26.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/26.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.744637",
+                    "35.646408",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "三田プチ・クレイシュ",
+                "分類": "認証保育所",
+                "地区": "芝地区",
+                "所在地": "港区芝五丁目29番22号　ライオンズマンション　フェリス三田1階",
+                "連絡先": "電話番号：03-5440-5950 ファックス番号：03-5440-5950",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/27.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/27.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750265",
+                    "35.647526",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "プチ・ナーサリー田町",
+                "分類": "認証保育所",
+                "地区": "芝地区",
+                "所在地": "港区芝四丁目16番1号",
+                "連絡先": "電話番号：03-3451-5670 ファックス番号：03-3451-5670",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/31.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/31.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726034",
+                    "35.662176",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ホームデイケア・六本木",
+                "分類": "認証保育所",
+                "地区": "赤坂地区",
+                "所在地": "港区西麻布一丁目4番46号　西麻布ムラタビル",
+                "連絡先": "電話番号：03-3401-2155 ファックス番号：03-3401-2155",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/33.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/33.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.736347",
+                    "35.656228",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ニチイキッズさわやか麻布十番保育園",
+                "分類": "認証保育所",
+                "地区": "麻布地区",
+                "所在地": "港区麻布十番一丁目10番3号　モンテプラザ2階",
+                "連絡先": "電話番号：03-3586-3887 ファックス番号：03-3586-3887",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/34.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/34.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726801",
+                    "35.653543",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ナーサリールーム",
+                "分類": "認証保育所",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布五丁目6番8号",
+                "連絡先": "電話番号：03-3473-8317 ファックス番号：03-3445-2228",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/35.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/35.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.72418",
+                    "35.636836",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "コンビプラザ白金台保育園",
+                "分類": "認証保育所",
+                "地区": "高輪地区",
+                "所在地": "港区白金台三丁目15番6号 ラミアール白金台2階",
+                "連絡先": "電話番号：03-5447-7600 ファックス番号：03-5447-0066",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/39.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/39.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731465",
+                    "35.643866",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ニチイキッズさわやか白金高輪保育園",
+                "分類": "認証保育所",
+                "地区": "高輪地区",
+                "所在地": "港区白金一丁目25番25号",
+                "連絡先": "電話番号：03-3441-6734 ファックス番号：03-3441-6734",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/40.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/40.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737865",
+                    "35.641512",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ポピンズナーサリースクール高輪",
+                "分類": "認証保育所",
+                "地区": "高輪地区",
+                "所在地": "港区三田四丁目9番7号 コンフォリア三田伊皿子坂2階",
+                "連絡先": "電話番号：03-5419-2115 ファックス番号：03-5419-2116",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/41.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/41.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.780179",
+                    "35.629904",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "アスクお台場保育園",
+                "分類": "認証保育所",
+                "地区": "芝浦港南地区",
+                "所在地": "港区台場二丁目2番3号",
+                "連絡先": "電話番号：03-3599-2829 ファックス番号：03-3528-0380",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/42.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/42.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.752853",
+                    "35.641229",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "アンジェリカ保育園芝浦園",
+                "分類": "認証保育所",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦四丁目22番2号　エアテラス2階",
+                "連絡先": "電話番号：03-5439-4340 ファックス番号：03-5439-4341",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/43.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/43.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.746174",
+                    "35.641425",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ポピンズナーサリースクール芝浦",
+                "分類": "認証保育所",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦四丁目10番1号　キャピタルマークタワー2階",
+                "連絡先": "電話番号：03-5444-2120 ファックス番号：03-5444-2126",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/45.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/45.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.747397",
+                    "35.631406",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ニチイキッズさわやか港南保育園",
+                "分類": "認証保育所",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目2番5号　シティタワー品川西棟2・3階",
+                "連絡先": "電話番号：03-3471-9826 ファックス番号：03-3471-9826",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/46.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/46.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.744179",
+                    "35.629058",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "アンジェリカ保育園品川園",
+                "分類": "認証保育所",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南二丁目3番13号　品川フロントビル キッズ館2階",
+                "連絡先": "電話番号：03-5781-9736 ファックス番号：03-5781-9737",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/47.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/47.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.742502",
+                    "35.653275",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤羽幼稚園",
+                "分類": "幼稚園",
+                "地区": "芝地区",
+                "所在地": "港区三田一丁目4番52号",
+                "連絡先": "電話番号：03-3452-0246 ファックス番号：03-3452-8188",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.74618",
+                    "35.638325",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浦幼稚園",
+                "分類": "幼稚園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦四丁目8番18号",
+                "連絡先": "電話：03-3452-0574 ファックス：03-3452-6433",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735274",
+                    "35.635513",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪幼稚園",
+                "分類": "幼稚園",
+                "地区": "高輪地区",
+                "所在地": "港区高輪二丁目12番31号",
+                "連絡先": "電話：03-3447-3356 ファックス：03-3447-3357",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726546",
+                    "35.635683",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "白金台幼稚園",
+                "分類": "幼稚園",
+                "地区": "高輪地区",
+                "所在地": "港区白金台三丁目7番1号",
+                "連絡先": "電話：03-3443-5666 ファックス：03-3443-5618",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.728861",
+                    "35.645013",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "三光幼稚園",
+                "分類": "幼稚園",
+                "地区": "高輪地区",
+                "所在地": "港区白金三丁目13番8号",
+                "連絡先": "電話：03-3444-4233 ファックス：03-5795-4039",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.748862",
+                    "35.629337",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "港南幼稚園",
+                "分類": "幼稚園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目3番27号",
+                "連絡先": "電話：03-3471-7347 ファックス：03-5796-0566",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.738546",
+                    "35.662051",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "麻布幼稚園",
+                "分類": "幼稚園",
+                "地区": "麻布地区",
+                "所在地": "港区麻布台一丁目5番15号",
+                "連絡先": "電話番号：03-3583-1858 ファックス番号：03-3583-2313",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/07.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/07.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.73058",
+                    "35.657268",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "南山幼稚園",
+                "分類": "幼稚園",
+                "地区": "麻布地区",
+                "所在地": "港区元麻布三丁目8番15号",
+                "連絡先": "電話番号：03-3408-4785 ファックス番号：03-3408-4751",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/08.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/08.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.730274",
+                    "35.649917",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "本村幼稚園",
+                "分類": "幼稚園",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布三丁目9番33号",
+                "連絡先": "電話番号：03-3446-3677 ファックス番号：03-3446-4491",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/09.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/09.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.73143962728707",
+                    "35.66785562689406",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "中之町幼稚園",
+                "分類": "幼稚園",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂九丁目2番26号",
+                "連絡先": "電話：03-3405-7619 ファックス：03-3401-5814",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/10.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/10.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.716965",
+                    "35.663577",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "青南幼稚園",
+                "分類": "幼稚園",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山四丁目18番17号",
+                "連絡先": "電話：03-3402-0758 ファックス：03-3402-0830",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/11.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/11.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.777476",
+                    "35.633486",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "にじのはし幼稚園",
+                "分類": "幼稚園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区台場一丁目1番5号",
+                "連絡先": "電話：03-5500-2577 ファックス：03-5500-2577",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/12.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/12.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726817",
+                    "35.653225",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "愛育幼稚園",
+                "分類": "幼稚園",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布五丁目6番8号",
+                "連絡先": "電話番号：03-3473-8318 ファックス番号：03-3473-8495",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/13.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/13.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.732766",
+                    "35.654027",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "麻布山幼稚園",
+                "分類": "幼稚園",
+                "地区": "麻布地区",
+                "所在地": "港区元麻布一丁目6番21号",
+                "連絡先": "電話番号：03-3453-6710 ファックス番号：03-3453-4336",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/14.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/14.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.72551",
+                    "35.659208",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "麻布みこころ幼稚園",
+                "分類": "幼稚園",
+                "地区": "麻布地区",
+                "所在地": "港区西麻布三丁目21番6号",
+                "連絡先": "電話番号：03-3408-8848 ファックス番号：03-3408-8849",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/15.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/15.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.730296",
+                    "35.65246",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "安藤記念教会附属幼稚園",
+                "分類": "幼稚園",
+                "地区": "麻布地区",
+                "所在地": "港区元麻布二丁目14番16号",
+                "連絡先": "電話番号：03-3446-5231 ファックス番号：03-3446-5231",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/16.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/16.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.727587",
+                    "35.642427",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "サンタ・セシリア幼稚園",
+                "分類": "幼稚園",
+                "地区": "高輪地区",
+                "所在地": "港区白金四丁目7番23号",
+                "連絡先": "電話番号：03-3446-9884 ファックス番号：03-3446-9884",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/17.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/17.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.739364",
+                    "35.641041",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "枝光会附属幼稚園",
+                "分類": "幼稚園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区三田四丁目19番36号",
+                "連絡先": "電話番号：03-3441-8147 ファックス番号：03-5791-5234",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/18.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/18.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.717893",
+                    "35.635884",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "白金幼稚園",
+                "分類": "幼稚園",
+                "地区": "高輪地区",
+                "所在地": "港区白金台五丁目23番11号",
+                "連絡先": "電話番号：03-3441-8497 ファックス番号：03-3442-4090",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/19.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/19.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.743269",
+                    "35.645884",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "聖徳学園三田幼稚園",
+                "分類": "幼稚園",
+                "地区": "芝地区",
+                "所在地": "港区三田三丁目4番28号",
+                "連絡先": "電話番号：03-5476-8811 ファックス番号：03-5476-8820",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/20.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/20.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734271",
+                    "35.661047",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "東洋英和幼稚園",
+                "分類": "幼稚園",
+                "地区": "麻布地区",
+                "所在地": "港区六本木五丁目6番14号",
+                "連絡先": "電話番号：03-3401-3014 ファックス番号：03-3408-3338",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/21.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/21.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.724749",
+                    "35.651159",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "南部坂幼稚園",
+                "分類": "幼稚園",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目5番6号",
+                "連絡先": "電話番号：03-3473-1283 ファックス番号：03-3473-1283",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/22.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/22.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751278",
+                    "35.650636",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "みなと幼稚園",
+                "分類": "幼稚園",
+                "地区": "芝地区",
+                "所在地": "港区芝二丁目25番6号",
+                "連絡先": "電話番号：03-3451-5495 ファックス番号：03-3451-5456",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/23.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/23.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.74685",
+                    "35.657227",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "明徳幼稚園",
+                "分類": "幼稚園",
+                "地区": "芝地区",
+                "所在地": "港区芝公園四丁目7番4号",
+                "連絡先": "電話番号：03-3431-0592 ファックス番号：03-3431-0592",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/24.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/24.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.741829",
+                    "35.667138",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "霊南坂幼稚園",
+                "分類": "幼稚園",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂一丁目14番3号",
+                "連絡先": "電話番号：03-3582-3995 ファックス番号：03-3582-3996",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/25.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/25.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.722463",
+                    "35.657837",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "若葉会幼稚園",
+                "分類": "幼稚園",
+                "地区": "麻布地区",
+                "所在地": "港区西麻布四丁目13番25号",
+                "連絡先": "電話番号：03-3409-0039 ファックス番号：03-3409-4976",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/26.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/yochien/26.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749586",
+                    "35.661084",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "御成門小学校",
+                "分類": "小学校",
+                "地区": "芝地区",
+                "所在地": "港区芝公園三丁目2番4号",
+                "連絡先": "電話：03-3431-2766 ファックス：03-3431-0727",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750176",
+                    "35.651349",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝小学校",
+                "分類": "小学校",
+                "地区": "芝地区",
+                "所在地": "港区芝二丁目21番3号",
+                "連絡先": "電話：03-3456-3072 ファックス：03-3456-3071",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7424793706974",
+                    "35.651824321640824",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤羽小学校",
+                "分類": "小学校",
+                "地区": "芝地区",
+                "所在地": "港区三田二丁目6番2号",
+                "連絡先": "電話：03-3451-1988 ファックス：03-3451-8040",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.746255",
+                    "35.638203",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浦小学校",
+                "分類": "小学校",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦四丁目8番18号",
+                "連絡先": "電話：03-3451-4992 ファックス：03-3451-4949",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7291847450826",
+                    "35.644381139485255",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "御田小学校",
+                "分類": "小学校",
+                "地区": "高輪地区",
+                "所在地": "港区白金３丁目18番２号　　 ※校舎改築に伴い、令和６年４月から仮校舎で運営しています。",
+                "連絡先": "電話：03-3473-3436 ファックス：03-5475-3439",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734367",
+                    "35.63642",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪台小学校",
+                "分類": "小学校",
+                "地区": "高輪地区",
+                "所在地": "港区高輪二丁目8番24号",
+                "連絡先": "電話：03-5447-0616 ファックス：03-5447-5335",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.728568",
+                    "35.636912",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "白金小学校",
+                "分類": "小学校",
+                "地区": "高輪地区",
+                "所在地": "港区白金台一丁目4番26号",
+                "連絡先": "電話：03-3441-5407 ファックス：03-3441-8895",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/07.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/07.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726835",
+                    "35.6437",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "白金の丘学園　白金の丘小学校",
+                "分類": "小学校",
+                "地区": "高輪地区",
+                "所在地": "港区白金四丁目1番12号",
+                "連絡先": "電話：03-3441-5363 ファックス：03-3441-0762",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/08.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/08.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749618",
+                    "35.629326",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "港南小学校",
+                "分類": "小学校",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目3番28号",
+                "連絡先": "電話：03-3474-1501 ファックス：03-3474-1500",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/10.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/10.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.738551",
+                    "35.662043",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "麻布小学校",
+                "分類": "小学校",
+                "地区": "麻布地区",
+                "所在地": "港区麻布台一丁目5番15号",
+                "連絡先": "電話：03-3583-0014 ファックス：03-3583-7223",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/11.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/11.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731122",
+                    "35.657344",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "南山小学校",
+                "分類": "小学校",
+                "地区": "麻布地区",
+                "所在地": "港区元麻布三丁目8番15号",
+                "連絡先": "電話：03-3403-5773 ファックス：03-3408-4532",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/12.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/12.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.729979",
+                    "35.64993",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "本村小学校",
+                "分類": "小学校",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布三丁目9番33号",
+                "連絡先": "電話：03-3473-1462 ファックス：03-3443-8535",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/13.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/13.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.72491",
+                    "35.656564",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "笄小学校",
+                "分類": "小学校",
+                "地区": "麻布地区",
+                "所在地": "港区西麻布三丁目11番16号",
+                "連絡先": "電話：03-3404-1530 ファックス：03-3408-4079",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/14.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/14.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735848",
+                    "35.650937",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "東町小学校",
+                "分類": "小学校",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布一丁目8番11号",
+                "連絡先": "電話：03-3451-7726 ファックス：03-3451-7711",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/15.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/15.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.73102",
+                    "35.669408",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂小学校",
+                "分類": "小学校",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂八丁目13番29号",
+                "連絡先": "電話：03-3404-8602 ファックス：03-3404-8601",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/16.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/16.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.719009",
+                    "35.669901",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "青山小学校",
+                "分類": "小学校",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山二丁目21番2号",
+                "連絡先": "電話：03-3403-5588 ファックス：03-3403-5589",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/17.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/17.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.716123",
+                    "35.663616",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "青南小学校",
+                "分類": "小学校",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山四丁目21番15号",
+                "連絡先": "電話：03-3404-8608 ファックス：03-3404-8600",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/18.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/18.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.777116",
+                    "35.633708",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "お台場学園　港陽小学校",
+                "分類": "小学校",
+                "地区": "芝浦港南地区",
+                "所在地": "港区台場一丁目1番5号",
+                "連絡先": "電話：03-5500-2572 ファックス：03-5500-2571",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/19.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/19.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750385",
+                    "35.661742",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "御成門中学校",
+                "分類": "中学校",
+                "地区": "芝地区",
+                "所在地": "港区西新橋三丁目25番30号",
+                "連絡先": "電話：03-3436-3568 ファックス：03-3436-3552",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.740831",
+                    "35.645357",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "三田中学校",
+                "分類": "中学校",
+                "地区": "高輪地区",
+                "所在地": "港区三田四丁目13番13号",
+                "連絡先": "電話：03-5441-7348 ファックス：03-5441-2699",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734131",
+                    "35.640627",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高松中学校",
+                "分類": "中学校",
+                "地区": "高輪地区",
+                "所在地": "港区高輪一丁目16番25号",
+                "連絡先": "電話：03-3441-6239 ファックス：03-3441-6230",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749119",
+                    "35.631301",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "港南中学校",
+                "分類": "中学校",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目3番3号",
+                "連絡先": "電話：03-3471-0238 ファックス：03-3471-0239",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726835",
+                    "35.6437",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "白金の丘学園　白金の丘中学校",
+                "分類": "中学校",
+                "地区": "高輪地区",
+                "所在地": "港区白金四丁目1番12号",
+                "連絡先": "電話：03-3441-5361 ファックス：03-3441-0761",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.732184",
+                    "35.660552",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "六本木中学校",
+                "分類": "中学校",
+                "地区": "麻布地区",
+                "所在地": "港区六本木六丁目8番16号",
+                "連絡先": "電話：03-3404-8855 ファックス：03-3404-8856",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.720543",
+                    "35.65703",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高陵中学校",
+                "分類": "中学校",
+                "地区": "麻布地区",
+                "所在地": "港区西麻布四丁目14番8号",
+                "連絡先": "電話：03-3409-7687 ファックス：03-3406-1495",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/07.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/07.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.73168820383566",
+                    "35.66806326009347",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂中学校",
+                "分類": "中学校",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂九丁目2番3号",
+                "連絡先": "電話：03-3402-9306 ファックス：03-3402-9302",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/08.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/08.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.722158",
+                    "35.674389",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "青山中学校",
+                "分類": "中学校",
+                "地区": "赤坂地区",
+                "所在地": "港区北青山一丁目1番9号",
+                "連絡先": "電話：03-3404-7522 ファックス：03-3404-7523",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/09.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/09.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.777132",
+                    "35.634209",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "お台場学園　港陽中学校",
+                "分類": "中学校",
+                "地区": "芝浦港南地区",
+                "所在地": "港区台場一丁目1番5号",
+                "連絡先": "電話：03-5500-2575 ファックス：03-5500-2574",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/10.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/chu/10.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.743524",
+                    "35.655919",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "飯倉学童クラブ",
+                "分類": "児童館・飯倉学童クラブ",
+                "地区": "麻布地区",
+                "所在地": "港区東麻布一丁目21番2号",
+                "連絡先": "電話：03-3583-6355 ファックス：03-3583-4364",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735722",
+                    "35.633222",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪児童館",
+                "分類": "児童館・飯倉学童クラブ",
+                "地区": "高輪地区",
+                "所在地": "港区高輪三丁目18番15号",
+                "連絡先": "電話：03-3449-1642 ファックス：03-3449-0819",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/07.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/07.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.739584",
+                    "35.646538",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "豊岡児童館",
+                "分類": "児童館・飯倉学童クラブ",
+                "地区": "高輪地区",
+                "所在地": "港区三田五丁目7番7号",
+                "連絡先": "電話：03-3453-1592 ファックス：03-3453-0624",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/08.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/08.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.72499",
+                    "35.637797",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "白金台児童館",
+                "分類": "児童館・飯倉学童クラブ",
+                "地区": "高輪地区",
+                "所在地": "港区白金台四丁目8番5号",
+                "連絡先": "電話：03-3444-1899 ファックス：03-3444-1647",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/09.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/09.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.777095",
+                    "35.630093",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "台場児童館",
+                "分類": "児童館・飯倉学童クラブ",
+                "地区": "芝浦港南地区",
+                "所在地": "港区台場一丁目5番1号",
+                "連絡先": "電話：03-5500-2363 ファックス：03-5500-2369",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/10.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/10.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.73765",
+                    "35.670071",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂子ども中高生プラザ(なんで～も)",
+                "分類": "子ども中高生プラザ・児童高齢者交流プラザ",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂六丁目6番14号",
+                "連絡先": "電話番号：03-5561-7830 ファックス番号：03-5561-7836",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/11.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/11.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749972",
+                    "35.631151",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "港南子ども中高生プラザ(プラリバ）",
+                "分類": "子ども中高生プラザ・児童高齢者交流プラザ",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目3番7号",
+                "連絡先": "電話番号：03-3450-9576 ファックス番号：03-3450-9515",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/12.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/12.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734778",
+                    "35.642362",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪子ども中高生プラザ（TAP（たっぷ））",
+                "分類": "子ども中高生プラザ・児童高齢者交流プラザ",
+                "地区": "高輪地区",
+                "所在地": "港区高輪一丁目4番35号",
+                "連絡先": "電話番号：03-3443-1555 ファックス番号：03-3443-3433",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/13.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/13.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.713122",
+                    "35.662774",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "子ども家庭支援センター（みなとキッズサポートセンター）",
+                "分類": "子育てひろば・子育て関連施設",
+                "地区": "芝地区",
+                "所在地": "港区南青山五丁目7番11号",
+                "連絡先": "電話：03-5962-7201 港区子ども家庭相談ダイヤル：03-5962-7215 ファックス：03-5962-7205",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/14.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/14.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.752402",
+                    "35.640413",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浦アイランド児童高齢者交流プラザ（あいぷら）",
+                "分類": "子ども中高生プラザ・児童高齢者交流プラザ",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦四丁目20番1号",
+                "連絡先": "電話番号：03-5443-7338 ファックス番号：03-5443-2512",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/15.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/15.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.718451",
+                    "35.669903",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "子育てひろば　あい・ぽーと",
+                "分類": "子育てひろば・子育て関連施設",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山二丁目25番1号",
+                "連絡先": "電話：03-5786-3250 ファックス：03-5786-3256",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/17.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/17.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.743229",
+                    "35.629186",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "子育てひろば　あっぴぃ港南",
+                "分類": "子育てひろば・子育て関連施設",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南二丁目3番13号　品川フロントビル　キッズ館3階",
+                "連絡先": "電話：03-6712-0688 ファックス：03-6712-0689",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/18.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/18.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.774373",
+                    "35.628175",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "子育てひろば　あっぴぃ台場",
+                "分類": "子育てひろば・子育て関連施設",
+                "地区": "芝浦港南地区",
+                "所在地": "港区台場一丁目7番1号　アクアシティお台場4F",
+                "連絡先": "電話番号：03-5520-9061 ファックス番号：03-5520-9062",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/19.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/19.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735818",
+                    "35.657508",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "子育てひろば　あっぴぃ麻布",
+                "分類": "子育てひろば・子育て関連施設",
+                "地区": "麻布地区",
+                "所在地": "港区六本木五丁目12番24号 港区立麻布図書館　1階",
+                "連絡先": "電話：03-5114-9900 ファックス：03-5114-9911",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/20.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/20.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.747741",
+                    "35.648186",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "みなと子育て応援プラザPokke",
+                "分類": "子育てひろば・子育て関連施設",
+                "地区": "芝地区",
+                "所在地": "港区芝五丁目18番1-102号",
+                "連絡先": "電話：03-6435-0411 ファックス：03-6435-0412",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/21.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/21.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.007617",
+                    "35.270289",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "箱根ニコニコ高原学園",
+                "分類": "その他の教育施設",
+                "地区": "港区外",
+                "所在地": "神奈川県足柄下郡箱根町仙石原502番地",
+                "連絡先": "箱根ニコニコ高原学園 電話：0460-84-8103  申込方法などの問い合わせ 学務課　学校運営支援係 電話：03-3578-2111（代表） （内線：2726から2734）",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sonohoka/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sonohoka/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.745744",
+                    "35.666068",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "教育センター",
+                "分類": "その他の教育施設",
+                "地区": "高輪地区",
+                "所在地": "港区虎ノ門三丁目6番9号",
+                "連絡先": "電話：03-5422-1541(代表） ファックス：03-5422-1547  来所相談・電話相談については関連リンク「教育相談」のページをご覧ください。",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sonohoka/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sonohoka/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.757421",
+                    "35.658802",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "神明保育園",
+                "分類": "区立認可保育園",
+                "地区": "芝地区",
+                "所在地": "港区浜松町一丁目6番7号",
+                "連絡先": "電話：03-5733-6822 ファックス：03-3433-2055",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/48.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/48.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.757469",
+                    "35.658743",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "神明子ども中高生プラザ",
+                "分類": "子ども中高生プラザ・児童高齢者交流プラザ",
+                "地区": "芝地区",
+                "所在地": "港区浜松町一丁目6番7号",
+                "連絡先": "電話番号：03-5733-5199 ファックス番号：03-6809-2625",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/22.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/22.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.722595",
+                    "35.654921",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ポピンズナーサリースクール広尾",
+                "分類": "認証保育所",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布五丁目1番11号　Qiz広尾3F",
+                "連絡先": "電話番号：03-5475-2185 ファックス番号：03-5475-2186",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/49.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/49.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.744812",
+                    "35.655455",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ゆらりん東麻布保育園",
+                "分類": "認証保育所",
+                "地区": "麻布地区",
+                "所在地": "港区東麻布一丁目26番2号　SERAPH10 AZABU1・2F",
+                "連絡先": "電話番号：03-6426-5567 ファックス番号：03-6426-5568",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/50.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/50.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749084",
+                    "35.639594",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "アスク芝浦4丁目保育園",
+                "分類": "私立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦四丁目12番28号",
+                "連絡先": "電話番号：03-6435-2855 ファックス番号：03-5765-8280",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/51.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/51.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735832",
+                    "35.650887",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "まなびの森保育園麻布",
+                "分類": "私立認可保育園",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布一丁目8番11号　東町小学校内",
+                "連絡先": "電話番号：03-3455-3066 ファックス番号：03-3455-3066",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/52.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/52.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.745437",
+                    "35.62962",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ゆらりん港南保育園",
+                "分類": "私立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南一丁目6番27号　SSJ品川ビル2F",
+                "連絡先": "電話番号：03-6712-1188 ファックス番号：03-6712-1189",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/53.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/53.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.718306",
+                    "35.66495",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "小学館アカデミー南青山保育園",
+                "分類": "私立認可保育園",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山四丁目15番8号　南青山246ビル",
+                "連絡先": "電話番号：03-5770-1512 ファックス番号：03-5770-1513",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/54.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/54.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749972",
+                    "35.631151",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "たかはま保育園",
+                "分類": "区立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目3番7号",
+                "連絡先": "電話番号：03-5781-0255 ファックス番号：03-5460-9220",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/55.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/55.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.741813",
+                    "35.663588",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "まちの保育園六本木",
+                "分類": "私立認可保育園",
+                "地区": "赤坂地区",
+                "所在地": "港区六本木一丁目9番10号　アークヒルズ仙石山森タワー",
+                "連絡先": "電話番号：03-6441-2478 ファックス番号：03-6441-2479",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/56.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/56.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.74483",
+                    "35.638959",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浦橋保育室",
+                "分類": "港区保育室",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦四丁目6番8号　田町ファーストビル2階",
+                "連絡先": "電話番号：03-6865-1004 ファックス番号：03-6865-1005",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/59.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/59.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.73367",
+                    "35.645795",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "志田町保育室",
+                "分類": "港区保育室",
+                "地区": "高輪地区",
+                "所在地": "港区白金一丁目11番16号",
+                "連絡先": "電話番号：03-6277-2582 ファックス番号：03-6277-2583",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/60.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/60.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.754025",
+                    "35.662317",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "子育てひろば　あっぴぃ新橋",
+                "分類": "子育てひろば・子育て関連施設",
+                "地区": "芝地区",
+                "所在地": "港区新橋六丁目4番2号　きらきらプラザ新橋2・3階",
+                "連絡先": "電話：03-5425-7525 ファックス：03-5425-7526",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/23.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/23.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.74357",
+                    "35.654526",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "アイグラン保育園赤羽橋",
+                "分類": "私立認可保育園",
+                "地区": "芝地区",
+                "所在地": "港区三田一丁目3番31号　Forecast三田 2階",
+                "連絡先": "電話番号：03-6453-9325 ファックス番号：03-6453-9326",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/62.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/62.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.754543",
+                    "35.644138",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "にじのいるか保育園芝浦",
+                "分類": "私立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦二丁目3番31号　高取ビル 2階",
+                "連絡先": "電話番号：03-6435-3804 ファックス番号：03-6435-3805",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/63.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/63.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.727326",
+                    "35.657381",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "アイグラン保育園元麻布",
+                "分類": "私立認可保育園",
+                "地区": "麻布地区",
+                "所在地": "港区元麻布三丁目2番19号　MOMON六本木ビル 2階",
+                "連絡先": "電話番号：03-6447-1871 ファックス番号：03-6447-1872",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/64.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/64.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.733517",
+                    "35.643907",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ゆらりん白金保育園",
+                "分類": "私立認可保育園",
+                "地区": "高輪地区",
+                "所在地": "港区白金一丁目26番10号　白金K-FLAT 1階、2階の一部",
+                "連絡先": "電話番号：03-6409-6310 ファックス番号：03-6409-6311",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/65.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/65.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.741663",
+                    "35.662894",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "まちの保育園六本木分園",
+                "分類": "私立認可保育園",
+                "地区": "麻布地区",
+                "所在地": "港区虎ノ門5丁目5番1号　アークヒルズ仙石山テラス103",
+                "連絡先": "電話番号：03-6450-1726 ファックス番号：03-6450-1746",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/66.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/66.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.727149",
+                    "35.646992",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "太陽の子南麻布保育園",
+                "分類": "私立認可保育園",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目11番30号　南麻布渋谷ビル　2階",
+                "連絡先": "電話番号：03-5488-8070 ファックス番号：03-5488-8071",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/67.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/67.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.725591",
+                    "35.671674",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "アイグラン保育園青山一丁目",
+                "分類": "私立認可保育園",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山一丁目3番1号　パークアクシス青山一丁目タワー2階",
+                "連絡先": "電話番号：03-6459-2860 ファックス番号：03-6459-2861",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/68.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/68.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.719068",
+                    "35.667301",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "太陽の子南青山保育園",
+                "分類": "私立認可保育園",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山四丁目1番6号　セブン南青山1階、2階",
+                "連絡先": "電話番号：03-5413-5512 ファックス番号：03-5413-5514",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/69.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/69.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737918",
+                    "35.631944",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪夢保育園",
+                "分類": "私立認可保育園",
+                "地区": "高輪地区",
+                "所在地": "港区高輪三丁目25番33号　長田ビル3階",
+                "連絡先": "電話番号：03-5791-9680 ファックス番号：03-3440-9614",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/70.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/70.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.729917",
+                    "35.631759",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ニチイキッズ白金台保育園",
+                "分類": "私立認可保育園",
+                "地区": "高輪地区",
+                "所在地": "港区白金台二丁目26番10号　グリーンオーク高輪台　2階",
+                "連絡先": "電話番号：03-5791-2161 ファックス番号：03-5420-2171",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/71.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/71.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.75292405042907",
+                    "35.64346792662261",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "太陽の子芝浦二丁目保育園",
+                "分類": "私立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦二丁目9番1号　ブランズタワー芝浦2階",
+                "連絡先": "電話番号：03-6435-4635 ファックス番号：03-6435-4640",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/72.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/72.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.746501",
+                    "35.642236",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "太陽の子芝浦三丁目保育園",
+                "分類": "私立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦三丁目20番2号　山楽ビル2階3階",
+                "連絡先": "電話番号：03-5439-6206 ファックス番号：03-5439-6207",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/73.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/73.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.740635",
+                    "35.655004",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "太陽の子三田保育園",
+                "分類": "私立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区三田一丁目2番18号　TTD PLAZAビル2階",
+                "連絡先": "電話番号：03-5439-6390 ファックス番号：03-5439-6391",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/74.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/74.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.72432",
+                    "35.637551",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ポピンズナーサリースクール白金台",
+                "分類": "認証保育所",
+                "地区": "高輪地区",
+                "所在地": "港区白金台四丁目8番16号　ダリアコート白金台1階101号室",
+                "連絡先": "電話番号：03-5789-2166 ファックス番号：03-5789-2167",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/75.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/75.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.747604",
+                    "35.630213",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "子育てひろば あっぴぃ港南四丁目・みなと保育サポート港南四丁目",
+                "分類": "子育てひろば・子育て関連施設",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目2番4号　都営住宅内",
+                "連絡先": "電話：03-5796-8862 ファックス：03-5796-8867",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/24.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/24.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.727544",
+                    "35.650976",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "麻布子ども中高生プラザ",
+                "分類": "子ども中高生プラザ・児童高齢者交流プラザ",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目6番7号",
+                "連絡先": "電話番号：03-5447-0611 ファックス番号：03-5447-0612",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/25.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/25.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.722809",
+                    "35.660764",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "子育てひろば あっぴぃ西麻布",
+                "分類": "子育てひろば・子育て関連施設",
+                "地区": "麻布地区",
+                "所在地": "港区西麻布二丁目13番3号　西麻布いきいきプラザ3階",
+                "連絡先": "電話：03-5467-7175 ファックス：03-5467-2117",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/26.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/26.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735378",
+                    "35.635088",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "桂坂学童クラブ",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "高輪地区",
+                "所在地": "港区高輪二丁目12番24号　高輪桂坂ビル",
+                "連絡先": "電話番号：03-6455-7973 ファックス番号：03-6455-7974",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/28.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/28.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749001",
+                    "35.639616",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浦学童クラブ",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦四丁目12番28号　芝浦中島ビル",
+                "連絡先": "電話番号：03-5439-5680 ファックス番号：03-3455-1680",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/29.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/29.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.742569",
+                    "35.658172",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "東麻布学童クラブ",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "麻布地区",
+                "所在地": "港区東麻布二丁目1番1号　旧飯倉小学校4階",
+                "連絡先": "電話番号：03-3568-1042 ファックス番号：03-3568-1046",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/30.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/30.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735764",
+                    "35.647692",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "南麻布学童クラブ",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布二丁目11番10号　OJビル4階",
+                "連絡先": "電話番号：03-6809-5291 ファックス番号：03-6809-5292",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/31.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/31.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7246147625989",
+                    "35.64374442539137",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "神応学童クラブ",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "高輪地区",
+                "所在地": "港区白金六丁目9番5号　神応ほっとプラザ3階",
+                "連絡先": "電話番号：03-5422-7535 ファックス番号：03-5447-0068",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/32.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/32.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.716788",
+                    "35.664202",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "第二青南保育室",
+                "分類": "港区保育室",
+                "地区": "麻布地区",
+                "所在地": "港区南青山四丁目19番5号",
+                "連絡先": "電話番号：03-5770-5366 ファックス番号：03-3478-3278",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/77.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/77.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750214",
+                    "35.645136",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "しばうら保育園",
+                "分類": "区立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦三丁目1番16号",
+                "連絡先": "電話：03-5232-1130 ファックス：03-5232-1126",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/78.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/78.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750407",
+                    "35.645216",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "子育てひろば　あっぴぃ芝浦",
+                "分類": "子育てひろば・子育て関連施設",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦三丁目1番16号",
+                "連絡先": "電話： 03-5730-3252(代表) 03-5730-3253(乳幼児一時預かり専用)",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/33.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/33.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.753541",
+                    "35.648178",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "太陽の子芝浦一丁目保育園",
+                "分類": "私立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦一丁目9番7号　芝浦おもだかビル2階、3階",
+                "連絡先": "電話番号：03-5439-5251 ファックス番号：03-5439-5252",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/79.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/79.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.746830",
+                    "35.663091",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "グローバルキッズ虎ノ門保育園",
+                "分類": "私立認可保育園",
+                "地区": "芝地区",
+                "所在地": "港区虎ノ門三丁目19番13号　虎ノ門スピリットビル3階",
+                "連絡先": "電話番号：03-5473-7668 ファックス番号：03-6459-0044",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/80.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/80.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735729",
+                    "35.647686",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "アイグラン保育園南麻布",
+                "分類": "私立認可保育園",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布二丁目11番10号　OJビル3階",
+                "連絡先": "電話番号：03-6453-7970 ファックス番号：03-6453-7971",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/81.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/81.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734069",
+                    "35.675503",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂ちとせ保育園",
+                "分類": "私立認可保育園",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂四丁目7番15号　陽栄光和ビル1階",
+                "連絡先": "電話番号：03-6459-1012 ファックス番号：03-6459-1013",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/82.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/82.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.746672",
+                    "35.629617",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "グローバルキッズ港南保育園",
+                "分類": "私立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目1番8号　リバージュ品川2階",
+                "連絡先": "電話番号：03-3450-6130 ファックス番号：03-6712-8825",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/83.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/83.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.738902",
+                    "35.647706",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "太陽の子三田五丁目保育園",
+                "分類": "私立認可保育園",
+                "地区": "芝地区",
+                "所在地": "港区三田五丁目4番3号　三田プラザビル3階",
+                "連絡先": "電話番号：03-5439-6775 ファックス番号：03-5439-6774",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/84.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/84.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.756524",
+                    "35.649696",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "太陽の子シーバンス保育園",
+                "分類": "私立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦一丁目2番2号　シーバンスアモール3階",
+                "連絡先": "電話番号：03-5439-4014 ファックス番号：03-5439-4015",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/85.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/85.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.752593",
+                    "35.651603",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "アスク芝公園保育園",
+                "分類": "私立認可保育園",
+                "地区": "芝地区",
+                "所在地": "港区芝二丁目12番16号",
+                "連絡先": "電話番号：03-5439-9398 ファックス番号：03-6459-4410",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/86.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/86.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.729383",
+                    "35.669165",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "太陽の子赤坂保育園",
+                "分類": "私立認可保育園",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂八丁目12番16号　NOZYAKASAKA1階、2階、3階",
+                "連絡先": "電話番号：03-6434-9431 ファックス番号：03-6434-9432",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/87.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/87.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.736717",
+                    "35.641758",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ゆらりん高輪保育園",
+                "分類": "私立認可保育園",
+                "地区": "高輪地区",
+                "所在地": "港区高輪一丁目5番38号　HUG高輪1階、2階",
+                "連絡先": "電話番号：03-5422-6170 ファックス番号：03-5422-6633",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/88.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/88.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.754970",
+                    "35.647586",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "アンジェリカ田町保育園",
+                "分類": "私立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦一丁目6番41号　グローバルフロントタワー1階",
+                "連絡先": "電話番号：03-6435-2157 ファックス番号：03-6435-2159",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/89.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/89.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750074",
+                    "35.631948",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "港南あおぞら保育園",
+                "分類": "小規模保育事業",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南三丁目8番1号　森永乳業港南ビル1階",
+                "連絡先": "電話番号：03-6712-1988 ファックス番号：03-6712-9807",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/90.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/90.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.754660",
+                    "35.661758",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "こころ新橋保育園",
+                "分類": "私立認可保育園",
+                "地区": "芝地区",
+                "所在地": "港区新橋六丁目4番3号　ル・グラシエルビル7号館2階",
+                "連絡先": "電話番号：03-6432-0941 ファックス番号：03-6432-0942",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/92.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/92.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734475",
+                    "35.652843",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "デイジー保育園麻布十番",
+                "分類": "小規模保育事業",
+                "地区": "麻布地区",
+                "所在地": "港区麻布十番三丁目10番12号　シティ麻布2階",
+                "連絡先": "電話番号：03-6809-6353 ファックス番号：03-6809-6354",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/93.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/93.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.740175",
+                    "35.647077",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ふらわぁきっず保育園三田",
+                "分類": "小規模保育事業",
+                "地区": "芝地区",
+                "所在地": "港区三田5丁目5番7号　三田5ゲートタワー1階",
+                "連絡先": "電話番号：03-6809-5303 ファックス番号：03-6809-5303",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/94.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/94.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751610",
+                    "35.636657",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "五色橋保育室",
+                "分類": "港区保育室",
+                "地区": "芝浦港南地区",
+                "所在地": "港区海岸3丁目5番13号　五色橋ビル1階",
+                "連絡先": "電話番号：03-6435-3201 ファックス番号：03-6435-3202",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/95.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/95.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.741293",
+                    "35.670184",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ポピンズナーサリースクール赤坂",
+                "分類": "認証保育所",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂一丁目8番1号　赤坂インターシティAIR　2階",
+                "連絡先": "電話番号　03-5545-5341 ファックス番号　03-5545-5342",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/96.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/96.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751610",
+                    "35.636657",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "五色橋学童クラブ",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "芝浦港南地区",
+                "所在地": "港区海岸三丁目5番13号　五色橋ビル2階",
+                "連絡先": "電話番号：03-6435-2745 ファックス番号：03-6435-2746",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/34.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/34.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.729839",
+                    "35.668377",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "子育てひろば　あっぴぃ赤坂・みなと保育サポート赤坂",
+                "分類": "子育てひろば・子育て関連施設",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂九丁目4番2号　パークコート赤坂檜町ザ　タワー　2階",
+                "連絡先": "電話： 03-3475-3900(子育てひろば) 03-3475-3902(みなと保育サポート)",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/35.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/35.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726711",
+                    "35.639161",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "子育てひろば　あっぴぃ白金台・みなと保育サポート白金台",
+                "分類": "子育てひろば・子育て関連施設",
+                "地区": "高輪地区",
+                "所在地": "港区白金台四丁目6番2号　ゆかしの杜　1階",
+                "連絡先": "電話： 03-6450-4249(子育てひろば) 03-6450-4298(みなと保育サポート)",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/36.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/36.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751919",
+                    "35.646473",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "しばうら保育園分園",
+                "分類": "区立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦一丁目16番1号",
+                "連絡先": "電話番号：03-6453-6346 ファックス番号：03-6453-6348",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/97.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/97.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.740541",
+                    "35.656018",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "AIAI NURSERY 麻布十番",
+                "分類": "私立認可保育園",
+                "地区": "麻布地区",
+                "所在地": "港区東麻布ニ丁目32番7号",
+                "連絡先": "電話番号：03-5545-5461 ファックス番号：03-5545-5462",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/98.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/98.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.740628",
+                    "35.625593",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ふたばクラブ港南保育園",
+                "分類": "私立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南ニ丁目16番6号　 CanonSタワー",
+                "連絡先": "電話番号：03-6712-9428 ファックス番号：03-6712-9428",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/99.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/99.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.733455",
+                    "35.640918",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪さつき保育園",
+                "分類": "私立認可保育園",
+                "地区": "高輪地区",
+                "所在地": "港区高輪一丁目16番15号　自動車部品会館2階",
+                "連絡先": "電話番号：03-3473-2320 ファックス番号：03-6459-3361",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/100.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/100.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734462",
+                    "35.652841",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "デイジー保育園麻布十番フォレスト",
+                "分類": "小規模保育事業",
+                "地区": "麻布地区",
+                "所在地": "港区麻布十番三丁目10番12号　シティ麻布3階",
+                "連絡先": "電話番号：03-5439-9241 ファックス番号：03-5439-9242",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/101.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/101.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.741080",
+                    "35.670623",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "sakura保育園",
+                "分類": "小規模保育事業",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂ニ丁目12番17号",
+                "連絡先": "電話番号：03-6426-5097 ファックス番号：03-6426-5098",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/102.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/102.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.753168",
+                    "35.647062",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "にじのそら保育園芝浦",
+                "分類": "小規模保育事業",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦一丁目14番6号",
+                "連絡先": "電話番号：03-6722-0425 ファックス番号：03-6722-0426",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/103.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/103.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.723016",
+                    "35.657978",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ここいく保育園西麻布",
+                "分類": "小規模保育事業",
+                "地区": "麻布地区",
+                "所在地": "港区西麻布四丁目10番1号",
+                "連絡先": "電話番号：03-6419-7333 ファックス番号：03-6419-7333",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/104.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/104.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.753382",
+                    "35.663023",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "こころナーサリー新橋",
+                "分類": "小規模保育事業",
+                "地区": "芝地区",
+                "所在地": "港区新橋五丁目35番10号　新橋アネックス1階",
+                "連絡先": "電話番号：03-6435-8377 ファックス番号：03-6435-8378",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/106.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/106.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.754150",
+                    "35.665994",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ふらわぁきっず保育園新橋",
+                "分類": "小規模保育事業",
+                "地区": "芝地区",
+                "所在地": "港区新橋三丁目3番13号　TsaoHibiya　1階",
+                "連絡先": "電話番号：03-6550-8800 ファックス番号：03-6550-8800",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/107.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/107.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731269",
+                    "35.646351",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ちゃいるど・はっぴっぴ!!白金保育園",
+                "分類": "小規模保育事業",
+                "地区": "高輪地区",
+                "所在地": "港区白金三丁目2番9号　1階",
+                "連絡先": "電話番号：080-5875-9716 ファックス番号：03-3499-5260",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/108.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/108.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750758",
+                    "35.653838",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝公園二丁目保育室",
+                "分類": "港区保育室",
+                "地区": "芝地区",
+                "所在地": "港区芝公園ニ丁目12番10号",
+                "連絡先": "電話番号：03-3436-6611 ファックス番号：03-3436-6612",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/109.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/109.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726881",
+                    "35.653495",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "愛育クリニック附属あいいく病児保育室",
+                "分類": "病児・病後児保育室",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布五丁目6番8号",
+                "連絡先": "電話番号：03-5420-6419",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/byouji/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/byouji/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.748896",
+                    "35.643486",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "とようら小児科附属ひまわり保育室",
+                "分類": "病児・病後児保育室",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦三丁目11番5号　第三協栄ビル2階",
+                "連絡先": "電話番号：03-5442-8872",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/byouji/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/byouji/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751840",
+                    "35.638940",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浦こどもクリニック附属芝浦病児保育室",
+                "分類": "病児・病後児保育室",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦四丁目20番4号　芝浦アイランドブルームホームズクリニックモール　ドクターズポート芝浦アイランド1階",
+                "連絡先": "電話番号：03-5730-0117",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/byouji/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/byouji/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.723215",
+                    "35.636224",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "チャイルドケアばんびぃに病児保育室",
+                "分類": "病児・病後児保育室",
+                "地区": "高輪地区",
+                "所在地": "港区白金台三丁目16番8号　クレール白金台2階",
+                "連絡先": "電話番号：03-5424-6003",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/byouji/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/byouji/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734750",
+                    "35.676538",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂山王病児保育室",
+                "分類": "病児・病後児保育室",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂四丁目1番26号　3階",
+                "連絡先": "電話番号：03-6230-3761",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/byouji/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/byouji/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.725501",
+                    "35.671296",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "南青山病後児保育室",
+                "分類": "病児・病後児保育室",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山一丁目3番15号　青山一丁目スクエア内Ｓ棟1階",
+                "連絡先": "電話番号：03-3408-0466",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/byouji/06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/byouji/06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726727",
+                    "35.639144",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ゆかしの杜学童クラブ（白金台学童クラブ）",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "高輪地区",
+                "所在地": "港区白金台四丁目6番2号　ゆかしの杜6階",
+                "連絡先": "電話番号：03-6450-4014 ファックス番号：03-6450-4146",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/37.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/37.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.730247",
+                    "35.645770",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "白金三丁目保育室",
+                "分類": "港区保育室",
+                "地区": "高輪地区",
+                "所在地": "港区白金三丁目7番13号",
+                "連絡先": "電話番号：6455-7171 ファックス番号：6455-7172",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/111.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/111.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.757009",
+                    "35.659910",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "小鳩ナーサリースクール浜離宮",
+                "分類": "私立認可保育園",
+                "地区": "芝地区",
+                "所在地": "港区浜松町一丁目3番1号",
+                "連絡先": "電話番号：03-6432-0123 ファックス番号：03-6432-0122",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/113.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/113.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.743166",
+                    "35.657893",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ふたばクラブ東麻布保育園",
+                "分類": "私立認可保育園",
+                "地区": "麻布地区",
+                "所在地": "港区東麻布一丁目5番6号",
+                "連絡先": "電話番号：03-5797-8728 ファックス番号：03-5797-8729",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/114.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/114.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.730713",
+                    "35.633188",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "えほんのもり白金台保育園",
+                "分類": "私立認可保育園",
+                "地区": "高輪地区",
+                "所在地": "港区白金台二丁目11番3号",
+                "連絡先": "電話番号：03-6450-3546 ファックス番号：03-6450-3547",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/115.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/115.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.733365",
+                    "35.636168",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "さくらさくみらい高輪",
+                "分類": "私立認可保育園",
+                "地区": "高輪地区",
+                "所在地": "港区高輪二丁目6番21号",
+                "連絡先": "電話番号：03-5860-2339 ファックス番号：03-5860-2309",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/116.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/116.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731252",
+                    "35.646602",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ミアヘルサ保育園ひびき白金高輪",
+                "分類": "私立認可保育園",
+                "地区": "高輪地区",
+                "所在地": "港区白金三丁目2番3号",
+                "連絡先": "電話番号：03-5860-2251 ファックス番号：03-5860-2252",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/117.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/117.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.744481",
+                    "35.629603",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ゆらりんはぁと保育園",
+                "分類": "私立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南一丁目8番23号",
+                "連絡先": "電話番号：03-6260-0873 ファックス番号：03-6260-0874",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/118.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/118.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751324",
+                    "35.628838",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ゆらりん港南緑水保育園",
+                "分類": "私立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目7番37号（港南緑水公園内）",
+                "連絡先": "電話番号：03-5781-2781 ファックス番号：03-5781-2782",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/119.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/119.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.747170",
+                    "35.637120",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "デイジー保育園芝浦",
+                "分類": "私立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦四丁目17番3号　芝浦NAビル3階",
+                "連絡先": "電話番号：03-6275-1903 ファックス番号：03-6275-1904",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/120.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/120.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751147",
+                    "35.653351",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ニチイキッズ芝公園保育園",
+                "分類": "私立認可保育園",
+                "地区": "芝地区",
+                "所在地": "港区芝二丁目1番27号　穴水ビル2階",
+                "連絡先": "電話番号：03-5765-5075 ファックス番号：03-5765-5076",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/121.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/121.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.730044",
+                    "35.653119",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "元麻布保育園",
+                "分類": "区立認可保育園",
+                "地区": "麻布地区",
+                "所在地": "港区元麻布二丁目14番12号",
+                "連絡先": "電話番号：03-5422-7338 ファックス番号：03-5422-7998",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/122.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/122.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734143",
+                    "35.651185",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "まなびのもり保育園麻布十番",
+                "分類": "私立認可保育園",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布１丁目１４番１号",
+                "連絡先": "電話番号：03-6436-7887 ファックス番号：03-6436-7887",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/123.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/123.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735835",
+                    "35.657006",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "麻布十番ちとせ保育園",
+                "分類": "私立認可保育園",
+                "地区": "麻布地区",
+                "所在地": "港区麻布十番１丁目３番２号",
+                "連絡先": "電話番号：03-3586-1058 ファックス番号：03-3586-1059",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/124.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/124.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734701",
+                    "35.676410",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂山王保育園",
+                "分類": "私立認可保育園",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂４丁目１番２６号",
+                "連絡先": "電話番号：03-5114-5605 ファックス番号：03-5114-5606",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/125.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/125.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.732984",
+                    "35.675589",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂クレア保育園",
+                "分類": "私立認可保育園",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂４丁目９番３号",
+                "連絡先": "電話番号：03-6812-9268 ファックス番号：03-6812-9269",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/126.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/126.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.736961",
+                    "35.645176",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "うれしい保育園白金高輪",
+                "分類": "私立認可保育園",
+                "地区": "芝地区",
+                "所在地": "港区三田５丁目１７番２号",
+                "連絡先": "電話番号：03-5795-2310 ファックス番号：03-3446-1631",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/127.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/127.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.739791",
+                    "35.640175",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ほっぺるランド高輪二丁目",
+                "分類": "私立認可保育園",
+                "地区": "高輪地区",
+                "所在地": "港区高輪２丁目１６番８号",
+                "連絡先": "電話番号：03-5422-9781 ファックス番号：03-5422-9782",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/128.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/128.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.755963",
+                    "35.642483",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "にじいろ保育園海岸三丁目",
+                "分類": "私立認可保育園",
+                "地区": "芝浦港南地区",
+                "所在地": "港区海岸３丁目１６番６号",
+                "連絡先": "電話番号：03-6722-6865 ファックス番号：03-6722-6866",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/129.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/129.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.712592",
+                    "35.666937",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "おはよう保育園ののあおやま",
+                "分類": "私立認可保育園",
+                "地区": "赤坂地区",
+                "所在地": "港区北青山3丁目4番3号",
+                "連絡先": "電話番号：03-6447-0195 ファックス番号：03-6447-0196",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/130.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/130.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.761607",
+                    "35.654260",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "にじいろ保育園竹芝",
+                "分類": "私立認可保育園",
+                "地区": "芝地区",
+                "所在地": "港区海岸一丁目13番15号　",
+                "連絡先": "電話番号：03-6381-5195 ファックス番号：03-6381-5196",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/131.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/131.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.712219",
+                    "35.667302",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂子ども中高生プラザ青山館（カリッパ）",
+                "分類": "子ども中高生プラザ・児童高齢者交流プラザ",
+                "地区": "赤坂地区",
+                "所在地": "港区北青山三丁目4番1-201号",
+                "連絡先": "電話番号：03-5786-6567 ファックス番号：03-3408-1722",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/39.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/39.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.732414",
+                    "35.664738",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "sakura保育園六本木",
+                "分類": "私立認可保育園",
+                "地区": "麻布地区",
+                "所在地": "港区六本木4丁目5番11号",
+                "連絡先": "電話番号：03-6434-5011",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/132.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/132.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731147",
+                    "35.661008",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "リトルパルズ保育園六本木",
+                "分類": "私立認可保育園",
+                "地区": "麻布地区",
+                "所在地": "港区六本木6丁目5番27号",
+                "連絡先": "電話番号：050-1741-0790",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/133.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/133.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.725008",
+                    "35.635770",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "アイグラン保育園白金台",
+                "分類": "私立認可保育園",
+                "地区": "高輪地区",
+                "所在地": "港区白金台3丁目13番18号",
+                "連絡先": "電話番号：03-6277-4494",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/134.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/134.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750962",
+                    "35.646369",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浜小学校",
+                "分類": "小学校",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦一丁目16番31号",
+                "連絡先": "・電話：03-3769-3051 ・ファックス：03-3769-3050",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/20.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/sho/20.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.757469",
+                    "35.658743",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "神明子ども中高生プラザ学童クラブ",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "芝地区",
+                "所在地": "浜松町1-6-7",
+                "連絡先": "電話番号：03-5733-5199 ファックス番号：03-6809-2625",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/40.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/40.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749586",
+                    "35.661084",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "放課GO→学童クラブおなりもん",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "芝地区",
+                "所在地": "芝公園3-2-4 御成門小学校内",
+                "連絡先": "電話番号：03-3431-2767 ファックス番号：03-3431-2767",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/41.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/41.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750176",
+                    "35.651349",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "放課GO→学童クラブしば",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "芝地区",
+                "所在地": "芝2-21-3 芝小学校内",
+                "連絡先": "電話番号：03-3456-5082 ファックス番号：03-3456-5082",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/42.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/42.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.742537",
+                    "35.653347",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "放課GO→学童クラブあかばね",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "芝地区",
+                "所在地": "三田1-4-52 赤羽小学校内",
+                "連絡先": "電話番号：03-5443-0331 ファックス番号：03-5443-0331",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/43.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/43.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.743524",
+                    "35.655919",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "飯倉学童クラブ",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "麻布地区",
+                "所在地": "東麻布1-21-2",
+                "連絡先": "電話番号：03-3583-6355 ファックス番号：03-3583-4364",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/44.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/44.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.727544",
+                    "35.650976",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "麻布子ども中高生プラザ学童クラブ",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "麻布地区",
+                "所在地": "南麻布4-6-7",
+                "連絡先": "電話番号：03-5447-0611 ファックス番号：03-5447-0612",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/45.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/45.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.738551",
+                    "35.662043",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "放課GO→学童クラブあざぶ",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "麻布地区",
+                "所在地": "麻布台1-5-15 麻布小学校内",
+                "連絡先": "電話番号：03-3583-5883 ファックス番号：03-3583-5883",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/46.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/46.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731122",
+                    "35.657344",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "放課GO→学童クラブなんざん",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "麻布地区",
+                "所在地": "元麻布3-8-15 南山小学校内",
+                "連絡先": "電話番号：03-3470-9699 ファックス番号：03-3470-9699",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/47.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/47.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.729979",
+                    "35.64993",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "放課GO→学童クラブほんむら",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "麻布地区",
+                "所在地": "南麻布3-9-33 本村小学校内",
+                "連絡先": "電話番号：03-3473-4781 ファックス番号：03-3473-4781",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/48.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/48.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.72491",
+                    "35.656564",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "放課GO→学童クラブこうがい",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "麻布地区",
+                "所在地": "西麻布3-11-16 笄小学校内",
+                "連絡先": "電話番号：03-3404-3301 ファックス番号：03-3404-3301",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/49.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/49.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735848",
+                    "35.650937",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "放課GO→学童クラブひがしまち",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "麻布地区",
+                "所在地": "南麻布1-8-11 東町小学校内",
+                "連絡先": "電話番号：03-3451-7728 ファックス番号：03-3451-7728",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/50.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/50.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.73765",
+                    "35.670071",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂子ども中高生プラザ学童クラブ",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "赤坂地区",
+                "所在地": "赤坂6-6-14",
+                "連絡先": "電話番号：03-5561-7830 ファックス番号：03-5561-7836",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/51.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/51.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.712219",
+                    "35.667302",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂子ども中高生プラザ青山館学童クラブ",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "赤坂地区",
+                "所在地": "北青山3-4-1-201号",
+                "連絡先": "電話番号：03-5786-6567 ファックス番号：03-3408-1722",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/52.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/52.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.73102",
+                    "35.669408",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "放課GO→学童クラブあかさか",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "赤坂地区",
+                "所在地": "赤坂8-13-29 赤坂小学校内",
+                "連絡先": "電話番号：03-3404-6931 ファックス番号：03-3404-6931",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/53.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/53.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.719009",
+                    "35.669901",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "放課GO→学童クラブあおやま",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "赤坂地区",
+                "所在地": "南青山2-21-2 青山小学校内",
+                "連絡先": "電話番号：03-5474-2760 ファックス番号：03-5474-2760",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/54.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/54.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.739584",
+                    "35.646538",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "豊岡児童館学童クラブ",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "高輪地区",
+                "所在地": "三田5-7-7",
+                "連絡先": "電話番号：03-3453-1592 ファックス番号：03-3453-0624",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/56.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/56.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735722",
+                    "35.633222",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪児童館学童クラブ",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "高輪地区",
+                "所在地": "高輪3-18-15",
+                "連絡先": "電話番号：03-3449-1642 ファックス番号：03-3449-0819",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/57.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/57.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.72499",
+                    "35.637797",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "白金台児童館学童クラブ",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "高輪地区",
+                "所在地": "白金台4-8-5",
+                "連絡先": "電話番号：03-3444-1899 ファックス番号：03-3444-1647",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/58.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/58.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734846",
+                    "35.642437",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪子ども中高生プラザ学童クラブ",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "高輪地区",
+                "所在地": "高輪1-4-35",
+                "連絡先": "電話番号：03-3443-1555 ファックス番号：03-3443-3433",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/59.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/59.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734367",
+                    "35.63642",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "放課GO→学童クラブたかなわだい",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "高輪地区",
+                "所在地": "高輪2-8-24 高輪台小学校内",
+                "連絡先": "電話番号：03-5449-6911 ファックス番号：03-5449-6912",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/60.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/60.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.728568",
+                    "35.636912",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "放課GO→学童クラブしろかね",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "高輪地区",
+                "所在地": "白金台1-4-26 白金小学校内",
+                "連絡先": "電話番号：03-3440-4321 ファックス番号：03-3440-4321",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/61.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/61.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726835",
+                    "35.6437",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "放課GO→学童クラブしろかねのおか",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "高輪地区",
+                "所在地": "白金4-1-12 白金の丘学園 白金の丘小学校内",
+                "連絡先": "電話番号：03-3441-8395 ファックス番号：03-3441-5539",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/62.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/62.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.777095",
+                    "35.630093",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "台場児童館学童クラブ",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "芝浦港南地区",
+                "所在地": "台場1-5-1",
+                "連絡先": "電話番号：03-5500-2363 ファックス番号：03-5500-2369",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/63.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/63.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749972",
+                    "35.631151",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "港南子ども中高生プラザ学童クラブ",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "芝浦港南地区",
+                "所在地": "港南4-3-7",
+                "連絡先": "電話番号：03-3450-9576 ファックス番号：03-3450-9515",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/64.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/64.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.752402",
+                    "35.640413",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浦アイランド児童高齢者交流プラザ学童クラブ",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "芝浦港南地区",
+                "所在地": "芝浦4-20-1",
+                "連絡先": "電話番号：03-5443-7338 ファックス番号：03-5443-2512",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/65.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/65.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.746255",
+                    "35.638203",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "放課GO→学童クラブしばうら",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "芝浦港南地区",
+                "所在地": "芝浦4-8-18 芝浦小学校内",
+                "連絡先": "電話番号：03-5476-6877 ファックス番号：03-5476-6877",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/66.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/66.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750962",
+                    "35.646369",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "放課GO→学童クラブしばはま",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "芝浦港南地区",
+                "所在地": "芝浦1-16-31 芝浜小学校内",
+                "連絡先": "電話番号：03-5427-4188 ファックス番号：03-5427-4189",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/67.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/67.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749618",
+                    "35.629326",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "放課GO→学童クラブこうなん",
+                "分類": "緊急暫定学童クラブ",
+                "地区": "芝浦港南地区",
+                "所在地": "港南4-3-28 港南小学校敷地内",
+                "連絡先": "電話番号：03-6718-4230 ファックス番号：03-6718-4231",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/68.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/68.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7546016280532",
+                    "35.66161096645643",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "にじいろ保育園新橋",
+                "分類": "私立認可保育園",
+                "地区": "芝地区",
+                "所在地": "港区新橋六丁目11番13号",
+                "連絡先": "電話番号：03-6432-0540 ファックス番号：03-6432-0541",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/135.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/135.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.75536971792482",
+                    "35.659989269737196",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "汐留サーノ保育園",
+                "分類": "私立認可保育園",
+                "地区": "芝地区",
+                "所在地": "港区浜松町一丁目1番11号",
+                "連絡先": "電話番号：03-6452-8944 ファックス番号：03-6452-8966",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/136.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/136.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.72457721175044",
+                    "35.643652877365206",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "神応保育園",
+                "分類": "区立認可保育園",
+                "地区": "高輪地区",
+                "所在地": "港区白金六丁目9番5号　神応ほっとプラザ1・2階",
+                "連絡先": "電話番号：03-5422-6363 ファックス番号：03-5422-6885",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/137.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/137.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.73523043813927",
+                    "35.646175097840086",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "スターチャイルド白金高輪ナーサリー",
+                "分類": "私立認可保育園",
+                "地区": "高輪地区",
+                "所在地": "港区白金一丁目2番1号",
+                "連絡先": "電話番号：03-5421-7061 ファックス番号：03-5338-0267",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/138.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/138.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7202875652131",
+                    "35.66394400160172",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "コスモス西麻布保育園",
+                "分類": "私立認可保育園",
+                "地区": "麻布地区",
+                "所在地": "西麻布二丁目2番2号　NK青山ホームズ1階B",
+                "連絡先": "電話番号：03-6427-3733 ファックス番号：03-6427-3734",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/139.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/hoikuen/139.html</a>"
+            }
+        }
+    ]
+}

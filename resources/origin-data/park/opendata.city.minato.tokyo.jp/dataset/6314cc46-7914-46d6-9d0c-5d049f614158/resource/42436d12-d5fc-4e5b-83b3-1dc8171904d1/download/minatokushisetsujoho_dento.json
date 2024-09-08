@@ -1,0 +1,62 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726711",
+                    "35.639161",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "郷土歴史館",
+                "分類": "郷土歴史館",
+                "地区": "芝地区",
+                "所在地": "港区白金台四丁目6番2号　ゆかしの杜",
+                "連絡先": "電話番号：03-6450-2107 ファックス番号：03-6450-2137",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/toshokan/kyodo/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/toshokan/kyodo/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.745976",
+                    "35.665942",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "みなと科学館",
+                "分類": "みなと科学館",
+                "地区": "芝地区",
+                "所在地": "港区虎ノ門三丁目6番9号",
+                "連絡先": "電話番号：03-6381-5041",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kagaku/kagaku01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kagaku/kagaku01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.753896",
+                    "35.647708",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "伝統文化交流館",
+                "分類": "伝統文化交流館",
+                "地区": "芝浦港南地区",
+                "所在地": "芝浦1-11-15",
+                "連絡先": "電話番号：03-3455-8451 ",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/dento/koryukan/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/dento/koryukan/01.html</a>"
+            }
+        }
+    ]
+}

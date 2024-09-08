@@ -1,0 +1,43 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.752789",
+                    "35.585904",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "臨海斎場",
+                "分類": "斎場",
+                "地区": "港区外",
+                "所在地": "大田区東海一丁目3番1号",
+                "連絡先": "電話番号：03-5755-2833 ファックス番号：03-3790-5866",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/saijo/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/saijo/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.724349",
+                    "35.665826",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "区民斎場「やすらぎ会館」",
+                "分類": "斎場",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山二丁目34番1号",
+                "連絡先": "電話：03－3470－3117（ファックス兼用）",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/saijo/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/saijo/02.html</a>"
+            }
+        }
+    ]
+}

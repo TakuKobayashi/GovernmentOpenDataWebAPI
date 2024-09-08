@@ -1,0 +1,43 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.07125",
+                    "35.238167",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "大平台みなと荘",
+                "分類": "通年保養施設",
+                "地区": "港区外",
+                "所在地": "〒250-0405 神奈川県足柄下郡箱根町大平台294",
+                "連絡先": "電話：0460-86-1122 ファックス：0460-86-1124",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hoyo/tsunen/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hoyo/tsunen/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.069189",
+                    "34.818138",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "熱川プリンスホテル",
+                "分類": "通年保養施設",
+                "地区": "港区外",
+                "所在地": "〒413-0302 静岡県賀茂郡東伊豆町奈良本1248-3",
+                "連絡先": "電話：0557-23-1234",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hoyo/tsunen/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hoyo/tsunen/03.html</a>"
+            }
+        }
+    ]
+}

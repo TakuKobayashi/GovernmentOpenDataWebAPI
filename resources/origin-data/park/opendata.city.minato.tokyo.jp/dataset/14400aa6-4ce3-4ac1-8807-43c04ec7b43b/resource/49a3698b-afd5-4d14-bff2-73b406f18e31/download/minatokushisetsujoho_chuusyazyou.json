@@ -1,0 +1,784 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.758469",
+                    "35.65649",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "浜松町駅北口自転車等駐車場",
+                "分類": "駐輪場",
+                "地区": "芝地区",
+                "所在地": "港区海岸一丁目2番34号",
+                "連絡先": "電話番号：03-3434-3150",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.748264",
+                    "35.644315",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "田町駅東口自転車等駐車場",
+                "分類": "駐輪場",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦三丁目3番先",
+                "連絡先": "電話番号：03-5443-0590",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.742583",
+                    "35.629712",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "こうなん星の公園自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南一丁目9番24号　港区立こうなん星の公園内",
+                "連絡先": "電話番号：03-6712-9343",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.74185",
+                    "35.628635",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "品川駅港南口自転車等駐車場",
+                "分類": "駐輪場",
+                "地区": "芝浦港南地区",
+                "所在地": "港南二丁目14番6号　港南ふれあい広場地下",
+                "連絡先": "電話番号：03-3472-7931",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.741682",
+                    "35.628966",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "品川駅港南口公共駐車場",
+                "分類": "駐車場",
+                "地区": "芝浦港南地区",
+                "所在地": "港南二丁目14番17号（港南ふれあい広場地下）",
+                "連絡先": "電話：03-3472-7921 ファックス：03-3472-2772 定期利用（月極利用）：下記関連リンクをご参照ください。  管理・運営 タイムズ24株式会社・タイムズサービス株式会社グループ",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734507",
+                    "35.657052",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "麻布十番公共駐車場",
+                "分類": "駐車場",
+                "地区": "麻布地区",
+                "所在地": "麻布十番一丁目4番10号",
+                "連絡先": "問い合わせ 麻布十番公共駐車場 電話：03-3583-5910 ファックス：03-3583-5906 定期利用（月極利用）：下記関連リンクをご参照ください。  管理・運営 タイムズ２４株式会社・タイムズサービス株式会社",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734595",
+                    "35.643382",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "白金高輪駅自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "高輪地区",
+                "所在地": "港区高輪一丁目3番20号先",
+                "連絡先": "電話番号：03-3440-6191",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/07.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/07.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.75763",
+                    "35.643999",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "海岸三丁目自転車等一時保管所",
+                "分類": "撤去自転車等一時保管所",
+                "地区": "芝浦港南地区",
+                "所在地": "港区海岸三丁目23番3号",
+                "連絡先": "電話番号：03-3452-3710",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/tekkyo/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/tekkyo/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.744318",
+                    "35.623845",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "東八ツ山自転車等一時保管所",
+                "分類": "撤去自転車等一時保管所",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南二丁目10番20号",
+                "連絡先": "電話番号：03-3474-0031",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/tekkyo/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/tekkyo/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734786",
+                    "35.643391",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "白金高輪駅自転車一時保管所",
+                "分類": "撤去自転車等一時保管所",
+                "地区": "高輪地区",
+                "所在地": "港区高輪一丁目3番20先",
+                "連絡先": "電話番号：03-3446-2783",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/tekkyo/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/tekkyo/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.724851",
+                    "35.672175",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "青山一丁目駅前暫定自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山一丁目1番先",
+                "連絡先": "電話番号：03-3667-4978 サイカパーキング(株)",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/aoyama.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/aoyama.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.757359",
+                    "35.640618",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浦ふ頭駅前暫定自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "芝浦港南地区",
+                "所在地": "港区海岸三丁目22番先",
+                "連絡先": "電話番号：0120-3566-21 NCDサポートセンター",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/shibaurafuto.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/shibaurafuto.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.744292",
+                    "35.644033",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "田町駅西口第1暫定自転車等駐車場",
+                "分類": "駐輪場",
+                "地区": "芝地区",
+                "所在地": "港区芝五丁目37番先",
+                "連絡先": "電話番号：0120-3566-21 NCDサポートセンター",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/tamachi-nishi-01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/tamachi-nishi-01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.748518",
+                    "35.64809",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "田町駅西口第2・第3・第6暫定自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "芝地区",
+                "所在地": "港区芝五丁目18番2号",
+                "連絡先": "電話番号：0120-3566-21 NCDサポートセンター",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/tamachi-nishi-02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/tamachi-nishi-02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.713349",
+                    "35.665787",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "表参道駅前暫定自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山三丁目13番",
+                "連絡先": "電話番号：03-3667-4978 サイカパーキング(株)",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/omotesandou.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/omotesandou.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735714",
+                    "35.67781",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂見附駅前暫定自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "赤坂地区",
+                "所在地": "港区元赤坂一丁目2番先",
+                "連絡先": "電話番号：03-3667-4978 サイカパーキング(株)",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/akasaka.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/akasaka.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.725291",
+                    "35.666057",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "乃木坂駅暫定自転車等置場",
+                "分類": "駐輪場",
+                "地区": "赤坂地区",
+                "所在地": "港区六本木七丁目1番先",
+                "連絡先": "電話番号：03-5114-8815 麻布地区総合支所　まちづくり課",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/nogizaka.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/nogizaka.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734198",
+                    "35.642454",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "松ヶ丘暫定自転車置場",
+                "分類": "駐輪場",
+                "地区": "高輪地区",
+                "所在地": "港区高輪一丁目4番35号",
+                "連絡先": "電話番号：03-5421-7664 高輪地区総合支所　まちづくり課",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/matsugaoka.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/matsugaoka.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726334",
+                    "35.638334",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "白金台駅自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "高輪地区",
+                "所在地": "港区白金台四丁目6番2号",
+                "連絡先": "電話番号：03-6450-4347",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/shirogane.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/shirogane.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.757783",
+                    "35.647005",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "海岸二丁目自転車等一時保管所",
+                "分類": "撤去自転車等一時保管所",
+                "地区": "芝浦港南地区",
+                "所在地": "港区海岸二丁目4番2号",
+                "連絡先": "電話番号：03-3454-5021",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/tekkyo/kaigan2tyoume.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/tekkyo/kaigan2tyoume.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.733836",
+                    "35.664518",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "三河台公園自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "麻布地区",
+                "所在地": "港区六本木四丁目2番27号　港区立三河台公園内",
+                "連絡先": "電話番号：03-3408-5135",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/mikawadai.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/mikawadai.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.738165",
+                    "35.625864",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "品川駅高輪口自転車一時保管所",
+                "分類": "撤去自転車等一時保管所",
+                "地区": "高輪地区",
+                "所在地": "港区港南二丁目66番14号（地番） 港区高輪三丁目26番先（住居表示）",
+                "連絡先": "電話番号：03-3442-3508",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/tekkyo/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/tekkyo/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.738197",
+                    "35.625881",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "品川駅高輪口第一暫定自転車等駐車場",
+                "分類": "駐輪場",
+                "地区": "高輪地区",
+                "所在地": "港区港南二丁目66番14号（地番） 港区高輪三丁目26番先（住居表示）",
+                "連絡先": "電話番号：0120-3566-21 NCDサポートセンター",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/shinagawa-takanawa-01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/shinagawa-takanawa-01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737167",
+                    "35.629195",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "品川駅高輪口第二暫定自転車等駐車場",
+                "分類": "駐輪場",
+                "地区": "高輪地区",
+                "所在地": "港区高輪三丁目13番先",
+                "連絡先": "電話番号：0120-3566-21 NCDサポートセンター",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/shinagawa-takanawa-02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/shinagawa-takanawa-02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.747676",
+                    "35.645775",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "田町駅西口第4暫定自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "芝地区",
+                "所在地": "港区芝五丁目33番先",
+                "連絡先": "電話番号：0120-3566-21 NCDサポートセンター",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/tamachinishiguchi4-5.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/tamachinishiguchi4-5.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.722061",
+                    "35.653180",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "広尾駅自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布五丁目1番25号",
+                "連絡先": "電話番号：03-5420-1171",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/12.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/12.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.756518",
+                    "35.665097",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "桜田公園自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "芝地区",
+                "所在地": "港区新橋三丁目16番15号",
+                "連絡先": "電話番号：03-3432-9090",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/13.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/13.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734004",
+                    "35.657149",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "麻布十番駅自転車等駐車場",
+                "分類": "駐輪場",
+                "地区": "麻布地区",
+                "所在地": "港区麻布十番一丁目4番14号",
+                "連絡先": "電話番号：4213-8016 ECOPOOLサポートセンター",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/15.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/15.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.730681",
+                    "35.661772",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "六本木駅自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "麻布地区",
+                "所在地": "港区六本木六丁目5番19号",
+                "連絡先": "電話番号：03-3470-4186",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/16.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/16.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.778594",
+                    "35.628088",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "お台場海浜公園駅自転車等一時保管所",
+                "分類": "撤去自転車等一時保管所",
+                "地区": "芝浦港南地区",
+                "所在地": "港区台場二丁目３先（テレポートブリッジの下にあります。）",
+                "連絡先": "電話番号：03-3529-5150",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/tekkyo/06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/tekkyo/06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.757770",
+                    "35.667614",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "新橋駅第1暫定自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "芝地区",
+                "所在地": "新橋二丁目７番先",
+                "連絡先": "電話番号：0120-3566-21 NCDサポートセンター",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/19.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/19.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.758626",
+                    "35.665425",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "新橋駅第2暫定自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "芝地区",
+                "所在地": "新橋三丁目25先",
+                "連絡先": "電話番号：0120-3566-21 NCDサポートセンター",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/20.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/20.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7384410476636",
+                    "35.63419337266489",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪ゲートウェイ駅第1暫定自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "高輪地区",
+                "所在地": "港区高輪二丁目21番地内",
+                "連絡先": "ビシクレット・NCD共同企業体 電話番号：0120-3566-21",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/21.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/21.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7384410476636",
+                    "35.63419337266489",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪ゲートウェイ駅第2暫定自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "高輪地区",
+                "所在地": "港区高輪二丁目21番地内",
+                "連絡先": "ビシクレット・NCD共同企業体 電話番号：0120-3566-21",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/22.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/22.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.74997240102044",
+                    "35.652713037474044",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝公園駅第1暫定自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "芝地区",
+                "所在地": "港区芝二丁目7番先",
+                "連絡先": "電話番号：0120-3566-21 NCDサポートセンター",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/shibakoen-1.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/shibakoen-1.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.74970954454838",
+                    "35.654361788576615",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝公園駅第2暫定自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "芝地区",
+                "所在地": "芝公園四丁目8番先",
+                "連絡先": "電話番号：0120-3566-21 NCDサポートセンター",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/shibakoen-2.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/shibakoen-2.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.75269463556927",
+                    "35.67016813440484",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "日比谷フォートタワー駐輪場（民設民営自転車駐車場）",
+                "分類": "駐輪場",
+                "地区": "芝地区",
+                "所在地": "港区西新橋一丁目1番1号　日比谷FORT TOWER（日比谷フォートタワー）内",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/23.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/23.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7473119398898",
+                    "35.668265811774404",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "T-LITE地下2階公共的駐輪場（民設民営自転車駐車場）",
+                "分類": "駐輪場",
+                "地区": "芝地区",
+                "所在地": "港区虎ノ門二丁目４番７号　T-LITE（トライト）地下2階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/24.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/24.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7378509732211",
+                    "35.656015616917244",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "一の橋公園自転車駐車場",
+                "分類": "駐輪場",
+                "地区": "麻布地区",
+                "所在地": "港区東麻布三丁目9番1号　港区立一の橋公園内",
+                "連絡先": "電話番号：03-3587-6653",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/25.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/25.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7485596597526",
+                    "35.647138123840165",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "田町タワー駐輪場（民設民営自転車駐車場）",
+                "分類": "駐輪場",
+                "地区": "芝地区",
+                "所在地": "港区芝五丁目33番11号　田町タワー内",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/26.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/26.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.71306658964102",
+                    "35.66837105911279",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "北青山三丁目自転車暫定置場",
+                "分類": "駐輪場",
+                "地区": "赤坂地区",
+                "所在地": "港区北青山三丁目4番",
+                "連絡先": "電話番号：050-3539-5063（みんちゅう窓口） アイキューソフィア（株）",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/27.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/27.html</a>"
+            }
+        }
+    ]
+}

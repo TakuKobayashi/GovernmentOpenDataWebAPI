@@ -1,0 +1,195 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.757163",
+                    "35.658767",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "シティハイツ神明",
+                "分類": "シティハイツ",
+                "地区": "芝地区",
+                "所在地": "浜松町1-13-1",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/city-heights/shiba/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/city-heights/shiba/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.730802",
+                    "35.661003",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "シティハイツ六本木",
+                "分類": "シティハイツ",
+                "地区": "麻布地区",
+                "所在地": "六本木6-5-25",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/city-heights/azabu/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/city-heights/azabu/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734248",
+                    "35.673299",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "シティハイツ一ツ木",
+                "分類": "シティハイツ",
+                "地区": "赤坂地区",
+                "所在地": "赤坂5-2-50",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/city-heights/akasaka/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/city-heights/akasaka/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737943",
+                    "35.634398",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "シティハイツ桂坂",
+                "分類": "シティハイツ",
+                "地区": "高輪地区",
+                "所在地": "高輪2-13-8",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/city-heights/takanawa/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/city-heights/takanawa/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.730306",
+                    "35.645905",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "シティハイツ白金",
+                "分類": "シティハイツ",
+                "地区": "高輪地区",
+                "所在地": "白金3-7-9",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/city-heights/takanawa/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/city-heights/takanawa/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.740239",
+                    "35.637762",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "（仮称）シティハイツ車町",
+                "分類": "シティハイツ",
+                "地区": "高輪地区",
+                "所在地": "高輪2-19（予定）",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/city-heights/takanawa/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/city-heights/takanawa/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749676",
+                    "35.633092",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "シティハイツ港南等",
+                "分類": "シティハイツ",
+                "地区": "芝浦港南地区",
+                "所在地": "港南3-3-17",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/city-heights/konan/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/city-heights/konan/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.747921",
+                    "35.643438",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "シティハイツ芝浦",
+                "分類": "シティハイツ",
+                "地区": "芝浦港南地区",
+                "所在地": "芝浦3-5-34",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/city-heights/konan/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/city-heights/konan/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.748278",
+                    "35.643607",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "シティハイツ第2芝浦",
+                "分類": "シティハイツ",
+                "地区": "芝浦港南地区",
+                "所在地": "芝浦3-5-35",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/city-heights/konan/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/city-heights/konan/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.743712",
+                    "35.637677",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "シティハイツ高浜",
+                "分類": "シティハイツ",
+                "地区": "芝浦港南地区",
+                "所在地": "港南1-1-27",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/city-heights/konan/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/city-heights/konan/04.html</a>"
+            }
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.777081",
+                    "35.630048",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "台場区民センター",
+                "分類": "区民センター",
+                "地区": "芝浦港南地区",
+                "所在地": "港区台場一丁目5番1号　台場コミュニティーぷらざ内",
+                "連絡先": "電話番号：03-5500-2355 ファックス番号：03-5500-2367",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kumincenter/kumincenter/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kumincenter/kumincenter/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.748642",
+                    "35.640607",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浦港南区民センター",
+                "分類": "区民センター",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦四丁目13番1号　トリニティー芝浦1・2階",
+                "連絡先": "電話番号：03-3769-8864 ファックス番号：03-3798-4553",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kumincenter/kumincenter/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kumincenter/kumincenter/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735016",
+                    "35.660753",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "麻布区民センター",
+                "分類": "区民センター",
+                "地区": "麻布地区",
+                "所在地": "港区六本木五丁目16番45号",
+                "連絡先": "電話番号：03-3583-5487 ファックス番号：03-3583-5547",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kumincenter/kumincenter/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kumincenter/kumincenter/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731621",
+                    "35.674864",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂区民センター",
+                "分類": "区民センター",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂四丁目18番13号　赤坂コミュニティーぷらざ内",
+                "連絡先": "電話番号：03-5413-2711 ファックス番号：03-5413-2714",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kumincenter/kumincenter/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kumincenter/kumincenter/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734013",
+                    "35.64217",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪区民センター",
+                "分類": "区民センター",
+                "地区": "高輪地区",
+                "所在地": "港区高輪一丁目16番25号　高輪コミュニティーぷらざ内",
+                "連絡先": "電話番号：03-5421-7616 ファックス番号：03-5421-7628",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kumincenter/kumincenter/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kumincenter/kumincenter/05.html</a>"
+            }
+        }
+    ]
+}

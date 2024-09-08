@@ -1,0 +1,43 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.743015",
+                    "35.653988",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "みなと保健所",
+                "分類": "みなと保健所",
+                "地区": "芝地区",
+                "所在地": "〒108-8315　港区三田一丁目4番10号",
+                "連絡先": "電話：（代表）03-6400-0050 ファックス：03-3455-4420",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hokenjo/hokenjo/00.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hokenjo/hokenjo/00.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.741759",
+                    "35.654123",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "障害者歯科診療所（港区口腔保健センター）",
+                "分類": "みなと保健所",
+                "地区": "芝地区",
+                "所在地": "港区三田一丁目4番10号　みなと保健所2階",
+                "連絡先": "平日午前9時～午後5時は、健康推進課健康づくり係へ　電話：6400-0083 診療時間内は、港区口腔保健センターへ　電話：3455-4927",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hokenjo/hokenjo/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hokenjo/hokenjo/04.html</a>"
+            }
+        }
+    ]
+}

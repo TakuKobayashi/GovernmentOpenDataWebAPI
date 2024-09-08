@@ -1,0 +1,423 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.756708",
+                    "35.665199",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "桜田公園　土のう置き場",
+                "分類": "土のう",
+                "地区": "芝地区",
+                "所在地": "新橋三丁目16番15号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.754772",
+                    "35.663076",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "塩釜公園　土のう置き場",
+                "分類": "土のう",
+                "地区": "芝地区",
+                "所在地": "新橋五丁目19番7号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.752715",
+                    "35.666344",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "南桜公園　土のう置き場",
+                "分類": "土のう",
+                "地区": "芝地区",
+                "所在地": "西新橋二丁目10番13号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737385",
+                    "35.654129",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "新広尾公園（小山橋）　土のう置き場",
+                "分類": "土のう",
+                "地区": "麻布地区",
+                "所在地": "麻布十番四丁目5番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.741872",
+                    "35.655071",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "中ノ橋児童遊園　土のう置き場",
+                "分類": "土のう",
+                "地区": "麻布地区",
+                "所在地": "東麻布一丁目30番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737510",
+                    "35.655867",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "一の橋公園　土のう置き場",
+                "分類": "土のう",
+                "地区": "麻布地区",
+                "所在地": "東麻布三丁目9番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737204",
+                    "35.651017",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "南麻布一丁目児童遊園　土のう置き場",
+                "分類": "土のう",
+                "地区": "麻布地区",
+                "所在地": "南麻布一丁目7番29号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735453",
+                    "35.646521",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "古川橋児童遊園　土のう置き場",
+                "分類": "土のう",
+                "地区": "麻布地区",
+                "所在地": "南麻布二丁目15番11号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.720049",
+                    "35.664224",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "笄児童遊園　土のう置き場",
+                "分類": "土のう",
+                "地区": "麻布地区",
+                "所在地": "西麻布二丁目1番2号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.722553",
+                    "35.660002",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "西麻布二丁目植込み地　土のう置き場",
+                "分類": "土のう",
+                "地区": "麻布地区",
+                "所在地": "西麻布二丁目24番",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-07.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-07.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737082",
+                    "35.670835",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "氷川公園　土のう置き場",
+                "分類": "土のう",
+                "地区": "赤坂地区",
+                "所在地": "赤坂六丁目5番4号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/akasaka-01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/akasaka-01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.718966",
+                    "35.669176",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "青山公園　土のう置き場",
+                "分類": "土のう",
+                "地区": "赤坂地区",
+                "所在地": "南青山二丁目21番12号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/akasaka-02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/akasaka-02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.720344",
+                    "35.674966",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "北青山一丁目資材置場裏　土のう置き場",
+                "分類": "土のう",
+                "地区": "赤坂地区",
+                "所在地": "北青山一丁目7番33号先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/akasaka-03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/akasaka-03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.729327",
+                    "35.646753",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "白金公園　土のう置き場",
+                "分類": "土のう",
+                "地区": "高輪地区",
+                "所在地": "白金三丁目1番16号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/takanawa-01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/takanawa-01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.729523",
+                    "35.635299",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "仏所御念会駐車場　土のう置き場",
+                "分類": "土のう",
+                "地区": "高輪地区",
+                "所在地": "白金台二丁目5番",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/takanawa-03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/takanawa-03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735665",
+                    "35.632872",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪公園入口　土のう置き場",
+                "分類": "土のう",
+                "地区": "高輪地区",
+                "所在地": "高輪三丁目21番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/takanawa-05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/takanawa-05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751575",
+                    "35.645622",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浦公園　土のう置き場",
+                "分類": "土のう",
+                "地区": "芝浦港南地区",
+                "所在地": "芝浦一丁目16番25号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/shibaurakonan-01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/shibaurakonan-01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751282",
+                    "35.628834",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "港南緑水公園　土のう置き場",
+                "分類": "土のう",
+                "地区": "芝浦港南地区",
+                "所在地": "港南四丁目7番47号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/shibaurakonan-02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/shibaurakonan-02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731909",
+                    "35.647553",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "古川沿緑地（四之橋）　土のう置き場",
+                "分類": "土のう",
+                "地区": "麻布地区",
+                "所在地": "南麻布三丁目21番",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-08.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-08.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750056",
+                    "35.651917",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝園児童遊園　土のう置き場",
+                "分類": "土のう",
+                "地区": "芝地区",
+                "所在地": "芝二丁目7番12号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.744528",
+                    "35.650528",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "三田二丁目児童遊園　土のう置き場",
+                "分類": "土のう",
+                "地区": "芝地区",
+                "所在地": "三田二丁目20番7号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.754444",
+                    "35.653278",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "浜松町四丁目児童遊園　土のう置き場",
+                "分類": "土のう",
+                "地区": "芝地区",
+                "所在地": "浜松町二丁目13番3号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-06.html</a>"
+            }
+        }
+    ]
+}

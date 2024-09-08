@@ -1,0 +1,43 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749023",
+                    "35.645693",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "消費者センター",
+                "分類": "消費者センター",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦一丁目16番1号　みなとパーク芝浦2階",
+                "連絡先": "消費者センター＜相談専用電話番号＞ 03-3456-6827 ※消費生活相談については関連リンク「消費生活相談」をご覧ください。  代表電話：03-3456-4159 ファックス：03-3453-0458",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/shokokaikan/shohisha/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/shokokaikan/shohisha/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.74476441968093",
+                    "35.64522504360484",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "産業振興センター",
+                "分類": "",
+                "地区": "芝地区",
+                "所在地": "港区芝五丁目36番4号　札の辻スクエア9階、10階、11階",
+                "連絡先": "総合受付 電話：03-6435-0601 ※受付時間は開館時間に準じます。",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/shokokaikan/sangyou.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/shokokaikan/sangyou.html</a>"
+            }
+        }
+    ]
+}

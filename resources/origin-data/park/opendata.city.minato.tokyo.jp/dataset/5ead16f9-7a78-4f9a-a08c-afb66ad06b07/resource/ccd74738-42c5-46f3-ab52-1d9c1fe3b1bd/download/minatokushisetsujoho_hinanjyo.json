@@ -1,0 +1,1506 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749524",
+                    "35.660982",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "1.御成門学園御成門小学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝地区",
+                "所在地": "港区芝公園三丁目2番4号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750139",
+                    "35.651298",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "2.芝小学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝地区",
+                "所在地": "港区芝二丁目21番3号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.74475905524724",
+                    "35.6451776357033",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "3.札の辻スクエア（産業振興センター）（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝地区",
+                "所在地": "港区芝五丁目36番4号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.742480",
+                    "35.653237",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "4.赤羽小学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝地区",
+                "所在地": "港区三田二丁目6番4号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750329",
+                    "35.661640",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "5.御成門学園御成門中学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝地区",
+                "所在地": "港区西新橋三丁目25番30号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.757085",
+                    "35.665575",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "6.生涯学習センター（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝地区",
+                "所在地": "港区新橋三丁目16番3号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.756851",
+                    "35.658866",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "7.エコプラザ（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝地区",
+                "所在地": "港区浜松町一丁目13番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/07.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/07.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.753823",
+                    "35.661172",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "8.福祉プラザさくら川（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝地区",
+                "所在地": "港区新橋六丁目19番2号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/08.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/08.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.757557",
+                    "35.658770",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "9.神明子ども中高生プラザ・神明いきいきプラザ（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝地区",
+                "所在地": "港区浜松町一丁目6番7号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/09.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/09.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.748668",
+                    "35.667859",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "10.虎ノ門いきいきプラザ（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝地区",
+                "所在地": "港区虎ノ門一丁目21番10号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/10.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/10.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749768",
+                    "35.648781",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "11.三田いきいきプラザ（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "高輪地区",
+                "所在地": "港区芝四丁目1番17号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/11.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/11.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.738648",
+                    "35.661832",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "12.麻布小学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "麻布地区",
+                "所在地": "港区麻布台一丁目5番15号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/12.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/12.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.742551",
+                    "35.658162",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "13.旧飯倉小学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "麻布地区",
+                "所在地": "港区東麻布二丁目1番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/13.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/13.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.729910",
+                    "35.649829",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "14.本村小学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布三丁目9番33号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/14.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/14.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735840",
+                    "35.650901",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "15.東町小学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布一丁目8番11号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/15.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/15.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.724891",
+                    "35.656480",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "16.笄小学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "麻布地区",
+                "所在地": "港区西麻布三丁目11番16号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/16.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/16.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.732266",
+                    "35.660826",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "17.六本木中学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "麻布地区",
+                "所在地": "港区六本木六丁目8番16号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/17.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/17.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.720539",
+                    "35.656991",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "18.高陵中学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "麻布地区",
+                "所在地": "港区西麻布4-14-8",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/18.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/18.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731056",
+                    "35.657271",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "19.南山小学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "麻布地区",
+                "所在地": "港区元麻布三丁目8番15号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/19.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/19.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735011",
+                    "35.660670",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "20.麻布区民センター（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "麻布地区",
+                "所在地": "港区六本木五丁目16番45号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/20.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/20.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735090",
+                    "35.651414",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "21.南麻布いきいきプラザ（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布一丁目5番26号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/21.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/21.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.727468",
+                    "35.651082",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "22.麻布子ども中高生プラザ・ありすいきいきプラザ（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目6番7号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/22.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/22.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.722696",
+                    "35.660801",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "23.西麻布いきいきプラザ（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "麻布地区",
+                "所在地": "港区西麻布二丁目13番3号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/23.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/23.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.740929",
+                    "35.656930",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "24.飯倉いきいきプラザ（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布東麻布二丁目16番11号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/24.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/24.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731065",
+                    "35.669305",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "25.赤坂学園赤坂小・中学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂八丁目13番29号／港区赤坂九丁目2番3号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/25.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/25.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.719084",
+                    "35.669882",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "26.青山小学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山二丁目21番2号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/26.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/26.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.716153",
+                    "35.663506",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "27.青南小学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山四丁目21番15号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/27.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/27.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.722180",
+                    "35.674188",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "28.青山中学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "赤坂地区",
+                "所在地": "港区北青山一丁目1番9号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/29.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/29.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731598",
+                    "35.674759",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "29.赤坂区民センター・健康増進センター（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂四丁目18番13号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/30.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/30.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737659",
+                    "35.669966",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "30.サン・サン赤坂（赤坂子ども中高生プラザ）（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂六丁目6番14号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/31.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/31.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734952",
+                    "35.670334",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "31.赤坂いきいきプラザ（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂六丁目4番8号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/32.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/32.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.721262",
+                    "35.669189",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "32.青山いきいきプラザ（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山二丁目16番5号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/33.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/33.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.717321",
+                    "35.666464",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "33.青南いきいきプラザ（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山四丁目10番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/34.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/34.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.738044",
+                    "35.643181",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "34.御田小学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "高輪地区",
+                "所在地": "港区三田四丁目11番38号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/35.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/35.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.733975",
+                    "35.641984",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "35.高輪区民センター（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "高輪地区",
+                "所在地": "港区高輪一丁目16番25号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/36.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/36.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.728541",
+                    "35.636807",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "36.白金小学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "高輪地区",
+                "所在地": "港区白金台一丁目4番26号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/37.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/37.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.729204",
+                    "35.644328",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "37.旧三光小学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "高輪地区",
+                "所在地": "港区白金三丁目18番2号 ",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/38.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/38.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726753",
+                    "35.643658",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "38.白金の丘学園白金の丘小・中学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "高輪地区",
+                "所在地": "港区白金四丁目1番12号 ",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/39.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/39.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.724277",
+                    "35.643633",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "39.神応いきいきプラザ等複合施設（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "高輪地区",
+                "所在地": "港区白金六丁目9番5号 ",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/40.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/40.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.740818",
+                    "35.645242",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "40.三田中学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "高輪地区",
+                "所在地": "港区三田四丁目13番13号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/41.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/41.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.733937",
+                    "35.640624",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "41.高松中学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "高輪地区",
+                "所在地": "港区高輪一丁目16番25号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/42.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/42.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734193",
+                    "35.636383",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "42.高輪台小学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "高輪地区",
+                "所在地": "港区高輪二丁目8番24号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/43.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/43.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734846",
+                    "35.642437",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "43.高輪子ども中高生プラザ（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "高輪地区",
+                "所在地": "港区高輪一丁目4番35号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/44.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/44.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.739624",
+                    "35.646517",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "44.豊岡いきいきプラザ（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "高輪地区",
+                "所在地": "港区三田五丁目7番7号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/45.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/45.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735710",
+                    "35.633220",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "45.高輪いきいきプラザ（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "高輪地区",
+                "所在地": "港区高輪三丁目18番15号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/46.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/46.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731098",
+                    "35.644875",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "46.白金いきいきプラザ（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "高輪地区",
+                "所在地": "港区白金三丁目10番12号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/47.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/47.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.724908",
+                    "35.637738",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "47.白金台いきいきプラザ（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "高輪地区",
+                "所在地": "港区白金台四丁目8番5号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/48.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/48.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.746205",
+                    "35.638124",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "49.芝浦小学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦四丁目8番18号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/49.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/49.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749657",
+                    "35.629227",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "50.港南小学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目3番28号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/50.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/50.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749078",
+                    "35.631207",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "51.港南中学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目3番3号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/51.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/51.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.748687",
+                    "35.640555",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "52.芝浦港南区民センター（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦四丁目13番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/52.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/52.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751751",
+                    "35.646717",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "53.みなとパーク芝浦（港区スポーツセンター・男女平等参画センター）（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦一丁目16番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/53.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/53.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749897",
+                    "35.631063",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "54.港南子ども中高生プラザ（港区スポーツセンター・男女平等参画センター）（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目3番7号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/54.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/54.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.747098",
+                    "35.629624",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "55.港南いきいきプラザ（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目2番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/55.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/55.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.777040",
+                    "35.633775",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "56.お台場学園港陽小・中学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区台場一丁目1番5号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/56.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/56.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.776995",
+                    "35.629987",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "57.台場区民センター（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区台場一丁目5番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/57.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/57.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.755573",
+                    "35.651557",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "1. 障害保健福祉センター（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "芝地区",
+                "所在地": "港区芝一丁目8番23号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.754003",
+                    "35.661205",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "2. 新橋はつらつ太陽（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "芝地区",
+                "所在地": "港区新橋六丁目19番2号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.722072",
+                    "35.637090",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "7.特別養護老人ホーム白金の森（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "高輪地区",
+                "所在地": "港区白金台五丁目20番5号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749263",
+                    "35.633266",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "8.特別養護老人ホーム港南の郷（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南三丁目3番23号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737559",
+                    "35.669761",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "9.特別養護老人ホームサン・サン赤坂（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂六丁目6番14号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.721819",
+                    "35.653668",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "10.特別養護老人ホーム麻布慶福苑（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布五丁目1番20号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.753707",
+                    "35.661201",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "11.特別養護老人ホーム新橋さくらの園（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "芝地区",
+                "所在地": "港区新橋六丁目19番2号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/08.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/08.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726660",
+                    "35.650765",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "12.特別養護老人ホームありすの杜きのこ南麻布（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目6番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/09.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/09.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726730",
+                    "35.650244",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "13.特別養護老人ホーム洛和ヴィラ南麻布（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目6番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/10.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/10.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735179",
+                    "35.647927",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "14.老人保健施設ルネサンス麻布（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布二丁目10番21号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/11.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/11.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.753838",
+                    "35.661181",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "15.老人保健施設新橋ばらの園（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "芝地区",
+                "所在地": "港区新橋六丁目19番2号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/12.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/12.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726778",
+                    "35.650309",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "16.老人保健施設洛和ヴィラサラサ（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "芝地区",
+                "所在地": "港区南麻布四丁目6番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/13.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/13.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.722065",
+                    "35.637094",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "17.高齢者在宅サービスセンター白金の森（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "高輪地区",
+                "所在地": "港区白金台五丁目20番5号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/14.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/14.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749097",
+                    "35.633218",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "18.高齢者在宅サービスセンター港南の郷（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "高輪地区",
+                "所在地": "港区港南三丁目3番23号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/15.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/15.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737515",
+                    "35.669778",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "19.高齢者在宅サービスセンターサン・サン赤坂（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂六丁目6番14号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/16.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/16.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735194",
+                    "35.651364",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "20.南麻布高齢者在宅サービスセンター（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布一丁目5番26号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/17.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/17.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.778018",
+                    "35.630595",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "21.台場高齢者在宅サービスセンター（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "芝浦港南地区",
+                "所在地": "港区台場一丁目5番5号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/18.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/18.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.721794",
+                    "35.673546",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "22.北青山高齢者在宅サービスセンター（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "芝浦港南地区",
+                "所在地": "港区北青山一丁目6番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/19.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/19.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.748125",
+                    "35.651384",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "23.芝高齢者在宅サービスセンター（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "芝地区",
+                "所在地": "港区芝三丁目24番5号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/20.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/20.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.748728",
+                    "35.667853",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "24.虎ノ門高齢者在宅サービスセンター（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "芝地区",
+                "所在地": "港区虎ノ門一丁目21番10号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/21.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/21.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.727628",
+                    "35.650898",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "4.障害者支援ホーム南麻布（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目6番13号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/22.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/22.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.727628",
+                    "35.650898",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "6.南麻布シニアガーデンアリス（福祉避難所）",
+                "分類": "福祉避難所",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目6番13号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/23.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/fukushihinansho/23.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751751",
+                    "35.646717",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "48.芝浜小学校（区民避難所）",
+                "分類": "区民避難所（地域防災拠点）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦一丁目16番31号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/58.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/hinansho/kuminhinansho/58.html</a>"
+            }
+        }
+    ]
+}

@@ -1,0 +1,214 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.754025",
+                    "35.662317",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "きらきらプラザ新橋",
+                "分類": "複合施設",
+                "地区": "芝地区",
+                "所在地": "港区新橋六丁目4番2号",
+                "連絡先": "電話番号:03-3438-0421 ファックス番号:03-3438-0422",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/sonota/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/sonota/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.742729",
+                    "35.658298",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "東麻布二丁目複合施設",
+                "分類": "複合施設",
+                "地区": "麻布地区",
+                "所在地": "東麻布2-1-1",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukugo/fukugo/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukugo/fukugo/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731362",
+                    "35.674772",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂コミュニティぷらざ",
+                "分類": "複合施設",
+                "地区": "赤坂地区",
+                "所在地": "赤坂4-18-13",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukugo/fukugo/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukugo/fukugo/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.729766",
+                    "35.668319",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂九丁目施設",
+                "分類": "複合施設",
+                "地区": "赤坂地区",
+                "所在地": "赤坂9-4-2",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukugo/fukugo/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukugo/fukugo/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726485",
+                    "35.639108",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ゆかしの杜",
+                "分類": "複合施設",
+                "地区": "高輪地区",
+                "所在地": "白金台4-6-2",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukugo/fukugo/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukugo/fukugo/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751724",
+                    "35.646616",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "みなとパーク芝浦",
+                "分類": "複合施設",
+                "地区": "芝浦港南地区",
+                "所在地": "芝浦1-16-1",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukugo/fukugo/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukugo/fukugo/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749673",
+                    "35.631261",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "さんぽーと港南",
+                "分類": "複合施設",
+                "地区": "芝浦港南地区",
+                "所在地": "港南4-3-7",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukugo/fukugo/06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukugo/fukugo/06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.757702",
+                    "35.658691",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "プラザ神明",
+                "分類": "複合施設",
+                "地区": "芝地区",
+                "所在地": "浜松町1-6-7",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/sonota03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/sonota03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.72457721175044",
+                    "35.643652877365206",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "神応ほっとプラザ",
+                "分類": "複合施設",
+                "地区": "高輪地区",
+                "所在地": "港区白金六丁目9番5号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/sonota06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/sonota06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.74476441968093",
+                    "35.64522504360484",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "札の辻スクエア",
+                "分類": "複合施設",
+                "地区": "芝地区",
+                "所在地": "港区芝五丁目36番4号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukugo/fukugo/07.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukugo/fukugo/07.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.713122",
+                    "35.662774",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "港区子ども家庭総合支援センター（ミナトイク）",
+                "分類": "複合施設",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山五丁目7番11号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukugo/fukugo/08.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukugo/fukugo/08.html</a>"
+            }
+        }
+    ]
+}

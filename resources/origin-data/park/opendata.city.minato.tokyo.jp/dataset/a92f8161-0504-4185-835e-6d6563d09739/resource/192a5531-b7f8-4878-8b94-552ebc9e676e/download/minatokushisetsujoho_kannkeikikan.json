@@ -1,0 +1,100 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731722",
+                    "35.674729",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "公益財団法人　港区スポーツふれあい文化健康財団（Kissポート財団）",
+                "分類": "区関係機関",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂四丁目18番13号　赤坂コミュニティーぷらざ内",
+                "連絡先": "電話番号：03-5770-6837 ファックス番号：03-5770-6884",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kankekikan/kankekikan/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kankekikan/kankekikan/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735078",
+                    "35.660657",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "社会福祉法人　港区社会福祉協議会",
+                "分類": "区関係機関",
+                "地区": "麻布地区",
+                "所在地": "港区六本木五丁目16番45号　麻布地区総合支所2階",
+                "連絡先": "電話番号：03-6230-0280 ファックス番号：03-6230-0285",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kankekikan/kankekikan/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kankekikan/kankekikan/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735279",
+                    "35.651307",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "公益社団法人　港区シルバー人材センター",
+                "分類": "区関係機関",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布一丁目5番26号（ゆうあい南麻布内）",
+                "連絡先": "電話番号：03-5232-9681 ファックス番号：03-5232-9680",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kankekikan/kankekikan/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kankekikan/kankekikan/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.721294",
+                    "35.674568",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "一般財団法人　港区国際交流協会",
+                "分類": "区関係機関",
+                "地区": "赤坂地区",
+                "所在地": "港区北青山一丁目6番3号　都営北青山一丁目アパート3号棟　地下1階",
+                "連絡先": "電話番号：03-6440-0233 ファックス番号：03-6440-0234",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kankekikan/kankekikan/06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kankekikan/kankekikan/06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.755562",
+                    "35.651756",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "特定非営利活動法人　みなと障がい者福祉事業団",
+                "分類": "区関係機関",
+                "地区": "芝地区",
+                "所在地": "港区芝一丁目8番23号　障害保健福祉センター内",
+                "連絡先": "電話：03-5439-8062",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kankekikan/kankekikan/07.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kankekikan/kankekikan/07.html</a>"
+            }
+        }
+    ]
+}

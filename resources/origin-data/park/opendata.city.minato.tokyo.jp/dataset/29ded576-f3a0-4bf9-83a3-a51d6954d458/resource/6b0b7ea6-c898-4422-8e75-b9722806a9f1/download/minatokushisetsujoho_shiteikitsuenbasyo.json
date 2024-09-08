@@ -1,0 +1,1962 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.757464",
+                    "35.667170",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "新橋駅前SL広場　指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝地区",
+                "所在地": "新橋二丁目７番先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.757691",
+                    "35.666708",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "新橋駅烏森口　指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝地区",
+                "所在地": "新橋二丁目16番先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.756795",
+                    "35.665808",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "桜田公園内　指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝地区",
+                "所在地": "新橋三丁目16番15号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.756845",
+                    "35.656711",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "浜松町駅北口　指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝地区",
+                "所在地": "浜松町一丁目31番先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.732583",
+                    "35.663553",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "六本木駅6番出口　指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "麻布地区",
+                "所在地": "六本木四丁目9番先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/11.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/11.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726313",
+                    "35.651260",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "有栖川宮記念公園内　指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "麻布地区",
+                "所在地": "南麻布五丁目7番29号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/13.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/13.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.742320",
+                    "35.670664",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "溜池山王駅9番出口　指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "赤坂地区",
+                "所在地": "赤坂二丁目3番先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/14.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/14.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.728990",
+                    "35.674100",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高橋是清翁記念公園　指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "赤坂地区",
+                "所在地": "赤坂七丁目3番39号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/15.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/15.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734548",
+                    "35.638247",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪二丁目東海大学前　指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "高輪地区",
+                "所在地": "高輪二丁目2番先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/16.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/16.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.753186",
+                    "35.657045",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "大門駅A6出口　指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝地区",
+                "所在地": "芝大門一丁目13番先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.747735",
+                    "35.645202",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "田町駅東口デッキ下　指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝浦港南地区",
+                "所在地": "芝浦三丁目1番先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/17.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/17.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.747143",
+                    "35.646134",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "田町駅西口（2階）　指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝地区",
+                "所在地": "芝五丁目33番先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/07.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/07.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.741427",
+                    "35.629452",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "品川駅港南口港南ふれあい広場指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝浦港南地区",
+                "所在地": "港南二丁目14番先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/19.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/19.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.775280",
+                    "35.627544",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "フジテレビ（敷地内）横指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝浦港南地区",
+                "所在地": "台場二丁目4番8号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/20.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/20.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.747028",
+                    "35.646596",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "田町駅西口（1階）　指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝地区",
+                "所在地": "芝五丁目33番先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/08.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/08.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.772094",
+                    "35.626572",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "シンボルプロムナード公園内デッキ上指定喫煙場所（1）",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝浦港南地区",
+                "所在地": "台場一丁目8番先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/21.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/21.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.772421",
+                    "35.626053",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "シンボルプロムナード公園内デッキ上指定喫煙場所（2）",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝浦港南地区",
+                "所在地": "台場二丁目5番先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/22.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/22.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751842",
+                    "35.645131",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浦1丁目リバーサイド　指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝浦港南地区",
+                "所在地": "芝浦一丁目16番先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/24.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/24.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750859",
+                    "35.659028",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "都立芝公園内　指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝地区",
+                "所在地": "芝公園一丁目4番",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/25.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/25.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.741512",
+                    "35.670353",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ミカワヤビル1階　指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "赤坂地区",
+                "所在地": "赤坂二丁目10番14号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/27.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/27.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.756154",
+                    "35.649333",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "シーバンスS館　指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝浦港南地区",
+                "所在地": "芝浦一丁目2番3号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/28.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/28.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.744425",
+                    "35.663045",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "神谷町アネックス1F　指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "虎ノ門五丁目3番2号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/29.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/29.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.712268",
+                    "35.665462",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "表参道交差点　指定喫煙場所（1）",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "赤坂地区",
+                "所在地": "北青山三丁目5番先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/30.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/30.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.712002",
+                    "35.665233",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "表参道交差点　指定喫煙場所（2）",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "赤坂地区",
+                "所在地": "北青山三丁目6番先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/31.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/31.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737531",
+                    "35.655918",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "一の橋公園内指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "麻布地区",
+                "所在地": "東麻布三丁目9番",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/33.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/33.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.742404",
+                    "35.633694",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浦中央公園A面指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝浦港南地区",
+                "所在地": "港南一丁目2番28号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/35.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/35.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.729815",
+                    "35.659870",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "六本木ヒルズ　ヒルサイド2F TOHOシネマズ入口右側指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "麻布地区",
+                "所在地": "六本木六丁目10番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/37.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/37.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.730941",
+                    "35.658775",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "六本木ヒルズ　イーストコート(六本木けやき坂通り)指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "麻布地区",
+                "所在地": "六本木六丁目12番4号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/38.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/38.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737086",
+                    "35.676569",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂見附駅前指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "赤坂地区",
+                "所在地": "赤坂三丁目2番先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/39.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/39.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734116",
+                    "35.643640",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "白金高輪駅3番出口前指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "高輪地区",
+                "所在地": "白金一丁目28番8号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/40.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/40.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.741862",
+                    "35.641804",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "センチュリー三田ビル１階　指定喫煙場所（ファミリーマート泉岳寺北店内）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "三田三丁目11番34号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/41.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/41.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.728475",
+                    "35.665965",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "六本木インターナショナルビル1階　指定喫煙場所（セブンイレブン港区乃木坂駅南店内）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "麻布地区",
+                "所在地": "六本木七丁目3番12号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/43.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/43.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.740812",
+                    "35.625937",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "NBF品川タワー2階　指定喫煙場所（ファミリーマート品川グランパサージュ店内）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝浦港南地区",
+                "所在地": "港南二丁目16番5号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/44.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/44.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.710470",
+                    "35.665986",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "表参道A1出口前　指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "赤坂地区",
+                "所在地": "北青山三丁目6番先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/51.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/51.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.742574",
+                    "35.629700",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "こうなん星の公園　指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝浦港南地区",
+                "所在地": "港南一丁目9番24号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/52.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/52.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726274",
+                    "35.654436",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ファミリーマート元麻布店　指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "麻布地区",
+                "所在地": "元麻布二丁目2番12号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/53.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/53.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.715684",
+                    "35.667813",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "PASONA SQUARE指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "赤坂地区",
+                "所在地": "南青山三丁目1番30号　PASONA SQUARE1階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/58.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/58.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.713931",
+                    "35.661191",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "KDX南青山ビル1階指定喫煙場所(セブンイレブン南青山5丁目店内)",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山五丁目13番3号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/59.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/59.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750182",
+                    "35.649021",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ファースト岡田ビル1階指定喫煙場所（セブンイレブン三田駅北店内）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区芝四丁目3番5号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/60.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/60.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749265",
+                    "35.643075",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浦SECビル1階指定喫煙場所（ファミリーマート田町東口店内）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝四丁目3番5号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/61.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/61.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.758132",
+                    "35.667732",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "セブンイレブン新橋駅前店内指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区新橋一丁目13番7号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/63.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/63.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.745194",
+                    "35.625492",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "イケダヤ品川ビル1階指定喫煙場所（セブンイレブン港区港南2丁目店内）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南二丁目2番27号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/64.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/64.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.732752",
+                    "35.661244",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ステップ六本木1階指定喫煙場所（ファミリーマート六本木六丁目店内）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "麻布地区",
+                "所在地": "港区六本木六丁目8番10号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/65.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/65.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.759569",
+                    "35.657247",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "汐留ビルディング1階指定喫煙場所（セブンイレブン汐留ビルディング店内）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区海岸一丁目2番20号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/66.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/66.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.777603",
+                    "35.628608",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "台場フロンティアビル2階指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区台場二丁目3番2号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/67.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/67.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.776453",
+                    "35.628970",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "デックス東京ビーチ1階指定喫煙場所（ファミリーマートお台場東京ビーチ店内）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区台場一丁目6番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/68.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/68.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.741008",
+                    "35.663237",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "六本木ファーストビル1階指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "麻布地区",
+                "所在地": "港区六本木一丁目9番9号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/69.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/69.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.755971",
+                    "35.660106",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "No.R浜松町1階指定喫煙場所（セブンイレブン浜松町1丁目北店内）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区浜松町一丁目2番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/70.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/70.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.746357",
+                    "35.663863",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "TOKYU REIT虎ノ門ビル1階指定喫煙場所（セブンイレブン神谷町駅東店）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "麻布地区",
+                "所在地": "港区虎ノ門三丁目17番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/71.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/71.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.741517",
+                    "35.670065",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "フォーシーズ溜池山王ビル2階指定喫煙場所（ファミリーマート溜池山王駅南店内）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂2丁目10番11号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/72.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/72.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.774851",
+                    "35.635076",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "お台場海浜公園内指定喫煙場所(1)",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝浦港南地区",
+                "所在地": "台場一丁目４番",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/73.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/73.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.777765",
+                    "35.631422",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "お台場海浜公園内指定喫煙場所(2)",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝浦港南地区",
+                "所在地": "台場一丁目４番",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/74.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/74.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.775525",
+                    "35.629841",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "お台場海浜公園内指定喫煙場所(3)",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝浦港南地区",
+                "所在地": "台場一丁目４番",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/75.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/75.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.774200",
+                    "35.629328",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "お台場海浜公園内指定喫煙場所(4)",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝浦港南地区",
+                "所在地": "台場一丁目４番",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/76.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/76.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.769715",
+                    "35.626455",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "お台場海浜公園内指定喫煙場所(5)",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝浦港南地区",
+                "所在地": "台場一丁目４番",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/77.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/77.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.762262",
+                    "35.654166",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "竹芝客船ターミナル指定喫煙場所(1)",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝地区",
+                "所在地": "港区海岸一丁目12番2号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/78.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/78.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.762606",
+                    "35.654218",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "竹芝客船ターミナル指定喫煙場所(2)",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝地区",
+                "所在地": "港区海岸一丁目12番2号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/79.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/79.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.763270",
+                    "35.654712",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "竹芝客船ターミナル指定喫煙場所(3)",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝地区",
+                "所在地": "港区海岸一丁目12番2号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/80.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/80.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.755070",
+                    "35.650904",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝1丁目ビル階指定喫煙場所（セブンイレブン港区芝1丁目店内）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区芝一丁目12番7号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/81.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/81.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731886",
+                    "35.662429",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ラピロス六本木地下1階指定喫煙場所（ファミリーマート地下鉄六本木店内）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "麻布地区",
+                "所在地": "港区六本木六丁目1番24号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/82.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/82.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749108",
+                    "35.644973",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "msb Tamachi 田町ステーションタワーS　1階指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦三丁目1番21号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/83.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/83.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749108",
+                    "35.644973",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "msb Tamachi 田町ステーションタワーS　2階指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦三丁目1番21号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/84.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/84.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.755862",
+                    "35.654439",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "浜松町エクセレントビル2階指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区浜松町二丁目6番5号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/85.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/85.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.741481",
+                    "35.669355",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "キャピタル赤坂ビル1階指定喫煙場所（ファミリーマート赤坂一丁目店内）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂一丁目7番19号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/86.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/86.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.752195",
+                    "35.662117",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "御成門BNビル1階指定喫煙場所 （セブンイレブン御成門駅北店内）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区新橋六丁目16番10号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/87.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/87.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.759852",
+                    "35.666414",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "新橋2丁目指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝地区",
+                "所在地": "港区新橋二丁目20番先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/88.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/88.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.746268",
+                    "35.648981",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝生花ビル1階指定喫煙場所 （ファミリーマート芝五丁目店内）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区芝五丁目10番8号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/89.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/89.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.756655",
+                    "35.666261",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "エスプラザ弥生ビルⅡ2階指定喫煙場所（ファミリーマート新橋駅西店内）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区新橋二丁目15番9号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/90.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/90.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.762177",
+                    "35.654796",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "鈴与竹芝ビル1階指定喫煙場所 （ファミリーマート南山堂竹芝駅前店内）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区海岸一丁目13番3号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/91.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/91.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737053",
+                    "35.672603",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "鳳月堂ビル2階指定喫煙場所（ファミリーマート赤坂駅前店内）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂二丁目14番28号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/93.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/93.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.715792",
+                    "35.669557",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "the ARGYLE aoyamaビル2階指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "赤坂地区",
+                "所在地": "港区北青山二丁目14番4号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/95.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/95.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749787",
+                    "35.645843",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "msb Tamachi田町ステーションタワーN（1）",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦三丁目1番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/96.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/96.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.744849",
+                    "35.630965",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ファミリーマート港南一丁目店内指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南1-7-18　A-PLACE品川東1階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/98.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/98.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.762670",
+                    "35.656207",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ウォーターズ竹芝シアター棟1F　指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区海岸１丁目10番45号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/99.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/99.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.762670",
+                    "35.656207",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ウォーターズ竹芝シアター棟2F　指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区海岸１丁目10番45号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/100.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/100.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.740019",
+                    "35.672676",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ヒューリックJP赤坂ビル1階　指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂二丁目5番8号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/101.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/101.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.746563",
+                    "35.648439",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "セブンイレブン港区芝5丁目東店内　指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区芝五丁目22番3号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/102.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/102.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7380944073847",
+                    "35.67282633371143",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "関根ビル1階　指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂二丁目13番21号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/103.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/103.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.75375607305435",
+                    "35.65262436865979",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "セブンイレブン芝2丁目金杉橋店内　指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区芝二丁目3番3号　芝二丁目大門ビルディング1階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/104.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/104.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7527055748486",
+                    "35.67015324912093",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "日比谷フォートタワー1階　指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区西新橋一丁目1番1号1階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/105.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/105.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7527055748486",
+                    "35.67015324912093",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "日比谷フォートタワー2階　指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区西新橋一丁目1番1号2階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/106.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/106.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7527055748486",
+                    "35.67015324912093",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "日比谷フォートタワー11階　指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区西新橋一丁目１番１号11階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/107.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/107.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.747140",
+                    "35.650876",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "東洋カーマックス芝3丁目第11駐車場内指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝地区",
+                "所在地": "芝三丁目31番8号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/108.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/108.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.75393333329063",
+                    "35.65459195376365",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "エコロパーク芝大門第３駐車場内指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝地区",
+                "所在地": "港区芝大門二丁目12番18号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/109.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/109.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7573496313515",
+                    "35.66647972407418",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ニュー新橋ビル3階THE CAFE内指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区新橋二丁目16番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/110.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/110.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7567875205811",
+                    "35.66353334267899",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "paspa新橋4丁目指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区新橋四丁目24番7号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/111.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/111.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.73757787838824",
+                    "35.62639752239338",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "加藤たばこ店内指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "高輪地区",
+                "所在地": "港区高輪四丁目23番3号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/112.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/112.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737539382539",
+                    "35.674109364062936",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "四方ビル2階指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂三丁目12番21号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/113.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/113.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7373797433988",
+                    "35.67385477205119",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "paspa赤坂指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "麻布地区",
+                "所在地": "港区赤坂三丁目14番2号　ドルミ赤坂103号室",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/115.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/115.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.74678172207535",
+                    "35.646333215880965",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "セブンイレブン田町駅前店店内指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区芝五丁目34番7号　田町センタービル1階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/117.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/117.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.76207881043507",
+                    "35.66300379341111",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "THE TOBACCO SHIODOME指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区東新橋一丁目8番2号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/118.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/118.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.74672931043256",
+                    "35.66836261273509",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "THE TOBACCO TORANOMON指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区虎ノ門二丁目3番17号　虎ノ門2丁目タワー1階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/119.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/119.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7564674852955",
+                    "35.65437800798922",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "paspa浜松町指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区浜松町二丁目5番2号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/120.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/120.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7535039032701",
+                    "35.650793605697714",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ファミリーマート南山堂第一京浜芝店内指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区芝二丁目14番5号　芝二丁目大広ビル",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/121.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/121.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7485596597526",
+                    "35.647138123840165",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "田町タワー1階指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区芝五丁目33番11号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/122.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/122.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.75930971740488",
+                    "35.667825861088055",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "エコロパーク新橋第7駐車場内指定喫煙場所",
+                "分類": "指定喫煙場所（屋外）",
+                "地区": "芝地区",
+                "所在地": "港区新橋一丁目4番3号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/123.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/123.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7536083124461",
+                    "35.66932362441603",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ファミリーマート西新橋一丁目店内指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区西新橋一丁目5番11号　11東洋海事ビル",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/124.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/124.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7518489068715",
+                    "35.661042855628615",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ファミリーマート＋ミヤモトドラッグ御成門店内指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区新橋六丁目17番15号　菱進御成門ビル",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/125.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/125.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.75984938358468",
+                    "35.65412840172168",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ゆうらいふセンター1階北側指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区海岸1丁目4番26号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/126.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/126.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.75466995767135",
+                    "35.6649221834583",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "新虎安田ビル1階指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区新橋4丁目3番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/127.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/127.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.74404521427059",
+                    "35.67096587259067",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "paspa溜池指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区赤坂1丁目1番16号　細川ビルB1F",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/128.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/128.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7564247546088",
+                    "35.65399677259604",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ファミリーマート浜松町駅南店内指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区浜松町2丁目9番3号　NBC浜松町ビル",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/129.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/129.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7468429528997",
+                    "35.66619527419011",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "paspa虎ノ門3丁目指定喫煙場所",
+                "分類": "指定喫煙場所（屋内）",
+                "地区": "芝地区",
+                "所在地": "港区虎ノ門3丁目4番7号　虎ノ門36森ビル地下1階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/130.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/kitsuen/130.html</a>"
+            }
+        }
+    ]
+}

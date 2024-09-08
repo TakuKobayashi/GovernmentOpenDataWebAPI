@@ -1,0 +1,195 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750171",
+                    "35.66002",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "みなと図書館",
+                "分類": "図書館",
+                "地区": "芝地区",
+                "所在地": "港区芝公園三丁目2番25号",
+                "連絡先": "電話番号：03-3437-6621 ファックス番号：03-3437-6627",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/toshokan/toshokan/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/toshokan/toshokan/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.745214",
+                    "35.647149",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "三田図書館",
+                "分類": "図書館",
+                "地区": "芝地区",
+                "所在地": "港区芝五丁目36番4号　札の辻スクエア4階～6階",
+                "連絡先": "電話番号：03-3452-4951 ファックス番号：03-3769-2363",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/toshokan/toshokan/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/toshokan/toshokan/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735818",
+                    "35.657508",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "麻布図書館",
+                "分類": "図書館",
+                "地区": "芝地区",
+                "所在地": "港区六本木五丁目12番24号",
+                "連絡先": "電話番号：03-3585-9225 ファックス番号：03-3585-9228",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/toshokan/toshokan/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/toshokan/toshokan/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.725328",
+                    "35.671596",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂図書館",
+                "分類": "図書館",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山一丁目3番3号　青山一丁目タワー3階",
+                "連絡先": "電話番号：03-3408-5090 ファックス番号：03-3475-3918",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/toshokan/toshokan/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/toshokan/toshokan/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734035",
+                    "35.642079",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪図書館",
+                "分類": "図書館",
+                "地区": "高輪地区",
+                "所在地": "港区高輪一丁目16番25号　高輪コミュニティーぷらざ3階",
+                "連絡先": "電話番号：03-5421-7617 ファックス番号：03-5421-7619",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/toshokan/toshokan/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/toshokan/toshokan/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749575",
+                    "35.633141",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "港南図書館",
+                "分類": "図書館",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南三丁目3番17号　シティハイツ港南1階",
+                "連絡先": "電話番号：03-3458-1085 ファックス番号：03-3458-1081",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/toshokan/toshokan/06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/toshokan/toshokan/06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.757085",
+                    "35.665603",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "生涯学習センター（ばるーん）",
+                "分類": "生涯学習施設",
+                "地区": "芝地区",
+                "所在地": "港区新橋三丁目16番3号",
+                "連絡先": "電話：03-3431-1606 ファックス：03-3431-1619",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/toshokan/shogaigakushu/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/toshokan/shogaigakushu/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.716890",
+                    "35.664286",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "青山生涯学習館",
+                "分類": "生涯学習施設",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山四丁目19番7号　1階・2階　放課GO→クラブせいなん併設",
+                "連絡先": "電話：03-3470-4584 ファックス：03-3470-0856",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/toshokan/shogaigakushu/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/toshokan/shogaigakushu/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734855",
+                    "35.642412",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪図書館分室",
+                "分類": "図書館",
+                "地区": "高輪地区",
+                "所在地": "港区高輪一丁目4番35号　高輪子ども中高生プラザ3階",
+                "連絡先": "電話番号：03-3443-1666 ファックス番号：03-3443-1668",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/toshokan/toshokan/07.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/toshokan/toshokan/07.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.77705273757618",
+                    "35.62996803013082",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "台場図書館",
+                "分類": "図書館",
+                "地区": "芝浦港南地区",
+                "所在地": "港区台場一丁目5番1号　台場コミュニティーぷらざ3階",
+                "連絡先": "電話番号：03-5500-2356 ファックス番号：03-5500-3081",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/toshokan/toshokan/08.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/toshokan/toshokan/08.html</a>"
+            }
+        }
+    ]
+}

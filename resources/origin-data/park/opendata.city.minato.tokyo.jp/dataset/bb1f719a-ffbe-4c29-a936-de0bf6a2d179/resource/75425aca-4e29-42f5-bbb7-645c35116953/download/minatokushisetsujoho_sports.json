@@ -1,0 +1,328 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749656",
+                    "35.62957",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "港南小学校屋内プール",
+                "分類": "スポーツ施設",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目3番28号　港区立港南小学校1階",
+                "連絡先": "港南小学校屋内プール 電話番号：03-5460-9506 ファックス番号：03-5460-9506 （プール開放開始時刻30分前から終了時間まで）  生涯学習推進課スポーツ振興係 電話番号：03-3578-2750～2753 ファックス番号：03-3578-2749",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sport/sport/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sport/sport/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.720463",
+                    "35.657139",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高陵中学校屋内プール",
+                "分類": "スポーツ施設",
+                "地区": "麻布地区",
+                "所在地": "港区西麻布四丁目14番8号　港区立高陵中学校地下2階",
+                "連絡先": "高陵中学校屋内プール 電話番号：03-5464-7749 （プール開放開始時刻30分前から終了時間まで）  生涯学習推進課スポーツ振興係 電話番号：03-3578-2750～2753 ファックス番号：03-3578-2749",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sport/sport/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sport/sport/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.759891",
+                    "35.637322",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浦南ふ頭公園運動広場（かいがんぱ～く）",
+                "分類": "スポーツ施設",
+                "地区": "芝浦港南地区",
+                "所在地": "港区海岸三丁目33番20号",
+                "連絡先": "電話：03-3452-4151",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sport/sport/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sport/sport/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751501",
+                    "35.646408",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "港区スポーツセンター",
+                "分類": "スポーツ施設",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦一丁目16番1号　みなとパーク芝浦3～8階",
+                "連絡先": "電話：03-3452-4151 ファックス：03-3452-4920",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sport/sport/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sport/sport/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.755597",
+                    "35.641684",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "埠頭少年野球場",
+                "分類": "スポーツ施設",
+                "地区": "芝浦港南地区",
+                "所在地": "港区海岸三丁目14番34号",
+                "連絡先": "電話番号：03-3451-3956 ファックス番号：03-3451-3956",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sport/sport/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sport/sport/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.727731",
+                    "35.652458",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "麻布運動場",
+                "分類": "スポーツ施設",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布五丁目6番33号",
+                "連絡先": "電話番号：03-3446-6879 ファックス番号：03-3446-8679",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sport/sport/06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sport/sport/06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.718596",
+                    "35.668957",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "青山運動場",
+                "分類": "スポーツ施設",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山二丁目21番12号",
+                "連絡先": "電話番号：03-3405-8383 ファックス番号：03-3405-1259",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sport/sport/07.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sport/sport/07.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.746319",
+                    "35.634584",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浦中央公園運動場（芝浦中央公園C面）",
+                "分類": "スポーツ施設",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南一丁目4番1号",
+                "連絡先": "電話番号：03-3450-6343 ファックス番号：03-3450-6348",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sport/sport/08.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sport/sport/08.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.73769",
+                    "35.669742",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "氷川武道場",
+                "分類": "スポーツ施設",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂六丁目6番14号",
+                "連絡先": "電話番号：03-5561-7829 ファックス番号：03-5561-7835",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sport/sport/10.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sport/sport/10.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.729882",
+                    "35.649869",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "本村小学校屋内プール",
+                "分類": "スポーツ施設",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布三丁目9番33号　港区立本村小学校地下1階",
+                "連絡先": "本村小学校屋内プール 電話番号：03-5420-0980 （プール開放開始時刻30分前から終了時間まで）  生涯学習推進課スポーツ振興係 電話番号：03-3578-2750～2753 ファックス番号：03-3578-2749",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sport/sport/11.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sport/sport/11.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731073",
+                    "35.669238",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂小学校屋内プール",
+                "分類": "スポーツ施設",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂八丁目13番29号　港区立赤坂小学校地下1階",
+                "連絡先": "電話番号：03-3404-2943 （プール開放開始時刻30分前から終了時間まで）  生涯学習推進課スポーツ振興係 電話番号：03-3578-2750～2753 ファックス番号：03-3578-2749",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sport/sport/12.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sport/sport/12.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750391",
+                    "35.661661",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "御成門中学校屋内プール",
+                "分類": "スポーツ施設",
+                "地区": "芝地区",
+                "所在地": "港区西新橋三丁目25番30号　港区立御成門中学校地下1階",
+                "連絡先": "御成門中学校屋内プール 電話番号：03-3438-3494 ファックス番号：03-3438-3494 （プール開放開始時刻30分前から終了時間まで）  生涯学習推進課スポーツ振興係 電話番号：03-3578-2750～2753 ファックス番号：03-3578-2749",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sport/sport/13.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sport/sport/13.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734499",
+                    "35.640655",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高松中学校屋内プール",
+                "分類": "スポーツ施設",
+                "地区": "高輪地区",
+                "所在地": "港区高輪一丁目16番25号　港区立高松中学校5階",
+                "連絡先": "高松中学校屋内プール 電話番号：03-3442-5278 （プール開放開始時刻30分前から終了時間まで）  生涯学習推進課スポーツ振興係 電話番号：03-3578-2750～2753 ファックス番号：03-3578-2749",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sport/sport/14.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sport/sport/14.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.77713",
+                    "35.634155",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "お台場学園港陽中学校屋内プール",
+                "分類": "スポーツ施設",
+                "地区": "芝浦港南地区",
+                "所在地": "港区台場一丁目1番5号　港区立港陽中学校地下1階",
+                "連絡先": "港陽中学校屋内プール 電話番号：03-5500-2665 ファックス番号：03-5500-2665 （プール開放開始時刻30分前から終了時間まで）  生涯学習推進課スポーツ振興係 電話番号：03-3578-2750～2753 ファックス番号：03-3578-2749",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sport/sport/15.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sport/sport/15.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750659",
+                    "35.654579",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝公園多目的運動場（アクアフィールド芝公園）",
+                "分類": "スポーツ施設",
+                "地区": "芝地区",
+                "所在地": "港区芝公園二丁目7番2号",
+                "連絡先": "アクアフィールド芝公園 電話番号：03-5733-0575 ファックス番号：03-5733-0565",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sport/sport/16.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sport/sport/16.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731629",
+                    "35.674816",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "健康増進センター（ヘルシーナ）",
+                "分類": "健康増進施設",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂四丁目18番13号　赤坂コミュニティーぷらざ6階",
+                "連絡先": "電話番号：03-5413-2717 ファックス番号：03-5413-2718",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sport/kenkozoshin/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sport/kenkozoshin/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.752746",
+                    "35.653044",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "区立公衆浴場「ふれあいの湯」",
+                "分類": "公衆浴場",
+                "地区": "芝地区",
+                "所在地": "港区芝二丁目2番18号",
+                "連絡先": "電話：03-5442-2639",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/koshuyokujo/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/koshuyokujo/01.html</a>"
+            }
+        }
+    ]
+}

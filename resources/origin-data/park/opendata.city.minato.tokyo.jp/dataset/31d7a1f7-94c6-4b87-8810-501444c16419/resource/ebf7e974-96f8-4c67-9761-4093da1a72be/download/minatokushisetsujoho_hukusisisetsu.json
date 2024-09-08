@@ -1,0 +1,1316 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749725",
+                    "35.648901",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "三田いきいきプラザ",
+                "分類": "いきいきプラザ",
+                "地区": "芝地区",
+                "所在地": "港区芝四丁目1番17号",
+                "連絡先": "電話：03-3452-9421 ファックス：03-3452-2018",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.748736",
+                    "35.667896",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "虎ノ門いきいきプラザ（とらトピア）",
+                "分類": "いきいきプラザ",
+                "地区": "芝地区",
+                "所在地": "港区虎ノ門一丁目21番10号",
+                "連絡先": "電話：03-3539-2941 ファックス：03-3539-2940",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735051",
+                    "35.651486",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "南麻布いきいきプラザ",
+                "分類": "いきいきプラザ",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布一丁目5番26号",
+                "連絡先": "電話：03-5232-9671 ファックス：03-5232-0568",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.730752",
+                    "35.656207",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "麻布いきいきプラザ",
+                "分類": "いきいきプラザ",
+                "地区": "麻布地区",
+                "所在地": "港区元麻布三丁目9番6号",
+                "連絡先": "電話：03-3408-7888 ファックス：03-3408-2585",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/07.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/07.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.722724",
+                    "35.660781",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "西麻布いきいきプラザ",
+                "分類": "いきいきプラザ",
+                "地区": "麻布地区",
+                "所在地": "港区西麻布二丁目13番3号",
+                "連絡先": "電話：03-3486-9166 ファックス：03-3486-9216",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/08.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/08.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.740984",
+                    "35.656913",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "飯倉いきいきプラザ",
+                "分類": "いきいきプラザ",
+                "地区": "麻布地区",
+                "所在地": "港区東麻布二丁目16番11号",
+                "連絡先": "電話：03-3583-6366 ファックス：03-3583-4339",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/09.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/09.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734901",
+                    "35.670363",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂いきいきプラザ",
+                "分類": "いきいきプラザ",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂六丁目4番8号",
+                "連絡先": "電話：03-3583-1207 ファックス：03-3583-5627",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/10.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/10.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.721248",
+                    "35.669229",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "青山いきいきプラザ",
+                "分類": "いきいきプラザ",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山二丁目16番5号",
+                "連絡先": "電話：03-3403-2011 ファックス：03-3403-3427",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/11.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/11.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.717311",
+                    "35.666534",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "青南いきいきプラザ",
+                "分類": "いきいきプラザ",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山四丁目10番1号",
+                "連絡先": "電話：03-3423-4920 ファックス：03-3423-6158",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/12.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/12.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.739656",
+                    "35.646551",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "豊岡いきいきプラザ",
+                "分類": "いきいきプラザ",
+                "地区": "高輪地区",
+                "所在地": "港区三田五丁目7番7号",
+                "連絡先": "電話：03-3453-1591 ファックス：03-3453-3613",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/13.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/13.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735579",
+                    "35.633202",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪いきいきプラザ",
+                "分類": "いきいきプラザ",
+                "地区": "高輪地区",
+                "所在地": "港区高輪三丁目18番15号",
+                "連絡先": "電話：03-3449-1643 ファックス：03-3449-0783",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/14.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/14.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731052",
+                    "35.644938",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "白金いきいきプラザ",
+                "分類": "いきいきプラザ",
+                "地区": "高輪地区",
+                "所在地": "港区白金三丁目10番12号",
+                "連絡先": "電話：03-3441-3680 ファックス：03-3444-9829",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/15.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/15.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.724966",
+                    "35.63773",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "白金台いきいきプラザ",
+                "分類": "いきいきプラザ",
+                "地区": "高輪地区",
+                "所在地": "港区白金台四丁目8番5号",
+                "連絡先": "電話：03-3440-4627 ファックス：03-3440-0795",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/16.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/16.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.747065",
+                    "35.629675",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "港南いきいきプラザ（ゆとりーむ）",
+                "分類": "いきいきプラザ",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目2番1号",
+                "連絡先": "電話：03-3450-9915 ファックス：03-3450-9916",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/17.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/17.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.721938",
+                    "35.637152",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "特別養護老人ホーム　白金の森",
+                "分類": "特別養護老人ホーム",
+                "地区": "高輪地区",
+                "所在地": "港区白金台五丁目20番5号",
+                "連絡先": "電話：03-3449-9611 ファックス：03-3449-9617",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/tokubetsuyogo/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/tokubetsuyogo/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749216",
+                    "35.633407",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "特別養護老人ホーム　港南の郷",
+                "分類": "特別養護老人ホーム",
+                "地区": "芝浦港南地区",
+                "所在地": "港南三丁目3番23号",
+                "連絡先": "電話：03-3450-5571 ファックス：03-3450-3368",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/tokubetsuyogo/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/tokubetsuyogo/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737543",
+                    "35.6698",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "特別養護老人ホーム　サン・サン赤坂",
+                "分類": "特別養護老人ホーム",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂六丁目6番14号",
+                "連絡先": "電話：03-5561-7833 ファックス：03-5561-7837",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/tokubetsuyogo/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/tokubetsuyogo/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.721839",
+                    "35.653729",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "特別養護老人ホーム　麻布慶福苑（社会福祉法人）",
+                "分類": "特別養護老人ホーム",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布五丁目1番20号",
+                "連絡先": "電話：03-3446-5501 ファックス：03-3443-8466",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/tokubetsuyogo/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/tokubetsuyogo/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.753727",
+                    "35.661263",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "特別養護老人ホーム　新橋さくらの園（社会福祉法人）",
+                "分類": "特別養護老人ホーム",
+                "地区": "芝地区",
+                "所在地": "港区新橋六丁目19番2号",
+                "連絡先": "電話：03-3433-0183 ファックス：03-3433-7320",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/tokubetsuyogo/06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/tokubetsuyogo/06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726712",
+                    "35.650605",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "特別養護老人ホーム　ありすの杜きのこ南麻布（社会福祉法人）",
+                "分類": "特別養護老人ホーム",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目6番1号",
+                "連絡先": "電話：03-5739-0585 ファックス：03-3445-5309",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/tokubetsuyogo/07.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/tokubetsuyogo/07.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726798",
+                    "35.650409",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "特別養護老人ホーム　洛和ヴィラ南麻布（社会福祉法人）",
+                "分類": "特別養護老人ホーム",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目6番1号",
+                "連絡先": "電話：03-6408-8677 ファックス：03-5420-8711",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/tokubetsuyogo/08.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/tokubetsuyogo/08.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.748725",
+                    "35.667905",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "虎ノ門高齢者在宅サービスセンター",
+                "分類": "高齢者在宅サービスセンター（デイサービスセンター）",
+                "地区": "芝地区",
+                "所在地": "港区虎ノ門一丁目21番10号",
+                "連絡先": "電話：03-3539-3710 ファックス：03-3539-3709",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.721954",
+                    "35.637143",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高齢者在宅サービスセンター　白金の森",
+                "分類": "高齢者在宅サービスセンター（デイサービスセンター）",
+                "地区": "高輪地区",
+                "所在地": "港区白金台五丁目20番5号",
+                "連絡先": "電話：03-3449-9615 ファックス：03-3442-3110",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749232",
+                    "35.633385",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高齢者在宅サービスセンター　港南の郷",
+                "分類": "高齢者在宅サービスセンター（デイサービスセンター）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南三丁目3番23号",
+                "連絡先": "電話：03-3450-5571 ファックス：03-3450-3368",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.73765",
+                    "35.670057",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高齢者在宅サービスセンター　サン・サン赤坂",
+                "分類": "高齢者在宅サービスセンター（デイサービスセンター）",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂六丁目6番14号",
+                "連絡先": "電話：03-5561-7831 ファックス：03-5561-7837",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735051",
+                    "35.651486",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "南麻布高齢者在宅サービスセンター",
+                "分類": "高齢者在宅サービスセンター（デイサービスセンター）",
+                "地区": "高輪地区",
+                "所在地": "港区南麻布一丁目5番26号",
+                "連絡先": "電話：03-5232-9672 ファックス：03-5232-9675",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.777969",
+                    "35.630669",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "台場高齢者在宅サービスセンター",
+                "分類": "高齢者在宅サービスセンター（デイサービスセンター）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区台場一丁目5番5号",
+                "連絡先": "電話：03-5531-0520 ファックス：03-5531-0523",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.72167",
+                    "35.673644",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "北青山高齢者在宅サービスセンター",
+                "分類": "高齢者在宅サービスセンター（デイサービスセンター）",
+                "地区": "赤坂地区",
+                "所在地": "港区北青山一丁目6番1号",
+                "連絡先": "電話：03-5410-3410 ファックス：03-5410-3418",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/07.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/07.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.748084",
+                    "35.651516",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝高齢者在宅サービスセンター",
+                "分類": "高齢者在宅サービスセンター（デイサービスセンター）",
+                "地区": "芝地区",
+                "所在地": "港区芝三丁目24番5号",
+                "連絡先": "電話：03-5232-0848 ファックス：03-5446-5857",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/08.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/08.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.75369",
+                    "35.66128",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "デイサービスセンター　新橋さくらの園（社会福祉法人）",
+                "分類": "高齢者在宅サービスセンター（デイサービスセンター）",
+                "地区": "芝地区",
+                "所在地": "港区新橋六丁目19番2号",
+                "連絡先": "電話：03-3433-0185 ファックス：03-3433-7320",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/10.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/10.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726798",
+                    "35.650396",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "小規模多機能型居宅介護施設　ありすの杜きのこ南麻布（社会福祉法人）",
+                "分類": "小規模多機能型居宅介護施設",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目6番1号",
+                "連絡先": "電話：03-5739-0585 ファックス：03-3445-5309",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/11.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/11.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726835",
+                    "35.650383",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "デイサービスセンター　洛和デイセンター南麻布（社会福祉法人）",
+                "分類": "高齢者在宅サービスセンター（デイサービスセンター）",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目6番1号",
+                "連絡先": "電話：03-6408-8966 ファックス：03-5420-8711",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/12.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/12.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.746518",
+                    "35.626636",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "デイサービスセンター　みたて（社会福祉法人）",
+                "分類": "高齢者在宅サービスセンター（デイサービスセンター）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目5番3号",
+                "連絡先": "電話：03-5463-8521 ファックス：03-5463-8522",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/13.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/13.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.748148",
+                    "35.651377",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝地区高齢者相談センター（芝地域包括支援センター）",
+                "分類": "高齢者相談センター（地域包括支援センター）",
+                "地区": "芝地区",
+                "所在地": "港区芝三丁目24番5号",
+                "連絡先": "電話：03-5232-0840（代表） ファックス：03-5446-5857",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-sodan/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-sodan/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735051",
+                    "35.651486",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "麻布地区高齢者相談センター（南麻布地域包括支援センター）",
+                "分類": "高齢者相談センター（地域包括支援センター）",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布一丁目5番26号",
+                "連絡先": "電話：03-3453-8032（代表） ファックス：03-3453-6269",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-sodan/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-sodan/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.721696",
+                    "35.673644",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂地区高齢者相談センター（北青山地域包括支援センター）",
+                "分類": "高齢者相談センター（地域包括支援センター）",
+                "地区": "赤坂地区",
+                "所在地": "港区北青山一丁目6番1号",
+                "連絡先": "電話：03-5410-3415（代表） ファックス：03-5410-3417",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-sodan/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-sodan/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.721965",
+                    "35.637102",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪地区高齢者相談センター（地域包括支援センター白金の森）",
+                "分類": "高齢者相談センター（地域包括支援センター）",
+                "地区": "高輪地区",
+                "所在地": "港区白金台五丁目20番5号",
+                "連絡先": "電話：03-3449-9669（代表） ファックス：03-3449-9668",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-sodan/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-sodan/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749243",
+                    "35.633377",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浦港南地区高齢者相談センター（地域包括支援センター港南の郷）",
+                "分類": "高齢者相談センター（地域包括支援センター）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南三丁目3番23号",
+                "連絡先": "電話番号：03-3450-5905 ファックス番号：03-3450-5909",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-sodan/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-sodan/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.733571",
+                    "35.643687",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高齢者集合住宅　ピア白金",
+                "分類": "高齢者集合住宅",
+                "地区": "高輪地区",
+                "所在地": "港区白金一丁目28番13号",
+                "連絡先": "高齢者支援課　高齢者施設係 電話：（代表）03-3578-2111  03-3473-2507",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-shugojutaku/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-shugojutaku/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731387",
+                    "35.644975",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高齢者集合住宅　フィオーレ白金",
+                "分類": "高齢者集合住宅",
+                "地区": "高輪地区",
+                "所在地": "港区白金三丁目10番11号",
+                "連絡先": "高齢者支援課　高齢者施設係 電話：（代表）03-3578-2111  03-5420-3710",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-shugojutaku/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-shugojutaku/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.729271",
+                    "35.646534",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高齢者集合住宅　はなみずき白金",
+                "分類": "高齢者集合住宅",
+                "地区": "高輪地区",
+                "所在地": "港区白金三丁目3番3号",
+                "連絡先": "高齢者支援課　高齢者施設係 電話：（代表）03-3578-2111  03-3443-5810",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-shugojutaku/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-shugojutaku/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.739624",
+                    "35.653862",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高齢者集合住宅　はなみずき三田",
+                "分類": "高齢者集合住宅",
+                "地区": "芝地区",
+                "所在地": "港区三田一丁目11番14号",
+                "連絡先": "高齢者支援課　高齢者施設係 電話：（代表）03-3578-2111  03-3453-7695",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-shugojutaku/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-shugojutaku/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751587",
+                    "35.658066",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "福祉事務所（芝地区総合支所内）",
+                "分類": "福祉事務所",
+                "地区": "芝地区",
+                "所在地": "港区芝公園一丁目5番25号",
+                "連絡先": "電話：03-3578-3111（代表） ファックス：03-3578-3183",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/fukushi/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/fukushi/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735054",
+                    "35.660731",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "福祉事務所（麻布地区総合支所内）",
+                "分類": "福祉事務所",
+                "地区": "麻布地区",
+                "所在地": "港区六本木五丁目16番45号",
+                "連絡先": "電話：03-3583-4151（代表） ファックス：03-3583-3782",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/fukushi/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/fukushi/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731626",
+                    "35.67486",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "福祉事務所（赤坂地区総合支所内）",
+                "分類": "福祉事務所",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂四丁目18番13号",
+                "連絡先": "電話：03-5413-7011（代表） ファックス：03-5413-2019（管理課及び協働推進課） ファックス：03-3402-8192（区民課）",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/fukushi/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/fukushi/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734043",
+                    "35.642035",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "福祉事務所（高輪地区総合支所内）",
+                "分類": "福祉事務所",
+                "地区": "高輪地区",
+                "所在地": "港区高輪一丁目16番25号",
+                "連絡先": "電話：03-5421-7611（代表） ファックス：03-5421-7613",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/fukushi/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/fukushi/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749012",
+                    "35.645775",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "福祉事務所（芝浦港南地区総合支所内）",
+                "分類": "福祉事務所",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦一丁目16番1号",
+                "連絡先": "電話：03-3456-4151（代表） ファックス：03-5445-4590",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/fukushi/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/fukushi/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749243",
+                    "35.633385",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ケアハウス　港南の郷",
+                "分類": "ケアハウス",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南三丁目3番23号",
+                "連絡先": "電話番号：03-3450-5950 ファックス番号：03-3450-5577",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/care-house/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/care-house/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726825",
+                    "35.650392",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ケアハウス　ありすの杜きのこ南麻布",
+                "分類": "ケアハウス",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目6番1号",
+                "連絡先": "電話：03-5739-0595 ファックス：03-3445-5309",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/care-house/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/care-house/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735153",
+                    "35.647968",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "老人保健施設　ルネサンス麻布",
+                "分類": "老人保健施設（介護老人保健施設）",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布二丁目10番21号",
+                "連絡先": "電話：03-3453-5015 ファックス：03-3453-5026",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/rojinhoken/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/rojinhoken/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7537",
+                    "35.661258",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "老人保健施設　新橋ばらの園",
+                "分類": "老人保健施設（介護老人保健施設）",
+                "地区": "芝地区",
+                "所在地": "港区新橋六丁目19番2号",
+                "連絡先": "電話：03-3433-0182",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/rojinhoken/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/rojinhoken/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726819",
+                    "35.650392",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "老人保健施設　洛和ヴィラサラサ",
+                "分類": "老人保健施設（介護老人保健施設）",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目6番1号",
+                "連絡先": "電話：03-6408-8677 ファックス：03-5420-8711",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/rojinhoken/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/rojinhoken/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.746475",
+                    "35.62664",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "グループホーム　すこやかの家みたて",
+                "分類": "認知症高齢者グループホーム",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目5番3号",
+                "連絡先": "電話：03-5463-8735 ファックス：03-5463-8736",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ninchisho/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ninchisho/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.729099",
+                    "35.646418",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "グループホーム　しろかね",
+                "分類": "認知症高齢者グループホーム",
+                "地区": "高輪地区",
+                "所在地": "港区白金三丁目3番1号",
+                "連絡先": "電話：03-5447-1573 ファックス：03-3440-6271",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ninchisho/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ninchisho/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.725545",
+                    "35.671289",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "グループホーム　青山",
+                "分類": "認知症高齢者グループホーム",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山一丁目3番16号",
+                "連絡先": "電話：03-3402-3155 ファックス：03-3402-3155",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ninchisho/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ninchisho/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726793",
+                    "35.650392",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "グループホーム　ありすの杜きのこ南麻布",
+                "分類": "認知症高齢者グループホーム",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目6番1号",
+                "連絡先": "電話：03-5739-0585 ファックス：03-3445-5309",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ninchisho/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ninchisho/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.746469",
+                    "35.626636",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "グループリビング　みたて",
+                "分類": "高齢者グループリビング（見守りつき住宅）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目5番3号",
+                "連絡先": "電話：03-5783-5120 ファックス：03-5783-5122",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/group-living/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/group-living/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.755562",
+                    "35.651717",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "障害保健福祉センター（ヒューマンぷらざ）",
+                "分類": "障害者施設",
+                "地区": "芝地区",
+                "所在地": "港区芝一丁目8番23号",
+                "連絡先": "電話：03-5439-2511（代表） ファックス：03-5439-2514",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/shogaisha/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/shogaisha/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.73503104848845",
+                    "35.64310812761594",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "精神障害者支援センター（あいはーと・みなと）",
+                "分類": "障害者施設",
+                "地区": "高輪地区",
+                "所在地": "港区高輪一丁目4番8号",
+                "連絡先": "電話：03-5449-6455 ファックス：03-5424-1391",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/shogaisha/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/shogaisha/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.757595",
+                    "35.658791",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "神明いきいきプラザ",
+                "分類": "いきいきプラザ",
+                "地区": "芝地区",
+                "所在地": "港区浜松町一丁目6番7号",
+                "連絡先": "電話：03-3436-2500 ファックス：03-3436-2510",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/18.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/18.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.727458",
+                    "35.650799",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "ありすいきいきプラザ",
+                "分類": "いきいきプラザ",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目6番7号",
+                "連絡先": "電話：03-3444-3656 ファックス：03-3444-3298",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/19.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/19.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751501",
+                    "35.646408",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "介護予防総合センター（ラクっちゃ）",
+                "分類": "介護予防総合センター（ラクっちゃ）",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦一丁目16番1号",
+                "連絡先": "電話：03-3456-4157 ファックス：03-3456-4153",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/rakutya.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/rakutya.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.736665",
+                    "35.641669",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "小規模多機能型居宅介護施設　こゆらり高輪（株式会社）",
+                "分類": "小規模多機能型居宅介護施設",
+                "地区": "高輪地区",
+                "所在地": "港区高輪1丁目5番38号",
+                "連絡先": "電話：03-5422-6921 ファックス：03-5422-6981",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/15.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/k-zaitaku/15.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726394",
+                    "35.639085",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "がん在宅緩和ケア支援センター（ういケアみなと）",
+                "分類": "",
+                "地区": "高輪地区",
+                "所在地": "〒108-0071 港区白金台四丁目6番2号　ゆかしの杜5階",
+                "連絡先": "電話番号：03-6450-3421 ファックス：03-6450-3583",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/uikea.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/uikea.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.727514",
+                    "35.650549",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "特別養護老人ホーム　南麻布シニアガーデン アリス",
+                "分類": "特別養護老人ホーム",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目6番13号",
+                "連絡先": "電話：03-5843-0975 ファックス：03-5843-0976",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/tokubetsuyogo/09.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/tokubetsuyogo/09.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.721954",
+                    "35.653201",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "みなとふれあい館",
+                "分類": "",
+                "地区": "麻布地区",
+                "所在地": "南麻布5-1-25",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/hureai/index.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/hureai/index.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726224",
+                    "35.650303",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "障害者支援ホーム南麻布（ホーム南部坂ありす）",
+                "分類": "障害者施設",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目6番13号",
+                "連絡先": "電話：03-6455-7797 ファックス：03-6455-7798",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/shogaisha/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/shogaisha/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726235",
+                    "35.650308",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "児童発達支援センター（ぱお）",
+                "分類": "障害者施設",
+                "地区": "麻布地区",
+                "所在地": "港区南麻布四丁目6番13号",
+                "連絡先": "電話：03-6277-3106 ファックス：03-6277-3844",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/shogaisha/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/shogaisha/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.72457721175044",
+                    "35.643652877365206",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "神応いきいきプラザ",
+                "分類": "いきいきプラザ",
+                "地区": "高輪地区",
+                "所在地": "港区白金六丁目9番5号　神応ほっとプラザ4階",
+                "連絡先": "電話：03-5422-8848 ファックス：03-5447-0078",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/20.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/fukushi/ikiki/20.html</a>"
+            }
+        }
+    ]
+}

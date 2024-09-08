@@ -1,0 +1,366 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.721404",
+                    "35.674579",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "国際交流スペース",
+                "分類": "区民協働施設",
+                "地区": "赤坂地区",
+                "所在地": "港区北青山一丁目6番3号　都営北青山一丁目アパート3号棟地下1階",
+                "連絡先": "電話：03-3796-3309",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kankekikan/kankekikan/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kankekikan/kankekikan/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.746479",
+                    "35.651372",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝の家",
+                "分類": "区民協働施設",
+                "地区": "芝地区",
+                "所在地": "港区芝三丁目26番8号",
+                "連絡先": "電話・ファックス：03-3453-0474",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/sonota/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/sonota/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.744917",
+                    "35.649283",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝区民協働スペース（芝コミュニティはうす）",
+                "分類": "区民協働施設",
+                "地区": "芝地区",
+                "所在地": "港区芝五丁目13番15号　芝三田森ビル2階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.754007",
+                    "35.662340",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "新橋区民協働スペース",
+                "分類": "区民協働施設",
+                "地区": "芝地区",
+                "所在地": "港区新橋六丁目4番2号　きらきらプラザ新橋1階・4階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750599",
+                    "35.654170",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝公園区民協働スペース",
+                "分類": "区民協働施設",
+                "地区": "芝地区",
+                "所在地": "港区芝公園ニ丁目7番3号　芝公園保育園3階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.747011",
+                    "35.663343",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "愛宕区民協働スペース",
+                "分類": "区民協働施設",
+                "地区": "芝地区",
+                "所在地": "港区虎ノ門三丁目19番15号　ザ･パークハウス愛宕虎ノ門1階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.742558",
+                    "35.658217",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "東麻布区民協働スペース",
+                "分類": "区民協働施設",
+                "地区": "麻布地区",
+                "所在地": "港区東麻布ニ丁目1番1号　東麻布二丁目複合施設3階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.73503726256826",
+                    "35.66126125908505",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "麻布区民協働スペース",
+                "分類": "区民協働施設",
+                "地区": "麻布地区",
+                "所在地": "港区六本木五丁目16番46号　麻布保育園3階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.730769",
+                    "35.660958",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "六本木区民協働スペース",
+                "分類": "区民協働施設",
+                "地区": "麻布地区",
+                "所在地": "港区六本木六丁目5番19号　シティハイツ六本木　公共施設棟1階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space07.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space07.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731800",
+                    "35.674714",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "赤坂区民協働スペース",
+                "分類": "区民協働施設",
+                "地区": "赤坂地区",
+                "所在地": "港区赤坂四丁目18番13号　赤坂地区総合支所2階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space08.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space08.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.736806",
+                    "35.641764",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪区民協働スペース",
+                "分類": "区民協働施設",
+                "地区": "高輪地区",
+                "所在地": "港区高輪一丁目5番38号　HUG高輪2階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space09.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space09.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.7321635913482",
+                    "35.6310012838376",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪台区民協働スペース",
+                "分類": "区民協働施設",
+                "地区": "高輪地区",
+                "所在地": "港区高輪三丁目10番16号　優っくり村高輪台1階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space10.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space10.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.726725",
+                    "35.639189",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "白金台区民協働スペース",
+                "分類": "区民協働施設",
+                "地区": "高輪地区",
+                "所在地": "港区白金台四丁目6番2号　ゆかしの杜6階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space11.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space11.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751847",
+                    "35.646680",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浦区民協働スペース",
+                "分類": "区民協働施設",
+                "地区": "芝浦港南地区",
+                "所在地": "港区芝浦一丁目16番1号　みなとパーク芝浦1階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space12.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space12.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.743192",
+                    "35.629252",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "品川駅港南口協働スペース",
+                "分類": "区民協働施設",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南ニ丁目3番13号　品川フロントビルキッズ館1階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space13.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space13.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.749802",
+                    "35.631088",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "港南区民協働スペース",
+                "分類": "区民協働施設",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南四丁目3番7号　さんぽーと港南1階・2階",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space14.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space14.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.734192",
+                    "35.641905",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "高輪コミュニティーぷらざ",
+                "分類": "区民協働施設",
+                "地区": "高輪地区",
+                "所在地": "高輪1-16-25",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/sonota05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/sonota05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.776878",
+                    "35.630050",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "台場コミュニティーぷらざ",
+                "分類": "区民協働施設",
+                "地区": "芝浦港南地区",
+                "所在地": "台場1-5-1",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/sonota/sonota07.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/sonota/sonota07.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.72452356639198",
+                    "35.6436049159968",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "神応区民協働スペース",
+                "分類": "区民協働施設",
+                "地区": "高輪地区",
+                "所在地": "港区白金六丁目9番5号　神応ほっとプラザ4階・屋外",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space15.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kyoudou/space15.html</a>"
+            }
+        }
+    ]
+}

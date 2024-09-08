@@ -1,0 +1,24 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.713122",
+                    "35.662774",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "港区児童相談所",
+                "分類": "港区児童相談所",
+                "地区": "赤坂地区",
+                "所在地": "港区南青山五丁目7番11号（港区子ども家庭総合支援センター（ミナトイク）内）",
+                "連絡先": "◆代表 　03-5962-6500 ◆FAX 　03-5962-6509 ◆里親相談ダイヤル 　03-5962-6505 ◆港区児童虐待相談ダイヤル（24時間対応） 　0120-483-710（フリーダイヤル） ◆児童相談所全国共通ダイヤル（24時間対応） 　189（フリーダイヤル）（お近くの児童相談所につながります） ◆親子のための相談LINE(対応時間：13時～21時)※受付は24時間です。（外観写真の下にある二次元コードを読み取り、ともだち登録を行ってご利用ください。）",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/69.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/gakkokyoiku/jidokan/69.html</a>"
+            }
+        }
+    ]
+}

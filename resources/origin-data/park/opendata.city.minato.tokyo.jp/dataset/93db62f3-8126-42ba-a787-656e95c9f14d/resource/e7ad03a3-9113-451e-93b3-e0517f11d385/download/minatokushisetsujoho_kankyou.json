@@ -1,0 +1,157 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.756852",
+                    "35.658833",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "エコプラザ",
+                "分類": "環境施設",
+                "地区": "芝地区",
+                "所在地": "港区浜松町一丁目13番1号",
+                "連絡先": "電話：03-5404-7764 ファックス：03-5404-7765",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kankyo/kankyo/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kankyo/kankyo/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751329",
+                    "35.634364",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "みなとリサイクル清掃事務所",
+                "分類": "清掃・リサイクル施設",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南三丁目9番59号",
+                "連絡先": "電話：03-3450-8025 ファックス：03-3450-8063",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kankyo/seso/01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kankyo/seso/01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.757018",
+                    "35.631227",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "港資源化センター",
+                "分類": "清掃・リサイクル施設",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南五丁目7番1号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kankyo/seso/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kankyo/seso/02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.755846",
+                    "35.631576",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "港清掃工場",
+                "分類": "清掃・リサイクル施設",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南五丁目7番1号",
+                "連絡先": "電話：03-5479-5300",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kankyo/seso/03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kankyo/seso/03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.809265",
+                    "35.599811",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "埋立処分場",
+                "分類": "清掃・リサイクル施設",
+                "地区": "港区外",
+                "所在地": "江東区青梅二丁目地先",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kankyo/seso/04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kankyo/seso/04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.75075",
+                    "35.63509",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "芝浦清掃作業所",
+                "分類": "清掃・リサイクル施設",
+                "地区": "芝浦港南地区",
+                "所在地": "港区港南三丁目1番18号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kankyo/seso/05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kankyo/seso/05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.746429",
+                    "35.653484",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "新堀粗大ごみ中継所",
+                "分類": "清掃・リサイクル施設",
+                "地区": "芝地区",
+                "所在地": "港区芝三丁目2番14号",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kankyo/seso/06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kankyo/seso/06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.201748",
+                    "35.710358",
+                    0
+                ]
+            },
+            "properties": {
+                "タイトル": "みなと区民の森作業小屋",
+                "分類": "環境施設",
+                "地区": "港区外",
+                "所在地": "東京都あきる野市 戸倉字刈寄谷2403-6",
+                "連絡先": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/kankyo/kankyo/02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/kankyo/kankyo/02.html</a>"
+            }
+        }
+    ]
+}
