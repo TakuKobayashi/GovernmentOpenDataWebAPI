@@ -1,0 +1,394 @@
+施設名称,所在地,緯度,経度,電話番号,URL
+ひきふね図書館,墨田区京島一丁目36番5号,35.717058,139.819491,03-5655-2350,https://www.city.sumida.lg.jp/sisetu_info/tamokuteki/library/annai/hikihune.html
+緑図書館,墨田区緑二丁目24番5号,35.69574,139.800613,03-3631-4621,https://www.city.sumida.lg.jp/sisetu_info/tamokuteki/library/annai/midori.html
+立花図書館,墨田区立花六丁目8番1号101号室,35.710694,139.834842,03-3618-2620,https://www.city.sumida.lg.jp/sisetu_info/tamokuteki/library/annai/tatibana.html
+八広図書館,墨田区八広五丁目10番1号104号室,35.72481,139.825793,03-3616-0846,https://www.city.sumida.lg.jp/sisetu_info/tamokuteki/library/annai/yahiro.html
+東駒形コミュニティ会館図書室,墨田区東駒形四丁目14番1号,35.705517,139.807746,03-3623-1141,https://www.city.sumida.lg.jp/sisetu_info/tamokuteki/library/annai/higasikomagata.html
+梅若橋コミュニティ会館図書室,墨田区堤通二丁目9番1号,35.735335,139.816746,03-3616-1101,https://www.city.sumida.lg.jp/sisetu_info/tamokuteki/library/annai/umewaka.html
+横川コミュニティ会館図書室,墨田区横川五丁目9番1号,35.705116,139.81758,03-5608-4500,https://www.city.sumida.lg.jp/sisetu_info/tamokuteki/library/annai/yokokawa.html
+横川コミ: "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.754772",
+                    "35.663076",
+                    0
+                ]
+            },
+            "properties": {
+                "繧ｿ繧､繝医Ν": "蝪ｩ驥懷�蝨偵��蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "闃晏慍蛹ｺ",
+                "謇�蝨ｨ蝨ｰ": "譁ｰ讖倶ｺ比ｸ∫岼19逡ｪ7蜿ｷ",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.752715",
+                    "35.666344",
+                    0
+                ]
+            },
+            "properties": {
+                "繧ｿ繧､繝医Ν": "蜊玲｡懷�蝨偵��蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "闃晏慍蛹ｺ",
+                "謇�蝨ｨ蝨ｰ": "隘ｿ譁ｰ讖倶ｺ御ｸ∫岼10逡ｪ13蜿ｷ",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737385",
+                    "35.654129",
+                    0
+                ]
+            },
+            "properties": {
+                "繧ｿ繧､繝医Ν": "譁ｰ蠎�ｰｾ蜈ｬ蝨抵ｼ亥ｰ丞ｱｱ讖具ｼ峨��蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "鮗ｻ蟶�慍蛹ｺ",
+                "謇�蝨ｨ蝨ｰ": "鮗ｻ蟶�香逡ｪ蝗帑ｸ∫岼5逡ｪ1蜿ｷ",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.741872",
+                    "35.655071",
+                    0
+                ]
+            },
+            "properties": {
+                "繧ｿ繧､繝医Ν": "荳ｭ繝取ｩ句�遶･驕雁恍縲�蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "鮗ｻ蟶�慍蛹ｺ",
+                "謇�蝨ｨ蝨ｰ": "譚ｱ鮗ｻ蟶�ｸ�荳∫岼30逡ｪ1蜿ｷ",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737510",
+                    "35.655867",
+                    0
+                ]
+            },
+            "properties": {
+                "繧ｿ繧､繝医Ν": "荳�縺ｮ讖句�蝨偵��蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "鮗ｻ蟶�慍蛹ｺ",
+                "謇�蝨ｨ蝨ｰ": "譚ｱ鮗ｻ蟶�ｸ我ｸ∫岼9逡ｪ1蜿ｷ",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737204",
+                    "35.651017",
+                    0
+                ]
+            },
+            "properties": {
+                "繧ｿ繧､繝医Ν": "蜊鈴ｺｻ蟶�ｸ�荳∫岼蜈千ｫ･驕雁恍縲�蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "鮗ｻ蟶�慍蛹ｺ",
+                "謇�蝨ｨ蝨ｰ": "蜊鈴ｺｻ蟶�ｸ�荳∫岼7逡ｪ29蜿ｷ",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735453",
+                    "35.646521",
+                    0
+                ]
+            },
+            "properties": {
+                "繧ｿ繧､繝医Ν": "蜿､蟾晄ｩ句�遶･驕雁恍縲�蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "鮗ｻ蟶�慍蛹ｺ",
+                "謇�蝨ｨ蝨ｰ": "蜊鈴ｺｻ蟶�ｺ御ｸ∫岼15逡ｪ11蜿ｷ",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.720049",
+                    "35.664224",
+                    0
+                ]
+            },
+            "properties": {
+                "繧ｿ繧､繝医Ν": "隨��遶･驕雁恍縲�蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "鮗ｻ蟶�慍蛹ｺ",
+                "謇�蝨ｨ蝨ｰ": "隘ｿ鮗ｻ蟶�ｺ御ｸ∫岼1逡ｪ2蜿ｷ",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-06.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-06.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.722553",
+                    "35.660002",
+                    0
+                ]
+            },
+            "properties": {
+                "繧ｿ繧､繝医Ν": "隘ｿ鮗ｻ蟶�ｺ御ｸ∫岼讀崎ｾｼ縺ｿ蝨ｰ縲�蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "鮗ｻ蟶�慍蛹ｺ"
+2000
+,
+                "謇�蝨ｨ蝨ｰ": "隘ｿ鮗ｻ蟶�ｺ御ｸ∫岼24逡ｪ",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-07.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-07.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.737082",
+                    "35.670835",
+                    0
+                ]
+            },
+            "properties": {
+                "繧ｿ繧､繝医Ν": "豌ｷ蟾晏�蝨偵��蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "襍､蝮ょ慍蛹ｺ",
+                "謇�蝨ｨ蝨ｰ": "襍､蝮ょ�荳∫岼5逡ｪ4蜿ｷ",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/akasaka-01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/akasaka-01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.718966",
+                    "35.669176",
+                    0
+                ]
+            },
+            "properties": {
+                "繧ｿ繧､繝医Ν": "髱貞ｱｱ蜈ｬ蝨偵��蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "襍､蝮ょ慍蛹ｺ",
+                "謇�蝨ｨ蝨ｰ": "蜊鈴搨螻ｱ莠御ｸ∫岼21逡ｪ12蜿ｷ",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/akasaka-02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/akasaka-02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.720344",
+                    "35.674966",
+                    0
+                ]
+            },
+            "properties": {
+                "繧ｿ繧､繝医Ν": "蛹鈴搨螻ｱ荳�荳∫岼雉�攝鄂ｮ蝣ｴ陬上��蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "襍､蝮ょ慍蛹ｺ",
+                "謇�蝨ｨ蝨ｰ": "蛹鈴搨螻ｱ荳�荳∫岼7逡ｪ33蜿ｷ蜈�",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/akasaka-03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/akasaka-03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.729327",
+                    "35.646753",
+                    0
+                ]
+            },
+            "properties": {
+                "繧ｿ繧､繝医Ν": "逋ｽ驥大�蝨偵��蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "鬮倩ｼｪ蝨ｰ蛹ｺ",
+                "謇�蝨ｨ蝨ｰ": "逋ｽ驥台ｸ我ｸ∫岼1逡ｪ16蜿ｷ",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/takanawa-01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/takanawa-01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.729523",
+                    "35.635299",
+                    0
+                ]
+            },
+            "properties": {
+                "繧ｿ繧､繝医Ν": "莉乗園蠕｡蠢ｵ莨夐ｧ占ｻ雁�ｴ縲�蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "鬮倩ｼｪ蝨ｰ蛹ｺ",
+                "謇�蝨ｨ蝨ｰ": "逋ｽ驥大床莠御ｸ∫岼5逡ｪ",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/takanawa-03.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/takanawa-03.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.735665",
+                    "35.632872",
+                    0
+                ]
+            },
+            "properties": {
+                "繧ｿ繧､繝医Ν": "鬮倩ｼｪ蜈ｬ蝨貞�蜿｣縲�蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "鬮倩ｼｪ蝨ｰ蛹ｺ",
+                "謇�蝨ｨ蝨ｰ": "鬮倩ｼｪ荳我ｸ∫岼21逡ｪ1蜿ｷ",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/takanawa-05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/takanawa-05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751575",
+                    "35.645622",
+                    0
+                ]
+            },
+            "properties": {
+                "繧ｿ繧､繝医Ν": "闃晄ｵｦ蜈ｬ蝨偵��蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "闃晄ｵｦ貂ｯ蜊怜慍蛹ｺ",
+                "謇�蝨ｨ蝨ｰ": "闃晄ｵｦ荳�荳∫岼16逡ｪ25蜿ｷ",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/shibaurakonan-01.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/shibaurakonan-01.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.751282",
+                    "35.628834",
+                    0
+                ]
+            },
+            "properties": {
+                "繧ｿ繧､繝医Ν": "貂ｯ蜊礼ｷ第ｰｴ蜈ｬ蝨偵��蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "闃晄ｵｦ貂ｯ蜊怜慍蛹ｺ",
+                "謇�蝨ｨ蝨ｰ": "貂ｯ蜊怜屁荳∫岼7逡ｪ47蜿ｷ",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/shibaurakonan-02.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/shibaurakonan-02.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.731909",
+                    "35.647553",
+                    0
+                ]
+            },
+            "properties": {
+                "繧ｿ繧､繝医Ν": "蜿､蟾晄ｲｿ邱大慍�亥屁荵区ｩ具ｼ峨��蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "鮗ｻ蟶�慍蛹ｺ",
+                "謇�蝨ｨ蝨ｰ": "蜊鈴ｺｻ蟶�ｸ我ｸ∫岼21逡ｪ",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-08.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/azabu-08.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.750056",
+                    "35.651917",
+                    0
+                ]
+            },
+            "properties": {
+                "繧ｿ繧､繝医Ν": "闃晏恍蜈千ｫ･驕雁恍縲�蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "闃晏慍蛹ｺ",
+                "謇�蝨ｨ蝨ｰ": "闃昜ｺ御ｸ∫岼7逡ｪ12蜿ｷ",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-04.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-04.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "139.744528",
+                    "35.650528",
+                    0
+                ]
+            },
+            "propertie
+4da
+s": {
+                "繧ｿ繧､繝医Ν": "荳臥伐莠御ｸ∫岼蜈千ｫ･驕雁恍縲�蝨溘�縺�ｽｮ縺榊�ｴ",
+                "蛻�｡�": "蝨溘�縺�",
+                "蝨ｰ蛹ｺ": "闃晏慍蛹ｺ",
+                "謇�蝨ｨ蝨ｰ": "荳臥伐莠御ｸ∫岼20逡ｪ7蜿ｷ",
+                "騾｣邨｡蜈�": "",
+                "URL": "<a href='https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-05.html' target='_blank'>https://www.city.minato.tokyo.jp/shisetsu/donou/shiba-05.html</a>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geom
