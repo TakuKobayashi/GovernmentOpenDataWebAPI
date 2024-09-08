@@ -239,7 +239,7 @@ dataCommand
       if (['.csv', '.json', '.txt', '.rdf', '.xml'].includes(crawlerModel.origin_file_ext)) {
         const detectedEncoding = Encoding.detect(response.data);
         let textData: string = '';
-        if (detectedEncoding === 'SJIS') {
+        if (detectedEncoding === 'SJIS' || detectedEncoding === 'UNICODE') {
           textData = new TextDecoder('shift-jis').decode(response.data.buffer);
         } else if (detectedEncoding === 'UTF8' || detectedEncoding === 'UTF32') {
           textData = response.data.toString();
