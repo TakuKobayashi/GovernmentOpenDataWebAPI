@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+
+<html xml:lang="ja" lang="ja" >
+<head>
+
+    <base href="/suginami/suginami/">
+    <script type="text/javascript">
+    var jsBaseDir = "/v/common/Scripts/";
+    </script>
+    <!--[if lte IE 9]>
+    <script>
+        (function()
+        {
+            var base = document.getElementsByTagName('base')[0];
+            base.href = base.href;
+        })();
+    </script>
+    <![endif]-->
+
+    <meta charset="utf-8" />
+    <meta name="robots" content="nofollow">
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8; IE=EmulateIE9; IE=EmulateIE10; IE=EmulateIE11" />
+    <title>すぎナビ | オープンデータ詳細</title>
+    <link rel="shortcut icon" href="/suginami/suginami/favicon.ico">
+    <link rel="apple-touch-icon" href="/suginami/suginami/apple-touch-icon.png">
+    <link rel="android-touch-icon" href="/suginami/suginami/android-touch-icon.png">
+
+    
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/css/bundles/styles.css">
+    
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/css/bundles/content.themes.base.css">
+
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/top/common.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/top/btn.css" />
+    
+    
+    
+    
+    
+    <script type="text/javascript" src="/v/common/Scripts/bundles/bundles.modernizr.js"></script>
+    
+    <script type="text/javascript" src="/v/common/Scripts/bundles/bundles.jquery.js"></script>
+    <script type="text/javascript" src="/v/common/Scripts/plugin/lib/GeoAccessJS/lib/GeoAccessLoad.js"></script>
+    <script type="text/javascript" src="/v/common/Scripts/plugin/lib/function.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/v/common/Scripts/plugin/lib/fix-ie-css.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/v/common/Scripts/plugin/lib/GeoAccessJS_extend.js" charset="utf-8"></script>
+    
+
+</head>
+<body>
+    
+
+<script>
+    var RedirectHttpsPage = function () {
+        if (location.href.indexOf("https") < 0) {
+            location.href = location.href.replace("http", "https");
+        }
+    }
+    var FQDN = "_map.pref.chiba.lg.jp,gis.pref.okinawa.jp,bousaimap.pref.kochi.lg.jp,_web-gis.pref.shimane.lg.jp,www4.city.otsu.shiga.jp,multi-hazard-map.pref.kyoto.jp,www.gis.pref.okayama.jp,map.city.shiojiri.nagano.jp,map.city.shiojiri.lg.jp";
+    var ModeIntra = "1";
+
+
+
+    if (FQDN && ModeIntra == 1) {
+        var fqdnArr = FQDN.split(",");
+        if ($.inArray(location.host.toString(), fqdnArr) < 0) {
+            RedirectHttpsPage();
+        }
+    }
+</script>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>オープンデータ一覧</title>
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/top/reset.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/top/common.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/top/index.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/top/carousel.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/top/login.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/top/btn.css" />
+
+    <script type="text/javascript" src="/v/common/Scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/v/common/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script type="text/javascript" src="/v/common/Scripts/admin/RequestHelper.js"></script>
+    <script type="text/javascript" src="/v/common/Scripts/admin/CommonJs.js"></script>
+    <script type="text/javascript" src="/v/common/Scripts/jquery-ui-1.10.3.js"></script>
+    <style>
+        .pageMds {
+            padding: 10px 0;
+            line-height: 1.5;
+        }
+
+            .pageMds h1 {
+                border-left: 4px solid #085AA5;
+                padding-left: .4em;
+                font-size: 180%;
+                font-weight: bold;
+                color: #085AA5;
+            }
+
+            .pageMds p.note {
+                padding: .5em 1em;
+                font-size: 93%;
+                color: #085AA5;
+            }
+
+        /* 枠 - 左右カラム
+        ----------------------------------------------------------------------*/
+        /* ■オープンデータ一覧ページ */
+        .column-left-od {
+            float: left;
+            width: 200px;
+        }
+
+        .column-right-od {
+            float: right;
+            width: 770px;
+        }
+
+        /* mds */
+        .mds-od {
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+            .mds-od h2 {
+                padding-left: 52px;
+                background: url("./Content/images/site/opendata/mds_cate_all.png") no-repeat 0 0 rgba(0, 0, 0, 0);
+                font-size: 220%;
+                line-height: 43px;
+            }
+        /*
+        .icon-chgmap {
+            background: url("./opendata/pages/ico_chgmap.png") no-repeat scroll 0 -22px;
+        }*/
+        .mds-icon2 {
+            bottom: 0;
+            display: inline-block;
+            height: 22px;
+            left: 7px;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            width: 22px;
+        }
+
+        /* ■詳細ページ */
+        .column-left-dt {
+            float: left;
+            width: 430px;
+        }
+
+        .column-right-dt {
+            float: right;
+            width: 540px;
+        }
+
+        .outer-module2 {
+            border: 1px solid #dcdcdc;
+            border-top: 0;
+            box-sizing: border-box;
+            padding: 5px 10px 10px;
+            margin: 0 0 10px;
+            background-color: #fff;
+        }
+
+            .outer-module2 p {
+                font-size: 93%;
+                padding-bottom: 5px;
+            }
+
+        /* 地図表示 */
+        .outer-map {
+            display: block;
+            width: 100%;
+            height: 540px;
+            box-sizing: border-box;
+            /*background: #ddd url(./opendata/dammy_map.png) no-repeat 50% 50%;*/
+        }
+
+        /* ul - カテゴリ切替
+        ----------------------------------------------------------------------*/
+        .listMapcate {
+            box-sizing: border-box;
+            border: 1px solid #fff;
+            background-color: #fff;
+            line-height: 2;
+        }
+
+            .listMapcate li {
+                width: auto;
+                background-color: #ececfb;
+                border-bottom: 1px solid #fff;
+                position: relative;
+            }
+
+                .listMapcate li:last-child {
+                    border-bottom: none;
+                }
+
+                .listMapcate li a {
+                    display: block;
+                    padding: 0 0 0 40px;
+                    height: 40px;
+                    font-size: 116%;
+                    line-height: 40px;
+                    text-decoration: none;
+                }
+
+
+                .listMapcate li.current a {
+                    background-color: #987D00;
+                    color: #fff;
+                }
+
+        .list-icon {
+            bottom: 0;
+            display: inline-block;
+            height: 22px;
+            left: 7px;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            width: 22px;
+        }
+
+        .icon-chgmap {
+            background: url("./Content/images/site/opendata/mds_icon_all.png") no-repeat 0 -132px rgba(0, 0, 0, 0);
+        }
+
+        .icon-checked {
+            background: url("./Content/images/site/opendata/list_icon_all.png") no-repeat 0 0 rgba(0, 0, 0, 0);
+        }
+
+        .icon-nocheck {
+            background: url("./Content/images/site/opendata/list_icon_all.png") no-repeat 0 -22px rgba(0, 0, 0, 0);
+        }
+
+        li:hover .icon-nocheck {
+            background: url("./Content/images/site/opendata/list_icon_all.png") no-repeat 0 -44px rgba(0, 0, 0, 0);
+        }
+
+        .icon-facility {
+            background: url("./Content/images/site/opendata/mds_icon_all.png") no-repeat 0 -154px rgba(0, 0, 0, 0);
+        }
+
+        .icon-download {
+            background: url("./Content/images/site/opendata/mds_icon_all.png") no-repeat 0 -176px rgba(0, 0, 0, 0);
+        }
+
+        .icon-map {
+            background: url("./Content/images/site/opendata/mds_icon_all.png") no-repeat 0 -67px rgba(0, 0, 0, 0);
+        }
+
+        /* pdf-csv ダウンロードファイル */
+        .list-download {
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            border-bottom: 5px solid #ededed;
+        }
+
+            .list-download li {
+                font-size: 100%;
+                position: relative;
+            }
+
+                .list-download li a {
+                    padding-left: 15px;
+                    height: auto;
+                    line-height: 50px;
+                    font-size: 120%;
+                    font-weight: bold;
+                }
+
+                .list-download li span {
+                    padding-left: 35px;
+                }
+
+        .icon-csv, .icon-shape, .icon-kml, .icon-geojson, .icon-pdf, .icon-external {
+            font-size:20px;
+        }
+
+        .icon-csv {
+            background: url("./Content/images/site/opendata/file-icon/ico_csv.png") no-repeat 0 0 rgba(0, 0, 0, 0);
+        }
+
+        .icon-shape {
+            background: url("./Content/images/site/opendata/file-icon/ico_shape.png") no-repeat 0 0 rgba(0, 0, 0, 0);
+        }
+
+        .icon-kml {
+            background: url("./Content/images/site/opendata/file-icon/ico_kml.png") no-repeat 0 0 rgba(0, 0, 0, 0);
+        }
+
+        .icon-geojson {
+            background: url("./Content/images/site/opendata/file-icon/ico_geojson.png") no-repeat 0 0 rgba(0, 0, 0, 0);
+        }
+
+        .icon-pdf {
+            background: url("./Content/images/site/opendata/file-icon/ico_pdf.png") no-repeat 0 0 rgba(0, 0, 0, 0);
+        }
+
+        .icon-external {
+            background: url("./Content/images/site/opendata/file-icon/ico_def.png") no-repeat 0 0 rgba(0, 0, 0, 0);
+        }
+
+        /* table - 一覧表
+        ----------------------------------------------------------------------*/
+        .tbl-opendata {
+            width: 100%;
+        }
+
+            .tbl-opendata th {
+                text-align: center;
+                background-color: #333;
+                border: 1px solid #999;
+                font-size: 93%;
+                color: #fff;
+                line-height: 2;
+                white-space: nowrap;
+            }
+
+            /*奇数行*/
+            .tbl-opendata tr.tr-odd td {
+                background-color: #f0f0fe;
+            }
+            /*偶数行*/
+            .tbl-opendata tr.tr-even td {
+                background-color: #fff;
+            }
+
+            .tbl-opendata td {
+                padding: 2px 4px;
+                background-color: #fff;
+                border: 1px solid #dddddd;
+            }
+
+                .tbl-opendata td.c1 {
+                    vertical-align: top;
+                }
+
+                .tbl-opendata td.c4,
+                .tbl-opendata td.c5 {
+                    text-align: center;
+                }
+
+        /* ボタンリンク */
+        .btn-link-s,
+        .btn-link-c,
+        .btn-link-d,
+        .btn-link-gis {
+            border-radius: 2px;
+            padding: 2px 4px;
+            font-size: 18px; /*font-size: small;*/
+            color: #fff;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .btn-link-s {
+            background-color: #cb6214;
+        }
+
+        .btn-link-c {
+            background-color: #3fcb14;
+        }
+
+        .btn-link-d {
+            background-color: #085AA5;
+        }
+
+            .btn-link-s:hover,
+            .btn-link-c:hover,
+            .btn-link-d:hover {
+                color: #fff;
+            }
+
+        .btn-link-gis {
+            border-radius: 2px;
+            padding: .3em 1em;
+            background-color: #A54310;
+            font-size: 140%;
+            color: #fff;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .mds {
+            background-color: #fff;
+            border: 1px solid #dcdcdc;
+            padding: 1px;
+            position: relative;
+        }
+
+            .mds h2 {
+                background-color: #085AA5;
+                color: #fff;
+                font-size: 125%;
+/*                font-weight: bold;*/
+                height: 32px;
+                line-height: 34px;
+                padding-left: 34px;
+/*                text-shadow: 1px 1px 2px #003366;*/
+            }
+
+        .licence {
+            height: 40px;
+            width: 125px;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin: 2px;
+        }
+    </style>
+    <script>
+    </script>
+</head>
+<body>
+    <!--ヘッダー-->
+
+<script type="text/javascript">
+    var mid;
+
+    $(function () {
+        mid = $('#MapId,#MapSelect').val() == null ? "" : $('#MapId,#MapSelect').val();
+
+        var langmodeParam = "";
+        
+        var langmode = "0";
+
+        if (langmode != 0) {
+            langmodeParam = "&langmode=" + langmode;
+        }
+
+        if ($('#a_PositionSelect').length > 0) {
+            if ("OpenDataDetail" != "Agreement") {
+                $('#a_PositionSelect').attr('href', GetAbsoluteUrl("PositionSelect?mid=" + mid + langmodeParam));
+            }
+            else {
+                $('#a_PositionSelect').attr('href', GetAbsoluteUrl("PositionSelect?mid=" + "" + langmodeParam));
+            }
+        }
+
+        if ($('#a_AddressSearch').length > 0) {
+            $('#a_AddressSearch').attr('href', GetAbsoluteUrl("AddressSearch?mid=" + mid));
+        }
+
+        if ("1" == "1" && "false" == "true") {
+            $("#li_Agreement").show();
+        }
+        else {
+            $("#li_Agreement").hide();
+        }
+    });
+
+    var onRefuse = function () {
+        $('#MapId,#MapSelect').val(OldMapId);
+        $('#MapId').triggerHandler("onRefuse");
+
+        onClose();
+    }
+
+    var onAgree = function () {
+        mid = $('#MapId,#MapSelect').val() == null ? "" : $('#MapId,#MapSelect').val();
+
+        var langmodeParam = "";
+        if (langmode != 0) {
+            langmodeParam = "&langmode=" + langmode;
+        }
+
+        if ("OpenDataDetail" == "PositionSelect") {
+            RedirectUrl(GetAbsoluteUrl("PositionSelect?mid=" + mid + langmodeParam));
+        }
+
+        OldMapId = mid;
+        if (typeof (oG0501AData) != "undefined" && oG0501AData != null) {
+            oG0501AData.mid = mid;
+        }
+        if ("1" == "1") {
+            $("#li_Agreement").show();
+        }
+
+        var langmodeParam = "";
+        if (langmode != 0) {
+            langmodeParam = "&langmode=" + langmode;
+        }
+        if ($('#a_PositionSelect').length > 0) {
+            $('#a_PositionSelect').attr('href', GetAbsoluteUrl("PositionSelect?mid=" + mid + langmodeParam));
+        }
+
+        if ($('#a_AddressSearch').length > 0) {
+            $('#a_AddressSearch').attr('href', GetAbsoluteUrl("AddressSearch?mid=" + mid + langmodeParam));
+        }
+        onClose();
+    }
+
+    var onClose = function () {
+        top.dofunction.iframeobj.hide();
+    }
+
+    // 利用許諾画面を開く
+    var OpenAgree = function (Parent) {
+        mid = $('#MapId,#MapSelect').val() == null ? "" : $('#MapId,#MapSelect').val();
+
+        var args = {
+            width: GetWinWidth() - 100,
+            height: GetWinHeight() - 100,
+            src: '../Agreement',
+            title: "利用許諾",
+            closebutton: false,
+            dofunction: {
+                onAgree: onAgree,
+                onRefuse: onRefuse,
+                onClose: onClose
+            }
+        };
+        var oG0304CWindow = new IframeWindow(args);
+        if (langmode == 0) {
+        oG0304CWindow.open({ modal: 1, MapId: mid, Parent: Parent });
+        } else {
+            oG0304CWindow.open({ modal: 1, MapId: mid, langmode: langmode, Parent: Parent });
+        }
+    }
+</script>
+<head>
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/top/crumbs.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/separate/13115-site.css" />
+</head>
+<header id="header">
+    <div id="headerInner" class="clearfix">
+        <a href="../Portal"><h1>
+            <!--img src="./Content/images/pages/top/logo.png" alt="すぎナビ"--></h1></a>
+            
+            <p class="headerTxt"><span>
+              杉並区
+              公式電子地図サービス
+              すぎナビ
+            </span></p>
+            
+        <nav id="headerNav">
+            <ul>
+                                <!--li class="btn-zsite-li"><a onclick="openZoomSight();" class="btn-zsite">ズームサイト</a></li-->
+                <li><a href="./Content/pages/help/help.html" onclick="window.open(this.href, '使い方ガイド', 'width=800,height=768,toolbar=no,menubar=no,location=no,status=no,resizable=yes'); return false;" onkeypress="window.open(this.href, '使い方ガイド', 'htight=768,width=800,toolbar=no,menubar=no,location=no,status=no'); return false;" tabindex="0" class="btn-help">
+                <!--img src="./Content/images/pages/top/btn_guide_off.jpg" alt="使い方ガイド"-->
+                </a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!--/#header-->
+
+<div id="topicPath">
+    <div id="topicPathInner" class="clearfix">
+        <ul class="crumbs">
+                        <li><a href="./../Portal">トップページ</a><span>＞</span></li>
+                        <li><a href="../OpenData/">オープンデータ一覧</a>
+                        <span>＞</span></li>
+                        <li id="li_Agreement"><a href='javascript:void(0);' onclick="OpenAgree('OpenDataDetail');" onkeypress="OpenAgree('OpenDataDetail');" tabindex="0">利用許諾</a><span>＞</span></li>
+                        <li><a class="current">オープンデータ詳細</a></li>
+        </ul>
+
+    </div>
+    <!--/#statusArea-->
+</div>
+<!--/#topicPath-->
+
+
+    <article>
+        <div id="contents">
+            <div class="contents-inner clearfix">
+                <!--■ 見出し／説明------------------------------------------------------------------------------>
+                <div class="pageMds">
+                    <h1>オープンデータ詳細</h1>
+                    <p class="note">
+                        地図情報がオープンデータとして公開されています。準備中と表示されている場合は、システムが地図情報の更新内容をオープンデータとして公開する準備をしています。しばらくお待ちください。
+                    </p>
+                </div>
+                <!--■ 左カラム------------------------------------------------------------------------------>
+                <div class="column-left-dt">
+                    <div class="mds">
+                        <h2><span class="list-icon icon-facility"></span>公社・区内官公署・その他</h2>
+                    </div>
+                    <div class="outer-module2">
+                        <p>公社・区内官公署・その他</p>
+                        <table class="tbl-opendata">
+                            <tr class="tr-odd">
+                                <th>タグ</th>
+                                <td></td>
+                            </tr>
+                            <tr class="tr-even">
+                                <th>ライセンス</th>
+                                <td>
+                                            <p class="licence" style="background-image: url('./Content/images/site/opendata/licence/by-.png');"></p>
+
+                                </td>
+                            </tr>
+                            
+                            
+                        </table>
+                    </div>
+                    <div class="mds">
+                        <h2><span class="list-icon icon-download"></span>ダウンロード</h2>
+                    </div>
+                    <div class="outer-module2">
+                        <div class="mds-od2">
+                            <ul class="list-download">
+                                <li>
+                                    <div>
+                                                        <div>
+                                                            <span class="icon-csv"></span>
+                                                            <a class="download" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/CSV/opendata_966.csv">公社・区内官公署・その他【csv】</a>
+                                                        </div>
+                                                        <div>
+                                                            <span class="icon-shape"></span>
+                                                            <a class="download" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/SHAPE/opendata_966.zip">公社・区内官公署・その他【shape】</a>
+                                                        </div>
+                                                        <div>
+                                                            <span class="icon-kml"></span>
+                                                            <a class="download" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/KML/opendata_966.kml">公社・区内官公署・その他【kml】</a>
+                                                        </div>
+                                                <div>
+                                                    <span>（最終更新：2022/03/31 21:3:10）</span>
+                                                </div>
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="" style="text-align:center; margin: 5px 0;">
+                            <a href="/suginami/Map?mid=1" class="btn-link-gis">おおきな地図で見る</a>
+                        </div>
+                    </div>
+                </div><!--/.column-left-->
+                <!--■ 右カラム------------------------------------------------------------------------------>
+                <div class="column-right-dt">
+                    <div class="outer-module">
+                        <div class="mds">
+                            <h2><span class="list-icon icon-map"></span>地図</h2>
+                        </div>
+                        <div class="outer-map">
+                            <script type="text/javascript" charset="UTF-8" src="../DynamicAPI/Index?mid=1&mtl=966&apiw=540&apih=540&mpx=139.639592422&mpy=35.696370417&mro=1"></script>
+                        </div>
+                    </div>
+                </div><!--/.column-right-->
+            </div><!--/.contents-inner-->
+        </div>
+        <div id="dialog-agreement" data-url-dp="../OpenDataAgreement" data-url-dl="../OpenDataAgreement" style=" overflow: hidden; ">
+        </div>
+    </article>
+
+    <footer id="footer">
+        <div class="footer-inner clearfix">
+            <address>
+                <span>杉並区役所 都市整備部 土木管理課</span>
+                <div>
+                    <span>〒166-8570　杉並区阿佐谷南1丁目15番1号</span>
+                    <span>03-3312-2111</span>
+                </div>
+            </address>
+            <p id="copyright">Copyright c 2022 City Suginami. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="/v/common/Scripts/pages/jquery.extend.js"></script>
+    <script type="text/javascript" src="/v/common/Scripts/pages/OpenData.js"></script>
+
+</body>
+</html>
+
+
+    <script type="text/javascript" src="/v/common/Scripts/jquery.showLoading.js"></script>
+    
+</body>
+</html>
+
