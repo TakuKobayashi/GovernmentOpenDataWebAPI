@@ -220,12 +220,12 @@ dataCommand
       } = {
         need_manual_edit: false,
         origin_file_size: 0,
-      }
+      };
       const willSaveFilePath: string = path.join(
         ...getSaveOriginFilePathParts(crawlerModel, crawlerIdcrawlerKeywords[crawlerModel.id], crawlerIdCrawlerCategory[crawlerModel.id]),
       );
       const response = await axios.get(crawlerModel.origin_url, { responseType: 'arraybuffer' }).catch(async (error) => {
-        willUpdateCrawlerObj.need_manual_edit = true
+        willUpdateCrawlerObj.need_manual_edit = true;
         await prismaClient.crawler.updateMany({
           where: {
             id: crawlerModel.id,
@@ -247,7 +247,7 @@ dataCommand
           textData = response.data.toString();
         }
         saveToLocalFileFromString(willSaveFilePath, textData);
-        willUpdateCrawlerObj.origin_file_encoder = detectedEncoding.toString()
+        willUpdateCrawlerObj.origin_file_encoder = detectedEncoding.toString();
       } else if (crawlerModel.origin_file_ext === '.xlsx') {
         saveToLocalFileFromBuffer(willSaveFilePath, response.data);
       } else {
@@ -255,8 +255,8 @@ dataCommand
       }
       const stat = fs.statSync(willSaveFilePath);
       willUpdateCrawlerObj.origin_file_size = stat.size;
-      willUpdateCrawlerObj.last_updated_at = new Date()
-      willUpdateCrawlerObj.checksum = crypto.createHash('sha512').update(response.data.buffer.toString('hex')).digest('hex')
+      willUpdateCrawlerObj.last_updated_at = new Date();
+      willUpdateCrawlerObj.checksum = crypto.createHash('sha512').update(response.data.buffer.toString('hex')).digest('hex');
       await prismaClient.crawler.updateMany({
         where: {
           id: crawlerModel.id,
