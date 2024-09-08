@@ -1,0 +1,1618 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:sac="http://statdb.nstac.go.jp/lod/sac/C"
+    xmlns:publicwifi="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:odp="http://odp.jig.jp/odp/1.0#"
+    xmlns:schema="http://schema.org/"
+    xmlns:jrrk="http://purl.org/jrrk#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ipa="http://imi.ipa.go.jp/ns/core/rdf#"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:ic="http://imi.go.jp/ns/core/rdf#"
+    xmlns:cal="http://www.w3.org/2002/12/cal/icaltzd#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:gr="http://purl.org/goodrelations/v1#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:georss="http://www.georss.org/georss"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:qb="http://purl.org/linked-data/cube#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:pc="http://purl.org/procurement/public-contracts#">
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E5%A4%A7%E4%B9%85%E4%BF%9D%E9%A7%85%E5%8C%97%E5%8F%A3/35.70179/139.696976">
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A0">
+        <ipa:ローマ字表記 xml:lang="en">Okubo Sta. North exit</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Okubo Sta. North exit</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">大久保駅北口</ipa:表記>
+        <ic:表記 xml:lang="ja">大久保駅北口</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.70179</geo:lat>
+    <rdfs:label xml:lang="ja">大久保駅北口</rdfs:label>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A1">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.701790/+139.696976/">
+            <ipa:経度>+139.696976</ipa:経度>
+            <ic:経度>+139.696976</ic:経度>
+            <ipa:緯度>+35.701790</ipa:緯度>
+            <ic:緯度>+35.701790</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.701790/+139.696976/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区百人町二丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A2">
+            <ipa:表記 xml:lang="ja">東京都新宿区百人町2-23-1</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区百人町2-23-1</ic:表記>
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">百人町2-23-1</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A2"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ic:名称 rdf:nodeID="A0"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区百人町二丁目"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.696976</geo:long>
+    <ipa:設置地点 rdf:nodeID="A1"/>
+    <jrrk:address xml:lang="ja">百人町2-23-1</jrrk:address>
+    <rdfs:label xml:lang="en">Okubo Sta. North exit</rdfs:label>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%AD%8C%E8%88%9E%E4%BC%8E%E7%94%BA%E3%80%80%E4%BA%A4%E5%B7%AE%E7%82%B9/35.69409/139.70135">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.69409</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区歌舞伎町一丁目"/>
+    <rdfs:label xml:lang="en">Kabukicho 　Intersection</rdfs:label>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A3">
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区歌舞伎町一丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A4">
+            <ipa:表記 xml:lang="ja">東京都新宿区歌舞伎町1-17-13</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区歌舞伎町1-17-13</ic:表記>
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">歌舞伎町1-17-13</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.694092/+139.701355/">
+            <ipa:経度>+139.701355</ipa:経度>
+            <ic:経度>+139.701355</ic:経度>
+            <ipa:緯度>+35.694092</ipa:緯度>
+            <ic:緯度>+35.694092</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.694092/+139.701355/"/>
+        <ipa:住所 rdf:nodeID="A4"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ipa:設置地点 rdf:nodeID="A3"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A5">
+        <ipa:ローマ字表記 xml:lang="en">Kabukicho 　Intersection</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Kabukicho 　Intersection</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">歌舞伎町　交差点</ipa:表記>
+        <ic:表記 xml:lang="ja">歌舞伎町　交差点</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.70135</geo:long>
+    <ic:名称 rdf:nodeID="A5"/>
+    <jrrk:address xml:lang="ja">歌舞伎町1-17-13</jrrk:address>
+    <rdfs:label xml:lang="ja">歌舞伎町　交差点</rdfs:label>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E5%9C%B0%E4%B8%8B%E9%89%84%E6%97%A9%E7%A8%B2%E7%94%B0%E9%A7%85%E5%89%8D%E4%BA%A4%E5%B7%AE%E7%82%B9/35.70573/139.720551">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.720551</geo:long>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A6">
+        <ipa:ローマ字表記 xml:lang="en">Waseda Sta. Intersection</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Waseda Sta. Intersection</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">地下鉄早稲田駅前交差点</ipa:表記>
+        <ic:表記 xml:lang="ja">地下鉄早稲田駅前交差点</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.70573</geo:lat>
+    <ic:名称 rdf:nodeID="A6"/>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A7">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.705730/+139.720551/">
+            <ipa:経度>+139.720551</ipa:経度>
+            <ic:経度>+139.720551</ic:経度>
+            <ipa:緯度>+35.705730</ipa:緯度>
+            <ic:緯度>+35.705730</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.705730/+139.720551/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区馬場下町"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A8">
+            <ipa:表記 xml:lang="ja">東京都新宿区馬場下町3</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区馬場下町3</ic:表記>
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">馬場下町3</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A8"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区馬場下町"/>
+    <rdfs:label xml:lang="ja">地下鉄早稲田駅前交差点</rdfs:label>
+    <rdfs:label xml:lang="en">Waseda Sta. Intersection</rdfs:label>
+    <jrrk:address xml:lang="ja">馬場下町3</jrrk:address>
+    <ipa:設置地点 rdf:nodeID="A7"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%96%B0%E5%A4%A7%E4%B9%85%E4%BF%9D%E9%A7%85%E5%8C%97%E5%8F%A3%E3%80%80%E6%9D%B1/35.701492/139.701004">
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A9">
+        <ipa:ローマ字表記 xml:lang="en">Shin-Okubo Sta. North exit eastside</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Shin-Okubo Sta. North exit eastside</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">新大久保駅北口　東</ipa:表記>
+        <ic:表記 xml:lang="ja">新大久保駅北口　東</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A10">
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区百人町二丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A11">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区百人町2-3-23</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区百人町2-3-23</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">百人町2-3-23</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.701492/+139.701004/">
+            <ipa:経度>+139.701004</ipa:経度>
+            <ic:経度>+139.701004</ic:経度>
+            <ipa:緯度>+35.701492</ipa:緯度>
+            <ic:緯度>+35.701492</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.701492/+139.701004/"/>
+        <ipa:住所 rdf:nodeID="A11"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <rdfs:label xml:lang="en">Shin-Okubo Sta. North exit eastside</rdfs:label>
+    <ipa:名称 rdf:nodeID="A9"/>
+    <ic:設置地点 rdf:nodeID="A10"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.701004</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.701492</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区百人町二丁目"/>
+    <jrrk:address xml:lang="ja">百人町2-3-23</jrrk:address>
+    <rdfs:label xml:lang="ja">新大久保駅北口　東</rdfs:label>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E5%B8%82%E3%83%B6%E8%B0%B7%E9%A7%85+DNP%E3%83%97%E3%83%A9%E3%82%B6%E5%89%8D/35.6936/139.736542">
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A12">
+        <ipa:表記 xml:lang="ja">市ヶ谷駅 DNPプラザ前</ipa:表記>
+        <ic:表記 xml:lang="ja">市ヶ谷駅 DNPプラザ前</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.6936</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.736542</geo:long>
+    <ic:名称 rdf:nodeID="A12"/>
+    <jrrk:address xml:lang="ja">市谷田町1-14-1</jrrk:address>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A13">
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A14">
+            <ipa:表記 xml:lang="ja">東京都新宿区市谷田町1-14-1</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区市谷田町1-14-1</ic:表記>
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">市谷田町1-14-1</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.693600/+139.736542/">
+            <ipa:経度>+139.736542</ipa:経度>
+            <ic:経度>+139.736542</ic:経度>
+            <ipa:緯度>+35.693600</ipa:緯度>
+            <ic:緯度>+35.693600</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.693600/+139.736542/"/>
+        <ipa:住所 rdf:nodeID="A14"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ic:設置地点 rdf:nodeID="A13"/>
+    <rdfs:label xml:lang="ja">市ヶ谷駅 DNPプラザ前</rdfs:label>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%96%B0%E5%AE%BF%E4%B8%AD%E5%A4%AE%E5%85%AC%E5%9C%92+%E6%B0%B4%E3%81%AE%E5%BA%83%E5%A0%B4/35.691105/139.687698">
+    <jrrk:address xml:lang="ja">西新宿2-11</jrrk:address>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.687698</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.691105</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区西新宿"/>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A15">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.691105/+139.687698/">
+            <ipa:経度>+139.687698</ipa:経度>
+            <ic:経度>+139.687698</ic:経度>
+            <ipa:緯度>+35.691105</ipa:緯度>
+            <ic:緯度>+35.691105</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.691105/+139.687698/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区西新宿"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A16">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区西新宿2-11</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区西新宿2-11</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">西新宿2-11</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A16"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A17">
+        <ipa:表記 xml:lang="ja">新宿中央公園 水の広場</ipa:表記>
+        <ic:表記 xml:lang="ja">新宿中央公園 水の広場</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ipa:名称 rdf:nodeID="A17"/>
+    <ic:設置地点 rdf:nodeID="A15"/>
+    <rdfs:label xml:lang="ja">新宿中央公園 水の広場</rdfs:label>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E9%AB%98%E7%94%B0%E9%A6%AC%E5%A0%B4%E9%A7%85%E6%97%A9%E7%A8%B2%E7%94%B0%E5%8F%A3%E3%80%80%E3%83%AD%E3%83%BC%E3%82%BF%E3%83%AA%E3%83%BC/35.712883/139.704865">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.712883</geo:lat>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A18">
+        <ipa:ローマ字表記 xml:lang="en">Takadanobaba Sta. Waseda exit rotary intersection</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Takadanobaba Sta. Waseda exit rotary intersection</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">高田馬場駅早稲田口　ロータリー</ipa:表記>
+        <ic:表記 xml:lang="ja">高田馬場駅早稲田口　ロータリー</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区高田馬場一丁目"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.704865</geo:long>
+    <rdfs:label xml:lang="ja">高田馬場駅早稲田口　ロータリー</rdfs:label>
+    <jrrk:address xml:lang="ja">高田馬場1-26-5</jrrk:address>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A19">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.712883/+139.704865/">
+            <ipa:経度>+139.704865</ipa:経度>
+            <ic:経度>+139.704865</ic:経度>
+            <ipa:緯度>+35.712883</ipa:緯度>
+            <ic:緯度>+35.712883</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.712883/+139.704865/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区高田馬場一丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A20">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区高田馬場1-26-5</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区高田馬場1-26-5</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">高田馬場1-26-5</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A20"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <rdfs:label xml:lang="en">Takadanobaba Sta. Waseda exit rotary intersection</rdfs:label>
+    <ipa:名称 rdf:nodeID="A18"/>
+    <ic:設置地点 rdf:nodeID="A19"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%96%B0%E5%AE%BF%E8%A5%BF%E5%8F%A3%E9%A7%85%E3%80%80%E6%80%9D%E3%81%84%E5%87%BA%E6%A8%AA%E4%B8%81%E5%8D%97/35.69304/139.69801">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.69801</geo:long>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区西新宿一丁目"/>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A21">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.693039/+139.698013/">
+            <ipa:経度>+139.698013</ipa:経度>
+            <ic:経度>+139.698013</ic:経度>
+            <ipa:緯度>+35.693039</ipa:緯度>
+            <ic:緯度>+35.693039</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.693039/+139.698013/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区西新宿一丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A22">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区西新宿1-4-2</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区西新宿1-4-2</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">西新宿1-4-2</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A22"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <rdfs:label xml:lang="ja">新宿西口駅　思い出横丁南</rdfs:label>
+    <jrrk:address xml:lang="ja">西新宿1-4-2</jrrk:address>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.69304</geo:lat>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A23">
+        <ipa:ローマ字表記 xml:lang="en">Shinjuku Nishiguchi Sta. 　“Omoide Yokocho” south</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Shinjuku Nishiguchi Sta. 　“Omoide Yokocho” south</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">新宿西口駅　思い出横丁南</ipa:表記>
+        <ic:表記 xml:lang="ja">新宿西口駅　思い出横丁南</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ipa:名称 rdf:nodeID="A23"/>
+    <ipa:設置地点 rdf:nodeID="A21"/>
+    <rdfs:label xml:lang="en">Shinjuku Nishiguchi Sta. 　“Omoide Yokocho” south</rdfs:label>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%96%B0%E5%AE%BF%E5%BE%A1%E8%8B%91%E5%89%8D%E9%A7%851%E5%87%BA%E5%8F%A3/35.688904/139.709702">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.688904</geo:lat>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A24">
+        <ipa:表記 xml:lang="ja">新宿御苑前駅1出口</ipa:表記>
+        <ic:表記 xml:lang="ja">新宿御苑前駅1出口</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.709702</geo:long>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A25">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.688904/+139.709702/">
+            <ipa:経度>+139.709702</ipa:経度>
+            <ic:経度>+139.709702</ic:経度>
+            <ipa:緯度>+35.688904</ipa:緯度>
+            <ic:緯度>+35.688904</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.688904/+139.709702/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A26">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区新宿2-8-1</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区新宿2-8-1</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">新宿2-8-1</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A26"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <jrrk:address xml:lang="ja">新宿2-8-1</jrrk:address>
+    <ipa:名称 rdf:nodeID="A24"/>
+    <ic:設置地点 rdf:nodeID="A25"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿"/>
+    <rdfs:label xml:lang="ja">新宿御苑前駅1出口</rdfs:label>
+  </jrrk:PublicWIFI>
+  <odp:Dataset rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717">
+    <dc:title>公衆無線LAN</dc:title>
+    <dcterms:created>2016-08-22</dcterms:created>
+    <dcterms:modified>2023-03-15</dcterms:modified>
+    <schema:version>3.8</schema:version>
+    <dcterms:references rdf:resource="http://ckan.odp.jig.jp/dataset/jp-tokyo-shinjuku-717-odp"/>
+    <dcterms:publisher rdf:parseType="Resource">
+      <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13104"/>
+      <rdfs:label>東京都新宿区</rdfs:label>
+      <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13104"/>
+    </dcterms:publisher>
+    <odp:target rdf:resource="http://purl.org/jrrk#PublicWIFI"/>
+    <dcat:theme rdf:resource="http://purl.org/jrrk#PublicWIFI"/>
+  </odp:Dataset>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%96%B0%E5%AE%BF%E9%A7%85%E6%9D%B1%E5%8F%A3%E3%80%80%E3%82%A2%E3%83%AB%E3%82%BF%E5%89%8D%EF%BC%88%EF%BC%92%E5%9F%BA%E8%A8%AD%E7%BD%AE%EF%BC%89/35.69267/139.70139">
+    <jrrk:address xml:lang="ja">新宿3-24-3</jrrk:address>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A27">
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿三丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A28">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区新宿3-24-3</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区新宿3-24-3</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">新宿3-24-3</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.692669/+139.701385/">
+            <ipa:経度>+139.701385</ipa:経度>
+            <ic:経度>+139.701385</ic:経度>
+            <ipa:緯度>+35.692669</ipa:緯度>
+            <ic:緯度>+35.692669</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.692669/+139.701385/"/>
+        <ipa:住所 rdf:nodeID="A28"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ipa:設置地点 rdf:nodeID="A27"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A29">
+        <ipa:ローマ字表記 xml:lang="en">Shinjuku Sta. East exit 　“ALTA”</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Shinjuku Sta. East exit 　“ALTA”</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">新宿駅東口　アルタ前（２基設置）</ipa:表記>
+        <ic:表記 xml:lang="ja">新宿駅東口　アルタ前（２基設置）</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <rdfs:label xml:lang="ja">新宿駅東口　アルタ前（２基設置）</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.70139</geo:long>
+    <ic:名称 rdf:nodeID="A29"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿三丁目"/>
+    <rdfs:label xml:lang="en">Shinjuku Sta. East exit 　“ALTA”</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.69267</geo:lat>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E4%BF%A1%E6%BF%83%E7%94%BA%E9%A7%85/35.679428/139.720978">
+    <jrrk:address xml:lang="ja">南元町19</jrrk:address>
+    <rdfs:label xml:lang="en">Shinanomachi Sta.</rdfs:label>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A30">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.679428/+139.720978/">
+            <ipa:経度>+139.720978</ipa:経度>
+            <ic:経度>+139.720978</ic:経度>
+            <ipa:緯度>+35.679428</ipa:緯度>
+            <ic:緯度>+35.679428</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.679428/+139.720978/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区南元町"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A31">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区南元町19</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区南元町19</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">南元町19</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A31"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.679428</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.720978</geo:long>
+    <ipa:設置地点 rdf:nodeID="A30"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A32">
+        <ipa:ローマ字表記 xml:lang="en">Shinanomachi Sta.</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Shinanomachi Sta.</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">信濃町駅</ipa:表記>
+        <ic:表記 xml:lang="ja">信濃町駅</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <rdfs:label xml:lang="ja">信濃町駅</rdfs:label>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区南元町"/>
+    <ic:名称 rdf:nodeID="A32"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%AD%8C%E8%88%9E%E4%BC%8E%E7%94%BA%E3%80%80%E4%B8%80%E7%95%AA%E8%A1%97/35.69426/139.70093">
+    <rdfs:label xml:lang="ja">歌舞伎町　一番街</rdfs:label>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A33">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.694260/+139.700928/">
+            <ipa:経度>+139.700928</ipa:経度>
+            <ic:経度>+139.700928</ic:経度>
+            <ipa:緯度>+35.694260</ipa:緯度>
+            <ic:緯度>+35.694260</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.694260/+139.700928/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区歌舞伎町一丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A34">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区歌舞伎町1-23-10</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区歌舞伎町1-23-10</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">歌舞伎町1-23-10</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A34"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区歌舞伎町一丁目"/>
+    <ic:設置地点 rdf:nodeID="A33"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.69426</geo:lat>
+    <jrrk:address xml:lang="ja">歌舞伎町1-23-10</jrrk:address>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.70093</geo:long>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A35">
+        <ipa:ローマ字表記 xml:lang="en">Kabukicho 　“1st Avenue”</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Kabukicho 　“1st Avenue”</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">歌舞伎町　一番街</ipa:表記>
+        <ic:表記 xml:lang="ja">歌舞伎町　一番街</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <rdfs:label xml:lang="en">Kabukicho 　“1st Avenue”</rdfs:label>
+    <ipa:名称 rdf:nodeID="A35"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%96%B0%E5%AE%BF%E9%A7%85%E6%9D%B1%E5%8F%A3%E3%80%80%E3%83%A2%E3%82%A2%EF%BC%92%E7%95%AA%E8%A1%97%E5%8D%97/35.69327/139.70085">
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A36">
+        <ipa:ローマ字表記 xml:lang="en">Shinjuku Sta. East exit 　“MOA 2nd Street” south</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Shinjuku Sta. East exit 　“MOA 2nd Street” south</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">新宿駅東口　モア２番街南</ipa:表記>
+        <ic:表記 xml:lang="ja">新宿駅東口　モア２番街南</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <rdfs:label xml:lang="en">Shinjuku Sta. East exit 　“MOA 2nd Street” south</rdfs:label>
+    <jrrk:address xml:lang="ja">新宿3-23-17</jrrk:address>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A37">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.693272/+139.700851/">
+            <ipa:経度>+139.700851</ipa:経度>
+            <ic:経度>+139.700851</ic:経度>
+            <ipa:緯度>+35.693272</ipa:緯度>
+            <ic:緯度>+35.693272</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.693272/+139.700851/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿三丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A38">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区新宿3-23-17</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区新宿3-23-17</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">新宿3-23-17</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A38"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿三丁目"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.70085</geo:long>
+    <rdfs:label xml:lang="ja">新宿駅東口　モア２番街南</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.69327</geo:lat>
+    <ipa:名称 rdf:nodeID="A36"/>
+    <ipa:設置地点 rdf:nodeID="A37"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E8%A5%BF%E6%96%B0%E5%AE%BF%E9%A7%85+2%E5%87%BA%E5%8F%A3/35.694252/139.69368">
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区西新宿"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.69368</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.694252</geo:lat>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A39">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.694252/+139.693680/">
+            <ipa:経度>+139.693680</ipa:経度>
+            <ic:経度>+139.693680</ic:経度>
+            <ipa:緯度>+35.694252</ipa:緯度>
+            <ic:緯度>+35.694252</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.694252/+139.693680/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区西新宿"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A40">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区西新宿8-1-3</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区西新宿8-1-3</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">西新宿8-1-3</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A40"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <jrrk:address xml:lang="ja">西新宿8-1-3</jrrk:address>
+    <rdfs:label xml:lang="ja">西新宿駅 2出口</rdfs:label>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A41">
+        <ipa:表記 xml:lang="ja">西新宿駅 2出口</ipa:表記>
+        <ic:表記 xml:lang="ja">西新宿駅 2出口</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <ipa:設置地点 rdf:nodeID="A39"/>
+    <ic:名称 rdf:nodeID="A41"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%9D%B1%E6%96%B0%E5%AE%BF%E9%A7%85%E5%8D%97%E4%BA%A4%E5%B7%AE%E7%82%B9/35.697765/139.707779">
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A42">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.697765/+139.707779/">
+            <ipa:経度>+139.707779</ipa:経度>
+            <ic:経度>+139.707779</ic:経度>
+            <ipa:緯度>+35.697765</ipa:緯度>
+            <ic:緯度>+35.697765</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.697765/+139.707779/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A43">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区新宿6-29-11</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区新宿6-29-11</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">新宿6-29-11</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A43"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <rdfs:label xml:lang="ja">東新宿駅南交差点</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.697765</geo:lat>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A44">
+        <ipa:表記 xml:lang="ja">東新宿駅南交差点</ipa:表記>
+        <ic:表記 xml:lang="ja">東新宿駅南交差点</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.707779</geo:long>
+    <jrrk:address xml:lang="ja">新宿6-29-11</jrrk:address>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿"/>
+    <ipa:名称 rdf:nodeID="A44"/>
+    <ic:設置地点 rdf:nodeID="A42"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E5%A4%A7%E6%B1%9F%E6%88%B8%E7%B7%9A%E4%B8%AD%E4%BA%95%E9%A7%85A2%E5%87%BA%E5%8F%A3/35.714153/139.686829">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.686829</geo:long>
+    <rdfs:label xml:lang="en">Oedo Line Nakai Station A2 exit</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.714153</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区上落合二丁目"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A45">
+        <ipa:ローマ字表記 xml:lang="en">Oedo Line Nakai Station A2 exit</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Oedo Line Nakai Station A2 exit</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">大江戸線中井駅A2出口</ipa:表記>
+        <ic:表記 xml:lang="ja">大江戸線中井駅A2出口</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <jrrk:address xml:lang="ja">上落合2-20-6</jrrk:address>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A46">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.714153/+139.686829/">
+            <ipa:経度>+139.686829</ipa:経度>
+            <ic:経度>+139.686829</ic:経度>
+            <ipa:緯度>+35.714153</ipa:緯度>
+            <ic:緯度>+35.714153</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.714153/+139.686829/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区上落合二丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A47">
+            <ipa:表記 xml:lang="ja">東京都新宿区上落合2-20-6</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区上落合2-20-6</ic:表記>
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">上落合2-20-6</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A47"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ipa:設置地点 rdf:nodeID="A46"/>
+    <ic:名称 rdf:nodeID="A45"/>
+    <rdfs:label xml:lang="ja">大江戸線中井駅A2出口</rdfs:label>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%96%B0%E5%AE%BF%E9%A7%85%E6%9D%B1%E5%8D%97%E5%8F%A3%E3%80%80Flags%E5%89%8D/35.69034/139.7019">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.69034</geo:lat>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A48">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.690338/+139.701904/">
+            <ipa:経度>+139.701904</ipa:経度>
+            <ic:経度>+139.701904</ic:経度>
+            <ipa:緯度>+35.690338</ipa:緯度>
+            <ic:緯度>+35.690338</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.690338/+139.701904/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿三丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A49">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区新宿3-36-6</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区新宿3-36-6</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">新宿3-36-6</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A49"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.7019</geo:long>
+    <ic:設置地点 rdf:nodeID="A48"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A50">
+        <ipa:ローマ字表記 xml:lang="en">Shinjuku Sta. East-South exit 　“Flags“</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Shinjuku Sta. East-South exit 　“Flags“</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">新宿駅東南口　Flags前</ipa:表記>
+        <ic:表記 xml:lang="ja">新宿駅東南口　Flags前</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <ic:名称 rdf:nodeID="A50"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿三丁目"/>
+    <jrrk:address xml:lang="ja">新宿3-36-6</jrrk:address>
+    <rdfs:label xml:lang="ja">新宿駅東南口　Flags前</rdfs:label>
+    <rdfs:label xml:lang="en">Shinjuku Sta. East-South exit 　“Flags“</rdfs:label>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#JR%E5%9B%9B%E3%83%84%E8%B0%B7%E9%A7%85%E8%B5%A4%E5%9D%82%E5%8F%A3/35.68578/139.728958">
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A51">
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区四谷一丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A52">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区四谷1-2</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区四谷1-2</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">四谷1-2</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.685780/+139.728958/">
+            <ipa:経度>+139.728958</ipa:経度>
+            <ic:経度>+139.728958</ic:経度>
+            <ipa:緯度>+35.685780</ipa:緯度>
+            <ic:緯度>+35.685780</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.685780/+139.728958/"/>
+        <ipa:住所 rdf:nodeID="A52"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <rdfs:label xml:lang="en">JR Yotsuya sta. Akasaka exit</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.728958</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.68578</geo:lat>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A53">
+        <ipa:ローマ字表記 xml:lang="en">JR Yotsuya sta. Akasaka exit</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">JR Yotsuya sta. Akasaka exit</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">JR四ツ谷駅赤坂口</ipa:表記>
+        <ic:表記 xml:lang="ja">JR四ツ谷駅赤坂口</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <jrrk:address xml:lang="ja">四谷1-2</jrrk:address>
+    <ic:名称 rdf:nodeID="A53"/>
+    <rdfs:label xml:lang="ja">JR四ツ谷駅赤坂口</rdfs:label>
+    <ipa:設置地点 rdf:nodeID="A51"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区四谷一丁目"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%96%B0%E5%AE%BF%E9%A7%85%E5%8D%97%E5%8F%A3%E3%80%80%E3%83%90%E3%82%B9%E3%82%BF%E6%96%B0%E5%AE%BF%E5%89%8D/35.69214/139.70129">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.70129</geo:long>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A54">
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿三丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A55">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区新宿3-38-2</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区新宿3-38-2</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">新宿3-38-2</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.692139/+139.701294/">
+            <ipa:経度>+139.701294</ipa:経度>
+            <ic:経度>+139.701294</ic:経度>
+            <ipa:緯度>+35.692139</ipa:緯度>
+            <ic:緯度>+35.692139</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.692139/+139.701294/"/>
+        <ipa:住所 rdf:nodeID="A55"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <jrrk:address xml:lang="ja">新宿3-38-2</jrrk:address>
+    <rdfs:label xml:lang="ja">新宿駅南口　バスタ新宿前</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.69214</geo:lat>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A56">
+        <ipa:ローマ字表記 xml:lang="en">Shinjuku Sta. South exit 　“Shinjuku Expressway Bus Terminal”</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Shinjuku Sta. South exit 　“Shinjuku Expressway Bus Terminal”</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">新宿駅南口　バスタ新宿前</ipa:表記>
+        <ic:表記 xml:lang="ja">新宿駅南口　バスタ新宿前</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <rdfs:label xml:lang="en">Shinjuku Sta. South exit 　“Shinjuku Expressway Bus Terminal”</rdfs:label>
+    <ipa:設置地点 rdf:nodeID="A54"/>
+    <ic:名称 rdf:nodeID="A56"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿三丁目"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%96%B0%E5%A4%A7%E4%B9%85%E4%BF%9D%E9%A7%85%E5%8C%97%E5%8F%A3%E3%80%80%E8%A5%BF/35.70155/139.700104">
+    <rdfs:label xml:lang="ja">新大久保駅北口　西</rdfs:label>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A57">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.701550/+139.700104/">
+            <ipa:経度>+139.700104</ipa:経度>
+            <ic:経度>+139.700104</ic:経度>
+            <ipa:緯度>+35.701550</ipa:緯度>
+            <ic:緯度>+35.701550</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.701550/+139.700104/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区百人町二丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A58">
+            <ipa:表記 xml:lang="ja">東京都新宿区百人町2-4-1</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区百人町2-4-1</ic:表記>
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">百人町2-4-1</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A58"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ic:設置地点 rdf:nodeID="A57"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A59">
+        <ipa:ローマ字表記 xml:lang="en">Shin-Okubo Sta. North exit westside</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Shin-Okubo Sta. North exit westside</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">新大久保駅北口　西</ipa:表記>
+        <ic:表記 xml:lang="ja">新大久保駅北口　西</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ipa:名称 rdf:nodeID="A59"/>
+    <rdfs:label xml:lang="en">Shin-Okubo Sta. North exit westside</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.70155</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区百人町二丁目"/>
+    <jrrk:address xml:lang="ja">百人町2-4-1</jrrk:address>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.700104</geo:long>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%96%B0%E5%AE%BF%E9%A7%85%E6%9D%B1%E5%8D%97%E5%8F%A3%E3%80%80%E5%BA%83%E5%A0%B4%E5%89%8D/35.69017/139.70145">
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A60">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.690170/+139.701447/">
+            <ipa:経度>+139.701447</ipa:経度>
+            <ic:経度>+139.701447</ic:経度>
+            <ipa:緯度>+35.690170</ipa:緯度>
+            <ic:緯度>+35.690170</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.690170/+139.701447/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿三丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A61">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区新宿3-37</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区新宿3-37</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">新宿3-37</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A61"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A62">
+        <ipa:ローマ字表記 xml:lang="en">Shinjuku Sta. East-South exit 　square</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Shinjuku Sta. East-South exit 　square</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">新宿駅東南口　広場前</ipa:表記>
+        <ic:表記 xml:lang="ja">新宿駅東南口　広場前</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿三丁目"/>
+    <ipa:設置地点 rdf:nodeID="A60"/>
+    <rdfs:label xml:lang="en">Shinjuku Sta. East-South exit 　square</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.69017</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.70145</geo:long>
+    <rdfs:label xml:lang="ja">新宿駅東南口　広場前</rdfs:label>
+    <ic:名称 rdf:nodeID="A62"/>
+    <jrrk:address xml:lang="ja">新宿3-37</jrrk:address>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%AD%8C%E8%88%9E%E4%BC%8E%E7%94%BA%E3%80%80%E3%82%BB%E3%83%B3%E3%83%88%E3%83%A9%E3%83%AB%E3%83%AD%E3%83%BC%E3%83%89/35.69452/139.70206">
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A63">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.694519/+139.702057/">
+            <ipa:経度>+139.702057</ipa:経度>
+            <ic:経度>+139.702057</ic:経度>
+            <ipa:緯度>+35.694519</ipa:緯度>
+            <ic:緯度>+35.694519</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.694519/+139.702057/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区歌舞伎町一丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A64">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区歌舞伎町1-14-3</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区歌舞伎町1-14-3</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">歌舞伎町1-14-3</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A64"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ic:設置地点 rdf:nodeID="A63"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A65">
+        <ipa:ローマ字表記 xml:lang="en">Kabukicho 　“Central Road”</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Kabukicho 　“Central Road”</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">歌舞伎町　セントラルロード</ipa:表記>
+        <ic:表記 xml:lang="ja">歌舞伎町　セントラルロード</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <rdfs:label xml:lang="ja">歌舞伎町　セントラルロード</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.69452</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区歌舞伎町一丁目"/>
+    <jrrk:address xml:lang="ja">歌舞伎町1-14-3</jrrk:address>
+    <rdfs:label xml:lang="en">Kabukicho 　“Central Road”</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.70206</geo:long>
+    <ic:名称 rdf:nodeID="A65"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E9%AB%98%E7%94%B0%E9%A6%AC%E5%A0%B4%E9%A7%85%E6%88%B8%E5%B1%B1%E5%8F%A3%E3%80%80%E6%9D%B1/35.71159/139.704315">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.71159</geo:lat>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A66">
+        <ipa:ローマ字表記 xml:lang="en">Takadanobaba Sta. Toyama exit east</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Takadanobaba Sta. Toyama exit east</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">高田馬場駅戸山口　東</ipa:表記>
+        <ic:表記 xml:lang="ja">高田馬場駅戸山口　東</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.704315</geo:long>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A67">
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区高田馬場一丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A68">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区高田馬場1-28-4</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区高田馬場1-28-4</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">高田馬場1-28-4</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.711590/+139.704315/">
+            <ipa:経度>+139.704315</ipa:経度>
+            <ic:経度>+139.704315</ic:経度>
+            <ipa:緯度>+35.711590</ipa:緯度>
+            <ic:緯度>+35.711590</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.711590/+139.704315/"/>
+        <ipa:住所 rdf:nodeID="A68"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <jrrk:address xml:lang="ja">高田馬場1-28-4</jrrk:address>
+    <rdfs:label xml:lang="ja">高田馬場駅戸山口　東</rdfs:label>
+    <rdfs:label xml:lang="en">Takadanobaba Sta. Toyama exit east</rdfs:label>
+    <ipa:名称 rdf:nodeID="A66"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区高田馬場一丁目"/>
+    <ic:設置地点 rdf:nodeID="A67"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E9%AB%98%E7%94%B0%E9%A6%AC%E5%A0%B4%E9%A7%85%E6%97%A9%E7%A8%B2%E7%94%B0%E5%8F%A3%E3%80%80%E8%A5%BF/35.714317/139.703598">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.703598</geo:long>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A69">
+        <ipa:ローマ字表記 xml:lang="en">Takadanobaba Sta. Waseda exit westside</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Takadanobaba Sta. Waseda exit westside</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">高田馬場駅早稲田口　西</ipa:表記>
+        <ic:表記 xml:lang="ja">高田馬場駅早稲田口　西</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A70">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.714317/+139.703598/">
+            <ipa:経度>+139.703598</ipa:経度>
+            <ic:経度>+139.703598</ic:経度>
+            <ipa:緯度>+35.714317</ipa:緯度>
+            <ic:緯度>+35.714317</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.714317/+139.703598/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区高田馬場三丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A71">
+            <ipa:表記 xml:lang="ja">東京都新宿区高田馬場3-1-4</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区高田馬場3-1-4</ic:表記>
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">高田馬場3-1-4</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A71"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <jrrk:address xml:lang="ja">高田馬場3-1-4</jrrk:address>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.714317</geo:lat>
+    <ipa:名称 rdf:nodeID="A69"/>
+    <rdfs:label xml:lang="ja">高田馬場駅早稲田口　西</rdfs:label>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区高田馬場三丁目"/>
+    <ipa:設置地点 rdf:nodeID="A70"/>
+    <rdfs:label xml:lang="en">Takadanobaba Sta. Waseda exit westside</rdfs:label>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E8%A5%BF%E6%96%B0%E5%AE%BF%E4%B8%80%E4%B8%81%E7%9B%AE%E4%BA%A4%E5%B7%AE%E7%82%B9/35.69027/139.69939">
+    <rdfs:label xml:lang="ja">西新宿一丁目交差点</rdfs:label>
+    <jrrk:address xml:lang="ja">西新宿1-1-5</jrrk:address>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A72">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.690269/+139.699387/">
+            <ipa:経度>+139.699387</ipa:経度>
+            <ic:経度>+139.699387</ic:経度>
+            <ipa:緯度>+35.690269</ipa:緯度>
+            <ic:緯度>+35.690269</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.690269/+139.699387/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区西新宿一丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A73">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区西新宿1-1-5</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区西新宿1-1-5</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">西新宿1-1-5</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A73"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <rdfs:label xml:lang="en">Nishi-Shinjuku 1 Intersection</rdfs:label>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区西新宿一丁目"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A74">
+        <ipa:ローマ字表記 xml:lang="en">Nishi-Shinjuku 1 Intersection</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Nishi-Shinjuku 1 Intersection</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">西新宿一丁目交差点</ipa:表記>
+        <ic:表記 xml:lang="ja">西新宿一丁目交差点</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ipa:設置地点 rdf:nodeID="A72"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.69939</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.69027</geo:lat>
+    <ipa:名称 rdf:nodeID="A74"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E8%A5%BF%E6%AD%A6%E7%B7%9A%E4%B8%AD%E4%BA%95%E9%A7%85/35.714939/139.687393">
+    <rdfs:label xml:lang="ja">西武線中井駅</rdfs:label>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A75">
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区中落合一丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A76">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区中落合1-20-15</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区中落合1-20-15</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">中落合1-20-15</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.714939/+139.687393/">
+            <ipa:経度>+139.687393</ipa:経度>
+            <ic:経度>+139.687393</ic:経度>
+            <ipa:緯度>+35.714939</ipa:緯度>
+            <ic:緯度>+35.714939</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.714939/+139.687393/"/>
+        <ipa:住所 rdf:nodeID="A76"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <jrrk:address xml:lang="ja">中落合1-20-15</jrrk:address>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.687393</geo:long>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A77">
+        <ipa:ローマ字表記 xml:lang="en">Seibu Line Nakai Station</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Seibu Line Nakai Station</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">西武線中井駅</ipa:表記>
+        <ic:表記 xml:lang="ja">西武線中井駅</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <rdfs:label xml:lang="en">Seibu Line Nakai Station</rdfs:label>
+    <ic:設置地点 rdf:nodeID="A75"/>
+    <ic:名称 rdf:nodeID="A77"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.714939</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区中落合一丁目"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E5%9B%9B%E8%B0%B73%E4%B8%81%E7%9B%AE%E9%A7%85%E5%89%8D%E4%BA%A4%E5%B7%AE%E7%82%B9/35.687627/139.719669">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.687627</geo:lat>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A78">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.687626/+139.719666/">
+            <ipa:経度>+139.719666</ipa:経度>
+            <ic:経度>+139.719666</ic:経度>
+            <ipa:緯度>+35.687626</ipa:緯度>
+            <ic:緯度>+35.687626</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.687626/+139.719666/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区四谷"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A79">
+            <ipa:表記 xml:lang="ja">東京都新宿区四谷3-9-11</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区四谷3-9-11</ic:表記>
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">四谷3-9-11</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A79"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <jrrk:address xml:lang="ja">四谷3-9-11</jrrk:address>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A80">
+        <ipa:表記 xml:lang="ja">四谷3丁目駅前交差点</ipa:表記>
+        <ic:表記 xml:lang="ja">四谷3丁目駅前交差点</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ic:設置地点 rdf:nodeID="A78"/>
+    <ipa:名称 rdf:nodeID="A80"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区四谷"/>
+    <rdfs:label xml:lang="ja">四谷3丁目駅前交差点</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.719669</geo:long>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#JR%E5%9B%9B%E3%83%84%E8%B0%B7%E9%A7%85%E5%9B%9B%E3%83%84%E8%B0%B7%E5%8F%A3/35.686832/139.728683">
+    <jrrk:address xml:lang="ja">四谷1-4-2</jrrk:address>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A81">
+        <ipa:ローマ字表記 xml:lang="en">JR Yotsuya Sta. Yotsuya exit</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">JR Yotsuya Sta. Yotsuya exit</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">JR四ツ谷駅四ツ谷口</ipa:表記>
+        <ic:表記 xml:lang="ja">JR四ツ谷駅四ツ谷口</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <rdfs:label xml:lang="en">JR Yotsuya Sta. Yotsuya exit</rdfs:label>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区四谷一丁目"/>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A82">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.686832/+139.728683/">
+            <ipa:経度>+139.728683</ipa:経度>
+            <ic:経度>+139.728683</ic:経度>
+            <ipa:緯度>+35.686832</ipa:緯度>
+            <ic:緯度>+35.686832</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.686832/+139.728683/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区四谷一丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A83">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区四谷1-4-2</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区四谷1-4-2</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">四谷1-4-2</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A83"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <rdfs:label xml:lang="ja">JR四ツ谷駅四ツ谷口</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.686832</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.728683</geo:long>
+    <ipa:名称 rdf:nodeID="A81"/>
+    <ic:設置地点 rdf:nodeID="A82"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E7%A5%9E%E6%A5%BD%E5%9D%82%E4%B8%8B%E4%BA%A4%E5%B7%AE%E7%82%B9/35.700607/139.741806">
+    <rdfs:label xml:lang="en">Kagurazaka-shita Intersection</rdfs:label>
+    <jrrk:address xml:lang="ja">神楽坂2-1</jrrk:address>
+    <rdfs:label xml:lang="ja">神楽坂下交差点</rdfs:label>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A84">
+        <ipa:ローマ字表記 xml:lang="en">Kagurazaka-shita Intersection</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Kagurazaka-shita Intersection</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">神楽坂下交差点</ipa:表記>
+        <ic:表記 xml:lang="ja">神楽坂下交差点</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.741806</geo:long>
+    <ipa:名称 rdf:nodeID="A84"/>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A85">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.700607/+139.741806/">
+            <ipa:経度>+139.741806</ipa:経度>
+            <ic:経度>+139.741806</ic:経度>
+            <ipa:緯度>+35.700607</ipa:緯度>
+            <ic:緯度>+35.700607</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.700607/+139.741806/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区神楽坂二丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A86">
+            <ipa:表記 xml:lang="ja">東京都新宿区神楽坂2-1</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区神楽坂2-1</ic:表記>
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">神楽坂2-1</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A86"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.700607</geo:lat>
+    <ic:設置地点 rdf:nodeID="A85"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区神楽坂二丁目"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%96%B0%E5%AE%BF%E4%B8%89%E4%B8%81%E7%9B%AE%E4%BA%A4%E5%B7%AE%E7%82%B9/35.69087/139.7054">
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A87">
+        <ipa:ローマ字表記 xml:lang="en">Shinjuku 3 Intersection</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Shinjuku 3 Intersection</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">新宿三丁目交差点</ipa:表記>
+        <ic:表記 xml:lang="ja">新宿三丁目交差点</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <rdfs:label xml:lang="en">Shinjuku 3 Intersection</rdfs:label>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A88">
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿三丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A89">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区新宿3-4-4</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区新宿3-4-4</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">新宿3-4-4</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.690868/+139.705399/">
+            <ipa:経度>+139.705399</ipa:経度>
+            <ic:経度>+139.705399</ic:経度>
+            <ipa:緯度>+35.690868</ipa:緯度>
+            <ic:緯度>+35.690868</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.690868/+139.705399/"/>
+        <ipa:住所 rdf:nodeID="A89"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿三丁目"/>
+    <jrrk:address xml:lang="ja">新宿3-4-4</jrrk:address>
+    <rdfs:label xml:lang="ja">新宿三丁目交差点</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.69087</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.7054</geo:long>
+    <ipa:設置地点 rdf:nodeID="A88"/>
+    <ipa:名称 rdf:nodeID="A87"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%96%B0%E5%AE%BF%E9%A7%85%E8%A5%BF%E5%8F%A3%E3%80%80%E5%9C%B0%E4%B8%8B%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E4%B9%97%E3%82%8A%E5%A0%B4%E5%89%8D/35.6911/139.69777">
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A90">
+        <ipa:ローマ字表記 xml:lang="en">Shinjuku Sta. West exit 　underground taxi stand</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Shinjuku Sta. West exit 　underground taxi stand</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">新宿駅西口　地下タクシー乗り場前</ipa:表記>
+        <ic:表記 xml:lang="ja">新宿駅西口　地下タクシー乗り場前</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <rdfs:label xml:lang="ja">新宿駅西口　地下タクシー乗り場前</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.69777</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.6911</geo:lat>
+    <rdfs:label xml:lang="en">Shinjuku Sta. West exit 　underground taxi stand</rdfs:label>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区西新宿"/>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A91">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.691101/+139.697769/">
+            <ipa:経度>+139.697769</ipa:経度>
+            <ic:経度>+139.697769</ic:経度>
+            <ipa:緯度>+35.691101</ipa:緯度>
+            <ic:緯度>+35.691101</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.691101/+139.697769/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区西新宿"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A92">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区西新宿1</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区西新宿1</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">西新宿1</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A92"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ipa:設置地点 rdf:nodeID="A91"/>
+    <ipa:名称 rdf:nodeID="A90"/>
+    <jrrk:address xml:lang="ja">西新宿1</jrrk:address>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E4%BA%AC%E7%8E%8B%E7%99%BE%E8%B2%A8%E5%BA%97%E5%89%8D%EF%BC%88%EF%BC%92%E5%9F%BA%E8%A8%AD%E7%BD%AE%EF%BC%89/35.69027/139.69939">
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A93">
+        <ipa:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.690269/+139.699387/"/>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.690269/+139.699387/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区西新宿一丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A94">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区西新宿1-1-4</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区西新宿1-1-4</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">西新宿1-1-4</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:住所 rdf:nodeID="A94"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A95">
+        <ipa:ローマ字表記 xml:lang="en">Keio Department Store outside</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Keio Department Store outside</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">京王百貨店前（２基設置）</ipa:表記>
+        <ic:表記 xml:lang="ja">京王百貨店前（２基設置）</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <jrrk:address xml:lang="ja">西新宿1-1-4</jrrk:address>
+    <ic:設置地点 rdf:nodeID="A93"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.69027</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区西新宿一丁目"/>
+    <ic:名称 rdf:nodeID="A95"/>
+    <rdfs:label xml:lang="en">Keio Department Store outside</rdfs:label>
+    <rdfs:label xml:lang="ja">京王百貨店前（２基設置）</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.69939</geo:long>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E4%BC%8A%E5%8B%A2%E4%B8%B9%E6%9C%AC%E9%A4%A8%E5%89%8D/35.69234/139.70471">
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A96">
+        <ipa:ローマ字表記 xml:lang="en">ISETAN Shinjuku Main Store outside</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">ISETAN Shinjuku Main Store outside</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">伊勢丹本館前</ipa:表記>
+        <ic:表記 xml:lang="ja">伊勢丹本館前</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <rdfs:label xml:lang="en">ISETAN Shinjuku Main Store outside</rdfs:label>
+    <ipa:名称 rdf:nodeID="A96"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.69234</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿三丁目"/>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A97">
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿三丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A98">
+            <ipa:表記 xml:lang="ja">東京都新宿区新宿3-14-1</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区新宿3-14-1</ic:表記>
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">新宿3-14-1</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.692341/+139.704712/">
+            <ipa:経度>+139.704712</ipa:経度>
+            <ic:経度>+139.704712</ic:経度>
+            <ipa:緯度>+35.692341</ipa:緯度>
+            <ic:緯度>+35.692341</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.692341/+139.704712/"/>
+        <ipa:住所 rdf:nodeID="A98"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ic:設置地点 rdf:nodeID="A97"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.70471</geo:long>
+    <rdfs:label xml:lang="ja">伊勢丹本館前</rdfs:label>
+    <jrrk:address xml:lang="ja">新宿3-14-1</jrrk:address>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%96%B0%E5%AE%BF%E9%A7%85%E6%9D%B1%E5%8F%A3%E3%80%80%E3%83%A2%E3%82%A2%EF%BC%94%E7%95%AA%E8%A1%97%E5%8D%97/35.69154/139.70186">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.69154</geo:lat>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A99">
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿三丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A100">
+            <ipa:表記 xml:lang="ja">東京都新宿区新宿3-26-11</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区新宿3-26-11</ic:表記>
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">新宿3-26-11</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.691540/+139.701859/">
+            <ipa:経度>+139.701859</ipa:経度>
+            <ic:経度>+139.701859</ic:経度>
+            <ipa:緯度>+35.691540</ipa:緯度>
+            <ic:緯度>+35.691540</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.691540/+139.701859/"/>
+        <ipa:住所 rdf:nodeID="A100"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ipa:設置地点 rdf:nodeID="A99"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A101">
+        <ipa:ローマ字表記 xml:lang="en">Shinjuku Sta. East exit 　“MOA 4th Street” south</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Shinjuku Sta. East exit 　“MOA 4th Street” south</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">新宿駅東口　モア４番街南</ipa:表記>
+        <ic:表記 xml:lang="ja">新宿駅東口　モア４番街南</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <rdfs:label xml:lang="en">Shinjuku Sta. East exit 　“MOA 4th Street” south</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.70186</geo:long>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿三丁目"/>
+    <ic:名称 rdf:nodeID="A101"/>
+    <rdfs:label xml:lang="ja">新宿駅東口　モア４番街南</rdfs:label>
+    <jrrk:address xml:lang="ja">新宿3-26-11</jrrk:address>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%96%B0%E5%AE%BF%E9%A7%85%E6%9D%B1%E5%8F%A3%E3%80%80%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E4%B9%97%E3%82%8A%E5%A0%B4%E5%89%8D/35.69214/139.70129">
+    <rdfs:label xml:lang="ja">新宿駅東口　タクシー乗り場前</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.70129</geo:long>
+    <rdfs:label xml:lang="en">Shinjuku Sta. East exit 　taxi stand</rdfs:label>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A102">
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿三丁目"/>
+        <ic:住所>
+          <rdf:Description rdf:nodeID="A103">
+            <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+            <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+            <ipa:表記 xml:lang="ja">東京都新宿区新宿3-38-1</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都新宿区新宿3-38-1</ic:表記>
+            <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+            <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+            <rdfs:label xml:lang="ja">新宿3-38-1</rdfs:label>
+          </rdf:Description>
+        </ic:住所>
+        <ipa:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.692139/+139.701294/"/>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.692139/+139.701294/"/>
+        <ipa:住所 rdf:nodeID="A103"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ipa:設置地点 rdf:nodeID="A102"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A104">
+        <ipa:ローマ字表記 xml:lang="en">Shinjuku Sta. East exit 　taxi stand</ipa:ローマ字表記>
+        <ic:ローマ字表記 xml:lang="en">Shinjuku Sta. East exit 　taxi stand</ic:ローマ字表記>
+        <ipa:表記 xml:lang="ja">新宿駅東口　タクシー乗り場前</ipa:表記>
+        <ic:表記 xml:lang="ja">新宿駅東口　タクシー乗り場前</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <jrrk:address xml:lang="ja">新宿3-38-1</jrrk:address>
+    <ic:名称 rdf:nodeID="A104"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.69214</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿三丁目"/>
+  </jrrk:PublicWIFI>
+</rdf:RDF>

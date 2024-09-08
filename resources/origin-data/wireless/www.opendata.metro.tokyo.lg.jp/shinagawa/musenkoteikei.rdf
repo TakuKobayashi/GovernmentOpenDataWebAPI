@@ -1,0 +1,1611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:bp="http://www.city.shinagawa.tokyo.jp//property/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+   xmlns:ic="http://imi.go.jp/ns/core/rdf#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:nodeID="ub22bL448C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6109295</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7205778</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/88">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6189566</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7191098</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7191098</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6189566</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL623C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/37">
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7239920</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7239920</geo:long>
+    <ic:座標 rdf:nodeID="ub22bL266C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6021066</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6021066</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/#">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.ja"/>
+    <cc:attributionName>東京都品川区</cc:attributionName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/89">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6168074</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL630C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6168074</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7131452</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7131452</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL427C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7082731</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6086625</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL553C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7544166</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6121054</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL420C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7036860</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6092603</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/23">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6037834</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6037834</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL168C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7005558</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7005558</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/92">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6180968</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7287059</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7287059</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6180968</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL651C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/90">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6185132</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL637C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7148075</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7148075</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6185132</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/11">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6002512</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL84C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7175811</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6002512</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7175811</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL854C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6215443</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7398201</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/70">
+    <ic:座標 rdf:nodeID="ub22bL497C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6098918</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6098918</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7419670</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7419670</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/110">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6237096</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7205719</geo:long>
+    <ic:座標 rdf:nodeID="ub22bL777C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6237096</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7205719</bp:経度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/6">
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5934503</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7353532</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5934503</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL49C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7353532</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/119">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7283059</bp:経度>
+    <ic:座標 rdf:nodeID="ub22bL840C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6244757</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6244757</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7283059</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/34">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6023993</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7151468</geo:long>
+    <ic:座標 rdf:nodeID="ub22bL245C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7151468</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6023993</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL651C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6180968</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7287059</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/35">
+    <ic:座標 rdf:nodeID="ub22bL252C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6068106</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7128290</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7128290</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6068106</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL357C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7492982</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6072680</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL252C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6068106</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7128290</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/20">
+    <ic:座標 rdf:nodeID="ub22bL147C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5969033</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7537675</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5969033</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7537675</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/93">
+    <ic:座標 rdf:nodeID="ub22bL658C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6190279</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6190279</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7249612</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7249612</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/19">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5977988</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL140C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5977988</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7355532</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7355532</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/16">
+    <ic:座標 rdf:nodeID="ub22bL119C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5970827</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7447403</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7447403</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5970827</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/45">
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6038413</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6038413</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7387433</geo:long>
+    <ic:座標 rdf:nodeID="ub22bL322C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7387433</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/118">
+    <ic:座標 rdf:nodeID="ub22bL833C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6246451</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6246451</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7249250</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7249250</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/21">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7505122</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5981794</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5981794</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL154C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7505122</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/51">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7544317</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6072629</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6072629</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7544317</bp:経度>
+    <ic:座標 rdf:nodeID="ub22bL364C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/4">
+    <ic:座標 rdf:nodeID="ub22bL35C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5923482</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7378253</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7378253</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5923482</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL595C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6190551</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7065158</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/33">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6070217</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL238C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6070217</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7158125</bp:経度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7158125</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL679C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6167100</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7404714</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/44">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7410637</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL315C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7410637</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6050646</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6050646</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/24">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7086900</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6021484</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL175C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7086900</bp:経度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6021484</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL371C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7540764</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6032981</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/113">
+    <ic:座標 rdf:nodeID="ub22bL798C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7173402</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7173402</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6234005</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6234005</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/52">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6032981</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7540764</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7540764</geo:long>
+    <ic:座標 rdf:nodeID="ub22bL371C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6032981</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL140C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7355532</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5977988</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL812C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7300247</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6260367</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/49">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7480710</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6054897</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL350C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6054897</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7480710</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/120">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6229602</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL847C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6229602</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7242877</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7242877</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/61">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7210960</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6089538</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6089538</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL434C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7210960</bp:経度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL322C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6038413</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7387433</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL791C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6244361</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7160380</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL70C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5945564</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7220166</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/10">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7213142</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5987584</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5987584</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7213142</bp:経度>
+    <ic:座標 rdf:nodeID="ub22bL77C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL889C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7220609</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6346322</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/12">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7167795</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7167795</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5981073</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5981073</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL91C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL567C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7000110</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6162218</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/117">
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7234878</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6269832</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7234878</bp:経度>
+    <ic:座標 rdf:nodeID="ub22bL826C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6269832</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/72">
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL511C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7367036</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6086315</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6086315</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7367036</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL700C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7457857</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6154692</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/66">
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6143990</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7123289</geo:long>
+    <ic:座標 rdf:nodeID="ub22bL469C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6143990</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7123289</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/32">
+    <ic:座標 rdf:nodeID="ub22bL231C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6047079</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7206050</bp:経度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6047079</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7206050</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/112">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6244361</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7160380</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6244361</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL791C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7160380</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/65">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7157612</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6119150</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL462C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6119150</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7157612</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/114">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7126708</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6219407</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7126708</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL805C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6219407</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL616C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7177342</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6155742</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/64">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7186625</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7186625</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6113842</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL455C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6113842</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL399C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6138538</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7061414</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/59">
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7036860</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7036860</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6092603</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL420C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6092603</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/100">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7552163</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6173914</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7552163</bp:経度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6173914</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL707C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/128">
+    <ic:座標 rdf:nodeID="ub22bL903C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6315495</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7182049</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6315495</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7182049</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL154C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5981794</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7505122</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/80">
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7000110</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6162218</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL567C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7000110</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6162218</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/116">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6216370</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7306437</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7306437</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6216370</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL819C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/78">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7544166</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7544166</geo:long>
+    <ic:座標 rdf:nodeID="ub22bL553C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6121054</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6121054</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/2">
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5942301</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL21C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7316204</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5942301</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7316204</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/26">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6031643</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6031643</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL189C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7042949</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7042949</bp:経度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/63">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7205778</geo:long>
+    <ic:座標 rdf:nodeID="ub22bL448C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6109295</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7205778</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6109295</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL112C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7258234</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5995405</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/30">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6055075</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6055075</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL217C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7228118</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7228118</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/60">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6086625</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL427C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6086625</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7082731</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7082731</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/17">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6002960</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL126C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7379261</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6002960</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7379261</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/31">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7211334</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7211334</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6064650</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL224C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6064650</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/68">
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL483C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6130536</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7296097</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6130536</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7296097</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL630C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7131452</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6168074</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/74">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7430129</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6128137</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL525C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6128137</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7430129</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/81">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6152841</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL574C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6152841</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7100840</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7100840</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/87">
+    <ic:座標 rdf:nodeID="ub22bL616C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6155742</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7177342</bp:経度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6155742</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7177342</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/111">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6259172</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6259172</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7192653</geo:long>
+    <ic:座標 rdf:nodeID="ub22bL784C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7192653</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL336C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6031510</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7413528</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/18">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7372102</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5962277</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL133C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5962277</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7372102</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/82">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7046455</bp:経度>
+    <ic:座標 rdf:nodeID="ub22bL581C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171412</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7046455</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171412</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/54">
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL385C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6119612</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6997109</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6997109</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6119612</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL637C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6185132</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7148075</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/14">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7285396</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7285396</bp:経度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL105C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5982429</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5982429</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/94">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6155149</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7269400</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6155149</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7269400</geo:long>
+    <ic:座標 rdf:nodeID="ub22bL665C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/47">
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6031510</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7413528</bp:経度>
+    <ic:座標 rdf:nodeID="ub22bL336C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7413528</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6031510</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL903C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6315495</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7182049</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL469C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7123289</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6143990</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/67">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7299161</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7299161</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6086129</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL476C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6086129</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL287C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6057528</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7282962</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/22">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5963152</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL161C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5963152</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7632048</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7632048</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/75">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7340160</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7340160</geo:long>
+    <ic:座標 rdf:nodeID="ub22bL532C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6140397</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6140397</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/53">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7515351</bp:経度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7515351</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6017050</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL378C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6017050</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/124">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6224092</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6224092</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL875C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7352647</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7352647</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL546C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6118539</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7486609</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/71">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6113492</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL504C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6113492</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7390782</bp:経度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7390782</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/27">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6043307</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7054340</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6043307</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL196C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7054340</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL245C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6023993</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7151468</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/101">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6179265</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6179265</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL714C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7463247</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7463247</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/102">
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL721C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6208789</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7493033</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7493033</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6208789</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/69">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7265889</geo:long>
+    <ic:座標 rdf:nodeID="ub22bL490C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6117679</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6117679</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7265889</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL819C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6216370</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7306437</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL35C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5923482</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7378253</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL665C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7269400</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6155149</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/15">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5995405</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL112C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5995405</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7258234</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7258234</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL224C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6064650</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7211334</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/91">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7326335</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6197961</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7326335</geo:long>
+    <ic:座標 rdf:nodeID="ub22bL644C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6197961</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL280C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7256818</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6072847</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/108">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7167991</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7167991</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6277481</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL763C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6277481</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/9">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5945564</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7220166</bp:経度>
+    <ic:座標 rdf:nodeID="ub22bL70C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5945564</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7220166</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL910C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6282683</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7217886</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/41">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6028892</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL294C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6028892</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7299087</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7299087</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/96">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7404714</bp:経度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6167100</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7404714</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6167100</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL679C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/130">
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6286219</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7287056</geo:long>
+    <ic:座標 rdf:nodeID="ub22bL917C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6286219</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7287056</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/25">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6029266</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7113630</geo:long>
+    <ic:座標 rdf:nodeID="ub22bL182C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6029266</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7113630</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/58">
+    <ic:座標 rdf:nodeID="ub22bL413C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6111745</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7034235</bp:経度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6111745</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7034235</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL273C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7338767</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6025750</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/132">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6326392</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL931C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7241427</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6326392</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7241427</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL518C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7365006</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6108164</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/43">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6067914</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7313595</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL308C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6067914</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7313595</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/8">
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7200198</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5953730</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5953730</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7200198</geo:long>
+    <ic:座標 rdf:nodeID="ub22bL63C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/7">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7537186</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5941424</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5941424</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL56C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7537186</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL735C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7090314</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6215726</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL868C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6214585</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7438274</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL406C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7047642</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6134012</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL777C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7205719</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6237096</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/62">
+    <ic:座標 rdf:nodeID="ub22bL441C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6134053</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7222327</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6134053</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7222327</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL189C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6031643</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7042949</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/73">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7365006</bp:経度>
+    <ic:座標 rdf:nodeID="ub22bL518C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7365006</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6108164</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6108164</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL917C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7287056</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6286219</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/122">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7433175</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7433175</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6245956</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6245956</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL861C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/76">
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7470901</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6120233</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7470901</bp:経度>
+    <ic:座標 rdf:nodeID="ub22bL539C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6120233</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/79">
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6112622</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7590791</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7590791</bp:経度>
+    <ic:座標 rdf:nodeID="ub22bL560C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6112622</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/125">
+    <ic:座標 rdf:nodeID="ub22bL882C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6229523</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6229523</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7547312</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7547312</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL98C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7308003</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5983683</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/77">
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL546C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7486609</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7486609</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6118539</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6118539</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/48">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7442130</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6057972</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL343C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7442130</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6057972</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL385C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.6997109</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6119612</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/95">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7374849</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6160813</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7374849</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6160813</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL672C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL728C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.6980792</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6245585</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/109">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6242452</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7221251</geo:long>
+    <ic:座標 rdf:nodeID="ub22bL770C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6242452</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7221251</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL658C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6190279</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7249612</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/105">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7115557</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6245663</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7115557</geo:long>
+    <ic:座標 rdf:nodeID="ub22bL742C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6245663</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/97">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6184607</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7376334</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7376334</bp:経度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6184607</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL686C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL63C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5953730</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7200198</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL182C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6029266</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7113630</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/29">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7028225</bp:経度>
+    <ic:座標 rdf:nodeID="ub22bL210C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7028225</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6070882</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6070882</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/50">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7492982</bp:経度>
+    <ic:座標 rdf:nodeID="ub22bL357C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6072680</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6072680</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7492982</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL175C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6021484</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7086900</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL294C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7299087</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6028892</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/1">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7307149</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7307149</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5894129</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL14C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5894129</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/5">
+    <ic:座標 rdf:nodeID="ub22bL42C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5917718</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7346202</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7346202</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5917718</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/13">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5983683</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5983683</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7308003</bp:経度>
+    <ic:座標 rdf:nodeID="ub22bL98C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7308003</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/133">
+    <ic:座標 rdf:nodeID="ub22bL938C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7162321</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6380482</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6380482</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7162321</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/123">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7438274</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7438274</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6214585</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL868C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6214585</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/127">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7162726</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6332826</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL896C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6332826</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7162726</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/85">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7207786</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7207786</bp:経度>
+    <ic:座標 rdf:nodeID="ub22bL602C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6178465</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6178465</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/107">
+    <ic:座標 rdf:nodeID="ub22bL756C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7032009</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7032009</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6224916</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6224916</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/39">
+    <ic:座標 rdf:nodeID="ub22bL280C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6072847</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6072847</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7256818</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7256818</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL91C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7167795</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5981073</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL21C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7316204</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5942301</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/46">
+    <ic:座標 rdf:nodeID="ub22bL329C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7353412</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6060997</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6060997</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7353412</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL707C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6173914</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7552163</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/106">
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL749C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6221764</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6221764</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7064174</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7064174</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/83">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7077680</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7077680</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6177487</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6177487</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL588C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL210C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7028225</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6070882</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/103">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6980792</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6245585</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6245585</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6980792</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL728C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL938C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6380482</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7162321</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/84">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7065158</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6190551</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6190551</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7065158</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL595C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/99">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6154692</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL700C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7457857</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7457857</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6154692</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/129">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6282683</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7217886</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7217886</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6282683</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL910C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/40">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6057528</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL287C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7282962</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6057528</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7282962</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL511C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7367036</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6086315</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/86">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6159411</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7228911</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6159411</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL609C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7228911</bp:経度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/104">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6215726</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7090314</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7090314</bp:経度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <ic:座標 rdf:nodeID="ub22bL735C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6215726</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL133C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5962277</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7372102</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL259C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6078477</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7135858</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/55">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6120850</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL392C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7107577</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6120850</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7107577</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL574C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7100840</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6152841</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL497C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7419670</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6098918</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL308C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6067914</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7313595</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL434C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7210960</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6089538</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL644C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7326335</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6197961</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL756C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7032009</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6224916</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL238C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7158125</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6070217</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL882C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7547312</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6229523</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL525C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6128137</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7430129</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL931C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6326392</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7241427</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL770C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7221251</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6242452</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL924C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7259749</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6292385</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/131">
+    <ic:座標 rdf:nodeID="ub22bL924C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7259749</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6292385</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7259749</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6292385</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL42C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5917718</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7346202</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL392C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7107577</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6120850</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL714C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7463247</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6179265</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL49C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5934503</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7353532</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL693C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6187292</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7440875</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL840C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6244757</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7283059</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL763C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6277481</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7167991</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL490C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7265889</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6117679</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/98">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7440875</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6187292</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7440875</bp:経度>
+    <ic:座標 rdf:nodeID="ub22bL693C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6187292</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/115">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7300247</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6260367</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL812C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7300247</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6260367</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL588C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7077680</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6177487</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/121">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7398201</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7398201</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6215443</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL854C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6215443</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL301C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6047308</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7321884</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL847C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6229602</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7242877</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL539C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6120233</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7470901</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL441C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6134053</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7222327</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL826C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7234878</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6269832</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL350C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7480710</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6054897</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/56">
+    <ic:座標 rdf:nodeID="ub22bL399C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6138538</bp:緯度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7061414</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7061414</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6138538</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/36">
+    <ic:座標 rdf:nodeID="ub22bL259C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6078477</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6078477</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7135858</bp:経度>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7135858</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL798C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6234005</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7173402</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL28C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5939265</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7294095</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/38">
+    <ic:座標 rdf:nodeID="ub22bL273C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6025750</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7338767</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6025750</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7338767</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL343C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7442130</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6057972</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL126C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6002960</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7379261</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL896C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6332826</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7162726</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL14C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7307149</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5894129</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL532C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7340160</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6140397</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL861C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6245956</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7433175</ic:経度>
+
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/28">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7078638</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6041605</geo:lat>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7078638</geo:long>
+    <ic:座標 rdf:nodeID="ub22bL203C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6041605</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL672C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7374849</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6160813</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL462C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7157612</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6119150</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL602C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6178465</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7207786</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL805C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6219407</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7126708</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL119C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5970827</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7447403</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/42">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6047308</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL301C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6047308</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7321884</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7321884</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL609C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6159411</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7228911</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL504C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6113492</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7390782</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL84C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7175811</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6002512</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL56C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5941424</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7537186</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL231C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6047079</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7206050</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL105C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5982429</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7285396</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL560C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6112622</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7590791</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/126">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7220609</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7220609</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6346322</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6346322</geo:lat>
+    <ic:座標 rdf:nodeID="ub22bL889C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL413C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6111745</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7034235</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL875C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6224092</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7352647</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL483C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7296097</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6130536</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL721C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7493033</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6208789</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL196C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7054340</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6043307</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL476C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6086129</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7299161</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL147C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5969033</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7537675</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL784C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6259172</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7192653</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/3">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5939265</bp:緯度>
+    <ic:座標 rdf:nodeID="ub22bL28C9"/>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7294095</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5939265</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7294095</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL455C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7186625</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6113842</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL217C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6055075</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7228118</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL749C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7064174</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6221764</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL168C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6037834</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7005558</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL203C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7078638</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6041605</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/57">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6134012</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7047642</bp:経度>
+    <ic:座標 rdf:nodeID="ub22bL406C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6134012</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7047642</geo:long>
+    <bp:種別 xml:lang="ja">行政防災無線固定系</bp:種別>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL742C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6245663</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7115557</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL623C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7191098</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6189566</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL266C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6021066</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7239920</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL833C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7249250</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6246451</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL364C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7544317</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6072629</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL315C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6050646</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7410637</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL686C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6184607</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7376334</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL581C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6171412</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7046455</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL161C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7632048</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5963152</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL77C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7213142</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5987584</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL329C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6060997</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7353412</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub22bL378C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7515351</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6017050</ic:緯度>
+  </rdf:Description>
+</rdf:RDF>
+

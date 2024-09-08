@@ -1,0 +1,289 @@
+市区町村コード,NO,都道府県名,市区町村名,名称,名称_カナ,名称_英語,住所,方書,緯度,経度,設置者,電話番号,内線番号,SSID,提供エリア,URL,備考
+132217,,東京都,清瀬市,清瀬市役所,キヨセシヤクショ,,東京都清瀬市中里5-842,1階,,,清瀬市,042-492-5111,,Kiyose_Free-WiFi,市民ホール,,
+132217,,東京都,清瀬市,清瀬市役所,キヨセシヤクショ,,東京都清瀬市中里5-842,2階,,,清瀬市,042-492-5111,,Kiyose_Free-WiFi,防災防犯課周辺,,
+132217,,東京都,清瀬市,清瀬市役所,キヨセシヤクショ,,東京都清瀬市中里5-842,4階,,,清瀬市,042-492-5111,,Kiyose_Free-WiFi,議員控え室周辺,,
+132217,,東京都,清瀬市,男女共同参画センター,ダンジョキョウドウサンカクセンター,,東京都清瀬市元町1-2-11,4階,,,清瀬市,042-492-5111,,Kiyose_Free-WiFi,ロビー,,
+132217,,東京都,清瀬市,生涯学習センター,ショウガイガクシュウセンター,,東京都清瀬市元町1-2-11,5階,,,清瀬市,042-495-7002,,Kiyose_Free-WiFi,ロビー及びギャラリー,,
+132217,,東京都,清瀬市,生涯学習センター,ショウガイガクシュウセンター,,東京都清瀬市元町1-2-11,6階,,,清瀬市,042-495-7001,,Kiyose_Free-WiFi,ロビー,,
+132217,,東京都,清瀬市,アミューホール,アミューホール,,東京都清瀬市元町1-2-11,7階,,,清瀬市,042-495-7001,,Kiyose_Free-WiFi,ロビー,,
+132217,,東京都,清瀬市,清瀬けやきホール,キヨセケヤキホール,,東京都清瀬市元町1-6-6,1階,,,清瀬市,042-493-4011,,Kiyose_Free-WiFi,ロビー,,
+132217,,東京都,清瀬市,児童センター,ジドウセンター,,東京都清瀬市中清戸3-235-5,1階,,,清瀬市,042-495-7700,,Kiyose_Free-WiFi,ロビー及び事務室,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+I rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E8%A5%BF%E6%96%B0%E5%AE%BF%E9%A7%85+2%E5%87%BA%E5%8F%A3/35.694252/139.69368">
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ隘ｿ譁ｰ螳ｿ"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.69368</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.694252</geo:lat>
+    <ic:險ｭ鄂ｮ蝨ｰ轤ｹ>
+      <rdf:Description rdf:nodeID="A39">
+        <ipa:蝨ｰ逅�ｺｧ讓�>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.694252/+139.693680/">
+            <ipa:邨悟ｺｦ>+139.693680</ipa:邨悟ｺｦ>
+            <ic:邨悟ｺｦ>+139.693680</ic:邨悟ｺｦ>
+            <ipa:邱ｯ蠎ｦ>+35.694252</ipa:邱ｯ蠎ｦ>
+            <ic:邱ｯ蠎ｦ>+35.694252</ic:邱ｯ蠎ｦ>
+          </rdf:Description>
+        </ipa:蝨ｰ逅�ｺｧ讓�>
+        <ic:蝨ｰ逅�ｺｧ讓� rdf:resource="http://odp.jig.jp/res/geopoint/+35.694252/+139.693680/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ隘ｿ譁ｰ螳ｿ"/>
+        <ic:菴乗園>
+          <rdf:Description rdf:nodeID="A40">
+            <ic:驛ｽ驕灘ｺ懃恁 xml:lang="ja">譚ｱ莠ｬ驛ｽ</ic:驛ｽ驕灘ｺ懃恁>
+            <ic:蟶ょ玄逕ｺ譚� xml:lang="ja">譁ｰ螳ｿ蛹ｺ</ic:蟶ょ玄逕ｺ譚�>
+            <ipa:陦ｨ險� xml:lang="ja">譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ隘ｿ譁ｰ螳ｿ8-1-3</ipa:陦ｨ險�>
+            <ic:陦ｨ險� xml:lang="ja">譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ隘ｿ譁ｰ螳ｿ8-1-3</ic:陦ｨ險�>
+            <ipa:蟶ょ玄逕ｺ譚� xml:lang="ja">譁ｰ螳ｿ蛹ｺ</ipa:蟶ょ玄逕ｺ譚�>
+            <ipa:驛ｽ驕灘ｺ懃恁 xml:lang="ja">譚ｱ莠ｬ驛ｽ</ipa:驛ｽ驕灘ｺ懃恁>
+            <rdfs:label xml:lang="ja">隘ｿ譁ｰ螳ｿ8-1-3</rdfs:label>
+          </rdf:Description>
+        </ic:菴乗園>
+        <ipa:菴乗園 rdf:nodeID="A40"/>
+      </rdf:Description>
+    </ic:險ｭ鄂ｮ蝨ｰ轤ｹ>
+    <jrrk:address xml:lang="ja">隘ｿ譁ｰ螳ｿ8-1-3</jrrk:address>
+    <rdfs:label xml:lang="ja">隘ｿ譁ｰ螳ｿ鬧� 2蜃ｺ蜿｣</rdfs:label>
+    <ipa:蜷咲ｧｰ>
+      <rdf:Description rdf:nodeID="A41">
+        <ipa:陦ｨ險� xml:lang="ja">隘ｿ譁ｰ螳ｿ鬧� 2蜃ｺ蜿｣</ipa:陦ｨ險�>
+        <ic:陦ｨ險� xml:lang="ja">隘ｿ譁ｰ螳ｿ鬧� 2蜃ｺ蜿｣</ic:陦ｨ險�>
+      </rdf:Description>
+    </ipa:蜷咲ｧｰ>
+    <ipa:險ｭ鄂ｮ蝨ｰ轤ｹ rdf:nodeID="A39"/>
+    <ic:蜷咲ｧｰ rdf:nodeID="A41"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%9D%B1%E6%96%B0%E5%AE%BF%E9%A7%85%E5%8D%97%E4%BA%A4%E5%B7%AE%E7%82%B9/35.697765/139.707779">
+    <ipa:險ｭ鄂ｮ蝨ｰ轤ｹ>
+      <rdf:Description rdf:nodeID="A42">
+        <ipa:蝨ｰ逅�ｺｧ讓�>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.697765/+139.707779/">
+            <ipa:邨悟ｺｦ>+139.707779</ipa:邨悟ｺｦ>
+            <ic:邨悟ｺｦ>+139.707779</ic:邨悟ｺｦ>
+            <ipa:邱ｯ蠎ｦ>+35.697765</ipa:邱ｯ蠎ｦ>
+            <ic:邱ｯ蠎ｦ>+35.697765</ic:邱ｯ蠎ｦ>
+          </rdf:Description>
+        </ipa:蝨ｰ逅�ｺｧ讓�>
+        <ic:蝨ｰ逅�ｺｧ讓� rdf:resource="http://odp.jig.jp/res/geopoint/+35.697765/+139.707779/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ譁ｰ螳ｿ"/>
+        <ic:菴乗園>
+          <rdf:Description rdf:nodeID="A43">
+            <ic:驛ｽ驕灘ｺ懃恁 xml:lang="ja">譚ｱ莠ｬ驛ｽ</ic:驛ｽ驕灘ｺ懃恁>
+            <ic:蟶ょ玄逕ｺ譚� xml:lang="ja">譁ｰ螳ｿ蛹ｺ</ic:蟶ょ玄逕ｺ譚�>
+            <ipa:陦ｨ險� xml:lang="ja">譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ譁ｰ螳ｿ6-29-11</ipa:陦ｨ險�>
+            <ic:陦ｨ險� xml:lang="ja">譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ譁ｰ螳ｿ6-29-11</ic:陦ｨ險�>
+            <ipa:蟶ょ玄逕ｺ譚� xml:lang="ja">譁ｰ螳ｿ蛹ｺ</ipa:蟶ょ玄逕ｺ譚�>
+            <ipa:驛ｽ驕灘ｺ懃恁 xml:lang="ja">譚ｱ莠ｬ驛ｽ</ipa:驛ｽ驕灘ｺ懃恁>
+            <rdfs:label xml:lang="ja">譁ｰ螳ｿ6-29-11</rdfs:label>
+          </rdf:Description>
+        </ic:菴乗園>
+        <ipa:菴乗園 rdf:nodeID="A43"/>
+      </rdf:Description>
+    </ipa:險ｭ鄂ｮ蝨ｰ轤ｹ>
+    <rdfs:label xml:lang="ja">譚ｱ譁ｰ螳ｿ鬧�漉莠､蟾ｮ轤ｹ</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.697765</geo:lat>
+    <ic:蜷咲ｧｰ>
+      <rdf:Description rdf:nodeID="A44">
+        <ipa:陦ｨ險� xml:lang="ja">譚ｱ譁ｰ螳ｿ鬧�漉莠､蟾ｮ轤ｹ</ipa:陦ｨ險�>
+        <ic:陦ｨ險� xml:lang="ja">譚ｱ譁ｰ螳ｿ鬧�漉莠､蟾ｮ轤ｹ</ic:陦ｨ險�>
+      </rdf:Description>
+    </ic:蜷咲ｧｰ>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.707779</geo:long>
+    <jrrk:address xml:lang="ja">譁ｰ螳ｿ6-29-11</jrrk:address>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ譁ｰ螳ｿ"/>
+    <ipa:蜷咲ｧｰ rdf:nodeID="A44"/>
+    <ic:險ｭ鄂ｮ蝨ｰ轤ｹ rdf:nodeID="A42"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E5%A4%A7%E6%B1%9F%E6%88%B8%E7%B7%9A%E4%B8%AD%E4%BA%95%E9%A7%85A2%E5%87%BA%E5%8F%A3/35.714153/139.686829">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.686829</geo:long>
+    <rdfs:label xml:lang="en">Oedo Line Nakai Station A2 exit</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.714153</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ荳願誠蜷井ｺ御ｸ∫岼"/>
+    <ipa:蜷咲ｧｰ>
+      <rdf:Description rdf:nodeID="A45">
+        <ipa:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險� xml:lang="en">Oedo Line Nakai Station A2 exit</ipa:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險�>
+        <ic:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險� xml:lang="en">Oedo Line Nakai Station A2 exit</ic:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險�>
+        <ipa:陦ｨ險� xml:lang="ja">螟ｧ豎滓虻邱壻ｸｭ莠暮ｧ�2蜃ｺ蜿｣</ipa:陦ｨ險�>
+        <ic:陦ｨ險� xml:lang="ja">螟ｧ豎滓虻邱壻ｸｭ莠暮ｧ�2蜃ｺ蜿｣</ic:陦ｨ險�>
+      </rdf:Description>
+    </ipa:蜷咲ｧｰ>
+    <jrrk:address xml:lang="ja">荳願誠蜷�2-20-6</jrrk:address>
+    <ic:險ｭ鄂ｮ蝨ｰ轤ｹ>
+      <rdf:Description rdf:nodeID="A46">
+        <ipa:蝨ｰ逅�ｺｧ讓�>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.714153/+139.686829/">
+            <ipa:邨悟ｺｦ>+139.686829</ipa:邨悟ｺｦ>
+            <ic:邨悟ｺｦ>+139.686829</ic:邨悟ｺｦ>
+            <ipa:邱ｯ蠎ｦ>+35.714153</ipa:邱ｯ蠎ｦ>
+            <ic:邱ｯ蠎ｦ>+35.714153</ic:邱ｯ蠎ｦ>
+          </rdf:Description>
+        </ipa:蝨ｰ逅�ｺｧ讓�>
+        <ic:蝨ｰ逅�ｺｧ讓� rdf:resource="http://odp.jig.jp/res/geopoint/+35.714153/+139.686829/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ荳願誠蜷井ｺ御ｸ∫岼"/>
+        <ic:菴乗園>
+          <rdf:Description rdf:nodeID="A47">
+            <ipa:陦ｨ險� xml:lang="ja">譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ荳願誠蜷�2-20-6</ipa:陦ｨ險�>
+            <ic:陦ｨ險� xml:lang="ja">譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ荳願誠蜷�2-20-6</ic:陦ｨ險�>
+            <ic:驛ｽ驕灘ｺ懃恁 xml:lang="ja">譚ｱ莠ｬ驛ｽ</ic:驛ｽ驕灘ｺ懃恁>
+            <ic:蟶ょ玄逕ｺ譚� xml:lang="ja">譁ｰ螳ｿ蛹ｺ</ic:蟶ょ玄逕ｺ譚�>
+            <ipa:蟶ょ玄逕ｺ譚� xml:lang="ja">譁ｰ螳ｿ蛹ｺ</ipa:蟶ょ玄逕ｺ譚�>
+            <ipa:驛ｽ驕灘ｺ懃恁 xml:lang="ja">譚ｱ莠ｬ驛ｽ</ipa:驛ｽ驕灘ｺ懃恁>
+            <rdfs:label xml:lang="ja">荳願誠蜷�2-20-6</rdfs:label>
+          </rdf:Description>
+        </ic:菴乗園>
+        <ipa:菴乗園 rdf:nodeID="A47"/>
+      </rdf:Description>
+    </ic:險ｭ鄂ｮ蝨ｰ轤ｹ>
+    <ipa:險ｭ鄂ｮ蝨ｰ轤ｹ rdf:nodeID="A46"/>
+    <ic:蜷咲ｧｰ rdf:nodeID="A45"/>
+    <rdfs:label xml:lang="ja">螟ｧ豎滓虻邱壻ｸｭ莠暮ｧ�2蜃ｺ蜿｣</rdfs:label>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%96%B0%E5%AE%BF%E9%A7%85%E6%9D%B1%E5%8D%97%E5%8F%A3%E3%80%80Flags%E5%89%8D/35.69034/139.7019">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.69034</geo:lat>
+    <ipa:險ｭ鄂ｮ蝨ｰ轤ｹ>
+      <rdf:Description rdf:nodeID="A48">
+        <ipa:蝨ｰ逅�ｺｧ讓�>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.690338/+139.701904/">
+            <ipa:邨悟ｺｦ>+139.701904</ipa:邨悟ｺｦ>
+            <ic:邨悟ｺｦ>+139.701904</ic:邨悟ｺｦ>
+            <ipa:邱ｯ蠎ｦ>+35.690338</ipa:邱ｯ蠎ｦ>
+            <ic:邱ｯ蠎ｦ>+35.690338</ic:邱ｯ蠎ｦ>
+          </rdf:Description>
+        </ipa:蝨ｰ逅�ｺｧ讓�>
+        <ic:蝨ｰ逅�ｺｧ讓� rdf:resource="http://odp.jig.jp/res/geopoint/+35.690338/+139.701904/"/>
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ譁ｰ螳ｿ荳我ｸ∫岼"/>
+        <ic:菴乗園>
+          <rdf:Description rdf:nodeID="A49">
+            <ic:驛ｽ驕灘ｺ懃恁 xml:lang="ja">譚ｱ莠ｬ驛ｽ</ic:驛ｽ驕灘ｺ懃恁>
+            <ic:蟶ょ玄逕ｺ譚� xml:lang="ja">譁ｰ螳ｿ蛹ｺ</ic:蟶ょ玄逕ｺ譚�>
+            <ipa:陦ｨ險� xml:lang="ja">譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ譁ｰ螳ｿ3-36-6</ipa:陦ｨ險�>
+            <ic:陦ｨ險� xml:lang="ja">譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ譁ｰ螳ｿ3-36-6</ic:陦ｨ險�>
+            <ipa:蟶ょ玄逕ｺ譚� xml:lang="ja">譁ｰ螳ｿ蛹ｺ</ipa:蟶ょ玄逕ｺ譚�>
+            <ipa:驛ｽ驕灘ｺ懃恁 xml:lang="ja">譚ｱ莠ｬ驛ｽ</ipa:驛ｽ驕灘ｺ懃恁>
+            <rdfs:label xml:lang="ja">譁ｰ螳ｿ3-36-6</rdfs:label>
+          </rdf:Description>
+        </ic:菴乗園>
+        <ipa:菴乗園 rdf:nodeID="A49"/>
+      </rdf:Description>
+    </ipa:險ｭ鄂ｮ蝨ｰ轤ｹ>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.7019</geo:long>
+    <ic:險ｭ鄂ｮ蝨ｰ轤ｹ rdf:nodeID="A48"/>
+    <ipa:蜷咲ｧｰ>
+      <rdf:Description rdf:nodeID="A50">
+        <ipa:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險� xml:lang="en">Shinjuku Sta. East-South exit 縲�窶廡lags窶�</ipa:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險�>
+        <ic:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險� xml:lang="en">Shinjuku Sta. East-South exit 縲�窶廡lags窶�</ic:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險�>
+        <ipa:陦ｨ險� xml:lang="ja">譁ｰ螳ｿ鬧�擲蜊怜哨縲�Flags蜑�</ipa:陦ｨ險�>
+        <ic:陦ｨ險� xml:lang="ja">譁ｰ螳ｿ鬧�擲蜊怜哨縲�Flags蜑�</ic:陦ｨ險�>
+      </rdf:Description>
+    </ipa:蜷咲ｧｰ>
+    <ic:蜷咲ｧｰ rdf:nodeID="A50"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ譁ｰ螳ｿ荳我ｸ∫岼"/>
+    <jrrk:address xml:lang="ja">譁ｰ螳ｿ3-36-6</jrrk:address>
+    <rdfs:label xml:lang="ja">譁ｰ螳ｿ鬧�擲蜊怜哨縲�Flags蜑�</rdfs:label>
+    <rdfs:label xml:lang="en">Shinjuku Sta. East-South exit 縲�窶廡lags窶�</rdfs:label>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#JR%E5%9B%9B%E3%83%84%E8%B0%B7%E9%A7%85%E8%B5%A4%E5%9D%82%E5%8F%A3/35.68578/139.728958">
+    <ic:險ｭ鄂ｮ蝨ｰ轤ｹ>
+      <rdf:Description rdf:nodeID="A51">
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ蝗幄ｰｷ荳�荳∫岼"/>
+        <ic:菴乗園>
+          <rdf:Description rdf:nodeID="A52">
+            <ic:驛ｽ驕灘ｺ懃恁 xml:lang="ja">譚ｱ莠ｬ驛ｽ</ic:驛ｽ驕灘ｺ懃恁>
+            <ic:蟶ょ玄逕ｺ譚� xml:lang="ja">譁ｰ螳ｿ蛹ｺ</ic:蟶ょ玄逕ｺ譚�>
+            <ipa:陦ｨ險� xml:lang="ja">譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ蝗幄ｰｷ1-2</ipa:陦ｨ險�>
+            <ic:陦ｨ險� xml:lang="ja">譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ蝗幄ｰｷ1-2</ic:陦ｨ險�>
+            <ipa:蟶ょ玄逕ｺ譚� xml:lang="ja">譁ｰ螳ｿ蛹ｺ</ipa:蟶ょ玄逕ｺ譚�>
+            <ipa:驛ｽ驕灘ｺ懃恁 xml:lang="ja">譚ｱ莠ｬ驛ｽ</ipa:驛ｽ驕灘ｺ懃恁>
+            <rdfs:label xml:lang="ja">蝗幄ｰｷ1-2</rdfs:label>
+          </rdf:Description>
+        </ic:菴乗園>
+        <ipa:蝨ｰ逅�ｺｧ讓�>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.685780/+139.728958/">
+            <ipa:邨悟ｺｦ>+139.728958</ipa:邨悟ｺｦ>
+            <ic:邨悟ｺｦ>+139.728958</ic:邨悟ｺｦ>
+            <ipa:邱ｯ蠎ｦ>+35.685780</ipa:邱ｯ蠎ｦ>
+            <ic:邱ｯ蠎ｦ>+35.685780</ic:邱ｯ蠎ｦ>
+          </rdf:Description>
+        </ipa:蝨ｰ逅�ｺｧ讓�>
+        <ic:蝨ｰ逅�ｺｧ讓� rdf:resource="http://odp.jig.jp/res/geopoint/+35.685780/+139.728958/"/>
+        <ipa:菴乗園 rdf:nodeID="A52"/>
+      </rdf:Description>
+    </ic:險ｭ鄂ｮ蝨ｰ轤ｹ>
+    <rdfs:label xml:lang="en">JR Yotsuya sta. Akasaka exit</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.728958</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.68578</geo:lat>
+    <ipa:蜷咲ｧｰ>
+      <rdf:Description rdf:nodeID="A53">
+        <ipa:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險� xml:lang="en">JR Yotsuya sta. Akasaka exit</ipa:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險�>
+        <ic:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險� xml:lang="en">JR Yotsuya sta. Akasaka exit</ic:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險�>
+        <ipa:陦ｨ險� xml:lang="ja">JR蝗帙ヤ隹ｷ鬧�ｵ､蝮ょ哨</ipa:陦ｨ險�>
+        <ic:陦ｨ險� xml:lang="ja">JR蝗帙ヤ隹ｷ鬧�ｵ､蝮ょ哨</ic:陦ｨ險�>
+      </rdf:Description>
+    </ipa:蜷咲ｧｰ>
+    <jrrk:address xml:lang="ja">蝗幄ｰｷ1-2</jrrk:address>
+    <ic:蜷咲ｧｰ rdf:nodeID="A53"/>
+    <rdfs:label xml:lang="ja">JR蝗帙ヤ隹ｷ鬧�ｵ､蝮ょ哨</rdfs:label>
+    <ipa:險ｭ鄂ｮ蝨ｰ轤ｹ rdf:nodeID="A51"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ蝗幄ｰｷ荳�荳∫岼"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E6%96%B0%E5%AE%BF%E9%A7%85%E5%8D%97%E5%8F%A3%E3%80%80%E3%83%90%E3%82%B9%E3%82%BF%E6%96%B0%E5%AE%BF%E5%89%8D/35.69214/139.70129">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.70129</geo:long>
+    <ic:險ｭ鄂ｮ蝨ｰ轤ｹ>
+      <rdf:Description rdf:nodeID="A54">
+        <gn:locatedIn rdf:resource="http://geonames.jp/resource/譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ譁ｰ螳ｿ荳我ｸ∫岼"/>
+        <ic:菴乗園>
+          <rdf:Description rdf:nodeID="A55">
+            <ic:驛ｽ驕灘ｺ懃恁 xml:lang="ja">譚ｱ莠ｬ驛ｽ</ic:驛ｽ驕灘ｺ懃恁>
+            <ic:蟶ょ玄逕ｺ譚� xml:lang="ja">譁ｰ螳ｿ蛹ｺ</ic:蟶ょ玄逕ｺ譚�>
+            <ipa:陦ｨ險� xml:lang="ja">譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ譁ｰ螳ｿ3-38-2</ipa:陦ｨ險�>
+            <ic:陦ｨ險� xml:lang="ja">譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ譁ｰ螳ｿ3-38-2</ic:陦ｨ險�>
+            <ipa:蟶ょ玄逕ｺ譚� xml:lang="ja">譁ｰ螳ｿ蛹ｺ</ipa:蟶ょ玄逕ｺ譚�>
+            <ipa:驛ｽ驕灘ｺ懃恁 xml:lang="ja">譚ｱ莠ｬ驛ｽ</ipa:驛ｽ驕灘ｺ懃恁>
+            <rdfs:label xml:lang="ja">譁ｰ螳ｿ3-38-2</rdfs:label>
+          </rdf:Description>
+        </ic:菴乗園>
+        <ipa:蝨ｰ逅�ｺｧ讓�>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.692139/+139.701294/">
+            <ipa:邨悟ｺｦ>+139.701294</ipa:邨悟ｺｦ>
+            <ic:邨悟ｺｦ>+139.701294</ic:邨悟ｺｦ>
+            <ipa:邱ｯ蠎ｦ>+35.692139</ipa:邱ｯ蠎ｦ>
+            <ic:邱ｯ蠎ｦ>+35.692139</ic:邱ｯ蠎ｦ>
+          </rdf:Description>
+        </ipa:蝨ｰ逅�ｺｧ讓�>
+        <ic:蝨ｰ逅�ｺｧ讓� rdf:resource="http://odp.jig.jp/res/geopoint/+35.692139/+139.701294/"/>
+        <ipa:菴乗園 rdf:nodeID="A55"/>
+      </rdf:Description>
+    </ic:險ｭ鄂ｮ蝨ｰ轤ｹ>
+    <jrrk:address xml:lang="ja">譁ｰ螳ｿ3-38-2</jrrk:address>
+    <rdfs:label xml:lang="ja">譁ｰ螳ｿ鬧�漉蜿｣縲�繝舌せ繧ｿ譁ｰ螳ｿ蜑�</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.69214</geo:lat>
+    <ipa:蜷咲ｧｰ>
+      <rdf:Description rdf:nodeID="A56">
+        <ipa:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險� xml:lang="en">Shinjuku Sta. South exit 縲�窶彜hinjuku Expressway Bus Terminal窶�</ipa:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險�>
+        <ic:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險� xml:lang="en">Shinjuku Sta. South exit 縲�窶彜hinjuku Expressway Bus Terminal窶�</ic:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險�>
+        <ipa:陦ｨ險� xml:lang="ja">譁ｰ螳ｿ鬧�漉蜿｣縲�繝舌せ繧ｿ譁ｰ螳ｿ蜑�</ipa:陦ｨ險�>
+        <ic:陦ｨ險� xml:lang="ja">譁ｰ螳ｿ鬧�漉蜿｣縲�繝舌せ繧ｿ譁ｰ螳ｿ蜑�</ic:陦ｨ險�>
+      </rdf:Description>
+    </ipa:蜷咲ｧｰ>
+    <rdfs:label xml:lang="en">Shinjuku Sta. South exit 縲�窶彜hinjuku Expressway Bus Terminal窶�</rdfs:label>
+    <ipa:險ｭ鄂ｮ蝨ｰ轤ｹ rdf:nodeID="A54"/>
+    <ic:蜷咲ｧｰ rdf:nodeID="A56"/>
+    <gn:locatedI
