@@ -214,7 +214,19 @@ dataCommand
       const willSaveFilePath: string = path.join(
         ...getSaveOriginFilePathParts(crawlerModel, crawlerIdcrawlerKeywords[crawlerModel.id], crawlerIdCrawlerCategory[crawlerModel.id]),
       );
-      const response = await axios.get(crawlerModel.origin_url, { responseType: 'arraybuffer' });
+      const response = await axios.get(crawlerModel.origin_url, { responseType: 'arraybuffer' }).catch(async (error) => {
+        await prismaClient.crawler.updateMany({
+          where: {
+            id: crawlerModel.id,
+          },
+          data: {
+            need_manual_edit: true
+          },
+        });
+      });
+      if (!response?.data) {
+        continue;
+      }
       if (crawlerModel.origin_file_ext === '.csv' || crawlerModel.origin_file_ext === '.json') {
         const detectedEncoding = Encoding.detect(response.data);
         let textData: string = '';
