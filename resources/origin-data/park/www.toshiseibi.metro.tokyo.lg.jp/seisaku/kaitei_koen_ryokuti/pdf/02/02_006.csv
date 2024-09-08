@@ -2,7 +2,7 @@
 環境保全［ヒートアイランド現象の緩和、自然資源、生物多様性の保全等］,○ヒートアイランド現象の緩和・区部及びその周辺の市街地における、樹林地や水面を保全・拡大する公園・緑地・海・河川・運河等の大規模水面と市街地間の冷気の移動を可能とする位置の緑やオープンスペースを保全・創出する公園・緑地○自然資源、生物多様性の保全・丘陵地、河川沿いや崖線の緑、平地林等の樹林地、湧水*などの自然資源を保全する公園・緑地・貴重な動植物及びその生息・生育環境を保全する公園・緑地・みどりの少ない地域における樹林地等を保全・創出する公園・緑地○その他・崖線や台地部における湧水のかん養域と想定される地域の樹林地や農地等を保全・創出する公園・緑地・東部低地帯などの自然流下により雨水排出ができない地域において、雨水排出抑制に資する樹林地や水面を創出・保全する公園・緑地・大型公共施設の整備・機能更新等により創出される公開空間に植栽地や広場等を設ける公園・緑地
 レクリエーション［身近な自然とのふれあいや、運動、文化活動、散策等多様な活動の場］,"○公園不足地域の解消・250メートルの範囲内に2,500平方メートル以上の公園・緑地がない地域の住区基幹公園*・2キロメートルの範囲内に10ヘクタール以上の公園・緑地がない地域の都市基幹公園*〇地域で必要とされている施設や公園の整備・運動公園、植物公園、お祭り広場、農業体験公園や水辺のある公園等"
 景観・魅力［東京や地域らしさの醸成、美しい景観づくり、にぎわいの創出］,・庭園や社寺境内地等の歴史・文化資源を保全、再生、活用する公園・緑地・地域と特徴付ける自然物やランドマークとなる建物、史跡や名勝等を活用し地域の魅力向上に資する公園・緑地・湧水、崖線（地形・樹林等）や屋敷林等の自然資源を保全、活用する公園・緑地、丘陵地等の自然資源を自然体験等に活用できる公園・緑地・都市の貴重な緑地としての農地の保全活用ができる公園・緑地・都区市町の景観計画において景観への配慮が特に必要とされた景観基本軸*などの区域やその近傍において、良好な景観形成・保全に資する公園・緑地・周辺の観光地、市街地や商店街等と連携し、魅力的な観光地域づくりに資する公園・緑地・周辺のまちづくりと連携し、地域のにぎわい創出や回遊性の向上に資する公園・緑地
-)		// already being displayed
+		// already being displayed
 		{
 			return;
 		}
@@ -83,7 +83,9 @@
 			width:'auto',
 			draggable: true,
 			open: function(event, ui) { jQuery('.ui-widget-overlay').bind('click', function(){ jQuery("#modal_dialog").dialog('close'); }); },
-			close: function( event, ui ) {
+			close: function( even
+1000
+t, ui ) {
 				jQuery('#modal_dialog').html('');
 				jQuery("#modal_dialog").removeClass('message_dialog');
 				jQuery.get('https://photo.city.edogawa.tokyo.jp/pages/ajax/message.php?seen=' + ref);
@@ -135,7 +137,7 @@ headerLinksDropdown();
   <h2>邁｡蜊俶､懃ｴ｢</h2>
 	<p><label for="ssearchbox">隱ｬ譏取枚縲√く繝ｼ繝ｯ繝ｼ繝峨�√Μ繧ｽ繝ｼ繧ｹID繧剃ｽｿ縺｣縺ｦ讀懃ｴ｢縺励※縺上□縺輔＞縲�<br><br>隍�焚謖�ｮ壹☆繧句�ｴ蜷医�蜊願ｧ偵せ繝壹�繧ｹ縺ｧ蛹ｺ蛻�▲縺ｦ縺上□縺輔＞縲�</label></p>
 	<form id="simple_search_form" method="post" action="https://photo.city.edogawa.tokyo.jp/pages/search.php" onSubmit="return CentralSpacePost(this,true);">
-        <input type="hidden" name="CSRFToken" value="MDUxNjE1OTcxYjZiYzhkZjY1NmJlOWM4YjUwNTNmNWUwZmYwOGY0ZTU2MjFkYzQwZDEwODJlNzE3ZTEyZTU4ZEBA5sx3uuYtBFvA5hChJzMD2mUFkuapiKUuQ/tDYiQASM+dsO+zBASrwh1HINNvPfwZ87HS9uQj1jLx49BpvUq/stm/HcIUCe91UAFWK46HN4LY4Ed+2c0xc7zmjmbTrVq15MNFo9svzrpd28tfgnv55OnCIeidTs3ai+L85GUalzAJEHNE1nPAOzARVExSWsvb9EtOP8Lprp2D5hsifQyzBq44Kelk8qarwGjl5jJjV0BAOHFNWowz/tmj09ZZ3FiCDLTj+5p9drTG0bHOZCiJQiQ=">
+        <input type="hidden" name="CSRFToken" value="MmQ3ZTRmMmM0YmYyOGYzNGFjZGFiZjAxMWNkZTVjNTJiODQ2ZjNlMWE5M2U4ZWI2YmI5MmU3MzY2ZmQ2NDBhNEBA3t7Am5YfBrBL5DcJVvoyc+0U449RPAoRoY3lqDqKb+VyHPNUP3IqqOJZpJl6+KBJvVF8NiKT+y+zIGmwT2965TTexgRx1BZMjaeVOrfKt1b+NA0ho4yykhdbjL69vdin9rRjGJva1OCPxBBHTLT9UGmlPx/rxQbJq7V+f05znnDmYyFf5fcy6lSg+DAzcd4PBWD7h6qRJDmTvF1r4hltw8Fmf1hIyhXT7bYZbtatIkBAsnfpoI7rFac0BXDYi+zefi6TCLIyBjFeTTCe+IR6Gn8=">
             <input id="ssearchbox"  name="search" type="text" class="SearchWidth" value="">
         <script>
                     jQuery(document).ready(function () {
@@ -192,7 +194,7 @@ jQuery(document).ready(function()
     {
     ActivateHeaderLink("https:\/\/photo.city.edogawa.tokyo.jp%2Fpages%2Fdow
 1ff8
-nload_progress.php%3Fref%3D2503");
+nload_progress.php%3Fref%3D2504");
 
     jQuery(document).mouseup(function(e)
         {
@@ -210,7 +212,7 @@ window.onresize=function()
     }
 </script>
 	<script type="text/javascript">
-        window.setTimeout("document.location='https://photo.city.edogawa.tokyo.jp/pages/download.php?ref=2503&size=&ext=jpg&k=&alternative=-1&usage=-1&usagecomment='",1000);
+        window.setTimeout("document.location='https://photo.city.edogawa.tokyo.jp/pages/download.php?ref=2504&size=&ext=jpg&k=&alternative=-1&usage=-1&usagecomment='",1000);
 	</script>
 	
 <div class="BasicsBox">
@@ -219,8 +221,8 @@ window.onresize=function()
 		<!--<h2>&nbsp;</h2>-->
     <h1>繝�繧ｦ繝ｳ繝ｭ繝ｼ繝我ｸｭ</h1>
     <p>繝�繧ｦ繝ｳ繝ｭ繝ｼ繝峨�縺ｾ繧ゅ↑縺城幕蟋九＠縺ｾ縺吶�� 邯壹￠縺ｦ菴懈･ｭ縺吶ｋ蝣ｴ蜷医�莉･荳九�繝ｪ繝ｳ繧ｯ繧剃ｽｿ逕ｨ縺励※縺上□縺輔＞縲�</p>
-		    <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/view.php?ref=2503&k=&search=&offset=&order_by=&sort=&archive="><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;繝ｪ繧ｽ繝ｼ繧ｹ陦ｨ遉ｺ縺ｸ謌ｻ繧�</a></p>
-    <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/search.php?ref=2503&k=&search=&offset=&order_by=&sort=&archive="><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;謌ｻ繧�</a></p>
+		    <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/view.php?ref=2504&k=&search=&offset=&order_by=&sort=&archive="><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;繝ｪ繧ｽ繝ｼ繧ｹ陦ｨ遉ｺ縺ｸ謌ｻ繧�</a></p>
+    <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/search.php?ref=2504&k=&search=&offset=&order_by=&sort=&archive="><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;謌ｻ繧�</a></p>
 
         <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/home.php?"><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;繝帙�繝�縺ｸ謌ｻ繧�</a></p>
 	    
@@ -329,7 +331,7 @@ document.title = "豎滓虻蟾晉判蜒乗枚蠎ｫ";
 <!--CollectionDiv--></div>
 
 		<script>
-			usercollection='1198';
+			usercollection='1205';
 		var collections_popout = false;
 			</script>			<div class="ui-layout-south" ></div><script>myLayout=jQuery('body').layout({south__initHidden: true });	</script>		<!-- Responsive -->
 		<script src="/lib/js/responsive.js?css_reload_key=8.6.12117"></script>
@@ -428,4 +430,4 @@ document.title = "豎滓虻蟾晉判蜒乗枚蠎ｫ";
 				}
 			});
 
-		jQuery("#HeaderNav2Click").
+		jQuery("#HeaderNav2C

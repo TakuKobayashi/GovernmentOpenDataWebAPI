@@ -491,7 +491,7 @@ headerLinksDropdown();
   <h2>簡単検索</h2>
 	<p><label for="ssearchbox">説明文、キーワード、リソースIDを使って検索してください。<br><br>複数指定する場合は半角スペースで区切ってください。</label></p>
 	<form id="simple_search_form" method="post" action="https://photo.city.edogawa.tokyo.jp/pages/search.php" onSubmit="return CentralSpacePost(this,true);">
-        <input type="hidden" name="CSRFToken" value="ZjNmMzQwMzBmNTQwZWMzYTIwMjdjNmRiZjQ3OWYwZGE3MWY0Mjk4MGUxOTY2ZTIzODk3MGM5MDViOWRlOTdkOUBADD3iXy04sifeZl6UNcZVRmq0/cqNRtq1Ay3qYvUpcoUOpvJm1hjD+9tUcJ2ua5LZwvlK9pSd8rlZP8KXQ0GLt+xJ694IIeioOhNPNLmqR6EfSNk4ymhxr4BRHZrxkcgpEEFkZgpf6c9Ysq3/oeOvBTVeWgbUDA35gA0nvvE95TUlEajxSYJidu46gSmLMX64nMOZe2fh/5TdjvzmFu1CNgeEcM09PfMXjhVB1BplwEBABlr4FUYO+/kB7D2IL7Qg6V5KxbeuRxeKiqIfUl0a7uQ=">
+        <input type="hidden" name="CSRFToken" value="OWI0MDRiNDg2MjZkZTViNDVhNzA2M2RlYzBiMTYxNDViMWFmYzg4ZTE2ZjBhMGM4MjJiMDEzN2MyZGU3ZjRjYkBAsBkPmcM0CD/6Jko22bGmhpGLYwSU0gUJ9gS3AsoQg/ijlTw6mm2GNhQoN+e2dKIqStHbXiP+1+HstHVgjRksvZrwfk3rPIz5Uy68BS4RTow5Ru9UX/X91fvqhy7F+IoeH9Mwoiz5QErekCnpkuXUWSZ0L4YIA5wrwH71qFlmQonnAqINLu73JcUM1nzSIzdyp2sS8IiDVzTmoRDcBWtuOnfCoGcuokVCu07NeZ45dUBA0tiav35t1oze8KwivowsLkBURf41OE6N27OKvbro6uw=">
             <input id="ssearchbox"  name="search" type="text" class="SearchWidth" value="">
         <script>
                     jQuery(document).ready(function () {
@@ -683,7 +683,7 @@ document.title = "江戸川画像文庫";
 <!--CollectionDiv--></div>
 
 		<script>
-			usercollection='1198';
+			usercollection='1205';
 		var collections_popout = false;
 			</script>			<div class="ui-layout-south" ></div><script>myLayout=jQuery('body').layout({south__initHidden: true });	</script>		<!-- Responsive -->
 		<script src="/lib/js/responsive.js?css_reload_key=8.6.12117"></script>

@@ -53,7 +53,22 @@
 131199,52,東京都,板橋区,ハイライフプラザいたばし,ハイライフプラザイタバシ,,板橋区板橋1-55-16　,,35.747027,139.720667,東京都板橋区,03-5375-8105,,0000_ITABASHI_Free_Wi-Fi,施設内,,
 131199,53,東京都,板橋区,植村冒険館,ウエムラボウケンカン,,板橋区加賀1-10-5,,35.75425,139.715975,東京都板橋区,03-6912-4703,,0000_ITABASHI_Free_Wi-Fi,施設内,,
 131199,54,東京都,板橋区,板橋区子ども家庭総合支援センター,イタバシクコドモカテイソウゴウシエンセンター,,東京都板橋区本町24-17,,35.759416,139.708348,東京都板橋区,03-5944-2371,,0000_ITABASHI_Free_Wi-Fi,施設内,,
-ion rdf:nodeID="A70">
+/譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ鬮倡伐鬥ｬ蝣ｴ荳�荳∫岼"/>
+    <ic:險ｭ鄂ｮ蝨ｰ轤ｹ rdf:nodeID="A67"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E9%AB%98%E7%94%B0%E9%A6%AC%E5%A0%B4%E9%A7%85%E6%97%A9%E7%A8%B2%E7%94%B0%E5%8F%A3%E3%80%80%E8%A5%BF/35.714317/139.703598">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.703598</geo:long>
+    <ic:蜷咲ｧｰ>
+      <rdf:Description rdf:nodeID="A69">
+        <ipa:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險� xml:lang="en">Takadanobaba Sta. Waseda exit westside</ipa:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險�>
+        <ic:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險� xml:lang="en">Takadanobaba Sta. Waseda exit westside</ic:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險�>
+        <ipa:陦ｨ險� xml:lang="ja">鬮倡伐鬥ｬ蝣ｴ鬧�掠遞ｲ逕ｰ蜿｣縲�隘ｿ</ipa:陦ｨ險�>
+        <ic:陦ｨ險� xml:lang="ja">鬮倡伐鬥ｬ蝣ｴ鬧�掠遞ｲ逕ｰ蜿｣縲�隘ｿ</ic:陦ｨ險�>
+      </rdf:Description>
+    </ic:蜷咲ｧｰ>
+    <ic:險ｭ鄂ｮ蝨ｰ轤ｹ>
+      <rdf:Description rdf:nodeID="A70">
         <ipa:蝨ｰ逅�ｺｧ讓�>
           <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.714317/+139.703598/">
             <ipa:邨悟ｺｦ>+139.703598</ipa:邨悟ｺｦ>
@@ -163,20 +178,4 @@ ion rdf:nodeID="A70">
     </ipa:險ｭ鄂ｮ蝨ｰ轤ｹ>
     <jrrk:address xml:lang="ja">荳ｭ關ｽ蜷�1-20-15</jrrk:address>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
-    >139.687393</geo:long>
-    <ipa:蜷咲ｧｰ>
-      <rdf:Description rdf:nodeID="A77">
-        <ipa:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險� xml:lang="en">Seibu Line Nakai Station</ipa:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險�>
-        <ic:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險� xml:lang="en">Seibu Line Nakai Station</ic:繝ｭ繝ｼ繝槫ｭ苓｡ｨ險�>
-        <ipa:陦ｨ險� xml:lang="ja">隘ｿ豁ｦ邱壻ｸｭ莠暮ｧ�</ipa:陦ｨ險�>
-        <ic:陦ｨ險� xml:lang="ja">隘ｿ豁ｦ邱壻ｸｭ莠暮ｧ�</ic:陦ｨ險�>
-      </rdf:Description>
-    </ipa:蜷咲ｧｰ>
-    <rdfs:label xml:lang="en">Seibu Line Nakai Station</rdfs:label>
-    <ic:險ｭ鄂ｮ蝨ｰ轤ｹ rdf:nodeID="A75"/>
-    <ic:蜷咲ｧｰ rdf:nodeID="A77"/>
-    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
-    >35.714939</geo:lat>
-    <gn:locatedIn rdf:resource="http://geonames.jp/resource/譚ｱ莠ｬ驛ｽ譁ｰ螳ｿ蛹ｺ荳ｭ關ｽ蜷井ｸ�荳∫岼"/>
-  </jrrk:PublicWIFI>
-  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/717#%E5%9B%9B%E8%B0%B73%E4%B8%81%E7%9B%AE%E9%A7%85%E5
+    >139.68

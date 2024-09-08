@@ -56,8 +56,7 @@
 総合公園,東伏見公園,西東京市,,,,
 広域公園,桜ヶ丘公園,多摩市・稲城市,,,,
 運動公園,秋留台公園,あきる野市,,,,
-総合公()
-		{
+総合公
 			var t = window.setTimeout(function()
 			{
 				jQuery("div#" + id).fadeOut("fast",function()
@@ -89,9 +88,7 @@
 			jQuery("div#" + id).bind("mouseleave",function()
 			{
 				window.clearTimeout(t);
-	
-1000
-			t = window.setTimeout(function()
+				t = window.setTimeout(function()
 				{
 					jQuery("div#" + id).fadeOut("fast",function()
 						{
@@ -135,7 +132,9 @@
 			width:'auto',
 			draggable: true,
 			open: function(event, ui) { jQuery('.ui-widget-overlay').bind('click', function(){ jQuery("#modal_dialog").dialog('close'); }); },
-			close: function( event, ui ) {
+			close: function( even
+1000
+t, ui ) {
 				jQuery('#modal_dialog').html('');
 				jQuery("#modal_dialog").removeClass('message_dialog');
 				jQuery.get('https://photo.city.edogawa.tokyo.jp/pages/ajax/message.php?seen=' + ref);
@@ -187,7 +186,7 @@ headerLinksDropdown();
   <h2>邁｡蜊俶､懃ｴ｢</h2>
 	<p><label for="ssearchbox">隱ｬ譏取枚縲√く繝ｼ繝ｯ繝ｼ繝峨�√Μ繧ｽ繝ｼ繧ｹID繧剃ｽｿ縺｣縺ｦ讀懃ｴ｢縺励※縺上□縺輔＞縲�<br><br>隍�焚謖�ｮ壹☆繧句�ｴ蜷医�蜊願ｧ偵せ繝壹�繧ｹ縺ｧ蛹ｺ蛻�▲縺ｦ縺上□縺輔＞縲�</label></p>
 	<form id="simple_search_form" method="post" action="https://photo.city.edogawa.tokyo.jp/pages/search.php" onSubmit="return CentralSpacePost(this,true);">
-        <input type="hidden" name="CSRFToken" value="NWI0MjZjN2I4YmFjMDE5OGZkODNmNDBhY2JmZjgyOGEyOGRkNWFhNzFhYjg5NTYwMjgxOWRhMTNmOTZlMzAwMUBAxPpSHrGedFN4OmGjjot4F03GyfmlV5svKr2VRyjztY1Q3o264AJQO2JXfYjidhsfbBG3EtTdSfHTaWY+IJPLeGVQI9plNDwECDF79UtLB/wN2lXWQzgi5tAmrvX7z9+25+DEKFgevu429oFdgbBu6o9Lf26lOBu/5ifSDSWu9Ls8ZHG56sGI4UTOQ8Q+Qzt0PrHW8797Vj5Hy6cFxUDsRYl1hmbAWCvDpz90N+VgSEBAtKTJpvI8a+RFUclepFDO61U57Na4XXxhOhQDAKBf0II=">
+        <input type="hidden" name="CSRFToken" value="NGUwZThiNjAzMjFhMTc2NWViZGNjMTU1MGIwZGFmZDAyOTYyNGIxN2Q0MjNiODg2MDk0NjViMjI0OWM2YzA0NUBANe2xucHifYYAVnPc3NqrYStni0K8HAHXHYyFrH51fZ4PE8qCGrCiYTD4xu1lxnY1Vsf8Xzu5lC4efvpT2+NSbwjrjjPFhTnnVNxnz7lCgwMtrP415plKwyM5o4Rt5q+Vro2bl5gco7KBUtOTBZMOuYsK5gnj5OiR34QC/sVLiMZqLPyVrIJR6IU5RyAvFYMZKnacNhODCGxJKsID+10BAW/d4y1e6gbcaP8teTOAzEBABBecXr0odL53gZYhCzYX++X2osffK59Ulmal+fXhstM=">
             <input id="ssearchbox"  name="search" type="text" class="SearchWidth" value="">
         <script>
                     jQuery(document).ready(function () {
@@ -209,9 +208,7 @@ headerLinksDropdown();
     }
     </script>
 
-	<div class="SearchItem" id="simplesearchbuttons"><input n
-1ff8
-ame="Clear" id="clearbutton" class="searchbutton" type="button" value="&nbsp;&nbsp;繧ｯ繝ｪ繧｢繝ｼ&nbsp;&nbsp;" onClick="ClearInputAndCookie();"/><input name="Submit" id="searchbutton" class="searchbutton" type="submit" value="&nbsp;&nbsp;讀懃ｴ｢&nbsp;&nbsp;" /><input type="button" id="Rssearchexpand" class="searchbutton" style="display:none;" value="繧ゅ▲縺ｨ隕九ｋ"></div>
+	<div class="SearchItem" id="simplesearchbuttons"><input name="Clear" id="clearbutton" class="searchbutton" type="button" value="&nbsp;&nbsp;繧ｯ繝ｪ繧｢繝ｼ&nbsp;&nbsp;" onClick="ClearInputAndCookie();"/><input name="Submit" id="searchbutton" class="searchbutton" type="submit" value="&nbsp;&nbsp;讀懃ｴ｢&nbsp;&nbsp;" /><input type="button" id="Rssearchexpand" class="searchbutton" style="display:none;" value="繧ゅ▲縺ｨ隕九ｋ"></div>
 
   </form>
   <br />
@@ -244,7 +241,9 @@ ame="Clear" id="clearbutton" class="searchbutton" type="button" value="&nbsp;&nb
 linkreload = true;
 jQuery(document).ready(function()
     {
-    ActivateHeaderLink("https:\/\/photo.city.edogawa.tokyo.jp%2Fpages%2Fdownload_progress.php%3Fref%3D1907");
+    ActivateHeaderLink("https:\/\/photo.city.edogawa.tokyo.jp%2Fpages%2Fdow
+ff8
+nload_progress.php%3Fref%3D1740");
 
     jQuery(document).mouseup(function(e)
         {
@@ -262,7 +261,7 @@ window.onresize=function()
     }
 </script>
 	<script type="text/javascript">
-        window.setTimeout("document.location='https://photo.city.edogawa.tokyo.jp/pages/download.php?ref=1907&size=&ext=jpg&k=&alternative=-1&usage=-1&usagecomment='",1000);
+        window.setTimeout("document.location='https://photo.city.edogawa.tokyo.jp/pages/download.php?ref=1740&size=&ext=jpg&k=&alternative=-1&usage=-1&usagecomment='",1000);
 	</script>
 	
 <div class="BasicsBox">
@@ -271,8 +270,8 @@ window.onresize=function()
 		<!--<h2>&nbsp;</h2>-->
     <h1>繝�繧ｦ繝ｳ繝ｭ繝ｼ繝我ｸｭ</h1>
     <p>繝�繧ｦ繝ｳ繝ｭ繝ｼ繝峨�縺ｾ繧ゅ↑縺城幕蟋九＠縺ｾ縺吶�� 邯壹￠縺ｦ菴懈･ｭ縺吶ｋ蝣ｴ蜷医�莉･荳九�繝ｪ繝ｳ繧ｯ繧剃ｽｿ逕ｨ縺励※縺上□縺輔＞縲�</p>
-		    <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/view.php?ref=1907&k=&search=&offset=&order_by=&sort=&archive="><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;繝ｪ繧ｽ繝ｼ繧ｹ陦ｨ遉ｺ縺ｸ謌ｻ繧�</a></p>
-    <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/search.php?ref=1907&k=&search=&offset=&order_by=&sort=&archive="><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;謌ｻ繧�</a></p>
+		    <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/view.php?ref=1740&k=&search=&offset=&order_by=&sort=&archive="><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;繝ｪ繧ｽ繝ｼ繧ｹ陦ｨ遉ｺ縺ｸ謌ｻ繧�</a></p>
+    <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/search.php?ref=1740&k=&search=&offset=&order_by=&sort=&archive="><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;謌ｻ繧�</a></p>
 
         <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/home.php?"><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;繝帙�繝�縺ｸ謌ｻ繧�</a></p>
 	    
@@ -345,7 +344,9 @@ window.onresize=function()
 
       <div class="six wide column footer-column footer-column-3">
         <div class="footer-ul-wrapper">
-            <div class="footer-ul-header">隕冗ｴ�ｭ�</div>
+            <div class="footer-ul-header">隕冗ｴ�ｭ�</
+1000
+div>
             <ul class="footer-ul">
                 <li><a href="/plugins/edogawa/pages/opendatapolicy.php">繧ｪ繝ｼ繝励Φ繝��繧ｿ蛻ｩ逕ｨ隕冗ｴ�</a></li><!--
              --><li><a href="/plugins/edogawa/pages/contributepolicy.php">繝��繧ｿ謚慕ｨｿ縺ｫ髢｢縺吶ｋ蛻ｩ逕ｨ隕冗ｴ�</a></li><!--
@@ -381,7 +382,7 @@ document.title = "豎滓虻蟾晉判蜒乗枚蠎ｫ";
 <!--CollectionDiv--></div>
 
 		<script>
-			usercollection='1198';
+			usercollection='1205';
 		var collections_popout = false;
 			</script>			<div class="ui-layout-south" ></div><script>myLayout=jQuery('body').layout({south__initHidden: true });	</script>		<!-- Responsive -->
 		<script src="/lib/js/responsive.js?css_reload_key=8.6.12117"></script>
@@ -430,9 +431,7 @@ document.title = "豎滓虻蟾晉判蜒乗枚蠎ｫ";
 				}
 			}
 
-		var responsive_show = "髫�縺
-d68
-�";
+		var responsive_show = "髫�縺�";
 		var responsive_hide;
 		var responsive_newpage = true;
 
@@ -482,4 +481,4 @@ d68
 				}
 			});
 
-		jQuery
+		jQuery("#Head

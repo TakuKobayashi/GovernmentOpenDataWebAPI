@@ -62,11 +62,14 @@
 60,一之江七丁目第三公園,700 ,江戸川区一之江７丁目,
 -,小計,201400 ,,
 -,特別区事業計,903700 ,,
--,特別区事業�
+-,特別区事業�);
+
 			jQuery("div#" + id).bind("mouseleave",function()
 			{
 				window.clearTimeout(t);
-				t = window.setTimeout(function()
+				t = wi
+1000
+ndow.setTimeout(function()
 				{
 					jQuery("div#" + id).fadeOut("fast",function()
 						{
@@ -162,7 +165,7 @@ headerLinksDropdown();
   <h2>邁｡蜊俶､懃ｴ｢</h2>
 	<p><label for="ssearchbox">隱ｬ譏取枚縲√く繝ｼ繝ｯ繝ｼ繝峨�√Μ繧ｽ繝ｼ繧ｹID繧剃ｽｿ縺｣縺ｦ讀懃ｴ｢縺励※縺上□縺輔＞縲�<br><br>隍�焚謖�ｮ壹☆繧句�ｴ蜷医�蜊願ｧ偵せ繝壹�繧ｹ縺ｧ蛹ｺ蛻�▲縺ｦ縺上□縺輔＞縲�</label></p>
 	<form id="simple_search_form" method="post" action="https://photo.city.edogawa.tokyo.jp/pages/search.php" onSubmit="return CentralSpacePost(this,true);">
-        <input type="hidden" name="CSRFToken" value="NDFhY2VhYjIxMjE3NWQ1MTBhNWQwMGQzNDdlM2I0M2Y1ODJhYmZiNDQzYjcyNzIyZDY4Y2I4MWVjYTk1N2VkZkBA3aLgEHpXEFuI0w9Cf7rr5biAIBN71Fn/anRwQ8Fol+EwZ6nViXqwHK2QuvCziZDivAjarYRcpHrmisehr8zrJoilz/VMVOFcuo/QHgoPJ3ekPyvQpaopzCdAC9Zx79y2BNZfD2wYQqgtlnjxJQO2wyernnvsQMugE0WUKRS+ttwyaAuutRCPj/skeX8a3CUe6ecScDb0RxrDxsZkJTxjoipYJ31S9Ytsb7ESxpgC7kBAFfr7m1zMbgrhdMmuhL/iLmV3jRf2gLe4lc4ExDUnQn4=">
+        <input type="hidden" name="CSRFToken" value="OWEyNmFlODEzNjBkN2UwNzMwMTE3MmIwOWY0NWY2YmZlYTZkYzVmZjdmN2FjOGNjYTA2OTZiM2Y4Y2NmOTE0YUBAEscVhXPWu+WwbFd6edzJz6BQttnId5VhlaWXj6XiW1AiahLYQrLxUJVCCxSiCZ8jSY1vVN+IM1eTvU+9zAg8azNglyOK0rSYSu8XTNpl/cVo3NdJcN6ctBJvnO4skSMU1Oh501P3fpKnAv/Y6KCO4dC+le9nWLntiJdFudOpQH/mfetHsXOEKAuybkldBddaKNSx2zer7EfHu3OiD/B0DkWIBqPEkimdGgpBfdhtoEBAsOjQOuWXCqkR8FETbRoGlg6ERtuW84EpvXiRjjB0ru8=">
             <input id="ssearchbox"  name="search" type="text" class="SearchWidth" value="">
         <script>
                     jQuery(document).ready(function () {
@@ -184,7 +187,9 @@ headerLinksDropdown();
     }
     </script>
 
-	<div class="SearchItem" id="simplesearchbuttons"><input name="Clear" id="clearbutton" class="searchbutton" type="button" value="&nbsp;&nbsp;繧ｯ繝ｪ繧｢繝ｼ&nbsp;&nbsp;" onClick="ClearInputAndCookie();"/><input name="Submit" id="searchbutton" class="searchbutton" type="submit" value="&nbsp;&nbsp;讀懃ｴ｢&nbsp;&nbsp;" /><input type="button" id="Rssearchexpand" class="searchbutton" style="display:none;" value="繧ゅ▲縺ｨ隕九ｋ"></div>
+	<div class="SearchItem" id="simplesearchbuttons"><input name="Clea
+ff8
+r" id="clearbutton" class="searchbutton" type="button" value="&nbsp;&nbsp;繧ｯ繝ｪ繧｢繝ｼ&nbsp;&nbsp;" onClick="ClearInputAndCookie();"/><input name="Submit" id="searchbutton" class="searchbutton" type="submit" value="&nbsp;&nbsp;讀懃ｴ｢&nbsp;&nbsp;" /><input type="button" id="Rssearchexpand" class="searchbutton" style="display:none;" value="繧ゅ▲縺ｨ隕九ｋ"></div>
 
   </form>
   <br />
@@ -217,9 +222,7 @@ headerLinksDropdown();
 linkreload = true;
 jQuery(document).ready(function()
     {
-    ActivateHeaderLink("https:\/\/photo.city.edogawa.tokyo.jp%2Fpages%2Fdow
-1ff8
-nload_progress.php%3Fref%3D2504");
+    ActivateHeaderLink("https:\/\/photo.city.edogawa.tokyo.jp%2Fpages%2Fdownload_progress.php%3Fref%3D2503");
 
     jQuery(document).mouseup(function(e)
         {
@@ -237,7 +240,7 @@ window.onresize=function()
     }
 </script>
 	<script type="text/javascript">
-        window.setTimeout("document.location='https://photo.city.edogawa.tokyo.jp/pages/download.php?ref=2504&size=&ext=jpg&k=&alternative=-1&usage=-1&usagecomment='",1000);
+        window.setTimeout("document.location='https://photo.city.edogawa.tokyo.jp/pages/download.php?ref=2503&size=&ext=jpg&k=&alternative=-1&usage=-1&usagecomment='",1000);
 	</script>
 	
 <div class="BasicsBox">
@@ -246,8 +249,8 @@ window.onresize=function()
 		<!--<h2>&nbsp;</h2>-->
     <h1>繝�繧ｦ繝ｳ繝ｭ繝ｼ繝我ｸｭ</h1>
     <p>繝�繧ｦ繝ｳ繝ｭ繝ｼ繝峨�縺ｾ繧ゅ↑縺城幕蟋九＠縺ｾ縺吶�� 邯壹￠縺ｦ菴懈･ｭ縺吶ｋ蝣ｴ蜷医�莉･荳九�繝ｪ繝ｳ繧ｯ繧剃ｽｿ逕ｨ縺励※縺上□縺輔＞縲�</p>
-		    <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/view.php?ref=2504&k=&search=&offset=&order_by=&sort=&archive="><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;繝ｪ繧ｽ繝ｼ繧ｹ陦ｨ遉ｺ縺ｸ謌ｻ繧�</a></p>
-    <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/search.php?ref=2504&k=&search=&offset=&order_by=&sort=&archive="><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;謌ｻ繧�</a></p>
+		    <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/view.php?ref=2503&k=&search=&offset=&order_by=&sort=&archive="><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;繝ｪ繧ｽ繝ｼ繧ｹ陦ｨ遉ｺ縺ｸ謌ｻ繧�</a></p>
+    <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/search.php?ref=2503&k=&search=&offset=&order_by=&sort=&archive="><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;謌ｻ繧�</a></p>
 
         <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/home.php?"><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;繝帙�繝�縺ｸ謌ｻ繧�</a></p>
 	    
@@ -301,7 +304,9 @@ window.onresize=function()
             </div>
             <div class="footer-contact2">
               <div>髮ｻ隧ｱ��03-5662-6168</div>
-              <div>FAX��03-3652-1109</div>
+              
+1000
+<div>FAX��03-3652-1109</div>
               <div>E-mail�嗹ebmaster(at)city.edogawa.tokyo.jp<br>窶ｻ(at)繧叩縺ｫ譖ｿ縺医※縺比ｽｿ逕ｨ縺上□縺輔＞縲�</div>
             </div>
         </div>
@@ -356,7 +361,7 @@ document.title = "豎滓虻蟾晉判蜒乗枚蠎ｫ";
 <!--CollectionDiv--></div>
 
 		<script>
-			usercollection='1198';
+			usercollection='1205';
 		var collections_popout = false;
 			</script>			<div class="ui-layout-south" ></div><script>myLayout=jQuery('body').layout({south__initHidden: true });	</script>		<!-- Responsive -->
 		<script src="/lib/js/responsive.js?css_reload_key=8.6.12117"></script>
@@ -406,7 +411,9 @@ document.title = "豎滓虻蟾晉判蜒乗枚蠎ｫ";
 			}
 
 		var responsive_show = "髫�縺�";
-		var responsive_hide;
+		var
+d5f
+ responsive_hide;
 		var responsive_newpage = true;
 
 		if(jQuery(window).width() <= 1200)
@@ -453,6 +460,4 @@ document.title = "豎滓虻蟾晉判蜒乗枚蠎ｫ";
 				{
 				toggleSimpleSearch();
 				}
-			});
-
-		jQuery("#HeaderNav2C
+			
