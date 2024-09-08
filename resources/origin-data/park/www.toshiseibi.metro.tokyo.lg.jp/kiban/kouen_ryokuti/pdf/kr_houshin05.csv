@@ -1,0 +1,341 @@
+種別,重点化を図るべき公園・緑地,所在市町,,,,,
+街区公園,小門公園,八王子市,,,,,
+街区公園,中野町公園,八王子市,,,,,
+街区公園,横川弁天池公園,八王子市,,,,,
+近隣公園,七国公園,八王子市,,,,,
+近隣公園,小田野中央公園,八王子市,,,,,
+地区公園,片倉つどいの森公園,八王子市,,,,,
+緑地,黒木開戸緑地,八王子市,,,,,
+緑地,宇津貫緑地,八王子市,,,,,
+近隣公園,砂川公園,立川市,,,,,
+総合公園,立川公園,立川市,,,,,
+緑地,川越道緑地,立川市,,,,,
+広域公園,野山北・六道山公園（総合運動公園）,武蔵村山市,,,,,
+街区公園,立野公園,東大和市,,,,,
+街区公園,立野東公園,東大和市,,,,,
+緑地,東大和狭山緑地,東大和市,,,,,
+街区公園,境南ふれあい広場公園,武蔵野市,,,,,
+街区公園,関前四丁目公園,武蔵野市,,,,,
+街区公園,境冒険遊び場公園,武蔵野市,,,,,
+総合公園,境公園,武蔵野市,,,,,
+緑地,グリーンパーク緑地,武蔵野市,,,,,
+緑地,境三丁目緑地,武蔵野市,,,,,
+街区公園,上連雀広場公園,三鷹市,,,,,
+街区公園,野崎三丁目公園,三鷹市,,,,,
+街区公園,北野公園,三鷹市,,,,,
+近隣公園,新川丸池公園,三鷹市,,,,,
+近隣公園,大沢の里公園,三鷹市,,,,,
+緑地,大沢緑地,三鷹市,,,,,
+近隣公園,紅葉丘第二公園,府中市,,,,,
+緑地,二ヶ村緑地,府中市,,,,,
+緑地,調布市入間町１丁目緑地,調布市,,,,,
+緑地,調布市若葉町３丁目第３緑地,調布市,,,,,
+街区公園,寺前第一公園,狛江市,,,,,
+街区公園,第三耕地公園,狛江市,,,,,
+近隣公園,伝馬公園,青梅市,,,,,
+特殊公園,吹上しょうぶ公園,青梅市,,,,,
+緑地,釜の淵緑地,青梅市,,,,,
+街区公園,富士見公園,昭島市,,,,,
+街区公園,光正寺公園,町田市,,,,,
+近隣公園,南大谷公園,町田市,,,,,
+地区公園,三ツ目山公園,町田市,,,,,
+地区公園,杉谷戸公園,町田市,,,,,
+地区公園,小野路公園,町田市,,,,,
+総合公園,相原中央公園,町田市,,,,,
+街区公園,小長久保公園,小金井市,,,,,
+街区公園,東光寺上第１公園,日野市,,,,,
+街区公園,日野駅北第１公園,日野市,,,,,
+街区公園,日野駅北第２公園,日野市,,,,,
+街区公園,東豊田公園,日野市,,,,,
+総合公園,七ッ塚公園,日野市,,,,,
+総合公園,北川原公園,日野市,,,,,
+緑地,日野緑地,日野市,,,,,
+緑地,万蔵院台緑地,日野市,,,,,
+街区公園,延命寺公園,小平市,,,,,
+緑地,国分寺緑地,国分寺市,,,,,
+緑地,西恋ヶ窪緑地,国分寺市,,,,,
+総合公園,北山公園,東村山市,,,,,
+街区公園,ママ下湧水公園,国立市,,,,,
+近隣公園,西公園,国立市,,,,,
+近隣公園,城山公園,国立市,,,,,
+運動公園,矢川上公園,国立市,,,,,
+近隣公園,中福生公園,福生市,,,,,
+街区公園,介山記念館公園,羽村市,,,,,
+緑地,多摩川緑地,羽村市,,,,,
+緑地,稲荷緑地,羽村市,,,,,
+緑地,加美緑地,羽村市,,,,,
+街区公園,稲荷ヶ丘公園,瑞穂町,,,,,
+街区公園,一本榎公園,瑞穂町,,,,,
+街区公園,吉方公園,稲城市,,,,,
+街区公園,矢野口公園,稲城市,,,,,
+街区公園,円覚寺公園,稲城市,,,,,
+街区公園,矢野口第１公園,稲城市,,,,,
+街区公園,矢野口第２公園,稲城市,,,,,
+街区公園,矢野口第３公園,稲城市,,,,,
+街区公園,矢野口第４公園,稲城市,,,,,
+緑地,坂浜上谷戸緑地,稲城市,,,,,
+緑恥/lib/js/jquery.ui.touch-punch.min.js"></script>
+<!--[if lte IE 9]><script src="https://photo.city.edogawa.tokyo.jp/lib/historyapi/history.min.js"></script><![endif]-->
+<script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/lib/js/jquery.tshift.min.js"></script>
+<script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/lib/js/jquery-periodical-updater.js"></script>
+
+    <script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/lib/js/contactsheet.js"></script>
+    <script>
+    contactsheet_previewimage_prefix = 'https://photo.city.edogawa.tokyo.jp/filestore';
+    </script>
+    <script type="text/javascript">
+    jQuery.noConflict();
+    </script>
+    
+<script type="text/javascript">
+	ajaxLoadingTimer=500;
+</script>
+<script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/lib/ckeditor/ckeditor.min.js"></script><script src="https://photo.city.edogawa.tokyo.jp/lib/js/ajax_collections.js?css_reload_key=8.6.12117" type="text/javascript"></script>
+
+<script type="text/javascript" src="/lib/plupload_2.1.8/plupload.full.min.js?8.6.12117"></script>
+	<link href="/lib/plupload_2.1.8/jquery.ui.plupload/css/jquery.ui.plupload.css?8.6.12117" rel="stylesheet" type="text/css" media="screen,projection,print"  />
+	<script type="text/javascript" src="/lib/plupload_2.1.8/jquery.ui.plupload/jquery.ui.plupload.min.js?8.6.12117"></script>
+<script type="text/javascript" src="/lib/plupload_2.1.8/i18n/ja.js?8.6.12117"></script>
+
+<!-- FLOT for graphs -->
+<script language="javascript" type="text/javascript" src="/lib/flot/jquery.flot.min.js"></script>
+<script language="javascript" type="text/javascript" src="/lib/flot/jquery.flot.time.min.js"></script>
+<script language="javascript" type="text/javascript" src="/lib/flot/jquery.flot.pie.min.js"></script>
+<script language="javascript" type="text/javascript" src="/lib/flot/jquery.flot.tooltip.min.js"></script>
+
+<!-- jsTree -->
+<link rel="stylesheet" href="/lib/jstree/themes/default/style.min.css">
+<script src="/lib/jstree/jstree.min.js"></script>
+<script src="/lib/js/category_tree.js?css_reload_key=8.6.12117"></script>
+
+<!-- Chosen support -->
+
+<script type="text/javascript">
+var baseurl_short="/";
+var baseurl="https://photo.city.edogawa.tokyo.jp";
+var pagename="download_progress";
+var errorpageload = "<h1></h1><p>縺薙�繝壹�繧ｸ縺ｮ隱ｭ縺ｿ霎ｼ縺ｿ荳ｭ縺ｫ繧ｨ繝ｩ繝ｼ縺檎匱逕溘＠縺ｾ縺励◆縲� 讀懃ｴ｢繧貞ｮ溯｡後＠縺ｦ縺�ｋ蝣ｴ蜷医�縲∵､懃ｴ｢繧ｯ繧ｨ繝ｪ繧堤ｵ槭ｊ霎ｼ繧薙〒縺ｿ縺ｦ縺上□縺輔＞縲� 蝠城｡後′隗｣豎ｺ縺励↑縺��ｴ蜷医�縲√す繧ｹ繝�Β邂｡逅���↓騾｣邨｡縺励※縺上□縺輔＞縲�</p>";
+var applicationname = "豎滓虻蟾晉判蜒乗枚蠎ｫ";
+var branch_limit="";
+var branch_limit_field = new Array();
+var global_cookies = "";
+var global_trash_html = '<!-- Global Trash Bin (added through CentralSpaceLoad) -->';
+    global_trash_html += '<div id="trash_bin">';
+    global_trash_html += '<span class="trash_bin_text">蜑企勁</span>';
+    global_trash_html += '</div>';
+    global_trash_html += '<div id="trash_bin_delete_dialog" style="display: none;"></div>';
+oktext="OK";
+var scrolltopElementCentral='.ui-layout-center';
+var scrolltopElementCollection='.ui-layout-south';
+var scrolltopElementModal='#modal'
+collection_bar_hide_empty=false;
+var chosenCollection='';
+</script>
+
+<script src="/lib/js/global.js?css_reload_key=8.6.12117" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+ jQuery.fn.reverse = [].reverse;
+ jQuery(document).keyup(function (e)
+  { 
+    if(jQuery("input,textarea").is(":focus"))
+    {
+       // don't listen to keyboard arrows when focused on form elements
+           }
+    else if (jQuery('#lightbox').is(':visible'))
+        {
+        // Don't listen to keyboard arrows if viewing resources in lightbox
+        }
+    else
+        {
+        var share='';
+        var modAlt=e.altKey;
+        var modShift=e.shiftKey;
+        var modCtrl=e.ctrlKey;
+        var modMeta=e.metaKey;
+        var modOn=(modAlt || modShift || modCtrl || modMeta);
+        
+         switch (e.which) 
+         {
+			 
+		                // left arrow
+            case 37: if ((jQuery('.prevLink').length > 0)) {jQuery('.prevLink').click();break;}
+              if ((jQuery('.prevPageLink').length > 0)) jQuery('.prevPageLink').click();
+              
+                                          break;
+            // right arrow
+            case 39: if ((jQuery('.nextLink').length > 0)) {jQuery('.nextLink').click();break;}
+              if ((jQuery('.nextPageLink').length > 0)) jQuery('.nextPageLink').click();
+                                          break;   
+            case 65: if (jQuery('.addToCollection').length > 0) jQuery('.addToCollection:not(.ResourcePanelIcons .addToCollection)').click();
+                     break;
+            case 82: if (jQuery('.removeFromCollection').length > 0) jQuery('.removeFromCollection:not(.CollectionSpace .removeFromCollection)').click();
+                     break;  
+            case 188: if (jQuery('.prevLink').length > 0) jQuery('.prevLink').click();
+                     break;
+            case 190: if (jQuery('.nextLink').length > 0) jQuery('.nextLink').click();
+                     break;
+            case 191: if (jQuery('.upLink').length > 0) jQuery('.upLink').click();
+                     break;
+            case 84: if (jQuery('#toggleThumbsLink').length > 0) jQuery('#toggleThumbsLink').click();
+                     break;
+            case 90: if (jQuery('.enterLink').length > 0) window.location=jQuery('.enterLink').attr("href");
+1ff8
+
+                     break;
+            case 27: ModalClose();
+                     break;
+            case 86: CentralSpaceLoad('https://photo.city.edogawa.tokyo.jp/pages/search.php?search=!collection'+document.getElementById("currentusercollection").innerHTML+'&k='+share,true);
+                     break;
+                     }
+         
+     }
+ });
+});
+</script>
+    <!-- GoogleAnalytics(GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7BE2K1V4WX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-7BE2K1V4WX', { 'debug_mode': true });
+    </script>
+    <!-- 邁｡蜊倥Ο繧ｰ隗｣譫� -->
+    <script type="text/javascript" ><!--
+    var rakulog_id ="oNpjNm0rt5zU9PAp";
+    rakulog_outbound=true;
+    rakulog_download=true;
+    rakulog_downloadList = ["pdf","zip","xls"];
+    (function() {
+    var rakulog  = document.createElement('script'); rakulog.type = 'text/javascript'; rakulog.async = true;
+    rakulog.src =   location.protocol + '//kantan-log.jp/kantanlog_async.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(rakulog, s);
+    })();
+    //--></script>
+    <noscript>
+    <p><img src="https://kantan-log.jp/_analysis.rakulog?uid=oNpjNm0rt5zU9PAp&amp;key=noscript&amp;ctime=&amp;ltime=&amp;ftime=&amp;count=auto&amp;sorder=auto&amp;interval=auto" width="1" height="1" alt="" ></p>
+    </noscript>
+        <script src="https://photo.city.edogawa.tokyo.jp/plugins/dwcomponents/lib/semantic-ui-2.3/semantic.min.js" type="text/javascript"></script>
+    <script src="https://photo.city.edogawa.tokyo.jp/plugins/dwcomponents/lib/jquery.exresize/jquery.exresize.min.js" type="text/javascript"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+        <!-- Sortablejs -->
+    <script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/plugins/dwcontribute/lib/sortablejs-1.7.0/Sortable.min.js"></script>
+
+    <!--jquery-file-upload-->
+    <script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/plugins/dwcontribute/lib/jQuery-File-Upload/js/load-image.all.min.js"></script>
+    <script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/plugins/dwcontribute/lib/jQuery-File-Upload/js/jquery.fileupload.min.js"></script>
+    <script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/plugins/dwcontribute/lib/jQuery-File-Upload/js/jquery.fileupload-jquery-ui.js"></script>
+    <script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/plugins/dwcontribute/lib/jQuery-File-Upload/js/jquery.iframe-transport.js"></script>
+    <script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/plugins/dwcontribute/lib/jQuery-File-Upload/js/jquery.fileupload-process.js"></script>
+    <script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/plugins/dwcontribute/lib/jQuery-File-Upload/js/jquery.fileupload-image.js"></script>
+    <script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/plugins/dwcontribute/lib/jQuery-File-Upload/js/jquery.fileupload-validate.js"></script>
+    <script src="/lib/lightbox/js/lightbox.min.js" type="text/javascript" ></script><link type="text/css" href="/lib/lightbox/css/lightbox.min.css?css_reload_key=8.6.12117" rel="stylesheet" />	<script>
+	function closeModalOnLightBoxEnable()
+		{
+		setTimeout(function() {
+			if(jQuery('#lightbox').is(':visible'))
+				{
+				ModalClose();
+				}
+		}, 10);
+		}
+
+	jQuery(document).ready(function()
+        {
+        lightbox.option({
+			'resizeDuration': 300,
+			'imageFadeDuration': 300,
+			'fadeDuration': 300,
+			'alwaysShowNavOnTouchDevices': true})
+        });
+	</script>
+	
+
+<!-- Structure Stylesheet -->
+<link href="https://photo.city.edogawa.tokyo.jp/css/global.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css" media="screen,projection,print" />
+<!-- Colour stylesheet -->
+<link href="https://photo.city.edogawa.tokyo.jp/css/colour.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css" media="screen,projection,print" />
+<!-- Override stylesheet -->
+<link href="https://photo.city.edogawa.tokyo.jp/css/css_override.php?k=&css_reload_key=8.6.12117" rel="stylesheet" type="text/css" media="screen,projection,print" />
+<!--- FontAwesome for icons-->
+<link rel="stylesheet" href="https://photo.city.edogawa.tokyo.jp/lib/fontawesome/css/font-awesome.min.css">
+<!-- Load specified font CSS -->
+<link id="global_font_link" href="https://photo.city.edogawa.tokyo.jp/css/fonts/WorkSans.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css" />
+
+<!--[if lte IE 7]> <link href="https://photo.city.edogawa.tokyo.jp/css/globalIE.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css"  media="screen,projection,print" /> <![endif]--><!--[if lte IE 5.6]> <link href="https://photo.city.edogawa.tokyo.jp/css/globalIE5.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css"  media="screen,projection,print" /> <![endif]-->
+
+<link href="/plugins/edogawa/css/style.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css" media="screen,projection,print" class="plugincss" />
+		<link href="/plugins/dwnotice/css/style.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css" media="screen,projection,print" class="plugincss" />
+		<link href="/plugins/dwcontribute/css/style.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css" media="screen,projection,print" class="plugincss" />
+		<link href="/plugins/dwcomponents/css/dwcomponents.min.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css"><link href="/plugins/dwphototheme/css/style.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css" media="screen,projection,print" class="plugincss" />
+		<script>jQuery('.plugincss').attr('class','plugincss0');</script>
+</head>
+<body lang="ja" class="" >
+
+<!-- Loading graphic -->
+	<div id="LoadingBox"><i aria-hidden="true" class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i></div>
+	
+
+
+<!--Global Header-->
+<div id="UICenter" class="ui-layout-center">
+
+<div id="Header" class=" HeaderMid ug-9">
+
+    <div id="HeaderResponsive">
+    			<a href="https://photo.city.edogawa.tokyo.jp/pages/home.php" onClick="return CentralSpaceLoad(this,true);" class="HeaderImgLink"><img src="https://photo.city.edogawa.tokyo.jp/filestore/system/config/linkedheaderimgsrc.png" id="HeaderImg" alt="繧ｵ繧､繝医Ο繧ｴ"></a>
+			        <div id="HeaderButtons" style="display:none;">
+            <a href="#" id="HeaderNav2Click" class="ResponsiveHeaderButton ResourcePanel ResponsiveButton">
+                <span class="rbText">繝｡繝九Η繝ｼ</span>
+                <span class="fa fa-fw fa-lg fa-bars"></span>
+            </a>
+        </div>
+            </div>
+    	<div id="HeaderNav1" class="HorizontalNav">
+
+<script>
+
+ 	var activeSeconds=30;
+
+	var message_timer = null;
+	var message_refs = new Array();
+	var message_poll_first_run = true;
+
+	function message_poll()
+	{
+		if (message_timer != null)
+		{
+			clearTimeout(message_timer);
+			message_timer = null;
+		}
+		activeSeconds-=10;
+		if(activeSeconds < 0)
+			{
+				message_timer = window.setTimeout(message_poll,10 * 1000);
+				return;
+			}
+					jQuery.ajax({
+			url: 'https://photo.city.edogawa.tokyo.jp/pages/ajax/message.php',
+			type: 'GET',
+			success: function(messages, textStatus, xhr) {
+				if(xhr.status==200 && isJson(messages) && (messages=jQuery.parseJSON(messages)) && jQuery(messages).length>0)
+					{
+					messagecount=totalcount=jQuery(messages).length;
+					actioncount=0;
+					if (typeof(messages[messagecount-1]['actioncount']) !== 'undefined') // There are actions as well as messages
+						{
+						actioncount=parseInt(messages[messagecount-1]['actioncount']);
+						messagecount=messagecount-1;
+						totalcount=actioncount+messagecount;
+						}
+					jQuery('span.MessageTotalCountPill').html(totalcount).fadeIn();
+					if (activeSeconds > 0 || message_poll_first_run)
+						{
+						for(var i=0; i < messagecount; i++)
+							{
+							var ref = messages[i]['ref'];
+							if (message_
