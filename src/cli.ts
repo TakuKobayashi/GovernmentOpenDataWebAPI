@@ -211,23 +211,32 @@ dataCommand
     const crawlerIdcrawlerKeywords = _.groupBy(crawlerKeywords, (crawlerKeyword) => crawlerKeyword.crawler_id);
 
     for (const crawlerModel of crawlerModels) {
+      const willUpdateCrawlerObj: {
+        need_manual_edit: boolean;
+        last_updated_at?: Date;
+        checksum?: string;
+        origin_file_encoder?: string;
+        origin_file_size: number;
+      } = {
+        need_manual_edit: false,
+        origin_file_size: 0,
+      }
       const willSaveFilePath: string = path.join(
         ...getSaveOriginFilePathParts(crawlerModel, crawlerIdcrawlerKeywords[crawlerModel.id], crawlerIdCrawlerCategory[crawlerModel.id]),
       );
       const response = await axios.get(crawlerModel.origin_url, { responseType: 'arraybuffer' }).catch(async (error) => {
+        willUpdateCrawlerObj.need_manual_edit = true
         await prismaClient.crawler.updateMany({
           where: {
             id: crawlerModel.id,
           },
-          data: {
-            need_manual_edit: true
-          },
+          data: willUpdateCrawlerObj,
         });
       });
       if (!response?.data) {
         continue;
       }
-      if (crawlerModel.origin_file_ext === '.csv' || crawlerModel.origin_file_ext === '.json') {
+      if (['.csv', '.json', '.txt', '.rdf', '.xml'].includes(crawlerModel.origin_file_ext)) {
         const detectedEncoding = Encoding.detect(response.data);
         let textData: string = '';
         if (detectedEncoding === 'SJIS') {
@@ -238,19 +247,21 @@ dataCommand
           textData = response.data.toString();
         }
         saveToLocalFileFromString(willSaveFilePath, textData);
+        willUpdateCrawlerObj.origin_file_encoder = detectedEncoding.toString()
       } else if (crawlerModel.origin_file_ext === '.xlsx') {
         saveToLocalFileFromBuffer(willSaveFilePath, response.data);
       } else {
         saveToLocalFileFromBuffer(willSaveFilePath, response.data);
       }
+      const stat = fs.statSync(willSaveFilePath);
+      willUpdateCrawlerObj.origin_file_size = stat.size;
+      willUpdateCrawlerObj.last_updated_at = new Date()
+      willUpdateCrawlerObj.checksum = crypto.createHash('sha512').update(response.data.buffer.toString('hex')).digest('hex')
       await prismaClient.crawler.updateMany({
         where: {
           id: crawlerModel.id,
         },
-        data: {
-          last_updated_at: new Date(),
-          checksum: crypto.createHash('sha512').update(response.data.buffer.toString('hex')).digest('hex'),
-        },
+        data: willUpdateCrawlerObj,
       });
     }
   });
@@ -319,6 +330,7 @@ dataCommand
             (placeModel) => placeModel.hashcode && !currentHashCodeSet.has(placeModel.hashcode),
           );
           await Promise.all(newPlaceModels.map((newPlaceModel) => newPlaceModel.setLocationInfo()));
+
           await prismaClient.$transaction(
             newPlaceModels.map((newPlaceModel) => {
               return prismaClient.place.create({
