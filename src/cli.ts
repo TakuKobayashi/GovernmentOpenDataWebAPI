@@ -74,13 +74,14 @@ dataCommand
     );
     loadSpreadSheetRowObject(downloadInfoFilePath, async (sheetName: string, rowObj: any) => {
       if (!alreadyExistOriginUrlSet.has(rowObj.url)) {
+        const rowUrl = new URL(rowObj.url);
         const newCrawlerObj: {
           origin_url: string;
           origin_file_ext: string;
           need_manual_edit?: boolean;
         } = {
-          origin_url: rowObj.url,
-          origin_file_ext: path.extname(rowObj.url),
+          origin_url: rowUrl.href,
+          origin_file_ext: path.extname(rowUrl.pathname),
           need_manual_edit: Boolean(rowObj.needManualEdit),
         };
         crawlerUrlCategory[newCrawlerObj.origin_url] = titleCategory[rowObj.categoryTitle];
@@ -578,12 +579,13 @@ crawlCommand
         const downloadLinkDom = resourceItemDom.querySelector('a.resource-url-analytics');
         const downloadLinkAttrs = downloadLinkDom?.attrs || {};
         if (downloadLinkAttrs.href) {
+          const downloadUrl = new URL(downloadLinkAttrs.href);
           newCrawlerObjs.push({
             origin_title: titleAttrs.title,
-            origin_url: downloadLinkAttrs.href,
-            origin_file_ext: path.extname(downloadLinkAttrs.href),
+            origin_url: downloadUrl.href,
+            origin_file_ext: path.extname(downloadUrl.pathname),
           });
-          newUrlRootId[downloadLinkAttrs.href] = crawlerRootModel.id;
+          newUrlRootId[downloadUrl.href] = crawlerRootModel.id;
         }
       }
       const newUniqCrawlerObjs = _.uniqBy(newCrawlerObjs, (newCrawlerObj) => newCrawlerObj.origin_url);
