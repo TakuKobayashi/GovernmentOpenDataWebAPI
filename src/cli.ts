@@ -249,7 +249,7 @@ dataCommand
         }
         // 100MB以上のファイルはGitに乗らないのでダウンロードしない
         if (response.data.length < 99900000) {
-          saveToLocalFileFromBuffer(willSaveFilePath, response.data);
+          saveToLocalFileFromString(willSaveFilePath, textData);
           const stat = fs.statSync(willSaveFilePath);
           willUpdateCrawlerObj.origin_file_size = stat.size;
         } else {
