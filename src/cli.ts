@@ -247,15 +247,37 @@ dataCommand
         } else {
           textData = response.data.toString();
         }
-        saveToLocalFileFromString(willSaveFilePath, textData);
+        // 100MB以上のファイルはGitに乗らないのでダウンロードしない
+        if (response.data.length < 99900000) {
+          saveToLocalFileFromBuffer(willSaveFilePath, response.data);
+          const stat = fs.statSync(willSaveFilePath);
+          willUpdateCrawlerObj.origin_file_size = stat.size;
+        } else {
+          willUpdateCrawlerObj.need_manual_edit = true;
+          willUpdateCrawlerObj.origin_file_size = response.data.length;
+        }
         willUpdateCrawlerObj.origin_file_encoder = detectedEncoding.toString();
       } else if (['.xlsx', '.xls'].includes(crawlerModel.origin_file_ext)) {
-        saveToLocalFileFromBuffer(willSaveFilePath, response.data);
+        // 100MB以上のファイルはGitに乗らないのでダウンロードしない
+        if (response.data.length < 99900000) {
+          saveToLocalFileFromBuffer(willSaveFilePath, response.data);
+          const stat = fs.statSync(willSaveFilePath);
+          willUpdateCrawlerObj.origin_file_size = stat.size;
+        } else {
+          willUpdateCrawlerObj.need_manual_edit = true;
+          willUpdateCrawlerObj.origin_file_size = response.data.length;
+        }
       } else {
-        saveToLocalFileFromBuffer(willSaveFilePath, response.data);
+        // 100MB以上のファイルはGitに乗らないのでダウンロードしない
+        if (response.data.length < 99900000) {
+          saveToLocalFileFromBuffer(willSaveFilePath, response.data);
+          const stat = fs.statSync(willSaveFilePath);
+          willUpdateCrawlerObj.origin_file_size = stat.size;
+        } else {
+          willUpdateCrawlerObj.need_manual_edit = true;
+          willUpdateCrawlerObj.origin_file_size = response.data.length;
+        }
       }
-      const stat = fs.statSync(willSaveFilePath);
-      willUpdateCrawlerObj.origin_file_size = stat.size;
       willUpdateCrawlerObj.last_updated_at = new Date();
       willUpdateCrawlerObj.checksum = crypto.createHash('sha512').update(response.data.buffer.toString('hex')).digest('hex');
       await prismaClient.crawler.updateMany({
