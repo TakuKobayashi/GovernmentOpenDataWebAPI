@@ -490,6 +490,7 @@ crawlCommand
   .command('rooturl')
   .description('')
   .action(async (options: any) => {
+    await crawlRootUrlFromDataset();
     const categoryModels = await prismaClient.category.findMany();
     const titleCategory = _.keyBy(categoryModels, (categoryModel) => categoryModel.title);
     const searchKeywordCategories: {
