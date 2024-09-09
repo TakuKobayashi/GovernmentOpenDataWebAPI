@@ -682,15 +682,18 @@ crawlCommand
             origin_url: true,
           },
         });
-        await tx.crawlerCategory.createMany({
-          data: createCrawlers.map((crawler) => {
-            return {
-              crawler_id: crawler.id,
-              crawler_type: 'Crawler',
-              category_id: rootIdCrawlerCategory[crawlerRootModel.id].category_id,
-            };
-          }),
-        });
+        if (rootIdCrawlerCategory[crawlerRootModel.id]) {
+          await tx.crawlerCategory.createMany({
+            data: createCrawlers.map((crawler) => {
+              return {
+                crawler_id: crawler.id,
+                crawler_type: 'Crawler',
+                category_id: rootIdCrawlerCategory[crawlerRootModel.id].category_id,
+              };
+            }),
+          });
+        }
+
         await tx.crawlerRootRelation.createMany({
           data: createCrawlers.map((crawler) => {
             return {
