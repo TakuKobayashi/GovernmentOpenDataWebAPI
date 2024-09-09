@@ -249,7 +249,7 @@ dataCommand
         }
         saveToLocalFileFromString(willSaveFilePath, textData);
         willUpdateCrawlerObj.origin_file_encoder = detectedEncoding.toString();
-      } else if (crawlerModel.origin_file_ext === '.xlsx') {
+      } else if (['.xlsx', '.xls'].includes(crawlerModel.origin_file_ext)) {
         saveToLocalFileFromBuffer(willSaveFilePath, response.data);
       } else {
         saveToLocalFileFromBuffer(willSaveFilePath, response.data);
@@ -311,7 +311,7 @@ dataCommand
         if (path.extname(filePath) === '.csv') {
           const readFileData = fs.readFileSync(filePath, 'utf8');
           workbook = XLSX.read(readFileData, { type: 'string' });
-        } else if (path.extname(filePath) === '.xlsx') {
+        } else if (['.xlsx', '.xls'].includes(path.extname(filePath))) {
           workbook = XLSX.readFile(filePath);
         }
         if (workbook) {
