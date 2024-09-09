@@ -638,7 +638,10 @@ crawlCommand
         origin_title: string;
         origin_file_ext: string;
       }[] = [];
-      const response = await axios.get(crawlerRootModel.url);
+      const response = await axios.get(crawlerRootModel.url).catch((error) => console.log(error));
+      if (!response?.data) {
+        continue;
+      }
       const root = nodeHtmlParser.parse(response.data.toString());
       const resourceItemDoms = root.querySelectorAll('li.resource-item');
       for (const resourceItemDom of resourceItemDoms) {
@@ -683,25 +686,58 @@ crawlCommand
           },
         });
         if (rootIdCrawlerCategory[crawlerRootModel.id]) {
+          const currentCrawlerCategories = await tx.crawlerCategory.findMany({
+            where: {
+              crawler_id: {
+                in: createCrawlers.map((crawler) => crawler.id),
+              },
+              crawler_type: 'Crawler',
+              category_id: rootIdCrawlerCategory[crawlerRootModel.id].category_id,
+            },
+          });
+          const currentCrawlerIdCategoryId: { [crawlerId: number]: number } = {};
+          for (const currentCrawlerCategory of currentCrawlerCategories) {
+            currentCrawlerIdCategoryId[currentCrawlerCategory.crawler_id] = currentCrawlerCategory.category_id;
+          }
           await tx.crawlerCategory.createMany({
-            data: createCrawlers.map((crawler) => {
-              return {
-                crawler_id: crawler.id,
-                crawler_type: 'Crawler',
-                category_id: rootIdCrawlerCategory[crawlerRootModel.id].category_id,
-              };
-            }),
+            data: createCrawlers
+              .filter((createCrawler) => {
+                const categoryId = currentCrawlerIdCategoryId[createCrawler.id];
+                return !(categoryId && categoryId == rootIdCrawlerCategory[crawlerRootModel.id].category_id);
+              })
+              .map((crawler) => {
+                return {
+                  crawler_id: crawler.id,
+                  crawler_type: 'Crawler',
+                  category_id: rootIdCrawlerCategory[crawlerRootModel.id].category_id,
+                };
+              }),
           });
         }
 
+        const currentCrawlerRootRelations = await tx.crawlerRootRelation.findMany({
+          where: {
+            to_url: {
+              in: createCrawlers.map((crawler) => crawler.origin_url),
+            },
+            to_crawler_type: 'Crawler',
+          },
+        });
         await tx.crawlerRootRelation.createMany({
-          data: createCrawlers.map((crawler) => {
-            return {
-              to_url: crawler.origin_url,
-              to_crawler_type: 'Crawler',
-              from_crawler_root_id: newUrlRootId[crawler.origin_url],
-            };
-          }),
+          data: createCrawlers
+            .filter((crawler) => {
+              return currentCrawlerRootRelations.every(
+                (rootRelation) =>
+                  rootRelation.to_url !== crawler.origin_url && rootRelation.from_crawler_root_id !== newUrlRootId[crawler.origin_url],
+              );
+            })
+            .map((crawler) => {
+              return {
+                to_url: crawler.origin_url,
+                to_crawler_type: 'Crawler',
+                from_crawler_root_id: newUrlRootId[crawler.origin_url],
+              };
+            }),
         });
         await tx.crawlerRoot.updateMany({
           where: {
