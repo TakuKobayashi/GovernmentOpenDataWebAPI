@@ -492,80 +492,125 @@ crawlCommand
   .action(async (options: any) => {
     const categoryModels = await prismaClient.category.findMany();
     const titleCategory = _.keyBy(categoryModels, (categoryModel) => categoryModel.title);
-    const searchKeywordCategories: { keyword: string; categoryTitle: string }[] = [];
+    const searchKeywordCategories: {
+      keyword: string;
+      category: {
+        id: number;
+        title: string;
+        description: string | null;
+      };
+    }[] = [];
     const searchKeywordFilePath = path.join('resources', 'master-data', 'search-keyword.csv');
     loadSpreadSheetRowObject(searchKeywordFilePath, (sheetName: string, rowObj: any) => {
-      searchKeywordCategories.push({ keyword: rowObj.keyword, categoryTitle: rowObj.categoryTitle });
+      searchKeywordCategories.push({ keyword: rowObj.keyword, category: titleCategory[rowObj.categoryTitle] });
     });
     for (const keywordCategory of searchKeywordCategories) {
-      const searchUrl = new URL('https://catalog.data.metro.tokyo.lg.jp/dataset');
-      let pageNumber = 1;
-      while (true) {
-        const rootUrlCategory: { [url: string]: any } = {};
-        const searchParams = new URLSearchParams({ q: keywordCategory.keyword, page: pageNumber.toString() });
-        searchUrl.search = searchParams.toString();
-        const response = await axios.get(searchUrl.toString());
-        const root = nodeHtmlParser.parse(response.data.toString());
-        const itemDoms = root.querySelectorAll('.dataset-item');
-        if (itemDoms.length <= 0) {
-          break;
+      await crawlRootUrlFromDataset(keywordCategory);
+    }
+  });
+
+async function crawlRootUrlFromDataset(
+  keywordCategory: Partial<{
+    keyword: string;
+    category: {
+      id: number;
+      title: string;
+      description: string | null;
+    };
+  }> = {},
+) {
+  const searchUrl = new URL('https://catalog.data.metro.tokyo.lg.jp/dataset');
+  let pageNumber = 1;
+  while (true) {
+    const rootUrlSet: Set<string> = new Set<string>();
+    const rootUrlCategory: { [url: string]: any } = {};
+    const searchParams = new URLSearchParams({ page: pageNumber.toString() });
+    if (keywordCategory.keyword) {
+      searchParams.append('q', keywordCategory.keyword);
+    }
+    searchUrl.search = searchParams.toString();
+    const response = await axios.get(searchUrl.toString());
+    const root = nodeHtmlParser.parse(response.data.toString());
+    const itemDoms = root.querySelectorAll('.dataset-item');
+    if (itemDoms.length <= 0) {
+      break;
+    }
+    for (const itemDom of itemDoms) {
+      const datasetContents = itemDom.querySelectorAll('.dataset-content');
+      for (const datasetContentItemDom of datasetContents) {
+        const contentAtagDom = datasetContentItemDom.querySelector('a');
+        const aTagAttrs = contentAtagDom?.attrs || {};
+        const downloadRootUrl = new URL(searchUrl);
+        downloadRootUrl.pathname = aTagAttrs.href || '/';
+        downloadRootUrl.search = '';
+        rootUrlSet.add(downloadRootUrl.href);
+        if (keywordCategory.category) {
+          rootUrlCategory[downloadRootUrl.href] = keywordCategory.category;
         }
-        for (const itemDom of itemDoms) {
-          const datasetContents = itemDom.querySelectorAll('.dataset-content');
-          for (const datasetContentItemDom of datasetContents) {
-            const contentAtagDom = datasetContentItemDom.querySelector('a');
-            const aTagAttrs = contentAtagDom?.attrs || {};
-            const downloadRootUrl = new URL(searchUrl);
-            downloadRootUrl.pathname = aTagAttrs.href || '/';
-            downloadRootUrl.search = '';
-            rootUrlCategory[downloadRootUrl.href] = titleCategory[keywordCategory.categoryTitle];
-          }
-        }
-        const currentRoots = await prismaClient.crawlerRoot.findMany({
+      }
+    }
+    const currentRoots = await prismaClient.crawlerRoot.findMany({
+      where: {
+        url: {
+          in: Array.from(rootUrlSet),
+        },
+      },
+      select: {
+        url: true,
+      },
+    });
+    for (const currentRoot of currentRoots) {
+      rootUrlSet.delete(currentRoot.url);
+    }
+    await prismaClient.$transaction(async (tx) => {
+      await tx.crawlerRoot.createMany({
+        data: Array.from(rootUrlSet).map((newUrl) => {
+          return { url: newUrl };
+        }),
+      });
+      if (keywordCategory.category) {
+        const currentCrawlerRoots = await tx.crawlerRoot.findMany({
           where: {
             url: {
               in: Object.keys(rootUrlCategory),
             },
           },
           select: {
+            id: true,
             url: true,
           },
         });
-        for (const currentRoot of currentRoots) {
-          delete rootUrlCategory[currentRoot.url];
-        }
-        await prismaClient.$transaction(async (tx) => {
-          await tx.crawlerRoot.createMany({
-            data: Object.keys(rootUrlCategory).map((newUrl) => {
-              return { url: newUrl };
-            }),
-          });
-          const cratedCrawlerRoots = await tx.crawlerRoot.findMany({
-            where: {
-              url: {
-                in: Object.keys(rootUrlCategory),
-              },
+        const currentCrawlerCategories = await tx.crawlerCategory.findMany({
+          where: {
+            crawler_id: {
+              in: currentCrawlerRoots.map((currentCrawlerRoot) => currentCrawlerRoot.id),
             },
-            select: {
-              id: true,
-              url: true,
-            },
-          });
-          await tx.crawlerCategory.createMany({
-            data: cratedCrawlerRoots.map((crawlerRoot) => {
+            crawler_type: 'CrawlerRoot',
+          },
+          select: {
+            crawler_id: true,
+          },
+        });
+        const currentRootCrawlerIdSet = new Set(
+          currentCrawlerCategories.map((currentCrawlerCategory) => currentCrawlerCategory.crawler_id),
+        );
+        await tx.crawlerCategory.createMany({
+          data: currentCrawlerRoots
+            .filter((currentCrawlerRoot) => !currentRootCrawlerIdSet.has(currentCrawlerRoot.id))
+            .map((crawlerRoot) => {
               return {
                 crawler_id: crawlerRoot.id,
                 crawler_type: 'CrawlerRoot',
                 category_id: rootUrlCategory[crawlerRoot.url].id,
               };
             }),
-          });
         });
-        pageNumber = pageNumber + 1;
-        await sleep(1000);
       }
-    }
-  });
+    });
+    pageNumber = pageNumber + 1;
+    await sleep(1000);
+  }
+}
 
 crawlCommand
   .command('master-file')
