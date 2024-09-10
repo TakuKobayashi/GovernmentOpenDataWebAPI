@@ -64,14 +64,12 @@ dataCommand
       origin_file_ext: string;
       need_manual_edit?: boolean;
     }[] = [];
-    const alreadyUrlExistCrawlers = await prismaClient.crawler.findMany({
-      select: {
-        origin_url: true,
-      },
+    const alreadyExistOriginUrlSet: Set<string> = new Set();
+    await crawlerFindInBatches({}, 1000, async (crawlers) => {
+      for (const crawler of crawlers) {
+        alreadyExistOriginUrlSet.add(crawler.origin_url);
+      }
     });
-    const alreadyExistOriginUrlSet: Set<string> = new Set(
-      alreadyUrlExistCrawlers.map((alreadyUrlExistCrawler) => alreadyUrlExistCrawler.origin_url),
-    );
     loadSpreadSheetRowObject(downloadInfoFilePath, async (sheetName: string, rowObj: any) => {
       if (!alreadyExistOriginUrlSet.has(rowObj.url)) {
         const rowUrl = new URL(rowObj.url);
@@ -90,46 +88,48 @@ dataCommand
         newCrawlerObjs.push(newCrawlerObj);
       }
     });
-    const currentCrawlers = await prismaClient.crawler.findMany({
-      where: {
-        origin_url: {
-          in: newCrawlerObjs.map((newCrawlerObj) => newCrawlerObj.origin_url),
-        },
-      },
-      select: {
-        origin_url: true,
-      },
-    });
-    const currentCrawlerSet = new Set(currentCrawlers.map((currentCrawler) => currentCrawler.origin_url));
-    const willCreateCrawlerObjs = newCrawlerObjs.filter((newCrawlerObj) => !currentCrawlerSet.has(newCrawlerObj.origin_url));
-    await prismaClient.$transaction(async (tx) => {
-      await tx.crawler.createMany({ data: willCreateCrawlerObjs });
-      const createCrawlerModels = await tx.crawler.findMany({
+    if (newCrawlerObjs.length > 0) {
+      const currentCrawlers = await prismaClient.crawler.findMany({
         where: {
           origin_url: {
-            in: willCreateCrawlerObjs.map((willCreateCrawlerObj) => willCreateCrawlerObj.origin_url),
+            in: newCrawlerObjs.map((newCrawlerObj) => newCrawlerObj.origin_url),
           },
         },
         select: {
-          id: true,
           origin_url: true,
         },
       });
-      const existCategoryCrawlerModels = createCrawlerModels.filter((crawler) => {
-        return crawlerUrlCategory[crawler.origin_url];
-      });
-      if (existCategoryCrawlerModels.length > 0) {
-        await tx.crawlerCategory.createMany({
-          data: existCategoryCrawlerModels.map((crawler) => {
-            return {
-              crawler_id: crawler.id,
-              crawler_type: 'Crawler',
-              category_id: crawlerUrlCategory[crawler.origin_url].id,
-            };
-          }),
+      const currentCrawlerSet = new Set(currentCrawlers.map((currentCrawler) => currentCrawler.origin_url));
+      const willCreateCrawlerObjs = newCrawlerObjs.filter((newCrawlerObj) => !currentCrawlerSet.has(newCrawlerObj.origin_url));
+      await prismaClient.$transaction(async (tx) => {
+        await tx.crawler.createMany({ data: willCreateCrawlerObjs });
+        const createCrawlerModels = await tx.crawler.findMany({
+          where: {
+            origin_url: {
+              in: willCreateCrawlerObjs.map((willCreateCrawlerObj) => willCreateCrawlerObj.origin_url),
+            },
+          },
+          select: {
+            id: true,
+            origin_url: true,
+          },
         });
-      }
-    });
+        const existCategoryCrawlerModels = createCrawlerModels.filter((crawler) => {
+          return crawlerUrlCategory[crawler.origin_url];
+        });
+        if (existCategoryCrawlerModels.length > 0) {
+          await tx.crawlerCategory.createMany({
+            data: existCategoryCrawlerModels.map((crawler) => {
+              return {
+                crawler_id: crawler.id,
+                crawler_type: 'Crawler',
+                category_id: crawlerUrlCategory[crawler.origin_url].id,
+              };
+            }),
+          });
+        }
+      });
+    }
 
     const currentCrawlerRootModels = await prismaClient.crawlerRoot.findMany({
       select: {
@@ -462,7 +462,12 @@ dataCommand
         const categoryTitle = crawlerCategory?.category?.title || '';
         downloadFileInfoCsvStream.write('\n');
         downloadFileInfoCsvStream.write(
-          [crawlerModel.origin_url, categoryTitle, crawlerModel.origin_title, Number(crawlerModel.need_manual_edit)].join(','),
+          [
+            crawlerModel.origin_url,
+            categoryTitle,
+            (crawlerModel.origin_title || '').replace(/\n/g, ''),
+            Number(crawlerModel.need_manual_edit),
+          ].join(','),
         );
       }
     });
