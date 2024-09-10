@@ -453,11 +453,10 @@ dataCommand
       const crawlerIdCrawlerCategory = _.keyBy(crawlerCategories, (crawlerCategory) => crawlerCategory.crawler_id);
       for (const crawlerModel of crawlerModels) {
         const crawlerCategory = crawlerIdCrawlerCategory[crawlerModel.id];
+        const categoryTitle = crawlerCategory?.category?.title || '';
         downloadFileInfoCsvStream.write('\n');
         downloadFileInfoCsvStream.write(
-          [crawlerModel.origin_url, crawlerCategory.category.title, crawlerModel.origin_title, Number(crawlerModel.need_manual_edit)].join(
-            ',',
-          ),
+          [crawlerModel.origin_url, categoryTitle, crawlerModel.origin_title, Number(crawlerModel.need_manual_edit)].join(','),
         );
       }
     });
@@ -481,8 +480,9 @@ dataCommand
     downloadRootInfoCsvStream.write(['url', 'categoryTitle'].join(','));
     for (const crawlerRootModel of crawlerRootModels) {
       const crawlerCategory = crawlerRootIdCrawlerCategory[crawlerRootModel.id];
+      const categoryTitle = crawlerCategory?.category?.title || '';
       downloadRootInfoCsvStream.write('\n');
-      downloadRootInfoCsvStream.write([crawlerRootModel.url, crawlerCategory.category.title].join(','));
+      downloadRootInfoCsvStream.write([crawlerRootModel.url, categoryTitle].join(','));
     }
     downloadRootInfoCsvStream.end();
   });
