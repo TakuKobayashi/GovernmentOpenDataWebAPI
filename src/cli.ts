@@ -348,94 +348,193 @@ dataCommand
   .command('import:origin')
   .description('')
   .action(async (options: any) => {
-    const crawlerModels = await prismaClient.crawler.findMany({
-      where: {
+    const crawlerFilePathSet: Set<string> = new Set();
+    await crawlerFindInBatches(
+      {
         checksum: { not: null },
         last_updated_at: { not: null },
-      },
-    });
-    const crawlerCategories = await prismaClient.crawlerCategory.findMany({
-      where: {
-        crawler_id: {
-          in: crawlerModels.map((crawlerModel) => crawlerModel.id),
-        },
-        crawler_type: 'Crawler',
-      },
-      include: {
-        category: true,
-      },
-    });
-    const crawlerIdCrawlerCategory = _.keyBy(crawlerCategories, (crawlerCategory) => crawlerCategory.crawler_id);
-
-    const crawlerKeywords = await prismaClient.crawlerKeyword.findMany({
-      where: {
-        crawler_id: {
-          in: crawlerModels.map((crawlerModel) => crawlerModel.id),
+        origin_file_ext: {
+          in: ['.xlsx', '.xls'],
         },
       },
-      include: {
-        keyword: true,
-      },
-    });
-    const crawlerIdcrawlerKeywords = _.groupBy(crawlerKeywords, (crawlerKeyword) => crawlerKeyword.crawler_id);
-    for (const crawlerModel of crawlerModels) {
-      const crawlerCategory = crawlerIdCrawlerCategory[crawlerModel.id];
-      const filePathes = fg.sync(
-        getSaveOriginFilePathParts(crawlerModel, crawlerIdcrawlerKeywords[crawlerModel.id], crawlerCategory).join('/'),
-      );
-      for (const filePath of filePathes) {
-        let workbook: WorkBook | undefined;
-        if (path.extname(filePath) === '.csv') {
-          const readFileData = fs.readFileSync(filePath, 'utf8');
-          workbook = XLSX.read(readFileData, { type: 'string' });
-        } else if (['.xlsx', '.xls'].includes(path.extname(filePath))) {
-          workbook = XLSX.readFile(filePath);
+      1000,
+      async (crawlerModels) => {
+        for (const crawlerModel of crawlerModels) {
+          const originUrl = new URL(crawlerModel.origin_url);
+          crawlerFilePathSet.add(originUrl.pathname);
         }
-        if (workbook) {
-          const buildPlaceModels = buildPlacesDataFromWorkbook(workbook);
-          const currentPlaceModels = await prismaClient.place.findMany({
-            where: {
-              hashcode: {
-                in: _.compact(buildPlaceModels.map((placeModel) => placeModel.hashcode)),
-              },
-            },
-            select: {
-              hashcode: true,
-            },
-          });
-          const currentHashCodeSet: Set<string> = new Set(currentPlaceModels.map((currentPlaceModel) => currentPlaceModel.hashcode));
-          const newPlaceModels = buildPlaceModels.filter(
-            (placeModel) => placeModel.hashcode && !currentHashCodeSet.has(placeModel.hashcode),
-          );
-          await Promise.all(newPlaceModels.map((newPlaceModel) => newPlaceModel.setLocationInfo()));
+        await importOriginRoutine(crawlerModels);
+      },
+    );
+    await crawlerFindInBatches(
+      {
+        checksum: { not: null },
+        last_updated_at: { not: null },
+        origin_file_ext: {
+          in: ['.csv'],
+        },
+      },
+      1000,
+      async (crawlerModels) => {
+        const csvCrawlerModels = crawlerModels.filter((crawlerModel) => {
+          const originUrl = new URL(crawlerModel.origin_url);
+          return !crawlerFilePathSet.has(originUrl.pathname);
+        });
+        await importOriginRoutine(csvCrawlerModels);
+      },
+    );
+  });
 
-          await prismaClient.$transaction(
-            newPlaceModels.map((newPlaceModel) => {
-              return prismaClient.place.create({
-                data: {
-                  name: newPlaceModel.name,
-                  hashcode: newPlaceModel.hashcode,
-                  province: newPlaceModel.province,
-                  city: newPlaceModel.city,
-                  address: newPlaceModel.address,
-                  lat: newPlaceModel.lat,
-                  lon: newPlaceModel.lon,
-                  geohash: newPlaceModel.geohash,
-                  place_categories: {
-                    create: {
-                      source_type: 'Place',
-                      extra_info: newPlaceModel.getStashExtraInfo(),
-                      category_id: crawlerCategory.category_id,
-                    },
-                  },
-                },
-              });
-            }),
-          );
+async function importOriginRoutine(
+  crawlerModels: {
+    id: number;
+    origin_url: string;
+    origin_file_ext: string;
+    origin_title: string | null;
+    origin_file_size: bigint;
+    origin_file_encoder: string | null;
+    checksum: string | null;
+    need_manual_edit: boolean;
+    last_updated_at: Date | null;
+  }[],
+) {
+  const crawlerCategories = await prismaClient.crawlerCategory.findMany({
+    where: {
+      crawler_id: {
+        in: crawlerModels.map((crawlerModel) => crawlerModel.id),
+      },
+      crawler_type: 'Crawler',
+    },
+    include: {
+      category: true,
+    },
+  });
+  const crawlerIdCrawlerCategory = _.keyBy(crawlerCategories, (crawlerCategory) => crawlerCategory.crawler_id);
+
+  const crawlerKeywords = await prismaClient.crawlerKeyword.findMany({
+    where: {
+      crawler_id: {
+        in: crawlerModels.map((crawlerModel) => crawlerModel.id),
+      },
+    },
+    include: {
+      keyword: true,
+    },
+  });
+  const crawlerIdcrawlerKeywords = _.groupBy(crawlerKeywords, (crawlerKeyword) => crawlerKeyword.crawler_id);
+  for (const crawlerModel of crawlerModels) {
+    const crawlerCategory = crawlerIdCrawlerCategory[crawlerModel.id];
+    const filePathes = fg.sync(
+      getSaveOriginFilePathParts(crawlerModel, crawlerIdcrawlerKeywords[crawlerModel.id], crawlerCategory).join('/'),
+    );
+    for (const filePath of filePathes) {
+      let workbook: WorkBook | undefined;
+      if (path.extname(filePath) === '.csv') {
+        const readFileData = fs.readFileSync(filePath, 'utf8');
+        try {
+          workbook = XLSX.read(readFileData, { type: 'string' });
+        } catch (error) {
+          console.error({
+            url: crawlerModel.origin_url,
+            filePath: filePath,
+            error: error,
+          });
+          continue;
+        }
+      } else if (['.xlsx', '.xls'].includes(path.extname(filePath))) {
+        try {
+          workbook = XLSX.readFile(filePath);
+        } catch (error) {
+          console.error({
+            url: crawlerModel.origin_url,
+            filePath: filePath,
+            error: error,
+          });
+          continue;
         }
       }
+      if (workbook) {
+        const buildPlaceModels = buildPlacesDataFromWorkbook(workbook);
+        const hashcodes = _.compact(buildPlaceModels.map((placeModel) => placeModel.hashcode));
+        if (hashcodes.length <= 0) {
+          continue;
+        }
+        const currentPlaceModels = await prismaClient.place.findMany({
+          where: {
+            hashcode: {
+              in: hashcodes,
+            },
+          },
+          select: {
+            hashcode: true,
+          },
+        });
+        const currentHashCodeSet: Set<string> = new Set(currentPlaceModels.map((currentPlaceModel) => currentPlaceModel.hashcode));
+        const newPlaceModels = buildPlaceModels.filter((placeModel) => placeModel.hashcode && !currentHashCodeSet.has(placeModel.hashcode));
+        await Promise.all(newPlaceModels.map((newPlaceModel) => newPlaceModel.setLocationInfo()));
+
+        await prismaClient.$transaction(async (tx) => {
+          await tx.place.createMany({
+            data: newPlaceModels.map((newPlaceModel) => {
+              return {
+                name: newPlaceModel.name,
+                hashcode: newPlaceModel.hashcode,
+                province: newPlaceModel.province,
+                city: newPlaceModel.city,
+                address: newPlaceModel.address,
+                lat: newPlaceModel.lat,
+                lon: newPlaceModel.lon,
+                geohash: newPlaceModel.geohash,
+              };
+            }),
+          });
+          if (crawlerCategory?.category_id) {
+            const createdPlaces = await tx.place.findMany({
+              where: {
+                hashcode: {
+                  in: newPlaceModels.map((newPlaceModel) => newPlaceModel.hashcode),
+                },
+              },
+            });
+            const currentPlaceCategories = await tx.dataCategory.findMany({
+              where: {
+                source_type: 'Place',
+                source_id: {
+                  in: createdPlaces.map((createdPlace) => createdPlace.id),
+                },
+                category_id: crawlerCategory.category_id,
+              },
+              select: {
+                source_id: true,
+              },
+            });
+            const currentPlaceIdSet = new Set(currentPlaceCategories.map((currentPlaceCategory) => currentPlaceCategory.source_id));
+            const willCreateDataCategories: {
+              source_id: number;
+              source_type: 'Place';
+              extra_info: { [key: string]: any };
+              category_id: number;
+            }[] = [];
+            for (const newPlace of newPlaceModels) {
+              const createdPlace = createdPlaces.find((createdPlace) => createdPlace.hashcode === newPlace.hashcode);
+              if (createdPlace && !currentPlaceIdSet.has(createdPlace.id)) {
+                willCreateDataCategories.push({
+                  source_id: createdPlace.id,
+                  source_type: 'Place',
+                  extra_info: newPlace.getStashExtraInfo(),
+                  category_id: crawlerCategory.category_id,
+                });
+              }
+            }
+            await tx.dataCategory.createMany({
+              data: willCreateDataCategories,
+            });
+          }
+        });
+      }
     }
-  });
+  }
+}
 
 dataCommand
   .command('export:master')
