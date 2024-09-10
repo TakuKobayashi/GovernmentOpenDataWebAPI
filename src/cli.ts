@@ -176,6 +176,16 @@ dataCommand
   });
 
 async function crawlerFindInBatches(
+  filter: Partial<{
+    origin_url: string;
+    origin_file_ext: string;
+    origin_title: string | null;
+    origin_file_size: bigint;
+    origin_file_encoder: string | null;
+    checksum: string | null;
+    need_manual_edit: boolean;
+    last_updated_at: Date | null;
+  }>,
   batchSize: number = 1000,
   inBatches: (
     models: {
@@ -195,9 +205,7 @@ async function crawlerFindInBatches(
     id: {
       gt: 0,
     },
-    need_manual_edit: false,
-    checksum: null,
-    last_updated_at: null,
+    ...filter,
   };
   while (true) {
     const crawlerModels = await prismaClient.crawler.findMany({
@@ -225,7 +233,7 @@ dataCommand
   .command('download')
   .description('')
   .action(async (options: any) => {
-    await crawlerFindInBatches(1000, async (crawlerModels) => {
+    await crawlerFindInBatches({ need_manual_edit: false, checksum: null, last_updated_at: null }, 1000, async (crawlerModels) => {
       const crawlerCategories = await prismaClient.crawlerCategory.findMany({
         where: {
           crawler_id: {
@@ -428,30 +436,31 @@ dataCommand
   .description('')
   .action(async (options: any) => {
     const downloadInfoFilePath = path.join('resources', 'master-data', 'download-file-info.csv');
-    const crawlerModels = await prismaClient.crawler.findMany();
-    const crawlerCategories = await prismaClient.crawlerCategory.findMany({
-      where: {
-        crawler_id: {
-          in: crawlerModels.map((crawlerModel) => crawlerModel.id),
-        },
-        crawler_type: 'Crawler',
-      },
-      include: {
-        category: true,
-      },
-    });
-    const crawlerIdCrawlerCategory = _.keyBy(crawlerCategories, (crawlerCategory) => crawlerCategory.crawler_id);
     const downloadFileInfoCsvStream = fs.createWriteStream(downloadInfoFilePath);
     downloadFileInfoCsvStream.write(['url', 'categoryTitle', 'title', 'needManualEdit'].join(','));
-    for (const crawlerModel of crawlerModels) {
-      const crawlerCategory = crawlerIdCrawlerCategory[crawlerModel.id];
-      downloadFileInfoCsvStream.write('\n');
-      downloadFileInfoCsvStream.write(
-        [crawlerModel.origin_url, crawlerCategory.category.title, crawlerModel.origin_title, Number(crawlerModel.need_manual_edit)].join(
-          ',',
-        ),
-      );
-    }
+    await crawlerFindInBatches({}, 1000, async (crawlerModels) => {
+      const crawlerCategories = await prismaClient.crawlerCategory.findMany({
+        where: {
+          crawler_id: {
+            in: crawlerModels.map((crawlerModel) => crawlerModel.id),
+          },
+          crawler_type: 'Crawler',
+        },
+        include: {
+          category: true,
+        },
+      });
+      const crawlerIdCrawlerCategory = _.keyBy(crawlerCategories, (crawlerCategory) => crawlerCategory.crawler_id);
+      for (const crawlerModel of crawlerModels) {
+        const crawlerCategory = crawlerIdCrawlerCategory[crawlerModel.id];
+        downloadFileInfoCsvStream.write('\n');
+        downloadFileInfoCsvStream.write(
+          [crawlerModel.origin_url, crawlerCategory.category.title, crawlerModel.origin_title, Number(crawlerModel.need_manual_edit)].join(
+            ',',
+          ),
+        );
+      }
+    });
     downloadFileInfoCsvStream.end();
 
     const crawlerRootModels = await prismaClient.crawlerRoot.findMany();
