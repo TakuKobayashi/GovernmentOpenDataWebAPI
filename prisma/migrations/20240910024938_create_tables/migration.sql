@@ -11,14 +11,14 @@ CREATE TABLE `categories` (
 -- CreateTable
 CREATE TABLE `places` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
-    `hashcode` VARCHAR(191) NOT NULL,
-    `name` VARCHAR(191) NOT NULL,
+    `hashcode` VARCHAR(255) NOT NULL,
+    `name` VARCHAR(255) NOT NULL,
     `province` VARCHAR(191) NULL,
     `city` VARCHAR(191) NULL,
-    `address` VARCHAR(191) NULL,
+    `address` VARCHAR(255) NULL,
     `lat` DOUBLE NULL,
     `lon` DOUBLE NULL,
-    `geohash` VARCHAR(191) NULL,
+    `geohash` VARCHAR(255) NULL,
 
     UNIQUE INDEX `places_hashcode_key`(`hashcode`),
     INDEX `places_geohash_idx`(`geohash`),
@@ -43,7 +43,7 @@ CREATE TABLE `crawlers` (
     `origin_url` VARCHAR(255) NOT NULL,
     `origin_file_ext` VARCHAR(191) NOT NULL DEFAULT '.html',
     `origin_title` VARCHAR(255) NULL,
-    `checksum` VARCHAR(191) NULL,
+    `checksum` VARCHAR(255) NULL,
     `need_manual_edit` BOOLEAN NOT NULL DEFAULT false,
     `last_updated_at` DATETIME(3) NULL,
     `origin_file_encoder` VARCHAR(191) NULL,
@@ -80,7 +80,7 @@ CREATE TABLE `crawler_categories` (
 -- CreateTable
 CREATE TABLE `crawler_roots` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
-    `url` VARCHAR(191) NOT NULL,
+    `url` VARCHAR(255) NOT NULL,
     `last_updated_at` DATETIME(3) NULL,
 
     UNIQUE INDEX `crawler_roots_url_key`(`url`),
@@ -90,7 +90,7 @@ CREATE TABLE `crawler_roots` (
 -- CreateTable
 CREATE TABLE `crawler_root_relations` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
-    `to_url` VARCHAR(191) NOT NULL,
+    `to_url` VARCHAR(255) NOT NULL,
     `to_crawler_type` ENUM('CrawlerRoot', 'Crawler') NOT NULL,
     `from_crawler_root_id` INTEGER NOT NULL,
 
@@ -114,7 +114,7 @@ CREATE TABLE `crawler_keywords` (
 -- CreateTable
 CREATE TABLE `keywords` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
-    `word` VARCHAR(191) NOT NULL,
+    `word` VARCHAR(255) NOT NULL,
     `appear_count` INTEGER NOT NULL DEFAULT 0,
 
     UNIQUE INDEX `keywords_word_key`(`word`),
