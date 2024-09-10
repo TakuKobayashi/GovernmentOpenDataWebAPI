@@ -175,118 +175,154 @@ dataCommand
     });
   });
 
+async function crawlerFindInBatches(
+  batchSize: number = 1000,
+  inBatches: (
+    models: {
+      id: number;
+      origin_url: string;
+      origin_file_ext: string;
+      origin_title: string | null;
+      origin_file_size: bigint;
+      origin_file_encoder: string | null;
+      checksum: string | null;
+      need_manual_edit: boolean;
+      last_updated_at: Date | null;
+    }[],
+  ) => Promise<void>,
+) {
+  let counter = 0;
+  const filterObj = {
+    need_manual_edit: false,
+    checksum: null,
+    last_updated_at: null,
+  };
+  const modelCount = await prismaClient.crawler.count({
+    where: filterObj,
+  });
+  while (counter < modelCount) {
+    const crawlerModels = await prismaClient.crawler.findMany({
+      where: filterObj,
+      take: batchSize,
+      skip: counter,
+      orderBy: [
+        {
+          id: 'desc',
+        },
+      ],
+    });
+    counter = counter + batchSize;
+    await inBatches(crawlerModels);
+  }
+}
+
 dataCommand
   .command('download')
   .description('')
   .action(async (options: any) => {
-    const crawlerModels = await prismaClient.crawler.findMany({
-      where: {
-        need_manual_edit: false,
-        checksum: null,
-        last_updated_at: null,
-      },
-    });
-    const crawlerCategories = await prismaClient.crawlerCategory.findMany({
-      where: {
-        crawler_id: {
-          in: crawlerModels.map((crawlerModel) => crawlerModel.id),
+    await crawlerFindInBatches(1000, async (crawlerModels) => {
+      const crawlerCategories = await prismaClient.crawlerCategory.findMany({
+        where: {
+          crawler_id: {
+            in: crawlerModels.map((crawlerModel) => crawlerModel.id),
+          },
+          crawler_type: 'Crawler',
         },
-        crawler_type: 'Crawler',
-      },
-      include: {
-        category: true,
-      },
-    });
-    const crawlerIdCrawlerCategory = _.keyBy(crawlerCategories, (crawlerCategory) => crawlerCategory.crawler_id);
-
-    const crawlerKeywords = await prismaClient.crawlerKeyword.findMany({
-      where: {
-        crawler_id: {
-          in: crawlerModels.map((crawlerModel) => crawlerModel.id),
+        include: {
+          category: true,
         },
-      },
-      include: {
-        keyword: true,
-      },
-    });
-    const crawlerIdcrawlerKeywords = _.groupBy(crawlerKeywords, (crawlerKeyword) => crawlerKeyword.crawler_id);
+      });
+      const crawlerIdCrawlerCategory = _.keyBy(crawlerCategories, (crawlerCategory) => crawlerCategory.crawler_id);
 
-    for (const crawlerModel of crawlerModels) {
-      const willUpdateCrawlerObj: {
-        need_manual_edit: boolean;
-        last_updated_at?: Date;
-        checksum?: string;
-        origin_file_encoder?: string;
-        origin_file_size: number;
-      } = {
-        need_manual_edit: false,
-        origin_file_size: 0,
-      };
-      const willSaveFilePath: string = path.join(
-        ...getSaveOriginFilePathParts(crawlerModel, crawlerIdcrawlerKeywords[crawlerModel.id], crawlerIdCrawlerCategory[crawlerModel.id]),
-      );
-      const response = await axios.get(crawlerModel.origin_url, { responseType: 'arraybuffer' }).catch(async (error) => {
-        willUpdateCrawlerObj.need_manual_edit = true;
+      const crawlerKeywords = await prismaClient.crawlerKeyword.findMany({
+        where: {
+          crawler_id: {
+            in: crawlerModels.map((crawlerModel) => crawlerModel.id),
+          },
+        },
+        include: {
+          keyword: true,
+        },
+      });
+      const crawlerIdcrawlerKeywords = _.groupBy(crawlerKeywords, (crawlerKeyword) => crawlerKeyword.crawler_id);
+
+      for (const crawlerModel of crawlerModels) {
+        const willUpdateCrawlerObj: {
+          need_manual_edit: boolean;
+          last_updated_at?: Date;
+          checksum?: string;
+          origin_file_encoder?: string;
+          origin_file_size: number;
+        } = {
+          need_manual_edit: false,
+          origin_file_size: 0,
+        };
+        const willSaveFilePath: string = path.join(
+          ...getSaveOriginFilePathParts(crawlerModel, crawlerIdcrawlerKeywords[crawlerModel.id], crawlerIdCrawlerCategory[crawlerModel.id]),
+        );
+        const response = await axios.get(crawlerModel.origin_url, { responseType: 'arraybuffer' }).catch(async (error) => {
+          willUpdateCrawlerObj.need_manual_edit = true;
+          await prismaClient.crawler.updateMany({
+            where: {
+              id: crawlerModel.id,
+            },
+            data: willUpdateCrawlerObj,
+          });
+        });
+        if (!response?.data) {
+          continue;
+        }
+        if (['.csv', '.json', '.txt', '.rdf', '.xml'].includes(crawlerModel.origin_file_ext)) {
+          const detectedEncoding = Encoding.detect(response.data);
+          let textData: string = '';
+          if (detectedEncoding === 'SJIS' || detectedEncoding === 'UNICODE') {
+            textData = new TextDecoder('shift-jis').decode(response.data.buffer);
+          } else if (detectedEncoding === 'UTF8' || detectedEncoding === 'UTF32') {
+            textData = response.data.toString();
+          } else {
+            textData = response.data.toString();
+          }
+          // 100MB以上のファイルはGitに乗らないのでダウンロードしない
+          if (response.data.length < 99900000) {
+            saveToLocalFileFromString(willSaveFilePath, textData);
+            const stat = fs.statSync(willSaveFilePath);
+            willUpdateCrawlerObj.origin_file_size = stat.size;
+          } else {
+            willUpdateCrawlerObj.need_manual_edit = true;
+            willUpdateCrawlerObj.origin_file_size = response.data.length;
+          }
+          willUpdateCrawlerObj.origin_file_encoder = detectedEncoding.toString();
+        } else if (['.xlsx', '.xls'].includes(crawlerModel.origin_file_ext)) {
+          // 100MB以上のファイルはGitに乗らないのでダウンロードしない
+          if (response.data.length < 99900000) {
+            saveToLocalFileFromBuffer(willSaveFilePath, response.data);
+            const stat = fs.statSync(willSaveFilePath);
+            willUpdateCrawlerObj.origin_file_size = stat.size;
+          } else {
+            willUpdateCrawlerObj.need_manual_edit = true;
+            willUpdateCrawlerObj.origin_file_size = response.data.length;
+          }
+        } else {
+          // 100MB以上のファイルはGitに乗らないのでダウンロードしない
+          if (response.data.length < 99900000) {
+            saveToLocalFileFromBuffer(willSaveFilePath, response.data);
+            const stat = fs.statSync(willSaveFilePath);
+            willUpdateCrawlerObj.origin_file_size = stat.size;
+          } else {
+            willUpdateCrawlerObj.need_manual_edit = true;
+            willUpdateCrawlerObj.origin_file_size = response.data.length;
+          }
+        }
+        willUpdateCrawlerObj.last_updated_at = new Date();
+        willUpdateCrawlerObj.checksum = crypto.createHash('sha512').update(response.data.buffer.toString('hex')).digest('hex');
         await prismaClient.crawler.updateMany({
           where: {
             id: crawlerModel.id,
           },
           data: willUpdateCrawlerObj,
         });
-      });
-      if (!response?.data) {
-        continue;
       }
-      if (['.csv', '.json', '.txt', '.rdf', '.xml'].includes(crawlerModel.origin_file_ext)) {
-        const detectedEncoding = Encoding.detect(response.data);
-        let textData: string = '';
-        if (detectedEncoding === 'SJIS' || detectedEncoding === 'UNICODE') {
-          textData = new TextDecoder('shift-jis').decode(response.data.buffer);
-        } else if (detectedEncoding === 'UTF8' || detectedEncoding === 'UTF32') {
-          textData = response.data.toString();
-        } else {
-          textData = response.data.toString();
-        }
-        // 100MB以上のファイルはGitに乗らないのでダウンロードしない
-        if (response.data.length < 99900000) {
-          saveToLocalFileFromString(willSaveFilePath, textData);
-          const stat = fs.statSync(willSaveFilePath);
-          willUpdateCrawlerObj.origin_file_size = stat.size;
-        } else {
-          willUpdateCrawlerObj.need_manual_edit = true;
-          willUpdateCrawlerObj.origin_file_size = response.data.length;
-        }
-        willUpdateCrawlerObj.origin_file_encoder = detectedEncoding.toString();
-      } else if (['.xlsx', '.xls'].includes(crawlerModel.origin_file_ext)) {
-        // 100MB以上のファイルはGitに乗らないのでダウンロードしない
-        if (response.data.length < 99900000) {
-          saveToLocalFileFromBuffer(willSaveFilePath, response.data);
-          const stat = fs.statSync(willSaveFilePath);
-          willUpdateCrawlerObj.origin_file_size = stat.size;
-        } else {
-          willUpdateCrawlerObj.need_manual_edit = true;
-          willUpdateCrawlerObj.origin_file_size = response.data.length;
-        }
-      } else {
-        // 100MB以上のファイルはGitに乗らないのでダウンロードしない
-        if (response.data.length < 99900000) {
-          saveToLocalFileFromBuffer(willSaveFilePath, response.data);
-          const stat = fs.statSync(willSaveFilePath);
-          willUpdateCrawlerObj.origin_file_size = stat.size;
-        } else {
-          willUpdateCrawlerObj.need_manual_edit = true;
-          willUpdateCrawlerObj.origin_file_size = response.data.length;
-        }
-      }
-      willUpdateCrawlerObj.last_updated_at = new Date();
-      willUpdateCrawlerObj.checksum = crypto.createHash('sha512').update(response.data.buffer.toString('hex')).digest('hex');
-      await prismaClient.crawler.updateMany({
-        where: {
-          id: crawlerModel.id,
-        },
-        data: willUpdateCrawlerObj,
-      });
-    }
+    });
   });
 
 dataCommand
