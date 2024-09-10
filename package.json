@@ -24,7 +24,8 @@
     "lodash": "^4.17.21",
     "mysql2": "^3.11.0",
     "node-html-parser": "^6.1.13",
-    "prisma": "^5.18.0"
+    "prisma": "^5.18.0",
+    "simple-git": "^3.26.0"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
