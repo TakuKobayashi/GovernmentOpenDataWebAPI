@@ -193,6 +193,9 @@ async function crawlerFindInBatches(
 ) {
   let counter = 0;
   const filterObj = {
+    id: {
+      gt: counter,
+    },
     need_manual_edit: false,
     checksum: null,
     last_updated_at: null,
@@ -207,10 +210,18 @@ async function crawlerFindInBatches(
       skip: counter,
       orderBy: [
         {
-          id: 'desc',
+          id: 'asc',
         },
       ],
     });
+    const maxId = _.maxBy(crawlerModels, (crawlerModel) => crawlerModel.id)?.id;
+    if (maxId) {
+      filterObj.id = {
+        gt: maxId,
+      };
+    } else {
+      break;
+    }
     counter = counter + batchSize;
     await inBatches(crawlerModels);
   }
