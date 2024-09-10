@@ -20,14 +20,14 @@ model Category {
 
 model Place {
   id               Int            @id @default(autoincrement())
-  hashcode         String         @unique
-  name             String
+  hashcode         String         @unique @db.VarChar(255)
+  name             String         @db.VarChar(255)
   province         String?
   city             String?
-  address          String?
+  address          String?        @db.VarChar(255)
   lat              Float?
   lon              Float?
-  geohash          String?
+  geohash          String?        @db.VarChar(255)
   place_categories DataCategory[] @relation("PlaceSource")
 
   @@index([geohash])
@@ -49,10 +49,10 @@ model DataCategory {
 
 model Crawler {
   id                  Int                   @id @default(autoincrement())
-  origin_url          String                @unique
+  origin_url          String                @unique @db.VarChar(255)
   origin_file_ext     String                @default(".html")
-  origin_title        String?
-  checksum            String?
+  origin_title        String?               @db.VarChar(255)
+  checksum            String?               @db.VarChar(255)
   need_manual_edit    Boolean               @default(false)
   last_updated_at     DateTime?
   origin_file_encoder String?
@@ -90,7 +90,7 @@ model CrawlerCategory {
 
 model CrawlerRoot {
   id                 Int                   @id @default(autoincrement())
-  url                String                @unique
+  url                String                @unique @db.VarChar(255)
   last_updated_at    DateTime?
   childlen           CrawlerRootRelation[]
   parents            CrawlerRootRelation[] @relation("CrawlerRootUrl")
@@ -101,7 +101,7 @@ model CrawlerRoot {
 
 model CrawlerRootRelation {
   id                   Int         @id @default(autoincrement())
-  to_url               String
+  to_url               String      @db.VarChar(255)
   to_crawler_type      CrawlerType
   from_crawler_root_id Int
   crawler              Crawler     @relation("CrawlerOriginUrl", fields: [to_url], references: [origin_url], map: "crawler_to_url")
@@ -128,7 +128,7 @@ model CrawlerKeyword {
 
 model Keyword {
   id               Int              @id @default(autoincrement())
-  word             String           @unique
+  word             String           @unique @db.VarChar(255)
   appear_count     Int              @default(0)
   crawler_keywords CrawlerKeyword[]
 
