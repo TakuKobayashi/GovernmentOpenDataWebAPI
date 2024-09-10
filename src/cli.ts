@@ -84,14 +84,16 @@ dataCommand
           origin_file_ext: path.extname(rowUrl.pathname),
           need_manual_edit: Boolean(rowObj.needManualEdit),
         };
-        crawlerUrlCategory[newCrawlerObj.origin_url] = titleCategory[rowObj.categoryTitle];
+        if (rowObj.categoryTitle) {
+          crawlerUrlCategory[newCrawlerObj.origin_url] = titleCategory[rowObj.categoryTitle];
+        }
         newCrawlerObjs.push(newCrawlerObj);
       }
     });
     const currentCrawlers = await prismaClient.crawler.findMany({
       where: {
         origin_url: {
-          in: Object.keys(crawlerUrlCategory),
+          in: newCrawlerObjs.map((newCrawlerObj) => newCrawlerObj.origin_url),
         },
       },
       select: {
@@ -113,15 +115,20 @@ dataCommand
           origin_url: true,
         },
       });
-      await tx.crawlerCategory.createMany({
-        data: createCrawlerModels.map((crawler) => {
-          return {
-            crawler_id: crawler.id,
-            crawler_type: 'Crawler',
-            category_id: crawlerUrlCategory[crawler.origin_url].id,
-          };
-        }),
+      const existCategoryCrawlerModels = createCrawlerModels.filter((crawler) => {
+        return crawlerUrlCategory[crawler.origin_url];
       });
+      if (existCategoryCrawlerModels.length > 0) {
+        await tx.crawlerCategory.createMany({
+          data: existCategoryCrawlerModels.map((crawler) => {
+            return {
+              crawler_id: crawler.id,
+              crawler_type: 'Crawler',
+              category_id: crawlerUrlCategory[crawler.origin_url].id,
+            };
+          }),
+        });
+      }
     });
 
     const currentCrawlerRootModels = await prismaClient.crawlerRoot.findMany({
@@ -137,16 +144,19 @@ dataCommand
         description: string | null;
       };
     } = {};
+    const newRootUrlSet: Set<string> = new Set();
     const downloadRootFilePath = path.join('resources', 'master-data', 'download-root-info.csv');
     loadSpreadSheetRowObject(downloadRootFilePath, (sheetName: string, rowObj: any) => {
       if (!currentRootUrlSet.has(rowObj.url)) {
-        currentRootUrlSet.add(rowObj.url);
-        rootUrlCategory[rowObj.url] = titleCategory[rowObj.categoryTitle];
+        newRootUrlSet.add(rowObj.url);
+        if (titleCategory[rowObj.categoryTitle]) {
+          rootUrlCategory[rowObj.url] = titleCategory[rowObj.categoryTitle];
+        }
       }
     });
     await prismaClient.$transaction(async (tx) => {
       await tx.crawlerRoot.createMany({
-        data: Object.keys(rootUrlCategory).map((rootUrl) => {
+        data: Array.from(newRootUrlSet).map((rootUrl) => {
           return {
             url: rootUrl,
           };
@@ -155,7 +165,7 @@ dataCommand
       const cratedCrawlerRoots = await tx.crawlerRoot.findMany({
         where: {
           url: {
-            in: Object.keys(rootUrlCategory),
+            in: Array.from(newRootUrlSet),
           },
         },
         select: {
@@ -163,15 +173,20 @@ dataCommand
           url: true,
         },
       });
-      await tx.crawlerCategory.createMany({
-        data: cratedCrawlerRoots.map((crawlerRoot) => {
-          return {
-            crawler_id: crawlerRoot.id,
-            crawler_type: 'CrawlerRoot',
-            category_id: rootUrlCategory[crawlerRoot.url].id,
-          };
-        }),
+      const existCategoryRootModels = cratedCrawlerRoots.filter((crawlerRoot) => {
+        return crawlerUrlCategory[crawlerRoot.url];
       });
+      if (existCategoryRootModels.length > 0) {
+        await tx.crawlerCategory.createMany({
+          data: existCategoryRootModels.map((crawlerRoot) => {
+            return {
+              crawler_id: crawlerRoot.id,
+              crawler_type: 'CrawlerRoot',
+              category_id: rootUrlCategory[crawlerRoot.url].id,
+            };
+          }),
+        });
+      }
     });
   });
 
