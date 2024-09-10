@@ -176,16 +176,7 @@ dataCommand
   });
 
 async function crawlerFindInBatches(
-  filter: Partial<{
-    origin_url: string;
-    origin_file_ext: string;
-    origin_title: string | null;
-    origin_file_size: bigint;
-    origin_file_encoder: string | null;
-    checksum: string | null;
-    need_manual_edit: boolean;
-    last_updated_at: Date | null;
-  }>,
+  filter: { [columnName: string]: any } = {},
   batchSize: number = 1000,
   inBatches: (
     models: {
