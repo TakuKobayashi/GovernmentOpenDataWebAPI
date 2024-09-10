@@ -63,10 +63,16 @@ export class PlaceModel implements PlaceInterface {
     if (this.lat && this.lon) {
       // 緯度、経度が間違えて入れ替えている場合がある
       if (this.lat < -90 || 90 < this.lat) {
-        const prevLat = this.lat;
-        const prevLon = this.lon;
-        this.lat = prevLon;
-        this.lon = prevLat;
+        // 入れ替えではなく小数点の打ち間違いの疑いがある場合は緯度経度はないものとする
+        if (this.lat <= 180) {
+          const prevLat = this.lat;
+          const prevLon = this.lon;
+          this.lat = prevLon;
+          this.lon = prevLat;
+        } else {
+          this.lat = undefined;
+          this.lon = undefined;
+        }
       }
     }
   }
