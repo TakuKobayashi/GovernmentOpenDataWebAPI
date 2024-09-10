@@ -191,23 +191,18 @@ async function crawlerFindInBatches(
     }[],
   ) => Promise<void>,
 ) {
-  let counter = 0;
   const filterObj = {
     id: {
-      gt: counter,
+      gt: 0,
     },
     need_manual_edit: false,
     checksum: null,
     last_updated_at: null,
   };
-  const modelCount = await prismaClient.crawler.count({
-    where: filterObj,
-  });
-  while (counter < modelCount) {
+  while (true) {
     const crawlerModels = await prismaClient.crawler.findMany({
       where: filterObj,
       take: batchSize,
-      skip: counter,
       orderBy: [
         {
           id: 'asc',
@@ -222,7 +217,6 @@ async function crawlerFindInBatches(
     } else {
       break;
     }
-    counter = counter + batchSize;
     await inBatches(crawlerModels);
   }
 }
