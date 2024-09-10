@@ -40,12 +40,14 @@ CREATE TABLE `data_categories` (
 -- CreateTable
 CREATE TABLE `crawlers` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
-    `origin_url` VARCHAR(191) NOT NULL,
+    `origin_url` VARCHAR(255) NOT NULL,
     `origin_file_ext` VARCHAR(191) NOT NULL DEFAULT '.html',
-    `origin_title` VARCHAR(191) NULL,
+    `origin_title` VARCHAR(255) NULL,
     `checksum` VARCHAR(191) NULL,
     `need_manual_edit` BOOLEAN NOT NULL DEFAULT false,
     `last_updated_at` DATETIME(3) NULL,
+    `origin_file_encoder` VARCHAR(191) NULL,
+    `origin_file_size` BIGINT NOT NULL DEFAULT 0,
 
     UNIQUE INDEX `crawlers_origin_url_key`(`origin_url`),
     INDEX `crawlers_last_updated_at_idx`(`last_updated_at`),
