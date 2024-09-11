@@ -1,0 +1,231 @@
+市場名,所在地／郵便番号,所在地／住所,緯度,経度,座標系,用地面積（平方メートル）,卸売場面積（平方メートル）,取扱高（28年）数量：千本,取扱高（28年）金額：千円,業務開始年月日,開設者,開設者／電話番号,開設者／FAX,卸売業者,卸売業者／電話番号,卸売業者／FAX,用地面積(m2),卸売場面積(m2),保冷施設面積(m2),取扱品目,せり売開始時刻
+東京フロリネット多摩生花地方卸売市場,191-0021,日野市石田435,35.678362,139.416905,JGD2011,3960,594,25458,1146414,1974-04-01,ティー・エフ・シー東京フロリネット株式会社,042-581-7461,042-583-1187,ティー・エフ・シー東京フロリネット株式会社,042-581-7461,042-583-1187,3960,594,-,花き（主として切り花）,午前7時月・水・金
+八王子生花地方卸売市場,193-0834,八王子市東浅川町501-5,35.645527,139.299921,JGD2011,959,299,1795,57035,1974-04-01,株式会社八王子生花市場,0426-61-5948,0426-61-5932,株式会社八王子生花市場,0426-61-5948,0426-61-5932,959,299,-,花き（主として切り花）,午前9時月・水・金
+青梅インターフローラ地方卸売市場,198-0023,青梅市今井5-2440-32,35.791633,139.324161,JGD2011,9528,2447,61592,1896861,2001-09-01,株式会社青梅インターフローラ,0428-30-4187,0428-30-4190,株式会社青梅インターフローラ,0428-30-4187,0428-30-4190,9528,2447,36,花き（切り花及び鉢物）,切花：午前7時月・水・金鉢物：午前8時火・木・土
+第一花き立川地方卸売市場,190-0034,立川市西砂町5-8-2,35.731014,139.361846,JGD2011,3245,495,11519,644375,2016-05-01,株式会社第一花き,042-520-5322,042-520-5321,株式会社第一花き,042-520-5322,042-520-5321,3245,495,53,花き（切り花及び鉢物）,午前7時月・水・金
+rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/375#%E8%B3%87%E6%BA%90/%E6%9D%B1%E5%A4%A7%E4%BA%955%E4%B8%81%E7%9B%AE1%EF%BD%9E10%E7%95%AA/">
+    <odp:classified rdf:resource="http://odp.jig.jp/res/Classification/%E8%B3%87%E6%BA%90"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#RubbishCollectionDay"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <schema:address rdf:nodeID="A132"/>
+    <odp:hasCollectionDay rdf:nodeID="A151"/>
+    <jrrk:classified rdf:nodeID="A11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/odp/1.0#ThirdThursday">
+    <odp:dayOfWeek rdf:resource="http://odp.jig.jp/odp/1.0#Thursday"/>
+    <odp:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</odp:order>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A353">
+    <schema:streetAddress xml:lang="ja">闕丞次7荳∫岼</schema:streetAddress>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A397">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryTuesday"/>
+    <rdfs:label xml:lang="ja">轣ｫ</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A406">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryFriday"/>
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryWednesday"/>
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryMonday"/>
+    <rdfs:label xml:lang="ja">譛医�豌ｴ繝ｻ驥�</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/375#%E8%B3%87%E6%BA%90/%E5%A4%A7%E4%BA%954%E4%B8%81%E7%9B%AE/">
+    <odp:classified rdf:resource="http://odp.jig.jp/res/Classification/%E8%B3%87%E6%BA%90"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#RubbishCollectionDay"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <schema:address rdf:nodeID="A248"/>
+    <odp:hasCollectionDay rdf:nodeID="A304"/>
+    <jrrk:classified rdf:nodeID="A11"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A189">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryThursday"/>
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryMonday"/>
+    <rdfs:label xml:lang="ja">譛医�譛ｨ</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A64">
+    <schema:streetAddress xml:lang="ja">莠瑚痩4荳∫岼</schema:streetAddress>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A407">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryFriday"/>
+    <rdfs:label xml:lang="ja">驥�</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A354">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryThursday"/>
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryMonday"/>
+    <rdfs:label xml:lang="ja">譛医�譛ｨ</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A23">
+    <rdfs:label xml:lang="ja">辯�ｄ縺吶＃縺ｿ</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/375#%E7%87%83%E3%82%84%E3%81%99%E3%81%94%E3%81%BF/%E6%9D%B1%E4%BA%94%E5%8F%8D%E7%94%B03%E4%B8%81%E7%9B%AE/">
+    <odp:classified rdf:resource="http://odp.jig.jp/res/Classification/%E7%87%83%E3%82%84%E3%81%99%E3%81%94%E3%81%BF"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#RubbishCollectionDay"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <schema:address rdf:nodeID="A408"/>
+    <odp:hasCollectionDay rdf:nodeID="A409"/>
+    <jrrk:classified rdf:nodeID="A23"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A410">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryMonday"/>
+    <rdfs:label xml:lang="ja">譛�</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A411">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#FourthThursday"/>
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#SecondThursday"/>
+    <rdfs:label xml:lang="ja">隨ｬ2譛ｨ繝ｻ隨ｬ4譛ｨ</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A412">
+    <schema:streetAddress xml:lang="ja">蜈ｫ貎ｮ5荳∫岼1��39蜿ｷ</schema:streetAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/375#%E9%99%B6%E5%99%A8%E3%83%BB%E3%82%AC%E3%83%A9%E3%82%B9%E3%83%BB%E9%87%91%E5%B1%9E%E3%81%94%E3%81%BF/%E5%A4%A7%E5%B4%8E5%E4%B8%81%E7%9B%AE/">
+    <odp:classified rdf:resource="http://odp.jig.jp/res/Classification/%E9%99%B6%E5%99%A8%E3%83%BB%E3%82%AC%E3%83%A9%E3%82%B9%E3%83%BB%E9%87%91%E5%B1%9E%E3%81%94%E3%81%BF"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#RubbishCollectionDay"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <schema:address rdf:nodeID="A413"/>
+    <odp:hasCollectionDay rdf:nodeID="A338"/>
+    <jrrk:classified rdf:nodeID="A2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A414">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#ThirdWednesday"/>
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#FirstWednesday"/>
+    <rdfs:label xml:lang="ja">隨ｬ1豌ｴ繝ｻ隨ｬ3豌ｴ</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/375#%E8%B3%87%E6%BA%90/%E5%BA%83%E7%94%BA2%E4%B8%81%E7%9B%AE/">
+    <odp:classified rdf:resource="http://odp.jig.jp/res/Classification/%E8%B3%87%E6%BA%90"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#RubbishCollectionDay"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <schema:address rdf:nodeID="A179"/>
+    <odp:hasCollectionDay rdf:nodeID="A415"/>
+    <jrrk:classified rdf:nodeID="A11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/375#%E7%87%83%E3%82%84%E3%81%99%E3%81%94%E3%81%BF/%E4%B8%AD%E5%BB%B64%E4%B8%81%E7%9B%AE/">
+    <odp:classified rdf:resource="http://odp.jig.jp/res/Classification/%E7%87%83%E3%82%84%E3%81%99%E3%81%94%E3%81%BF"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#RubbishCollectionDay"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <schema:address rdf:nodeID="A358"/>
+    <odp:hasCollectionDay rdf:nodeID="A416"/>
+    <jrrk:classified rdf:nodeID="A23"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A228">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryFriday"/>
+    <rdfs:label xml:lang="ja">驥�</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A366">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#ThirdMonday"/>
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#FirstMonday"/>
+    <rdfs:label xml:lang="ja">隨ｬ1譛医�隨ｬ3譛�</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A279">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#ThirdWednesday"/>
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#FirstWednesday"/>
+    <rdfs:label xml:lang="ja">隨ｬ1豌ｴ繝ｻ隨ｬ3豌ｴ</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/odp/1.0#ThirdWednesday">
+    <odp:dayOfWeek rdf:resource="http://odp.jig.jp/odp/1.0#Wednesday"/>
+    <odp:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</odp:order>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A417">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryThursday"/>
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryMonday"/>
+    <rdfs:label xml:lang="ja">譛医�譛ｨ</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/odp/1.0#SecondWednesday">
+    <odp:dayOfWeek rdf:resource="http://odp.jig.jp/odp/1.0#Wednesday"/>
+    <odp:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</odp:order>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A188">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryFriday"/>
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryTuesday"/>
+    <rdfs:label xml:lang="ja">轣ｫ繝ｻ驥�</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A342">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#FourthTuesday"/>
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#SecondTuesday"/>
+    <rdfs:label xml:lang="ja">隨ｬ2轣ｫ繝ｻ隨ｬ4轣ｫ</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A65">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EverySaturday"/>
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryWednesday"/>
+    <rdfs:label xml:lang="ja">豌ｴ繝ｻ蝨�</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A45">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryMonday"/>
+    <rdfs:label xml:lang="ja">譛�</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A418">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryFriday"/>
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryTuesday"/>
+    <rdfs:label xml:lang="ja">轣ｫ繝ｻ驥�</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A419">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#FourthWednesday"/>
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#SecondWednesday"/>
+    <rdfs:label xml:lang="ja">隨ｬ2豌ｴ繝ｻ隨ｬ4豌ｴ</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A287">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EverySaturday"/>
+    <rdfs:label xml:lang="ja">蝨�</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A382">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryFriday"/>
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryTuesday"/>
+    <rdfs:label xml:lang="ja">轣ｫ繝ｻ驥�</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublicHoliday>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/375#%E8%B3%87%E6%BA%90/%E8%A5%BF%E5%A4%A7%E4%BA%951%E4%B8%81%E7%9B%AE%EF%BC%88%E8%8D%8F%E5%8E%9F%E3%82%A8%E3%83%AA%E3%82%A2%EF%BC%89/">
+    <odp:classified rdf:resource="http://odp.jig.jp/res/Classification/%E8%B3%87%E6%BA%90"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#RubbishCollectionDay"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <schema:address rdf:nodeID="A157"/>
+    <odp:hasCollectionDay rdf:nodeID="A100"/>
+    <jrrk:classified rdf:nodeID="A11"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A420">
+    <rdfs:label>譚ｱ莠ｬ驛ｽ蜩∝ｷ晏玄</rdfs:label>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/375#%E9%99%B6%E5%99%A8%E3%83%BB%E3%82%AC%E3%83%A9%E3%82%B9%E3%83%BB%E9%87%91%E5%B1%9E%E3%81%94%E3%81%BF/%E6%9D%B1%E5%93%81%E5%B7%9D3%E4%B8%81%E7%9B%AE/">
+    <odp:classified rdf:resource="http://odp.jig.jp/res/Classification/%E9%99%B6%E5%99%A8%E3%83%BB%E3%82%AC%E3%83%A9%E3%82%B9%E3%83%BB%E9%87%91%E5%B1%9E%E3%81%94%E3%81%BF"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#RubbishCollectionDay"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <schema:address rdf:nodeID="A328"/>
+    <odp:hasCollectionDay rdf:nodeID="A421"/>
+    <jrrk:classified rdf:nodeID="A2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdfs:label xml:lang="ja">髯ｶ蝎ｨ繝ｻ繧ｬ繝ｩ繧ｹ繝ｻ驥大ｱ槭＃縺ｿ</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A378">
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EverySaturday"/>
+    <rdf:value rdf:resource="http://odp.jig.jp/odp/1.0#EveryWednesday"/>
+    <rdfs:label xml:lang="ja">豌ｴ繝ｻ蝨�</rdfs:label>
+    <odp:isCollectToPublicHoliday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</odp:isCollectToPublic･Пﾙiﾛ�sｲ  \ｧ 奓�uGU\宏･ﾜﾟ5u�H7掻ｬ酵呶ｩ塔OｼﾚﾝN淀Vｿ5ﾟ｢/譜Lg[s-ｼ��ﾇ辷<ﾝ雛ﾇ{H棯:v2珊�5U蒄ｳ�&
+>ﾐﾟ+ｲbQVEｭ9ｶ�V�mｸ伺ｻｷｮ\ｹg\1^d･Rﾞ�
+n�'＞�lh!KGｯｻPほ�6ﾀ�惞;�7棊XtF��%ｦｨ�-ｮ､_ﾊ%劔xｼﾏ轍�(k営/VＴ]ｾ�鈍ｨ[���H[r$瓦q6ﾉe�嗔^彈而$ｯ蟇'SvD�25Qｭ%渥sbﾃｿ}!ﾀ＠摺ﾄ
+ﾈI�jｺ持犒 Yﾒ政rﾍ汰vO-ﾎWmQ

@@ -1,0 +1,38 @@
+﻿年次,Year,地域階層,地域コード,産業 (大分類) Industry (Division),地域，産業 (大分類）,District and industry (Division),事業所数 Number of establishments,従業者数 Number of employees 1),従業者数 Number of employees 1)／（うち) 常雇 (of which) Regular employees
+平成8,1996,0,13000,,東京都,Tokyo-to,1167,32406,31312
+平成13,2001,0,13000,,東京都,Tokyo-to,1369,48746,47484
+平成18,2006,0,13000,,東京都,Tokyo-to,1157,41111,40375
+平成18,2006,1,13100,,区部,All ku,1125,38050,37330
+平成18,2006,2,13101,,千代田区,Chiyoda-ku,293,8291,8102
+平成18,2006,2,13102,,中央区,Chuo-ku,139,2539,2451
+平成18,2006,2,13103,,港区,Minato-ku,436,14688,14460
+平成18,2006,2,13104,,新宿区,Shinjuku-ku,63,1877,1814
+平成18,2006,2,,,その他,Others,194,10655,10503
+平成18,2006,1,13200,,市部,All shi,32,3061,3045
+平成18,2006,1,13300,,郡部,All gun,-,-,-
+平成18,2006,1,13350,,島部,All islands,-,-,-
+平成18,2006,,,A,農業,Agriculture,-,-,-
+平成18,2006,,,A,林業,Forestry,-,-,-
+平成18,2006,,,B,漁業,Fisheries,-,-,
+平成18,2006,,,C,鉱業,Mining ,-,-,-
+平成18,2006,,,D,建設業,Construction,4,39,38
+平成18,2006,,,E,製造業,Manufacturing,33,772,717
+平成18,2006,,,F,電気・ガス・熱供給・水道業,Electricity， gas， heat supply and water,3,30,29
+平成18,2006,,,G,情報通信業,Information and communications,171,2918,2838
+平成18,2006,,,H,運輸業,Transport,90,3084,3040
+平成18,2006,,,I,卸売・小売業,Wholesale and retail trade,253,5678,5480
+平成18,2006,,,J,金融・保険業,Finance and insurance,223,23818,23643
+平成18,2006,,,K,不動産業,Real estate ,11,232,225
+平成18,2006,,,M,飲食店，宿泊業,Eating and drinking places，accommodations,18,259,251
+平成18,2006,,,P,医療，福祉,Medical， health care and welfare,3,22,22
+平成18,2006,,,O,教育，学習支援業,Education， learning support,6,42,40
+平成18,2006,,,Q,複合サービス事業,Compound services,-,-,-
+平成18,2006,,,R,サービス業 (他に分類されないもの）,Services， n.e.c.,342,4217,4052
+平成18,2006,,,S,公務(他に分類されないもの）,Government， n.e.c.,-,-,-
+,,,,,,,,,
+東京都統計年鑑（平成23年）TOKYO STATISTICAL YEARBOOK ( 2011 )　8 事業所 8  ESTABLISHMENTS,,,,,,,,,
+8-7  外国会社の地域，産業 (大分類) 別事業所数及び従業者数  (平成8年～18年) 8-7  FOREIGN ENTERPRISE ESTABLISHMENTS AND WORKERS BY INDUSTRY  ( DIVISION ) AND DISTRICT ( 1996-2006 ) ,,,,,,,,,
+外国会社とは，外国において設立された法人の支店，営業所などで会社法の規定により日本にその事務所などの所在地を登録したものをいう。,,,,,,,,,
+Foreign enterprises refer to branch offices，business offices and others registered according to the Commercial Law.,,,,,,,,,
+資料：都総務局統計部経済統計課 「事業所・企業統計調査報告」 Source: Bureau of General Affairs， TMG ,,,,,,,,,
+地域階層（0:東京都　1:区部・市部・郡部・島部　2:区市町村),,,,,,,,,

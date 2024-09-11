@@ -1,0 +1,35 @@
+﻿区分階層,項番 Item number,裁判所,Court,略号,Abbreviation,新受 Newly received (A)／総数 Total,新受 Newly received (A)／検察官の起訴 Prosecuted by public prosecutors,新受 Newly received (A)／その他 Others,既済 Disposed／総数 (B) Total,既済 Disposed／有罪 (C) Guilty,既済 Disposed／有罪 (C) Guilty／執行猶予を付したもの With suspension of sentence,既済 Disposed／有罪 (C) Guilty／執行猶予を付したもの With suspension of sentence／執行猶予のうちの保護観察 Under probation,既済 Disposed／無罪 (D) Not guilty,既済 Disposed／その他 (E) Others,既済 Disposed／同一被告人に関する事件の併合 Joinder of actions against the same defendant,未済 (F) Pending
+0,,総数,Total,通,R,9959,…,…,10036,7542,4031,253,29,161,2304,2708
+0,,総数,Total,略,S,25940,…,…,25896,25893,-,-,-,3,-,473
+1,,地方裁判所,District Court,通,R,8329,…,…,8362,6172,3381,218,28,92,2070,2484
+2,1,東京,Tokyo,通,R,6600,…,…,6480,4819,2670,168,22,60,1579,2074
+2,2,立川支部,Tachikawa Branch,通,R,1729,…,…,1882,1353,711,50,6,32,491,410
+1,,簡易裁判所,Summary Court,通,R,1630,…,…,1674,1370,650,35,1,69,234,224
+1,,簡易裁判所,Summary Court,略,S,25940,…,…,25896,25893,-,-,-,3,-,473
+2,1,東京,Tokyo,通,R,1467,…,…,1505,1245,592,27,1,54,205,195
+2,1,東京,Tokyo,略,S,18483,…,…,18398,18395,-,-,-,3,-,473
+2,2,八丈島,Hachijojima ,通,R,-,…,…,-,-,-,-,-,-,-,-
+2,2,八丈島,Hachijojima ,略,S,14,…,…,14,14,-,-,-,-,-,-
+2,3,伊豆大島,Izu-oshima,通,R,-,…,…,-,-,-,-,-,-,-,-
+2,3,伊豆大島,Izu-oshima,略,S,7,…,…,7,7,-,-,-,-,-,-
+2,4,新島,Niijima,通,R,-,…,…,-,-,-,-,-,-,-,-
+2,4,新島,Niijima,略,S,2,…,…,2,2,-,-,-,-,-,-
+2,5,八王子,Hachioji,通,R,43,…,…,40,28,15,-,-,2,10,6
+2,5,八王子,Hachioji,略,S,648,…,…,648,648,-,-,-,-,-,-
+2,6,立川 ,Tachikawa,通,R,12,…,…,19,11,-,-,-,8,-,2
+2,6,立川 ,Tachikawa,略,S,5239,…,…,5279,5279,-,-,-,-,-,-
+2,7,武蔵野 ,Musashino ,通,R,73,…,…,76,58,28,3,-,4,14,15
+2,7,武蔵野 ,Musashino ,略,S,743,…,…,743,743,-,-,-,-,-,-
+2,8,青梅,Ome,通,R,1,…,…,1,1,-,-,-,-,-,-
+2,8,青梅,Ome,略,S,289,…,…,290,290,-,-,-,-,-,-
+2,9,町田,Machida ,通,R,34,…,…,33,27,15,5,-,1,5,6
+2,9,町田,Machida ,略,S,515,…,…,515,515,-,-,-,-,-,-
+,,,,,,,,,,,,,,,,
+東京都統計年鑑（平成24年）TOKYO STATISTICAL YEARBOOK ( 2012 ) 20  司法・警察・消防 20  JUSTICE， POLICE， AND FIRE FIGHTING SERVICES,,,,,,,,,,,,,,,,
+20-8  刑事事件の種類，手続，裁判所別人員 （平成24年） 20-8  DEFENDANTS BY TYPE OF CRIMINAL CASE， COURT PROCEEDING， AND COURT ( 2012 ),,,,,,,,,,,,,,,,
+この表の数字は再審事件を含む。,,,,,,,,,,,,,,,,
+Figures in this table include retrial cases.,,,,,,,,,,,,,,,,
+注 )  表側の略号のうち 「通」 は通常第一審事件， 「略」 は略式事件をいう。,,,,,,,,,,,,,,,,
+"Note:) Abbreviations ""R"" and ""S"" indicate ordinary cases of the court of first instance and summary proceeding cases， respectively.",,,,,,,,,,,,,,,,
+資料：東京地方裁判所事務局総務課 Source: Tokyo District Court,,,,,,,,,,,,,,,,
+区分階層(0:総数　1:区分　2:区分内訳),,,,,,,,,,,,,,,,

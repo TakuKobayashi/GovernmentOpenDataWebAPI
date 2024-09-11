@@ -1,0 +1,47 @@
+﻿道路,Roads,地域,District,項番 Item number,路線,Route,観測地点,Monitoring Site,自動車類 Motor vehicles／総数 Total,自動車類 Motor vehicles／乗用車類 Cars／乗用車 Passenger cars,自動車類 Motor vehicles／乗用車類 Cars／バス Buses,自動車類 Motor vehicles／貨物車類 Trucks／小型貨物車 Small,自動車類 Motor vehicles／貨物車類 Trucks／普通貨物車 Ordinary,歩行者類(人） Pedestrians (Person),自転車類 Bicycles,動力付き二輪車類 Two-wheeled vehicles
+高速自動車国道,National Expressways,,,1,東名高速道路,Tomei Expressway,横浜町田～海老名JCT,Yokohama Machida - Ebina JCT,87610,46733,1271,15665,23941,…,…,717
+高速自動車国道,National Expressways,,,2,関越自動車道,Kanetsu Expressway,東京外環自動車道大泉JCT～埼玉県境,Tokyo Outer Ring Road Oizumi JCT - Saitama border,68696,36992,840,13911,16953,…,…,442
+高速自動車国道,National Expressways,,,3,中央自動車道富士吉田線,Chuo Expressway ,高速4号新宿線～一般国道20号調布IC,Metropolitan Expressway Route No.4 Shinjuku Line - Route 20 Chofu IC,59751,33740,1275,13715,11021,…,…,387
+高速自動車国道,National Expressways,,,4,中央自動車道富士吉田線,Chuo Expressway ,一般国道20号調布IC～川崎府中線稲城IC,Route 20 Chofu IC - Kawasaki Fuchu Route Inagi IC,58321,33252,1121,12977,10971,…,…,429
+高速自動車国道,National Expressways,,,5,東京外環自動車道,Tokyo Outer Ring Road,練馬区大泉町（大泉ＪＣＴ),Nerima-ku ( Oizumi JCT ),55727,29084,914,11779,13950,…,…,257
+都市高速道路,Urban expressways,,,1,高速湾岸線,Bayshore Route,辰巳JCT～新木場出入口,Tatsumi JCT - Shin-Kiba Entrance/Exit,109651,…,…,…,…,…,…,…
+都市高速道路,Urban expressways,,,2,高速湾岸線,Bayshore Route,新木場出入口～葛西JCT,Shin-Kiba Entrance/Exit - Kasai JCT,108332,…,…,…,…,…,…,…
+都市高速道路,Urban expressways,,,3,高速中央環状線,Central Circular Route,堀切JCT～小菅出入口,Horikiri JCT - Kosuge Entrance/Exit,102673,…,…,…,…,…,…,…
+都市高速道路,Urban expressways,,,4,高速湾岸線,Bayshore Route,東雲JCT～辰巳JCT,Shinonome JCT - Tatsumi JCT,102422,…,…,…,…,…,…,…
+都市高速道路,Urban expressways,,,5,高速中央環状線,Central Circular Route,小菅出入口～小菅JCT,Kosuge  Entrance/Exit - Kosuge JCT,101555,…,…,…,…,…,…,…
+一般国道,General national highways,区部,All ku,1,一般国道14号（京葉道路）,Route 14,江戸川区篠崎町（篠崎IC）,Edogawa-ku ( Shinozaki IC ),76526,42243,323,18512,15448,…,…,542
+一般国道,General national highways,区部,All ku,2,一般国道466号（第三京浜道路）,Route 466,世田谷区上野毛（玉川IC）,Setagaya-ku ( Tamagawa IC ),46654,28618,157,12026,5853,…,…,589
+一般国道,General national highways,区部,All ku,3,一般国道17号,Route 17,板橋区三園2－14,Itabashi-ku,44714,…,…,…,…,…,…,…
+一般国道,General national highways,区部,All ku,4,一般国道246号,Route 246,渋谷区道玄坂1丁目,Shibuya-ku,42960,…,…,…,…,…,…,…
+一般国道,General national highways,区部,All ku,5,一般国道14号（京葉道路）,Route 14,江戸川区篠崎8丁目（王子金町江戸川線）,Edogawa-ku ( Oji Kanamachi Edogawa Line ),40335,23070,55,7068,10142,…,…,446
+一般国道,General national highways,市郡部,All shi and gun,1,一般国道16号,Route 16,八王子市大和田町3丁目,Hachioji-shi,37871,…,…,…,…,…,…,…
+一般国道,General national highways,市郡部,All shi and gun,2,一般国道468号（圏央道）,Route 468,瑞穂富岡線青梅IC～埼玉県境,Mizuho Tomioka Line Ome IC - Saitama border,35380,18058,347,5134,11841,…,…,233
+一般国道,General national highways,市郡部,All shi and gun,3,一般国道468号（圏央道）,Route 468,奥多摩あきる野線日の出IC～瑞穂富岡線青梅IC,Okutama Akiruno Line Hinode IC - Mizuho Tomioka Line Ome IC,34749,17761,334,5086,11568,…,…,246
+一般国道,General national highways,市郡部,All shi and gun,4,一般国道468号（圏央道）,Route 468,一般国道411号～奥多摩あきる野線日の出IC,Route 411 - Okutama Akiruno Line Hinode IC,34604,17739,341,5095,11429,…,…,264
+一般国道,General national highways,市郡部,All shi and gun,5,一般国道16号,Route 16,町田市鶴間1853(東名入口交差点),Machida-shi ( Tomei Entrance Intersection ),34424,…,…,…,…,…,…,…
+主要地方道,Main regional roads,区部,All ku,1,日本橋芝浦大森線,Nihombashi-Shibaura-Omori Line,中央区銀座8-14-14,Chuo-ku,50850,…,…,…,…,8611,1726,2961
+主要地方道,Main regional roads,区部,All ku,2,環状8号線,Ring Road 8,世田谷区上用賀5-12,Setagaya-ku,47415,27047,370,12552,7446,1273,1632,1500
+主要地方道,Main regional roads,区部,All ku,3,環状8号線,Ring Road 8,練馬区下石神井1-1-38,Nerima-ku,44066,…,…,…,…,1332,1324,656
+主要地方道,Main regional roads,区部,All ku,4,環状7号線,Ring Road 7,杉並区高円寺北2-29-14,Suginami-ku,43014,…,…,…,…,…,…,…
+主要地方道,Main regional roads,区部,All ku,5,環状7号線,Ring Road 7,杉並区和田3-17,Suginami-ku,41981,20642,478,13267,7594,2054,2122,2263
+主要地方道,Main regional roads,市郡部,All shi and gun,1,新宿青梅線,Shinjuku Ome Line,武蔵村山市中原2-3-1,Musashimurayama-shi,30177,…,…,…,…,59,322,257
+主要地方道,Main regional roads,市郡部,All shi and gun,2,府中町田線,Fuchu Machida Line,府中市住吉町2-30-41,Fuchu-shi,28523,…,…,…,…,1080,2970,1243
+主要地方道,Main regional roads,市郡部,All shi and gun,3,新宿青梅線,Shinjuku Ome Line,東村山市萩山町5-9,Higashimurayama-shi,27593,…,…,…,…,203,1103,512
+主要地方道,Main regional roads,市郡部,All shi and gun,4,新宿青梅線,Shinjuku Ome Line,武蔵村山市緑が丘,Musashimurayama-shi,27564,…,…,…,…,313,819,388
+主要地方道,Main regional roads,市郡部,All shi and gun,5,新宿青梅線,Shinjuku Ome Line,東村山市富士見町3-30,Higashimurayama-shi,26198,…,…,…,…,47,180,350
+一般都道・特例都道,General metropolitan roads & Metropolitan roads subject to special provisions,区部,All ku,1,南田中町旭町線,Minamitanakacho Asahicho Line,練馬区高野台1丁目8,Nerima-ku,31918,16777,272,8022,6847,2190,2348,1392
+一般都道・特例都道,General metropolitan roads & Metropolitan roads subject to special provisions,区部,All ku,2,高輪麻布線,Takanawa Azabu Line,港区南麻布1-6,Minato-ku ,30234,21281,482,6508,1963,8372,3117,1619
+一般都道・特例都道,General metropolitan roads & Metropolitan roads subject to special provisions,区部,All ku,3,南田中町旭町線,Minamitanakacho Asahicho Line,練馬区高松5丁目7,Nerima-ku,29828,13743,320,8547,7218,619,1625,1686
+一般都道・特例都道,General metropolitan roads & Metropolitan roads subject to special provisions,区部,All ku,4,日比谷芝浦線,Hibiya Shibaura Line,港区新橋1-1-1,Minato-ku,28846,…,…,…,…,16828,821,887
+一般都道・特例都道,General metropolitan roads & Metropolitan roads subject to special provisions,区部,All ku,5,皇居前鍛冶橋線,Kokyomae Kajibashi Line,千代田区丸の内1-11-6,Chiyoda-ku,26425,…,…,…,…,12910,1483,840
+一般都道・特例都道,General metropolitan roads & Metropolitan roads subject to special provisions,市郡部,All shi and gun,1,八王子国立線,Hachioji Kunitachi Line,立川市錦町6-26,Tachikawa-shi,24227,…,…,…,…,158,641,733
+一般都道・特例都道,General metropolitan roads & Metropolitan roads subject to special provisions,市郡部,All shi and gun,2,小山乞田線,Oyama Kotta Line,多摩市山王下1-18-1,Tama-shi,21672,…,…,…,…,…,…,…
+一般都道・特例都道,General metropolitan roads & Metropolitan roads subject to special provisions,市郡部,All shi and gun,3,小山乞田線,Oyama Kotta Line,多摩市乞田1154?1,Tama-shi,18706,12858,305,3785,1758,731,772,1043
+一般都道・特例都道,General metropolitan roads & Metropolitan roads subject to special provisions,市郡部,All shi and gun,4,福生青梅線,Fussa Ome Line,羽村市羽西2-3-6,Hamura-shi,18191,…,…,…,…,178,409,369
+一般都道・特例都道,General metropolitan roads & Metropolitan roads subject to special provisions,市郡部,All shi and gun,5,小山乞田線,Oyama Kotta Line,八王子市別所2-58,Hachioji-shi,17372,…,…,…,…,…,…,…
+,,,,,,,,,,,,,,,,
+東京都統計年鑑（平成31年・令和元年）TOKYO STATISTICAL YEARBOOK ( 2019 ) 4　運輸 4　TRANSPORT ,,,,,,,,,,,,,,,,
+4-7  観測地点別交通量（平成27年度） 4-7  TRAFFIC VOLUME BY TRAFFIC MONITORING SITE （ Fiscal Year 2015 ）,,,,,,,,,,,,,,,,
+交通量調査は，年間の平均的な交通量を把握するため，原則として交通量の変動の少ない秋季に１回調査する。なお，調査結果は，午前7時から午後7時までの12時間の「平日」交通量である。,,,,,,,,,,,,,,,,
+To obtain traffic volume on an annual average， in principle， a survey is conducted once in the autumn season when traffic volume is less variable. Survey results are traffic volumes for the 12 hour period from 7 a.m. to 7 p.m on a weekday.,,,,,,,,,,,,,,,,
+資料：都建設局道路建設部計画課 「交通量調査報告書」 Source: Bureau of Construction， TMG,,,,,,,,,,,,,,,,

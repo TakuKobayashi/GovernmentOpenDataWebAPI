@@ -1,0 +1,33 @@
+﻿年次,Year,原因,Cause,区分,Classification,発生件数 Accidents／総数 Total,発生件数 Accidents／死亡事故 Killed,発生件数 Accidents／重傷事故 Serious injury,発生件数 Accidents／軽傷事故 Minor injury,死傷者数 Killed or injured／総数 Total,死傷者数 Killed or injured／死者 Killed,死傷者数 Killed or injured／重傷者 Serious injury,死傷者数 Killed or injured／軽傷者 Minor injury
+平成25,2013,総数,Total,,,216,23,22,171,243,23,23,197
+平成26,2014,総数,Total,,,179,15,16,148,193,15,18,160
+平成27,2015,総数,Total,,,190,31,21,138,202,31,25,146
+平成28,2016,総数,Total,,,129,18,17,94,147,18,18,111
+平成29,2017,総数,Total,,,186,30,54,102,199,30,57,112
+平成29,2017,信号無視,Ignoring traffic light signals,,,71,12,28,31,74,12,29,33
+平成29,2017,通行区分,Lane violation,左側通行,Walking on the left side of the road,-,-,-,-,-,-,-,-
+平成29,2017,通行区分,Lane violation,車道通行,Walking on roadways,2,-,1,1,3,-,1,2
+平成29,2017,通行区分,Lane violation,その他,Others,-,-,-,-,-,-,-,-
+平成29,2017,横断,Crossing,横断歩道外横断,Crossing outside pedestrian crossings,19,1,3,15,22,1,3,18
+平成29,2017,横断,Crossing,斜め横断,Diagonal crossing,3,-,-,3,3,-,-,3
+平成29,2017,横断,Crossing,駐停車車両の直前直後,Crossing immediately in front of or behind a parked vehicle,3,-,-,3,4,-,-,4
+平成29,2017,横断,Crossing,走行車両の直前直後,Crossing immediately in front of or behind a vehicle in motion,4,-,-,4,4,-,-,4
+平成29,2017,横断,Crossing,横断禁止場所横断,Crossing at prohibited places,44,9,14,21,49,9,16,24
+平成29,2017,幼児のひとり歩き,Toddlers walking alone,,,-,-,-,-,-,-,-,-
+平成29,2017,踏切不注意,Lack of caution at railroad crossings,,,6,6,-,-,6,6,-,-
+平成29,2017,道路における禁止行為,Prohibited acts on roads,めいていはいかい，ねそべり等,Drunk， wandering， lying on the road， etc.,3,1,1,1,3,1,1,1
+平成29,2017,道路における禁止行為,Prohibited acts on roads,路上遊戯,Playing on road,5,-,1,4,5,-,1,4
+平成29,2017,無許可道路使用,Use of roads without permission,路上作業,Working on roads,-,-,-,-,-,-,-,-
+平成29,2017,飛び出し,Rushing out into the street　,,,23,1,6,16,23,1,6,16
+平成29,2017,その他の違反,Others,,,3,-,-,3,3,-,-,3
+平成29,2017,調査不能,Cause undetermined,,,-,-,-,-,-,-,-,-
+,,,,,,,,,,,,,
+東京都統計年鑑（平成29年）TOKYO STATISTICAL YEARBOOK ( 2017 ) 20  司法・警察・消防 20  JUSTICE， POLICE， AND FIRE FIGHTING SERVICES,,,,,,,,,,,,,
+20-14  歩行者がわの事故原因による人身事故発生件数及び死傷者数 （平成25～29年） 20-14 TRAFFIC ACCIDENTS CAUSED BY PEDESTRIANS RESULTING IN INJURY OR DEATH AND PERSONS KILLED OR INJURED IN THE ACCIDENTS ( 2013-2017 ),,,,,,,,,,,,,
+注 1) 発生件数，死傷者数とも第1当事者からみた数である。,,,,,,,,,,,,,
+2) 第1当事者とは，過失（違反）がより重いか又は過失（違反）が同程度の場合にあっては，被害がより小さい方の当事者をいう。,,,,,,,,,,,,,
+3) 調査不能とは，違反行為の種別が不明な場合をいう。,,,,,,,,,,,,,
+"Note: 1) ""Accidents"" and ""Killed or injured"" are counted from the first party perspective.",,,,,,,,,,,,,
+2) The party whose degree of negligence (violation) is more serious than the other party is the first party. When the degree of negligence (violation) is the same， the party that suffers less damage is the first party.,,,,,,,,,,,,,
+"3) ""Cause undetermined"" refers to cases for which the kind of violation committed is unknown.",,,,,,,,,,,,,
+資料：警視庁総務部文書課 「警視庁の統計」Source: Metropolitan Police Department， TMG,,,,,,,,,,,,,

@@ -1,0 +1,41 @@
+﻿区分階層,項番 Item number,裁判所,Court,略号,Abbreviation,新受 Newly received (A)／総数 Total,新受 Newly received (A)／検察官の起訴 Prosecuted by public prosecutors,新受 Newly received (A)／その他 Others,既済 Disposed／総数 (B) Total,既済 Disposed／有罪 (C) Guilty,既済 Disposed／有罪 (C) Guilty／執行猶予を付したもの With suspension of sentence,既済 Disposed／有罪 (C) Guilty／執行猶予を付したもの With suspension of sentence／執行猶予のうちの保護観察 Under probation,既済 Disposed／無罪 (D) Not guilty,既済 Disposed／その他 (E) Others,既済 Disposed／同一被告人に関する事件の併合 Joinder of actions against the same defendant,未済 (F) Pending
+0,,総数,Total,通,R,9889,…,…,10163,6624,4102(144),284(144),19,219,3301,3916
+0,,総数,Total,略,S,15219,…,…,15263,15261,-,-,-,2,-,140
+1,,地方裁判所,District Court,通,R,9094,…,…,9336,5963,3742(144),273(144),19,167,3187,3767
+2,1,東京,Tokyo,通,R,7262,…,…,7429,4814,3069(112),209(112),15,132,2468,3104
+2,2,立川支部,Tachikawa Branch,通,R,1832,…,…,1907,1149,673(32),64(32),4,35,719,663
+1,,簡易裁判所,Summary Court,通,R,795,…,…,827,661,360,11,-,52,114,149
+1,,簡易裁判所,Summary Court,略,S,15219,…,…,15263,15261,-,-,-,2,-,140
+2,1,東京,Tokyo,通,R,734,…,…,751,599,324,10,-,48,104,141
+2,1,東京,Tokyo,略,S,11214,…,…,11232,11230,-,-,-,2,-,107
+2,2,八丈島,Hachijojima ,通,R,-,…,…,-,-,-,-,-,-,-,-
+2,2,八丈島,Hachijojima ,略,S,5,…,…,5,5,-,-,-,-,-,-
+2,3,伊豆大島,Izu-oshima,通,R,-,…,…,-,-,-,-,-,-,-,-
+2,3,伊豆大島,Izu-oshima,略,S,1,…,…,1,1,-,-,-,-,-,-
+2,4,新島,Niijima,通,R,-,…,…,-,-,-,-,-,-,-,-
+2,4,新島,Niijima,略,S,-,…,…,-,-,-,-,-,-,-,-
+2,5,八王子,Hachioji,通,R,25,…,…,37,30,17,-,-,1,6,3
+2,5,八王子,Hachioji,略,S,392,…,…,392,392,-,-,-,-,-,-
+2,6,立川 ,Tachikawa,通,R,7,…,…,7,6,1,-,-,1,-,1
+2,6,立川 ,Tachikawa,略,S,2652,…,…,2659,2659,-,-,-,-,-,33
+2,7,武蔵野 ,Musashino ,通,R,14,…,…,13,12,8,1,-,1,-,3
+2,7,武蔵野 ,Musashino ,略,S,457,…,…,457,457,-,-,-,-,-,-
+2,8,青梅,Ome,通,R,-,…,…,-,-,-,-,-,-,-,-
+2,8,青梅,Ome,略,S,175,…,…,175,175,-,-,-,-,-,-
+2,9,町田,Machida ,通,R,15,…,…,19,14,10,-,-,1,4,1
+2,9,町田,Machida ,略,S,323,…,…,342,342,-,-,-,-,-,-
+,,,,,,,,,,,,,,,,
+東京都統計年鑑（令和3年）TOKYO STATISTICAL YEARBOOK ( 2021 ) 20  司法・警察・消防 20  JUSTICE， POLICE， AND FIRE FIGHTING SERVICES,,,,,,,,,,,,,,,,
+20-8  刑事事件の種類，手続，裁判所別人員 （令和3年） 20-8  DEFENDANTS BY TYPE OF CRIMINAL CASE， COURT PROCEEDING， AND COURT ( 2021 ),,,,,,,,,,,,,,,,
+この表の数字は再審事件を含む。,,,,,,,,,,,,,,,,
+Figures in this table include retrial cases.,,,,,,,,,,,,,,,,
+注 1)  表側の略号のうち 「通」 は通常第一審事件， 「略」 は略式事件をいう。,,,,,,,,,,,,,,,,
+2)  表頭のうち，(A)，(B)及び(F)は延べ人員である。また， (C)，(D)及び（E)は実人員である。,,,,,,,,,,,,,,,,
+3)  表頭のうち，(C)には「有罪・一部無罪」を含む。,,,,,,,,,,,,,,,,
+4)  表頭のうち， 「執行猶予を付したもの」及び「執行猶予のうちの保護観察」につき，（）内はいずれも一部執行猶予を付したもので，内数である。,,,,,,,,,,,,,,,,
+"Note: 1) Abbreviations ""R"" and ""S"" indicate ordinary cases of the court of first instance and summary proceeding cases， respectively.",,,,,,,,,,,,,,,,
+2) Figures in (A)， (B)， and (F) are the total numbers of persons， while those in (C)， (D)， and (E) indicate the actual numbers of persons. ,,,,,,,,,,,,,,,,
+"3) Figures in (C) include ""Partial acquittal.""",,,,,,,,,,,,,,,,
+"4) The numbers in parentheses under ""With suspension of sentence"" and ""Probation"" indicate the number of cases for which ""partial suspension of sentence"" was issued， and are included in the respective totals.",,,,,,,,,,,,,,,,
+資料：東京地方裁判所事務局総務課 Source: Tokyo District Court,,,,,,,,,,,,,,,,
+区分階層(0:総数　1:区分　2:区分内訳),,,,,,,,,,,,,,,,

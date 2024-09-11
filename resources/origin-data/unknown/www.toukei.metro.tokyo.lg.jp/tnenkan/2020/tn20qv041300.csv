@@ -1,0 +1,429 @@
+﻿年度,Fiscal year,会社名,Company name,系統,Line,駅,Station,マーク Mark,乗車人員 Boarding passengers／総数 Total,乗車人員 Boarding passengers／定期 Commuter Pass,乗車人員 Boarding passengers／普通 Tickets,降車人員 Deboarding passengers／総数 Total,降車人員 Deboarding passengers／定期 Commuter Pass,降車人員 Deboarding passengers／普通 Tickets
+平成28,2016,総数,Total,,,,,,3171756,1880366,1291391,3152656,1869545,1283111
+平成29,2017,総数,Total,,,,,,3226788,1917000,1309787,3208970,1905917,1303052
+平成30,2018,総数,Total,,,,,,3280132,1949811,1330324,3260021,1938555,1321467
+令和元,2019,総数,Total,,,,,,3273051,1970461,1302590,3252815,1959105,1293710
+令和2,2020,総数,Total,,,,,,2199063,1350813,848250,2184675,1342639,842037
+令和2,2020,区部,Ku area only,,,,,,1758591,1081473,677118,1744496,1073299,671198
+令和2,2020,小田急電鉄,Odakyu Electric Railway,,,,,,233336,144309,89027,233610,144309,89301
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,,,,221280,136603,84677,221805,136603,85202
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,新宿,Shinjuku,※,58487,37792,20695,57527,37792,19735
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,南新宿,Minami-Shinjuku,※,515,158,357,637,158,479
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,参宮橋,Sangubashi,※,1577,757,820,1648,757,891
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,代々木八幡,Yoyogi-Hachiman,※,2756,1470,1286,2922,1470,1452
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,代々木上原,Yoyogi-Uehara,※,33910,22335,11575,35504,22335,13169
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,東北沢,Higashi-Kitazawa,※,1020,440,580,1022,440,582
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,下北沢,Shimo-Kitazawa,※,15109,7668,7441,15120,7668,7452
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,世田谷代田,Setagaya-Daita,※,1293,612,681,1285,612,673
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,梅ヶ丘,Umegaoka,※,3588,2016,1572,3542,2016,1526
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,豪徳寺,Gotokuji,※,3901,2204,1697,3801,2204,1597
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,経堂,Kyodo,※,10447,6342,4105,10450,6342,4108
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,千歳船橋,Chitose-Funabashi,※,8232,5147,3085,8098,5147,2951
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,祖師ヶ谷大蔵,Soshigaya-Okura,※,6161,3570,2591,6167,3570,2597
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,成城学園前,Seijogakuen-Mae,※,10754,6607,4147,10641,6607,4034
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,喜多見,Kitami,※,4660,2884,1776,4647,2884,1763
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,狛江,Komae,,6680,4352,2328,6700,4352,2348
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,和泉多摩川,Izumi-Tamagawa,,2160,1436,724,2100,1436,664
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,鶴川,Tsurukawa,,8483,5524,2959,8445,5524,2921
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,玉川学園前,Tamagawagakuen-Mae,,4888,3063,1825,4923,3063,1860
+令和2,2020,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,町田,Machida,,36659,22226,14433,36626,22226,14400
+令和2,2020,小田急電鉄,Odakyu Electric Railway,多摩線,Tama Line,,,,12056,7706,4350,11805,7706,4099
+令和2,2020,小田急電鉄,Odakyu Electric Railway,多摩線,Tama Line,小田急永山,Odakyu Nagayama,,4089,2529,1560,4043,2529,1514
+令和2,2020,小田急電鉄,Odakyu Electric Railway,多摩線,Tama Line,小田急多摩ｾﾝﾀｰ,Odakyu Tama Center,,5832,3672,2160,5607,3672,1935
+令和2,2020,小田急電鉄,Odakyu Electric Railway,多摩線,Tama Line,唐木田,Karakida,,2135,1505,630,2155,1505,650
+令和2,2020,西武鉄道,Seibu Railway,,,,,,395004,255947,139057,394961,255947,139014
+令和2,2020,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,,,,170773,109878,60895,169705,109878,59827
+令和2,2020,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,池袋,Ikebukuro,※,61717,41883,19834,60481,41883,18598
+令和2,2020,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,椎名町,Shiinamachi,※,2941,1545,1396,2875,1545,1330
+令和2,2020,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,東長崎,Higashi-Nagasaki,※,3912,2411,1501,3921,2411,1510
+令和2,2020,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,江古田,Ekoda,※,3642,1934,1708,3673,1934,1739
+令和2,2020,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,桜台,Sakuradai,※,2187,1101,1086,2167,1101,1066
+令和2,2020,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,練馬,Nerima,◎※,13009,7615,5394,13417,7615,5802
+令和2,2020,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,中村橋,Nakamurabashi,※,5687,3611,2076,5650,3611,2039
+令和2,2020,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,富士見台,Fujimidai,※,3893,2287,1606,3844,2287,1557
+令和2,2020,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,練馬高野台,Nerima-Takanodai,※,3882,2201,1681,3834,2201,1633
+令和2,2020,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,石神井公園,Shakujii-Koen,※,11293,7276,4017,11299,7276,4023
+令和2,2020,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,大泉学園,Oizumi-Gakuen,※,11806,7369,4437,11774,7369,4405
+令和2,2020,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,保谷,Hoya,,8686,5891,2795,8658,5891,2767
+令和2,2020,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,ひばりケ丘,Hibarigaoka,,10094,6295,3799,10094,6295,3799
+令和2,2020,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,東久留米,Higashi-Kurume,,7562,4817,2745,7572,4817,2755
+令和2,2020,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,清瀬,Kiyose,,9497,6459,3038,9480,6459,3021
+令和2,2020,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,秋津,Akitsu,,10965,7183,3782,10966,7183,3783
+令和2,2020,西武鉄道,Seibu Railway,西武有楽町線,Seibu Yurakucho Line,,,※,24126,16176,7950,25222,16176,9046
+令和2,2020,西武鉄道,Seibu Railway,西武有楽町線,Seibu Yurakucho Line,小竹向原,Kotake-Mukaihara,,18344,12437,5907,19665,12437,7228
+令和2,2020,西武鉄道,Seibu Railway,西武有楽町線,Seibu Yurakucho Line,新桜台,Shin-Sakuradai,,1308,703,605,1242,703,539
+令和2,2020,西武鉄道,Seibu Railway,西武有楽町線,Seibu Yurakucho Line,練馬,Nerima,◎,4474,3036,1438,4315,3036,1279
+令和2,2020,西武鉄道,Seibu Railway,豊島線,Toshima Line,,,※,1852,1035,817,1836,1035,801
+令和2,2020,西武鉄道,Seibu Railway,豊島線,Toshima Line,練馬,Nerima,◎,84,2,82,92,2,90
+令和2,2020,西武鉄道,Seibu Railway,豊島線,Toshima Line,豊島園,Toshimaen,,1768,1033,735,1744,1033,711
+令和2,2020,西武鉄道,Seibu Railway,山口線,Yamaguchi Line,,,,28,4,24,23,4,19
+令和2,2020,西武鉄道,Seibu Railway,山口線,Yamaguchi Line,西武遊園地,Seibu-Yuenchi,◎,28,4,24,23,4,19
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,,,,137679,88868,48811,137770,88868,48902
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,西武新宿,Seibu-Shinjuku,※,22882,14835,8047,21452,14835,6617
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,高田馬場,Takadanobaba,※,36753,24996,11757,38848,24996,13852
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,下落合,Shimo-Ochiai,※,1742,812,930,1599,812,787
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,中井,Nakai,※,3442,1950,1492,3463,1950,1513
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,新井薬師前,Araiyakushi-Mae,※,3014,1723,1291,2980,1723,1257
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,沼袋,Numabukuro,※,2758,1511,1247,2701,1511,1190
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,野方,Nogata,※,3460,1937,1523,3434,1937,1497
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,都立家政,Toritsu-Kasei,※,2627,1671,956,2615,1671,944
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,鷺ノ宮,Saginomiya,※,4564,2857,1707,4427,2857,1570
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,下井草,Shimo-Igusa,※,3386,2243,1143,3357,2243,1114
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,井荻,Iogi,※,2733,1616,1117,2697,1616,1081
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,上井草,Kami-Igusa,※,2816,1878,938,2828,1878,950
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,上石神井,Kami-Shakujii,※,6112,4119,1993,6100,4119,1981
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,武蔵関,Musashi-Seki,※,4436,2869,1567,4348,2869,1479
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,東伏見,Higashi-Fushimi,,3147,2048,1099,3123,2048,1075
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,西武柳沢,Seibu-Yagisawa,,2291,1236,1055,2244,1236,1008
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,田無,Tanashi,,10351,6933,3418,10333,6933,3400
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,花小金井,Hana-Koganei,,7825,5206,2619,7812,5206,2606
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,小平,Kodaira,◎,3981,2482,1499,3978,2482,1496
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,久米川,Kumegawa,,4514,2668,1846,4560,2668,1892
+令和2,2020,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,東村山,Higashi-Murayama,◎,4845,3278,1567,4871,3278,1593
+令和2,2020,西武鉄道,Seibu Railway,拝島線,Haijima Line,,,,21233,14262,6971,21133,14262,6871
+令和2,2020,西武鉄道,Seibu Railway,拝島線,Haijima Line,小平,Kodaira,◎,1204,699,505,1179,699,480
+令和2,2020,西武鉄道,Seibu Railway,拝島線,Haijima Line,萩山,Hagiyama,◎,897,548,349,878,548,330
+令和2,2020,西武鉄道,Seibu Railway,拝島線,Haijima Line,小川,Ogawa,◎,1956,1294,662,1928,1294,634
+令和2,2020,西武鉄道,Seibu Railway,拝島線,Haijima Line,東大和市,Higashi-Yamatoshi,,3410,2184,1226,3386,2184,1202
+令和2,2020,西武鉄道,Seibu Railway,拝島線,Haijima Line,玉川上水,Tamagawajosui,,5426,3687,1739,5432,3687,1745
+令和2,2020,西武鉄道,Seibu Railway,拝島線,Haijima Line,武蔵砂川,Musashi-Sunagawa,,1685,1152,533,1671,1152,519
+令和2,2020,西武鉄道,Seibu Railway,拝島線,Haijima Line,西武立川,Seibu-Tachikawa,,1638,1099,539,1629,1099,530
+令和2,2020,西武鉄道,Seibu Railway,拝島線,Haijima Line,拝島,Haijima,,5017,3599,1418,5030,3599,1431
+令和2,2020,西武鉄道,Seibu Railway,西武園線,Seibuen Line,,,,515,272,243,494,272,222
+令和2,2020,西武鉄道,Seibu Railway,西武園線,Seibuen Line,東村山,Higashi-Murayama,◎,40,5,35,43,5,38
+令和2,2020,西武鉄道,Seibu Railway,西武園線,Seibuen Line,西武園,Seibuen,,475,267,208,451,267,184
+令和2,2020,西武鉄道,Seibu Railway,国分寺線,Kokubunji Line,,,,18186,12458,5728,18178,12458,5720
+令和2,2020,西武鉄道,Seibu Railway,国分寺線,Kokubunji Line,国分寺,Kokubunji,◎,9628,6661,2967,9611,6661,2950
+令和2,2020,西武鉄道,Seibu Railway,国分寺線,Kokubunji Line,恋ケ窪,Koigakubo,,1845,1184,661,1835,1184,651
+令和2,2020,西武鉄道,Seibu Railway,国分寺線,Kokubunji Line,鷹の台,Takanodai,,2969,2079,890,2954,2079,875
+令和2,2020,西武鉄道,Seibu Railway,国分寺線,Kokubunji Line,小川,Ogawa,◎,1894,1253,641,1892,1253,639
+令和2,2020,西武鉄道,Seibu Railway,国分寺線,Kokubunji Line,東村山,Higashi-Murayama,◎,1850,1281,569,1886,1281,605
+令和2,2020,西武鉄道,Seibu Railway,多摩湖線,Tamako Line,,,,12294,7670,4624,12282,7670,4612
+令和2,2020,西武鉄道,Seibu Railway,多摩湖線,Tamako Line,国分寺,Kokubunji,◎,5568,3489,2079,5658,3489,2169
+令和2,2020,西武鉄道,Seibu Railway,多摩湖線,Tamako Line,一橋学園,Hitotsubashi-Gakuen,,2873,1787,1086,2828,1787,1041
+令和2,2020,西武鉄道,Seibu Railway,多摩湖線,Tamako Line,青梅街道,Ome-Kaido,,1152,739,413,1145,739,406
+令和2,2020,西武鉄道,Seibu Railway,多摩湖線,Tamako Line,萩山,Hagiyama,◎,477,209,268,459,209,250
+令和2,2020,西武鉄道,Seibu Railway,多摩湖線,Tamako Line,八坂,Yasaka,,880,535,345,878,535,343
+令和2,2020,西武鉄道,Seibu Railway,多摩湖線,Tamako Line,武蔵大和,Musashi-Yamato,,1035,701,334,1013,701,312
+令和2,2020,西武鉄道,Seibu Railway,多摩湖線,Tamako Line,西武遊園地,Seibu-Yuenchi,◎,309,210,99,301,210,91
+令和2,2020,西武鉄道,Seibu Railway,多摩川線,Tamagawa Line,,,,8318,5324,2994,8318,5324,2994
+令和2,2020,西武鉄道,Seibu Railway,多摩川線,Tamagawa Line,武蔵境,Musashi-Sakai,,3879,2548,1331,3893,2548,1345
+令和2,2020,西武鉄道,Seibu Railway,多摩川線,Tamagawa Line,新小金井,Shin-Koganei,,568,318,250,561,318,243
+令和2,2020,西武鉄道,Seibu Railway,多摩川線,Tamagawa Line,多磨,Tama　　　,,1452,861,591,1444,861,583
+令和2,2020,西武鉄道,Seibu Railway,多摩川線,Tamagawa Line,白糸台,Shiraitodai   ,,902,552,350,913,552,361
+令和2,2020,西武鉄道,Seibu Railway,多摩川線,Tamagawa Line,競艇場前,Kyoteijo-Mae,,416,199,217,409,199,210
+令和2,2020,西武鉄道,Seibu Railway,多摩川線,Tamagawa Line,是政,Koremasa,,1101,846,255,1098,846,252
+令和2,2020,東急電鉄,Tokyu Corporation,,,,,,492298,285747,206551,477022,277573,199449
+令和2,2020,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,,,※,119024,65371,53653,118714,65371,53343
+令和2,2020,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,渋谷,Shibuya,◎,53802,31204,22598,53400,31204,22196
+令和2,2020,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,代官山,Daikan-Yama,,3531,1242,2289,3916,1242,2674
+令和2,2020,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,中目黒,Naka-Meguro,,24156,14697,9459,23902,14697,9205
+令和2,2020,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,祐天寺,Yutenji,,4255,1962,2293,4248,1962,2286
+令和2,2020,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,学芸大学,Gakugei-Daigaku,,10464,5586,4878,10453,5586,4867
+令和2,2020,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,都立大学,Toritsu-Daigaku,,6508,2979,3529,6367,2979,3388
+令和2,2020,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,自由が丘,Jiyugaoka,◎,11744,5512,6232,11977,5512,6465
+令和2,2020,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,田園調布,Den-En-Chofu,◎,2845,1483,1362,2851,1483,1368
+令和2,2020,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,多摩川,Tamagawa,◎,1719,706,1013,1600,706,894
+令和2,2020,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,,,※,58291,34572,23719,58580,34572,24008
+令和2,2020,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,目黒,Meguro,,33546,21447,12099,34205,21447,12758
+令和2,2020,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,不動前,Fudo-Mae,,4328,2251,2077,4069,2251,1818
+令和2,2020,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,武蔵小山,Musashi-Koyama,,7233,3765,3468,7317,3765,3552
+令和2,2020,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,西小山,Nishi-Koyama,,4907,3098,1809,4782,3098,1684
+令和2,2020,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,洗足,Senzoku,,1997,900,1097,1984,900,1084
+令和2,2020,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,大岡山,Ookayama,◎,2425,1189,1236,2398,1189,1209
+令和2,2020,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,奥沢,Okusawa,,1791,871,920,1786,871,915
+令和2,2020,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,田園調布,Den-En-Chofu,◎,1562,849,713,1580,849,731
+令和2,2020,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,多摩川,Tamagawa　,◎,502,202,300,459,202,257
+令和2,2020,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,,,,153269,93602,59667,153490,93602,59888
+令和2,2020,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,渋谷,Shibuya,◎※,79691,52707,26984,80564,52707,27857
+令和2,2020,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,池尻大橋,Ikejiri-Ohashi,※,8841,5281,3560,8555,5281,3274
+令和2,2020,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,三軒茶屋,Sangen-Jaya,◎※,17259,9257,8002,17225,9257,7968
+令和2,2020,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,駒沢大学,Komazawa-Daigaku,※,8315,4560,3755,8046,4560,3486
+令和2,2020,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,桜新町,Sakura-Shimmachi,※,9248,5704,3544,9146,5704,3442
+令和2,2020,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,用賀,Yoga,※,8960,4961,3999,8919,4961,3958
+令和2,2020,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,二子玉川,Futako-Tamagawa  ,◎※,11782,5810,5972,11848,5810,6038
+令和2,2020,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,つくし野,Tsukushino,,1502,961,541,1498,961,537
+令和2,2020,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,すずかけ台,Suzukakedai,,1422,906,516,1408,906,502
+令和2,2020,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,南町田グランベリーパーク,Minami-Machida Grandberry Park,,6249,3455,2794,6281,3455,2826
+令和2,2020,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,,,※,60662,31589,29073,60378,31589,28789
+令和2,2020,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,大井町,Oimachi,,16929,10448,6481,16868,10448,6420
+令和2,2020,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,下神明,Shimo-Shimmei,,1225,622,603,1226,622,604
+令和2,2020,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,戸越公園,Togoshi-Koen,,1884,900,984,1921,900,1021
+令和2,2020,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,中延,Nakanobu,,3156,1842,1314,3225,1842,1383
+令和2,2020,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,荏原町,Ebara-Machi,,2356,1329,1027,2339,1329,1010
+令和2,2020,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,旗の台,Hatanodai,◎,3367,1717,1650,3274,1717,1557
+令和2,2020,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,北千束,Kita-Senzoku,,982,432,550,973,432,541
+令和2,2020,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,大岡山,Ookayama,◎,3146,1574,1572,3194,1574,1620
+令和2,2020,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,緑が丘,Midorigaoka,,1391,580,811,1292,580,712
+令和2,2020,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,自由が丘,Jiyugaoka,◎,7187,2727,4460,7149,2727,4422
+令和2,2020,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,九品仏,Kuhombutsu,,1787,899,888,1759,899,860
+令和2,2020,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,尾山台,Oyamadai,,3507,1790,1717,3460,1790,1670
+令和2,2020,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,等々力,Todoroki,,3909,2204,1705,3877,2204,1673
+令和2,2020,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,上野毛,Kaminoge,,2962,1528,1434,2924,1528,1396
+令和2,2020,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,二子玉川,Futako-Tamagawa ,◎,6874,2997,3877,6897,2997,3900
+令和2,2020,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,,,※,56374,33697,22677,56547,33697,22850
+令和2,2020,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,五反田,Gotanda,,14231,9575,4656,14331,9575,4756
+令和2,2020,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,大崎広小路,Osakihirokoji,,984,292,692,1065,292,773
+令和2,2020,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,戸越銀座,Togoshi-Ginza,,2658,1269,1389,2686,1269,1417
+令和2,2020,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,荏原中延,Ebara-Nakanobu,,1912,1104,808,1903,1104,799
+令和2,2020,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,旗の台,Hatanodai,◎,1926,848,1078,1819,848,971
+令和2,2020,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,長原,Nagahara,,2113,1119,994,2229,1119,1110
+令和2,2020,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,洗足池,Senzoku-Ike,,2543,1539,1004,2524,1539,985
+令和2,2020,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,石川台,Ishikawa-Dai,,2100,1031,1069,2047,1031,1016
+令和2,2020,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,雪が谷大塚,Yukigaya-Otsuka,,3301,1940,1361,3344,1940,1404
+令和2,2020,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,御嶽山,Ontakesan,,3559,2459,1100,3574,2459,1115
+令和2,2020,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,久が原,Kugahara,,2216,1113,1103,2216,1113,1103
+令和2,2020,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,千鳥町,Chidoricho,,2248,1351,897,2212,1351,861
+令和2,2020,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,池上,Ikegami,,5085,2912,2173,5048,2912,2136
+令和2,2020,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,蓮沼,Hasunuma,,1252,576,676,1146,576,570
+令和2,2020,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,蒲田,Kamata,◎,10246,6569,3677,10403,6569,3834
+令和2,2020,東急電鉄,Tokyu Corporation,東急多摩川線,Tokyu Tamagawa Line,,,※,29311,18742,10569,29313,18742,10571
+令和2,2020,東急電鉄,Tokyu Corporation,東急多摩川線,Tokyu Tamagawa Line,多摩川,Tamagawa　,◎,516,248,268,485,248,237
+令和2,2020,東急電鉄,Tokyu Corporation,東急多摩川線,Tokyu Tamagawa Line,沼部,Numabe,,1480,815,665,1454,815,639
+令和2,2020,東急電鉄,Tokyu Corporation,東急多摩川線,Tokyu Tamagawa Line,鵜の木,Unoki,,2750,1547,1203,2722,1547,1175
+令和2,2020,東急電鉄,Tokyu Corporation,東急多摩川線,Tokyu Tamagawa Line,下丸子,Shimomaruko,,4956,3605,1351,4931,3605,1326
+令和2,2020,東急電鉄,Tokyu Corporation,東急多摩川線,Tokyu Tamagawa Line,武蔵新田,Musashi-Nitta,,3837,2298,1539,3786,2298,1488
+令和2,2020,東急電鉄,Tokyu Corporation,東急多摩川線,Tokyu Tamagawa Line,矢口渡,Yaguchi-No-Watashi,,3705,2192,1513,3605,2192,1413
+令和2,2020,東急電鉄,Tokyu Corporation,東急多摩川線,Tokyu Tamagawa Line,蒲田,Kamata,◎,12067,8037,4030,12330,8037,4293
+令和2,2020,東急電鉄,Tokyu Corporation,世田谷線,Setagaya Line,,,※,15367,8174,7193,-,-,-
+令和2,2020,京浜急行電鉄,Keikyu Corporation,,,,,,116452,66639,49813,116304,66639,49665
+令和2,2020,京浜急行電鉄,Keikyu Corporation,本線,Main Line,,,※,93897,56633,37264,93649,56633,37016
+令和2,2020,京浜急行電鉄,Keikyu Corporation,本線,Main Line,泉岳寺,Sengakuji,,21815,13219,8596,21644,13219,8425
+令和2,2020,京浜急行電鉄,Keikyu Corporation,本線,Main Line,品川,Shinagawa,,30301,18933,11368,30612,18933,11679
+令和2,2020,京浜急行電鉄,Keikyu Corporation,本線,Main Line,北品川,Kitashinagawa,,1288,816,472,1279,816,463
+令和2,2020,京浜急行電鉄,Keikyu Corporation,本線,Main Line,新馬場,Shimbamba,,2185,1206,979,2136,1206,930
+令和2,2020,京浜急行電鉄,Keikyu Corporation,本線,Main Line,青物横丁,Aomono-Yokocho,,5286,3487,1799,5279,3487,1792
+令和2,2020,京浜急行電鉄,Keikyu Corporation,本線,Main Line,鮫洲,Samezu,,1543,889,654,1524,889,635
+令和2,2020,京浜急行電鉄,Keikyu Corporation,本線,Main Line,立会川,Tachiaigawa,,2679,1649,1030,2608,1649,959
+令和2,2020,京浜急行電鉄,Keikyu Corporation,本線,Main Line,大森海岸,Omorikaigan,,1998,1048,950,1993,1048,945
+令和2,2020,京浜急行電鉄,Keikyu Corporation,本線,Main Line,平和島,Heiwajima,,6608,4146,2462,6559,4146,2413
+令和2,2020,京浜急行電鉄,Keikyu Corporation,本線,Main Line,大森町,Omorimachi,,3073,1872,1201,3056,1872,1184
+令和2,2020,京浜急行電鉄,Keikyu Corporation,本線,Main Line,梅屋敷,Umeyashiki,,2292,1217,1075,2279,1217,1062
+令和2,2020,京浜急行電鉄,Keikyu Corporation,本線,Main Line,京急蒲田,Keikyu Kamata,◎,8045,4164,3881,7969,4164,3805
+令和2,2020,京浜急行電鉄,Keikyu Corporation,本線,Main Line,雑色,Zoshiki,,4432,2645,1787,4400,2645,1755
+令和2,2020,京浜急行電鉄,Keikyu Corporation,本線,Main Line,六郷土手,Rokugodote,,2352,1342,1010,2311,1342,969
+令和2,2020,京浜急行電鉄,Keikyu Corporation,空港線,Airport Line,,,※,22555,10006,12549,22655,10006,12649
+令和2,2020,京浜急行電鉄,Keikyu Corporation,空港線,Airport Line,糀谷,Kojiya,,3915,2298,1617,3944,2298,1646
+令和2,2020,京浜急行電鉄,Keikyu Corporation,空港線,Airport Line,大鳥居,Otorii,,3888,2155,1733,3865,2155,1710
+令和2,2020,京浜急行電鉄,Keikyu Corporation,空港線,Airport Line,穴守稲荷,Anamori-Inari,,2589,1527,1062,2691,1527,1164
+令和2,2020,京浜急行電鉄,Keikyu Corporation,空港線,Airport Line,天空橋,Tenkubashi,,2257,1464,793,2295,1464,831
+令和2,2020,京浜急行電鉄,Keikyu Corporation,空港線,Airport Line,羽田空港第3ターミナル,Haneda Airport Terminal3,,1292,518,774,1335,518,817
+令和2,2020,京浜急行電鉄,Keikyu Corporation,空港線,Airport Line,羽田空港第1・第2ターミナル,Haneda Airport Terminal1･2,,8614,2044,6570,8525,2044,6481
+令和2,2020,京王電鉄,Keio Corporation,,,,,,427920,255162,172758,427850,255162,172688
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,,,,314755,191437,123318,314601,191437,123164
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,新宿,Shinjuku,※,91513,60350,31163,91839,60350,31489
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,初台,Hatsudai,※,7654,4130,3524,7589,4130,3459
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,幡ケ谷,Hatagaya,※,4302,2077,2225,4235,2077,2158
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,笹塚,Sasazuka,※,10914,6588,4326,10864,6588,4276
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,代田橋,Daitabashi,※,2734,1521,1213,2650,1521,1129
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,明大前,Meidaimae,◎※,6229,3864,2365,6192,3864,2328
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,下高井戸,Shimo-Takaido,※,5440,2870,2570,5399,2870,2529
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,桜上水,Sakurajosui,※,4313,2441,1872,4248,2441,1807
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,上北沢,Kami-Kitazawa,※,2131,1139,992,2116,1139,977
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,八幡山,Hachiman-Yama,※,5712,3682,2030,5656,3682,1974
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,芦花公園,Roka-Koen,※,2020,979,1041,1987,979,1008
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,千歳烏山,Chitose-Karasuyama,※,11214,6410,4804,11183,6410,4773
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,仙川,Sengawa,,10425,6715,3710,10472,6715,3757
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,つつじケ丘,Tsutsujigaoka,,6036,3482,2554,5948,3482,2466
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,柴崎,Shibasaki,,2525,1428,1097,2485,1428,1057
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,国領,Kokuryo,,5186,3390,1796,5153,3390,1763
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,布田,Fuda,,2191,1616,575,2115,1616,499
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,調布,Chofu,◎,16318,8769,7549,16424,8769,7655
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,西調布,Nishi-Chofu,,2377,1458,919,2339,1458,881
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,飛田給,Tobitakyu,,2954,1725,1229,2993,1725,1268
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,武蔵野台,Musashinodai,,3422,2289,1133,3414,2289,1125
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,多磨霊園,Tama-Reien,,1826,906,920,1779,906,873
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,東府中,Higashi-Fuchu,◎,2868,1526,1342,2823,1526,1297
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,府中競馬正門前,Fuchukeiba-Seimommae,,67,29,38,78,29,49
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,府中,Fuchu,,11378,6266,5112,11437,6266,5171
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,分倍河原,Bubaigawara,,12464,8360,4104,12531,8360,4171
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,中河原,Nakagawara,,3618,2139,1479,3618,2139,1479
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,聖蹟桜ケ丘,Seiseki-Sakuragaoka,,8594,5004,3590,8613,5004,3609
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,百草園,Mogusaen,,1105,572,533,1074,572,502
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,高幡不動,Takahatafudo,◎,6861,4335,2526,6865,4335,2530
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,多摩動物公園,Tama-Dobutsukoen,,413,217,196,418,217,201
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,南平,Minamidaira,,1477,958,519,1465,958,507
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,平山城址公園,Hirayamajoshi-Koen,,1138,634,504,1122,634,488
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,長沼,Naganuma,,586,304,282,567,304,263
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,北野,Kitano,◎,3073,1656,1417,3058,1656,1402
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,京王八王子,Keio-Hachioji,,7115,4209,2906,7133,4209,2924
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,京王片倉,Keio-Katakura,,688,390,298,700,390,310
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,山田,Yamada,,720,390,330,705,390,315
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,めじろ台,Mejirodai,,1901,1144,757,1893,1144,749
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,狭間,Hazama,,1028,593,435,1063,593,470
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,高尾,Takao,,3209,1890,1319,3276,1890,1386
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,高尾山口,Takaosanguchi,,1273,228,1045,1262,228,1034
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,京王多摩川,Keio-Tamagawa,,2278,1407,871,2213,1407,806
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,京王よみうりランド,Keio-Yomiuri-Land,,1792,876,916,1774,876,898
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,稲城,Inagi,,2713,1725,988,2711,1725,986
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,京王永山,Keio-Nagayama,,5988,3529,2459,6031,3529,2502
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,京王多摩センター,Keio-Tama-Center,,10451,6398,4053,10551,6398,4153
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,京王堀之内,Keio-Horinouchi,,4129,2443,1686,4146,2443,1703
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,南大沢,Minami-Osawa,,7464,4418,3046,7483,4418,3065
+令和2,2020,京王電鉄,Keio Corporation,京王線,Keio Line,多摩境,Tamasakai,,2928,1968,960,2911,1968,943
+令和2,2020,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,,,,113165,63725,49440,113249,63725,49524
+令和2,2020,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,渋谷,Shibuya,※,40251,23997,16254,40002,23997,16005
+令和2,2020,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,神泉,Shinsen,※,1375,504,871,1553,504,1049
+令和2,2020,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,駒場東大前,Komaba-Todaimae,※,3367,2134,1233,3319,2134,1185
+令和2,2020,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,池ノ上,Ikenoue,※,1228,509,719,1187,509,678
+令和2,2020,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,下北沢,Shimo-Kitazawa,※,13540,6649,6891,13842,6649,7193
+令和2,2020,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,新代田,Shindaita,※,1219,498,721,1153,498,655
+令和2,2020,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,東松原,Higashi-Matsubara,※,2382,1384,998,2315,1384,931
+令和2,2020,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,明大前,Meidaimae,◎※,4750,2592,2158,4793,2592,2201
+令和2,2020,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,永福町,Eifukucho,※,4311,2310,2001,4346,2310,2036
+令和2,2020,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,西永福,Nishi-Eifuku,※,2133,1021,1112,2052,1021,1031
+令和2,2020,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,浜田山,Hamadayama,※,3829,2112,1717,3861,2112,1749
+令和2,2020,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,高井戸,Takaido,※,5862,3835,2027,5805,3835,1970
+令和2,2020,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,富士見ヶ丘,Fujimigaoka,※,1898,991,907,1878,991,887
+令和2,2020,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,久我山,Kugayama,※,5513,3257,2256,5467,3257,2210
+令和2,2020,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,三鷹台,Mitakadai,,2874,1778,1096,2807,1778,1029
+令和2,2020,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,井の頭公園,Inokashira-Koen,,897,435,462,880,435,445
+令和2,2020,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,吉祥寺,Kichijoji,,17736,9719,8017,17989,9719,8270
+令和2,2020,京成電鉄,Keisei Electric Railway,,,,,,107095,70159,36936,106932,70159,36773
+令和2,2020,京成電鉄,Keisei Electric Railway,本線,Main Line,,,※,57172,36010,21162,56884,36010,20874
+令和2,2020,京成電鉄,Keisei Electric Railway,本線,Main Line,京成上野,Keisei-Ueno,,6016,3189,2827,5293,3189,2104
+令和2,2020,京成電鉄,Keisei Electric Railway,本線,Main Line,日暮里,Nippori,,11728,7652,4076,12056,7652,4404
+令和2,2020,京成電鉄,Keisei Electric Railway,本線,Main Line,新三河島,Shim-Mikawashima,,862,442,420,858,442,416
+令和2,2020,京成電鉄,Keisei Electric Railway,本線,Main Line,町屋,Machiya,,2810,1629,1181,2928,1629,1299
+令和2,2020,京成電鉄,Keisei Electric Railway,本線,Main Line,千住大橋,Senjuohashi,,2360,1430,930,2346,1430,916
+令和2,2020,京成電鉄,Keisei Electric Railway,本線,Main Line,京成関屋,Keisei-Sekiya,,3486,2200,1286,3505,2200,1305
+令和2,2020,京成電鉄,Keisei Electric Railway,本線,Main Line,堀切菖蒲園,Horikirishobuen,,3189,1881,1308,3167,1881,1286
+令和2,2020,京成電鉄,Keisei Electric Railway,本線,Main Line,お花茶屋,Ohanajaya,,4838,3149,1689,4820,3149,1671
+令和2,2020,京成電鉄,Keisei Electric Railway,本線,Main Line,青砥,Aoto,◎,3982,2367,1615,4005,2367,1638
+令和2,2020,京成電鉄,Keisei Electric Railway,本線,Main Line,京成高砂,Keisei-Takasago,◎,14280,9767,4513,14331,9767,4564
+令和2,2020,京成電鉄,Keisei Electric Railway,本線,Main Line,京成小岩,Keisei-Koiwa,,2705,1719,986,2673,1719,954
+令和2,2020,京成電鉄,Keisei Electric Railway,本線,Main Line,江戸川,Edogawa,,916,585,331,902,585,317
+令和2,2020,京成電鉄,Keisei Electric Railway,押上線,Oshiage Line,,,※,44824,30993,13831,44986,30993,13993
+令和2,2020,京成電鉄,Keisei Electric Railway,押上線,Oshiage Line,押上,Oshiage,,29151,20867,8284,29600,20867,8733
+令和2,2020,京成電鉄,Keisei Electric Railway,押上線,Oshiage Line,京成曳舟,Keisei-Hikifune,,2799,1656,1143,2707,1656,1051
+令和2,2020,京成電鉄,Keisei Electric Railway,押上線,Oshiage Line,八広,Yahiro,,1898,1208,690,1859,1208,651
+令和2,2020,京成電鉄,Keisei Electric Railway,押上線,Oshiage Line,四ツ木,Yotsugi,,2455,1497,958,2403,1497,906
+令和2,2020,京成電鉄,Keisei Electric Railway,押上線,Oshiage Line,京成立石,Keisei-Tateishi,,5487,3919,1568,5454,3919,1535
+令和2,2020,京成電鉄,Keisei Electric Railway,押上線,Oshiage Line,青砥,Aoto,◎,3034,1846,1188,2963,1846,1117
+令和2,2020,京成電鉄,Keisei Electric Railway,金町線,Kanamachi Line,,,※,5099,3156,1943,5062,3156,1906
+令和2,2020,京成電鉄,Keisei Electric Railway,金町線,Kanamachi Line,京成高砂,Keisei-Takasago,◎,403,171,232,405,171,234
+令和2,2020,京成電鉄,Keisei Electric Railway,金町線,Kanamachi Line,柴又,Shibamata,,1168,631,537,1157,631,526
+令和2,2020,京成電鉄,Keisei Electric Railway,金町線,Kanamachi Line,京成金町,Keisei-Kanamachi,,3528,2354,1174,3500,2354,1146
+令和2,2020,東武鉄道,Tobu Railway ,,,,,,242774,161384,81390,242736,161384,81352
+令和2,2020,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,,,※,124661,83977,40684,124887,83977,40910
+令和2,2020,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,浅草,Asakusa,,5016,2747,2269,4890,2747,2143
+令和2,2020,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,とうきょうｽｶｲﾂﾘｰ,Tokyo Skytree,,15912,11320,4592,15918,11320,4598
+令和2,2020,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,曳舟,Hikifune,◎,3402,1999,1403,3451,1999,1452
+令和2,2020,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,東向島,Higashi-Mukojima,,2768,1746,1022,2770,1746,1024
+令和2,2020,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,鐘ヶ淵,Kanegafuchi,,1835,1078,757,1793,1078,715
+令和2,2020,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,堀切,Horikiri,,507,343,164,499,343,156
+令和2,2020,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,牛田,Ushida,,3260,2048,1212,3244,2048,1196
+令和2,2020,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,北千住,Kita-Senju,,60669,42305,18364,61277,42305,18972
+令和2,2020,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,小菅,Kosuge,,959,540,419,922,540,382
+令和2,2020,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,五反野,Gotanno,,5385,3603,1782,5327,3603,1724
+令和2,2020,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,梅島,Umejima,,5317,3602,1715,5253,3602,1651
+令和2,2020,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,西新井,Nishiarai,◎,9366,5872,3494,9296,5872,3424
+令和2,2020,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,竹ノ塚,Takenotsuka,,10265,6774,3491,10247,6774,3473
+令和2,2020,東武鉄道,Tobu Railway ,大師線,Daishi Line,,,※,2068,1359,709,2056,1359,697
+令和2,2020,東武鉄道,Tobu Railway ,大師線,Daishi Line,西新井,Nishiarai,◎,90,8,82,90,8,82
+令和2,2020,東武鉄道,Tobu Railway ,大師線,Daishi Line,大師前,Daishimae,,1978,1351,627,1966,1351,615
+令和2,2020,東武鉄道,Tobu Railway ,亀戸線,Kameido Line,,,※,8029,5150,2879,7974,5150,2824
+令和2,2020,東武鉄道,Tobu Railway ,亀戸線,Kameido Line,曳舟,Hikifune,◎,718,361,357,731,361,370
+令和2,2020,東武鉄道,Tobu Railway ,亀戸線,Kameido Line,小村井,Omurai,,1686,1177,509,1655,1177,478
+令和2,2020,東武鉄道,Tobu Railway ,亀戸線,Kameido Line,東あずま,Higashi-Azuma,,1157,691,466,1116,691,425
+令和2,2020,東武鉄道,Tobu Railway ,亀戸線,Kameido Line,亀戸水神,Kameidosuijin,,647,366,281,626,366,260
+令和2,2020,東武鉄道,Tobu Railway ,亀戸線,Kameido Line,亀戸,Kameido,,3821,2555,1266,3846,2555,1291
+令和2,2020,東武鉄道,Tobu Railway ,東上線,Tojo Line,,,※,108016,70898,37118,107819,70898,36921
+令和2,2020,東武鉄道,Tobu Railway ,東上線,Tojo Line,池袋,Ikebukuro,,60278,42068,18210,60380,42068,18312
+令和2,2020,東武鉄道,Tobu Railway ,東上線,Tojo Line,北池袋,Kita-Ikebukuro,,1457,771,686,1384,771,613
+令和2,2020,東武鉄道,Tobu Railway ,東上線,Tojo Line,下板橋,Shimo-Itabashi,,2379,1378,1001,2306,1378,928
+令和2,2020,東武鉄道,Tobu Railway ,東上線,Tojo Line,大山,Oyama,,7281,4307,2974,7262,4307,2955
+令和2,2020,東武鉄道,Tobu Railway ,東上線,Tojo Line,中板橋,Naka-Itabashi,,4161,2545,1616,4049,2545,1504
+令和2,2020,東武鉄道,Tobu Railway ,東上線,Tojo Line,ときわ台,Tokiwadai,,6549,4180,2369,6538,4180,2358
+令和2,2020,東武鉄道,Tobu Railway ,東上線,Tojo Line,上板橋,Kami-Itabashi,,7368,4666,2702,7320,4666,2654
+令和2,2020,東武鉄道,Tobu Railway ,東上線,Tojo Line,東武練馬,Tobu-Nerima,,8003,4968,3035,7992,4968,3024
+令和2,2020,東武鉄道,Tobu Railway ,東上線,Tojo Line,下赤塚,Shimo-Akatsuka,,2338,1163,1175,2353,1163,1190
+令和2,2020,東武鉄道,Tobu Railway ,東上線,Tojo Line,成増,Narimasu,,8202,4852,3350,8235,4852,3383
+令和2,2020,北総鉄道,Hokuso Railway,,,,,,9370,6907,2463,9512,6907,2606
+令和2,2020,北総鉄道,Hokuso Railway,北総線,Hokuso Line,,,※,9370,6907,2463,9512,6907,2606
+令和2,2020,北総鉄道,Hokuso Railway,北総線,Hokuso Line,京成高砂,Keisei-Takasago,,8643,6438,2205,8807,6438,2369
+令和2,2020,北総鉄道,Hokuso Railway,北総線,Hokuso Line,新柴又,Shin-Shibamata,,727,469,258,705,469,237
+令和2,2020,高尾登山電鉄,Takao Tozan Railway,,,,,,1147,23,1124,1147,23,1124
+令和2,2020,高尾登山電鉄,Takao Tozan Railway,,,清滝,Kiyotaki,,281,11,269,340,11,329
+令和2,2020,高尾登山電鉄,Takao Tozan Railway,,,高尾山,Takaosan,,340,11,329,281,11,269
+令和2,2020,高尾登山電鉄,Takao Tozan Railway,,,山麓（リフト）,Sanroku (Chair Lift),,226,0,226,300,0,300
+令和2,2020,高尾登山電鉄,Takao Tozan Railway,,,山上（リフト）,Sanjo (Chair Lift),,300,0,300,226,0,226
+令和2,2020,東京モノレール,Tokyo Monorail,,,,,※,24269,14627,9642,24269,14627,9642
+令和2,2020,東京モノレール,Tokyo Monorail,,,モノレール浜松町,Monorail Hamamatsucho,,9981,5883,4098,9882,5883,3999
+令和2,2020,東京モノレール,Tokyo Monorail,,,天王洲アイル,Tennozu Isle,,3328,2233,1095,3342,2233,1109
+令和2,2020,東京モノレール,Tokyo Monorail,,,大井競馬場前,Oi Keibajo Mae,,1357,934,424,1344,934,410
+令和2,2020,東京モノレール,Tokyo Monorail,,,流通センター,Ryutsu Center,,2200,1573,627,2305,1573,732
+令和2,2020,東京モノレール,Tokyo Monorail,,,昭和島,Showajima,,978,774,203,991,774,217
+令和2,2020,東京モノレール,Tokyo Monorail,,,整備場,Seibijo,,256,181,74,294,181,113
+令和2,2020,東京モノレール,Tokyo Monorail,,,天空橋,Tenkubashi ,,1767,1187,580,1369,1187,182
+令和2,2020,東京モノレール,Tokyo Monorail,,,羽田空港第3ターミナル,Haneda Airport Terminal3,,279,132,147,292,132,159
+令和2,2020,東京モノレール,Tokyo Monorail,,,新整備場,Shin Seibijo,,404,219,185,616,219,397
+令和2,2020,東京モノレール,Tokyo Monorail,,,羽田空港第1ターミナル,Haneda Airport Terminal1,,1732,552,1180,1793,552,1241
+令和2,2020,東京モノレール,Tokyo Monorail,,,羽田空港第2ターミナル,Haneda Airport Terminal2,,1986,958,1028,2040,958,1083
+令和2,2020,御岳登山鉄道,Mitake Tozan Railway,,,,,,360,12,348,360,12,348
+令和2,2020,御岳登山鉄道,Mitake Tozan Railway,,,滝本,Takimoto,,182,6,176,178,6,172
+令和2,2020,御岳登山鉄道,Mitake Tozan Railway,,,御岳山,Mitakesan,,178,6,172,182,6,176
+令和2,2020,ゆりかもめ,Yurikamome Inc. ,,,,,,17273,6366,10907,17273,6366,10907
+令和2,2020,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,,,※,17273,6366,10907,17273,6366,10907
+令和2,2020,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,新橋,Shimbashi,,4449,1703,2745,4390,1670,2720
+令和2,2020,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,汐留,Shiodome,,582,173,410,607,182,425
+令和2,2020,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,竹芝,Takeshiba,,400,62,338,418,63,355
+令和2,2020,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,日の出,Hinode,,229,68,161,226,66,159
+令和2,2020,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,芝浦ふ頭,Shibaura-Futo,,607,260,346,638,265,373
+令和2,2020,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,お台場海浜公園,Odaiba-Kaihinkoen,,1408,535,872,1391,532,858
+令和2,2020,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,台場,Daiba,,1056,257,799,1111,270,842
+令和2,2020,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,東京国際クルーズターミナル,Tokyo International Cruise Terminal,,248,109,139,254,111,144
+令和2,2020,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,テレコムセンター,Telecom Center,,1166,608,558,1211,621,590
+令和2,2020,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,青海,Aomi,,377,51,326,385,52,333
+令和2,2020,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,東京ビッグサイト,Tokyo Big Sight ,,884,315,569,910,324,586
+令和2,2020,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,有明,Ariake,,686,215,471,689,217,471
+令和2,2020,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,有明テニスの森,Ariake Tennis-No-Mori,,684,250,434,689,246,443
+令和2,2020,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,市場前,Shijo-Mae,,1118,492,627,1128,504,623
+令和2,2020,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,新豊洲,Shin-Toyosu,,435,137,299,455,136,320
+令和2,2020,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,豊洲,Toyosu,,2944,1131,1813,2772,1107,1665
+令和2,2020,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,,,,,,54303,33823,20480,54303,33823,20480
+令和2,2020,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,りんかい線,Rinkai Line,,,※,54303,33823,20480,54303,33823,20480
+令和2,2020,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,りんかい線,Rinkai Line,新木場,Shin-Kiba ,,7163,4541,2622,7053,4541,2512
+令和2,2020,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,りんかい線,Rinkai Line,東雲,Shinonome ,,2003,1374,629,2009,1374,635
+令和2,2020,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,りんかい線,Rinkai Line,国際展示場,Kokusai-Tenjijo  ,,6069,3881,2189,6119,3881,2238
+令和2,2020,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,りんかい線,Rinkai Line,東京テレポート,Tokyo Teleport ,,6233,3265,2968,6147,3265,2882
+令和2,2020,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,りんかい線,Rinkai Line,天王洲アイル,Tennozu Isle,,4357,2952,1405,4404,2952,1452
+令和2,2020,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,りんかい線,Rinkai Line,品川シーサイド,Shinagawa Seaside　,,5291,3678,1614,5261,3678,1584
+令和2,2020,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,りんかい線,Rinkai Line,大井町,Oimachi ,,9593,5837,3757,9617,5837,3781
+令和2,2020,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,りんかい線,Rinkai Line,大崎,Osaki ,,13594,8296,5298,13692,8296,5396
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,,,,32448,17872,14576,32448,17872,14576
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,多摩センター,Tama Center  ,,3564,2122,1443,3547,2122,1426
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,松が谷,Matsugaya    ,,393,209,183,414,209,205
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,大塚・帝京大学,Otsuka・Teikyo-Daigaku,,838,377,461,783,377,405
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,中央大学・明星大学,Chuo-Daigaku・Meisei-Daigaku ,,1063,636,427,1097,636,461
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,多摩動物公園,Tama-Dobutsukoen  ,,243,84,159,238,84,154
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,程久保,Hodokubo  ,,261,128,133,237,128,110
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,高幡不動,Takahatafudo  ,,2861,1575,1286,2878,1575,1303
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,万願寺,Manganji  ,,1110,565,545,1089,565,523
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,甲州街道,Koshukaido,,1291,809,482,1267,809,458
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,柴崎体育館,Shibasaki-Taiikukan  ,,620,298,322,577,298,279
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,立川南,Tachikawa-Minami  ,,4144,2487,1657,4136,2487,1649
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,立川北,Tachikawa-Kita  ,,5516,2756,2760,5625,2756,2869
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,高松,Takamatsu ,,1167,488,679,1208,488,721
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,立飛,Tachihi  ,,1701,472,1228,1781,472,1308
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,泉体育館,Izumi-Taiikukan  ,,901,576,325,894,576,318
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,砂川七番,Sunagawa-Nanaban ,,721,445,276,698,445,253
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,玉川上水,Tamagawajosui  ,,3124,1828,1297,3112,1828,1284
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,桜街道,Sakurakaido,,1056,691,366,1012,691,322
+令和2,2020,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,上北台,Kamikitadai ,,1875,1325,550,1855,1325,529
+令和2,2020,首都圏新都市鉄道,Metropolitan Intercity Railway Company  ,,,,,,45014,31836,13178,45948,31836,14112
+令和2,2020,首都圏新都市鉄道,Metropolitan Intercity Railway Company  ,つくばエクスプレス,Tsukuba Express,,,※,45014,31836,13178,45948,31836,14112
+令和2,2020,首都圏新都市鉄道,Metropolitan Intercity Railway Company  ,つくばエクスプレス,Tsukuba Express,秋葉原,Akihabara,,15652,11810,3842,15916,11810,4106
+令和2,2020,首都圏新都市鉄道,Metropolitan Intercity Railway Company  ,つくばエクスプレス,Tsukuba Express,新御徒町,Shin-Okachimachi,,5761,4198,1563,6093,4198,1894
+令和2,2020,首都圏新都市鉄道,Metropolitan Intercity Railway Company  ,つくばエクスプレス,Tsukuba Express,浅草,Asakusa,,2434,1293,1142,2447,1293,1154
+令和2,2020,首都圏新都市鉄道,Metropolitan Intercity Railway Company  ,つくばエクスプレス,Tsukuba Express,南千住,Minami-Senju,,1659,1005,654,1803,1005,799
+令和2,2020,首都圏新都市鉄道,Metropolitan Intercity Railway Company  ,つくばエクスプレス,Tsukuba Express,北千住,Kita-Senju,,13283,9124,4159,13585,9124,4460
+令和2,2020,首都圏新都市鉄道,Metropolitan Intercity Railway Company  ,つくばエクスプレス,Tsukuba Express,青井,Aoi,,1908,1318,590,1851,1318,533
+令和2,2020,首都圏新都市鉄道,Metropolitan Intercity Railway Company  ,つくばエクスプレス,Tsukuba Express,六町,Rokucho,,4317,3088,1228,4254,3088,1166
+,,,,,,,,,,,,,,
+東京都統計年鑑（令和2年）TOKYO STATISTICAL YEARBOOK ( 2020 ) 4　運輸 4　TRANSPORT ,,,,,,,,,,,,,,
+4-13  私鉄の駅別乗降車人員 (平成28～令和2年度) 4-13　NUMBER OF PASSENGERS ON PRIVATE RAILWAY TRAINS BY STATION ( Fiscal Years 2016-2020 ),,,,,,,,,,,,,,
+同一会社内の乗り継ぎは除く。 ◎印は同一会社内の乗換え駅を示す。 ※印は区部にある駅 (線) を示す。,,,,,,,,,,,,,,
+Figures exclude transit for same company lines. Stations marked with ◎ indicate transit stations for same company lines. ※ refers to stations (lines) located in the ku area.,,,,,,,,,,,,,,
+資料：私鉄各社 Source: Private railway companies,,,,,,,,,,,,,,
+（単位　千人) (In thousands),,,,,,,,,,,,,,

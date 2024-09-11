@@ -1,0 +1,199 @@
+対象局,実地監査期間,対象件数(件),抽出件数(件),対象金額(百万円),抽出金額(百万円)
+財務局,H30.5.21～H30.6.20,443,113(25.5％),351788,181595(51.6％)
+生活文化局,H30.5.8～H30.5.11,70,12(17.1％),3057,2023(66.2％)
+オリンピック・パラリンピック準備局,H30.5.8～H30.5.11,36,19(52.8％),1941,1776(91.5％)
+都市整備局,H30.6.5～H30.6.29,1102,152(13.8％),169307,60825(35.9％)
+環境局,H30.2.5～H30.2.22,122,26(21.3％),8327,2281(27.4％)
+福祉保健局,H30.10.1～H30.10.4,157,34(21.7%),4719,2929(62.1%)
+病院経営本部,H30.9.11～H30.9.13,104,32(30.8%),2309,1965(85.1%)
+産業労働局,H30.2.20～H30.2.23,152,26(17.1%),2394,1129(47.2%)
+中央卸売市場,H30.1.29～H30.2.1,480,70(14.6%),50847,39377(77.4%)
+建設局,H30.8.31～H30.10.4,4229,196(4.6%),368548,158387(43.0%)
+港湾局,H30.2.5～H30.2.16,870,84(9.7%),182276,96932(53.2%)
+東京消防庁,H30.1.22～H30.1.26,596,89(14.9%),35501,19034(53.6%)
+交通局,H30.1.15～H30.1.19,853,98(11.5%),120133,43092(35.9%)
+水道局,H30.5.14～H30.5.25,1592,184(11.6%),464271,142648(30.7%)
+下水道局,H30.5.29～H30.6.29,2850,194(6.8%),610656,145099(23.8%)
+教育庁,H30.2.5～H30.2.16,779,64(8.2%),13351,3603(27.0%)
+警視庁,H30.9.19～H30.9.27,980,76(7.8%),105296,36771(34.9%)
+島しょ,H30.4.9～H30.4.19,1285,105(8.2%),43825,16394(37.4%)
+合計,,16700,1574(9.4%),2538555,955869(37.7%)
+下水道局,H3
+    <ic231:蜷咲ｧｰ rdf:nodeID="A1"/>
+    <jrrk:target rdf:resource="http://odp.jig.jp/res/target/%E5%A4%A7%E5%B4%8E%E7%AC%AC%E4%B8%80%E5%9C%B0%E5%8C%BA"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.3739</geo:lat>
+    <jrrk:category rdf:resource="http://odp.jig.jp/res/category/%E4%B8%80%E6%99%82%E9%9B%86%E5%90%88%E5%A0%B4%E6%89%80"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.4337</geo:long>
+    <ic231:遞ｮ蛻･>荳�譎る寔蜷亥�ｴ謇�</ic231:遞ｮ蛻･>
+    <ic:蝨ｰ逅�ｺｧ讓� rdf:resource="http://odp.jig.jp/res/geopoint/+35.373901/+139.433701/"/>
+    <odp:supportHighTide rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportHighTide>
+    <ic:遞ｮ蛻･>荳�譎る寔蜷亥�ｴ謇�</ic:遞ｮ蛻･>
+    <ic:蜷咲ｧｰ rdf:nodeID="A1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.366001/+139.442596/">
+    <ic231:邨悟ｺｦ>+139.442596</ic231:邨悟ｺｦ>
+    <ic:邨悟ｺｦ>+139.442596</ic:邨悟ｺｦ>
+    <ic231:邱ｯ蠎ｦ>+35.366001</ic231:邱ｯ蠎ｦ>
+    <ic:邱ｯ蠎ｦ>+35.366001</ic:邱ｯ蠎ｦ>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.374001/+139.431396/">
+    <ic231:邨悟ｺｦ>+139.431396</ic231:邨悟ｺｦ>
+    <ic:邨悟ｺｦ>+139.431396</ic:邨悟ｺｦ>
+    <ic231:邱ｯ蠎ｦ>+35.374001</ic231:邱ｯ蠎ｦ>
+    <ic:邱ｯ蠎ｦ>+35.374001</ic:邱ｯ蠎ｦ>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/710#%E6%97%A7%E8%8D%8F%E5%8E%9F%E5%B8%82%E5%A0%B4%E8%B7%A1%E5%9C%B0%E3%83%91%E3%83%BC%E3%82%AF%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D/%E4%B8%80%E6%99%82%E9%9B%86%E5%90%88%E5%A0%B4%E6%89%80/35.374/139.431/">
+    <odp:supportLandslide rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportLandslide>
+    <ic231:遞ｮ蛻･>荳�譎る寔蜷亥�ｴ謇�</ic231:遞ｮ蛻･>
+    <ic231:蜷咲ｧｰ rdf:nodeID="A14"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:蝨ｰ逅�ｺｧ讓� rdf:resource="http://odp.jig.jp/res/geopoint/+35.374001/+139.431000/"/>
+    <schema:description xml:lang="ja">螟暮區莨�</schema:description>
+    <odp:supportInundation rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportInundation>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.431</geo:long>
+    <rdf:type rdf:resource="http://purl.org/jrrk#TemporaryGatheringLocation"/>
+    <odp:supportFlood rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportFlood>
+    <jrrk:category rdf:resource="http://odp.jig.jp/res/category/%E4%B8%80%E6%99%82%E9%9B%86%E5%90%88%E5%A0%B4%E6%89%80"/>
+    <odp:supportHighTide rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportHighTide>
+    <odp:target rdf:resource="http://odp.jig.jp/res/target/%E5%A4%A7%E5%B4%8E%E7%AC%AC%E4%B8%80%E5%9C%B0%E5%8C%BA"/>
+    <ic:蝨ｰ逅�ｺｧ讓� rdf:resource="http://odp.jig.jp/res/geopoint/+35.374001/+139.431000/"/>
+    <odp:supportVolcanic rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportVolcanic>
+    <ic231:隱ｬ譏� xml:lang="ja">螟暮區莨�</ic231:隱ｬ譏�>
+    <ic:隱ｬ譏� xml:lang="ja">螟暮區莨�</ic:隱ｬ譏�>
+    <odp:supportTsunami rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportTsunami>
+    <jrrk:target rdf:resource="http://odp.jig.jp/res/target/%E5%A4%A7%E5%B4%8E%E7%AC%AC%E4%B8%80%E5%9C%B0%E5%8C%BA"/>
+    <ic:遞ｮ蛻･>荳�譎る寔蜷亥�ｴ謇�</ic:遞ｮ蛻･>
+    <odp:supportEarthquake rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportEarthquake>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.374</geo:lat>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:蜷咲ｧｰ rdf:nodeID="A14"/>
+    <odp:supportLargeFire rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportLargeFire>
+    <rdfs:label xml:lang="ja">譌ｧ闕丞次蟶ょ�ｴ霍｡蝨ｰ繝代�繧ｯ繝槭Φ繧ｷ繝ｧ繝ｳ蜑�</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/710#%E5%A6%99%E5%9B%BD%E5%AF%BA/%E4%B8%80%E6%99%82%E9%9B%86%E5%90%88%E5%A0%B4%E6%89%80/35.3644/139.4436/">
+    <ic:隱ｬ譏� xml:lang="ja">隲剰ｨｪ逕ｺ莨�</ic:隱ｬ譏�>
+    <odp:supportLandslide rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportLandslide>
+    <odp:supportTsunami rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportTsunami>
+    <odp:target rdf:resource="http://odp.jig.jp/res/target/%E5%93%81%E5%B7%9D%E7%AC%AC%E4%BA%8C%E5%9C%B0%E5%8C%BA"/>
+    <odp:supportEarthquake rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportEarthquake>
+    <odp:supportHighTide rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportHighTide>
+    <ic231:蜷咲ｧｰ rdf:nodeID="A15"/>
+    <odp:supportVolcanic rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportVolcanic>
+    <ic231:蝨ｰ逅�ｺｧ讓� rdf:resource="http://odp.jig.jp/res/geopoint/+35.364399/+139.443604/"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:遞ｮ蛻･>荳�譎る寔蜷亥�ｴ謇�</ic:遞ｮ蛻･>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.3644</geo:lat>
+    <odp:supportFlood rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportFlood>
+    <ic231:隱ｬ譏� xml:lang="ja">隲剰ｨｪ逕ｺ莨�</ic231:隱ｬ譏�>
+    <jrrk:category rdf:resource="http://odp.jig.jp/res/category/%E4%B8%80%E6%99%82%E9%9B%86%E5%90%88%E5%A0%B4%E6%89%80"/>
+    <jrrk:target rdf:resource="http://odp.jig.jp/res/target/%E5%93%81%E5%B7%9D%E7%AC%AC%E4%BA%8C%E5%9C%B0%E5%8C%BA"/>
+    <ic:蝨ｰ逅�ｺｧ讓� rdf:resource="http://odp.jig.jp/res/geopoint/+35.364399/+139.443604/"/>
+    <schema:description xml:lang="ja">隲剰ｨｪ逕ｺ莨�</schema:description>
+    <ic231:遞ｮ蛻･>荳�譎る寔蜷亥�ｴ謇�</ic231:遞ｮ蛻･>
+    <rdf:type rdf:resource="http://purl.org/jrrk#TemporaryGatheringLocation"/>
+    <odp:supportLargeFire rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportLargeFire>
+    <ic:蜷咲ｧｰ rdf:nodeID="A15"/>
+    <rdfs:label xml:lang="ja">螯吝嵜蟇ｺ</rdfs:label>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.4436</geo:long>
+    <odp:supportInundation rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportInundation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.371700/+139.443497/">
+    <ic231:邨悟ｺｦ>+139.443497</ic231:邨悟ｺｦ>
+    <ic:邨悟ｺｦ>+139.443497</ic:邨悟ｺｦ>
+    <ic231:邱ｯ蠎ｦ>+35.371700</ic231:邱ｯ蠎ｦ>
+    <ic:邱ｯ蠎ｦ>+35.371700</ic:邱ｯ蠎ｦ>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.361198/+139.424194/">
+    <ic231:邨悟ｺｦ>+139.424194</ic231:邨悟ｺｦ>
+    <ic:邨悟ｺｦ>+139.424194</ic:邨悟ｺｦ>
+    <ic231:邱ｯ蠎ｦ>+35.361198</ic231:邱ｯ蠎ｦ>
+    <ic:邱ｯ蠎ｦ>+35.361198</ic:邱ｯ蠎ｦ>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/710#%E6%88%B8%E8%B6%8A%E5%B0%8F%E5%AD%A6%E6%A0%A1/%E4%B8%80%E6%99%82%E9%9B%86%E5%90%88%E5%A0%B4%E6%89%80/35.3639/139.4316/">
+    <ic231:蜷咲ｧｰ rdf:nodeID="A16"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.3639</geo:lat>
+    <jrrk:target rdf:resource="http://odp.jig.jp/res/target/%E8%8D%8F%E5%8E%9F%E7%AC%AC%E4%BA%94%E5%9C%B0%E5%8C%BA"/>
+    <ic231:蝨ｰ逅�ｺｧ讓� rdf:resource="http://odp.jig.jp/res/geopoint/+35.363899/+139.431595/"/>
+    <odp:target rdf:resource="http://odp.jig.jp/res/target/%E8%8D%8F%E5%8E%9F%E7%AC%AC%E4%BA%94%E5%9C%B0%E5%8C%BA"/>
+    <odp:supportHighTide rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportHighTide>
+    <ic:遞ｮ蛻･>荳�譎る寔蜷亥�ｴ謇�</ic:遞ｮ蛻･>
+    <rdfs:label xml:lang="ja">謌ｸ雜雁ｰ丞ｭｦ譬｡</rdfs:label>
+    <odp:supportVolcanic rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportVolcanic>
+    <odp:supportTsunami rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportTsunami>
+    <ic:隱ｬ譏� xml:lang="ja">雎顔伴荳�荳∫岼逕ｺ莨�</ic:隱ｬ譏�>
+    <ic:蝨ｰ逅�ｺｧ讓� rdf:resource="http://odp.jig.jp/res/geopoint/+35.363899/+139.431595/"/>
+    <jrrk:category rdf:resource="http://odp.jig.jp/res/category/%E4%B8%80%E6%99%82%E9%9B%86%E5%90%88%E5%A0%B4%E6%89%80"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <odp:supportInundation rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportInundation>
+    <ic231:遞ｮ蛻･>荳�譎る寔蜷亥�ｴ謇�</ic231:遞ｮ蛻･>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.4316</geo:long>
+    <rdf:type rdf:resource="http://purl.org/jrrk#TemporaryGatheringLocation"/>
+    <odp:supportLandslide rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportLandslide>
+    <schema:description xml:lang="ja">雎顔伴荳�荳∫岼逕ｺ莨�</schema:description>
+    <ic:蜷咲ｧｰ rdf:nodeID="A16"/>
+    <odp:supportLargeFire rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportLargeFire>
+    <ic231:隱ｬ譏� xml:lang="ja">雎顔伴荳�荳∫岼逕ｺ莨�</ic231:隱ｬ譏�>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <odp:supportFlood rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportFlood>
+    <odp:supportEarthquake rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportEarthquake>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/710#%E9%83%BD%E7%AB%8B%E7%94%A3%E6%A5%AD%E6%8A%80%E8%A1%93%E9%AB%98%E7%AD%89%E5%B0%82%E9%96%80%E5%AD%A6%E6%A0%A1%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89/%E4%B8%80%E6%99%82%E9%9B%86%E5%90%88%E5%A0%B4%E6%89%80/35.3625/139.4456/">
+    <odp:supportVolcanic rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportVolcanic>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <odp:supportInundation rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportInundation>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.4456</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.3625</geo:lat>
+    <schema:description xml:lang="ja">魄ｫ豢ｲ譖咏伴莨�</schema:description>
+    <rdfs:label xml:lang="ja">驛ｽ遶狗肇讌ｭ謚�陦馴ｫ倡ｭ牙ｰる摩蟄ｦ譬｡繧ｰ繝ｩ繝ｳ繝�</rdfs:label>
+    <ic:隱ｬ譏� xml:lang="ja">魄ｫ豢ｲ譖咏伴莨�</ic:隱ｬ譏�>
+    <ic231:遞ｮ蛻･>荳�譎る寔蜷亥�ｴ謇�</ic231:遞ｮ蛻･>
+    <ic:蝨ｰ逅�ｺｧ讓� rdf:resource="http://odp.jig.jp/res/geopoint/+35.362499/+139.445602/"/>
+    <odp:supportLandslide rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportLandslide>
+    <odp:supportEarthquake rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportEarthquake>
+    <ic231:蝨ｰ逅�ｺｧ讓� rdf:resource="http://odp.jig.jp/res/geopoint/+35.362499/+139.445602/"/>
+    <jrrk:target rdf:resource="http://odp.jig.jp/res/target/%E5%A4%A7%E4%BA%95%E7%AC%AC%E4%B8%80%E5%9C%B0%E5%8C%BA"/>
+    <jrrk:category rdf:resource="http://odp.jig.jp/res/category/%E4%B8%80%E6%99%82%E9%9B%86%E5%90%88%E5%A0%B4%E6%89%80"/>
+    <odp:supportHighTide rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportHighTide>
+    <odp:supportLargeFire rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportLargeFire>
+    <ic231:蜷咲ｧｰ rdf:nodeID="A17"/>
+    <ic:遞ｮ蛻･>荳�譎る寔蜷亥�ｴ謇�</ic:遞ｮ蛻･>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:蜷咲ｧｰ rdf:nodeID="A17"/>
+    <odp:supportFlood rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportFlood>
+    <rdf:type rdf:resource="http://purl.org/jrrk#TemporaryGatheringLocation"/>
+    <odp:supportTsunami rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportTsunami>
+    <odp:target rdf:resource="http://odp.jig.jp/res/target/%E5%A4%A7%E4%BA%95%E7%AC%AC%E4%B8%80%E5%9C%B0%E5%8C%BA"/>
+    <ic231:隱ｬ譏� xml:lang="ja">魄ｫ豢ｲ譖咏伴莨�</ic231:隱ｬ譏�>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/710#%E5%B0%8F%E5%B7%9D%E3%83%93%E3%83%AB/%E4%B8%80%E6%99%82%E9%9B%86%E5%90%88%E5%A0%B4%E6%89%80/35.3658/139.4245/">
+    <odp:supportHighTide rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportHighTide>
+    <ic:蜷咲ｧｰ rdf:nodeID="A18"/>
+    <rdf:type rdf:resource="http://purl.org/jrrk#TemporaryGatheringLocation"/>
+    <odp:supportEarthquake rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportEarthquake>
+    <ic231:遞ｮ蛻･>荳�譎る寔蜷亥�ｴ謇�</ic231:遞ｮ蛻･>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <jrrk:target rdf:resource="http://odp.jig.jp/res/target/%E8%8D%8F%E5%8E%9F%E7%AC%AC%E5%9B%9B%E5%9C%B0%E5%8C%BA"/>
+    <odp:supportLandslide rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportLandslide>
+    <odp:supportInundation rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportInundation>
+    <schema:description xml:lang="ja">荳ｭ蟒ｶ蝗帑ｸ∫岼逕ｺ莨�</schema:description>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:隱ｬ譏� xml:lang="ja">荳ｭ蟒ｶ蝗帑ｸ∫岼逕ｺ莨�</ic:隱ｬ譏�>
+    <ic231:蜷咲ｧｰ rdf:nodeID="A18"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.4245</geo:long>
+    <ic231:蝨ｰ逅�ｺｧ讓� rdf:resource="http://odp.jig.jp/res/geopoint/+35.365799/+139.424500/"/>
+    <odp:supportFlood rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportFlood>
+    <odp:target rdf:resource="http://odp.jig.jp/res/target/%E8%8D%8F%E5%8E%9F%E7%AC%AC%E5%9B%9B%E5%9C%B0%E5%8C%BA"/>
+    <jrrk:category rdf:resource="http://odp.jig.jp/res/category/%E4%B8%80%E6%99%82%E9%9B%86%E5%90%88%E5%A0%B4%E6%89%80"/>
+    <rdfs:label xml:lang="ja">蟆丞ｷ昴ン繝ｫ</rdfs:label>
+    <odp:supportVolcanic rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportVolcanic>
+    <ic231:隱ｬ譏� xml:lang="ja">荳ｭ蟒ｶ蝗帑ｸ∫岼逕ｺ莨�</ic231:隱ｬ譏�>
+    <odp:supportLargeFire rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportLargeFire>
+    <odp:supportTsunami rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportTsunami>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.3658</geo:lat>
+    <ic:蝨ｰ逅�ｺｧ讓� rdf:resource="http://odp.jig.jp/res/geopoint/+35.365799/+139.424500/"/>
+    <ic:遞ｮ蛻･>荳�譎る寔蜷亥�ｴ謇�</ic:遞ｮ蛻･>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/710#%E6%9D%B1%E5%93%81%E5%B7%9D%E6%B5%B7%E4%B8%8A%E5%85%AC%E5%9C%92/%E4%B8%80%E6%99%82%E9%9B%86%E5%90%88%E5%A0%B4%E6%89%80/35.372/139.4459/">
+    <odp:supportVolcanic rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</odp:supportVolcanBV辟b1ｫm6Gﾖﾋ愿ｶ]_ｯﾄbﾜ簇粐b�0ﾎ螳ｦRｦNﾟC�ﾇﾋ�#>xC�ｭ⑲｣��ｯQD抖 ﾒ､�3c�ﾕ4寬V5<ｧ=崧ｩｮ鉉{V��Mu餔�ｱ,ﾈdN撈挂ﾏｷ;l*ﾐ2;dGPF�匤��忞ﾛ>ｿMｹ^槨ﾙ\尖2=fｹﾝo�Wn�&ｵ"jｦFﾎｱﾈ{ﾇ鉎邱/lｳﾄ�･	ﾘ! >�ｳ	ﾃ8u�=･ｳ�2ｽ6劉h<ｺｷﾇ�3ｩﾄﾃｼkrｬ>ﾉ
+rｼ'ﾀ:oｲuVBﾘ�-Vﾄﾘ/ﾍﾘ-@ﾕｺﾅｱZ喊�繋IMｫj:]i5�鋻鮱�朧}Hﾓﾘ憂�｡ｷ癈yIﾇ}ｲ慧ﾟﾘ陋

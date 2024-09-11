@@ -1,0 +1,76 @@
+﻿地域階層,地域コード,項番 Item number,地域,District,農家数 Farm households／総数 Total,農家数 Farm households／自給的農家数 Non-commercial farm households,農家数 Farm households／販売農家数 Commercial farm households,農業経営体 Farm management entity／経営耕地面積 Managed cultivated land area／田 Paddy-fields／経営体数 Number of management entities,農業経営体 Farm management entity／経営耕地面積 Managed cultivated land area／田 Paddy-fields／面積 Planted area,農業経営体 Farm management entity／経営耕地面積 Managed cultivated land area／畑(樹園地を除く) Fields (Excluding orchards)／経営体数 Number of management entities,農業経営体 Farm management entity／経営耕地面積 Managed cultivated land area／畑(樹園地を除く) Fields (Excluding orchards)／面積 Planted area,農業経営体 Farm management entity／経営耕地面積 Managed cultivated land area／樹園地 Orchards／経営体数 Number of management entities,農業経営体 Farm management entity／経営耕地面積 Managed cultivated land area／樹園地 Orchards／面積 Planted area
+0,13000,,総数,Tokyo-to,9567,4961,4606,340,13427,4486,256513,1930,84265
+1,13100,,区部,All ku          　,1251,551,700,50,4993,736,39959,237,5811
+2,13101,1,千代田区,Chiyoda-ku,-,-,-,-,-,-,-,-,-
+2,13102,2,中央区,Chuo-ku,-,-,-,-,-,5,2674,-,-
+2,13103,3,港区,Minato-ku,-,-,-,x,x,x,x,x,x
+2,13104,4,新宿区,Shinjuku-ku,2,1,1,x,x,x,x,x,x
+2,13105,5,文京区,Bunkyo-ku,1,1,-,-,-,-,-,-,-
+2,13106,6,台東区,Taito-ku,1,-,1,x,x,x,x,x,x
+2,13107,7,墨田区,Sumida-ku,1,1,-,-,-,-,-,-,-
+2,13108,8,江東区,Koto-ku,1,1,-,x,x,x,x,x,x
+2,13109,9,品川区,Shinagawa-ku,-,-,-,-,-,-,-,-,-
+2,13110,10,目黒区,Meguro-ku,8,3,5,-,-,6,110,1,14
+2,13111,11,大田区,Ota-ku,5,2,3,-,-,4,111,1,1
+2,13112,12,世田谷区,Setagaya-ku,312,141,171,3,44,178,5695,81,2060
+2,13113,13,渋谷区,Shibuya-ku,1,1,-,-,-,-,-,-,-
+2,13114,14,中野区,Nakano-ku,9,7,2,-,-,4,80,-,-
+2,13115,15,杉並区,Suginami-ku,95,42,53,2,48,52,2145,18,583
+2,13116,16,豊島区,Toshima-ku,1,1,-,-,-,-,-,-,-
+2,13117,17,北区,Kita-ku,-,-,-,-,-,-,-,-,-
+2,13118,18,荒川区,Arakawa-ku,1,1,-,-,-,-,-,-,-
+2,13119,19,板橋区,Itabashi-ku,52,34,18,2,140,19,529,11,182
+2,13120,20,練馬区,Nerima-ku,394,152,242,3,112,249,10853,107,2695
+2,13121,21,足立区,Adachi-ku,119,65,54,8,968,57,4298,5,59
+2,13122,22,葛飾区,Katsushika-ku,105,40,65,20,2700,64,2691,6,120
+2,13123,23,江戸川区,Edogawa-ku,143,58,85,10,741,95,3680,7,97
+1,13200,,市部,All shi,6853,3554,3299,290,8434,3249,182637,1412,47226
+2,13201,1,八王子市,Hachioji-shi,1012,688,324,46,2259,304,17462,121,3693
+2,13202,2,立川市,Tachikawa-shi,277,68,209,5,207,232,18332,63,3569
+2,13203,3,武蔵野市,Musashino-shi,59,10,49,-,-,49,3052,18,418
+2,13204,4,三鷹市,Mitaka-shi,246,62,184,-,-,183,9072,100,3468
+2,13205,5,青梅市,Ome-shi,604,477,127,22,448,116,7603,49,2059
+2,13206,6,府中市,Fuchu-shi,276,133,143,36,933,144,5995,48,1945
+2,13207,7,昭島市,Akishima-shi,117,68,49,14,436,45,1743,23,551
+2,13208,8,調布市,Chofu-shi,189,67,122,7,174,119,5990,31,892
+2,13209,9,町田市,Machida-shi,659,380,279,38,1138,301,14053,132,3394
+2,13210,10,小金井市,Koganei-shi,127,46,81,-,-,80,4164,48,1308
+2,13211,11,小平市,Kodaira-shi,273,86,187,1,5,183,9938,96,2836
+2,13212,12,日野市,Hino-shi,273,153,120,18,414,109,3722,57,1614
+2,13213,13,東村山市,Higashimurayama-shi,252,101,151,5,63,139,7138,86,3290
+2,13214,14,国分寺市,Kokubunji-shi,176,39,137,-,-,150,10845,52,1980
+2,13215,15,国立市,Kunitachi-shi,109,61,48,19,597,49,2224,17,312
+2,13218,16,福生市,Fussa-shi,33,23,10,1,10,11,431,5,54
+2,13219,17,狛江市,Komae-shi,108,52,56,1,10,57,1974,23,619
+2,13220,18,東大和市,Higashiyamato-shi,140,77,63,-,-,68,2727,31,913
+2,13221,19,清瀬市,Kiyose-shi,198,51,147,2,45,149,13694,25,805
+2,13222,20,東久留米市,Higashikurume-shi,241,72,169,2,21,166,11350,48,2181
+2,13223,21,武蔵村山市,Musashimurayama-shi,265,137,128,1,2,135,7640,49,2807
+2,13224,22,多摩市,Tama-shi,70,50,20,5,201,23,1468,18,400
+2,13225,23,稲城市,Inagi-shi,222,71,151,19,324,87,2430,126,4581
+2,13227,24,羽村市,Hamura-shi,94,45,49,8,183,57,2710,11,134
+2,13228,25,あきる野市,Akiruno-shi,646,478,168,40,964,166,8485,80,2009
+2,13229,26,西東京市,Nishitokyo-shi,187,59,128,-,-,127,8395,55,1394
+1,13300,,郡部,All gun,709,543,166,-,-,155,10558,56,3038
+2,13303,1,瑞穂町,Mizuho-machi,338,223,115,-,-,103,7593,38,2617
+2,13305,2,日の出町,Hinode-machi,202,154,48,-,-,49,2709,16,394
+2,13307,3,檜原村,Hinohara-mura,119,117,2,x,x,x,x,x,x
+2,13308,4,奥多摩町,Okutama-machi,50,49,1,x,x,x,x,x,x
+1,13350,,島部,All islands,754,313,441,-,-,346,23359,225,28190
+2,13361,1,大島町,Oshima-machi,139,71,68,-,-,72,6884,9,750
+2,13362,2,利島村,Toshima-mura,30,-,30,-,-,6,472,29,10224
+2,13363,3,新島村,Niijima-mura,112,104,8,-,-,14,1035,2,38
+2,13364,4,神津島村,Kozushima-mura,30,22,8,-,-,7,76,3,21
+2,13381,5,三宅村,Miyake-mura,49,28,21,-,-,20,1084,5,235
+2,13382,6,御蔵島村,Mikurajima-mura,15,8,7,-,-,7,244,-,-
+2,13401,7,八丈町,Hachijo-machi,319,55,264,-,-,187,12431,144,15968
+2,13402,8,青ヶ島村,Aogashima-mura,6,3,3,-,-,4,238,-,-
+2,13421,9,小笠原村,Ogasawara-mura,54,22,32,-,-,29,895,33,954
+,,,,,,,,,,,,,
+東京都統計年鑑（令和3年）TOKYO STATISTICAL YEARBOOK ( 2021 ) 9　農林水産業 9 AGRICULTURE， FORESTRY， AND FISHERIES,,,,,,,,,,,,,
+9-1  地域別農家数及び農業経営体の経営耕地面積 （令和2年2月1日） 9-1 NUMBER OF FARM HOUSEHOLDS AND SIZE OF CULTIVATED AREA OF FARM MANAGEMENT ENTITIES BY DISTRICT ( Feb. 1，  2020 ）,,,,,,,,,,,,,
+「農林業センサス」による。,,,,,,,,,,,,,
+Data are based on the Census of Agriculture and Forestry. ,,,,,,,,,,,,,
+資料：農林水産省 「2020年農林業センサス」，都総務局統計部産業統計課 「2020年農林業センサス　東京都分調査結果報告」 Source: Ministry of Agriculture， Forestry and Fisheries; Bureau of General Affairs， TMG,,,,,,,,,,,,,
+地域階層(0:東京都総数　1:区部・市部・郡部・島部　2:区市町村),,,,,,,,,,,,,
+（単位　面積　アール） (Area in ares),,,,,,,,,,,,,

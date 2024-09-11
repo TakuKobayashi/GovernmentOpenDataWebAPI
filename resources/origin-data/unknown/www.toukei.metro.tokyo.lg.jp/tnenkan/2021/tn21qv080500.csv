@@ -1,0 +1,38 @@
+﻿年次,Year,地域階層,地域コード,産業 (大分類) Industry (Division),地域，産業 (大分類）,District and industry (Division),事業所数 Number of establishments,従業者数 Number of employees 1),従業者数 Number of employees 1)／男 Male,従業者数 Number of employees 1)／女 Female ,従業者数 Number of employees 1)／（うち) 常雇 (of which) Regular employees
+平成24,2012,0,13000,,東京都,Tokyo-to,811,30853,17610,13243,30197
+平成28,2016,0,13000,,東京都,Tokyo-to,808,16860,8468,8234,16359
+平成28,2016,1,13100,,区部,All ku,770,13804,7445,6201,13316
+平成28,2016,2,13101,,千代田区,Chiyoda-ku,188,3151,1653,1481,3024
+平成28,2016,2,13102,,中央区,Chuo-ku,96,797,543,253,747
+平成28,2016,2,13103,,港区,Minato-ku,244,4180,2443,1652,4047
+平成28,2016,2,13104,,新宿区,Shinjuku-ku,50,2656,1177,1465,2643
+平成28,2016,2,,,その他,Others,192,3020,1629,1350,2855
+平成28,2016,1,13200,,市部,All shi,38,3056,1023,2033,3043
+平成28,2016,1,13300,,郡部,All gun,-,-,-,-,-
+平成28,2016,1,13350,,島部,All islands,-,-,-,-,-
+平成28,2016,,,A・B,農業，林業・漁業,Agriculture， forestry and fisheries,1,4,2,2,3
+平成28,2016,,,C,鉱業，採石業，砂利採取業,Mining and quarrying of stone and gravel,-,-,-,-,-
+平成28,2016,,,D,建設業,Construction,3,19,13,6,17
+平成28,2016,,,E,製造業,Manufacturing,24,147,80,58,133
+平成28,2016,,,F,電気・ガス・熱供給・水道業,Electricity， gas， heat supply and water,-,-,-,-,-
+平成28,2016,,,G,情報通信業,Information and communications,133,1897,1403,468,1812
+平成28,2016,,,H,運輸業，郵便業,Transport and postal activities,81,1533,786,741,1527
+平成28,2016,,,I,卸売業，小売業,Wholesale and retail trade,206,2065,1164,894,1941
+平成28,2016,,,J,金融業，保険業,Finance and insurance,130,8780,3799,4916,8654
+平成28,2016,,,K,不動産業，物品賃貸業,Real estate and goods rental and leasing ,19,335,134,201,324
+平成28,2016,,,L,学術研究，専門・技術サービス業,Scientific research， professional and technical services,94,1018,602,392,944
+平成28,2016,,,M,宿泊業，飲食サービス業,Accommodations， eating and drinking services,13,130,80,50,120
+平成28,2016,,,N,生活関連サービス業，娯楽業,Living-related and personal services and amusement services,22,258,119,139,246
+平成28,2016,,,O,教育，学習支援業,Education， learning support,3,13,7,6,8
+平成28,2016,,,P,医療，福祉,Medical， health care and welfare,4,63,10,38,61
+平成28,2016,,,Q,複合サービス事業,Compound services,-,-,-,-,-
+平成28,2016,,,R,サービス業 (他に分類されないもの）,Services， n.e.c.,75,598,269,323,569
+,,,,,,,,,,,
+東京都統計年鑑（令和3年）TOKYO STATISTICAL YEARBOOK ( 2021 )　8 事業所・企業 8  ESTABLISHMENTS AND ENTERPRISES,,,,,,,,,,,
+8-5  外国の会社の地域，産業 (大分類) 別事業所数及び男女別従業者数  (平成24年，28年) 8-5  FOREIGN ENTERPRISE ESTABLISHMENTS AND EMPLOYEES BY GENDER BY INDUSTRY  ( DIVISION )， AND DISTRICT ( 2012 and 2016 ) ,,,,,,,,,,,
+外国の会社とは，外国で設立された法人の支店，営業所などのうち，会社法の規定により日本に営業所などの所在地を登録したものをいう。,,,,,,,,,,,
+Foreign enterprises are branches or offices of corporations established in a foreign country that have a registered address in Japan under the regulations of the Companies Act.,,,,,,,,,,,
+注 1) 男女別の不詳を含む。,,,,,,,,,,,
+Note: 1) Including gender unknown.,,,,,,,,,,,
+資料：総務省統計局・経済産業省，都総務局統計部産業統計課 「平成24年経済センサス-活動調査報告」，「平成28年経済センサス-活動調査報告」 Source: Statistics Bureau， Ministry of Internal Affairs and Communications; Ministry of Economy， Trade and Industry; Bureau of General Affairs， TMG ,,,,,,,,,,,
+地域階層（0:東京都　1:区部・市部・郡部・島部　2:区市町村),,,,,,,,,,,

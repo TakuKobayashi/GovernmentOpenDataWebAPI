@@ -1,0 +1,108 @@
+﻿会計,Account,区分 1,Classification 1,区分 2,Classification 2,区分 3,Classification 3,当初予算額 Original budget,最終予算額 Final budget,決算額 Settlement
+病院,Hospital,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,,,178580,184720,188682
+病院,Hospital,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,病院事業収益,Hospital,178580,184720,188682
+病院,Hospital,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,,,178580,184720,176374
+病院,Hospital,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,病院事業費用,Hospital,178580,184720,176374
+病院,Hospital,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,,,12927,12927,14059
+病院,Hospital,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,資本的収入,Capital,12927,12927,14059
+病院,Hospital,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,,,28871,30202,27605
+病院,Hospital,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,資本的支出,Capital,28871,30202,27605
+中央卸売市場 ,Central Wholesale Market,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,,,22838,22838,20583
+中央卸売市場 ,Central Wholesale Market,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,市場事業収益,Market ,22838,22838,20583
+中央卸売市場 ,Central Wholesale Market,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,,,36911,36911,31982
+中央卸売市場 ,Central Wholesale Market,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,市場事業費,Market ,36911,36911,31982
+中央卸売市場 ,Central Wholesale Market,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,,,-,-,-
+中央卸売市場 ,Central Wholesale Market,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,市場資本的収入,Market ,-,-,-
+中央卸売市場 ,Central Wholesale Market,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,,,5006,6074,2797
+中央卸売市場 ,Central Wholesale Market,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,市場資本的支出,Market ,5006,6074,2797
+都市再開発事業 ,Urban redevelopment,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,,,119,119,155
+都市再開発事業 ,Urban redevelopment,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,都市再開発事業収益,Urban redevelopment ,119,119,155
+都市再開発事業 ,Urban redevelopment,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,,,15,15,-
+都市再開発事業 ,Urban redevelopment,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,都市再開発事業費用,Urban redevelopment ,15,15,-
+都市再開発事業 ,Urban redevelopment,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,,,5680,5680,2910
+都市再開発事業 ,Urban redevelopment,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,資本的収入,Capital,5680,5680,2910
+都市再開発事業 ,Urban redevelopment,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,,,5791,5813,2744
+都市再開発事業 ,Urban redevelopment,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,資本的支出,Capital,5791,5813,2744
+臨海地域開発事業 ,Waterfront area development,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,,,40846,40846,54256
+臨海地域開発事業 ,Waterfront area development,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,開発事業収益,Development,40846,40846,54256
+臨海地域開発事業 ,Waterfront area development,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,,,16337,16337,29323
+臨海地域開発事業 ,Waterfront area development,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,開発事業費用,Development,16337,16337,29323
+臨海地域開発事業 ,Waterfront area development,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,,,177,177,200
+臨海地域開発事業 ,Waterfront area development,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,資本的収入,Capital,177,177,200
+臨海地域開発事業 ,Waterfront area development,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,,,9300,10743,5544
+臨海地域開発事業 ,Waterfront area development,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,資本的支出,Capital,9300,10743,5544
+港湾事業,Port and harbor,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,,,4675,4675,4802
+港湾事業,Port and harbor,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,港湾事業収益,Port and harbor,4675,4675,4802
+港湾事業,Port and harbor,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,,,3795,3797,3744
+港湾事業,Port and harbor,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,港湾事業費用,Port and harbor,3795,3797,3744
+港湾事業,Port and harbor,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,,,743,743,0
+港湾事業,Port and harbor,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,資本的収入,Capital,743,743,0
+港湾事業,Port and harbor,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,,,2047,2078,475
+港湾事業,Port and harbor,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,資本的支出,Capital,2047,2078,475
+交通事業 ,Transportation,収益的収支,Operating revenue and expenditure,収入 ,Revenue,,,58381,58381,53129
+交通事業 ,Transportation,収益的収支,Operating revenue and expenditure,収入 ,Revenue,自動車運送事業収益,Bus,43530,43530,39960
+交通事業 ,Transportation,収益的収支,Operating revenue and expenditure,収入 ,Revenue,軌道事業収益,Streetcar,6886,6886,6070
+交通事業 ,Transportation,収益的収支,Operating revenue and expenditure,収入 ,Revenue,新交通事業収益,New transport system,7965,7965,7100
+交通事業 ,Transportation,収益的収支,Operating revenue and expenditure,支出 ,Expenditure,,,65347,65347,58938
+交通事業 ,Transportation,収益的収支,Operating revenue and expenditure,支出 ,Expenditure,自動車運送事業費,Bus,49568,49568,45171
+交通事業 ,Transportation,収益的収支,Operating revenue and expenditure,支出 ,Expenditure,軌道事業費,Streetcar,7007,7007,5874
+交通事業 ,Transportation,収益的収支,Operating revenue and expenditure,支出 ,Expenditure,新交通事業費,New transport system,8772,8772,7893
+交通事業 ,Transportation,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,,,9169,9169,7320
+交通事業 ,Transportation,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,自動車運送事業資本的収入,Bus,6220,6220,4563
+交通事業 ,Transportation,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,軌道事業資本的収入,Streetcar,128,128,28
+交通事業 ,Transportation,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,新交通事業資本的収入,New transport system,2821,2821,2729
+交通事業 ,Transportation,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,,,11113,11636,9618
+交通事業 ,Transportation,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,自動車運送事業資本的支出,Bus,6300,6823,4965
+交通事業 ,Transportation,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,軌道事業資本的支出,Streetcar,128,128,36
+交通事業 ,Transportation,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,新交通事業資本的支出,New transport system,4685,4685,4617
+高速電車事業 ,Railway,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,,,161476,161476,134744
+高速電車事業 ,Railway,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,高速電車事業収益,Railway,161476,161476,134744
+高速電車事業 ,Railway,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,,,157303,157330,137183
+高速電車事業 ,Railway,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,高速電車事業費,Railway,157303,157330,137183
+高速電車事業 ,Railway,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,,,71526,71526,65669
+高速電車事業 ,Railway,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,高速電車事業資本的収入,Railway,71526,71526,65669
+高速電車事業 ,Railway,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,,,132242,134579,104758
+高速電車事業 ,Railway,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,高速電車事業資本的支出,Railway,132242,134579,104758
+電気事業 ,Electric Power,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,,,1655,1655,1360
+電気事業 ,Electric Power,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,電気事業収益,Electric power ,1655,1655,1360
+電気事業 ,Electric Power,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,,,1410,1410,1020
+電気事業 ,Electric Power,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,電気事業費,Electric power ,1410,1410,1020
+電気事業 ,Electric Power,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,,,-,-,-
+電気事業 ,Electric Power,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,電気事業資本的収入,Electric power ,-,-,-
+電気事業 ,Electric Power,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,,,134,227,113
+電気事業 ,Electric Power,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,電気事業資本的支出,Electric power ,134,227,113
+水道事業 ,Waterworks,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,,,364385,364385,352227
+水道事業 ,Waterworks,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,水道事業収益,Waterworks,364385,364385,352227
+水道事業 ,Waterworks,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,,,351474,351474,319087
+水道事業 ,Waterworks,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,水道経営費,Waterworks,351474,351474,319087
+水道事業 ,Waterworks,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,,,52678,52678,26867
+水道事業 ,Waterworks,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,資本的収入,Capital,52678,52678,26867
+水道事業 ,Waterworks,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,,,149799,173399,135406
+水道事業 ,Waterworks,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,資本的支出,Capital,149799,173399,135406
+工業用水道事業 ,Industrial waterworks,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,,,1910,1910,1816
+工業用水道事業 ,Industrial waterworks,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,工業用水道事業収益,Industrial waterworks,1910,1910,1816
+工業用水道事業 ,Industrial waterworks,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,,,8079,8079,6061
+工業用水道事業 ,Industrial waterworks,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,工業用水道経営費,Industrial waterworks,8079,8079,6061
+工業用水道事業 ,Industrial waterworks,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,,,116,116,1
+工業用水道事業 ,Industrial waterworks,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,資本的収入,Capital,116,116,1
+工業用水道事業 ,Industrial waterworks,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,,,137,137,7
+工業用水道事業 ,Industrial waterworks,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,資本的支出,Capital,137,137,7
+下水道事業 ,Sewerage,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,,,397796,397796,383441
+下水道事業 ,Sewerage,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,下水道事業収益,Sewerage ,363949,363949,351687
+下水道事業 ,Sewerage,収益的収支 ,Operating revenue and expenditure,収入 ,Revenue,流域下水道事業収益,Regional sewerage ,33847,33847,31753
+下水道事業 ,Sewerage,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,,,372868,372868,357345
+下水道事業 ,Sewerage,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,下水道管理費,Sewerage management ,337898,337898,325251
+下水道事業 ,Sewerage,収益的収支 ,Operating revenue and expenditure,支出 ,Expenditure,流域下水道経営費,Regional sewerage operations,34970,34970,32094
+下水道事業 ,Sewerage,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,,,191592,191592,166229
+下水道事業 ,Sewerage,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,下水道事業資本的収入,Sewerage,177382,177382,152107
+下水道事業 ,Sewerage,資本的収支 ,Capital revenue and expenditure,収入 ,Revenue,流域下水道事業資本的収入,Regional sewerage,14210,14210,14122
+下水道事業 ,Sewerage,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,,,364652,406640,341765
+下水道事業 ,Sewerage,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,下水道事業資本的支出,Sewerage,344680,382018,322955
+下水道事業 ,Sewerage,資本的収支 ,Capital revenue and expenditure,支出 ,Expenditure,流域下水道事業資本的支出,Regional sewerage,19972,24622,18811
+,,,,,,,,,,
+東京都統計年鑑（令和3年）TOKYO STATISTICAL YEARBOOK ( 2021 )　21  財政 21  PUBLIC FINANCE,,,,,,,,,,
+21-4 公営企業会計予算，決算額 (令和3年度) 21-4  BUDGETS AND SETTLEMENTS OF THE PUBLIC ENTERPRISE ACCOUNTS ( Fiscal Year 2021 ),,,,,,,,,,
+注) 最終予算額には，前年度からの繰越額を含む。 ,,,,,,,,,,
+Note: The final budget includes the balance brought forward from the previous fiscal year.  ,,,,,,,,,,
+資料：都財務局主計部財政課 Source: Bureau of Finance， TMG,,,,,,,,,,
+（単位　百万円）(In millions of yen),,,,,,,,,,

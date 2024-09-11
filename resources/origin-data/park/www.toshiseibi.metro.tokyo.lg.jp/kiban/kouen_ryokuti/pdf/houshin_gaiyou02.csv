@@ -41,265 +41,31 @@
 39 ,秋留台公園,3800 ,あきる野市二宮、平沢,
 -,小計,1946000 ,,
 -,東京都事業計,2784400 ,,
-21 ,小宮gawa.tokyo.jp/lib/js/jquery-periodical-updater.js"></script>
-
-    <script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/lib/js/contactsheet.js"></script>
-    <script>
-    contactsheet_previewimage_prefix = 'https://photo.city.edogawa.tokyo.jp/filestore';
-    </script>
-    <script type="text/javascript">
-    jQuery.noConflict();
-    </script>
-    
-<script type="text/javascript">
-	ajaxLoadingTimer=500;
-</script>
-<script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/lib/ckeditor/ckeditor.min.js"></script><script src="https://photo.city.edogawa.tokyo.jp/lib/js/ajax_collections.js?css_reload_key=8.6.12117" type="text/javascript"></script>
-
-<script type="text/javascript" src="/lib/plupload_2.1.8/plupload.full.min.js?8.6.12117"></script>
-	<link href="/lib/plupload_2.1.8/jquery.ui.plupload/css/jquery.ui.plupload.css?8.6.12117" rel="stylesheet" type="text/css" media="screen,projection,print"  />
-	<script type="text/javascript" src="/lib/plupload_2.1.8/jquery.ui.plupload/jquery.ui.plupload.min.js?8.6.12117"></script>
-<script type="text/javascript" src="/lib/plupload_2.1.8/i18n/ja.js?8.6.12117"></script>
-
-<!-- FLOT for graphs -->
-<script language="javascript" type="text/javascript" src="/lib/flot/jquery.flot.min.js"></script>
-<script language="javascript" type="text/javascript" src="/lib/flot/jquery.flot.time.min.js"></script>
-<script language="javascript" type="text/javascript" src="/lib/flot/jquery.flot.pie.min.js"></script>
-<script language="javascript" type="text/javascript" src="/lib/flot/jquery.flot.tooltip.min.js"></script>
-
-<!-- jsTree -->
-<link rel="stylesheet" href="/lib/jstree/themes/default/style.min.css">
-<script src="/lib/jstree/jstree.min.js"></script>
-<script src="/lib/js/category_tree.js?css_reload_key=8.6.12117"></script>
-
-<!-- Chosen support -->
-
-<script type="text/javascript">
-var baseurl_short="/";
-var baseurl="https://photo.city.edogawa.tokyo.jp";
-var pagename="download_progress";
-var errorpageload = "<h1></h1><p>縺薙�繝壹�繧ｸ縺ｮ隱ｭ縺ｿ霎ｼ縺ｿ荳ｭ縺ｫ繧ｨ繝ｩ繝ｼ縺檎匱逕溘＠縺ｾ縺励◆縲� 讀懃ｴ｢繧貞ｮ溯｡後＠縺ｦ縺�ｋ蝣ｴ蜷医�縲∵､懃ｴ｢繧ｯ繧ｨ繝ｪ繧堤ｵ槭ｊ霎ｼ繧薙〒縺ｿ縺ｦ縺上□縺輔＞縲� 蝠城｡後′隗｣豎ｺ縺励↑縺��ｴ蜷医�縲√す繧ｹ繝�Β邂｡逅���↓騾｣邨｡縺励※縺上□縺輔＞縲�</p>";
-var applicationname = "豎滓虻蟾晉判蜒乗枚蠎ｫ";
-var branch_limit="";
-var branch_limit_field = new Array();
-var global_cookies = "";
-var global_trash_html = '<!-- Global Trash Bin (added through CentralSpaceLoad) -->';
-    global_trash_html += '<div id="trash_bin">';
-    global_trash_html += '<span class="trash_bin_text">蜑企勁</span>';
-    global_trash_html += '</div>';
-    global_trash_html += '<div id="trash_bin_delete_dialog" style="display: none;"></div>';
-oktext="OK";
-var scrolltopElementCentral='.ui-layout-center';
-var scrolltopElementCollection='.ui-layout-south';
-var scrolltopElementModal='#modal'
-collection_bar_hide_empty=false;
-var chosenCollection='';
-</script>
-
-<script src="/lib/js/global.js?css_reload_key=8.6.12117" type="text/javascript"></script>
-
-<script type="text/javascript">
-
-jQuery(document).ready(function() {
- jQuery.fn.reverse = [].reverse;
- jQuery(document).keyup(function (e)
-  { 
-    if(jQuery("input,textarea").is(":focus"))
-    {
-       // don't listen to keyboard arrows when focused on form elements
-           }
-    else if (jQuery('#lightbox').is(':visible'))
-        {
-        // Don't listen to keyboard arrows if viewing resources in lightbox
-        }
-    else
-        {
-        var share='';
-        var modAlt=e.altKey;
-        var modShift=e.shiftKey;
-        var modCtrl=e.ctrlKey;
-        var modMeta=e.metaKey;
-        var modOn=(modAlt || modShift || modCtrl || modMeta);
-        
-         switch (e.which) 
-         {
-			 
-		                // left arrow
-            case 37: if ((jQuery('.prevLink').length > 0)) {jQuery('.prevLink').click();break;}
-              if ((jQuery('.prevPageLink').length > 0)) jQuery('.prevPageLink').click();
-              
-                                          break;
-            // right arrow
-            case 39: if ((jQuery('.nextLink').length > 0)) {jQuery('.nextLink').click();break;}
-              if ((jQuery('.nextPageLink').length > 0)) jQuery('.nextPageLink').click();
-                                          break;   
-            case 65: if (jQuery('.addToCollection').length > 0) jQuery('.addToCollection:not(.ResourcePanelIcons .addToCollection)').click();
-                     break;
-            case 82: if (jQuery('.removeFromCollection').length > 0) jQuery('.removeFromCollection:not(.CollectionSpace .removeFromCollection)').click();
-                     break;  
-            case 188: if (jQuery('.prevLink').length > 0) jQuery('.prevLink').click();
-                     break;
-            case 190: if (jQuery('.nextLink').length > 0) jQuery('.nextLink').click();
-                     break;
-            case 191: if (jQuery('.upLink').length > 0) jQuery('.upLink').click();
-                     break;
-            case 84: if (jQuery('#toggleThumbsLink').length > 0) jQuery('#toggleThumbsLink').click();
-                     break;
-            case 90: if (jQuery('.enterLink').length > 0) window.location=jQuery('.enterLink').attr("href");
-
-1ff8
-                     break;
-            case 27: ModalClose();
-                     break;
-            case 86: CentralSpaceLoad('https://photo.city.edogawa.tokyo.jp/pages/search.php?search=!collection'+document.getElementById("currentusercollection").innerHTML+'&k='+share,true);
-                     break;
-                     }
-         
-     }
- });
-});
-</script>
-    <!-- GoogleAnalytics(GA4) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7BE2K1V4WX"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-7BE2K1V4WX', { 'debug_mode': true });
-    </script>
-    <!-- 邁｡蜊倥Ο繧ｰ隗｣譫� -->
-    <script type="text/javascript" ><!--
-    var rakulog_id ="oNpjNm0rt5zU9PAp";
-    rakulog_outbound=true;
-    rakulog_download=true;
-    rakulog_downloadList = ["pdf","zip","xls"];
-    (function() {
-    var rakulog  = document.createElement('script'); rakulog.type = 'text/javascript'; rakulog.async = true;
-    rakulog.src =   location.protocol + '//kantan-log.jp/kantanlog_async.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(rakulog, s);
-    })();
-    //--></script>
-    <noscript>
-    <p><img src="https://kantan-log.jp/_analysis.rakulog?uid=oNpjNm0rt5zU9PAp&amp;key=noscript&amp;ctime=&amp;ltime=&amp;ftime=&amp;count=auto&amp;sorder=auto&amp;interval=auto" width="1" height="1" alt="" ></p>
-    </noscript>
-        <script src="https://photo.city.edogawa.tokyo.jp/plugins/dwcomponents/lib/semantic-ui-2.3/semantic.min.js" type="text/javascript"></script>
-    <script src="https://photo.city.edogawa.tokyo.jp/plugins/dwcomponents/lib/jquery.exresize/jquery.exresize.min.js" type="text/javascript"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-        <!-- Sortablejs -->
-    <script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/plugins/dwcontribute/lib/sortablejs-1.7.0/Sortable.min.js"></script>
-
-    <!--jquery-file-upload-->
-    <script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/plugins/dwcontribute/lib/jQuery-File-Upload/js/load-image.all.min.js"></script>
-    <script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/plugins/dwcontribute/lib/jQuery-File-Upload/js/jquery.fileupload.min.js"></script>
-    <script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/plugins/dwcontribute/lib/jQuery-File-Upload/js/jquery.fileupload-jquery-ui.js"></script>
-    <script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/plugins/dwcontribute/lib/jQuery-File-Upload/js/jquery.iframe-transport.js"></script>
-    <script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/plugins/dwcontribute/lib/jQuery-File-Upload/js/jquery.fileupload-process.js"></script>
-    <script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/plugins/dwcontribute/lib/jQuery-File-Upload/js/jquery.fileupload-image.js"></script>
-    <script type="text/javascript" src="https://photo.city.edogawa.tokyo.jp/plugins/dwcontribute/lib/jQuery-File-Upload/js/jquery.fileupload-validate.js"></script>
-    <script src="/lib/lightbox/js/lightbox.min.js" type="text/javascript" ></script><link type="text/css" href="/lib/lightbox/css/lightbox.min.css?css_reload_key=8.6.12117" rel="stylesheet" />	<script>
-	function closeModalOnLightBoxEnable()
-		{
-		setTimeout(function() {
-			if(jQuery('#lightbox').is(':visible'))
-				{
-				ModalClose();
-				}
-		}, 10);
-		}
-
-	jQuery(document).ready(function()
-        {
-        lightbox.option({
-			'resizeDuration': 300,
-			'imageFadeDuration': 300,
-			'fadeDuration': 300,
-			'alwaysShowNavOnTouchDevices': true})
-        });
-	</script>
-	
-
-<!-- Structure Stylesheet -->
-<link href="https://photo.city.edogawa.tokyo.jp/css/global.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css" media="screen,projection,print" />
-<!-- Colour stylesheet -->
-<link href="https://photo.city.edogawa.tokyo.jp/css/colour.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css" media="screen,projection,print" />
-<!-- Override stylesheet -->
-<link href="https://photo.city.edogawa.tokyo.jp/css/css_override.php?k=&css_reload_key=8.6.12117" rel="stylesheet" type="text/css" media="screen,projection,print" />
-<!--- FontAwesome for icons-->
-<link rel="stylesheet" href="https://photo.city.edogawa.tokyo.jp/lib/fontawesome/css/font-awesome.min.css">
-<!-- Load specified font CSS -->
-<link id="global_font_link" href="https://photo.city.edogawa.tokyo.jp/css/fonts/WorkSans.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css" />
-
-<!--[if lte IE 7]> <link href="https://photo.city.edogawa.tokyo.jp/css/globalIE.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css"  media="screen,projection,print" /> <![endif]--><!--[if lte IE 5.6]> <link href="https://photo.city.edogawa.tokyo.jp/css/globalIE5.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css"  media="screen,projection,print" /> <![endif]-->
-
-<link href="/plugins/edogawa/css/style.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css" media="screen,projection,print" class="plugincss" />
-		<link href="/plugins/dwnotice/css/style.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css" media="screen,projection,print" class="plugincss" />
-		<link href="/plugins/dwcontribute/css/style.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css" media="screen,projection,print" class="plugincss" />
-		<link href="/plugins/dwcomponents/css/dwcomponents.min.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css"><link href="/plugins/dwphototheme/css/style.css?css_reload_key=8.6.12117" rel="stylesheet" type="text/css" media="screen,projection,print" class="plugincss" />
-		<script>jQuery('.plugincss').attr('class','plugincss0');</script>
-</head>
-<body lang="ja" class="" >
-
-<!-- Loading graphic -->
-	<div id="LoadingBox"><i aria-hidden="true" class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i></div>
-	
-
-
-<!--Global Header-->
-<div id="UICenter" class="ui-layout-center">
-
-<div id="Header" class=" HeaderMid ug-9">
-
-    <div id="HeaderResponsive">
-    			<a href="https://photo.city.edogawa.tokyo.jp/pages/home.php" onClick="return CentralSpaceLoad(this,true);" class="HeaderImgLink"><img src="https://photo.city.edogawa.tokyo.jp/filestore/system/config/linkedheaderimgsrc.png" id="HeaderImg" alt="繧ｵ繧､繝医Ο繧ｴ"></a>
-			        <div id="HeaderButtons" style="display:none;">
-            <a href="#" id="HeaderNav2Click" class="ResponsiveHeaderButton ResourcePanel ResponsiveButton">
-                <span class="rbText">繝｡繝九Η繝ｼ</span>
-                <span class="fa fa-fw fa-lg fa-bars"></span>
-            </a>
-        </div>
-            </div>
-    	<div id="HeaderNav1" class="HorizontalNav">
-
-<script>
-
- 	var activeSeconds=30;
-
-	var message_timer = null;
-	var message_refs = new Array();
-	var message_poll_first_run = true;
-
-	function message_poll()
-	{
-		if (message_timer != null)
-		{
-			clearTimeout(message_timer);
-			message_timer = null;
-		}
-		activeSeconds-=10;
-		if(activeSeconds < 0)
-			{
-				message_timer = window.setTimeout(message_poll,10 * 1000);
-				return;
-			}
-					jQuery.ajax({
-			url: 'https://photo.city.edogawa.tokyo.jp/pages/ajax/message.php',
-			type: 'GET',
-			success: function(messages, textStatus, xhr) {
-				if(xhr.status==200 && isJson(messages) && (messages=jQuery.parseJSON(messages)) && jQuery(messages).length>0)
-					{
-					messagecount=totalcount=jQuery(messages).length;
-					actioncount=0;
-					if (typeof(messages[messagecount-1]['actioncount']) !== 'undefined') // There are actions as well as messages
-						{
-						actioncount=parseInt(messages[messagecount-1]['actioncount']);
-						messagecount=messagecount-1;
-						totalcount=actioncount+messagecount;
-						}
-					jQuery('span.MessageTotalCountPill').html(totalcount).fadeIn();
-					if (activeSeconds > 0 || message_poll_first_run)
-						{
-						for(var i=0; i < messagecount; i++)
-							{
-							var ref = messages[i]['ref'];
-							if (message_p
+21 ,小宮tp://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_036_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_036_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_036_01_3.jpg,,201901,202111,
+9,37,1,東急電鉄,大井町線,等々力,東京都,世田谷区等々力3丁目1番1号,,多機能お手洗,1F,139.647334,35.608444,JGD2011,共用,○,○,A.自動引き戸（押しボタン）,○,○,○,○,○,○,×,○,○,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_037_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_037_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_037_01_3.jpg,,201901,,
+9,38,1,東急電鉄,大井町線,上野毛,東京都,世田谷区上野毛1丁目26番6号,,多機能お手洗い,1F,139.639112,35.611894,JGD2011,男性用,○,○,A.自動引き戸（押しボタン）,○,○,○,○,○,×,×,○,○,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_038_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_038_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_038_01_3.jpg,,201901,,
+9,38,2,東急電鉄,大井町線,上野毛,東京都,世田谷区上野毛1丁目26番6号,,多機能お手洗い,1F,139.638976,35.611889,JGD2011,女性用,○,○,A.自動引き戸（押しボタン）,○,○,○,○,○,×,×,○,○,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_038_02_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_038_02_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_038_02_3.jpg,,201901,,
+9,39,1,東急電鉄,池上線,五反田,東京都,品川区東五反田2丁目1番1号,,多機能お手洗,4F,139.724287,35.625309,JGD2011,共用,○,○,A.自動引き戸（押しボタン）,○,○,○,○,○,○,×,○,○,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_039_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_039_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_039_01_3.jpg,,201901,,
+9,40,1,東急電鉄,池上線,大崎広小路,東京都,品川区大崎4丁目1番1号,,多機能お手洗,1F,139.722721,35.622632,JGD2011,共用,○,○,A.自動引き戸（押しボタン）,○,○,○,○,○,×,×,○,○,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_040_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_040_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_040_01_3.jpg,,201901,,
+9,41,1,東急電鉄,池上線,戸越銀座,東京都,品川区平塚2丁目16番1号,,多機能お手洗,1F,139.715009,35.615855,JGD2011,共用,○,○,A.自動引き戸（押しボタン）,○,○,○,○,○,○,×,○,×,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_041_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_041_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_041_01_3.jpg,,201901,,
+9,42,3,東急電鉄,大井町線/池上線,旗の台,東京都,品川区旗の台2丁目13番1号,,多機能お手洗,1F,139.702916,35.60484,JGD2011,共用,○,×,A.自動引き戸（押しボタン）,○,○,○,○,○,×,×,○,○,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_042_03_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_042_03_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_042_03_3.jpg,,201901,,
+9,43,1,東急電鉄,池上線,長原,東京都,大田区上池台1丁目10番10号,,多機能お手洗,B1F,139.697572,35.602148,JGD2011,共用,×,×,C.手動引き戸,○,○,○,○,○,×,×,○,×,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_043_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_043_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_043_01_3.jpg,,201901,202401,
+9,44,1,東急電鉄,池上線,洗足池,東京都,大田区東雪谷1丁目1番6号,,多機能お手洗,2F,139.691342,35.599734,JGD2011,共用,○,×,C.手動引き戸,○,○,○,○,○,×,×,○,×,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_044_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_044_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_044_01_3.jpg,,201901,,
+9,45,1,東急電鉄,池上線,石川台,東京都,大田区東雪谷2丁目23番1号,,多機能お手洗い,1F,139.685409,35.596975,JGD2011,共用,○,×,C.手動引き戸,○,○,○,○,○,×,×,○,○,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_045_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_045_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_045_01_3.jpg,,201901,,
+9,46,1,東急電鉄,池上線,雪が谷大塚,東京都,大田区南雪谷2丁目2番16号,,多機能お手洗,2F,139.680967,35.592009,JGD2011,共用,○,○,A.自動引き戸（押しボタン）,○,○,○,○,○,○,×,○,○,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_046_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_046_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_046_01_3.jpg,,201901,,
+9,47,1,東急電鉄,池上線,御嶽山,東京都,大田区北嶺町32番17号,,多機能お手洗,1F,139.682319,35.585327,JGD2011,共用,○,×,A.自動引き戸（押しボタン）,○,○,○,○,○,×,×,○,×,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_047_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_047_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_047_01_3.jpg,,201901,,
+9,48,1,東急電鉄,池上線,久が原,東京都,大田区南久が原2丁目6番10号,,多機能お手洗,1F,139.685416,35.579739,JGD2011,共用,○,×,A.自動引き戸（押しボタン）,○,○,○,○,○,×,×,○,×,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_048_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_048_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_048_01_3.jpg,,201901,,
+9,49,1,東急電鉄,池上線,千鳥町,東京都,大田区千鳥1丁目20番1号,,多機能お手洗,1F,139.691438,35.572909,JGD2011,共用,○,×,A.自動引き戸（押しボタン）,○,○,○,○,○,×,×,○,○,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_049_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_049_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_049_01_3.jpg,,201901,,
+9,50,1,東急電鉄,池上線,池上,東京都,大田区池上6丁目3番10号,,多機能お手洗い,2F,139.702697,35.57207,JGD2011,共用,○,○,A.自動引き戸（押しボタン）,○,○,○,○,○,○,×,○,○,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_050_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_050_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_050_01_3.jpg,,201901,202011,
+9,51,1,東急電鉄,池上線,蓮沼,東京都,大田区西蒲田7丁目17番1号,,多機能お手洗い,1F,139.708508,35.564116,JGD2011,共用,○,×,C.手動引き戸,○,○,○,○,○,×,×,○,×,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_051_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_051_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_051_01_3.jpg,,201901,,
+9,52,1,東急電鉄,東急多摩川線,沼部,東京都,大田区田園調布本町28番1号,,多機能お手洗い,1F,139.673188,35.582553,JGD2011,共用,○,×,A.自動引き戸（押しボタン）,○,○,○,○,○,×,×,○,×,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_052_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_052_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_052_01_3.jpg,,201901,202111,
+9,53,1,東急電鉄,東急多摩川線,鵜の木,東京都,大田区鵜の木2丁目4番1号,,多機能お手洗い,1F,139.680604,35.575539,JGD2011,共用,○,×,C.手動引き戸,○,○,○,○,○,×,×,○,×,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_053_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_053_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_053_01_3.jpg,,201901,,
+9,54,1,東急電鉄,東急多摩川線,下丸子,東京都,大田区下丸子3丁目7番1号,,多機能お手洗い,1F,139.685574,35.571454,JGD2011,共用,○,×,C.手動引き戸,○,×,○,○,○,×,×,○,×,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_054_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_054_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_054_01_3.jpg,,201901,,
+9,55,1,東急電鉄,東急多摩川線,武蔵新田,東京都,大田区矢口1丁目18番1号,,多機能お手洗い,1F,139.692301,35.567875,JGD2011,共用,○,×,C.手動引き戸,○,○,○,○,○,×,×,○,○,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_055_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_055_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_055_01_3.jpg,,201901,,
+9,56,1,東急電鉄,東急多摩川線,矢口渡,東京都,大田区多摩川1丁目20番10号,,多機能お手洗い,1F,139.700277,35.562494,JGD2011,共用,○,×,C.手動引き戸,○,○,○,○,○,×,×,○,○,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_056_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_056_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_056_01_3.jpg,,201901,,
+9,57,1,東急電鉄,池上線/東急多摩川線,蒲田,東京都,大田区西蒲田7丁目69番1号,,多機能お手洗,2F,139.715035,35.561563,JGD2011,共用,○,○,A.自動引き戸（押しボタン）,○,○,○,○,○,×,×,○,○,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_057_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_057_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_057_01_3.jpg,,201901,,
+9,58,1,東急電鉄,世田谷線,上町,東京都,世田谷区世田谷3丁目4番3号,,多機能お手洗い,1F,139.646524,35.643483,JGD2011,共用,○,×,C.手動引き戸,○,○,○,○,○,×,×,○,○,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_058_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_058_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/09_058_01_3.jpg,,201901,,
+10,1,1,東京地下鉄,4号線丸ノ内線/8号線有楽町線/13号線副都心線,池袋,東京都,豊島区西池袋3丁目28番14号,,バリアフリートイレ,B1F,139.70978,35.72959,JGD2011,共用,○,○,A.自動引き戸（押しボタン）,○,○,○,○,○,×,×,○,×,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_001_01_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_001_01_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_001_01_3.jpg,,201901,202401,
+10,1,2,東京地下鉄,4号線丸ノ内線/8号線有楽町線/13号線副都心線,池袋,東京都,豊島区西池袋3丁目28番14号,,バリアフリートイレ,B2F,139.70901,35.73118,JGD2011,共用,○,○,A.自動引き戸（押しボタン）,○,○,○,○,○,×,×,○,○,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_001_02_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_001_02_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_001_02_3.jpg,,201901,202401,
+10,1,3,東京地下鉄,4号線丸ノ内線/8号線有楽町線/13号線副都心線,池袋,東京都,豊島区西池袋3丁目28番14号,,バリアフリートイレ,B1F,139.71244,35.729789,JGD2011,共用,○,○,B.自動引き戸（センサー）,○,○,○,○,○,×,×,○,×,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_001_03_1.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_001_03_2.jpg,http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_001_03_3.jpg,,201901,202401,
+10,2,1,東京地下鉄,4号線丸ノ内線/5号線東西線/9号線千代田線/11号線半蔵門線,大手町,東京都,千代田区大手町1丁目6番1号,,バリアフリートイレ,B3F,139.76439,35.686764,JGD2011,共用,○,○,A.自動引き戸（押しボタン）,○,○,○,○,○,○,×,○,○,○,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_終車,始発_�

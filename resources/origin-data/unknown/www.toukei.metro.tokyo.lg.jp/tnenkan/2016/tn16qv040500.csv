@@ -1,0 +1,73 @@
+﻿年次,Year,区分 Classification,項番 Item Numbers,地域階層,地域コード,地域,District,構造と長さ,Structure and Length,総数 Total／橋数 Number,総数 Total／橋長 Length,総数 Total／橋面積 Area,一般国道 （指定区間外） General national highways (outside designated sections)／橋数 Number,一般国道 （指定区間外） General national highways (outside designated sections)／橋長 Length,一般国道 （指定区間外） General national highways (outside designated sections)／橋面積 Area,主要地方道 Main regional roads／橋数 Number,主要地方道 Main regional roads／橋長 Length,主要地方道 Main regional roads／橋面積 Area,一般都道 General metropolitan roads／橋数 Number,一般都道 General metropolitan roads／橋長 Length,一般都道 General metropolitan roads／橋面積 Area
+平成25,2013,,,0,13000,東京都,Tokyo to,総数,Total,1200,74586,1147038,47,4285,48189,551,43717,687734,602,26584,411115
+平成26,2014,,,0,13000,東京都,Tokyo to,総数,Total,1206,76133,1169077,48,4384,49506,555,44833,703301,603,26916,416270
+平成27,2015,,,0,13000,東京都,Tokyo to,総数,Total,1230,77395,1188728,48,4384,49506,561,45380,714426,621,27631,424796
+平成28,2016,,,0,13000,東京都,Tokyo to,総数,Total,1226,77124,1181471,48,4384,49506,557,45188,707631,621,27551,424334
+平成29,2017,,,0,13000,東京都,Tokyo to,総数,Total,1226,77102,1180871,48,4384,49506,556,45162,707010,622,27556,424355
+平成29,2017,構造・橋長別By structure and length,1,0,13000,東京都,Tokyo to,総数／15ｍ未満,Total／15ｍless than,541,3914,56923,13,99,2034,207,1665,36087,321,2150,18801
+平成29,2017,構造・橋長別By structure and length,2,0,13000,東京都,Tokyo to,総数／15～30未満,Total／15～30less than,226,5033,75199,6,94,1437,110,2332,31059,110,2607,42703
+平成29,2017,構造・橋長別By structure and length,3,0,13000,東京都,Tokyo to,総数／30～100未満,Total／30～100less than,253,13647,221413,21,1446,16135,106,5695,114055,126,6506,91223
+平成29,2017,構造・橋長別By structure and length,4,0,13000,東京都,Tokyo to,総数／100～以上,Total／100～and over,206,54508,827336,8,2745,29900,133,35470,525809,65,16293,271628
+平成29,2017,構造・橋長別By structure and length,,0,13000,東京都,Tokyo to,鋼橋／総数,Steelbridges／Total,502,49831,738150,36,4128,44698,266,31892,431554,200,13811,261898
+平成29,2017,構造・橋長別By structure and length,1,0,13000,東京都,Tokyo to,鋼橋／15ｍ未満,Steelbridges／15ｍless than,70,695,8865,6,60,209,29,317,2598,35,318,6058
+平成29,2017,構造・橋長別By structure and length,2,0,13000,東京都,Tokyo to,鋼橋／15～30未満,Steelbridges／15～30less than,112,2426,16769,3,42,614,72,1642,5590,37,742,10565
+平成29,2017,構造・橋長別By structure and length,3,0,13000,東京都,Tokyo to,鋼橋／30～100未満,Steelbridges／30～100less than,172,9090,148250,19,1281,13975,72,3146,71614,81,4663,62661
+平成29,2017,構造・橋長別By structure and length,4,0,13000,東京都,Tokyo to,鋼橋／100～以上,Steelbridges／100～and over,148,37620,564265,8,2745,29900,93,26787,351752,47,8088,182614
+平成29,2017,構造・橋長別By structure and length,,0,13000,東京都,Tokyo to,コンクリート橋／総数,Concretebridges／Total,656,14974,238425,12,256,4808,250,6482,113018,394,8236,120599
+平成29,2017,構造・橋長別By structure and length,1,0,13000,東京都,Tokyo to,コンクリート橋／15ｍ未満,Concretebridges／15ｍless than,465,3175,47426,7,39,1825,176,1328,33349,282,1808,12252
+平成29,2017,構造・橋長別By structure and length,2,0,13000,東京都,Tokyo to,コンクリート橋／15～30未満,Concretebridges／15～30less than,103,2367,42872,3,52,823,32,573,14331,68,1742,27718
+平成29,2017,構造・橋長別By structure and length,3,0,13000,東京都,Tokyo to,コンクリート橋／30～100未満,Concretebridges／30～100less than,65,3604,57350,2,165,2160,24,2035,34145,39,1404,21045
+平成29,2017,構造・橋長別By structure and length,4,0,13000,東京都,Tokyo to,コンクリート橋／100～以上,Concretebridges／100～and over,23,5828,90777,-,-,-,18,2546,31193,5,3282,59584
+平成29,2017,構造・橋長別By structure and length,,0,13000,東京都,Tokyo to,鋼橋とコンクリート橋の混合物／総数,Steel-concretecompositebridges／Total,68,12295,204296,-,-,-,40,6786,162438,28,5509,41858
+平成29,2017,構造・橋長別By structure and length,1,0,13000,東京都,Tokyo to,鋼橋とコンクリート橋の混合物／15ｍ未満,Steel-concretecompositebridges／15ｍless than,6,43,631,-,-,-,2,20,139,4,23,492
+平成29,2017,構造・橋長別By structure and length,2,0,13000,東京都,Tokyo to,鋼橋とコンクリート橋の混合物／15～30未満,Steel-concretecompositebridges／15～30less than,11,240,15558,-,-,-,6,117,11139,5,123,4419
+平成29,2017,構造・橋長別By structure and length,3,0,13000,東京都,Tokyo to,鋼橋とコンクリート橋の混合物／30～100未満,Steel-concretecompositebridges／30～100less than,16,953,15813,-,-,-,10,514,8296,6,439,7517
+平成29,2017,構造・橋長別By structure and length,4,0,13000,東京都,Tokyo to,鋼橋とコンクリート橋の混合物／100～以上,Steel-concretecompositebridges／100～and over,35,11059,172294,-,-,-,22,6135,142864,13,4924,29430
+平成29,2017,構造・橋長別By structure and length,,0,13000,東京都,Tokyo to,石橋／総数,Stonebridges／Total,-,-,-,-,-,-,-,-,-,-,-,-
+平成29,2017,構造・橋長別By structure and length,1,0,13000,東京都,Tokyo to,石橋／15ｍ未満,Stonebridges／15ｍless than,-,-,-,-,-,-,-,-,-,-,-,-
+平成29,2017,構造・橋長別By structure and length,2,0,13000,東京都,Tokyo to,石橋／15～30未満,Stonebridges／15～30less than,-,-,-,-,-,-,-,-,-,-,-,-
+平成29,2017,構造・橋長別By structure and length,3,0,13000,東京都,Tokyo to,石橋／30～100未満,Stonebridges／30～100less than,-,-,-,-,-,-,-,-,-,-,-,-
+平成29,2017,構造・橋長別By structure and length,4,0,13000,東京都,Tokyo to,石橋／100～以上,Stonebridges／100～and over,-,-,-,-,-,-,-,-,-,-,-,-
+平成29,2017,構造・橋長別By structure and length,,0,13000,東京都,Tokyo to,鋼橋又はコンクリート橋と木橋又は石橋との混合物／総数,Steel-wood，steel-stone，concrete-wood，concrete-stonecompositebridges／Total,-,-,-,-,-,-,-,-,-,-,-,-
+平成29,2017,構造・橋長別By structure and length,1,0,13000,東京都,Tokyo to,鋼橋又はコンクリート橋と木橋又は石橋との混合物／15ｍ未満,Steel-wood，steel-stone，concrete-wood，concrete-stonecompositebridges／15ｍless than,-,-,-,-,-,-,-,-,-,-,-,-
+平成29,2017,構造・橋長別By structure and length,2,0,13000,東京都,Tokyo to,鋼橋又はコンクリート橋と木橋又は石橋との混合物／15～30未満,Steel-wood，steel-stone，concrete-wood，concrete-stonecompositebridges／15～30less than,-,-,-,-,-,-,-,-,-,-,-,-
+平成29,2017,構造・橋長別By structure and length,3,0,13000,東京都,Tokyo to,鋼橋又はコンクリート橋と木橋又は石橋との混合物／30～100未満,Steel-wood，steel-stone，concrete-wood，concrete-stonecompositebridges／30～100less than,-,-,-,-,-,-,-,-,-,-,-,-
+平成29,2017,構造・橋長別By structure and length,4,0,13000,東京都,Tokyo to,鋼橋又はコンクリート橋と木橋又は石橋との混合物／100～以上,Steel-wood，steel-stone，concrete-wood，concrete-stonecompositebridges／100～and over,-,-,-,-,-,-,-,-,-,-,-,-
+平成29,2017,地域別By district,,1,13100,区部,Allku,総数,Total,458,46846,823429,14,2387,26306,289,30421,524813,155,14038,272309
+平成29,2017,地域別By district,1,5,13101,千代田区,Chiyoda-ku,総数,Total,10,314,9587,-,-,-,6,160,5163,4,154,4424
+平成29,2017,地域別By district,2,5,13102,中央区,Chuo-ku,総数,Total,26,3731,95833,-,-,-,11,1203,32892,15,2528,62941
+平成29,2017,地域別By district,3,5,13103,港区,Minato-ku,総数,Total,26,1840,36878,1,55,1139,15,936,17755,10,849,17984
+平成29,2017,地域別By district,4,5,13104,新宿区,Shinjuku-ku,総数,Total,16,1571,43703,-,-,-,10,356,8342,6,1215,35361
+平成29,2017,地域別By district,5,5,13105,文京区,Bunkyo-ku,総数,Total,2,49,1467,-,-,-,1,22,657,1,27,810
+平成29,2017,地域別By district,6,5,13106,台東区,Taito-ku,総数,Total,7,1153,24045,-,-,-,4,750,15502,3,403,8543
+平成29,2017,地域別By district,7,5,13107,墨田区,Sumida-ku,総数,Total,17,1272,20264,-,-,-,14,940,15053,3,332,5211
+平成29,2017,地域別By district,8,5,13108,江東区,Koto-ku,総数,Total,44,6072,121613,-,-,-,24,3107,63966,20,2965,57647
+平成29,2017,地域別By district,9,5,13109,品川区,Shinagawa-ku,総数,Total,24,1675,27557,-,-,-,17,923,14675,7,752,12882
+平成29,2017,地域別By district,10,5,13110,目黒区,Meguro-ku,総数,Total,13,508,7921,-,-,-,11,491,7501,2,17,420
+平成29,2017,地域別By district,11,5,13111,大田区,Ota-ku,総数,Total,29,3597,68342,5,108,2464,24,3489,65878,-,-,-
+平成29,2017,地域別By district,12,5,13112,世田谷区,Setagaya-ku,総数,Total,35,1508,21082,3,491,6148,17,830,13394,15,187,1540
+平成29,2017,地域別By district,13,5,13113,渋谷区,Shibuya-ku,総数,Total,13,448,8278,-,-,-,9,348,5835,4,100,2443
+平成29,2017,地域別By district,14,5,13114,中野区,Nakano-ku,総数,Total,19,486,7608,-,-,-,12,432,6791,7,54,817
+平成29,2017,地域別By district,15,5,13115,杉並区,Suginami-ku,総数,Total,28,2342,24018,-,-,-,19,2235,23066,9,107,952
+平成29,2017,地域別By district,16,5,13116,豊島区,Toshima-ku,総数,Total,7,282,7966,-,-,-,7,282,7966,-,-,-
+平成29,2017,地域別By district,17,5,13117,北区,Kita-ku,総数,Total,16,3407,42628,3,1597,15098,8,919,14988,5,891,12542
+平成29,2017,地域別By district,18,5,13118,荒川区,Arakawa-ku,総数,Total,7,1576,22605,-,-,-,3,611,9438,4,965,13167
+平成29,2017,地域別By district,19,5,13119,板橋区,Itabashi-ku,総数,Total,13,1115,15707,-,-,-,8,609,10338,5,506,5369
+平成29,2017,地域別By district,20,5,13120,練馬区,Nerima-ku,総数,Total,20,1513,20691,-,-,-,13,1394,19382,7,119,1309
+平成29,2017,地域別By district,21,5,13121,足立区,Adachi-ku,総数,Total,21,4322,67137,-,-,-,9,3184,46045,12,1138,21092
+平成29,2017,地域別By district,22,5,13122,葛飾区,Katsushika-ku,総数,Total,39,4020,66831,-,-,-,23,3291,59976,16,729,6855
+平成29,2017,地域別By district,23,5,13123,江戸川区,Edogawa-ku,総数,Total,26,4045,61668,2,136,1457,24,3909,60211,-,-,-
+平成29,2017,地域別By district,,1,13200,市郡部,Allshiandgun,総数,Total,638,27079,327474,34,1997,23200,267,14740,182196,337,10342,122078
+平成29,2017,地域別By district,,3,13350,島部,Allislands,総数,Total,130,3176,29968,-,-,-,-,-,-,130,3176,29968
+平成29,2017,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+東京都統計年鑑（平成28年）TOKYO STATISTICAL YEARBOOK ( 2016 ) 4　運輸 4　TRANSPORT ,,,,,,,,,,,,,,,,,,,,,
+4-5　構造， 地域， 道路の種類別橋梁数， 橋長及び橋面積(平成25～29年） ,,,,,,,,,,,,,,,,,,,,,
+第4-4表頭注参照 ,,,,,,,,,,,,,,,,,,,,,
+（単位　延長　メートル， 面積　平方メートル） ,,,,,,,,,,,,,,,,,,,,,
+資料：都建設局道路管理部保全課 ,,,,,,,,,,,,,,,,,,,,,
+4-5　NUMBER，LENGTH，ANDAREAOFBRIDGESBYSTRUCTURE,,,,,,,,,,,,,,,,,,,,,
+DISTRICT，ANDKINDOFROADS(2013-2017),,,,,,,,,,,,,,,,,,,,,
+See headnote，Table4-4.,,,,,,,,,,,,,,,,,,,,,
+(Length in meters，Areainsquaremeters),,,,,,,,,,,,,,,,,,,,,
+　　    Source: Bureau of Construction，TMG,,,,,,,,,,,,,,,,,,,,,

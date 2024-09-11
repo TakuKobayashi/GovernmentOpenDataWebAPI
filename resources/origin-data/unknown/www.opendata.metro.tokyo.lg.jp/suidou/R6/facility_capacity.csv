@@ -1,0 +1,652 @@
+年号,施設能力（千m3／日）
+明31,170
+明32,170
+明33,170
+明34,170
+明35,170
+明36,170
+明37,170
+明38,170
+明39,170
+明40,170
+明41,170
+明42,170
+明43,240
+明44,240
+大1,240
+大2,240
+大3,240
+大4,240
+大5,240
+大6,240
+大7,240
+大8,240
+大9,240
+大10,240
+大11,240
+大12,380
+大13,380
+大14,380
+昭1,380
+昭2,380
+昭3,420
+昭4,420
+昭5,420
+昭6,420
+昭7,662
+昭8,662
+昭9,766
+昭10,856
+昭11,859
+昭12,859
+昭13,859
+昭14,859
+昭15,859
+昭16,932
+昭17,"1,005"
+昭18,"1,005"
+昭19,"1,005"
+昭20,"1,019"
+昭21,"1,080"
+昭22,"1,080"
+昭23,"1,080"
+昭24,"1,080"
+昭25,"1,193"
+昭26,"1,199"
+昭27,"1,222"
+昭28,"1,222"
+昭29,"1,222"
+昭30,"1,222"
+昭31,"1,222"
+昭32,"1,222"
+昭33,"1,222"
+昭34,"1,526"
+昭35,"1,676"
+昭36,"1,859"
+昭37,"1,954"
+昭38,"2,046"
+昭39,"2,446"
+昭40,"2,746"
+昭41,"3,346"
+昭42,"3,346"
+昭43,"3,346"
+昭44,"4,092"
+昭45,"4,232"
+昭46,"4,880"
+昭47,"4,880"
+昭48,"5,340"
+昭49,"5,640"
+昭50,"5,940"
+昭51,"6,080"
+昭52,"6,080"
+昭53,"6,080"
+昭54,"6,080"
+昭55,"6,080"
+昭56,"6,080"
+昭57,"6,080"
+昭58,"6,080"
+昭59,"6,080"
+昭60,"6,630"
+昭61,"6,630"
+昭62,"6,630"
+昭63,"6,630"
+平1,"6,630"
+平2,"6,630"
+平3,"6,685"
+平4,"6,685"
+平5,"6,960"
+平6,"6,960"
+平7,"6,960"
+平8,"6,960"
+平9,"6,960"
+平10,"6,960"
+平11,"6,960"
+平12,"6,960"
+平13,"6,960"
+平14,"6,960"
+平15,"6,960"
+平16,"6,860"
+平17,"6,860"
+平18,"6,860"
+平19,"6,860"
+平20,"6,860"
+平21,"6,860"
+平22,"6,860"
+平23,"6,860"
+平24,"6,860"
+平25,"6,860"
+平26,"6,860"
+平27,"6,860"
+平28,"6,860"
+平29,"6,860"
+平30,"6,860"
+令1,"6,860"
+令2,"6,845"
+令3,"6,845"
+令4,"6,845"
+令4,"6繧九％縺ｨ縺ｧ縲��蟶らｩｺ髢薙◎縺ｮ繧ゅ�繧貞�迴ｾ縺吶ｋ3D驛ｽ蟶らｩｺ髢捺ュ蝣ｱ繝励Λ繝�ヨ繝輔か繝ｼ繝�縺ｧ縺吶��...">
+
+
+    
+    <link href="/ckan/webassets/base/570de532_main.css" rel="stylesheet"/>
+<link href="/ckan/webassets/ckanext-gspf/e293e022_gspf.css" rel="stylesheet"/>
+<link href="/ckan/webassets/ckanext-gspf/f0f519c6_datepicker.css" rel="stylesheet"/>
+<link href="/ckan/webassets/ckanext-gspf/f0f519c6_datetimepicker.css" rel="stylesheet"/>
+<link href="/ckan/webassets/ckanext-gspf/b88ccda5_timepicker.css" rel="stylesheet"/>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LTP0RKS6X6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-LTP0RKS6X6');
+    </script>
+  </head>
+
+  
+  <body id="pagetop" data-site-root="https://www.geospatial.jp/ckan/" data-locale-root="https://www.geospatial.jp/ckan/" >
+
+    
+     
+<div class="account-masthead">
+  <div class="container">
+     
+    <nav class="account not-authed" aria-label="Account">
+      <ul class="list-unstyled">
+        
+  <script type="text/javascript">
+    function clear_login()
+    {
+      // localStorage.setItem('ckan_clipboard', '{}');
+      location.href = encodeURI("https://www.geospatial.jp/ckan/user/login?came_from=" + location.href);
+      //location.href = "/user";
+    }
+  </script>
+  <li>
+    <a href="javascript:clear_login()" title="繝ｭ繧ｰ繧､繝ｳ">
+    <!-- <a href="//https://www.geospatial.jp/ckan/user" title="繝ｭ繧ｰ繧､繝ｳ"> -->
+       <i class="fa fa-sign-in" aria-hidden="true"></i><span class="text"> 繝ｭ繧ｰ繧､繝ｳ</span>
+    </a>
+  </li> 
+  
+    <li>
+      <a href="https://front.geospatial.jp/usermanager/signup" target="_blank">
+         <i class="fa fa-user-plus" aria-hidden="true"></i><span class="text"> 譁ｰ隕上Θ繝ｼ繧ｶ繝ｼ逋ｻ骭ｲ</span>
+      </a>
+    </li>
+  
+
+      </ul>
+    </nav>
+     
+  </div>
+</div>
+
+<header class="navbar navbar-static-top masthead">
+    
+  <div class="container">
+    <div class="navbar-right">
+      <button data-target="#main-navigation-toggle" data-toggle="collapse" class="navbar-toggle collapsed" type="button" aria-label="expand or collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="fa fa-bars"></span>
+      </button>
+    </div>
+    <hgroup class="header-image navbar-left">
+      
+  
+    <a class="logo" href="https://www.geospatial.jp/">
+<!--    <a class="logo" href="https://www.geospatial.jp/ckan/"> -->
+      <img src="/ckan/images/logo_header.png" alt="G遨ｺ髢捺ュ蝣ｱ繧ｻ繝ｳ繧ｿ繝ｼ" title="G遨ｺ髢捺ュ蝣ｱ繧ｻ繝ｳ繧ｿ繝ｼ" />
+    </a>
+  
+
+    </hgroup>
+
+    <div class="collapse navbar-collapse" id="main-navigation-toggle">
+      
+  <nav class="section navigation">
+    <ul class="nav-border-slash">
+      
+  <li><a href="/ckan/dataset/">繝��繧ｿ繧ｻ繝�ヨ</a></li><li><a href="/ckan/organization/">邨�ｹ�</a></li><li><a href="/ckan/group/">繧ｫ繝�ざ繝ｪ</a></li><li><a href="/ckan/showcase">繧｢繝励Μ</a></li>
+
+    </ul>
+  </nav>
+  
+  
+ 
+  
+    </div>
+  </div>
+</header>
+
+  
+          
+            
+            <div class="flash-messages">
+              
+            </div>
+          
+    <div role="main">
+
+          
+            <div class="toolbar">
+              
+<div class="toolcontainer">
+                
+                  <ol class="breadcrumb">
+                    
+<!--<li class="home" style="margin-top:-3px"><a href="/ckan/"><i class="icon-home"></i><span> 繝帙�繝�</span></a>&nbsp;/</li>-->
+<li class="home" style="margin-top:-3px"><a href="https://www.geospatial.jp"><i class="fa fa-home"></i><span> 繝帙�繝�</span></a>&nbsp;/</li>
+                    
+  
+    
+    
+      
+      
+      <li><a href="/ckan/organization/">邨�ｹ�</a></li>
+      <li><a href="/ckan/organization/toshi">驛ｽ蟶ょｱ�</a></li>
+    
+    <li class="active"><a href="/ckan/dataset/plateau-13202-tachikawa-shi-2023">3D驛ｽ蟶ゅΔ繝�Ν��roject PLATEAU�臥ｫ句ｷ晏ｸゑｼ�2023蟷ｴ蠎ｦ��</a></li>
+  
+
+                  </ol>
+                
+</div>
+              
+            </div>
+          
+      <div id="content" class="container">
+        
+
+          <div class="wrapper">
+
+            
+            
+            
+
+            
+              <div class="primary">
+                
+                
+                  <article class="module">
+                    
+                      <header class="module-content page-header">
+                        
+                          <div class="content_action">
+                            
+   <script type="text/javascript">
+           window.onload = function(){
+              document.getElementById("mapselectorbutton2").addEventListener("click", function(){
+                 location.href='#charge';
+/*
+                 var name = '';
+                 if(name.length>0){
+                   location.href='#charge';
+                 }
+                 else{
+                   location.href='/gp_front/user/login?from=' + location.href;
+                 }
+*/
+              });
+           }
+   </script>
+
+   
+
+                          </div>
+                        
+                        <ul class="nav nav-tabs">
+                          
+  
+  <li class="active"><a href="/ckan/dataset/plateau-13202-tachikawa-shi-2023"><i class="fa fa-sitemap"></i> 繝��繧ｿ繧ｻ繝�ヨ</a></li>
+  <li><a href="/ckan/dataset/groups/plateau-13202-tachikawa-shi-2023"><i class="fa fa-users"></i> 繧ｫ繝�ざ繝ｪ</a></li>
+
+
+  
+
+                        </ul>
+                      </header>
+                    
+                    <div class="module-content">
+                      
+                      
+  
+  
+    
+      
+    
+
+  
+   
+   
+    
+    
+      
+    
+    <h1>
+      
+        3D驛ｽ蟶ゅΔ繝�Ν��roject PLATEAU�臥ｫ句ｷ晏ｸゑｼ�2023蟷ｴ蠎ｦ��
+        
+        
+      
+    </h1>
+    
+   
+   
+      
+        <div class="notes embedded-content">
+          <p>闊ｪ遨ｺ貂ｬ驥冗ｭ峨↓蝓ｺ縺･縺榊叙蠕励＠縺溘ョ繝ｼ繧ｿ縺九ｉ蟒ｺ迚ｩ遲峨�蝨ｰ迚ｩ繧�3谺｡蜈�〒逕滓�縺励◆3D驛ｽ蟶ゅΔ繝�Ν縺ｧ縺吶�ょ膚逕ｨ蛻ｩ逕ｨ繧ょ性繧√�√←縺ｪ縺溘〒繧ら┌蜆溘〒閾ｪ逕ｱ縺ｫ縺泌茜逕ｨ縺�◆縺�縺代∪縺吶��</p>
+<p><strong>迚ｹ蠕ｴ</strong></p>
+<p>3D驛ｽ蟶ゅΔ繝�Ν縺ｨ縺ｯ縲��蟶らｩｺ髢薙↓蟄伜惠縺吶ｋ蟒ｺ迚ｩ繧�｡苓ｷｯ縺ｨ縺�▲縺溘が繝悶ず繧ｧ繧ｯ繝医↓蜷咲ｧｰ繧�畑騾斐�∝ｻｺ險ｭ蟷ｴ縺ｨ縺�▲縺滄�蟶よｴｻ蜍墓ュ蝣ｱ繧剃ｻ倅ｸ弱☆繧九％縺ｨ縺ｧ縲��蟶らｩｺ髢薙◎縺ｮ繧ゅ�繧貞�迴ｾ縺吶ｋ3D驛ｽ蟶らｩｺ髢捺ュ蝣ｱ繝励Λ繝�ヨ繝輔か繝ｼ繝�縺ｧ縺吶��</p>
+<p>讒倥��↑驛ｽ蟶よｴｻ蜍輔ョ繝ｼ繧ｿ縺�3D驛ｽ蟶ゅΔ繝�Ν縺ｫ邨ｱ蜷医＆繧後�√ヵ繧｣繧ｸ繧ｫ繝ｫ遨ｺ髢薙→繧ｵ繧､繝舌�遨ｺ髢薙�鬮伜ｺｦ縺ｪ陞榊粋縺悟ｮ溽樟縺励∪縺吶�ゅ％繧後↓繧医ｊ縲��蟶りｨ育判遶区｡医�鬮伜ｺｦ蛹悶ｄ縲��蟶よｴｻ蜍輔�繧ｷ繝溘Η繝ｬ繝ｼ繧ｷ繝ｧ繝ｳ縲∝�譫千ｭ峨ｒ陦後≧縺薙→縺悟庄閭ｽ縺ｨ縺ｪ繧翫∪縺吶��</p>
+<p><strong>莉墓ｧ�</strong></p>
+<p>3D驛ｽ蟶ゅΔ繝�Ν讓呎ｺ冶｣ｽ蜩∽ｻ墓ｧ俶嶌隨ｬ3.4迚�</p>
+<p><strong>謨ｴ蛯吶ョ繝ｼ繧ｿ</strong> </p>
+<ul>
+<li>蟒ｺ遽峨Δ繝�Ν��OD0, 1, 2.0 �会ｼ咾ityGML蠖｢蠑上��3DTiles蠖｢蠑�</li>
+<li>莠､騾夲ｼ磯％霍ｯ�峨Δ繝�Ν��OD1, 2, 3.0�会ｼ咾ityGML蠖｢蠑上��3DTiles蠖｢蠑�</li>
+<li>莠､騾夲ｼ亥ｾ呈ｭｩ驕難ｼ峨Δ繝�Ν��OD1, 2, 3.0�会ｼ咾ityGML蠖｢蠑上��3DTiles蠖｢蠑�</li>
+<li>驛ｽ蟶りｨ育判豎ｺ螳壽ュ蝣ｱ繝｢繝�Ν��OD1�会ｼ咾ityGML蠖｢蠑上�｀VT蠖｢蠑�</li>
+<li>蝨溷慍蛻ｩ逕ｨ繝｢繝�Ν��OD1�会ｼ咾ityGML蠖｢蠑上�｀VT蠖｢蠑�</li>
+<li>轣ｽ螳ｳ繝ｪ繧ｹ繧ｯ�域ｵｸ豌ｴ�峨Δ繝�Ν�域ｴｪ豌ｴ豬ｸ豌ｴ諠ｳ螳壼玄蝓滂ｼ会ｼ�OD1�会ｼ咾ityGML蠖｢蠑上��3DTiles蠖｢蠑�</li>
+<li>轣ｽ螳ｳ繝ｪ繧ｹ繧ｯ�亥悄遐ら⊃螳ｳ�峨Δ繝�Ν��OD1�会ｼ咾ityGML蠖｢蠑上�｀VT蠖｢蠑�</li>
+<li>蝨ｰ蠖｢繝｢繝�Ν��OD1�会ｼ咾ityGML蠖｢蠑�</li>
+<li>讀咲函繝｢繝�Ν��OD1, 2�会ｼ咾ityGML蠖｢蠑上��3DTiles蠖｢蠑�</li>
+</ul>
+<p><strong>繝��繧ｿ縺ｮ繝舌�繧ｸ繝ｧ繝ｳ縺ｫ縺､縺�※</strong></p>
+<p>繝��繧ｿ蜷阪�譛�蠕後↓繧ｫ繝�さ譖ｸ縺阪�險倩ｼ峨′縺ｪ縺�ョ繝ｼ繧ｿ縺ｯ陬ｽ蜩∽ｻ墓ｧ俶嶌V1縺ｫ貅匁侠縺励◆繝��繧ｿ縲≫��(v[謨ｰ蟄余)窶昴�險倩ｼ峨′縺ゅｋ繝��繧ｿ縺ｯ陬ｽ蜩∽ｻ墓ｧ俶嶌V[謨ｰ蟄余縺ｫ貅匁侠縺励◆繝��繧ｿ縺ｧ縺吶��</p>
+<p>譛�譁ｰ迚医ョ繝ｼ繧ｿ縺ｯ縲〃3縺ｧ縺吶��</p>
+<p><strong>FBX縲＾BJ縲；lTF蛻ｩ逕ｨ閠�∈</strong></p>
+<p>譛�譁ｰ繝��繧ｿ縺ｯFBX縺ｯ謠蝉ｾ帙○縺壹�√Θ繝ｼ繧ｶ繝ｼ縺後ル繝ｼ繧ｺ縺ｫ蠢懊§縺ｦFBX繧ОBJ縺ｫ螟画鋤縺吶ｋ莉慕ｵ�∩縺ｨ縺励※縺�∪縺吶�ょ､画鋤縺ｯPLATEAU SDK繧貞茜逕ｨ縺吶ｋ縺薙→繧呈耳螂ｨ縺励∪縺吶��</p>
+<p>SDK繝√Η繝ｼ繝医Μ繧｢繝ｫ險倅ｺ九∈縺ｮ繝ｪ繝ｳ繧ｯ</p>
+<p><a href="https://www.mlit.go.jp/plateau/learning/tpc17-1/#p17_1" target="_blank" rel="nofollow">https://www.mlit.go.jp/plateau/learning/tpc17-1/#p17_1</a></p>
+        </div>
+      
+    
+
+    
+    <span class="insert-comment-thread"></span>
+  
+
+
+  
+    
+<section id="dataset-resources" class="resources">
+  <h3>繝��繧ｿ</h3>
+  
+    <script type="text/javascript">
+          function chklogin(url){
+          var name = '';
+          if(name.length>0){
+             location.href=url;
+          }
+          else{
+             location.href='/ckan/user/login?came_from=' + location.origin + url;
+          }
+       }
+    </script>
+    
+      <ul class="resource-list">
+        
+          
+          
+            
+              
+
+
+
+<li class="resource-item" data-id="5a428e5e-db4f-45a7-b796-770984172215">
+  
+    <script type="text/javascript">
+          function chklogin(url){
+          var name = '';
+          if(name.length>0){
+             location.href=url;
+          }
+          else{
+             location.href='/ckan/user/login?came_from=' + location.origin + url;
+          }
+       }
+    </script>
+
+    
+       <a class="heading" href="/ckan/dataset/plateau-13202-tachikawa-shi-2023/resource/5a428e5e-db4f-45a7-b796-770984172215" title="繝��繧ｿ逶ｮ骭ｲ��3��">
+       繝��繧ｿ逶ｮ骭ｲ��3��<span class="format-label" property="dc:format" data-format="text/markdown">text/markdown</span>
+    
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+        遶句ｷ晏ｸゅ�2023蟷ｴ蠎ｦ迚医ョ繝ｼ繧ｿ繧呈ｨ呎ｺ冶｣ｽ蜩∽ｻ墓ｧ俶嶌V3縺ｫ蝓ｺ縺･縺�※菴懈�縺励◆謠蝉ｾ帙ョ繝ｼ繧ｿ逶ｮ骭ｲ縺ｧ縺吶��...
+      
+    </p>
+  
+  
+
+  
+
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <i class="fa fa-share-alt"></i>
+          隧ｳ邏ｰ
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      
+      <li>
+        <a href="/ckan/dataset/plateau-13202-tachikawa-shi-2023/resource/5a428e5e-db4f-45a7-b796-770984172215">
+          
+            <i class="fa fa-info-sign"></i>
+            繧医ｊ螟壹￥縺ｮ諠��ｱ
+          
+        </a>
+      </li>
+      
+      
+              
+
+         
+      
+      
+      
+      
+    </ul>
+  </div>
+  
+
+  
+</li>
+          
+          
+            
+              
+
+
+
+<li class="resource-item" data-id="4e8115ad-4709-4cfa-b75c-232d3b74cc9f">
+  
+    <script type="text/javascript">
+          function chklogin(url){
+          var name = '';
+          if(name.length>0){
+             location.href=url;
+          }
+          else{
+             location.href='/ckan/user/login?came_from=' + location.origin + url;
+          }
+       }
+    </script>
+
+    
+       <a class="heading" href="/ckan/dataset/plateau-13202-tachikawa-shi-2023/resource/4e8115ad-4709-4cfa-b75c-232d3b74cc9f" title="CityGML��3��">
+       CityGML��3��<span class="format-label" property="dc:format" data-format="zip">ZIP</span>
+    
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+        2023蟷ｴ蠎ｦ迚医ョ繝ｼ繧ｿ繧呈ｨ呎ｺ冶｣ｽ蜩∽ｻ墓ｧ俶嶌V3縺ｫ蝓ｺ縺･縺�※菴懈�縺励◆CityGML蠖｢蠑上�繝��繧ｿ縺ｧ縺吶��
+谺｡縺ｮ繝��繧ｿ縺梧�ｼ邏阪＆繧後※縺�∪縺吶��
+
+繧ｳ繝ｼ繝峨Μ繧ｹ繝茨ｼ�ML蠖｢蠑擾ｼ�...
+      
+    </p>
+  
+  
+
+  
+
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <i class="fa fa-share-alt"></i>
+          隧ｳ邏ｰ
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      
+      <li>
+        <a href="/ckan/dataset/plateau-13202-tachikawa-shi-2023/resource/4e8115ad-4709-4cfa-b75c-232d3b74cc9f">
+          
+            <i class="fa fa-info-sign"></i>
+            繧医ｊ螟壹￥縺ｮ諠��ｱ
+          
+        </a>
+      </li>
+      
+      
+              
+
+         
+            
+               
+	          
+                  <li>
+		    <a href="https://assets.cms.plateau.reearth.io/assets/3a/991b42-3757-45c9-a6df-b43563049d01/13202_tachikawa-shi_city_2023_citygml_1_op.zip" class="resource-url-analytics" target="_blank">
+                    
+                       <i class="fa fa-download"></i>
+                       繝�繧ｦ繝ｳ繝ｭ繝ｼ繝�
+                    
+                    </a>
+                  </li>
+                  
+	       
+            
+         
+      
+      
+      
+      
+    </ul>
+  </div>
+  
+
+  
+</li>
+          
+          
+            
+              
+
+
+
+<li class="resource-item" data-id="bcfa3c9d-6694-440e-96c2-31a6b491409e">
+  
+    <script type="text/javascript">
+          function chklogin(url){
+          var name = '';
+          if(name.length>0){
+             location.href=url;
+          }
+          else{
+             location.href='/ckan/user/login?came_from=' + location.origin + url;
+          }
+       }
+    </script>
+
+    
+       <a class="heading" href="/ckan/dataset/plateau-13202-tachikawa-shi-2023/resource/bcfa3c9d-6694-440e-96c2-31a6b491409e" title="3D Tiles, MVT��3��">
+       3D Tiles, MVT��3��<span class="format-label" property="dc:format" data-format="zip">ZIP</span>
+    
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+        2023蟷ｴ蠎ｦ迚医ョ繝ｼ繧ｿ繧呈ｨ呎ｺ冶｣ｽ蜩∽ｻ墓ｧ俶嶌V3縺ｫ蝓ｺ縺･縺�※菴懈�縺励◆3D Tiles蠖｢蠑丞所縺ｳMVT蠖｢蠑上�繝��繧ｿ縺ｧ縺吶��
+谺｡縺ｮ繝��繧ｿ縺梧�ｼ邏阪＆繧後※縺�∪縺吶��...
+      
+    </p>
+  
+  
+
+  
+
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <i class="fa fa-share-alt"></i>
+          隧ｳ邏ｰ
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      
+      <li>
+        <a href="/ckan/dataset/plateau-13202-tachikawa-shi-2023/resource/bcfa3c9d-6694-440e-96c2-31a6b491409e">
+          
+            <i class="fa fa-info-sign"></i>
+            繧医ｊ螟壹￥縺ｮ諠��ｱ
+          
+        </a>
+      </li>
+      
+      
+              
+
+         
+            
+               
+	          
+                  <li>
+		    <a href="https://assets.cms.plateau.reearth.io/assets/69/06a493-edf2-402f-8dde-fb356f299e64/13202_tachikawa-shi_city_2023_3dtiles_mvt_1_op.zip" class="resource-url-analytics" target="_blank">
+                    
+                       <i class="fa fa-download"></i>
+                       繝�繧ｦ繝ｳ繝ｭ繝ｼ繝�
+                    
+                    </a>
+                  </li>
+                  
+	       
+            
+         
+      
+      
+      
+      
+    </ul>
+  </div>
+  
+
+  
+</li>
+          
+          
+            
+              
+
+
+
+<li class="resource-item" data-id="87e2fad6-6e20-48f3-acd5-947737390561">
+  
+    <script type="text/javasc

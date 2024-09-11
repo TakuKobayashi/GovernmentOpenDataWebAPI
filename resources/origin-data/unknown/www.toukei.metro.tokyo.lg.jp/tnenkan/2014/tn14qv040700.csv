@@ -1,0 +1,51 @@
+﻿地域,District,路線,Route,項番 Item Numbers,道路,Route,観測地点,Monitoring Site,自動車類 Motor vehicles／総数 Total,自動車類 Motor vehicles／乗用車類 Cars／乗用車 Passenger cars,自動車類 Motor vehicles／乗用車類 Cars／バス Buses,自動車類 Motor vehicles／貨物車類 Trucks／小型貨物車 Small,自動車類 Motor vehicles／貨物車類 Trucks／普通貨物車 Ordinary,歩行者類(人） Pedestrians (Person),自転車類 Bicycles,動力付き二輪車類 Two-wheeled vehicles
+0,13000,東京都,Tokyo to,1,関越自動車道（新潟線）,Kanetsu Expressway (Niigata line),大泉JCT～所沢IC,Oizumi JCT - Tokorozawa IC,70334,39077,1016,14293,15948,-,-,355
+0,13000,東京都,Tokyo to,2,第一東海自動車道,Daiichi Tokai Expressway,東京～東名川崎,Tokyo - Tomei Kawasaki,66141,42799,484,6105,16753,-,-,426
+0,13000,東京都,Tokyo to,3,中央自動車道富士吉田線,Chuo Expressway,調布IC～稲城IC間,Chofu IC - Inagi IC,60542,39787,769,13672,6314,-,-,687
+0,13000,東京都,Tokyo to,4,中央自動車道富士吉田線,Chuo Expressway,世田谷区・東京都境～調布IC間,Setagaya-ku／Tokyo border - Chofu IC,60335,38349,930,13517,7539,-,-,676
+0,13000,東京都,Tokyo to,5,東北縦貫自動車道,Tohoku Jukan Expressway,大泉JCT～和光IC,Oizumi JCT - Wako IC,56563,31581,509,12087,12386,-,-,251
+0,13000,東京都,Tokyo to,1,高速湾岸線,Bayshore Route,江東区新木場１丁目,Koto-ku,115418,…,…,…,…,-,-,…
+0,13000,東京都,Tokyo to,2,高速湾岸線,Bayshore Route,江東区有明3丁目,Koto-ku,111280,…,…,…,…,-,-,…
+0,13000,東京都,Tokyo to,3,首都高速六号線,Metropolitan Expressway No. 6,葛飾区堀切4丁目,Katsushika-ku,107110,…,…,…,…,-,-,…
+0,13000,東京都,Tokyo to,4,首都高速六号線,Metropolitan Expressway No. 6,葛飾区小菅3丁目,Katsushika-ku,105069,…,…,…,…,-,-,…
+0,13000,東京都,Tokyo to,5,高速湾岸線,Bayshore Route,江戸川区臨海町6丁目,Edogawa-ku,104377,…,…,…,…,-,-,…
+1,13100,区部,All ku,1,一般国道１４号（京葉道路）,Route 14,篠崎IC～市川IC,Shinozaki IC - Ichikawa IC,80512,58844,277,10029,11362,-,-,258
+1,13100,区部,All ku,2,一般国道４６６号（第三京浜道路）,Route 466,玉川IC～京浜川崎IC,Tamagawa IC - Keihin Kawasaki IC,50298,33250,139,14550,2359,-,-,1007
+1,13100,区部,All ku,3,一般国道２４６号,Route 246,世田谷区池尻2-31,Setagaya-ku,41738,21913,1302,15025,3498,10024,4038,5837
+1,13100,区部,All ku,4,一般国道２４６号,Route 246,目黒区青葉台3-1,Meguro-ku,40758,25584,1957,8830,4387,9478,3605,5335
+1,13100,区部,All ku,5,一般国道２０号,Route 20,渋谷区初台1-51,Shibuya-ku,40060,23942,1036,10451,4631,3495,3307,4280
+2,13300,市郡部,All shi and gun,1,一般国道２４６号,Route 246,町田市鶴間1184,Machida-shi,38534,21207,348,7297,9682,137,120,1248
+2,13300,市郡部,All shi and gun,2,一般国道１６号,Route 16,八王子市滝山町1,Hachioji-shi,32590,16853,200,5862,9675,78,518,887
+2,13300,市郡部,All shi and gun,3,一般国道２０号,Route 20,府中市西府町5-15,Fuchu-shi,29543,16585,171,7981,4806,247,564,1209
+2,13300,市郡部,All shi and gun,4,一般国道１６号（八王子バイパス）,Route 16,鑓水IC～打越IC間（御殿山料金所）,Yarimizu IC - Uchigoshi IC (Gotenyama tollgate),29266,14057,79,5041,10089,-,-,654
+2,13300,市郡部,All shi and gun,5,一般国道１６号,Route 16,町田市鶴間782,Machida-shi,28824,16394,161,6108,6161,219,61,702
+1,13100,区部,All ku,1,日本橋芝浦大森線,Nihombashi-Shibaura-Omori Line,中央区銀座8-14-14,Chuo-ku,52083,30114,689,14434,6846,6724,1746,…
+1,13100,区部,All ku,2,環状８号線,Ring Road 8,世田谷区上用賀5-12,Setagaya-ku,46383,26145,330,11327,8581,587,1334,1767
+1,13100,区部,All ku,3,環状８号線,Ring Road 8,杉並区上高井戸1-15,Suginami-ku,45034,24240,216,12218,8360,1396,2323,…
+1,13100,区部,All ku,4,環状８号線,Ring Road 8,練馬区下石神井1-1-38,Nerima-ku,43735,21515,347,12080,9793,1039,2029,2811
+1,13100,区部,All ku,5,環状８号線,Ring Road 8,世田谷区上北沢5-44-10,Setagaya-ku,41009,22852,503,9908,7746,556,1624,1538
+2,13300,市郡部,All shi and gun,1,新宿青梅線,Shinjuku Ome Line,武蔵村山市中原2-3-1,Musashimurayama-shi,31872,20036,183,6286,5367,52,191,747
+2,13300,市郡部,All shi and gun,2,府中町田線,Fuchu Machida Line,府中市住吉町2-30-41,Fuchu-shi,30885,19756,116,6741,4272,807,972,1690
+2,13300,市郡部,All shi and gun,3,新宿青梅線,Shinjuku Ome Line,武蔵村山市緑が丘,Musashimurayam-shi,29665,17960,219,6434,5052,419,1312,606
+2,13300,市郡部,All shi and gun,4,新宿青梅線,Shinjuku Ome Line,東村山市萩山町5-9,Higashimurayama-shi,29023,16950,68,7341,4664,263,1805,1252
+2,13300,市郡部,All shi and gun,5,新宿青梅線,Shinjuku Ome Line,東村山市富士見町3-30,Higashimurayama-shi,28131,15849,101,7019,5162,74,267,512
+1,13100,区部,All ku,1,南田中町旭町線,Minamitanakacho Asahicho Line,練馬区高野台3-12,Nerima-ku,34590,18268,275,8015,8032,1815,2507,1587
+1,13100,区部,All ku,2,高輪麻布線,Takanawa Azabu Line,港区南麻布1-6,Minato-ku,33743,24393,454,6397,2499,6259,776,1606
+1,13100,区部,All ku,3,南田中町旭町線,Minamitanakacho Asahicho Line,練馬区谷原3-23,Nerima-ku,31312,13700,317,8777,8518,760,1644,1729
+1,13100,区部,All ku,4,日比谷芝浦線,Hibiya Shibaura Line,港区新橋1-1-1,Minato-ku,30594,20671,314,6374,3235,16882,1768,2789
+1,13100,区部,All ku,5,皇居前鍛冶橋線,Kokyomae Kajibashi Line,千代田区丸の内1-11-6,Chiyoda-ku,29532,19873,479,6128,3052,10844,1672,…
+2,13300,市郡部,All shi and gun,1,八王子国立線,Hachioji Kunitachi Line,立川市錦町6-26,Tachikawa-shi,22643,13348,64,5246,3985,148,427,991
+2,13300,市郡部,All shi and gun,2,小山乞田線,Oyama Kotta Line,多摩市山王下1-18-1,Tama-shi,22374,16007,246,4469,1652,157,249,813
+2,13300,市郡部,All shi and gun,3,小山乞田線,Oyama Kotta Line,多摩市乞田1145,Tama-shi,20532,13983,312,4181,2056,677,298,783
+2,13300,市郡部,All shi and gun,4,福生青梅線,Fussa Ome Line,羽村市羽西2-3-6,Hamura-shi,17750,12564,262,3045,1879,140,183,468
+2,13300,市郡部,All shi and gun,5,小山乞田線,Oyama Kotta Line,八王子市別所2-58,Hachioji-shi,16911,11842,174,2476,2419,98,109,441
+,,,,,,,,,,,,,,,,
+東京都統計年鑑（平成26年）TOKYO STATISTICAL YEARBOOK ( 2014 ) 4　運輸 4　TRANSPORT,,,,,,,,,,,,,,,,
+4-7  観測地点別交通量（平成22年度） ,,,,,,,,,,,,,,,,
+交通量調査は，年間の平均的な交通量を把握するため，原則として交通量の変動の少ない秋季に１回調査する。 ,,,,,,,,,,,,,,,,
+なお，調査結果は，午前7時から午後7時までの12時間の「平日」交通量である。　　　　　　　　　　　　　　 ,,,,,,,,,,,,,,,,
+資料：都建設局道路建設部計画課 「交通量調査報告書」,,,,,,,,,,,,,,,,
+4-7  TRAFFIC VOLUME BY TRAFFIC MONITORING SITE （ Fiscal year 2010 ） ,,,,,,,,,,,,,,,,
+To obtain traffic volume on an annual average，in principle，a survey is conducted once in the autumn season when traffic volume is less variable.,,,,,,,,,,,,,,,,
+　　　 Survey results are traffic volumes for the 12 hour period from 7 a.m. to 7 p.m on a weekday. ,,,,,,,,,,,,,,,,
+Source: Bureau of Construction， TMG,,,,,,,,,,,,,,,,

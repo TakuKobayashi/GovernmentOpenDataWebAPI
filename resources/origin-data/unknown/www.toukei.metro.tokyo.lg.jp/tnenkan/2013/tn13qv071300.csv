@@ -1,0 +1,64 @@
+﻿男女 ,Gender,就業状態,Labour force status,項番 Item number,就業状態，就業希望意識，就業希望の有無，求職活動の有無,Labour force status， wish for work，  whether wishing to work ， whether seeking a job,項番 Item number,就業状態，就業希望の有無,Labour force status， whether wishing to work,項番 Item number,休職活動の有無,Whether seeking a job,総数 Total,総数 Total／平均年齢 Average age,15～19歳 15-19 years old,20～24歳 20-24 years old,25～29歳 25-29 years old,30～34歳 30-34 years old,35～39歳 35-39 years old,40～44歳 40-44 years old,45～49歳 45-49 years old,50～54歳 50-54 years old,55～59歳 55-59 years old,60～64歳 60-64 years old,65～69歳 65-69 years old,70～74歳 70-74 years old,75～79歳 75-79 years old,80～84歳 80-84 years old,85歳以上 85 years old and over
+総数,Total,,,,,,,,,,,,11726600,48.5,526800,779500,940700,1011200,1132300,1140900,970800,795100,716200,901500,767500,697200,587700,405700,353600
+総数,Total,有業者 ,Engaged in work,,,,,,,,,,7328400,43.9,93700,485900,801600,848900,903400,916100,810300,656200,545300,569100,322400,202100,103000,44600,25600
+総数,Total,有業者 ,Engaged in work,1,仕事が主な者 ,Mainly engaged in work,,,,,,,6110500,43.6,23900,339000,744600,778500,799400,785900,683100,538500,454600,454600,244800,147300,71700,29800,14800
+総数,Total,有業者 ,Engaged in work,2,仕事は従な者 ,Engaged in work on the side,,,,,,,1170200,45.7,69400,145100,49200,65000,101500,124200,121400,114900,85600,109000,76000,53600,30900,14000,10400
+総数,Total,有業者 ,Engaged in work,2,仕事は従な者 ,Engaged in work on the side,3,家事が主な者 ,Mainly keeping house,,,,885800,51.4,400,7100,26700,58100,98800,119500,115700,111800,83100,101900,67700,45300,28100,12200,9500
+総数,Total,有業者 ,Engaged in work,2,仕事は従な者 ,Engaged in work on the side,4,通学が主な者 ,Mainly attending school,,,,215300,21.2,66500,127100,14200,4600,1200,800,300,-,-,-,300,300,-,-,-
+総数,Total,有業者 ,Engaged in work,2,仕事は従な者 ,Engaged in work on the side,5,家事・通学以外が主な者 ,Mainly doing something else,,,,69000,48.7,2500,10900,8300,2200,1600,3900,5300,3100,2600,7100,8000,8000,2800,1900,900
+総数,Total,有業者 ,Engaged in work,,（就業希望意識）,（Wish for work）,6,継続就業希望者 ,Wishing to continue the present job,,,,5587500,45,55800,290900,540600,596400,698000,716100,649300,551800,457400,477700,256900,164900,77600,34400,19800
+総数,Total,有業者 ,Engaged in work,,（就業希望意識）,（Wish for work）,7,追加就業希望者 ,Wishing to have an additional job,,,,510000,38.2,19100,60100,67900,77100,70200,67700,50200,31000,26600,22500,13000,4300,300,-,-
+総数,Total,有業者 ,Engaged in work,,（就業希望意識）,（Wish for work）,8,転職希望者 ,Wishing to switch to another job,,,,876800,36.9,15000,110300,165900,147600,108800,105800,90500,55700,39800,19900,10600,3100,2800,1000,-
+総数,Total,有業者 ,Engaged in work,,（就業希望意識）,（Wish for work）,9,就業休止希望者 ,Wishing to stop working,,,,258000,54.3,1300,15600,16200,18400,17700,16100,14400,10100,16300,40800,35100,25600,20900,6800,2700
+総数,Total,無業者 ,Not engaged in work,,,,,,,,,,4398300,56.2,433100,293600,139100,162300,229000,224800,160500,138800,170800,332400,445000,495000,484700,361000,328000
+総数,Total,無業者 ,Not engaged in work,10,家事をしている者 ,Keeping house　　,,,,,,,2122100,60.2,2000,15700,57000,112200,181300,161800,114500,107600,122700,210100,255000,273000,257400,169300,82600
+総数,Total,無業者 ,Not engaged in work,11,通学している者 ,Attending school　,,,,,,,713400,19.6,419900,241300,31000,8000,5200,3100,2300,300,300,500,700,300,400,-,-
+総数,Total,無業者 ,Not engaged in work,12,その他 ,Other,,,,,,,1515600,67.7,9600,36500,49900,39200,40100,57900,40400,30600,45900,118200,183100,217500,217500,186200,242900
+総数,Total,無業者 ,Not engaged in work,,(就業希望の有無・求職活動の有無),（Whether wishing to work ， whether seeking a job）,13,就業希望者 ,Wishing to work,,,,1272900,44.8,100700,113600,95200,106300,142000,150800,85900,62700,74600,92300,93700,79000,50800,20300,5000
+総数,Total,無業者 ,Not engaged in work,,(就業希望の有無・求職活動の有無),（Whether wishing to work ， whether seeking a job）,13,就業希望者 ,Wishing to work,14,求職者 ,Seeking a job,520100,41.5,43600,64600,48300,39300,52700,66600,42400,30200,34200,37100,33700,18200,7700,900,300
+総数,Total,無業者 ,Not engaged in work,,(就業希望の有無・求職活動の有無),（Whether wishing to work ， whether seeking a job）,13,就業希望者 ,Wishing to work,15,非求職者 ,Not seeking a job,736900,46.8,55800,48300,46100,66600,89300,83200,42700,32500,40000,54400,57300,58100,39700,18100,4800
+総数,Total,無業者 ,Not engaged in work,,(就業希望の有無・求職活動の有無),（Whether wishing to work ， whether seeking a job）,16,非就業希望者,Not wishing to work,,,,3084900,60.9,328800,178100,43100,55600,86600,72800,73600,74100,94500,235800,346100,410300,426000,337600,321800
+男 ,Male,総数,Total,,,,,,,,,,5763400,47.2,269000,396400,483900,517900,579900,584000,500900,409900,365100,450600,365600,319400,255000,159800,105900
+男 ,Male,有業者 ,Engaged in work,,,,,,,,,,4216600,44.5,45600,230100,434100,481300,543200,542100,472100,381700,327900,342100,192700,121500,63400,25100,13500
+男 ,Male,有業者 ,Engaged in work,1,仕事が主な者 ,Mainly engaged in work,,,,,,,3991700,44.9,13500,152500,413900,473300,537900,535400,466300,376300,324200,326800,177900,106900,54000,22200,10600
+男 ,Male,有業者 ,Engaged in work,2,仕事は従な者 ,Engaged in work on the side,,,,,,,197000,36.5,31700,75700,16800,5500,4500,2900,2300,3300,1300,11700,13500,14100,8900,2200,2500
+男 ,Male,有業者 ,Engaged in work,2,仕事は従な者 ,Engaged in work on the side,3,家事が主な者 ,Mainly keeping house,,,,51500,58.9,-,3100,2300,2100,3700,1700,2000,3000,1300,6300,8600,7800,6700,700,2300
+男 ,Male,有業者 ,Engaged in work,2,仕事は従な者 ,Engaged in work on the side,4,通学が主な者 ,Mainly attending school,,,,110000,21.3,30100,68000,9300,1800,-,500,-,-,-,-,-,300,-,-,-
+男 ,Male,有業者 ,Engaged in work,2,仕事は従な者 ,Engaged in work on the side,5,家事・通学以外が主な者 ,Mainly doing something else,,,,35500,51.4,1600,4600,5200,1600,800,700,300,300,-,5400,4900,6000,2200,1500,300
+男 ,Male,有業者 ,Engaged in work,,（就業希望意識）,（Wish for work）,6,継続就業希望者 ,Wishing to continue the present job,,,,3308100,45.5,30300,141400,295400,341100,428500,444400,390700,331400,277700,291200,154900,101900,47900,20500,10900
+男 ,Male,有業者 ,Engaged in work,,（就業希望意識）,（Wish for work）,7,追加就業希望者 ,Wishing to have an additional job,,,,276500,39.2,7800,25200,36100,45000,44600,34800,25500,17100,14100,13700,9000,3400,300,-,-
+男 ,Male,有業者 ,Engaged in work,,（就業希望意識）,（Wish for work）,8,転職希望者 ,Wishing to switch to another job,,,,442300,37.3,5700,48600,85500,82200,56900,48000,44200,24900,23300,11400,7500,2100,1900,-,-
+男 ,Male,有業者 ,Engaged in work,,（就業希望意識）,（Wish for work）,9,就業休止希望者 ,Wishing to stop working,,,,131400,54.5,900,8000,9700,8500,9200,6600,7000,3100,8300,20800,18400,13400,12800,3200,1300
+男 ,Male,無業者 ,Not engaged in work,,,,,,,,,,1546900,54.6,223400,166400,49800,36600,36700,41800,28700,28300,37200,108600,172900,197900,191600,134600,92400
+男 ,Male,無業者 ,Not engaged in work,10,家事をしている者 ,Keeping house　　,,,,,,,160600,66.8,300,1300,2200,4600,6600,4600,4300,5600,6000,15500,24500,25600,32000,18900,8700
+男 ,Male,無業者 ,Not engaged in work,11,通学している者 ,Attending school　,,,,,,,386300,19.8,215900,142400,16200,5500,1400,2300,500,-,300,500,700,300,400,-,-
+男 ,Male,無業者 ,Not engaged in work,12,その他 ,Other,,,,,,,974800,66.2,6000,22600,30600,25600,27400,34300,20900,22600,30300,90400,145000,169700,154700,112700,81900
+男 ,Male,無業者 ,Not engaged in work,,(就業希望の有無・求職活動の有無),（Whether wishing to work ， whether seeking a job）,13,就業希望者 ,Wishing to work,,,,476900,46.4,49500,63000,35900,28100,28400,33900,17100,17500,27300,41000,50700,44500,27000,10400,2700
+男 ,Male,無業者 ,Not engaged in work,,(就業希望の有無・求職活動の有無),（Whether wishing to work ， whether seeking a job）,13,就業希望者 ,Wishing to work,14,求職者 ,Seeking a job,235900,42.2,22700,36100,19400,18600,19800,21500,10900,12100,15500,19900,21400,11600,5400,600,300
+男 ,Male,無業者 ,Not engaged in work,,(就業希望の有無・求職活動の有無),（Whether wishing to work ， whether seeking a job）,13,就業希望者 ,Wishing to work,15,非求職者 ,Not seeking a job,232500,50.5,25500,26300,15700,9000,8600,12400,5700,5300,11400,20900,28100,31400,20700,9100,2500
+男 ,Male,無業者 ,Not engaged in work,,(就業希望の有無・求職活動の有無),（Whether wishing to work ， whether seeking a job）,16,非就業希望者,Not wishing to work,,,,1051500,58.3,171600,101900,13100,8500,8200,7600,11300,9400,9000,65400,120200,150600,163200,122400,89100
+女 ,Female,総数,Total,,,,,,,,,,5963200,49.8,257800,383100,456700,493300,552400,557000,469900,385100,351100,450800,401900,377700,332700,245900,247700
+女 ,Female,有業者 ,Engaged in work,,,,,,,,,,3111800,43.1,48100,255900,367400,367600,360100,373900,338100,274500,217500,227000,129800,80600,39600,19500,12100
+女 ,Female,有業者 ,Engaged in work,1,仕事が主な者 ,Mainly engaged in work,,,,,,,2118800,41.1,10400,186500,330700,305200,261600,250500,216800,162200,130400,127800,66900,40400,17600,7600,4200
+女 ,Female,有業者 ,Engaged in work,2,仕事は従な者 ,Engaged in work on the side,,,,,,,973200,47.5,37700,69400,32400,59400,97100,121300,119000,111500,84300,97300,62600,39500,22000,11900,7800
+女 ,Female,有業者 ,Engaged in work,2,仕事は従な者 ,Engaged in work on the side,3,家事が主な者 ,Mainly keeping house,,,,834300,50.9,400,4000,24400,56000,95100,117800,113700,108800,81800,95600,59100,37600,21300,11500,7200
+女 ,Female,有業者 ,Engaged in work,2,仕事は従な者 ,Engaged in work on the side,4,通学が主な者 ,Mainly attending school,,,,105300,21.1,36400,59100,5000,2800,1200,300,300,-,-,-,300,-,-,-,-
+女 ,Female,有業者 ,Engaged in work,2,仕事は従な者 ,Engaged in work on the side,5,家事・通学以外が主な者 ,Mainly doing something else,,,,33500,45.8,900,6300,3100,600,800,3200,5000,2800,2600,1700,3200,1900,600,400,600
+女 ,Female,有業者 ,Engaged in work,,（就業希望意識）,（Wish for work）,6,継続就業希望者 ,Wishing to continue the present job,,,,2279400,44.3,25500,149500,245200,255300,269500,271700,258500,220300,179700,186600,102000,63000,29700,13900,8900
+女 ,Female,有業者 ,Engaged in work,,（就業希望意識）,（Wish for work）,7,追加就業希望者 ,Wishing to have an additional job,,,,233500,37,11300,35000,31800,32200,25600,32900,24700,13900,12400,8800,4000,1000,-,-,-
+女 ,Female,有業者 ,Engaged in work,,（就業希望意識）,（Wish for work）,8,転職希望者 ,Wishing to switch to another job,,,,434600,36.4,9300,61700,80400,65400,51900,57800,46200,30800,16500,8500,3200,1100,800,1000,-
+女 ,Female,有業者 ,Engaged in work,,（就業希望意識）,（Wish for work）,9,就業休止希望者 ,Wishing to stop working,,,,126600,54,300,7500,6500,9900,8500,9500,7400,7000,8000,20000,16600,12300,8100,3600,1400
+女 ,Female,無業者 ,Not engaged in work,,,,,,,,,,2851400,57.1,209700,127200,89300,125700,192300,183000,131800,110600,133700,223800,272100,297100,293100,226400,235600
+女 ,Female,無業者 ,Not engaged in work,10,家事をしている者 ,Keeping house　　,,,,,,,1961500,59.7,1700,14400,54800,107600,174700,157200,110200,102000,116700,194600,230500,247400,225400,150400,73900
+女 ,Female,無業者 ,Not engaged in work,11,通学している者 ,Attending school　,,,,,,,327000,19.3,204000,98900,14900,2500,3800,700,1700,300,-,-,-,-,-,-,-
+女 ,Female,無業者 ,Not engaged in work,12,その他 ,Other,,,,,,,540700,70.5,3500,13900,19200,13600,12700,23700,19500,8000,15600,27800,38100,47800,62800,73500,161000
+女 ,Female,無業者 ,Not engaged in work,,(就業希望の有無・求職活動の有無),（Whether wishing to work ， whether seeking a job）,13,就業希望者 ,Wishing to work,,,,796000,43.8,51300,50500,59300,78300,113600,117000,68800,45300,47300,51300,43000,34600,23700,9900,2300
+女 ,Female,無業者 ,Not engaged in work,,(就業希望の有無・求職活動の有無),（Whether wishing to work ， whether seeking a job）,13,就業希望者 ,Wishing to work,14,求職者 ,Seeking a job,284100,40.9,20900,28500,28900,20700,32900,45200,31500,18000,18700,17200,12300,6500,2300,300,-
+女 ,Female,無業者 ,Not engaged in work,,(就業希望の有無・求職活動の有無),（Whether wishing to work ， whether seeking a job）,13,就業希望者 ,Wishing to work,15,非求職者 ,Not seeking a job,504400,45.1,30400,22000,30400,57600,80700,70900,37000,27200,28600,33500,29200,26700,19100,9000,2300
+女 ,Female,無業者 ,Not engaged in work,,(就業希望の有無・求職活動の有無),（Whether wishing to work ， whether seeking a job）,16,非就業希望者,Not wishing to work,,,,2033400,62.2,157100,76300,30000,47100,78300,65100,62300,64700,85500,170400,225900,259700,262900,215200,232700
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+東京都統計年鑑（平成25年）TOKYO STATISTICAL YEARBOOK ( 2013 )　7  労働 7  LABOR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+7-13  男女， 就業状態，　就業希望意識・就業希望の有無， 求職活動の有無，年齢別15歳以上人口 (平成24年10月1日) 7-13  POPULATION OF 15 YEARS OLD AND OVER BY GENDER， LABOUR FORCE STATUS， WISH FOR WORK， WHETHER WISHING TO WORK， WHETHER SEEKING A JOB AND AGE ( Oct. 1， 2012 ),,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+就業構造基本調査は標本調査であって，15歳以上の者について，ふだんの就業状態を調査している。「有業者」とは，就業者と休業者を合わせたもので， 収入を得るために一定の仕事に継続的に従事し，今後もその仕事を継続することになっている者。 総数には不詳の者が含まれているので， 総数の数字はその内訳の合計に必ずしも一致しない。,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+The Employment Status Survey is a sample survey on the employment status of persons 15 years old and over. Working persons are a total of persons who are usually engaged in work for pay or profit and expected to be in the same status after the date of survey， and persons with a job but not working at present. The totals may not necessarily add up as they include those of unknown status.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+資料：総務省 「就業構造基本調査報告」 Source: Ministry of Internal Affairs and Communications ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

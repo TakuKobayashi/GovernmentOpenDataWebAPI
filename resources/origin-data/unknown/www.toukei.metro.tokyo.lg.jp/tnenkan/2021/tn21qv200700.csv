@@ -1,0 +1,94 @@
+﻿年次,Year,区分階層,項番 Item number,種類,Type,種類,Type,種類,Type,取扱総数 Total number of cases handled,旧受 Previously received,新受計 Newly received total,手続開始内訳  Breakdown of case proceedings commenced／申告 Stated／職員受 Received by officials,手続開始内訳  Breakdown of case proceedings commenced／申告 Stated／委員受 Received by commissioners,手続開始内訳  Breakdown of case proceedings commenced／委員通報 Notified by commissioners,手続開始内訳  Breakdown of case proceedings commenced／関係官公署の通報 Reported by relevant public authorities,手続開始内訳  Breakdown of case proceedings commenced／情報 Information,手続開始内訳  Breakdown of case proceedings commenced／移送 Transferred,処理件数 Total number of cases disposed,処理内訳 Breakdown of cases processed／措置 Measures／援助 Assisted,処理内訳 Breakdown of cases processed／措置 Measures／調整 Adjusted,処理内訳 Breakdown of cases processed／措置 Measures／要請 Requested,処理内訳 Breakdown of cases processed／措置 Measures／説示 Instructed,処理内訳 Breakdown of cases processed／措置 Measures／勧告 Advised,処理内訳 Breakdown of cases processed／措置 Measures／通告 Informed,処理内訳 Breakdown of cases processed／措置 Measures／告発 Indicted,処理内訳 Breakdown of cases processed／措置猶予 Suspension of sentence,処理内訳 Breakdown of cases processed／侵犯事実不存在 Non-existence of facts about infringement,処理内訳 Breakdown of cases processed／侵犯事実不明確 Uncertainty of facts about infringement,処理内訳 Breakdown of cases processed／打切り Closed,処理内訳 Breakdown of cases processed／中止 Discontinued,処理内訳 Breakdown of cases processed／移送 Transferred,処理内訳 Breakdown of cases processed／啓発 Admonished,未済 Pending
+令和2,2020,0,,総数,Total,,,,,633,188,445,395,14, -,7, -,29,525,204,10,133,50, -, -, -,1, -,124,52, -, -,8,108
+令和3,2021,0,,総数,Total,,,,,577,108,469,438,15, -,4, -,12,491,269,9,45,41, -, -, -,2, -,103,22, -, -,6,86
+令和3,2021,1,1,公務員等の職務執行に伴う侵犯事件,Cases of infringement by public servants in the execution of their duties　　　　　　　　　　　　,,,,,78,11,67,62,5, -, -, -, -,71,50,2, -, -, -, -, -,2, -,17, -, -, -, -,7
+令和3,2021,1,1,特別公務員による侵犯,Infringement by special public officials,警察官によるもの,By policemen,,,6,3,3,2,1, -, -, -, -,6,2, -, -, -, -, -, -, -, -,4, -, -, -, -, -
+令和3,2021,1,2,特別公務員による侵犯,Infringement by special public officials,その他の特別公務員,By other special public officials,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,1,3,教育職員による侵犯,Infringement by education personnel,体罰,Corporal punishment ,,,2, -,2,2, -, -, -, -, -,2,2, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,1,4,教育職員による侵犯,Infringement by education personnel,その他,Others,,,26,1,25,24,1, -, -, -, -,22,16,2, -, -, -, -, -, -, -,4, -, -, -, -,4
+令和3,2021,1,5,学校におけるいじめ,Bullying at school　　　　　　　　　　　　　　,,,,,35,4,31,28,3, -, -, -, -,32,28, -, -, -, -, -, -,2, -,2, -, -, -, -,3
+令和3,2021,1,6,刑務職員による侵犯,Infringement by prison personnel,,,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,1,7,その他の公務員による侵犯,Infringement by other public servants,国家公務員,National public servants,,,2, -,2,2, -, -, -, -, -,2, -, -, -, -, -, -, -, -, -,2, -, -, -, -, -
+令和3,2021,1,8,その他の公務員による侵犯,Infringement by other public servants,地方公務員,Local government servants,,,7,3,4,4, -, -, -, -, -,7,2, -, -, -, -, -, -, -, -,5, -, -, -, -, -
+令和3,2021,1,9,その他の公務員による侵犯,Infringement by other public servants,その他,Others,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,1,私人間の侵犯事件,Infringement cases among private citizens,,,,,499,97,402,376,10, -,4, -,12,420,219,7,45,41, -, -, -, -, -,86,22, -, -,6,79
+令和3,2021,2,1,人身売買,Human trafficking  ,,,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,2,売春に伴う侵犯,Infringement relating to prostitution,,,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,3,暴行虐待,Violence and abuse,家族間におけるもの,Among family members,夫の妻に対するもの,From husband to wife　　　　　　　　　　　　　　,15, -,15,12,3, -, -, -, -,15,15, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,4,暴行虐待,Violence and abuse,家族間におけるもの,Among family members,妻の夫に対するもの,From wife to husband 　　　　　　　　　　　　　　, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,5,暴行虐待,Violence and abuse,家族間におけるもの,Among family members,親の子に対するもの,From parent to child 　　　　　　　　　　　　　　,15,3,12,12, -, -, -, -, -,15,15, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,6,暴行虐待,Violence and abuse,家族間におけるもの,Among family members,子の親に対するもの,From child to parent 　　　　　　　　　　　　　　,2, -,2,2, -, -, -, -, -,2,2, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,7,暴行虐待,Violence and abuse,家族間におけるもの,Among family members,その他,Others,2, -,2,2, -, -, -, -, -,2,2, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,8,暴行虐待,Violence and abuse,その他,Others,,,4,1,3,3, -, -, -, -, -,4,3,1, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,9,私的制裁,Lynching,,,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,10,医療に関する侵犯,Infringement related to medical care,,,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,11,人身の自由に対する侵犯,Infringement of personal liberty,精神保健法関係,Related to the Mental Health Act ,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,12,人身の自由に対する侵犯,Infringement of personal liberty,その他,Others　　　　　　　　　　　　　　　　　　　　　　　,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,13,社会福祉施設における侵犯,Infringement in social welfare facilities,施設職員によるもの,By staff of facilities,,,1, -,1,1, -, -, -, -, -,1, -, -, -, -, -, -, -, -, -,1, -, -, -, -, -
+令和3,2021,2,14,社会福祉施設における侵犯,Infringement in social welfare facilities,その他,Others　　　　　　　　　　　　　　　　　　　　　　　,,,1, -,1,1, -, -, -, -, -,1, -, -, -, -, -, -, -, -, -,1, -, -, -, -, -
+令和3,2021,2,15,村八分,Social ostracism,,,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,16,差別待遇,Discriminative treatment ,女性に関するもの,Against women,,,1, -,1,1, -, -, -, -, -,1, -, -, -, -, -, -, -, -, -,1, -, -, -, -, -
+令和3,2021,2,17,差別待遇,Discriminative treatment ,高齢者に関するもの,Against elderly people,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,18,差別待遇,Discriminative treatment ,障害者に関するもの,Against persons with disabilities,,,13,2,11,11, -, -, -, -, -,13,2,2, -, -, -, -, -, -, -,9, -, -, -, -, -
+令和3,2021,2,19,差別待遇,Discriminative treatment ,同和問題に関するもの,Related to Dowa problem,,,47,33,14, -, -, -,2, -,12,45, -, -,3,41, -, -, -, -, -, -,1, -, -, -,2
+令和3,2021,2,20,差別待遇,Discriminative treatment ,アイヌの人々に関するもの,Against Ainu people,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,21,差別待遇,Discriminative treatment ,外国人に関するもの,Against foreigners,,,7,2,5,3, -, -,2, -, -,7,1, -, -, -, -, -, -, -, -,5,1, -, -,3, -
+令和3,2021,2,22,差別待遇,Discriminative treatment ,ＨＩＶ感染者等に関するもの,Against HIV-positive patients， etc.,,,1, -,1,1, -, -, -, -, -,1,1, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,23,差別待遇,Discriminative treatment ,刑を終えた人に関するもの,Against ex-convicts  ,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,24,差別待遇,Discriminative treatment ,その他,Others,,,16,2,14,14, -, -, -, -, -,15,9,2, -, -, -, -, -, -, -,4, -, -, -, -,1
+令和3,2021,2,25,参政権に対する侵犯,Infringement of suffrage ,,,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,26,プライバシーに関する侵犯,Infringement of privacy,報道機関等,By media， etc. ,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,27,プライバシーに関する侵犯,Infringement of privacy,インターネット等によるもの,Via Internet， etc. ,,,246,50,196,196, -, -, -, -, -,173,64, -,42, -, -, -, -, -, -,50,17, -, -, -,73
+令和3,2021,2,28,プライバシーに関する侵犯,Infringement of privacy,相隣間におけるもの,Among neighbors,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,29,プライバシーに関する侵犯,Infringement of privacy,その他,Others,,,11,1,10,10, -, -, -, -, -,8,5,1, -, -, -, -, -, -, -,2, -, -, -,1,3
+令和3,2021,2,30,集会，結社及び表現の自由に対する侵犯,Infringement of the freedom of gathering， association and expression,,,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,31,信教の自由に対する侵犯,Infringement of the freedom of religion,,,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,32,教育を受ける権利への侵犯,Infringement of the right of receiving education ,,,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,33,労働権に対する侵犯,Infringement of the right of labor,不当労働行為,Unfair labor practice,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,34,労働権に対する侵犯,Infringement of the right of labor,労働基準法違反,Violation of the Labor Standards Act ,,,5, -,5,5, -, -, -, -, -,5,5, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,35,労働権に対する侵犯,Infringement of the right of labor,その他,Others　　,,,63,1,62,61,1, -, -, -, -,63,51,1, -, -, -, -, -, -, -,10,1, -, -, -, -
+令和3,2021,2,36,住居・生活の安全に対する侵犯,Infringement of the safety of dwelling and living,自力執行,Execution by oneself,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,37,住居・生活の安全に対する侵犯,Infringement of the safety of dwelling and living,相隣間におけるもの,Between neighbors,小公害,Small pollution,4, -,4,2,2, -, -, -, -,4,4, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,38,住居・生活の安全に対する侵犯,Infringement of the safety of dwelling and living,相隣間におけるもの,Between neighbors,その他,Others,3, -,3,3, -, -, -, -, -,3,1, -, -, -, -, -, -, -, -, -,2, -, -, -, -
+令和3,2021,2,39,住居・生活の安全に対する侵犯,Infringement of the safety of dwelling and living,公害,Pollution,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,40,住居・生活の安全に対する侵犯,Infringement of the safety of dwelling and living,不動産,Real estate,,,1, -,1,1, -, -, -, -, -,1,1, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,41,住居・生活の安全に対する侵犯,Infringement of the safety of dwelling and living,その他,Others,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,42,強制強要,Coercion,家族間におけるもの,Among family members,夫の妻に対するもの,From husband to wife　　　　　　　　　　　　　　,5, -,5,5, -, -, -, -, -,5,5, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,43,強制強要,Coercion,家族間におけるもの,Among family members,妻の夫に対するもの,From wife to husband 　　　　　　　　　　　　　　,1, -,1,1, -, -, -, -, -,1, -, -, -, -, -, -, -, -, -,1, -, -, -, -, -
+令和3,2021,2,44,強制強要,Coercion,家族間におけるもの,Among family members,親の子に対するもの,From parent to child 　　　　　　　　　　　　　　,1, -,1,1, -, -, -, -, -,1,1, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,45,強制強要,Coercion,家族間におけるもの,Among family members,子の親に対するもの,From child to parent 　　　　　　　　　　　　　　, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,46,強制強要,Coercion,家族間におけるもの,Among family members,その他,Others,1, -,1,1, -, -, -, -, -,1,1, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,47,強制強要,Coercion,セクシュアル・ハラスメント,Sexual harassment,,,15,2,13,10,3, -, -, -, -,15,13, -, -, -, -, -, -, -, -,2, -, -, -,2, -
+令和3,2021,2,48,強制強要,Coercion,ストーカー,Stalking,,,11, -,11,11, -, -, -, -, -,11,11, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,49,強制強要,Coercion,その他,Others,,,4, -,4,4, -, -, -, -, -,4,4, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,50,組織，多衆の圧力による侵犯,Infringement by organizations or pressure of the masses,,,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,51,交通事故,Traffic accidents,,,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,52,犯罪被害者,Victims of crimes,,,,, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+令和3,2021,2,53,その他,Others,,,,,3, -,3,2,1, -, -, -, -,3,3, -, -, -, -, -, -, -, -, -, -, -, -, -, -
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+東京都統計年鑑（令和3年）TOKYO STATISTICAL YEARBOOK ( 2021 ) 20  司法・警察・消防 20  JUSTICE， POLICE， AND FIRE FIGHTING SERVICES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+20-7  人権侵犯事件の種類別件数 （令和2， 3年） 20-7  CASES OF INFRINGEMENT ON HUMAN RIGHTS BY TYPE ( 2020 and 2021 ),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+資料：東京法務局人権擁護部第二課 Source: Tokyo Legal Affairs Bureau,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+区分階層(0:総数　1:区分　2:区分),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

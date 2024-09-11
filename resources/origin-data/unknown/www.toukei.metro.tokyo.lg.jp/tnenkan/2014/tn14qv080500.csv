@@ -1,0 +1,36 @@
+﻿年次,Year,地域階層,地域コード,産業 (大分類) Industry (Division),地域，産業 (大分類）,District and industry (Division),事業所数 Number of establishments,従業者数 Number of employees,従業者数 Number of employees ／（うち) 常雇 (of which) Regular employees
+平成21,2009,0,13000,,東京都,Tokyo-to,866,25842,25081
+平成24,2012,0,13000,,東京都,Tokyo-to,811,30853,30197
+平成24,2012,1,13100,,区部,All ku,779,27555,26924
+平成24,2012,2,13101,,千代田区,Chiyoda-ku,213,5670,5542
+平成24,2012,2,13102,,中央区,Chuo-ku,128,2464,2372
+平成24,2012,2,13103,,港区,Minato-ku,262,5447,5293
+平成24,2012,2,13104,,新宿区,Shinjuku-ku,30,794,784
+平成24,2012,2,,,その他,Others,146,13180,12933
+平成24,2012,1,13200,,市部,All shi,32,3298,3273
+平成24,2012,1,13300,,郡部,All gun,-,-,-
+平成24,2012,1,13350,,島部,All islands,-,-,-
+平成24,2012,,,A・B,農業，林業・漁業,Agriculture， forestry and fisheries,-,-,-
+平成24,2012,,,C,鉱業，採石業，砂利採取業,Mining and quarrying of stone and gravel,-,-,-
+平成24,2012,,,D,建設業,Construction,6,51,44
+平成24,2012,,,E,製造業,Manufacturing,18,346,335
+平成24,2012,,,F,電気・ガス・熱供給・水道業,Electricity， gas， heat supply and water,1,12,12
+平成24,2012,,,G,情報通信業,Information and communications,99,2236,2174
+平成24,2012,,,H,運輸業，郵便業,Transport and postal activities,86,2189,2172
+平成24,2012,,,I,卸売業，小売業,Wholesale and retail trade,190,2674,2530
+平成24,2012,,,J,金融業，保険業,Finance and insurance,184,20885,20649
+平成24,2012,,,K,不動産業，物品賃貸業,Real estate and goods rental and leasing ,15,203,198
+平成24,2012,,,L,学術研究，専門・技術サービス業,Scientific research， professional and technical services,79,1333,1244
+平成24,2012,,,M,宿泊業，飲食サービス業,Accommodations， eating and drinking services,12,102,93
+平成24,2012,,,N,生活関連サービス業，娯楽業,Living-related and personal services and amusement services,22,97,88
+平成24,2012,,,O,教育，学習支援業,Education， learning support,2,9,5
+平成24,2012,,,P,医療，福祉,Medical， health care and welfare,6,45,28
+平成24,2012,,,Q,複合サービス事業,Compound services,-,-,-
+平成24,2012,,,R,サービス業 (他に分類されないもの）,Services， n.e.c.,91,671,625
+,,,,,,,,,
+東京都統計年鑑（平成26年）TOKYO STATISTICAL YEARBOOK ( 2014 )　8 事業所 8  ESTABLISHMENTS,,,,,,,,,
+8-5  外国の会社の地域，産業 (大分類) 別事業所数及び従業者数  (平成21，24年) 8-5  FOREIGN ENTERPRISE ESTABLISHMENTS AND EMPLOYEES  BY INDUSTRY  ( DIVISION )， AND DISTRICT ( 2009 and 2012 ) ,,,,,,,,,
+外国の会社とは，外国で設立された法人の支店，営業所などのうち，会社法の規定により日本に営業所などの所在地を登録したものをいう。,,,,,,,,,
+Foreign enterprises are branches or offices of corporations established in a foreign country that have a registered address in Japan under the regulations of the Companies Act.,,,,,,,,,
+資料：総務省統計局，都総務局統計部産業統計課 「平成21年経済センサス-基礎調査報告」，総務省統計局・経済産業省，都総務局統計部産業統計課 「平成24年経済センサス-活動調査報告」 Source: Statistics Bureau， Ministry of Internal Affairs and Communications; Ministry of Economy， Trade and Industry; Bureau of General Affairs， TMG ,,,,,,,,,
+地域階層（0:東京都　1:区部・市部・郡部・島部　2:区市町村),,,,,,,,,

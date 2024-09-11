@@ -1,0 +1,126 @@
+﻿産業（大分類） Industry (Division),男女及び産業 (大分類),Gender and industry (Division),項番 Item number,産業（中分類） ,Industry (Major groups),総数 Total／事業所数 Number of establishments,総数 Total／従業者数 Number of employees 1),1～4人 1-4 Persons／事業所数 Number of establishments,1～4人 1-4 Persons／従業者数 Number of employees 1),5～9人 5-9 Persons／事業所数 Number of establishments,5～9人 5-9 Persons／従業者数 Number of employees 1),10～19人 10-19 Persons／事業所数 Number of establishments,10～19人 10-19 Persons／従業者数 Number of employees 1),20～29人 20-29 Persons／事業所数 Number of establishments,20～29人 20-29 Persons／従業者数 Number of employees 1),30～49人 30-49 Persons／事業所数 Number of establishments,30～49人 30-49 Persons／従業者数 Number of employees 1),50～99人 50-99 Persons／事業所数 Number of establishments,50～99人 50-99 Persons／従業者数 Number of employees 1),100～199人 100-199 Persons／事業所数 Number of establishments,100～199人 100-199 Persons／従業者数 Number of employees 1),200～299人 200-299 Persons／事業所数 Number of establishments,200～299人 200-299 Persons／従業者数 Number of employees 1) ,300人以上 300 Persons and over／事業所数 Number of establishments,300人以上 300 Persons and over／従業者数 Number of employees 1) ,出向・派遣従業者のみの事業所数 Number of establishments where all workers are on loan or dispatched from other places
+,総数,Total,,,,662360,9657306,357898,792573,136566,893377,81486,1102257,31470,748512,24395,917206,15050,1028936,6938,948209,2083,506217,3283,2720019,3191
+,男,Male,,,,-,5723089,-,437841,-,480319,-,625006,-,422362,-,508286,-,618221,-,597556,-,324891,-,1708607,-
+,女,Female,,,,-,3910501,-,354625,-,412604,-,476371,-,325477,-,408293,-,408832,-,348113,-,180186,-,996000,-
+Ａ,農業，林業,Agriculture and forestry,,,,491,4026,226,585,153,1003,79,1005,10,238,10,353,7,419,1,195,1,228,-,-,4
+Ａ,農業，林業,Agriculture and forestry,1,農業,Agriculture,449,3763,209,549,135,891,73,927,10,238,9,316,7,419,1,195,1,228,-,-,4
+Ａ,農業，林業,Agriculture and forestry,2,林業,Forestry,42,263,17,36,18,112,6,78,-,-,1,37,-,-,-,-,-,-,-,-,-
+Ｂ,漁業,Fisheries,,,,19,125,10,30,4,28,5,67,-,-,-,-,-,-,-,-,-,-,-,-,-
+Ｂ,漁業,Fisheries,1,漁業 (水産養殖業を除く) ,Fisheries， except aquaculture,10,72,4,12,3,21,3,39,-,-,-,-,-,-,-,-,-,-,-,-,-
+Ｂ,漁業,Fisheries,2,水産養殖業,Aquaculture,9,53,6,18,1,7,2,28,-,-,-,-,-,-,-,-,-,-,-,-,-
+Ｃ,鉱業，採石業，砂利採取業,Mining and quarrying of stone and gravel,,,,101,2090,54,88,20,122,11,136,4,92,3,106,-,-,1,170,1,230,2,1146,5
+Ｃ,鉱業，採石業，砂利採取業,Mining and quarrying of stone and gravel,1,鉱業，採石業，砂利採取業,Mining and quarrying of stone and gravel,101,2090,54,88,20,122,11,136,4,92,3,106,-,-,1,170,1,230,2,1146,5
+Ｄ,建設業,Construction,,,,42340,465553,22794,54126,10323,67411,5291,70229,1507,35824,1133,42829,769,52620,277,38033,95,22811,112,81670,39
+Ｄ,建設業,Construction,1,総合工事業,Construction work， general including public and private construction work,14514,195302,7719,18438,3460,22679,1798,24106,559,13257,422,15898,325,22091,95,13331,52,12639,65,52863,19
+Ｄ,建設業,Construction,2,職別工事業 (設備工事業を除く),Construction work by specialist contractors， except equipment installation work,15152,108148,8882,20539,3576,23160,1729,22591,454,10795,287,10738,145,9937,55,7196,11,2514,2,678,11
+Ｄ,建設業,Construction,3,設備工事業,Equipment installation work,12674,162103,6193,15149,3287,21572,1764,23532,494,11772,424,16193,299,20592,127,17506,32,7658,45,28129,9
+Ｅ,製造業,Manufacturing,,,,49238,713594,28104,64662,10091,65584,5425,72980,2023,48198,1558,58853,1054,72204,460,62472,151,37083,262,231558,110
+Ｅ,製造業,Manufacturing,1,食料品製造業,Food,2511,68402,905,2232,610,4070,385,5225,176,4214,159,5948,131,8900,66,8898,26,6418,44,22497,9
+Ｅ,製造業,Manufacturing,2,飲料・たばこ・飼料製造業　　　　,Beverage， tobacco and feed,261,10540,113,262,55,368,32,476,13,309,13,506,12,816,9,1156,4,1086,5,5561,5
+Ｅ,製造業,Manufacturing,3,繊維工業　　,Textile mill products,3581,23663,2518,5534,641,4116,255,3322,74,1764,45,1632,20,1432,13,1805,6,1583,5,2475,4
+Ｅ,製造業,Manufacturing,4,木材・木製品製造業 (家具を除く),Lumber and wood products， except furniture,460,2865,316,678,75,479,48,637,9,210,8,290,2,131,1,126,-,-,1,314,-
+Ｅ,製造業,Manufacturing,5,家具・装備品製造業,Furniture and fixtures,1483,8936,1070,2380,300,1899,63,831,20,453,15,580,7,450,3,431,1,200,4,1712,-
+Ｅ,製造業,Manufacturing,6,パルプ・紙・紙加工品製造業,Pulp， paper and paper products,1606,17068,859,2093,377,2468,200,2693,69,1639,55,2068,27,1859,13,1783,3,730,2,1735,1
+Ｅ,製造業,Manufacturing,7,印刷・同関連業,Printing and allied industries,7964,97783,4430,10573,1703,11053,901,12052,352,8381,275,10417,200,13947,57,7738,12,2826,24,20796,10
+Ｅ,製造業,Manufacturing,8,化学工業,Chemical and allied products,1255,62820,375,897,246,1626,201,2754,89,2192,108,4207,100,6861,53,7678,25,6101,36,30504,22
+Ｅ,製造業,Manufacturing,9,石油製品・石炭製品製造業　　,Petroleum and coal products,65,6598,18,40,14,93,12,174,5,119,4,137,4,293,3,424,-,-,2,5318,3
+Ｅ,製造業,Manufacturing,10,プラスチック製品製造業（別掲を除く）,Plastic products， except otherwise classified,2336,22736,1285,3053,496,3196,317,4244,103,2434,74,2801,30,1930,18,2269,3,695,4,2114,6
+Ｅ,製造業,Manufacturing,11,ゴム製品製造業　　　,Rubber products,780,11146,450,1074,177,1146,88,1211,34,819,15,536,9,610,2,241,1,299,3,5210,1
+Ｅ,製造業,Manufacturing,12,なめし革・同製品・毛皮製造業,Leather tanning， leather product and fur skins,1890,9571,1372,2909,309,2005,136,1824,34,818,24,913,13,875,2,227,-,-,-,-,-
+Ｅ,製造業,Manufacturing,13,窯業・土石製品製造業,Ceramic， stone and clay products,872,11602,438,988,175,1169,117,1585,58,1358,40,1501,22,1471,6,724,1,256,3,2550,12
+Ｅ,製造業,Manufacturing,14,鉄鋼業　　　　　　　　　　　　,Iron and steel,538,9385,302,705,114,750,53,723,19,446,19,712,15,1008,9,1260,4,972,1,2809,2
+Ｅ,製造業,Manufacturing,15,非鉄金属製造業　,Non-ferrous metals and products,617,9182,359,779,117,760,67,902,35,835,16,606,10,674,6,862,2,528,4,3236,1
+Ｅ,製造業,Manufacturing,16,金属製品製造業   　　　　　,Fabricated metal products,6127,45955,3914,8909,1227,7904,596,7926,174,4106,121,4510,61,4054,17,2196,5,1313,5,5037,7
+Ｅ,製造業,Manufacturing,17,はん用機械器具製造業,General-purpose machinery,1731,24185,1021,2312,356,2323,165,2205,78,1844,43,1604,38,2533,15,2080,5,1242,7,8042,3
+Ｅ,製造業,Manufacturing,18,生産用機械器具製造業,Production machinery,3709,37384,2201,5157,745,4792,417,5519,151,3603,100,3825,57,3934,20,2638,6,1377,10,6539,2
+Ｅ,製造業,Manufacturing,19,業務用機械器具製造業,Business oriented machinery,2056,36009,1034,2502,433,2795,269,3694,104,2513,96,3619,61,4146,27,3674,10,2438,17,10628,5
+Ｅ,製造業,Manufacturing,20,電子部品・デバイス・電子回路製造業,Electronic parts， devices and electronic circuits,1203,27421,544,1256,276,1840,160,2181,80,1919,57,2171,39,2711,27,3756,7,1697,13,9890,-
+Ｅ,製造業,Manufacturing,21,電気機械器具製造業,Electrical machinery， equipment and supplies,2241,47819,1077,2537,485,3177,324,4439,113,2728,103,3811,70,4830,27,3517,12,2910,22,19870,8
+Ｅ,製造業,Manufacturing,22,情報通信機械器具製造業,Information and communication electronics equipment,647,41125,238,528,128,851,93,1283,54,1290,41,1568,39,2678,24,3257,7,1722,23,27948,-
+Ｅ,製造業,Manufacturing,23,輸送用機械器具製造業,Transportation equipment,1109,47522,540,1246,240,1549,140,1892,62,1442,41,1591,40,2872,20,2596,3,737,21,33597,2
+Ｅ,製造業,Manufacturing,24,その他の製造業　,Miscellaneous manufacturing industries,4196,33877,2725,6018,792,5155,386,5188,117,2762,86,3300,47,3189,22,3136,8,1953,6,3176,7
+Ｆ,電気・ガス・熱供給・水道業,Electricity， gas， heat supply and water,,,,542,33666,105,243,93,655,140,1894,34,805,38,1410,45,3136,40,5446,18,4186,16,15891,13
+Ｆ,電気・ガス・熱供給・水道業,Electricity， gas， heat supply and water,1,電気業,Production， transmission and distribution of electricity,141,16041,30,62,22,153,19,269,4,88,11,391,19,1369,14,2026,12,2837,8,8846,2
+Ｆ,電気・ガス・熱供給・水道業,Electricity， gas， heat supply and water,2,ガス業,Production and distribution of gas,36,7075,4,7,2,11,5,79,3,73,4,142,6,396,2,285,3,656,5,5426,2
+Ｆ,電気・ガス・熱供給・水道業,Electricity， gas， heat supply and water,3,熱供給業,Heat supply,82,780,29,53,16,107,22,277,2,42,2,83,1,92,1,126,-,-,-,-,9
+Ｆ,電気・ガス・熱供給・水道業,Electricity， gas， heat supply and water,4,水道業,Collection， purification and distribution of water， and sewage collection， processing and disposal,283,9770,42,121,53,384,94,1269,25,602,21,794,19,1279,23,3009,3,693,3,1619,-
+Ｇ,情報通信業,Information and communications,,,,22591,833221,8853,19785,4470,29757,3334,45690,1558,37283,1527,57859,1275,89303,750,103699,224,54206,449,395639,151
+Ｇ,情報通信業,Information and communications,1,通信業,Communications,619,66121,179,388,112,757,95,1293,54,1323,44,1671,41,2773,35,4700,14,3161,31,50055,14
+Ｇ,情報通信業,Information and communications,2,放送業,Broadcasting,312,22218,94,216,50,358,67,860,15,349,25,945,25,1835,16,2100,4,1018,9,14537,7
+Ｇ,情報通信業,Information and communications,3,情報サービス業,Information services,11409,540283,3750,8342,2080,14009,1740,24026,995,23892,955,36221,824,57800,525,72722,148,36274,326,266997,66
+Ｇ,情報通信業,Information and communications,4,インターネット附随サービス業,Internet based services,1911,58501,856,1831,377,2519,256,3425,94,2236,117,4391,98,6856,39,5598,20,4527,28,27118,26
+Ｇ,情報通信業,Information and communications,5,映像・音声・文字情報制作業,Video picture， sound information， character information production and distribution,8340,146098,3974,9008,1851,12114,1176,16086,400,9483,386,14631,287,20039,135,18579,38,9226,55,36932,38
+Ｈ,運輸業，郵便業,Transport and postal activities,,,,16447,484149,7236,11802,2378,16253,2434,33718,1218,29387,1108,42090,961,66646,621,85757,198,47867,213,150629,80
+Ｈ,運輸業，郵便業,Transport and postal activities,1,鉄道業,Railway transport,655,55509,43,108,102,668,119,1621,69,1743,98,3728,91,6288,64,8962,26,6381,39,26010,4
+Ｈ,運輸業，郵便業,Transport and postal activities,2,道路旅客運送業,Road passenger transport,5569,109284,4690,5846,124,812,89,1212,53,1273,63,2531,151,11095,249,36122,101,24295,48,26098,1
+Ｈ,運輸業，郵便業,Transport and postal activities,3,道路貨物運送業,Road freight transport,6496,167521,1380,3089,1326,9233,1595,22130,816,19607,640,24292,466,31796,176,22823,35,8422,36,26129,26
+Ｈ,運輸業，郵便業,Transport and postal activities,4,水運業,Water transport,395,12677,114,308,97,667,66,886,24,603,39,1466,27,1939,15,2033,3,725,4,4050,6
+Ｈ,運輸業，郵便業,Transport and postal activities,5,航空運輸業,Air transport,187,37491,25,66,36,240,22,307,14,332,26,974,15,1000,15,2143,5,1285,24,31144,5
+Ｈ,運輸業，郵便業,Transport and postal activities,6,倉庫業,Warehousing,1017,28189,335,788,214,1435,201,2806,65,1527,83,3071,59,4340,32,4135,5,1189,6,8898,17
+Ｈ,運輸業，郵便業,Transport and postal activities,7,運輸に附帯するサービス業,Services incidental to transport,2078,56710,648,1593,474,3161,339,4722,176,4281,158,5992,152,10188,69,9412,18,4265,23,13096,21
+Ｈ,運輸業，郵便業,Transport and postal activities,8,郵便業(信書便事業を含む),Postal activities， including mail delivery,50,16768,1,4,5,37,3,34,1,21,1,36,-,-,1,127,5,1305,33,15204,-
+Ｉ,卸売業，小売業,Wholesale and retail trade,,,,157973,1996425,82174,193115,34643,226125,22034,300174,8128,191911,4842,181575,3160,215857,1415,194075,395,95194,492,398399,690
+Ｉ,卸売業，小売業,Wholesale and retail trade,1,各種商品卸売業,Wholesale trade， general merchandise,228,20820,81,236,57,377,34,461,16,377,15,573,10,732,2,258,5,1207,7,16599,1
+Ｉ,卸売業，小売業,Wholesale and retail trade,2,繊維・衣服等卸売業,Wholesale trade ( textile and apparel ),6425,98225,3122,7533,1550,10073,892,11932,306,7315,235,8821,178,12141,66,9141,25,6329,36,24940,15
+Ｉ,卸売業，小売業,Wholesale and retail trade,3,飲食料品卸売業,Wholesale trade ( food and beverages ),9486,148789,4126,10390,2348,15434,1512,20384,534,12657,427,16118,292,19723,129,17817,29,7019,39,29247,50
+Ｉ,卸売業，小売業,Wholesale and retail trade,4,建築材料，鉱物・金属材料等卸売業,Wholesale trade ( building materials， minerals and metals， etc. ),11265,184887,5065,12712,2851,18715,1722,22882,574,13651,428,16202,300,20093,143,19790,41,9899,68,50943,73
+Ｉ,卸売業，小売業,Wholesale and retail trade,5,機械器具卸売業,Wholesale trade ( machinery and equipment ),14736,346775,5821,14373,3736,24666,2360,32129,929,22002,781,29555,549,38060,275,36991,93,22651,130,126348,62
+Ｉ,卸売業，小売業,Wholesale and retail trade,6,その他の卸売業,Miscellaneous wholesale trade,14656,237277,7027,17104,3294,21628,2066,27827,777,18516,632,23944,432,29818,197,27332,65,15302,74,55806,92
+Ｉ,卸売業，小売業,Wholesale and retail trade,7,各種商品小売業,Retail trade， general merchandise,374,52992,45,99,41,295,87,1213,34,792,25,942,38,2758,31,4629,19,4642,54,37622,-
+Ｉ,卸売業，小売業,Wholesale and retail trade,8,織物・衣服・身の回り品小売業,Retail trade ( dry goods， apparel and apparel accessories ),18578,125684,11628,27487,4604,29277,1338,17493,323,7686,260,9878,175,11828,73,10235,16,3904,13,7896,148
+Ｉ,卸売業，小売業,Wholesale and retail trade,9,飲食料品小売業,Retail trade ( food and beverage ),31064,373560,14945,34699,4969,32909,6160,87163,2808,65653,1101,40972,673,46205,302,40725,45,10683,24,14551,37
+Ｉ,卸売業，小売業,Wholesale and retail trade,10,機械器具小売業,Machinery and equipment,9840,81775,6197,14185,1761,11266,1009,14001,436,10323,200,7223,129,8620,49,6733,17,3979,10,5445,32
+Ｉ,卸売業，小売業,Wholesale and retail trade,11,その他の小売業,Miscellaneous retail trade,36882,266335,21493,48932,8707,56778,4373,58197,1200,28331,555,20433,253,17174,98,13561,32,7715,16,15214,155
+Ｉ,卸売業，小売業,Wholesale and retail trade,12,無店舗小売業,Nonstore retailers,4439,59306,2624,5365,725,4707,481,6492,191,4608,183,6914,131,8705,50,6863,8,1864,21,13788,25
+Ｊ,金融業，保険業,Finance and insurance,,,,11274,403625,3825,8415,1600,10607,2059,29058,1287,31078,1092,40715,689,47024,287,38987,94,23198,165,174543,176
+Ｊ,金融業，保険業,Finance and insurance,1,銀行業,Banking,1621,104382,102,248,121,820,391,5920,394,9559,296,10973,193,13643,74,9748,9,2284,24,51187,17
+Ｊ,金融業，保険業,Finance and insurance,2,協同組織金融業,Financial institutions for cooperative organizations,1130,28970,72,225,95,697,589,8396,225,5324,73,2556,34,2177,24,3381,6,1464,8,4750,4
+Ｊ,金融業，保険業,Finance and insurance,3,貸金業，クレジットカード業等非預金信用機関,Non-deposit money corporations， including lending and credit card business,1111,45971,577,1297,189,1221,99,1379,35,864,44,1649,55,3975,44,6302,22,5583,28,23701,18
+Ｊ,金融業，保険業,Finance and insurance,4,金融商品取引業，商品先物取引業,Financial products transaction dealers and futures commodity transaction dealers,1440,56161,595,1096,194,1290,169,2245,107,2614,115,4368,108,7516,42,5522,16,3900,31,27610,63
+Ｊ,金融業，保険業,Finance and insurance,5,補助的金融業等,Financial auxiliaries,424,11460,122,283,95,638,74,1002,36,884,22,827,28,1903,17,2295,4,933,6,2695,20
+Ｊ,金融業，保険業,Finance and insurance,6,保険業(保険媒介代理業，保険サービス業を含む)  ,Insurance institutions， including insurance agents， brokers and services,5548,156681,2357,5266,906,5941,737,10116,490,11833,542,20342,271,17810,86,11739,37,9034,68,64600,54
+Ｋ,不動産業，物品賃貸業,Real estate and goods rental and leasing,,,,61982,345959,48905,96610,8037,50260,2648,34974,753,17629,508,19025,347,23927,181,25267,53,12969,105,65298,445
+Ｋ,不動産業，物品賃貸業,Real estate and goods rental and leasing,1,不動産取引業,Real estate,12097,91555,7771,18749,2798,17653,949,12364,220,5114,134,4962,84,5856,55,7663,13,3287,24,15907,49
+Ｋ,不動産業，物品賃貸業,Real estate and goods rental and leasing,2,不動産賃貸業・管理業,Real estate lessors and managers,46845,198474,40010,75274,4474,27445,1121,14673,273,6382,241,9153,167,11430,95,13112,31,7521,55,33484,378
+Ｋ,不動産業，物品賃貸業,Real estate and goods rental and leasing,3,物品賃貸業,Goods rental and leasing,3040,55930,1124,2587,765,5162,578,7937,260,6133,133,4910,96,6641,31,4492,9,2161,26,15907,18
+Ｌ,学術研究，専門・技術サービス業,Scientific research， professional and technical services,,,,43070,474795,27372,59759,8404,53848,3742,49648,1177,28024,897,33895,674,46045,345,47814,98,24056,161,131706,200
+Ｌ,学術研究，専門・技術サービス業,Scientific research， professional and technical services,1,学術・開発研究機関,Scientific and development research institutes,1139,39838,434,897,203,1332,167,2303,75,1770,75,2855,67,4644,47,6967,15,3853,24,15217,32
+Ｌ,学術研究，専門・技術サービス業,Scientific research， professional and technical services,2,専門サービス業(他に分類されないもの),Professional services， n.e.c.,26496,236750,17951,39213,5130,32668,1889,24840,553,13157,356,13441,261,17952,133,18035,36,8949,65,68495,122
+Ｌ,学術研究，専門・技術サービス業,Scientific research， professional and technical services,3,広告業,Advertising,2972,62484,1382,3202,701,4556,416,5597,135,3223,131,4891,108,7113,41,5892,16,3951,29,24059,13
+Ｌ,学術研究，専門・技術サービス業,Scientific research， professional and technical services,4,技術サービス業(他に分類されないもの),Technical services， n.e.c.,12463,135723,7605,16447,2370,15292,1270,16908,414,9874,335,12708,238,16336,124,16920,31,7303,43,23935,33
+Ｍ,宿泊業，飲食サービス業,Accommodations， eating and drinking services,,,,92967,890005,47156,106561,21030,139136,13920,189259,5786,137163,3406,125704,1115,73279,242,31652,41,9887,81,77364,190
+Ｍ,宿泊業，飲食サービス業,Accommodations， eating and drinking services,1,宿泊業,Accommodations,3263,65772,1295,2886,677,4518,646,8921,239,5574,136,5061,103,6885,50,6843,11,2684,33,22400,73
+Ｍ,宿泊業，飲食サービス業,Accommodations， eating and drinking services,2,飲食店,Eating and drinking places,83833,738279,44177,99446,18166,119614,12117,165017,5105,121072,3021,111581,916,59810,159,20396,25,5994,31,35349,116
+Ｍ,宿泊業，飲食サービス業,Accommodations， eating and drinking services,3,持ち帰り・配達飲食サービス業,Food take out and delivery services,5871,85954,1684,4229,2187,15004,1157,15321,442,10517,249,9062,96,6584,33,4413,5,1209,17,19615,1
+Ｎ,生活関連サービス業，娯楽業,Living-related and personal services and amusement services,,,,48225,353091,32880,69161,8130,52153,3794,50839,1308,30864,954,35925,553,36534,189,25142,44,10691,60,41782,313
+Ｎ,生活関連サービス業，娯楽業,Living-related and personal services and amusement services,1,洗濯・理容・美容・浴場業,Laundry， beauty and bath services,33504,140893,26037,53510,4922,31220,1591,20749,374,8816,236,8629,125,8232,49,6701,2,472,4,2564,164
+Ｎ,生活関連サービス業，娯楽業,Living-related and personal services and amusement services,2,その他の生活関連サービス業,Miscellaneous living-related and personal services,6843,82010,3876,8801,1528,9844,728,9672,238,5698,190,7231,121,8199,51,6949,18,4374,37,21242,56
+Ｎ,生活関連サービス業，娯楽業,Living-related and personal services and amusement services,3,娯楽業,Services for amusement and hobbies,7878,130188,2967,6850,1680,11089,1475,20418,696,16350,528,20065,307,20103,89,11492,24,5845,19,17976,93
+Ｏ,教育，学習支援業,Education， learning support,,,,21291,468565,9464,18193,3609,24115,2819,38899,1678,40420,2100,78988,1046,69896,296,38528,63,15321,148,144205,68
+Ｏ,教育，学習支援業,Education， learning support,1,学校教育,School education,4877,309813,190,458,333,2357,767,11069,858,21150,1575,59489,769,51564,210,26927,49,11829,119,124970,7
+Ｏ,教育，学習支援業,Education， learning support,2,その他の教育，学習支援業,Miscellaneous education， learning support,16414,158752,9274,17735,3276,21758,2052,27830,820,19270,525,19499,277,18332,86,11601,14,3492,29,19235,61
+Ｐ,医療，福祉,Medical， health care and welfare,,,,50026,861346,18560,44833,14535,96529,8302,110202,2844,67989,3019,114446,1602,109445,633,84625,178,43312,241,189965,112
+Ｐ,医療，福祉,Medical， health care and welfare,1,医療業,Medical and other health services,33121,457097,15860,37585,10576,69512,4392,56271,809,19068,511,19038,359,25288,229,32342,131,32039,212,165954,42
+Ｐ,医療，福祉,Medical， health care and welfare,2,保健衛生,Public health and hygiene,593,21435,186,393,81,545,95,1358,38,880,55,2093,81,5853,39,4944,11,2628,4,2741,3
+Ｐ,医療，福祉,Medical， health care and welfare,3,社会保険・社会福祉・介護事業,Social insurance， social welfare and care services,16312,382814,2514,6855,3878,26472,3815,52573,1997,48041,2453,93315,1162,78304,365,47339,36,8645,25,21270,67
+Ｑ,複合サービス事業,Compound services,,,,1783,37754,211,585,1117,7576,331,4014,29,707,15,543,17,1294,5,807,14,3576,34,18652,10
+Ｑ,複合サービス事業,Compound services,1,郵便局,Postal services,1485,33831,105,368,1081,7324,239,2792,4,97,-,-,3,215,5,807,14,3576,34,18652,-
+Ｑ,複合サービス事業,Compound services,2,協同組合(他に分類されないもの),Cooperative associations， n.e.c.,298,3923,106,217,36,252,92,1222,25,610,15,543,14,1079,-,-,-,-,-,-,10
+Ｒ,サービス業(他に分類されないもの),Services， n.e.c.,,,,39913,1030901,19474,43145,7621,50053,4812,65256,2000,47704,1938,73759,1605,111983,995,138073,344,83352,540,417576,584
+Ｒ,サービス業(他に分類されないもの),Services， n.e.c.,1,廃棄物処理業,Waste disposal business,1399,31503,402,971,294,1984,259,3580,121,2877,137,5225,132,8993,41,5411,5,1037,4,1425,4
+Ｒ,サービス業(他に分類されないもの),Services， n.e.c.,2,自動車整備業,Automobile maintenance services,2675,16618,1732,3964,584,3804,236,3127,48,1120,42,1514,17,1214,4,465,3,770,2,640,7
+Ｒ,サービス業(他に分類されないもの),Services， n.e.c.,3,機械等修理業(別掲を除く),Machine， etc. repair services， except otherwise classified,3195,48803,1725,3580,529,3508,449,6087,152,3622,138,5095,88,6180,51,6733,10,2390,24,11608,29
+Ｒ,サービス業(他に分類されないもの),Services， n.e.c.,4,職業紹介・労働者派遣業,Employment and worker dispatching services,3073,261695,850,2022,527,3497,431,5892,218,5245,247,9441,279,19725,228,32659,99,23849,175,159365,19
+Ｒ,サービス業(他に分類されないもの),Services， n.e.c.,5,その他の事業サービス業,Miscellaneous business services,16469,580129,6253,14172,3263,21636,2427,33133,1142,27249,1139,43716,945,65973,611,84404,210,51141,326,238705,153
+Ｒ,サービス業(他に分類されないもの),Services， n.e.c.,6,政治・経済・文化団体　,Political， business and cultural organizations,7258,59399,4304,9065,1314,8587,703,9455,247,5882,177,6622,105,7197,51,7087,13,3210,5,2294,339
+Ｒ,サービス業(他に分類されないもの),Services， n.e.c.,7,宗教,Religion,5206,25830,3980,8766,906,5671,173,2247,46,1083,37,1388,25,1656,7,1010,2,470,4,3539,26
+Ｒ,サービス業(他に分類されないもの),Services， n.e.c.,8,その他のサービス業　,Miscellaneous services,638,6924,228,605,204,1366,134,1735,26,626,21,758,14,1045,2,304,2,485,-,-,7
+Ｓ,公務(他に分類されるものを除く),Government， except elsewhere classified,,,,2087,258416,495,875,308,2162,306,4215,126,3196,247,9131,131,9324,200,27467,71,18050,202,183996,1
+Ｓ,公務(他に分類されるものを除く),Government， except elsewhere classified,1,国家公務,National government,372,115415,22,46,30,201,46,650,22,541,43,1630,44,3225,64,9306,22,5664,79,94152,-
+Ｓ,公務(他に分類されるものを除く),Government， except elsewhere classified,2,地方公務,Local government,1715,143001,473,829,278,1961,260,3565,104,2655,204,7501,87,6099,136,18161,49,12386,123,89844,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+東京都統計年鑑（平成28年）TOKYO STATISTICAL YEARBOOK ( 2016 )　8 事業所 8  ESTABLISHMENTS,,,,,,,,,,,,,,,,,,,,,,,,,,
+8-2  産業 (中分類)， 従業者規模別事業所数及び男女別従業者数 (平成26年) 8-2  ESTABLISHMENTS AND EMPLOYEES BY ESTABLISHMENT EMPLOYMENT SIZE BY GENDER AND INDUSTRY ( MAJOR GROUP ) ( 2014 ) ,,,,,,,,,,,,,,,,,,,,,,,,,,
+注 1) 「従業者数」の「総数」には，男女別が不詳の者が含まれるため，男性と女性の合計が総数に一致しない場合がある。 ,,,,,,,,,,,,,,,,,,,,,,,,,,
+Note: 1) The combined number of men and women may not equal the total figure because the total figure includes workers whose gender is unknown.,,,,,,,,,,,,,,,,,,,,,,,,,,
+資料：総務省統計局 「平成26年経済センサス-基礎調査報告」 Source: Statistics Bureau， Ministry of Internal Affairs and Communications,,,,,,,,,,,,,,,,,,,,,,,,,,

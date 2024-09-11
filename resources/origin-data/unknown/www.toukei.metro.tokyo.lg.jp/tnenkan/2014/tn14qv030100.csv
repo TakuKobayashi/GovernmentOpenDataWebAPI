@@ -1,0 +1,99 @@
+﻿項番 Item number,地域,District,消防署,Fire Station,マーク Mark,4階以上の建築物数 Buildings with 4 stories and more／総数 Total,4階以上の建築物数 Buildings with 4 stories and more／4階 4 Stories,4階以上の建築物数 Buildings with 4 stories and more／5階 5 Stories,4階以上の建築物数 Buildings with 4 stories and more／6階 6 Stories,4階以上の建築物数 Buildings with 4 stories and more／7階 7 Stories,4階以上の建築物数 Buildings with 4 stories and more／8階 8 Stories,4階以上の建築物数 Buildings with 4 stories and more／9階 9 Stories,4階以上の建築物数 Buildings with 4 stories and more／10階 10 Stories,4階以上の建築物数 Buildings with 4 stories and more／11階 11 Stories,4階以上の建築物数 Buildings with 4 stories and more／12階 12 Stories,4階以上の建築物数 Buildings with 4 stories and more／13～29階 13-29 Stories,4階以上の建築物数 Buildings with 4 stories and more／30階以上 30 Stories and higher,地階を有する建築物数 Buildings with basements／総数 Total,地階を有する建築物数 Buildings with basements／地下1階 1 Basement level,地階を有する建築物数 Buildings with basements／地下2階 2 Basement levels,地階を有する建築物数 Buildings with basements／地下3階 3 Basement levels,地階を有する建築物数 Buildings with basements／地下4階以下 4 Basement levels and lower
+,総数,Total,,,,162934,48479,39911,18930,14634,11932,9067,7154,3951,2662,5906,308,69613,61580,6433,1097,503
+,区部,All ku,,,,137726,39461,31397,16539,13063,10727,8409,6533,3466,2445,5386,300,59399,52069,5816,1030,484
+1,千代田区,Chiyoda-ku,丸の内署,Marunouchi F. Sta.,,199,13,14,5,4,11,25,18,12,4,70,23,246,65,56,40,85
+2,千代田区,Chiyoda-ku,麹町署,Kojimachi F. Sta.,,1923,168,281,296,266,269,255,175,51,38,113,11,1294,933,274,57,30
+3,千代田区,Chiyoda-ku,神田署,Kanda F. Sta.,,4509,463,796,707,635,649,590,343,82,94,145,5,2270,1920,301,40,9
+4,中央区,Chuo-ku,京橋署,Kyobashi F. Sta.,,3597,291,482,457,464,544,551,370,134,130,172,2,2266,1688,459,78,41
+5,中央区,Chuo-ku,日本橋署,Nihonbashi F. Sta.,,3743,302,552,546,515,509,518,365,150,127,156,3,1933,1583,255,70,25
+6,中央区,Chuo-ku,臨港署,Rinko F. Sta.,,599,95,81,61,60,93,38,35,19,29,63,25,208,162,32,6,8
+7,港区,Minato-ku,芝署,Shiba F. Sta.,,3993,474,646,501,477,504,538,315,139,110,247,42,2176,1741,314,79,42
+8,港区,Minato-ku,麻布署,Azabu F. Sta.,,2421,563,495,321,280,232,184,105,64,51,119,7,1725,1470,206,33,16
+9,港区,Minato-ku,赤坂署,Akasaka F. Sta.,,1906,383,377,257,205,202,182,123,49,32,85,11,1621,1314,232,57,18
+10,港区,Minato-ku,高輪署,Takanawa F. Sta.,,1293,310,257,133,124,112,84,68,47,36,100,22,795,650,105,29,11
+11,新宿区,Shinjuku-ku,四谷署,Yotsuya F. Sta.,,2042,415,417,253,203,200,212,171,81,25,65,-,1294,1097,161,34,2
+12,新宿区,Shinjuku-ku,牛込署,Ushigome F. Sta.,,2386,611,623,305,234,160,121,112,59,53,104,4,1289,1134,131,18,6
+13,新宿区,Shinjuku-ku,新宿署,Shinjuku F. Sta.,,5070,1528,1128,551,401,368,340,282,129,99,211,33,2917,2372,418,78,49
+14,文京区,Bunkyo-ku,小石川署,Koishikawa F. Sta.,,2477,665,557,289,210,161,163,118,108,66,138,2,1162,1011,125,16,10
+15,文京区,Bunkyo-ku,本郷署,Hongo F. Sta.,,2485,500,495,310,246,242,183,171,94,74,170,-,1283,1133,123,20,7
+16,台東区,Taito-ku,上野署,Ueno F. Sta.,,3153,529,614,465,389,349,285,201,109,75,134,3,1353,1210,117,11,15
+17,台東区,Taito-ku,浅草署,Asakusa F. Sta.,,2921,564,667,399,293,269,256,188,109,60,116,-,901,849,42,9,1
+18,台東区,Taito-ku,日本堤署,Nihonzutsumi F. Sta.,,1663,495,371,215,143,118,99,86,47,33,55,1,360,340,13,6,1
+19,墨田区,Sumida-ku,本所署,Honjo F. Sta.,,4491,1091,993,603,619,321,284,225,123,94,134,4,717,665,39,9,4
+20,墨田区,Sumida-ku,向島署,Mukojima F. Sta.,,993,349,197,88,81,46,61,45,29,28,66,3,177,156,19,2,-
+21,江東区,Koto-ku,深川署,Fukagawa F. Sta.,,3975,919,941,538,414,307,191,189,130,94,218,34,732,635,71,18,8
+22,江東区,Koto-ku,城東署,Joto F. Sta.,,2442,598,552,245,186,204,144,130,118,51,211,3,455,425,26,2,2
+23,品川区,Shinagawa-ku,品川署,Shinagawa F. Sta.,,2366,540,463,245,223,221,174,150,109,69,162,10,1306,1110,169,19,8
+24,品川区,Shinagawa-ku,大井署,Oi F. Sta.,,1507,384,341,187,134,131,84,60,40,33,112,1,497,456,31,5,5
+25,品川区,Shinagawa-ku,荏原署,Ebara F. Sta.,,1835,781,470,162,130,69,41,51,44,29,58,-,730,690,35,4,1
+26,目黒区,Meguro-ku,目黒署,Meguro F. Sta.,,3521,1324,869,413,323,176,120,121,61,47,62,5,2080,1908,149,20,3
+27,大田区,Ota-ku,大森署,Omori F. Sta.,,2726,1038,620,326,228,163,93,92,66,30,70,-,958,871,79,6,2
+28,大田区,Ota-ku,田園調布署,Denenchofu F. Sta.,,1635,689,407,205,146,77,39,27,19,8,17,1,779,736,37,6,-
+29,大田区,Ota-ku,蒲田署,Kamata F. Sta.,,2148,760,530,238,148,135,85,73,48,40,91,-,497,464,27,5,1
+30,大田区,Ota-ku,矢口署,Yaguchi F. Sta.,,1632,634,366,230,138,86,58,38,21,11,50,-,400,371,26,2,1
+31,世田谷区,Setagaya-ku,世田谷署,Setagaya F. Sta.,,3834,1646,1052,371,246,169,98,110,35,34,71,2,2195,2082,102,9,2
+32,世田谷区,Setagaya-ku,玉川署,Tamagawa F. Sta.,,2187,925,675,233,160,79,44,25,17,9,17,3,1416,1334,70,11,1
+33,世田谷区,Setagaya-ku,成城署,Seijo F. Sta.,,1654,714,521,156,106,57,38,34,7,6,15,-,813,768,39,6,-
+34,渋谷区,Shibuya-ku,渋谷署,Shibuya F. Sta.,,6943,1736,1508,893,732,668,523,365,146,107,257,8,4987,4204,662,89,32
+35,中野区,Nakano-ku,中野署,Nakano F. Sta.,,2681,1042,686,246,217,164,98,88,59,36,42,3,1241,1141,87,9,4
+36,中野区,Nakano-ku,野方署,Nogata F. Sta.,,1455,705,330,169,107,74,32,14,13,6,5,-,731,704,23,2,2
+37,杉並区,Suginami-ku,杉並署,Suginami F. Sta.,,3022,1264,772,342,236,168,80,62,35,22,41,-,1489,1414,66,8,1
+38,杉並区,Suginami-ku,荻窪署,Ogikubo F. Sta.,,2085,930,567,223,134,91,58,34,13,14,21,-,1079,1034,41,4,-
+39,豊島区,Toshima-ku,豊島署,Toshima F. Sta.,,3333,629,698,463,376,355,265,208,105,81,147,6,1631,1450,152,25,4
+40,豊島区,Toshima-ku,池袋署,Ikebukuro F. Sta.,,2365,866,513,276,178,173,122,111,37,27,58,4,1185,1055,95,27,8
+41,北区,Kita-ku,王子署,Oji F. Sta.,,1396,488,379,129,95,100,41,51,33,28,52,-,524,494,27,3,-
+42,北区,Kita-ku,赤羽署,Akabane F. Sta.,,1480,465,390,174,124,86,55,46,41,24,75,-,351,321,24,4,2
+43,北区,Kita-ku,滝野川署,Takinogawa F. Sta.,,1777,711,449,180,126,79,54,55,44,23,56,-,555,529,24,2,-
+44,荒川区,Arakawa-ku,荒川署,Arakawa F. Sta.,,2018,603,414,255,182,132,107,111,61,44,100,9,490,460,23,4,3
+45,荒川区,Arakawa-ku,尾久署,Ogu F. Sta.,,898,372,179,99,67,43,24,42,21,17,34,-,148,140,4,2,2
+46,板橋区,Itabashi-ku,板橋署,Itabashi F. Sta.,,3000,1171,796,330,178,138,87,85,73,35,106,1,991,934,52,2,3
+47,板橋区,Itabashi-ku,志村署,Shimura F. Sta.,,3339,1263,943,372,230,153,79,79,95,39,85,1,1165,1086,73,5,1
+48,練馬区,Nerima-ku,練馬署,Nerima F. Sta.,,2181,869,492,273,191,126,66,70,21,18,54,1,809,769,32,8,-
+49,練馬区,Nerima-ku,光が丘署,Hikarigaoka F. Sta.,,946,326,250,120,68,48,18,25,14,11,64,2,351,334,14,2,1
+50,練馬区,Nerima-ku,石神井署,Shakujii F. Sta.,,1600,631,511,166,116,88,32,24,12,6,13,1,638,610,26,1,1
+51,足立区,Adachi-ku,千住署,Senju F. Sta.,,947,325,220,101,56,52,27,29,26,32,78,1,245,225,15,2,3
+52,足立区,Adachi-ku,足立署,Adachi F. Sta.,,2851,755,996,301,280,174,116,80,41,23,85,-,317,297,14,5,1
+53,足立区,Adachi-ku,西新井署,Nishiarai F. Sta.,,1271,474,401,114,82,83,38,23,25,7,24,-,164,155,8,1,-
+54,葛飾区,Katsushika-ku,本田署,Honden F. Sta.,,2323,978,555,232,198,105,61,56,41,23,74,-,335,312,19,4,-
+55,葛飾区,Katsushika-ku,金町署,Kanamachi F. Sta.,,1269,483,363,143,98,50,27,23,22,12,47,1,231,212,13,6,-
+56,江戸川区,Edogawa-ku,江戸川署,Edogawa F. Sta.,,1608,592,371,164,147,91,51,58,35,24,73,2,270,247,19,3,1
+57,江戸川区,Edogawa-ku,葛西署,Kasai F. Sta.,,2302,504,449,316,295,197,129,142,83,49,138,-,385,373,9,2,1
+58,江戸川区,Edogawa-ku,小岩署,Koiwa F. Sta.,,1310,518,315,147,119,56,41,36,20,18,40,-,242,226,11,5,-
+,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,,,,25208,9018,8514,2391,1571,1205,658,621,485,217,520,8,10214,9511,617,67,19
+1,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,立川署 ,Tachikawa F. Sta. ,1),2397,783,834,263,162,114,82,64,18,28,48,1,934,881,48,5,-
+2,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,武蔵野署,Musashino F. Sta.,,1489,563,372,149,128,108,52,55,22,19,20,1,1023,930,85,6,2
+3,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,三鷹署,Mitaka F. Sta.,,1098,403,275,120,103,81,39,23,22,15,17,-,549,511,35,3,-
+4,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,府中署,Fuchu F. Sta.,,1684,559,433,189,143,121,57,83,39,14,44,2,647,613,31,3,-
+5,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,昭島署,Akishima F. Sta.,,564,246,152,38,38,21,7,10,36,2,14,-,194,184,7,3,-
+6,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,調布署,Chofu F. Sta.,,1573,590,502,169,97,72,35,42,25,17,23,1,693,661,29,3,-
+7,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,小金井署,Koganei F. Sta.,,588,227,162,62,47,27,14,17,14,5,13,-,323,307,14,1,1
+8,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,小平署,Kodaira F. Sta.,,1072,436,425,87,43,30,18,7,13,-,13,-,347,337,9,-,1
+9,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,東村山署,Higashimurayama F. Sta.,,783,271,269,92,48,22,20,14,22,6,19,-,281,269,12,-,-
+10,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,国分寺署,Kokubunji F. Sta.,,728,246,221,98,45,43,24,15,9,9,18,-,460,425,34,-,1
+11,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,狛江署,Komae F. Sta.,,386,132,162,42,17,9,7,4,7,-,6,-,152,149,3,-,-
+12,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,北多摩西部署 ,Kitatama-seibu F. Sta. ,2),675,248,280,36,22,23,18,13,15,5,15,-,153,147,5,1,-
+13,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,清瀬署,Kiyose F. Sta.,,444,182,181,21,26,12,9,3,2,1,7,-,125,114,10,1,-
+14,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,東久留米署,Higashikurume F. Sta.,,554,127,287,38,34,18,10,18,5,9,8,-,161,158,3,-,-
+15,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,西東京署,Nishitokyo F. Sta.,,1045,400,298,104,77,78,22,23,13,12,17,1,402,370,31,1,-
+16,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,八王子署,Hachioji F. Sta.,,3713,1313,1105,356,243,210,132,110,87,41,115,1,1376,1263,94,12,7
+17,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,青梅署,Ome F. Sta.,,605,272,163,62,39,24,10,10,13,6,6,-,254,233,19,2,-
+18,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,町田署,Machida F. Sta.,,2275,753,1002,170,87,78,37,51,21,16,59,1,952,861,76,9,6
+19,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,日野署,Hino F. Sta.,,977,382,349,83,50,34,19,18,18,6,18,-,346,318,19,8,1
+20,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,福生署 ,Fussa F. Sta. ,3),805,399,252,65,32,26,13,3,6,2,7,-,213,205,7,1,-
+21,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,多摩署,Tama F. Sta.,,1599,394,748,135,84,53,33,38,78,4,32,-,449,414,31,4,-
+22,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,秋川署,Akikawa F. Sta. ,4),145,87,38,12,6,1,-,-,-,-,1,-,128,116,10,2,-
+23,消防事務受託地区,Areas entrusting fire service to the Tokyo Fire Department,奥多摩署,Okutama F. Sta.,,9,5,4,-,-,-,-,-,-,-,-,-,52,45,5,2,-
+,,,,,,,,,,,,,,,,,,,,,,
+東京都統計年鑑（平成26年）TOKYO STATISTICAL YEARBOOK ( 2014 )　3  建設・住居 3  CONSTRUCTION AND HOUSING,,,,,,,,,,,,,,,,,,,,,,
+3-1  階数別４階以上及び地階を有する建築物数（平成26年末） 3-1  FOUR-STORY OR HIGHER BUILDINGS AND BUILDINGS WITH BASEMENTS BY NUMBER OF FLOORS ( End of 2014),,,,,,,,,,,,,,,,,,,,,,
+4階以上を有する建築物とは，地上階数4以上を有する建築物をいう。地階を有する建築物とは， 建築基準法施行令第1条第2号による地階を有する建築物をいう。 この表の地域は区部及び東京消防庁消防事務受託地区である。,,,,,,,,,,,,,,,,,,,,,,
+"The terminology ""four-story or higher buildings"" refers to buildings with four stories or more above ground， and ""buildings with basements"" refers to those  as defined in Article 1 par. 2 of the Building Standards Law Enforcement Ordinance.   The figures below are for the 23 wards and the areas entrusting fire service to the Tokyo Fire Department.  ",,,,,,,,,,,,,,,,,,,,,,
+注 1) 立川市，国立市 ,,,,,,,,,,,,,,,,,,,,,,
+2) 東大和市，武蔵村山市  ,,,,,,,,,,,,,,,,,,,,,,
+3) 福生市，羽村市及び瑞穂町  ,,,,,,,,,,,,,,,,,,,,,,
+4) あきる野市，日の出町及び檜原村,,,,,,,,,,,,,,,,,,,,,,
+Note: 1) Tachikawa-shi and Kunitachi-shi  ,,,,,,,,,,,,,,,,,,,,,,
+2) Higashiyamato-shi and Musashimurayama-shi  ,,,,,,,,,,,,,,,,,,,,,,
+3) Fussa-shi， Hamura-shi， and Mizuho-machi ,,,,,,,,,,,,,,,,,,,,,,
+4) Akiruno-shi， Hinode-machi， and Hinohara-mura,,,,,,,,,,,,,,,,,,,,,,
+　資料：東京消防庁企画調整部企画課 「東京消防庁統計書」　　Source : Tokyo Fire Department,,,,,,,,,,,,,,,,,,,,,,

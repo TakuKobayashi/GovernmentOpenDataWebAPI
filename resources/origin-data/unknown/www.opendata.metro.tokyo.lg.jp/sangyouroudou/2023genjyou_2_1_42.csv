@@ -1,0 +1,276 @@
+表側１,表側２,表側３,回答企業数(件),１％未満(％),１～３％未満(％),３～10％未満(％),10～30％未満(％),30％以上(％),無回答(％)
+,,"今回調査
+（全体）",190,35.3,20.0,22.6,13.7,8.4,0.0
+業種別,,食料品卸売業,46,43.5,21.7,17.4,8.7,8.7,0.0
+業種別,,生鮮食品卸売業,11,54.5,27.3,9.1,9.1,0.0,0.0
+業種別,,加工食品等卸売業,35,40.0,20.0,20.0,8.6,11.4,0.0
+業種別,,衣料品関連卸売業,40,40.0,17.5,15.0,17.5,10.0,0.0
+業種別,,住関連卸売業,29,31.0,10.3,31.0,20.7,6.9,0.0
+業種別,,その他卸売業,67,32.8,19.4,26.9,11.9,9.0,0.0
+従業者規模別,,１～５人,67,25.4,23.9,25.4,17.9,7.5,0.0
+従業者規模別,,６～９人,37,40.5,18.9,13.5,13.5,13.5,0.0
+従業者規模別,,10～49人,67,41.8,16.4,22.4,10.4,9.0,0.0
+従業者規模別,,50人以上,17,35.3,17.6,35.3,11.8,0.0,0.0
+取引形態別,一次卸,小売直取引卸,71,29.6,21.1,21.1,18.3,9.9,0.0
+取引形態別,一次卸,他部門直取引卸,12,41.7,16.7,16.7,16.7,8.3,0.0
+取引形態別,一次卸,元卸,47,38.3,19.1,25.5,8.5,8.5,0.0
+取引形態別,二次卸,中間卸,14,35.7,14.3,42.9,7.1,0.0,0.0
+取引形態別,二次卸,最終卸,24,37.5,16.7,16.7,16.7,12.5,0.0
+取引形態別,その他,製造問屋,4,75.0,0.0,0.0,25.0,0.0,0.0
+取引形態別,その他,その他卸,9,66.7,11.1,22.2,0.0,0.0,0.0
+取引形態別,                  <rdf:li rdf:parseType="Resource">
+                           <CP2:tag>Legacy</CP2:tag>
+                           <CP2:text>true</CP2:text>
+                        </rdf:li>
+                     </rdf:Bag>
+                  </CP2:data>
+                  <CP2:data_desc>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default">PDF/X-4</rdf:li>
+                     </rdf:Alt>
+                  </CP2:data_desc>
+               </rdf:li>
+            </rdf:Seq>
+         </CP2:certificates>
+         <pdfaExtension:schemas>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <pdfaSchema:namespaceURI>http://ns.adobe.com/pdf/1.3/</pdfaSchema:namespaceURI>
+                  <pdfaSchema:prefix>pdf</pdfaSchema:prefix>
+                  <pdfaSchema:schema>Adobe PDF Schema</pdfaSchema:schema>
+                  <pdfaSchema:property>
+                     <rdf:Seq>
+                        <rdf:li rdf:parseType="Resource">
+                           <pdfaProperty:category>internal</pdfaProperty:category>
+                           <pdfaProperty:description>A name object indicating whether the document has been modified to include trapping information</pdfaProperty:description>
+                           <pdfaProperty:name>Trapped</pdfaProperty:name>
+                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+                        </rdf:li>
+                     </rdf:Seq>
+                  </pdfaSchema:property>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <pdfaSchema:namespaceURI>http://ns.adobe.com/xap/1.0/mm/</pdfaSchema:namespaceURI>
+                  <pdfaSchema:prefix>xmpMM</pdfaSchema:prefix>
+                  <pdfaSchema:schema>XMP Media Management Schema</pdfaSchema:schema>
+                  <pdfaSchema:property>
+                     <rdf:Seq>
+                        <rdf:li rdf:parseType="Resource">
+                           <pdfaProperty:category>internal</pdfaProperty:category>
+                           <pdfaProperty:description>UUID based identifier for specific incarnation of a document</pdfaProperty:description>
+                           <pdfaProperty:name>InstanceID</pdfaProperty:name>
+                           <pdfaProperty:valueType>URI</pdfaProperty:valueType>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <pdfaProperty:category>internal</pdfaProperty:category>
+                           <pdfaProperty:description>The common identifier for all versions and renditions of a document.</pdfaProperty:description>
+                           <pdfaProperty:name>OriginalDocumentID</pdfaProperty:name>
+                           <pdfaProperty:valueType>URI</pdfaProperty:valueType>
+                        </rdf:li>
+                     </rdf:Seq>
+                  </pdfaSchema:property>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <pdfaSchema:namespaceURI>http://www.gwg.org/ns/gwg_preflight_v1/</pdfaSchema:namespaceURI>
+                  <pdfaSchema:prefix>gwg_preflight</pdfaSchema:prefix>
+                  <pdfaSchema:schema>Preflight Ticket</pdfaSchema:schema>
+                  <pdfaSchema:property>
+                     <rdf:Seq>
+                        <rdf:li rdf:parseType="Resource">
+                           <pdfaProperty:category>internal</pdfaProperty:category>
+                           <pdfaProperty:description>Name of the preflight profile used</pdfaProperty:description>
+                           <pdfaProperty:name>profile_name</pdfaProperty:name>
+                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <pdfaProperty:category>internal</pdfaProperty:category>
+                           <pdfaProperty:description>Software by which the profile was created</pdfaProperty:description>
+                           <pdfaProperty:name>profile_creator</pdfaProperty:name>
+                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <pdfaProperty:category>internal</pdfaProperty:category>
+                           <pdfaProperty:description>The version number of the software used for creating the profile</pdfaProperty:description>
+                           <pdfaProperty:name>profile_creator_version</pdfaProperty:name>
+                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <pdfaProperty:category>internal</pdfaProperty:category>
+                           <pdfaProperty:description>The version number of the format in which the profile was stored</pdfaProperty:description>
+                           <pdfaProperty:name>profile_format_version</pdfaProperty:name>
+                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <pdfaProperty:category>internal</pdfaProperty:category>
+                           <pdfaProperty:description>Result of executing the profile, with four possible values "Errors", "Warnings", "Info" or "Success" (severity in decreasing order; highest severity found in the preflight check must be reported here)</pdfaProperty:description>
+                           <pdfaProperty:name>preflight_results</pdfaProperty:name>
+                           <pdfaProperty:valueType>Closed Choice of Text</pdfaProperty:valueType>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <pdfaProperty:category>internal</pdfaProperty:category>
+                           <pdfaProperty:description>An optional entry with descriptive text about the errors if any (actual implementation is at the discretion of the software creating the audit trail)</pdfaProperty:description>
+                           <pdfaProperty:name>preflight_results_description</pdfaProperty:name>
+                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <pdfaProperty:category>internal</pdfaProperty:category>
+                           <pdfaProperty:description>Date and time when the profile was executed</pdfaProperty:description>
+                           <pdfaProperty:name>preflight_executed_date</pdfaProperty:name>
+                           <pdfaProperty:valueType>Date</pdfaProperty:valueType>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <pdfaProperty:category>internal</pdfaProperty:category>
+                           <pdfaProperty:description>A fingerprint for the profile that was used to carry out the preflight check</pdfaProperty:description>
+                           <pdfaProperty:name>profile_fingerprint</pdfaProperty:name>
+                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+                        </rdf:li>
+                     </rdf:Seq>
+                  </pdfaSchema:property>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <pdfaSchema:namespaceURI>http://www.npes.org/pdfx/ns/id/</pdfaSchema:namespaceURI>
+                  <pdfaSchema:prefix>pdfxid</pdfaSchema:prefix>
+                  <pdfaSchema:schema>PDF/X ID Schema</pdfaSchema:schema>
+                  <pdfaSchema:property>
+                     <rdf:Seq>
+                        <rdf:li rdf:parseType="Resource">
+                           <pdfaProperty:category>internal</pdfaProperty:category>
+                           <pdfaProperty:description>ID of PDF/X standard</pdfaProperty:description>
+                           <pdfaProperty:name>GTS_PDFXVersion</pdfaProperty:name>
+                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+                        </rdf:li>
+                     </rdf:Seq>
+                  </pdfaSchema:property>
+               </rdf:li>
+            </rdf:Bag>
+         </pdfaExtension:schemas>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="r"?>
+endstream
+
+endobj
+3256 0 obj
+<< /Metadata 3257 0 R>>
+endobj
+3257 0 obj
+<< /Type /Metadata /Subtype /XML /Length 15268>>
+stream
+<?xpacket begin="�ｿ" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.0-c001 79.14ecb42, 2022/12/02-19:12:44        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:gwg_preflight="http://www.gwg.org/ns/gwg_preflight_v1/"
+            xmlns:pdfxid="http://www.npes.org/pdfx/ns/id/"
+            xmlns:CP2="http://www.enfocus.com/ns/CertifiedPDF/2.0/"
+            xmlns:pdfaExtension="http://www.aiim.org/pdfa/ns/extension/"
+            xmlns:pdfaSchema="http://www.aiim.org/pdfa/ns/schema#"
+            xmlns:pdfaProperty="http://www.aiim.org/pdfa/ns/property#">
+         <pdf:Producer>Microsoftﾂｮ Word for Microsoft 365</pdf:Producer>
+         <pdf:Trapped>False</pdf:Trapped>
+         <dc:format>application/pdf</dc:format>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">Unknown</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <dc:creator>
+            <rdf:Seq>
+               <rdf:li>nakae</rdf:li>
+            </rdf:Seq>
+         </dc:creator>
+         <xmp:CreatorTool>Microsoftﾂｮ Word for Microsoft 365</xmp:CreatorTool>
+         <xmp:CreateDate>2024-04-09T13:28:57+09:00</xmp:CreateDate>
+         <xmp:ModifyDate>2024-04-09T13:33:31+09:00</xmp:ModifyDate>
+         <xmp:MetadataDate>2024-04-09T13:33:31+09:00</xmp:MetadataDate>
+         <xmpMM:DocumentID>uuid:3185ffc4-f62a-11ee-952a-a4f67712ea5c</xmpMM:DocumentID>
+         <xmpMM:InstanceID>uuid:b9cbbab2-f021-894c-ad13-4b36068b3489</xmpMM:InstanceID>
+         <xmpMM:VersionID>0</xmpMM:VersionID>
+         <xmpMM:RenditionClass>Default</xmpMM:RenditionClass>
+         <gwg_preflight:profile_name>PDF/X-4</gwg_preflight:profile_name>
+         <gwg_preflight:profile_creator>Enfocus PitStop Pro 21</gwg_preflight:profile_creator>
+         <gwg_preflight:profile_creator_version>21</gwg_preflight:profile_creator_version>
+         <gwg_preflight:profile_format_version>1.0</gwg_preflight:profile_format_version>
+         <gwg_preflight:preflight_results>Errors</gwg_preflight:preflight_results>
+         <gwg_preflight:preflight_results_description>2 繧ｨ繝ｩ繝ｼ, 1 驥榊､ｧ縺ｧ縺ｯ縺ｪ縺�､ｱ謨�, 8 菫ｮ豁｣</gwg_preflight:preflight_results_description>
+         <gwg_preflight:preflight_executed_date>2024-04-09T04:32:51</gwg_preflight:preflight_executed_date>
+         <gwg_preflight:profile_fingerprint>52b772040e3a10093ddfd0a214e03a02</gwg_preflight:profile_fingerprint>
+         <pdfxid:GTS_PDFXVersion>PDF/X-4</pdfxid:GTS_PDFXVersion>
+         <CP2:sessions>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <CP2:session_id>1</CP2:session_id>
+                  <CP2:start_time>2024-04-09T04:32:36</CP2:start_time>
+                  <CP2:end_time>2024-04-09T04:32:51</CP2:end_time>
+                  <CP2:start_byte>873924</CP2:start_byte>
+                  <CP2:tool_id>com.enfocus.cp2xmp-toolkit</CP2:tool_id>
+                  <CP2:tool_version>1</CP2:tool_version>
+                  <CP2:appl_id>com.enfocus.statuscheck2</CP2:appl_id>
+                  <CP2:appl_version>21</CP2:appl_version>
+                  <CP2:zones>
+                     <rdf:Bag>
+                        <rdf:li>/All/PDF/Metadata</rdf:li>
+                        <rdf:li>/All/PDF/Metadata/CertifiedPDF</rdf:li>
+                        <rdf:li>/All/PDF/PageProperties/PageBoxes</rdf:li>
+                        <rdf:li>/All/PDF/PageProperties/PageContent/RenderingContent/Color</rdf:li>
+                        <rdf:li>/All/PDF/PageProperties/PageContent/RenderingContent/Font</rdf:li>
+                        <rdf:li>/All/PDF/PageProperties/PageContent/RenderingContent/Geometry</rdf:li>
+                     </rdf:Bag>
+                  </CP2:zones>
+                  <CP2:tool_desc>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default">Enfocus CertifiedPDF2XMP Toolkit v1</rdf:li>
+                        <rdf:li xml:lang="en-US">Enfocus CertifiedPDF2XMP Toolkit v1</rdf:li>
+                     </rdf:Alt>
+                  </CP2:tool_desc>
+                  <CP2:appl_desc>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default">Enfocus StatusCheck 21</rdf:li>
+                     </rdf:Alt>
+                  </CP2:appl_desc>
+               </rdf:li>
+            </rdf:Seq>
+         </CP2:sessions>
+         <CP2:certificates>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <CP2:class_id>Preflight</CP2:class_id>
+                  <CP2:type_id>com.enfocus.preflight</CP2:type_id>
+                  <CP2:type_version>1.0</CP2:type_version>
+                  <CP2:impl_id>com.enfocus.pitstop-pro</CP2:impl_id>
+                  <CP2:impl_version>21</CP2:impl_version>
+                  <CP2:session_id_ref>1</CP2:session_id_ref>
+                  <CP2:state>Errors</CP2:state>
+                  <CP2:fingerprint>52b772040e3a10093ddfd0a214e03a02</CP2:fingerprint>
+                  <CP2:time>2024-04-09T04:32:51</CP2:time>
+                  <CP2:type_desc>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default">Enfocus 繝励Μ繝輔Λ繧､繝郁ｨｼ譏取嶌 v1.0</rdf:li>
+                     </rdf:Alt>
+                  </CP2:type_desc>
+                  <CP2:impl_desc>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default">Enfocus PitStop Pro 21</rdf:li>
+                     </rdf:Alt>
+                  </CP2:impl_desc>
+                  <CP2:statement_desc>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default">繝励Μ繝輔Λ繧､繝� 繝励Ο繝輔ぃ繧､繝ｫ PDF/X-4 縺ｫ貅匁侠縺励∪縺�</rdf:li>
+                     </rdf:Alt>
+                  </CP2:statement_desc>
+                  <CP2:state_desc>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default">2 繧ｨ繝ｩ繝ｼ, 1 驥榊､ｧ縺ｧ縺ｯ縺ｪ縺�､ｱ謨�, 8 菫ｮ豁｣</rdf:li>
+                     </rdf:Alt>
+                  </CP2:state_desc>
+                  <CP2:zones>
+                     <rdf:Bag>
+                        <rdf:li>/All/PDF/DocumentEncoding</rdf:li>
+                        <rdf:li>/All/PDF/Metadata</rdf:li>
+                        <rdf:li>/All/PDF/OptionalContentConfiguration</rdf:li>
+                        <rdf:      

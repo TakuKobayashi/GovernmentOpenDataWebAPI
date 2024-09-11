@@ -1,0 +1,24 @@
+﻿年次(平成),Year,地域階層,地域コード,地域,District,総数 Total,男 Male／計 Total,男 Male／15～24歳 15-24years old,男 Male／25～39歳 25-39years old,男 Male／40～59歳 40-59years old,男 Male／60～64歳 60-64years old,男 Male／65歳以上 65 years old and over,女 Female
+15,2003,0,13000,総数,Tokyo-to,1156,1077,37,155,445,129,311,79
+20,2008,0,13000,総数,Tokyo-to,1243,1161,21,148,543,158,291,82
+25,2013,0,13000,総数,Tokyo-to,972,938,24,145,355,131,283,34
+25,2013,1,13100,区部,All ku ,261,248,13,31,100,41,63,13
+25,2013,1,13350,島部,All islands,711,690,11,114,255,90,220,21
+25,2013,2,13361,大島町,Oshima-machi,133,117,1,11,37,17,51,16
+25,2013,2,13362,利島村,Toshima-mura,2,2,-,1,-,-,1,-
+25,2013,2,13363,新島村,Niijima-mura,89,89,-,4,23,8,54,-
+25,2013,2,13364,神津島村,Kozushima-mura,182,181,4,27,74,29,47,1
+25,2013,2,13381,三宅村,Miyake-mura,58,56,1,3,19,7,26,2
+25,2013,2,13382,御蔵島村,Mikurajima-mura,8,8,-,6,1,-,1,-
+25,2013,2,13401,八丈町,Hachijo-machi,156,155,2,32,69,21,31,1
+25,2013,2,13402,青ヶ島村,Aogashima-mura,8,8,-,-,6,2,-,-
+25,2013,2,13421,小笠原村,Ogasawara-mura,75,74,3,30,26,6,9,1
+,,,,,,,,,,,,,
+東京都統計年鑑（平成28年）TOKYO STATISTICAL YEARBOOK ( 2016 ) 9　農林水産業 9 AGRICULTURE， FORESTRY， AND FISHERIES,,,,,,,,,,,,,
+9-6 漁業就業者数（平成15～25年） 9-6 FISHERY WORKERS ( 2003-2013 ) ,,,,,,,,,,,,,
+各年11月1日現在の「漁業センサス」による。,,,,,,,,,,,,,
+Data are based on the Fishery Census taken as of November 1 of the year stated.,,,,,,,,,,,,,
+注) 2003年は三宅村を含まず。　　,,,,,,,,,,,,,
+Note: Excluding 2003 year Miyake-mura．,,,,,,,,,,,,,
+資料：農林水産省 「2013年漁業センサス」，都総務局統計部産業統計課 「2013年漁業センサス　東京都分調査結果報告」 Source: Ministry of Agriculture， Forestry and Fisheries; Bureau of General Affairs， TMG,,,,,,,,,,,,,
+地域階層(0:東京都総数　1:区部・島部　2:区市町村),,,,,,,,,,,,,

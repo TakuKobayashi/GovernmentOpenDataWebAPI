@@ -1,0 +1,429 @@
+﻿年度,Fiscal year,会社名,Company name,系統,Line,駅,Station,マーク Mark,乗車人員 Boarding passengers／総数 Total,乗車人員 Boarding passengers／定期 Commuter Pass,乗車人員 Boarding passengers／普通 Tickets,降車人員 Deboarding passengers／総数 Total,降車人員 Deboarding passengers／定期 Commuter Pass,降車人員 Deboarding passengers／普通 Tickets
+平成23,2011,総数,Total,,,,,,2917202,1715214,1201990,2899144,1705798,1193344
+平成24,2012,総数,Total,,,,,,2986160,1744492,1241669,2967071,1734864,1232206
+平成25,2013,総数,Total,,,,,,3044746,1795702,1249045,3025328,1785647,1239679
+平成26,2014,総数,Total,,,,,,3045449,1797090,1248358,3026377,1786973,1239403
+平成27,2015,総数,Total,,,,,,3130488,1848213,1282278,3111206,1837856,1273352
+平成27,2015,区部,Ku area only,,,,,,2513394,1481666,1031729,2494231,1471309,1022926
+平成27,2015,小田急電鉄,Odakyu Electric Railway,,,,,,337154,204651,132503,337581,204651,132930
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,,,,318375,192514,125861,319164,192514,126650
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,新宿,Shinjuku,※,91596,54711,36885,88562,54711,33850
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,南新宿,Minami-Shinjuku,※,607,164,443,790,164,626
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,参宮橋,Sangubashi,※,2779,1034,1745,2951,1034,1918
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,代々木八幡,Yoyogi-Hachiman,※,3556,1847,1709,3914,1847,2067
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,代々木上原,Yoyogi-Uehara,※,44378,29871,14507,47649,29871,17778
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,東北沢,Higashi-Kitazawa,※,1180,483,697,1201,483,718
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,下北沢,Shimo-Kitazawa,※,20711,11069,9642,21057,11069,9988
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,世田谷代田,Setagaya-Daita,※,1414,709,705,1473,709,764
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,梅ヶ丘,Umegaoka,※,5937,3727,2210,5847,3727,2120
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,豪徳寺,Gotokuji,※,4909,2707,2201,4790,2707,2082
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,経堂,Kyodo,※,13670,8463,5207,13667,8463,5204
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,千歳船橋,Chitose-Funabashi,※,10413,6524,3889,10190,6524,3667
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,祖師ヶ谷大蔵,Soshigaya-Okura,※,8764,5318,3446,8752,5318,3434
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,成城学園前,Seijogakuen-Mae,※,16340,10056,6284,16057,10056,6002
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,喜多見,Kitami,※,6019,3741,2278,6049,3741,2309
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,狛江,Komae,,8328,5303,3024,8380,5303,3077
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,和泉多摩川,Izumi-Tamagawa,,2926,1918,1008,2854,1918,936
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,鶴川,Tsurukawa,,12704,8219,4485,12646,8219,4427
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,玉川学園前,Tamagawagakuen-Mae,,8781,5823,2958,8860,5823,3037
+平成27,2015,小田急電鉄,Odakyu Electric Railway,小田原線,Odawara Line,町田,Machida,,53364,30828,22536,53476,30828,22648
+平成27,2015,小田急電鉄,Odakyu Electric Railway,多摩線,Tama Line,,,,18779,12137,6642,18417,12137,6280
+平成27,2015,小田急電鉄,Odakyu Electric Railway,多摩線,Tama Line,小田急永山,Odakyu Nagayama,,5648,3280,2368,5602,3280,2322
+平成27,2015,小田急電鉄,Odakyu Electric Railway,多摩線,Tama Line,小田急多摩ｾﾝﾀｰ,Odakyu Tama Center,,9259,5988,3271,8972,5988,2984
+平成27,2015,小田急電鉄,Odakyu Electric Railway,多摩線,Tama Line,唐木田,Karakida,,3871,2869,1003,3843,2869,974
+平成27,2015,西武鉄道,Seibu Railway,,,,,,535451,337149,198302,535482,337149,198333
+平成27,2015,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,,,,230866,143727,87139,229448,143727,85721
+平成27,2015,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,池袋,Ikebukuro,※,89404,58352,31052,87523,58352,29171
+平成27,2015,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,椎名町,Shiinamachi,※,3571,1816,1755,3519,1816,1703
+平成27,2015,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,東長崎,Higashi-Nagasaki,※,5029,3083,1946,5048,3083,1965
+平成27,2015,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,江古田,Ekoda,※,5925,3342,2583,5933,3342,2591
+平成27,2015,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,桜台,Sakuradai,※,2594,1250,1344,2578,1250,1328
+平成27,2015,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,練馬,Nerima,◎※,16710,9069,7641,17537,9069,8468
+平成27,2015,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,中村橋,Nakamurabashi,※,7190,4499,2691,7142,4499,2643
+平成27,2015,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,富士見台,Fujimidai,※,4888,2828,2060,4801,2828,1973
+平成27,2015,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,練馬高野台,Nerima-Takanodai,※,4924,2675,2249,4845,2675,2170
+平成27,2015,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,石神井公園,Shakujii-Koen,※,14230,9046,5184,14206,9046,5160
+平成27,2015,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,大泉学園,Oizumi-Gakuen,※,15690,9525,6165,15637,9525,6112
+平成27,2015,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,保谷,Hoya,,11011,7343,3668,10969,7343,3626
+平成27,2015,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,ひばりケ丘,Hibarigaoka,,12626,7571,5055,12636,7571,5065
+平成27,2015,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,東久留米,Higashi-Kurume,,9872,6141,3731,9887,6141,3746
+平成27,2015,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,清瀬,Kiyose,,12610,8182,4428,12582,8182,4400
+平成27,2015,西武鉄道,Seibu Railway,池袋線,Ikebukuro Line,秋津,Akitsu,,14592,9005,5587,14605,9005,5600
+平成27,2015,西武鉄道,Seibu Railway,西武有楽町線,Seibu Yurakucho Line,,,※,29776,19832,9944,31327,19832,11495
+平成27,2015,西武鉄道,Seibu Railway,西武有楽町線,Seibu Yurakucho Line,小竹向原,Kotake-Mukaihara,,22329,15141,7188,24342,15141,9201
+平成27,2015,西武鉄道,Seibu Railway,西武有楽町線,Seibu Yurakucho Line,新桜台,Shin-Sakuradai,,1570,832,738,1486,832,654
+平成27,2015,西武鉄道,Seibu Railway,西武有楽町線,Seibu Yurakucho Line,練馬,Nerima,◎,5877,3859,2018,5499,3859,1640
+平成27,2015,西武鉄道,Seibu Railway,豊島線,Toshima Line,,,※,2677,1307,1370,2652,1307,1345
+平成27,2015,西武鉄道,Seibu Railway,豊島線,Toshima Line,練馬,Nerima,◎,149,2,147,153,2,151
+平成27,2015,西武鉄道,Seibu Railway,豊島線,Toshima Line,豊島園,Toshimaen,,2528,1305,1223,2499,1305,1194
+平成27,2015,西武鉄道,Seibu Railway,山口線,Yamaguchi Line,,,,37,2,35,38,2,36
+平成27,2015,西武鉄道,Seibu Railway,山口線,Yamaguchi Line,西武遊園地,Seibu-Yuenchi,◎,37,2,35,38,2,36
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,,,,188581,119633,68948,188704,119633,69071
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,西武新宿,Seibu-Shinjuku,※,33631,20858,12773,30551,20858,9693
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,高田馬場,Takadanobaba,※,52176,35203,16973,56113,35203,20910
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,下落合,Shimo-Ochiai,※,2298,966,1332,2089,966,1123
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,中井,Nakai,※,5042,3038,2004,5164,3038,2126
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,新井薬師前,Araiyakushi-Mae,※,4070,2280,1790,4050,2280,1770
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,沼袋,Numabukuro,※,3768,2074,1694,3681,2074,1607
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,野方,Nogata,※,4341,2454,1887,4307,2454,1853
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,都立家政,Toritsu-Kasei,※,3338,2178,1160,3290,2178,1112
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,鷺ノ宮,Saginomiya,※,5737,3625,2112,5577,3625,1952
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,下井草,Shimo-Igusa,※,4413,2931,1482,4370,2931,1439
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,井荻,Iogi,※,3674,2223,1451,3616,2223,1393
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,上井草,Kami-Igusa,※,3741,2428,1313,3761,2428,1333
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,上石神井,Kami-Shakujii,※,7950,5382,2568,7924,5382,2542
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,武蔵関,Musashi-Seki,※,5477,3500,1977,5341,3500,1841
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,東伏見,Higashi-Fushimi,,4518,2935,1583,4484,2935,1549
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,西武柳沢,Seibu-Yagisawa,,3048,1602,1446,2948,1602,1346
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,田無,Tanashi,,13711,8928,4783,13670,8928,4742
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,花小金井,Hana-Koganei,,10169,6617,3552,10158,6617,3541
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,小平,Kodaira,◎,5442,3213,2229,5423,3213,2210
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,久米川,Kumegawa,,5843,3267,2576,5940,3267,2673
+平成27,2015,西武鉄道,Seibu Railway,新宿線,Shinjuku Line,東村山,Higashi-Murayama,◎,6194,3931,2263,6247,3931,2316
+平成27,2015,西武鉄道,Seibu Railway,拝島線,Haijima Line,,,,28388,18063,10325,28179,18063,10116
+平成27,2015,西武鉄道,Seibu Railway,拝島線,Haijima Line,小平,Kodaira,◎,1617,836,781,1573,836,737
+平成27,2015,西武鉄道,Seibu Railway,拝島線,Haijima Line,萩山,Hagiyama,◎,1234,715,519,1208,715,493
+平成27,2015,西武鉄道,Seibu Railway,拝島線,Haijima Line,小川,Ogawa,◎,2677,1609,1068,2617,1609,1008
+平成27,2015,西武鉄道,Seibu Railway,拝島線,Haijima Line,東大和市,Higashi-Yamatoshi,,4745,2842,1903,4705,2842,1863
+平成27,2015,西武鉄道,Seibu Railway,拝島線,Haijima Line,玉川上水,Tamagawajosui,,7674,5072,2602,7648,5072,2576
+平成27,2015,西武鉄道,Seibu Railway,拝島線,Haijima Line,武蔵砂川,Musashi-Sunagawa,,2091,1373,718,2056,1373,683
+平成27,2015,西武鉄道,Seibu Railway,拝島線,Haijima Line,西武立川,Seibu-Tachikawa,,1901,1257,644,1905,1257,648
+平成27,2015,西武鉄道,Seibu Railway,拝島線,Haijima Line,拝島,Haijima,,6449,4359,2090,6467,4359,2108
+平成27,2015,西武鉄道,Seibu Railway,西武園線,Seibuen Line,,,,793,349,444,745,349,396
+平成27,2015,西武鉄道,Seibu Railway,西武園線,Seibuen Line,東村山,Higashi-Murayama,◎,58,3,55,66,3,63
+平成27,2015,西武鉄道,Seibu Railway,西武園線,Seibuen Line,西武園,Seibuen,,735,346,389,679,346,333
+平成27,2015,西武鉄道,Seibu Railway,国分寺線,Kokubunji Line,,,,26291,17585,8706,26373,17585,8788
+平成27,2015,西武鉄道,Seibu Railway,国分寺線,Kokubunji Line,国分寺,Kokubunji,◎,14146,9603,4543,14237,9603,4634
+平成27,2015,西武鉄道,Seibu Railway,国分寺線,Kokubunji Line,恋ケ窪,Koigakubo,,2250,1365,885,2230,1365,865
+平成27,2015,西武鉄道,Seibu Railway,国分寺線,Kokubunji Line,鷹の台,Takanodai,,4902,3443,1459,4850,3443,1407
+平成27,2015,西武鉄道,Seibu Railway,国分寺線,Kokubunji Line,小川,Ogawa,◎,2607,1650,957,2595,1650,945
+平成27,2015,西武鉄道,Seibu Railway,国分寺線,Kokubunji Line,東村山,Higashi-Murayama,◎,2386,1524,862,2461,1524,937
+平成27,2015,西武鉄道,Seibu Railway,多摩湖線,Tamako Line,,,,16329,9488,6841,16303,9488,6815
+平成27,2015,西武鉄道,Seibu Railway,多摩湖線,Tamako Line,国分寺,Kokubunji,◎,7395,4318,3077,7553,4318,3235
+平成27,2015,西武鉄道,Seibu Railway,多摩湖線,Tamako Line,一橋学園,Hitotsubashi-Gakuen,,3921,2273,1648,3839,2273,1566
+平成27,2015,西武鉄道,Seibu Railway,多摩湖線,Tamako Line,青梅街道,Ome-Kaido,,1452,883,569,1443,883,560
+平成27,2015,西武鉄道,Seibu Railway,多摩湖線,Tamako Line,萩山,Hagiyama,◎,660,246,414,630,246,384
+平成27,2015,西武鉄道,Seibu Railway,多摩湖線,Tamako Line,八坂,Yasaka,,1075,609,466,1066,609,457
+平成27,2015,西武鉄道,Seibu Railway,多摩湖線,Tamako Line,武蔵大和,Musashi-Yamato,,1383,906,477,1341,906,435
+平成27,2015,西武鉄道,Seibu Railway,多摩湖線,Tamako Line,西武遊園地,Seibu-Yuenchi,◎,443,253,190,431,253,178
+平成27,2015,西武鉄道,Seibu Railway,多摩川線,Tamagawa Line,,,,11713,7163,4550,11713,7163,4550
+平成27,2015,西武鉄道,Seibu Railway,多摩川線,Tamagawa Line,武蔵境,Musashi-Sakai,,5485,3450,2035,5542,3450,2092
+平成27,2015,西武鉄道,Seibu Railway,多摩川線,Tamagawa Line,新小金井,Shin-Koganei,,680,356,324,667,356,311
+平成27,2015,西武鉄道,Seibu Railway,多摩川線,Tamagawa Line,多磨,Tama　　　,,2534,1444,1090,2519,1444,1075
+平成27,2015,西武鉄道,Seibu Railway,多摩川線,Tamagawa Line,白糸台,Shiraitodai   ,,1068,629,439,1078,629,449
+平成27,2015,西武鉄道,Seibu Railway,多摩川線,Tamagawa Line,競艇場前,Kyoteijo-Mae,,512,215,297,482,215,267
+平成27,2015,西武鉄道,Seibu Railway,多摩川線,Tamagawa Line,是政,Koremasa,,1434,1069,365,1425,1069,356
+平成27,2015,東急電鉄,Tokyu Corporation,,,,,,705089,413639,291449,685100,403282,281818
+平成27,2015,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,,,※,177179,96801,80378,176875,96801,80074
+平成27,2015,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,渋谷,Shibuya,◎,83473,47501,35973,82836,47501,35336
+平成27,2015,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,代官山,Daikan-Yama,,5696,1733,3963,6170,1733,4437
+平成27,2015,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,中目黒,Naka-Meguro,,34959,22049,12910,34971,22049,12922
+平成27,2015,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,祐天寺,Yutenji,,5553,2606,2947,5468,2606,2861
+平成27,2015,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,学芸大学,Gakugei-Daigaku,,13926,7509,6417,13807,7509,6298
+平成27,2015,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,都立大学,Toritsu-Daigaku,,8840,4059,4781,8613,4059,4554
+平成27,2015,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,自由が丘,Jiyugaoka,◎,17635,8024,9611,18033,8024,10008
+平成27,2015,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,田園調布,Den-En-Chofu,◎,4356,2212,2144,4381,2212,2169
+平成27,2015,東急電鉄,Tokyu Corporation,東横線,Toyoko Line,多摩川,Tamagawa,◎,2740,1108,1632,2597,1108,1488
+平成27,2015,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,,,※,80864,49092,31771,81124,49092,32031
+平成27,2015,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,目黒,Meguro,,47055,30716,16339,47878,30716,17162
+平成27,2015,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,不動前,Fudo-Mae,,5571,2874,2696,5224,2874,2349
+平成27,2015,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,武蔵小山,Musashi-Koyama,,9505,5109,4396,9579,5109,4471
+平成27,2015,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,西小山,Nishi-Koyama,,6759,4472,2288,6569,4472,2097
+平成27,2015,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,洗足,Senzoku,,2701,1249,1452,2654,1249,1405
+平成27,2015,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,大岡山,Ookayama,◎,3872,1989,1882,3821,1989,1832
+平成27,2015,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,奥沢,Okusawa,,2512,1219,1293,2516,1219,1297
+平成27,2015,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,田園調布,Den-En-Chofu,◎,2204,1192,1012,2241,1192,1049
+平成27,2015,東急電鉄,Tokyu Corporation,目黒線,Meguro Line,多摩川,Tamagawa　,◎,686,272,414,641,272,369
+平成27,2015,東急電鉄,Tokyu Corporation,東急多摩川線,Tokyu Tamagawa Line,,,※,38369,24004,14366,38397,24004,14394
+平成27,2015,東急電鉄,Tokyu Corporation,東急多摩川線,Tokyu Tamagawa Line,多摩川,Tamagawa　,◎,710,295,416,671,295,377
+平成27,2015,東急電鉄,Tokyu Corporation,東急多摩川線,Tokyu Tamagawa Line,沼部,Numabe,,1978,1097,881,1961,1097,864
+平成27,2015,東急電鉄,Tokyu Corporation,東急多摩川線,Tokyu Tamagawa Line,鵜の木,Unoki,,3584,2045,1540,3552,2045,1507
+平成27,2015,東急電鉄,Tokyu Corporation,東急多摩川線,Tokyu Tamagawa Line,下丸子,Shimomaruko,,6814,4702,2112,6707,4702,2006
+平成27,2015,東急電鉄,Tokyu Corporation,東急多摩川線,Tokyu Tamagawa Line,武蔵新田,Musashi-Nitta,,4737,2771,1965,4664,2771,1893
+平成27,2015,東急電鉄,Tokyu Corporation,東急多摩川線,Tokyu Tamagawa Line,矢口渡,Yaguchi-No-Watashi,,4478,2594,1884,4334,2594,1739
+平成27,2015,東急電鉄,Tokyu Corporation,東急多摩川線,Tokyu Tamagawa Line,蒲田,Kamata,◎,16068,10500,5568,16509,10500,6009
+平成27,2015,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,,,※,87164,45397,41766,86855,45397,41458
+平成27,2015,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,大井町,Oimachi,,25434,15290,10145,25495,15290,10206
+平成27,2015,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,下神明,Shimo-Shimmei,,1484,756,728,1504,756,748
+平成27,2015,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,戸越公園,Togoshi-Koen,,2582,1266,1316,2625,1266,1359
+平成27,2015,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,中延,Nakanobu,,4043,2274,1769,4166,2274,1892
+平成27,2015,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,荏原町,Ebara-Machi,,3016,1736,1281,2994,1736,1258
+平成27,2015,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,旗の台,Hatanodai,◎,4524,2243,2282,4373,2243,2130
+平成27,2015,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,北千束,Kita-Senzoku,,1273,579,695,1276,579,697
+平成27,2015,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,大岡山,Ookayama,◎,5129,2773,2355,5162,2773,2388
+平成27,2015,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,緑が丘,Midorigaoka,,1815,770,1045,1696,770,926
+平成27,2015,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,自由が丘,Jiyugaoka,◎,10091,3696,6395,10018,3696,6322
+平成27,2015,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,九品仏,Kuhombutsu,,2422,1272,1149,2381,1272,1109
+平成27,2015,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,尾山台,Oyamadai,,5483,3118,2366,5415,3118,2298
+平成27,2015,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,等々力,Todoroki,,5349,3064,2285,5260,3064,2195
+平成27,2015,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,上野毛,Kaminoge,,4127,2201,1927,4058,2201,1857
+平成27,2015,東急電鉄,Tokyu Corporation,大井町線,Oimachi Line,二子玉川,Futako-Tamagawa ,◎,10390,4360,6030,10433,4360,6074
+平成27,2015,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,,,,226533,143308,83225,226737,143308,83428
+平成27,2015,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,渋谷,Shibuya,◎※,123626,84135,39491,125289,84135,41154
+平成27,2015,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,池尻大橋,Ikejiri-Ohashi,※,11468,6673,4795,10969,6673,4296
+平成27,2015,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,三軒茶屋,Sangen-Jaya,◎※,24447,13920,10527,24175,13920,10255
+平成27,2015,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,駒沢大学,Komazawa-Daigaku,※,14343,8647,5696,13888,8647,5241
+平成27,2015,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,桜新町,Sakura-Shimmachi,※,13051,8300,4751,12785,8300,4485
+平成27,2015,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,用賀,Yoga,※,11636,6322,5314,11496,6322,5174
+平成27,2015,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,二子玉川,Futako-Tamagawa  ,◎※,17415,8797,8618,17600,8797,8803
+平成27,2015,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,つくし野,Tsukushino,,2227,1436,791,2215,1436,779
+平成27,2015,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,すずかけ台,Suzukakedai,,2106,1365,740,2080,1365,715
+平成27,2015,東急電鉄,Tokyu Corporation,田園都市線,Den-En-Toshi Line,南町田,Minami-Machida,,6216,3713,2502,6239,3713,2526
+平成27,2015,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,,,※,74827,44679,30147,75112,44679,30433
+平成27,2015,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,五反田,Gotanda,,19797,13451,6346,20123,13451,6673
+平成27,2015,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,大崎広小路,Osakihirokoji,,1402,533,869,1518,533,985
+平成27,2015,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,戸越銀座,Togoshi-Ginza,,3620,1821,1800,3607,1821,1786
+平成27,2015,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,荏原中延,Ebara-Nakanobu,,2409,1378,1031,2388,1378,1009
+平成27,2015,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,旗の台,Hatanodai,◎,2766,1183,1583,2549,1183,1366
+平成27,2015,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,長原,Nagahara,,2728,1502,1226,2863,1502,1362
+平成27,2015,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,洗足池,Senzoku-Ike,,3370,2018,1352,3371,2018,1353
+平成27,2015,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,石川台,Ishikawa-Dai,,2772,1344,1428,2714,1344,1370
+平成27,2015,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,雪が谷大塚,Yukigaya-Otsuka,,4471,2644,1826,4529,2644,1884
+平成27,2015,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,御嶽山,Ontakesan,,4682,3287,1395,4687,3287,1400
+平成27,2015,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,久が原,Kugahara,,2845,1444,1401,2829,1444,1385
+平成27,2015,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,千鳥町,Chidoricho,,2846,1739,1107,2778,1739,1039
+平成27,2015,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,池上,Ikegami,,6508,3533,2975,6420,3533,2887
+平成27,2015,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,蓮沼,Hasunuma,,1541,693,848,1416,693,722
+平成27,2015,東急電鉄,Tokyu Corporation,池上線,Ikegami Line,蒲田,Kamata,◎,13069,8111,4959,13321,8111,5210
+平成27,2015,東急電鉄,Tokyu Corporation,世田谷線,Setagaya Line,,,※,20152,10357,9795,-,-,-
+平成27,2015,京浜急行電鉄,Keikyu Corporation,,,,,,169932,87400,82532,169893,87400,82493
+平成27,2015,京浜急行電鉄,Keikyu Corporation,本線,Main Line,,,※,135143,74730,60413,134348,74730,59618
+平成27,2015,京浜急行電鉄,Keikyu Corporation,本線,Main Line,泉岳寺,Sengakuji,,33172,17677,15495,32988,17677,15311
+平成27,2015,京浜急行電鉄,Keikyu Corporation,本線,Main Line,品川,Shinagawa,,49464,27280,22184,49361,27280,22081
+平成27,2015,京浜急行電鉄,Keikyu Corporation,本線,Main Line,北品川,Kitashinagawa,,1677,998,679,1681,998,683
+平成27,2015,京浜急行電鉄,Keikyu Corporation,本線,Main Line,新馬場,Shimbamba,,2859,1407,1452,2841,1407,1434
+平成27,2015,京浜急行電鉄,Keikyu Corporation,本線,Main Line,青物横丁,Aomono-Yokocho,,7261,4721,2540,7246,4722,2524
+平成27,2015,京浜急行電鉄,Keikyu Corporation,本線,Main Line,鮫洲,Samezu,,1873,1040,833,1864,1040,824
+平成27,2015,京浜急行電鉄,Keikyu Corporation,本線,Main Line,立会川,Tachiaigawa,,3275,1860,1415,3203,1860,1343
+平成27,2015,京浜急行電鉄,Keikyu Corporation,本線,Main Line,大森海岸,Omorikaigan,,2626,1236,1390,2600,1236,1364
+平成27,2015,京浜急行電鉄,Keikyu Corporation,本線,Main Line,平和島,Heiwajima,,8444,5199,3245,8400,5198,3202
+平成27,2015,京浜急行電鉄,Keikyu Corporation,本線,Main Line,大森町,Omorimachi,,3635,2243,1392,3624,2243,1381
+平成27,2015,京浜急行電鉄,Keikyu Corporation,本線,Main Line,梅屋敷,Umeyashiki,,2765,1398,1367,2747,1399,1348
+平成27,2015,京浜急行電鉄,Keikyu Corporation,本線,Main Line,京急蒲田,Keikyu Kamata,◎,9790,4813,4977,9593,4812,4781
+平成27,2015,京浜急行電鉄,Keikyu Corporation,本線,Main Line,雑色,Zoshiki,,5516,3315,2201,5467,3315,2152
+平成27,2015,京浜急行電鉄,Keikyu Corporation,本線,Main Line,六郷土手,Rokugodote,,2786,1543,1243,2733,1543,1190
+平成27,2015,京浜急行電鉄,Keikyu Corporation,空港線,Airport Line,,,※,34789,12670,22119,35545,12670,22875
+平成27,2015,京浜急行電鉄,Keikyu Corporation,空港線,Airport Line,糀谷,Kojiya,,4514,2700,1814,4513,2700,1813
+平成27,2015,京浜急行電鉄,Keikyu Corporation,空港線,Airport Line,大鳥居,Otorii,,5292,3124,2168,5316,3124,2192
+平成27,2015,京浜急行電鉄,Keikyu Corporation,空港線,Airport Line,穴守稲荷,Anamori-Inari,,2998,1763,1235,3100,1763,1337
+平成27,2015,京浜急行電鉄,Keikyu Corporation,空港線,Airport Line,天空橋,Tenkubashi,,3277,2138,1139,3395,2138,1257
+平成27,2015,京浜急行電鉄,Keikyu Corporation,空港線,Airport Line,羽田空港国際線ターミナル,Haneda Airport International Terminal,,3700,711,2989,3767,711,3056
+平成27,2015,京浜急行電鉄,Keikyu Corporation,空港線,Airport Line,羽田空港国内線ターミナル,Haneda Airport Domestic Terminal,,15008,2234,12774,15454,2234,13220
+平成27,2015,京王電鉄,Keio Corporation,,,,,,621138,364062,257076,620934,364062,256872
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,,,,449197,266632,182565,448857,266632,182225
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,新宿,Shinjuku,※,136951,87675,49276,137491,87675,49816
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,初台,Hatsudai,※,10972,5549,5423,10906,5549,5357
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,幡ケ谷,Hatagaya,※,5889,2744,3145,5711,2744,2967
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,笹塚,Sasazuka,※,14435,8845,5590,14333,8845,5488
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,代田橋,Daitabashi,※,3653,1965,1688,3591,1965,1626
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,明大前,Meidaimae,◎※,10935,6898,4037,10844,6898,3946
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,下高井戸,Shimo-Takaido,※,8039,4282,3757,8070,4282,3788
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,桜上水,Sakurajosui,※,6957,4447,2510,6874,4447,2427
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,上北沢,Kami-Kitazawa,※,2679,1451,1228,2650,1451,1199
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,八幡山,Hachiman-Yama,※,7677,4914,2763,7571,4914,2657
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,芦花公園,Roka-Koen,※,2646,1293,1353,2594,1293,1301
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,千歳烏山,Chitose-Karasuyama,※,14239,8180,6059,14152,8180,5972
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,仙川,Sengawa,,13977,9102,4875,13997,9102,4895
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,つつじケ丘,Tsutsujigaoka,,8317,4794,3523,8191,4794,3397
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,柴崎,Shibasaki,,3144,1800,1344,3100,1800,1300
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,国領,Kokuryo,,7010,4542,2468,6990,4542,2448
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,布田,Fuda,,3018,2215,803,2935,2215,720
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,調布,Chofu,◎,21322,11245,10077,21412,11245,10167
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,西調布,Nishi-Chofu,,3066,1794,1272,3010,1794,1216
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,飛田給,Tobitakyu,,4435,2172,2263,4504,2172,2332
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,武蔵野台,Musashinodai,,4557,3022,1535,4567,3022,1545
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,多磨霊園,Tama-Reien,,2314,1105,1209,2240,1105,1135
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,東府中,Higashi-Fuchu,◎,3809,1748,2061,3743,1748,1995
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,府中競馬正門前,Fuchukeiba-Seimommae,,586,43,543,579,43,536
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,府中,Fuchu,,15770,7791,7979,15794,7791,8003
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,分倍河原,Bubaigawara,,16608,10671,5937,16672,10671,6001
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,中河原,Nakagawara,,4621,2606,2015,4641,2606,2035
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,聖蹟桜ケ丘,Seiseki-Sakuragaoka,,11794,6575,5219,11866,6575,5291
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,百草園,Mogusaen,,1465,723,742,1408,723,685
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,高幡不動,Takahatafudo,◎,10779,6811,3968,10783,6811,3972
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,多摩動物公園,Tama-Dobutsukoen,,1211,748,463,1173,748,425
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,南平,Minamidaira,,1982,1194,788,1962,1194,768
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,平山城址公園,Hirayamajoshi-Koen,,1615,870,745,1594,870,724
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,長沼,Naganuma,,764,378,386,740,378,362
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,北野,Kitano,◎,4053,2010,2043,4062,2010,2052
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,京王八王子,Keio-Hachioji,,10730,5916,4814,10699,5916,4783
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,京王片倉,Keio-Katakura,,851,457,394,853,457,396
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,山田,Yamada,,945,488,457,925,488,437
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,めじろ台,Mejirodai,,3221,1961,1260,3239,1961,1278
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,狭間,Hazama,,1355,699,656,1390,699,691
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,高尾,Takao,,4927,2646,2281,5019,2646,2373
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,高尾山口,Takaosanguchi,,2049,270,1779,2008,270,1738
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,京王多摩川,Keio-Tamagawa,,3202,1846,1356,3106,1846,1260
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,京王よみうりランド,Keio-Yomiuri-Land,,2379,1112,1267,2331,1112,1219
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,稲城,Inagi,,3671,2288,1383,3695,2288,1407
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,京王永山,Keio-Nagayama,,8281,4696,3585,8355,4696,3659
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,京王多摩センター,Keio-Tama-Center,,15561,9437,6124,15681,9437,6244
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,京王堀之内,Keio-Horinouchi,,5776,3448,2328,5839,3448,2391
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,南大沢,Minami-Osawa,,11385,6768,4617,11402,6768,4634
+平成27,2015,京王電鉄,Keio Corporation,京王線,Keio Line,多摩境,Tamasakai,,3575,2398,1177,3565,2398,1167
+平成27,2015,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,,,,171941,97430,74511,172077,97430,74647
+平成27,2015,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,渋谷,Shibuya,※,63776,37851,25925,63366,37851,25515
+平成27,2015,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,神泉,Shinsen,※,1784,646,1138,2017,646,1371
+平成27,2015,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,駒場東大前,Komaba-Todaimae,※,7071,4503,2568,6969,4503,2466
+平成27,2015,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,池ノ上,Ikenoue,※,1874,777,1097,1796,777,1019
+平成27,2015,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,下北沢,Shimo-Kitazawa,※,20492,10450,10042,20982,10450,10532
+平成27,2015,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,新代田,Shindaita,※,1793,738,1055,1694,738,956
+平成27,2015,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,東松原,Higashi-Matsubara,※,3440,2048,1392,3366,2048,1318
+平成27,2015,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,明大前,Meidaimae,◎※,8115,4482,3633,8012,4482,3530
+平成27,2015,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,永福町,Eifukucho,※,5821,3152,2669,5896,3152,2744
+平成27,2015,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,西永福,Nishi-Eifuku,※,3354,1743,1611,3234,1743,1491
+平成27,2015,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,浜田山,Hamadayama,※,5398,2975,2423,5415,2975,2440
+平成27,2015,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,高井戸,Takaido,※,8032,5263,2769,7944,5263,2681
+平成27,2015,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,富士見ヶ丘,Fujimigaoka,※,2548,1324,1224,2534,1324,1210
+平成27,2015,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,久我山,Kugayama,※,7168,4179,2989,7092,4179,2913
+平成27,2015,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,三鷹台,Mitakadai,,4175,2636,1539,4068,2636,1432
+平成27,2015,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,井の頭公園,Inokashira-Koen,,1238,598,640,1232,598,634
+平成27,2015,京王電鉄,Keio Corporation,井の頭線,Inokashira Line,吉祥寺,Kichijoji,,25862,14065,11797,26460,14065,12395
+平成27,2015,京成電鉄,Keisei Electric Railway,,,,,,139636,84415,55221,139269,84415,54854
+平成27,2015,京成電鉄,Keisei Electric Railway,本線,Main Line,,,※,77291,43606,33685,77037,43606,33431
+平成27,2015,京成電鉄,Keisei Electric Railway,本線,Main Line,京成上野,Keisei-Ueno,,9027,3712,5315,7376,3712,3664
+平成27,2015,京成電鉄,Keisei Electric Railway,本線,Main Line,日暮里,Nippori,,17444,9989,7455,18470,9989,8481
+平成27,2015,京成電鉄,Keisei Electric Railway,本線,Main Line,新三河島,Shim-Mikawashima,,993,471,522,1009,471,538
+平成27,2015,京成電鉄,Keisei Electric Railway,本線,Main Line,町屋,Machiya,,3599,1945,1654,3795,1945,1850
+平成27,2015,京成電鉄,Keisei Electric Railway,本線,Main Line,千住大橋,Senjuohashi,,2671,1578,1093,2636,1578,1058
+平成27,2015,京成電鉄,Keisei Electric Railway,本線,Main Line,京成関屋,Keisei-Sekiya,,4556,2768,1788,4572,2768,1804
+平成27,2015,京成電鉄,Keisei Electric Railway,本線,Main Line,堀切菖蒲園,Horikirishobuen,,3842,2144,1698,3824,2144,1680
+平成27,2015,京成電鉄,Keisei Electric Railway,本線,Main Line,お花茶屋,Ohanajaya,,5812,3682,2130,5782,3682,2100
+平成27,2015,京成電鉄,Keisei Electric Railway,本線,Main Line,青砥,Aoto,◎,5110,2741,2369,5151,2741,2410
+平成27,2015,京成電鉄,Keisei Electric Railway,本線,Main Line,京成高砂,Keisei-Takasago,◎,20052,12036,8016,20292,12036,8256
+平成27,2015,京成電鉄,Keisei Electric Railway,本線,Main Line,京成小岩,Keisei-Koiwa,,3198,1945,1253,3160,1945,1215
+平成27,2015,京成電鉄,Keisei Electric Railway,本線,Main Line,江戸川,Edogawa,,987,595,392,970,595,375
+平成27,2015,京成電鉄,Keisei Electric Railway,押上線,Oshiage Line,,,※,55537,36942,18595,55502,36942,18560
+平成27,2015,京成電鉄,Keisei Electric Railway,押上線,Oshiage Line,押上,Oshiage,,36940,25337,11603,37212,25337,11875
+平成27,2015,京成電鉄,Keisei Electric Railway,押上線,Oshiage Line,京成曳舟,Keisei-Hikifune,,3363,1932,1431,3294,1932,1362
+平成27,2015,京成電鉄,Keisei Electric Railway,押上線,Oshiage Line,八広,Yahiro,,2020,1259,761,1986,1259,727
+平成27,2015,京成電鉄,Keisei Electric Railway,押上線,Oshiage Line,四ツ木,Yotsugi,,2728,1627,1101,2667,1627,1040
+平成27,2015,京成電鉄,Keisei Electric Railway,押上線,Oshiage Line,京成立石,Keisei-Tateishi,,6845,4666,2179,6779,4666,2113
+平成27,2015,京成電鉄,Keisei Electric Railway,押上線,Oshiage Line,青砥,Aoto,◎,3641,2121,1520,3564,2121,1443
+平成27,2015,京成電鉄,Keisei Electric Railway,金町線,Kanamachi Line,,,※,6808,3867,2941,6730,3867,2863
+平成27,2015,京成電鉄,Keisei Electric Railway,金町線,Kanamachi Line,京成高砂,Keisei-Takasago,◎,529,209,320,554,209,345
+平成27,2015,京成電鉄,Keisei Electric Railway,金町線,Kanamachi Line,柴又,Shibamata,,1695,768,927,1654,768,886
+平成27,2015,京成電鉄,Keisei Electric Railway,金町線,Kanamachi Line,京成金町,Keisei-Kanamachi,,4584,2890,1694,4522,2890,1632
+平成27,2015,東武鉄道,Tobu Railway ,,,,,,325960,207458,118502,325013,207458,117555
+平成27,2015,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,,,※,163915,104418,59497,163708,104418,59290
+平成27,2015,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,浅草,Asakusa,,9718,3673,6045,9454,3673,5781
+平成27,2015,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,とうきょうｽｶｲﾂﾘｰ,Tokyo Skytree,,20775,13322,7453,20026,13322,6704
+平成27,2015,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,曳舟,Hikifune,◎,3663,2002,1661,3776,2002,1774
+平成27,2015,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,東向島,Higashi-Mukojima,,3298,1960,1338,3323,1960,1363
+平成27,2015,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,鐘ヶ淵,Kanegafuchi,,2312,1291,1021,2287,1291,996
+平成27,2015,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,堀切,Horikiri,,767,511,256,771,511,260
+平成27,2015,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,牛田,Ushida,,4154,2479,1675,4202,2479,1723
+平成27,2015,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,北千住,Kita-Senju,,80792,55055,25737,81697,55055,26642
+平成27,2015,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,小菅,Kosuge,,1055,556,499,1023,556,467
+平成27,2015,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,五反野,Gotanno,,6467,4256,2211,6418,4256,2162
+平成27,2015,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,梅島,Umejima,,5881,3864,2017,5828,3864,1964
+平成27,2015,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,西新井,Nishiarai,◎,11808,7017,4791,11603,7017,4586
+平成27,2015,東武鉄道,Tobu Railway ,東武ｽｶｲﾂﾘｰﾗｲﾝ,Tobu Skytree Line,竹ノ塚,Takenotsuka,,13225,8432,4793,13300,8432,4868
+平成27,2015,東武鉄道,Tobu Railway ,大師線,Daishi Line,,,※,2681,1660,1021,2677,1660,1017
+平成27,2015,東武鉄道,Tobu Railway ,大師線,Daishi Line,西新井,Nishiarai,◎,126,10,116,130,10,120
+平成27,2015,東武鉄道,Tobu Railway ,大師線,Daishi Line,大師前,Daishimae,,2555,1650,905,2547,1650,897
+平成27,2015,東武鉄道,Tobu Railway ,亀戸線,Kameido Line,,,※,9848,6003,3845,9824,6003,3821
+平成27,2015,東武鉄道,Tobu Railway ,亀戸線,Kameido Line,曳舟,Hikifune,◎,897,439,458,921,439,482
+平成27,2015,東武鉄道,Tobu Railway ,亀戸線,Kameido Line,小村井,Omurai,,1995,1353,642,1963,1353,610
+平成27,2015,東武鉄道,Tobu Railway ,亀戸線,Kameido Line,東あずま,Higashi-Azuma,,1388,781,607,1344,781,563
+平成27,2015,東武鉄道,Tobu Railway ,亀戸線,Kameido Line,亀戸水神,Kameidosuijin,,706,378,328,717,378,339
+平成27,2015,東武鉄道,Tobu Railway ,亀戸線,Kameido Line,亀戸,Kameido,,4862,3052,1810,4879,3052,1827
+平成27,2015,東武鉄道,Tobu Railway ,東上線,Tojo Line,,,※,149516,95377,54139,148804,95377,53427
+平成27,2015,東武鉄道,Tobu Railway ,東上線,Tojo Line,池袋,Ikebukuro,,87724,59072,28652,87163,59072,28091
+平成27,2015,東武鉄道,Tobu Railway ,東上線,Tojo Line,北池袋,Kita-Ikebukuro,,1776,888,888,1697,888,809
+平成27,2015,東武鉄道,Tobu Railway ,東上線,Tojo Line,下板橋,Shimo-Itabashi,,2909,1630,1279,2848,1630,1218
+平成27,2015,東武鉄道,Tobu Railway ,東上線,Tojo Line,大山,Oyama,,9259,5067,4192,9238,5067,4171
+平成27,2015,東武鉄道,Tobu Railway ,東上線,Tojo Line,中板橋,Naka-Itabashi,,5109,3101,2008,4995,3101,1894
+平成27,2015,東武鉄道,Tobu Railway ,東上線,Tojo Line,ときわ台,Tokiwadai,,8789,5446,3343,8766,5446,3320
+平成27,2015,東武鉄道,Tobu Railway ,東上線,Tojo Line,上板橋,Kami-Itabashi,,9289,5763,3526,9281,5763,3518
+平成27,2015,東武鉄道,Tobu Railway ,東上線,Tojo Line,東武練馬,Tobu-Nerima,,10973,6815,4158,10954,6815,4139
+平成27,2015,東武鉄道,Tobu Railway ,東上線,Tojo Line,下赤塚,Shimo-Akatsuka,,3032,1471,1561,3135,1471,1664
+平成27,2015,東武鉄道,Tobu Railway ,東上線,Tojo Line,成増,Narimasu,,10656,6124,4532,10727,6124,4603
+平成27,2015,北総鉄道,Hokuso Railway,,,,,,11939,8611,3329,12166,8611,3555
+平成27,2015,北総鉄道,Hokuso Railway,北総線,Hokuso Line,,,※,11939,8611,3329,12166,8611,3555
+平成27,2015,北総鉄道,Hokuso Railway,北総線,Hokuso Line,京成高砂,Keisei-Takasago,,11180,8164,3016,11427,8164,3263
+平成27,2015,北総鉄道,Hokuso Railway,北総線,Hokuso Line,新柴又,Shin-Shibamata,,759,447,313,739,447,292
+平成27,2015,高尾登山電鉄,Takao Tozan Railway,,,,,,2115,15,2100,2115,15,2100
+平成27,2015,高尾登山電鉄,Takao Tozan Railway,,,清滝,Kiyotaki,,642,8,634,712,7,705
+平成27,2015,高尾登山電鉄,Takao Tozan Railway,,,高尾山,Takaosan,,712,7,705,642,8,634
+平成27,2015,高尾登山電鉄,Takao Tozan Railway,,,山麓（リフト）,Sanroku (Chair Lift),,339,-,339,422,-,422
+平成27,2015,高尾登山電鉄,Takao Tozan Railway,,,山上（リフト）,Sanjo (Chair Lift),,422,-,422,339,-,339
+平成27,2015,東京モノレール,Tokyo Monorail,,,,,※,45145,17872,27273,45145,17872,27273
+平成27,2015,東京モノレール,Tokyo Monorail,,,モノレール浜松町,Monorail Hamamatsucho,,19595,7231,12364,19213,7231,11982
+平成27,2015,東京モノレール,Tokyo Monorail,,,天王洲アイル,Tennozu Isle,,5115,2855,2260,4963,2855,2108
+平成27,2015,東京モノレール,Tokyo Monorail,,,大井競馬場前,Oi Keibajo Mae,,1655,911,744,1706,911,795
+平成27,2015,東京モノレール,Tokyo Monorail,,,流通センター,Ryutsu Center,,3208,2047,1161,3305,2047,1258
+平成27,2015,東京モノレール,Tokyo Monorail,,,昭和島,Showajima,,1033,795,238,1048,795,253
+平成27,2015,東京モノレール,Tokyo Monorail,,,整備場,Seibijo,,356,212,144,406,212,194
+平成27,2015,東京モノレール,Tokyo Monorail,,,天空橋,Tenkubashi ,,2094,1470,624,1639,1470,169
+平成27,2015,東京モノレール,Tokyo Monorail,,,羽田空港国際線ビル,Haneda Airport International Terminal,,1522,168,1354,1490,168,1322
+平成27,2015,東京モノレール,Tokyo Monorail,,,新整備場,Shin Seibijo,,618,285,333,815,284,531
+平成27,2015,東京モノレール,Tokyo Monorail,,,羽田空港第1ビル,Haneda Airport Terminal1,,4669,752,3917,5077,753,4324
+平成27,2015,東京モノレール,Tokyo Monorail,,,羽田空港第2ビル,Haneda Airport Terminal2,,5280,1146,4134,5483,1146,4337
+平成27,2015,御岳登山鉄道,Mitake Tozan Railway,,,,,,465,1,464,465,1,464
+平成27,2015,御岳登山鉄道,Mitake Tozan Railway,,,滝本,Takimoto,,292,1,291,173,0,173
+平成27,2015,御岳登山鉄道,Mitake Tozan Railway,,,御岳山,Mitakesan,,173,0,173,292,1,291
+平成27,2015,ゆりかもめ,Yurikamome Inc. ,,,,,,39096,9675,29421,39096,9675,29421
+平成27,2015,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,,,※,39096,9675,29421,39096,9675,29421
+平成27,2015,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,新橋,Shimbashi,,12239,3089,9151,12055,2993,9062
+平成27,2015,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,汐留,Shiodome,,1552,287,1264,1669,316,1353
+平成27,2015,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,竹芝,Takeshiba,,847,158,689,921,167,753
+平成27,2015,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,日の出,Hinode,,413,77,336,413,78,335
+平成27,2015,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,芝浦ふ頭,Shibaura-Futo,,898,403,495,957,417,540
+平成27,2015,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,お台場海浜公園,Odaiba-Kaihinkoen,,3161,1046,2115,3211,1045,2166
+平成27,2015,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,台場,Daiba,,4350,523,3827,4462,555,3907
+平成27,2015,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,船の科学館,Fune-no-kagakukan,,616,172,445,705,172,534
+平成27,2015,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,テレコムセンター,Telecom Center,,2527,1132,1396,2605,1153,1452
+平成27,2015,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,青海,Aomi,,1091,86,1005,984,89,896
+平成27,2015,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,国際展示場正門,Kokusai-tenjijo-seimon,,3950,560,3389,4029,610,3420
+平成27,2015,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,有明,Ariake,,1075,239,836,932,218,714
+平成27,2015,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,有明テニスの森,Ariake Tennis-No-Mori,,571,201,370,603,195,408
+平成27,2015,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,市場前,Shijo-Mae,,488,213,274,498,216,283
+平成27,2015,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,新豊洲,Shin-Toyosu,,803,218,586,838,212,626
+平成27,2015,ゆりかもめ,Yurikamome Inc. ,東京臨海新交通臨海線,Tokyo Waterfront New Transit Waterfront Line,豊洲,Toyosu,,4514,1271,3243,4213,1241,2972
+平成27,2015,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,,,,,,88860,46751,42109,88860,46751,42109
+平成27,2015,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,りんかい線,Rinkai Line,,,※,88860,46751,42109,88860,46751,42109
+平成27,2015,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,りんかい線,Rinkai Line,新木場,Shin-Kiba ,,11584,5946,5638,11443,5946,5497
+平成27,2015,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,りんかい線,Rinkai Line,東雲,Shinonome ,,2394,1562,832,2407,1562,845
+平成27,2015,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,りんかい線,Rinkai Line,国際展示場,Kokusai-Tenjijo  ,,13058,5684,7375,13022,5684,7338
+平成27,2015,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,りんかい線,Rinkai Line,東京テレポート,Tokyo Teleport ,,11749,5449,6300,11262,5449,5813
+平成27,2015,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,りんかい線,Rinkai Line,天王洲アイル,Tennozu Isle,,6300,3995,2305,6410,3995,2415
+平成27,2015,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,りんかい線,Rinkai Line,品川シーサイド,Shinagawa Seaside　,,7230,4806,2424,7065,4806,2259
+平成27,2015,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,りんかい線,Rinkai Line,大井町,Oimachi ,,14876,8036,6839,14814,8036,6778
+平成27,2015,東京臨海高速鉄道,Tokyo Waterfront Area Rapid TransitInc.,りんかい線,Rinkai Line,大崎,Osaki ,,21668,11273,10395,22437,11273,11164
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,,,,50498,28716,21782,50498,28716,21782
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,多摩センター,Tama Center  ,,6775,4429,2346,6805,4429,2376
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,松が谷,Matsugaya    ,,447,205,242,465,205,260
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,大塚・帝京大学,Otsuka・Teikyo-Daigaku,,1407,673,734,1277,673,605
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,中央大学・明星大学,Chuo-Daigaku・Meisei-Daigaku ,,6441,5201,1240,6494,5201,1293
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,多摩動物公園,Tama-Dobutsukoen  ,,462,97,365,460,97,363
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,程久保,Hodokubo  ,,302,132,170,267,132,134
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,高幡不動,Takahatafudo  ,,4960,2872,2088,4980,2872,2108
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,万願寺,Manganji  ,,1447,695,752,1415,695,720
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,甲州街道,Koshukaido,,1487,815,671,1423,815,608
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,柴崎体育館,Shibasaki-Taiikukan  ,,764,319,445,718,319,400
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,立川南,Tachikawa-Minami  ,,5912,3155,2756,5842,3155,2686
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,立川北,Tachikawa-Kita  ,,7487,3709,3778,7564,3709,3855
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,高松,Takamatsu ,,1509,428,1081,1567,428,1139
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,立飛,Tachihi  ,,1497,316,1181,1759,316,1443
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,泉体育館,Izumi-Taiikukan  ,,1133,604,529,1121,604,517
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,砂川七番,Sunagawa-Nanaban ,,825,458,367,789,458,331
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,玉川上水,Tamagawajosui  ,,4131,2376,1755,4128,2376,1752
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,桜街道,Sakurakaido,,1246,760,487,1190,760,430
+平成27,2015,多摩都市モノレール,Tokyo Tama Intercity Monorail Co.Ltd,,,上北台,Kamikitadai ,,2265,1471,794,2233,1471,761
+平成27,2015,首都圏新都市鉄道,Metropolitan Intercity Railway Company  ,,,,,,58010,37798,20215,59589,37798,21793
+平成27,2015,首都圏新都市鉄道,Metropolitan Intercity Railway Company  ,つくばエクスプレス,Tsukuba Express,,,※,58010,37798,20215,59589,37798,21793
+平成27,2015,首都圏新都市鉄道,Metropolitan Intercity Railway Company  ,つくばエクスプレス,Tsukuba Express,秋葉原,Akihabara,,22576,15444,7133,22951,15444,7508
+平成27,2015,首都圏新都市鉄道,Metropolitan Intercity Railway Company  ,つくばエクスプレス,Tsukuba Express,新御徒町,Shin-Okachimachi,,6682,4682,2000,7231,4682,2549
+平成27,2015,首都圏新都市鉄道,Metropolitan Intercity Railway Company  ,つくばエクスプレス,Tsukuba Express,浅草,Asakusa,,3729,1455,2275,3766,1455,2312
+平成27,2015,首都圏新都市鉄道,Metropolitan Intercity Railway Company  ,つくばエクスプレス,Tsukuba Express,南千住,Minami-Senju,,1760,1020,740,2036,1020,1015
+平成27,2015,首都圏新都市鉄道,Metropolitan Intercity Railway Company  ,つくばエクスプレス,Tsukuba Express,北千住,Kita-Senju,,16152,10267,5885,16680,10267,6413
+平成27,2015,首都圏新都市鉄道,Metropolitan Intercity Railway Company  ,つくばエクスプレス,Tsukuba Express,青井,Aoi,,2244,1523,722,2161,1523,639
+平成27,2015,首都圏新都市鉄道,Metropolitan Intercity Railway Company  ,つくばエクスプレス,Tsukuba Express,六町,Rokucho,,4867,3407,1460,4764,3407,1357
+,,,,,,,,,,,,,,
+東京都統計年鑑（平成27年）TOKYO STATISTICAL YEARBOOK ( 2015 ) 4　運輸 4　TRANSPORT ,,,,,,,,,,,,,,
+4-13  私鉄の駅別乗降車人員 (平成23～27年度) 4-13　NUMBER OF PASSENGERS ON PRIVATE RAILWAY TRAINS BY STATION ( Fiscal Years 2011-2015 ),,,,,,,,,,,,,,
+同一会社内の乗り継ぎは除く。 ◎印は乗換え駅を示す。 ※印は区部にある駅 (線) を示す。,,,,,,,,,,,,,,
+Figures exclude transit for same company lines. Stations marked with ◎ indicate transit stations for same company lines. ※ refers to stations (lines) located in the ku area.,,,,,,,,,,,,,,
+資料：私鉄各社 Source: Private railway companies,,,,,,,,,,,,,,
+（単位　千人) (In thousands),,,,,,,,,,,,,,
