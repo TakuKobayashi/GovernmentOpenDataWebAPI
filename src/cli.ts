@@ -291,46 +291,39 @@ dataCommand
         if (!response?.data) {
           continue;
         }
+        let saveData: Buffer;
         if (['.csv', '.json', '.txt', '.rdf', '.xml'].includes(crawlerModel.origin_file_ext)) {
           const detectedEncoding = Encoding.detect(response.data);
-          let textData: string = '';
+          let textData: string
+          // TextDecoder の一覧 https://developer.mozilla.org/ja/docs/Web/API/Encoding_API/Encodings
           if (detectedEncoding === 'SJIS' || detectedEncoding === 'UNICODE') {
             textData = new TextDecoder('shift-jis').decode(response.data.buffer);
+          } else if (detectedEncoding === 'EUCJP') {
+            textData = new TextDecoder('euc-jp').decode(response.data.buffer);
+          } else if (detectedEncoding === 'ASCII') {
+            textData = new TextDecoder('windows-1252').decode(response.data.buffer);
+          } else if (detectedEncoding === 'UTF16BE') {
+            textData = new TextDecoder('utf-16be').decode(response.data.buffer);
+          } else if (detectedEncoding === 'UTF16LE' || detectedEncoding === 'UTF16') {
+            textData = new TextDecoder('utf-16le').decode(response.data.buffer);
           } else if (detectedEncoding === 'UTF8' || detectedEncoding === 'UTF32') {
-            textData = response.data.toString();
+            textData = response.data.toString()
           } else {
-            textData = response.data.toString();
+            textData = response.data.toString()
           }
-          // 100MB以上のファイルはGitに乗らないのでダウンロードしない
-          if (response.data.length < 99900000) {
-            saveToLocalFileFromString(willSaveFilePath, textData);
-            const stat = fs.statSync(willSaveFilePath);
-            willUpdateCrawlerObj.origin_file_size = stat.size;
-          } else {
-            willUpdateCrawlerObj.need_manual_edit = true;
-            willUpdateCrawlerObj.origin_file_size = response.data.length;
-          }
+          saveData = Buffer.from(textData, 'utf8');
           willUpdateCrawlerObj.origin_file_encoder = detectedEncoding.toString();
-        } else if (['.xlsx', '.xls'].includes(crawlerModel.origin_file_ext)) {
-          // 100MB以上のファイルはGitに乗らないのでダウンロードしない
-          if (response.data.length < 99900000) {
-            saveToLocalFileFromBuffer(willSaveFilePath, response.data);
-            const stat = fs.statSync(willSaveFilePath);
-            willUpdateCrawlerObj.origin_file_size = stat.size;
-          } else {
-            willUpdateCrawlerObj.need_manual_edit = true;
-            willUpdateCrawlerObj.origin_file_size = response.data.length;
-          }
         } else {
-          // 100MB以上のファイルはGitに乗らないのでダウンロードしない
-          if (response.data.length < 99900000) {
-            saveToLocalFileFromBuffer(willSaveFilePath, response.data);
-            const stat = fs.statSync(willSaveFilePath);
-            willUpdateCrawlerObj.origin_file_size = stat.size;
-          } else {
-            willUpdateCrawlerObj.need_manual_edit = true;
-            willUpdateCrawlerObj.origin_file_size = response.data.length;
-          }
+          saveData = response.data;
+        }
+        // 100MB以上のファイルはGitに乗らないのでダウンロードしない
+        if (response.data.length < 99900000) {
+          saveToLocalFileFromBuffer(willSaveFilePath, saveData);
+          const stat = fs.statSync(willSaveFilePath);
+          willUpdateCrawlerObj.origin_file_size = stat.size;
+        } else {
+          willUpdateCrawlerObj.need_manual_edit = true;
+          willUpdateCrawlerObj.origin_file_size = response.data.length;
         }
         willUpdateCrawlerObj.last_updated_at = new Date();
         willUpdateCrawlerObj.checksum = crypto.createHash('sha512').update(response.data.buffer.toString('hex')).digest('hex');
@@ -429,29 +422,20 @@ async function importOriginRoutine(
     );
     for (const filePath of filePathes) {
       let workbook: WorkBook | undefined;
-      if (path.extname(filePath) === '.csv') {
-        const readFileData = fs.readFileSync(filePath, 'utf8');
-        try {
+      try {
+        if (path.extname(filePath) === '.csv') {
+          const readFileData = fs.readFileSync(filePath, 'utf8');
           workbook = XLSX.read(readFileData, { type: 'string' });
-        } catch (error) {
-          console.error({
-            url: crawlerModel.origin_url,
-            filePath: filePath,
-            error: error,
-          });
-          continue;
-        }
-      } else if (['.xlsx', '.xls'].includes(path.extname(filePath))) {
-        try {
+        } else if (['.xlsx', '.xls'].includes(path.extname(filePath))) {
           workbook = XLSX.readFile(filePath);
-        } catch (error) {
-          console.error({
-            url: crawlerModel.origin_url,
-            filePath: filePath,
-            error: error,
-          });
-          continue;
         }
+      } catch (error) {
+        console.error({
+          url: crawlerModel.origin_url,
+          filePath: filePath,
+          error: error,
+        });
+        continue;
       }
       if (workbook) {
         const buildPlaceModels = buildPlacesDataFromWorkbook(workbook);
