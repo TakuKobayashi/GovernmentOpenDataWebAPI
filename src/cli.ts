@@ -217,9 +217,11 @@ dataCommand
         );
         for (const crawlerModel of checkCrawlerModels) {
           const keyphrase = await requestKeyphrase(crawlerModel.origin_title!!.normalize('NFKC'), crawlerModel.id);
+          await sleep(200);
           const wordScores: { [word: string]: number } = {};
           for (const phrase of keyphrase.result.phrases) {
             const analysis = await requestAnalysisParse(phrase.text, crawlerModel.id);
+            await sleep(200);
             for (const token of analysis.result.tokens) {
               if (token[3] !== '名詞') {
                 continue;
