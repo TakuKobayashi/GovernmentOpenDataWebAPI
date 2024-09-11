@@ -1,16 +1,24 @@
 import axios from 'axios';
 
 export async function requestGeoCoder(address: string): Promise<any> {
-  const response = await axios.get('https://map.yahooapis.jp/geocode/V1/geoCoder', {
-    params: { appid: process.env.YAHOO_API_CLIENT_ID, query: address, output: 'json' },
-  });
+  const response = await axios
+    .get('https://map.yahooapis.jp/geocode/V1/geoCoder', {
+      params: { appid: process.env.YAHOO_API_CLIENT_ID, query: address, output: 'json' },
+    })
+    .catch((error) => {
+      return Promise.reject(error);
+    });
   return response.data;
 }
 
 export async function requestReverceGeoCoder(lat: number, lon: number): Promise<any> {
-  const response = await axios.get('https://map.yahooapis.jp/geoapi/V1/reverseGeoCoder', {
-    params: { appid: process.env.YAHOO_API_CLIENT_ID, lat: lat, lon: lon, output: 'json' },
-  });
+  const response = await axios
+    .get('https://map.yahooapis.jp/geoapi/V1/reverseGeoCoder', {
+      params: { appid: process.env.YAHOO_API_CLIENT_ID, lat: lat, lon: lon, output: 'json' },
+    })
+    .catch((error) => {
+      return Promise.reject(error);
+    });
   return response.data;
 }
 

@@ -294,7 +294,7 @@ dataCommand
         let saveData: Buffer;
         if (['.csv', '.json', '.txt', '.rdf', '.xml'].includes(crawlerModel.origin_file_ext)) {
           const detectedEncoding = Encoding.detect(response.data);
-          let textData: string
+          let textData: string;
           // TextDecoder の一覧 https://developer.mozilla.org/ja/docs/Web/API/Encoding_API/Encodings
           if (detectedEncoding === 'SJIS' || detectedEncoding === 'UNICODE') {
             textData = new TextDecoder('shift-jis').decode(response.data.buffer);
@@ -307,9 +307,9 @@ dataCommand
           } else if (detectedEncoding === 'UTF16LE' || detectedEncoding === 'UTF16') {
             textData = new TextDecoder('utf-16le').decode(response.data.buffer);
           } else if (detectedEncoding === 'UTF8' || detectedEncoding === 'UTF32') {
-            textData = response.data.toString()
+            textData = response.data.toString();
           } else {
-            textData = response.data.toString()
+            textData = response.data.toString();
           }
           saveData = Buffer.from(textData, 'utf8');
           willUpdateCrawlerObj.origin_file_encoder = detectedEncoding.toString();
@@ -439,6 +439,17 @@ async function importOriginRoutine(
       }
       if (workbook) {
         const buildPlaceModels = buildPlacesDataFromWorkbook(workbook);
+        // TODO データ壊れている場合の情報の記録
+        for (const buildPlaceModel of buildPlaceModels) {
+          const logs = buildPlaceModel.getImportInvalidLogs();
+          if (logs.length > 0) {
+            console.log({
+              url: crawlerModel.origin_url,
+              filePath: filePath,
+              ...logs,
+            });
+          }
+        }
         const hashcodes = _.compact(buildPlaceModels.map((placeModel) => placeModel.hashcode));
         if (hashcodes.length <= 0) {
           continue;
@@ -455,11 +466,30 @@ async function importOriginRoutine(
         });
         const currentHashCodeSet: Set<string> = new Set(currentPlaceModels.map((currentPlaceModel) => currentPlaceModel.hashcode));
         const newPlaceModels = buildPlaceModels.filter((placeModel) => placeModel.hashcode && !currentHashCodeSet.has(placeModel.hashcode));
+        if (newPlaceModels.length <= 0) {
+          continue;
+        }
         await Promise.all(newPlaceModels.map((newPlaceModel) => newPlaceModel.setLocationInfo()));
+        const willSavePlaces = newPlaceModels.filter((newPlaceModel) => {
+          const logs = newPlaceModel.getImportInvalidLogs();
+          if (logs.length > 0) {
+            console.log(logs);
+          }
+          return logs.length <= 0;
+        });
+        if (willSavePlaces.length <= 0) {
+          continue;
+        }
+        if (newPlaceModels.length !== willSavePlaces.length) {
+          console.warn({
+            url: crawlerModel.origin_url,
+            filePath: filePath,
+          });
+        }
 
         await prismaClient.$transaction(async (tx) => {
           await tx.place.createMany({
-            data: newPlaceModels.map((newPlaceModel) => {
+            data: willSavePlaces.map((newPlaceModel) => {
               return {
                 name: newPlaceModel.name,
                 hashcode: newPlaceModel.hashcode,
@@ -476,7 +506,7 @@ async function importOriginRoutine(
             const createdPlaces = await tx.place.findMany({
               where: {
                 hashcode: {
-                  in: newPlaceModels.map((newPlaceModel) => newPlaceModel.hashcode),
+                  in: willSavePlaces.map((newPlaceModel) => newPlaceModel.hashcode),
                 },
               },
             });
