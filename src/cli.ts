@@ -216,7 +216,7 @@ dataCommand
             crawlerModel.origin_title && currentCrawlerKeywords.every((crawlerKeyword) => crawlerKeyword.crawler_id !== crawlerModel.id),
         );
         for (const crawlerModel of checkCrawlerModels) {
-          const keyphrase = await requestKeyphrase(crawlerModel.origin_title!!, crawlerModel.id);
+          const keyphrase = await requestKeyphrase(crawlerModel.origin_title!!.normalize('NFKC'), crawlerModel.id);
           const wordScores: { [word: string]: number } = {};
           for (const phrase of keyphrase.result.phrases) {
             const analysis = await requestAnalysisParse(phrase.text, crawlerModel.id);
