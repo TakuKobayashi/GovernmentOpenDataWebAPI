@@ -206,6 +206,7 @@ dataCommand
             crawler_id: {
               in: crawlerModels.map((crawlerModel) => crawlerModel.id),
             },
+            state: { in: ['STANDBY', 'DOWNLOADED'] },
           },
           select: {
             crawler_id: true,
@@ -283,6 +284,14 @@ dataCommand
                   score: wordScores[keyword.word] || 0,
                 };
               }),
+            });
+            await tx.crawler.updateMany({
+              where: {
+                id: crawlerModel.id,
+              },
+              data: {
+                state: 'KEYWORD_GENERATED',
+              },
             });
           });
         }
