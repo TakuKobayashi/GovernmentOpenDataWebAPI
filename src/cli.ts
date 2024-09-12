@@ -313,9 +313,6 @@ dataCommand
     await crawlerFindInBatches(
       {
         need_manual_edit: false,
-        origin_file_ext: {
-          in: ['.csv'],
-        },
         state: { in: ['STANDBY', 'KEYWORD_GENERATED'] },
       },
       1000,
