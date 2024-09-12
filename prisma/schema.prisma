@@ -167,6 +167,7 @@ model Keyword {
 enum CrawlerState {
   STANDBY
   DOWNLOADED
+  KEYWORD_GENERATED
   IMPORTED
   IMPORT_FAILED
 }

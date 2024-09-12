@@ -45,12 +45,37 @@ CREATE TABLE `crawlers` (
     `origin_title` VARCHAR(255) NULL,
     `checksum` VARCHAR(255) NULL,
     `need_manual_edit` BOOLEAN NOT NULL DEFAULT false,
+    `state` ENUM('STANDBY', 'DOWNLOADED', 'KEYWORD_GENERATED', 'IMPORTED', 'IMPORT_FAILED') NOT NULL DEFAULT 'STANDBY',
     `last_updated_at` DATETIME(3) NULL,
     `origin_file_encoder` VARCHAR(191) NULL,
     `origin_file_size` BIGINT NOT NULL DEFAULT 0,
 
     UNIQUE INDEX `crawlers_origin_url_key`(`origin_url`),
     INDEX `crawlers_last_updated_at_idx`(`last_updated_at`),
+    PRIMARY KEY (`id`)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+-- CreateTable
+CREATE TABLE `import_fail_logs` (
+    `id` INTEGER NOT NULL AUTO_INCREMENT,
+    `crawl_url` VARCHAR(191) NOT NULL,
+    `file_path` VARCHAR(191) NULL,
+    `to_source_type` ENUM('Place') NOT NULL,
+    `fail_logs` JSON NULL,
+
+    INDEX `import_fail_logs_crawl_url_idx`(`crawl_url`),
+    PRIMARY KEY (`id`)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+-- CreateTable
+CREATE TABLE `import_crawler_data` (
+    `id` INTEGER NOT NULL AUTO_INCREMENT,
+    `source_id` INTEGER NOT NULL,
+    `source_type` ENUM('Place') NOT NULL,
+    `crawl_url` VARCHAR(191) NOT NULL,
+    `extra_info` JSON NULL,
+
+    UNIQUE INDEX `import_crawler_data_crawl_url_source_type_source_id_key`(`crawl_url`, `source_type`, `source_id`),
     PRIMARY KEY (`id`)
 ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
