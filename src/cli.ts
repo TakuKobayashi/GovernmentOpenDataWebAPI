@@ -198,6 +198,7 @@ dataCommand
     await crawlerFindInBatches(
       {
         origin_title: { not: null },
+        state: { in: ['STANDBY', 'DOWNLOADED'] },
       },
       1000,
       async (crawlerModels) => {
@@ -206,12 +207,12 @@ dataCommand
             crawler_id: {
               in: crawlerModels.map((crawlerModel) => crawlerModel.id),
             },
-            state: { in: ['STANDBY', 'DOWNLOADED'] },
           },
           select: {
             crawler_id: true,
           },
         });
+
         const checkCrawlerModels = crawlerModels.filter(
           (crawlerModel) =>
             crawlerModel.origin_title && currentCrawlerKeywords.every((crawlerKeyword) => crawlerKeyword.crawler_id !== crawlerModel.id),
