@@ -226,7 +226,7 @@ dataCommand
             const analysis = await requestAnalysisParse(phrase.text, crawlerModel.id);
             await sleep(200);
             for (const token of analysis.result.tokens) {
-              if (token[3] !== '名詞') {
+              if (token[3] !== '名詞' || token[4] === '数詞') {
                 continue;
               }
               if (token[0]) {

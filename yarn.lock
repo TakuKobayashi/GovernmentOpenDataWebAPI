@@ -209,6 +209,13 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
+"@koozaki/romaji-conv@^2.0.30":
+  version "2.0.30"
+  resolved "https://registry.yarnpkg.com/@koozaki/romaji-conv/-/romaji-conv-2.0.30.tgz#1f9c9f516d5b3596a736f4df2e512f31c5a6cac6"
+  integrity sha512-kezXjc2vzjc8V3A6Ri9DIV5Jqs1O+dJIgqQL3d7QPy+H1tpwzp1EUH6FLfAvxgSn8MFW599rmdoiz93qifrcjw==
+  dependencies:
+    commander "^12.1.0"
+
 "@kwsites/file-exists@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@kwsites/file-exists/-/file-exists-1.1.1.tgz#ad1efcac13e1987d8dbaf235ef3be5b0d96faa99"
@@ -836,7 +843,7 @@ commander@^11.0.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-11.1.0.tgz#62fdce76006a68e5c1ab3314dc92e800eb83d906"
   integrity sha512-yPVavfyCcRhmorC7rWlkHn15b4wDVgVmBA7kV4QVBsF7kv/9TKJAbAXVTxvTnwP8HHKjRCJDClKbciiYS7p0DQ==
 
-commander@^12.0.0:
+commander@^12.0.0, commander@^12.1.0:
   version "12.1.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-12.1.0.tgz#01423b36f501259fdaac4d0e4d60c96c991585d3"
   integrity sha512-Vw8qHK3bZM9y/P10u3Vib8o/DdkvA2OtPtZvD871QKjy74Wj1WSKFILMPRPSdUSx5RFK1arlJzEtA4PkFgnbuA==
