@@ -10,7 +10,7 @@ import _ from 'lodash';
 import Encoding from 'encoding-japanese';
 import nodeHtmlParser from 'node-html-parser';
 import romajiConv from '@koozaki/romaji-conv';
-import { buildPlacesDataFromWorkbook } from './models/place';
+import { buildPlacesDataFromWorkbook, PlaceModel } from './models/place';
 import { importGsiMuni } from './models/gsimuni';
 import { prismaClient } from './utils/prisma-common';
 import { saveToLocalFileFromString, saveToLocalFileFromBuffer, loadSpreadSheetRowObject } from './utils/util';
@@ -18,6 +18,7 @@ import { exportToInsertSQL } from './utils/data-exporters';
 import { requestKeyphrase, requestAnalysisParse } from './utils/yahoo-api';
 import { sleep } from './utils/util';
 import { config } from 'dotenv';
+import { CrawlerState, PrismaClient } from '@prisma/client';
 config();
 
 program.storeOptionsAsProperties(false);
@@ -354,11 +355,7 @@ dataCommand
             origin_file_size: 0,
           };
           const willSaveFilePath: string = path.join(
-            ...getSaveOriginFilePathParts(
-              crawlerModel,
-              crawlerIdcrawlerKeywords[crawlerModel.id],
-              crawlerIdCrawlerCategory[crawlerModel.id],
-            ),
+            ...getSaveOriginFilePathParts(crawlerModel, undefined, crawlerIdCrawlerCategory[crawlerModel.id]),
           );
           const response = await axios.get(crawlerModel.origin_url, { responseType: 'arraybuffer' }).catch(async (error) => {
             willUpdateCrawlerObj.need_manual_edit = true;
@@ -781,29 +778,61 @@ async function importOriginRoutine(
         } else if (['.xlsx', '.xls'].includes(path.extname(filePath))) {
           workbook = XLSX.readFile(filePath);
         }
-      } catch (error) {
-        console.error({
-          url: crawlerModel.origin_url,
-          filePath: filePath,
-          error: error,
-        });
+      } catch (error: any) {
+        await prismaClient.$transaction([
+          prismaClient.importFailLog.create({
+            data: {
+              crawl_url: crawlerModel.origin_url,
+              file_path: filePath,
+              to_source_type: 'Place',
+              fail_logs: {
+                message: 'read file error',
+                error: error,
+              },
+            },
+          }),
+          prismaClient.crawler.updateMany({
+            where: {
+              id: crawlerModel.id,
+            },
+            data: {
+              state: 'IMPORT_FAILED',
+            },
+          }),
+        ]);
         continue;
       }
       if (workbook) {
         const buildPlaceModels = buildPlacesDataFromWorkbook(workbook);
-        // TODO データ壊れている場合の情報の記録
+        const failLogs: any[][] = [];
         for (const buildPlaceModel of buildPlaceModels) {
-          const logs = buildPlaceModel.getImportInvalidLogs();
-          if (logs.length > 0) {
-            console.log({
-              url: crawlerModel.origin_url,
-              filePath: filePath,
-              ...logs,
-            });
-          }
+          failLogs.push(buildPlaceModel.getImportInvalidLogs());
+        }
+        if (failLogs.length <= 0) {
+          // 問題のないデータもあるのでここでは記録するだけにとどめておく
+          await prismaClient.$transaction([
+            prismaClient.crawler.updateMany({
+              where: {
+                id: crawlerModel.id,
+              },
+              data: {
+                need_manual_edit: true,
+              },
+            }),
+            prismaClient.importFailLog.create({
+              data: {
+                crawl_url: crawlerModel.origin_url,
+                file_path: filePath,
+                to_source_type: 'Place',
+                fail_logs: failLogs.flat(),
+              },
+            }),
+          ]);
+          failLogs.splice(0);
         }
         const hashcodes = _.compact(buildPlaceModels.map((placeModel) => placeModel.hashcode));
         if (hashcodes.length <= 0) {
+          await updateCrawlerState(prismaClient, crawlerModel.id, 'IMPORT_FAILED');
           continue;
         }
         const currentPlaceModels = await prismaClient.place.findMany({
@@ -819,24 +848,43 @@ async function importOriginRoutine(
         const currentHashCodeSet: Set<string> = new Set(currentPlaceModels.map((currentPlaceModel) => currentPlaceModel.hashcode));
         const newPlaceModels = buildPlaceModels.filter((placeModel) => placeModel.hashcode && !currentHashCodeSet.has(placeModel.hashcode));
         if (newPlaceModels.length <= 0) {
+          await updateCrawlerState(prismaClient, crawlerModel.id, 'IMPORT_FAILED');
           continue;
         }
         await Promise.all(newPlaceModels.map((newPlaceModel) => newPlaceModel.setLocationInfo()));
-        const willSavePlaces = newPlaceModels.filter((newPlaceModel) => {
+        const willSavePlaces: PlaceModel[] = [];
+        for (const newPlaceModel of newPlaceModels) {
           const logs = newPlaceModel.getImportInvalidLogs();
           if (logs.length > 0) {
-            console.log(logs);
+            failLogs.push(logs);
+          } else {
+            willSavePlaces.push(newPlaceModel);
           }
-          return logs.length <= 0;
-        });
-        if (willSavePlaces.length <= 0) {
-          continue;
         }
-        if (newPlaceModels.length !== willSavePlaces.length) {
-          console.warn({
-            url: crawlerModel.origin_url,
-            filePath: filePath,
-          });
+        if (failLogs.length <= 0) {
+          // 問題のないデータもあるのでここでは記録するだけにとどめておく
+          await prismaClient.$transaction([
+            prismaClient.crawler.updateMany({
+              where: {
+                id: crawlerModel.id,
+              },
+              data: {
+                need_manual_edit: true,
+              },
+            }),
+            prismaClient.importFailLog.create({
+              data: {
+                crawl_url: crawlerModel.origin_url,
+                file_path: filePath,
+                to_source_type: 'Place',
+                fail_logs: failLogs.flat(),
+              },
+            }),
+          ]);
+        }
+        if (willSavePlaces.length <= 0) {
+          await updateCrawlerState(prismaClient, crawlerModel.id, 'IMPORT_FAILED');
+          continue;
         }
 
         await prismaClient.$transaction(async (tx) => {
@@ -854,14 +902,35 @@ async function importOriginRoutine(
               };
             }),
           });
-          if (crawlerCategory?.category_id) {
-            const createdPlaces = await tx.place.findMany({
-              where: {
-                hashcode: {
-                  in: willSavePlaces.map((newPlaceModel) => newPlaceModel.hashcode),
-                },
+          const createdPlaces = await tx.place.findMany({
+            where: {
+              hashcode: {
+                in: willSavePlaces.map((newPlaceModel) => newPlaceModel.hashcode),
               },
-            });
+            },
+          });
+          const currentCrawlerData = await tx.importCrawlerData.findMany({
+            where: {
+              crawl_url: crawlerModel.origin_url,
+              source_id: {
+                in: createdPlaces.map((place) => place.id),
+              },
+              source_type: 'Place',
+            },
+          });
+          const currentSourceIdSet = new Set(currentCrawlerData.map((currentCrawler) => currentCrawler.source_id));
+          await tx.importCrawlerData.createMany({
+            data: createdPlaces
+              .filter((place) => !currentSourceIdSet.has(place.id))
+              .map((place) => {
+                return {
+                  crawl_url: crawlerModel.origin_url,
+                  source_id: place.id,
+                  source_type: 'Place',
+                };
+              }),
+          });
+          if (crawlerCategory?.category_id) {
             const currentPlaceCategories = await tx.dataCategory.findMany({
               where: {
                 source_type: 'Place',
@@ -896,10 +965,22 @@ async function importOriginRoutine(
               data: willCreateDataCategories,
             });
           }
+          await updateCrawlerState(tx, crawlerModel.id, 'IMPORTED');
         });
       }
     }
   }
+}
+
+async function updateCrawlerState(pc: any, crawlerId: number, toState: CrawlerState): Promise<void> {
+  await pc.crawler.updateMany({
+    where: {
+      id: crawlerId,
+    },
+    data: {
+      state: toState,
+    },
+  });
 }
 
 async function crawlRootUrlFromDataset(
