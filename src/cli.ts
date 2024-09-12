@@ -375,8 +375,8 @@ dataCommand
           let saveData: Buffer;
           if (['.csv', '.json', '.txt', '.rdf', '.xml'].includes(crawlerModel.origin_file_ext)) {
             const detectedEncoding = Encoding.detect(response.data);
-            let textData: string
-            if(detectedEncoding === 'UNICODE') {
+            let textData: string;
+            if (detectedEncoding === 'UNICODE') {
               textData = Encoding.convert(response.data, {
                 to: 'UTF8',
                 from: 'SJIS',
@@ -1054,7 +1054,7 @@ function getSaveOriginFilePathParts(
   crawlerModel: {
     origin_url: string;
   },
-  keywords: { score: number, keyword: { appear_count: number; word: string } }[] = [],
+  keywords: { score: number; keyword: { appear_count: number; word: string } }[] = [],
   crawlerCategory: { category: { title: string } } | undefined = undefined,
 ): string[] {
   const downloadUrl = new URL(crawlerModel.origin_url);
