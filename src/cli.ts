@@ -230,8 +230,7 @@ dataCommand
                 continue;
               }
               if (token[0]) {
-                const wordConv = romajiConv(token[0]);
-                wordScores[wordConv.toHiragana().normalize('NFKC')] = phrase.score;
+                wordScores[token[0]] = phrase.score;
               }
             }
           }
@@ -255,7 +254,12 @@ dataCommand
                 },
               },
             });
-            const newWords = Object.keys(wordScores).filter((word) => currentKeywords.every((keyword) => keyword.word !== word));
+            const newWords = Object.keys(wordScores).filter((word) =>
+              currentKeywords.every((keyword) => {
+                const wordConv = romajiConv(word);
+                return keyword.word !== wordConv.toHiragana().normalize('NFKC') && keyword.word !== wordConv.toKatakana().normalize('NFKC');
+              }),
+            );
             await tx.keyword.createMany({
               data: newWords.map((word) => {
                 return { word: word, appear_count: 1 };
