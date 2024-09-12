@@ -378,23 +378,10 @@ dataCommand
           let saveData: Buffer;
           if (['.csv', '.json', '.txt', '.rdf', '.xml'].includes(crawlerModel.origin_file_ext)) {
             const detectedEncoding = Encoding.detect(response.data);
-            let textData: string;
-            // TextDecoder の一覧 https://developer.mozilla.org/ja/docs/Web/API/Encoding_API/Encodings
-            if (detectedEncoding === 'SJIS' || detectedEncoding === 'UNICODE') {
-              textData = new TextDecoder('shift-jis').decode(response.data.buffer);
-            } else if (detectedEncoding === 'EUCJP') {
-              textData = new TextDecoder('euc-jp').decode(response.data.buffer);
-            } else if (detectedEncoding === 'ASCII') {
-              textData = new TextDecoder('windows-1252').decode(response.data.buffer);
-            } else if (detectedEncoding === 'UTF16BE') {
-              textData = new TextDecoder('utf-16be').decode(response.data.buffer);
-            } else if (detectedEncoding === 'UTF16LE' || detectedEncoding === 'UTF16') {
-              textData = new TextDecoder('utf-16le').decode(response.data.buffer);
-            } else if (detectedEncoding === 'UTF8' || detectedEncoding === 'UTF32') {
-              textData = response.data.toString();
-            } else {
-              textData = response.data.toString();
-            }
+            const textData: string = Encoding.convert(response.data, {
+              to: 'UTF8',
+              from: detectedEncoding || 'UTF8',
+            });
             saveData = Buffer.from(textData, 'utf8');
             willUpdateCrawlerObj.origin_file_encoder = detectedEncoding.toString();
           } else {
