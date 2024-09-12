@@ -375,10 +375,18 @@ dataCommand
           let saveData: Buffer;
           if (['.csv', '.json', '.txt', '.rdf', '.xml'].includes(crawlerModel.origin_file_ext)) {
             const detectedEncoding = Encoding.detect(response.data);
-            const textData: string = Encoding.convert(response.data, {
-              to: 'UTF8',
-              from: detectedEncoding || 'UTF8',
-            });
+            let textData: string
+            if(detectedEncoding === 'UNICODE') {
+              textData = Encoding.convert(response.data, {
+                to: 'UTF8',
+                from: 'SJIS',
+              });
+            } else {
+              textData = Encoding.convert(response.data, {
+                to: 'UTF8',
+                from: detectedEncoding || 'UTF8',
+              });
+            }
             saveData = Buffer.from(textData, 'utf8');
             willUpdateCrawlerObj.origin_file_encoder = detectedEncoding.toString();
           } else {
@@ -1046,12 +1054,12 @@ function getSaveOriginFilePathParts(
   crawlerModel: {
     origin_url: string;
   },
-  keywords: { keyword: { appear_count: number; word: string } }[] = [],
+  keywords: { score: number, keyword: { appear_count: number; word: string } }[] = [],
   crawlerCategory: { category: { title: string } } | undefined = undefined,
 ): string[] {
   const downloadUrl = new URL(crawlerModel.origin_url);
   const crawlerKeywordModel = _.maxBy(keywords, (cKeyword) => {
-    return cKeyword.keyword.appear_count;
+    return cKeyword.keyword.appear_count * cKeyword.score;
   });
   const dirTitle = crawlerKeywordModel?.keyword?.word || crawlerCategory?.category?.title || 'unknown';
   return ['resources', 'origin-data', dirTitle, downloadUrl.hostname, ...downloadUrl.pathname.split('/')];
