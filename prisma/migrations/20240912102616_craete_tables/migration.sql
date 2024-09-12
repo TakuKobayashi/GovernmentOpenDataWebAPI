@@ -6,7 +6,7 @@ CREATE TABLE `categories` (
 
     UNIQUE INDEX `categories_title_key`(`title`),
     PRIMARY KEY (`id`)
-) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 -- CreateTable
 CREATE TABLE `places` (
@@ -23,7 +23,7 @@ CREATE TABLE `places` (
     UNIQUE INDEX `places_hashcode_key`(`hashcode`),
     INDEX `places_geohash_idx`(`geohash`),
     PRIMARY KEY (`id`)
-) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 -- CreateTable
 CREATE TABLE `data_categories` (
@@ -35,7 +35,7 @@ CREATE TABLE `data_categories` (
 
     UNIQUE INDEX `data_categories_source_type_source_id_category_id_key`(`source_type`, `source_id`, `category_id`),
     PRIMARY KEY (`id`)
-) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 -- CreateTable
 CREATE TABLE `crawlers` (
@@ -53,7 +53,7 @@ CREATE TABLE `crawlers` (
     UNIQUE INDEX `crawlers_origin_url_key`(`origin_url`),
     INDEX `crawlers_last_updated_at_idx`(`last_updated_at`),
     PRIMARY KEY (`id`)
-) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 -- CreateTable
 CREATE TABLE `import_fail_logs` (
@@ -65,7 +65,7 @@ CREATE TABLE `import_fail_logs` (
 
     INDEX `import_fail_logs_crawl_url_idx`(`crawl_url`),
     PRIMARY KEY (`id`)
-) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 -- CreateTable
 CREATE TABLE `import_crawler_data` (
@@ -77,7 +77,7 @@ CREATE TABLE `import_crawler_data` (
 
     UNIQUE INDEX `import_crawler_data_crawl_url_source_type_source_id_key`(`crawl_url`, `source_type`, `source_id`),
     PRIMARY KEY (`id`)
-) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 -- CreateTable
 CREATE TABLE `gsimunis` (
@@ -89,7 +89,7 @@ CREATE TABLE `gsimunis` (
 
     UNIQUE INDEX `gsimunis_municd_key`(`municd`),
     PRIMARY KEY (`id`)
-) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 -- CreateTable
 CREATE TABLE `crawler_categories` (
@@ -100,7 +100,7 @@ CREATE TABLE `crawler_categories` (
 
     UNIQUE INDEX `crawler_categories_crawler_type_crawler_id_category_id_key`(`crawler_type`, `crawler_id`, `category_id`),
     PRIMARY KEY (`id`)
-) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 -- CreateTable
 CREATE TABLE `crawler_roots` (
@@ -110,7 +110,7 @@ CREATE TABLE `crawler_roots` (
 
     UNIQUE INDEX `crawler_roots_url_key`(`url`),
     PRIMARY KEY (`id`)
-) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 -- CreateTable
 CREATE TABLE `crawler_root_relations` (
@@ -122,7 +122,7 @@ CREATE TABLE `crawler_root_relations` (
     INDEX `crawler_root_relations_to_crawler_type_to_url_idx`(`to_crawler_type`, `to_url`),
     UNIQUE INDEX `crawler_root_relations_from_crawler_root_id_to_crawler_type__key`(`from_crawler_root_id`, `to_crawler_type`, `to_url`),
     PRIMARY KEY (`id`)
-) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 -- CreateTable
 CREATE TABLE `crawler_keywords` (
@@ -134,7 +134,7 @@ CREATE TABLE `crawler_keywords` (
     INDEX `crawler_keywords_crawler_id_idx`(`crawler_id`),
     UNIQUE INDEX `crawler_keywords_keyword_id_crawler_id_key`(`keyword_id`, `crawler_id`),
     PRIMARY KEY (`id`)
-) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 -- CreateTable
 CREATE TABLE `keywords` (
@@ -144,4 +144,4 @@ CREATE TABLE `keywords` (
 
     UNIQUE INDEX `keywords_word_key`(`word`),
     PRIMARY KEY (`id`)
-) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
