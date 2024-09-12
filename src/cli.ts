@@ -9,6 +9,7 @@ import crypto from 'crypto';
 import _ from 'lodash';
 import Encoding from 'encoding-japanese';
 import nodeHtmlParser from 'node-html-parser';
+import romajiConv from '@koozaki/romaji-conv';
 import { buildPlacesDataFromWorkbook } from './models/place';
 import { importGsiMuni } from './models/gsimuni';
 import { prismaClient } from './utils/prisma-common';
@@ -229,7 +230,8 @@ dataCommand
                 continue;
               }
               if (token[0]) {
-                wordScores[token[0]] = phrase.score;
+                const wordConv = romajiConv(token[0]);
+                wordScores[wordConv.toHiragana().normalize('NFKC')] = phrase.score;
               }
             }
           }
@@ -310,6 +312,7 @@ dataCommand
         origin_file_ext: {
           in: ['.csv'],
         },
+        state: { in: ['STANDBY', 'KEYWORD_GENERATED'] },
       },
       1000,
       async (crawlerModels) => {
