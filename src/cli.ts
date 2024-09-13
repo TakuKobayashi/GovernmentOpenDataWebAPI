@@ -557,6 +557,32 @@ program
         }
       }
     }
+
+    const originXlsFilePathes = fg.sync(['resources', 'origin-data', '**', '*.xls'].join('/'))
+    const originXlsxFilePathes = fg.sync(['resources', 'origin-data', '**', '*.xlsx'].join('/'))
+    const originCsvFilePathes = fg.sync(['resources', 'origin-data', '**', '*.csv'].join('/'))
+    for(const dataFilePath of [...originXlsFilePathes, ...originXlsxFilePathes,...originCsvFilePathes]){
+      let workbook
+      try {
+        if (path.extname(dataFilePath) === '.csv') {
+          const readFileData = fs.readFileSync(dataFilePath, 'utf8');
+          workbook = XLSX.read(readFileData, { type: 'string' });
+        } else if (['.xlsx', '.xls'].includes(path.extname(dataFilePath))) {
+          workbook = XLSX.readFile(dataFilePath);
+        }
+      } catch (error: any) {
+        continue;
+      }
+
+      const urlFilePathParts = dataFilePath.split('/');
+      urlFilePathParts.splice(0, 3);
+      const sheetNames = Object.keys(workbook.Sheets);
+      for (const sheetName of sheetNames) {
+        const themeRows: any[] = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName]);
+        const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, 'origin', ...urlFilePathParts, sheetName, `${sheetName}.json`);
+        saveToLocalFileFromString(willSaveFilePath, JSON.stringify(themeRows));
+      }
+    }
   });
 
 const crawlCommand = new Command('crawl');
