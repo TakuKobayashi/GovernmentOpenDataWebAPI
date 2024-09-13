@@ -1,0 +1,2951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:bp="http://www.city.shinagawa.tokyo.jp//property/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/94">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7187181</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7187181</bp:経度>
+    <bp:施設名称 xml:lang="ja">宮前小学校</bp:施設名称>
+    <rdfs:label xml:lang="ja">宮前小学校</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6121020</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区戸越4-5-10</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区戸越4-5-10</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6121020</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/89">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7131309</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7131309</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6149950</bp:緯度>
+    <bp:施設名称 xml:lang="ja">京陽小学校</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区平塚2-19-20</bp:所在地>
+    <rdfs:label xml:lang="ja">京陽小学校</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6149950</geo:lat>
+    <bp:備考 xml:lang="ja">品川区平塚2-19-20</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/217">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7073356</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6037659</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6037659</geo:lat>
+    <rdfs:label xml:lang="ja">グローバルキッズ荏原町</rdfs:label>
+    <bp:備考 xml:lang="ja">中延5-2-1
+電話:3788-0404
+
+最寄り駅
+東急大井町線荏原町駅</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区中延5-2-1</bp:所在地>
+    <bp:施設名称 xml:lang="ja">グローバルキッズ荏原町</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7073356</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/55">
+    <bp:所在地 xml:lang="ja">東京都品川区二葉1-3-24二葉幼稚園</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6062910</geo:lat>
+    <bp:施設名称 xml:lang="ja">二葉つぼみ保育園</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6062910</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7255458</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7255458</bp:経度>
+    <rdfs:label xml:lang="ja">二葉つぼみ保育園</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区二葉1-3-40
+電話:3785-3423
+併設:二葉幼稚園
+(あわせて二葉すこやか園)最寄り駅:東急大井町線 下神明駅</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/64">
+    <bp:施設名称 xml:lang="ja">ぷりすくーる西五反田</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6265987</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7167903</geo:long>
+    <bp:備考 xml:lang="ja">西五反田3-9-9
+電話:5759-8081
+最寄り駅:東急バス 大崎郵便局バス停</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田3-9-9</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7167903</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6265987</bp:緯度>
+    <rdfs:label xml:lang="ja">ぷりすくーる西五反田</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/34">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7099883</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6055339</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6055339</geo:lat>
+    <bp:備考 xml:lang="ja">品川区中延4-14-19 
+電話:3783-8744
+併設:源氏前図書館
+最寄り駅:東急大井町線 荏原町駅</bp:備考>
+    <rdfs:label xml:lang="ja">源氏前保育園</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区中延4-14-19</bp:所在地>
+    <bp:施設名称 xml:lang="ja">源氏前保育園</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7099883</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/146">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6056689</bp:緯度>
+    <bp:施設名称 xml:lang="ja">池見東京医療専門学校</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区東大井4-12-10</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7389973</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7389973</geo:long>
+    <rdfs:label xml:lang="ja">池見東京医療専門学校</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6056689</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井4-12-10</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/112">
+    <rdfs:label xml:lang="ja">荏原第五中学校</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台5-11-13</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6033054</geo:lat>
+    <bp:備考 xml:lang="ja">品川区旗の台5-11-13</bp:備考>
+    <bp:施設名称 xml:lang="ja">荏原第五中学校</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6033054</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7019616</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7019616</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/140">
+    <rdfs:label xml:lang="ja">第一日野幼稚園・西五反田第二保育園</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6223713</bp:緯度>
+    <bp:施設名称 xml:lang="ja">第一日野幼稚園・西五反田第二保育園</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7164903</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7164903</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田6-6-6</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区西五反田6-5-6 　
+
+併設
+第一日野小学校
+西五反田第二保育園</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6223713</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/162">
+    <rdfs:label xml:lang="ja">大崎高等学校</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6097103</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7211044</geo:long>
+    <bp:施設名称 xml:lang="ja">大崎高等学校</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7211044</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6097103</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区豊町2-1-7</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区豊町2-1-7</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/203">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6197237</geo:lat>
+    <rdfs:label xml:lang="ja">小学館アカデミーむさしこやま</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7032985</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6197237</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区小山3-27-5</bp:所在地>
+    <bp:施設名称 xml:lang="ja">小学館アカデミーむさしこやま</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7032985</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/184">
+    <bp:所在地 xml:lang="ja">東京都品川区東品川3丁目24-8</bp:所在地>
+    <bp:施設名称 xml:lang="ja">八潮幼稚園</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区東品川3丁目24-8</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6123249</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7458315</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7458315</geo:long>
+    <rdfs:label xml:lang="ja">八潮幼稚園</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6123249</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/125">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6089285</bp:緯度>
+    <bp:施設名称 xml:lang="ja">青稜高等学校</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7281921</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区二葉1-6-6</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6089285</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7281921</geo:long>
+    <bp:備考 xml:lang="ja">品川区二葉1-6-6</bp:備考>
+    <rdfs:label xml:lang="ja">青稜高等学校</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/141">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7437159</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6213485</geo:lat>
+    <rdfs:label xml:lang="ja">台場幼稚園・台場保育園</rdfs:label>
+    <bp:施設名称 xml:lang="ja">台場幼稚園・台場保育園</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区東品川1-8-30 
+
+併設
+台場保育園・台場幼稚園</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6213485</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川1-8-30</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7437159</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/198">
+    <bp:備考 xml:lang="ja">西五反田2-10-8ドルミ西五反田ドゥメゾン211
+電話:5740-6971
+
+最寄り駅
+JR線五反田駅</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田2-10-8</bp:所在地>
+    <bp:施設名称 xml:lang="ja">こっこる</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7208405</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6270479</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7208405</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6270479</bp:緯度>
+    <rdfs:label xml:lang="ja">こっこる</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/139">
+    <bp:備考 xml:lang="ja">品川区西大井5-22-8
+
+併設
+伊藤小学校</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5980921</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5980921</geo:lat>
+    <bp:施設名称 xml:lang="ja">伊藤幼稚園</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7169673</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7169673</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井5-22-8</bp:所在地>
+    <rdfs:label xml:lang="ja">伊藤幼稚園</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/84">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6044620</geo:lat>
+    <rdfs:label xml:lang="ja">立会小学校</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区東大井4-15-9</bp:備考>
+    <bp:施設名称 xml:lang="ja">立会小学校</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7398886</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6044620</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井4-15-9</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7398886</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/134">
+    <rdfs:label xml:lang="ja">昭和大学</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台1-5-8</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7035225</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7035225</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6085581</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6085581</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区旗の台1-5-8</bp:備考>
+    <bp:施設名称 xml:lang="ja">昭和大学</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/63">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6115361</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7227398</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6115361</geo:lat>
+    <bp:施設名称 xml:lang="ja">ゆたか保育園</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区豊町1-18-15</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区豊町1-18-15
+電話:3786-0738
+最寄り駅:東急大井町線 戸越公園駅</bp:備考>
+    <rdfs:label xml:lang="ja">ゆたか保育園</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7227398</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/1">
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+区内には25の児童センターがあり、地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区東品川1-34-9
+電話:3472-5806 
+
+併設:東品川保育園</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6191079</bp:緯度>
+    <bp:施設名称 xml:lang="ja">東品川児童センター</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7459430</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7459430</bp:経度>
+    <rdfs:label xml:lang="ja">東品川児童センター</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川1-34-9</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6191079</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/61">
+    <rdfs:label xml:lang="ja">八潮南保育園</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7520556</geo:long>
+    <bp:施設名称 xml:lang="ja">八潮南保育園</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-8-41</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5966055</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7520556</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5966055</geo:lat>
+    <bp:備考 xml:lang="ja">品川区八潮5-8-41
+電話:3799-2424
+最寄り駅:都営バス 八潮南小前バス停</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/29">
+    <bp:所在地 xml:lang="ja">東京都品川区荏原4-16-11</bp:所在地>
+    <rdfs:label xml:lang="ja">荏原西保育園</rdfs:label>
+    <bp:施設名称 xml:lang="ja">荏原西保育園</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区荏原4-16-11 
+電話:3783-6361
+併設:荏原西区民集会所
+最寄り駅:東急目黒線 武蔵小山駅</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7061718</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7061718</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6139290</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6139290</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/190">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6225179</geo:lat>
+    <rdfs:label xml:lang="ja">教育センター</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6225179</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田6-5-1</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7166197</bp:経度>
+    <bp:施設名称 xml:lang="ja">教育センター</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7166197</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/119">
+    <bp:所在地 xml:lang="ja">東京都品川区二葉1-6-6</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区二葉1-6-6</bp:備考>
+    <bp:施設名称 xml:lang="ja">青稜中学校</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7280635</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6088748</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6088748</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7280635</geo:long>
+    <rdfs:label xml:lang="ja">青稜中学校</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/156">
+    <bp:備考 xml:lang="ja">品川区西五反田5-1-10</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6259574</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田5-1-10</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6259574</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7152128</geo:long>
+    <bp:施設名称 xml:lang="ja">東京歯科技工専門学校</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7152128</bp:経度>
+    <rdfs:label xml:lang="ja">東京歯科技工専門学校</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/71">
+    <rdfs:label xml:lang="ja">緑の家保育園</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区大井7-4-18</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7293325</geo:long>
+    <bp:施設名称 xml:lang="ja">緑の家保育園</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5962897</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5962897</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7293325</bp:経度>
+    <bp:備考 xml:lang="ja">品川区大井7-4-18 
+電話:3776-4073
+最寄り:池上行バス 鹿島神社バス停</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/69">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6097062</bp:緯度>
+    <rdfs:label xml:lang="ja">日本音楽学校保育園</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6097062</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区豊町2-16-12</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7253813</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7253813</geo:long>
+    <bp:施設名称 xml:lang="ja">日本音楽学校保育園</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区豊町2-16-12
+電話:5702-0034
+最寄り:東急大井町線 戸越公園駅</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/108">
+    <bp:施設名称 xml:lang="ja">伊藤学園</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区大井5-1-37
+電話　3771-3374
+
+小中一貫校「伊藤学園」 
+原小学校と伊藤中学校併設</bp:備考>
+    <rdfs:label xml:lang="ja">伊藤学園</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6000568</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7262013</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区大井5-1-37</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6000568</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7262013</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/123">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7016000</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7016000</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台6-22-21</bp:所在地>
+    <rdfs:label xml:lang="ja">香蘭女学校</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6069657</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6069657</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区旗の台6-22-21</bp:備考>
+    <bp:施設名称 xml:lang="ja">香蘭女学校</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/86">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7170305</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5986710</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井5-6-8</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5986710</geo:lat>
+    <bp:備考 xml:lang="ja">品川区西大井5-6-8 
+
+伊藤幼稚園併設</bp:備考>
+    <rdfs:label xml:lang="ja">伊藤小学校</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7170305</geo:long>
+    <bp:施設名称 xml:lang="ja">伊藤小学校</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/174">
+    <bp:施設名称 xml:lang="ja">亀田幼稚園</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7102707</bp:経度>
+    <bp:備考 xml:lang="ja">品川区中延6丁目1-3</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区中延6丁目1-3</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6040057</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6040057</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7102707</geo:long>
+    <rdfs:label xml:lang="ja">亀田幼稚園</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/124">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7393826</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6208888</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6208888</geo:lat>
+    <bp:施設名称 xml:lang="ja">品川女子学院高等部</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7393826</bp:経度>
+    <rdfs:label xml:lang="ja">品川女子学院高等部</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区北品川3-3-12</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川3-3-12</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/155">
+    <bp:備考 xml:lang="ja">品川区南品川3-7-12</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7448059</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6069344</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7448059</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6069344</bp:緯度>
+    <bp:施設名称 xml:lang="ja">東京工科専門学校品川校</bp:施設名称>
+    <rdfs:label xml:lang="ja">東京工科専門学校品川校</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区南品川3-7-12</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/96">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6100280</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台1-6-1</bp:所在地>
+    <bp:施設名称 xml:lang="ja">第二延山小学校</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7034064</bp:経度>
+    <bp:備考 xml:lang="ja">品川区旗の台1-6-1</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6100280</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7034064</geo:long>
+    <rdfs:label xml:lang="ja">第二延山小学校</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/200">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7214889</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7214889</bp:経度>
+    <bp:施設名称 xml:lang="ja">しながわがくどうえん</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区戸越1-21-14</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6151784</geo:lat>
+    <bp:備考 xml:lang="ja">戸越1-21-14
+電話:3781-4871
+
+最寄り駅
+東急池上線戸越銀座駅</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6151784</bp:緯度>
+    <rdfs:label xml:lang="ja">しながわがくどうえん</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/57">
+    <bp:所在地 xml:lang="ja">東京都品川区西品川1-9-18</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7297103</geo:long>
+    <bp:施設名称 xml:lang="ja">三ツ木保育園</bp:施設名称>
+    <rdfs:label xml:lang="ja">三ツ木保育園</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7297103</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6131303</geo:lat>
+    <bp:備考 xml:lang="ja">品川区西品川1-9-18
+電話:3491-8593
+最寄り駅:JR山手線・りんかい線 大崎駅</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6131303</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/83">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7300265</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区大井3-7-19</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6030627</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7300265</bp:経度>
+    <rdfs:label xml:lang="ja">山中小学校</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6030627</bp:緯度>
+    <bp:施設名称 xml:lang="ja">山中小学校</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区大井3-7-19</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/214">
+    <bp:備考 xml:lang="ja">南大井6-22-7
+電話:5767-9700
+
+最寄り駅
+京浜東北線大森駅</bp:備考>
+    <rdfs:label xml:lang="ja">アスク南大井</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井6-22-7</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7321784</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5891868</bp:緯度>
+    <bp:施設名称 xml:lang="ja">アスク南大井</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5891868</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7321784</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/41">
+    <bp:施設名称 xml:lang="ja">中原保育園</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6221109</geo:lat>
+    <bp:備考 xml:lang="ja">品川区小山1-4-1
+電話:3492-5188
+併設:中原児童センター
+最寄り駅:東急目黒線 不動前駅</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7126127</bp:経度>
+    <rdfs:label xml:lang="ja">中原保育園</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区小山1-4-1</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7126127</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6221109</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/39">
+    <bp:備考 xml:lang="ja">品川区南大井6-2-15
+電話:3761-0321
+最寄り駅:JR京浜東北線 大森駅</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5928361</geo:lat>
+    <bp:施設名称 xml:lang="ja">水神保育園</bp:施設名称>
+    <rdfs:label xml:lang="ja">水神保育園</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7329006</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井6-2-15</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5928361</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7329006</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/121">
+    <bp:所在地 xml:lang="ja">東京都品川区西大井1-6-13</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7267649</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7267649</bp:経度>
+    <bp:備考 xml:lang="ja">品川区西大井1-6-13</bp:備考>
+    <bp:施設名称 xml:lang="ja">小野学園女子</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6021746</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6021746</geo:lat>
+    <rdfs:label xml:lang="ja">小野学園女子</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/204">
+    <rdfs:label xml:lang="ja">たんぽぽ保育所東大井園</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井2-12-18</bp:所在地>
+    <bp:備考 xml:lang="ja">東大井2-12-19Mkビル2階
+電話:3765-2511
+
+最寄り駅
+京浜急行線鮫洲駅</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7400291</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7400291</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6021512</geo:lat>
+    <bp:施設名称 xml:lang="ja">たんぽぽ保育所東大井園</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6021512</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/229">
+    <rdfs:label xml:lang="ja">ココファン・ナーサリー大崎</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7265176</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6203247</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7265176</bp:経度>
+    <bp:備考 xml:lang="ja">大崎3-6-32
+電話:6431-1861
+
+最寄り駅
+JR線大崎駅</bp:備考>
+    <bp:施設名称 xml:lang="ja">ココファン・ナーサリー大崎</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6203247</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎3-6-31</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/130">
+    <rdfs:label xml:lang="ja">攻玉社工科短期大学</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7137121</geo:long>
+    <bp:備考 xml:lang="ja">品川区西五反田5-14-2</bp:備考>
+    <bp:施設名称 xml:lang="ja">攻玉社工科短期大学</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6243554</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6243554</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7137121</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田5-14-2</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/148">
+    <rdfs:label xml:lang="ja">グリーン外語専門学校</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区西五反田2-24-11</bp:備考>
+    <bp:施設名称 xml:lang="ja">グリーン外語専門学校</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6259245</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7192728</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7192728</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田2-24-11</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6259245</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/150">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7097994</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6011815</geo:lat>
+    <rdfs:label xml:lang="ja">品川ファッションビジネス専門学校</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区中延5-15-9</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7097994</bp:経度>
+    <bp:施設名称 xml:lang="ja">品川ファッションビジネス専門学校</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区中延5-15-9</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6011815</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/133">
+    <bp:施設名称 xml:lang="ja">清泉女子大学</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区東五反田3-16-21</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6272085</geo:lat>
+    <rdfs:label xml:lang="ja">清泉女子大学</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7284441</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区東五反田3-16-21</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7284441</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6272085</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/191">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7167412</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田6-5-6</bp:所在地>
+    <bp:施設名称 xml:lang="ja">西五反田第二保育園</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7167412</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6223588</bp:緯度>
+    <rdfs:label xml:lang="ja">西五反田第二保育園</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6223588</geo:lat>
+    <bp:備考 xml:lang="ja">品川区西五反田6-5-6 
+電話:3493-7288
+
+最寄り駅 
+東急池上線　大崎広小路駅</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/215">
+    <bp:所在地 xml:lang="ja">東京都品川区二葉1-12-18</bp:所在地>
+    <bp:備考 xml:lang="ja">二葉1-12-18
+電話:5751-2031
+
+最寄り駅
+東急大井町線下神明駅</bp:備考>
+    <bp:施設名称 xml:lang="ja">大井町のぞみ</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6068475</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7268257</geo:long>
+    <rdfs:label xml:lang="ja">大井町のぞみ</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7268257</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6068475</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/164">
+    <bp:施設名称 xml:lang="ja">八潮高等学校</bp:施設名称>
+    <rdfs:label xml:lang="ja">八潮高等学校</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区東品川3-27-22</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6117053</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7462932</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7462932</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6117053</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川3-27-22</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/137">
+    <rdfs:label xml:lang="ja">浜川幼稚園</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5977020</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7361640</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井4-3-14</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5977020</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7361640</geo:long>
+    <bp:備考 xml:lang="ja">品川区南大井4-3-14 
+
+併設
+浜川小学校</bp:備考>
+    <bp:施設名称 xml:lang="ja">浜川幼稚園</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/91">
+    <rdfs:label xml:lang="ja">中延小学校</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6125373</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7094080</bp:経度>
+    <bp:施設名称 xml:lang="ja">中延小学校</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区中延1-11-15</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区中延1-11-15</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6125373</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7094080</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/99">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6033361</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7041631</bp:経度>
+    <bp:備考 xml:lang="ja">品川区旗の台4-7-11</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7041631</geo:long>
+    <bp:施設名称 xml:lang="ja">旗台小学校</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6033361</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台4-7-11</bp:所在地>
+    <rdfs:label xml:lang="ja">旗台小学校</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/48">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6032911</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7414100</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6032911</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井1-22-16</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7414100</bp:経度>
+    <bp:施設名称 xml:lang="ja">東大井保育園</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区東大井1-22-16
+電話:3471-1190 
+併設:東大井児童センター
+最寄り駅:京浜急行線 鮫洲駅</bp:備考>
+    <rdfs:label xml:lang="ja">東大井保育園</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/145">
+    <rdfs:label xml:lang="ja">池見東京歯科衛生士専門学校</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7391826</geo:long>
+    <bp:施設名称 xml:lang="ja">池見東京歯科衛生士専門学校</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井3-5-6</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6032517</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6032517</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7391826</bp:経度>
+    <bp:備考 xml:lang="ja">品川区東大井3-5-6</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/65">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6210321</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7072869</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区小山2-6-15</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区小山2-6-15
+電話:3781-3666
+最寄り:東急目黒線 武蔵小山駅</bp:備考>
+    <bp:施設名称 xml:lang="ja">石井保育園</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6210321</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7072869</geo:long>
+    <rdfs:label xml:lang="ja">石井保育園</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/138">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7391006</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6180915</geo:lat>
+    <bp:備考 xml:lang="ja">電話：03-5781-3881</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7391006</bp:経度>
+    <bp:施設名称 xml:lang="ja">北品川第二保育園</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6180915</bp:緯度>
+    <rdfs:label xml:lang="ja">北品川第二保育園</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川3-7-43</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/169">
+    <rdfs:label xml:lang="ja">アライアンス幼稚園</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6182539</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区小山4丁目4-13</bp:所在地>
+    <bp:施設名称 xml:lang="ja">アライアンス幼稚園</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7039279</geo:long>
+    <bp:備考 xml:lang="ja">品川区小山4丁目4-13</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6182539</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7039279</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/240">
+    <bp:施設名称 xml:lang="ja">ココファン・ナーサリー旗の台</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7068953</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6041741</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7068953</bp:経度>
+    <rdfs:label xml:lang="ja">ココファン・ナーサリー旗の台</rdfs:label>
+    <bp:備考 xml:lang="ja">電話03-5749-5101</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6041741</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台3-7-2</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/129">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7406486</bp:経度>
+    <bp:施設名称 xml:lang="ja">品川エトワール女子</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6086771</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7406486</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区南品川5-12-4</bp:所在地>
+    <rdfs:label xml:lang="ja">品川エトワール女子</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6086771</geo:lat>
+    <bp:備考 xml:lang="ja">品川区南品川5-12-4</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/82">
+    <bp:所在地 xml:lang="ja">東京都品川区東大井2-10-14</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7406887</geo:long>
+    <bp:施設名称 xml:lang="ja">鮫浜小学校</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7406887</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6014717</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6014717</geo:lat>
+    <bp:備考 xml:lang="ja">品川区東大井2-10-14</bp:備考>
+    <rdfs:label xml:lang="ja">鮫浜小学校</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/12">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7082240</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区西中延3-8-5</bp:所在地>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+区内には25の児童センターがあり、地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区西中延3-8-5 
+電話:3783-1875
+
+併設:西中延保育園</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7082240</bp:経度>
+    <rdfs:label xml:lang="ja">西中延児童センター</rdfs:label>
+    <bp:施設名称 xml:lang="ja">西中延児童センター</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6072589</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6072589</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/234">
+    <rdfs:label xml:lang="ja">グローバルキッズ中延園</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区中延4-5-7</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7126809</bp:経度>
+    <bp:施設名称 xml:lang="ja">グローバルキッズ中延園</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区中延4-5-7 スタイリオ中延駅前ビル2階
+電話：3788-1525
+最寄駅：東急大井町線中延駅</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6055157</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6055157</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7126809</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/38">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7013761</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6118272</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7013761</bp:経度>
+    <bp:備考 xml:lang="ja">品川区荏原7-8-3
+電話:3784-0519
+最寄り駅:東急目黒線 西小山駅</bp:備考>
+    <bp:施設名称 xml:lang="ja">清水台保育園</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6118272</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区荏原7-8-3</bp:所在地>
+    <rdfs:label xml:lang="ja">清水台保育園</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/158">
+    <rdfs:label xml:lang="ja">東京マックス美容専門学校</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区大井1-48-11</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6054187</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7329976</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7329976</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区大井1-48-11</bp:所在地>
+    <bp:施設名称 xml:lang="ja">東京マックス美容専門学校</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6054187</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/92">
+    <bp:施設名称 xml:lang="ja">小山小学校</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7031277</geo:long>
+    <rdfs:label xml:lang="ja">小山小学校</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7031277</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6161726</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区小山5-10-6</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6161726</geo:lat>
+    <bp:備考 xml:lang="ja">品川区小山5-10-6</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/211">
+    <bp:施設名称 xml:lang="ja">めだか保育園</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7359422</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5999831</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7359422</bp:経度>
+    <rdfs:label xml:lang="ja">めだか保育園</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5999831</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井3-22-2</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/23">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5915774</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井3-7-13(シルバーセンター・図書館)</bp:所在地>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます
+地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています
+
+品川区南大井3-7-13
+電話:3761-4148
+
+併設
+南大井図書館
+南大井保育園
+南大井シルバーセンター</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5915774</bp:緯度>
+    <rdfs:label xml:lang="ja">南大井児童センター</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7343157</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7343157</geo:long>
+    <bp:施設名称 xml:lang="ja">南大井児童センター</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/6">
+    <bp:施設名称 xml:lang="ja">東五反田児童センター</bp:施設名称>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区東五反田5-24-1 
+電話:3443-1629
+
+併設:東五反田保育園</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6279641</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区東五反田5-24-1</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7232772</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7232772</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6279641</bp:緯度>
+    <rdfs:label xml:lang="ja">東五反田児童センター</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/81">
+    <rdfs:label xml:lang="ja">大井第一小学校</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5985369</bp:緯度>
+    <bp:施設名称 xml:lang="ja">大井第一小学校</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7312848</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区大井6-1-32</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5985369</geo:lat>
+    <bp:備考 xml:lang="ja">品川区大井6-1-32</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7312848</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/43">
+    <bp:備考 xml:lang="ja">品川区西大井1-1-1
+電話:3774-5315
+最寄り駅:JR横須賀線 西大井駅</bp:備考>
+    <rdfs:label xml:lang="ja">西大井保育園</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7216362</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7216362</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6010194</bp:緯度>
+    <bp:施設名称 xml:lang="ja">西大井保育園</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井1-1-1</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6010194</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/223">
+    <bp:所在地 xml:lang="ja">東京都品川区西大井4-19-11</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7191813</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7191813</bp:経度>
+    <rdfs:label xml:lang="ja">みどりの丘</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5939552</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5939552</geo:lat>
+    <bp:備考 xml:lang="ja">西大井4-19-11
+電話:6303-7091
+
+最寄り駅
+JR横須賀線西大井駅</bp:備考>
+    <bp:施設名称 xml:lang="ja">みどりの丘</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/237">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6211136</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6211136</geo:lat>
+    <rdfs:label xml:lang="ja">大崎ひまわり保育園</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区大崎3-1-9
+電話：3495-7600
+最寄駅：東急池上線大崎広小路駅</bp:備考>
+    <bp:施設名称 xml:lang="ja">大崎ひまわり保育園</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7247181</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎3-1-9</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7247181</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/220">
+    <rdfs:label xml:lang="ja">にじいろ保育園大崎</rdfs:label>
+    <bp:備考 xml:lang="ja">大崎5-4-3
+電話:6417-0486
+
+最寄り駅
+JR山手線大崎駅</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎5-4-3</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6231529</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7252136</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6231529</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7252136</bp:経度>
+    <bp:施設名称 xml:lang="ja">にじいろ保育園大崎</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/165">
+    <rdfs:label xml:lang="ja">都立産業技術高等専門学校</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6057885</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区東大井1-10-40</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井1-10-40</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6057885</geo:lat>
+    <bp:施設名称 xml:lang="ja">都立産業技術高等専門学校</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7479522</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7479522</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/73">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6177464</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6177464</geo:lat>
+    <bp:施設名称 xml:lang="ja">品川小学校</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7378337</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川3-9-30</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7378337</geo:long>
+    <rdfs:label xml:lang="ja">品川小学校</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区北品川3-9-30</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/230">
+    <bp:施設名称 xml:lang="ja">ベネッセ大崎広小路保育園</bp:施設名称>
+    <rdfs:label xml:lang="ja">ベネッセ大崎広小路保育園</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7228611</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7228611</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6225762</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6225762</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎4-1-2</bp:所在地>
+    <bp:備考 xml:lang="ja">大崎4-1-2
+電話:5766-9813
+
+最寄り駅
+東急池上線大崎広小路駅</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/27">
+    <bp:所在地 xml:lang="ja">東京都品川区西大井6-13-1</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7175919</bp:経度>
+    <bp:施設名称 xml:lang="ja">伊藤保育園</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6007298</geo:lat>
+    <bp:備考 xml:lang="ja">品川区西大井6-13-1 
+電話:3771-2211
+併設:伊藤児童センター
+最寄り駅:荏原循環バス 荏原営業所バス停</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6007298</bp:緯度>
+    <rdfs:label xml:lang="ja">伊藤保育園</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7175919</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/5">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6139821</bp:緯度>
+    <rdfs:label xml:lang="ja">三ツ木児童センター</rdfs:label>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+区内には25の児童センターがあり、地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区西品川2-6-13
+電話:3491-1005</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区西品川2-6-13</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7262033</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6139821</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7262033</geo:long>
+    <bp:施設名称 xml:lang="ja">三ツ木児童センター</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/77">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7461815</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7461815</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6156597</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6156597</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川3-4-5</bp:所在地>
+    <rdfs:label xml:lang="ja">城南第二小学校</rdfs:label>
+    <bp:施設名称 xml:lang="ja">城南第二小学校</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区東品川3-4-5</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/173">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6193824</bp:緯度>
+    <rdfs:label xml:lang="ja">大崎幼稚園</rdfs:label>
+    <bp:施設名称 xml:lang="ja">大崎幼稚園</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7235612</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6193824</geo:lat>
+    <bp:備考 xml:lang="ja">品川区大崎3丁目11-1</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7235612</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎3丁目11-1</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/206">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5994747</geo:lat>
+    <rdfs:label xml:lang="ja">TKチルドレンズファーム東大井</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5994747</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7383127</bp:経度>
+    <bp:施設名称 xml:lang="ja">TKチルドレンズファーム東大井</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7383127</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井3-18-13</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/154">
+    <bp:所在地 xml:lang="ja">東京都品川区南品川6-10-5</bp:所在地>
+    <bp:施設名称 xml:lang="ja">東京健康科学専門学校</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6097767</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6097767</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7362570</bp:経度>
+    <bp:備考 xml:lang="ja">品川区南品川6-10-5</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7362570</geo:long>
+    <rdfs:label xml:lang="ja">東京健康科学専門学校</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/32">
+    <rdfs:label xml:lang="ja">大崎保育園</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7263867</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7263867</geo:long>
+    <bp:施設名称 xml:lang="ja">大崎保育園</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6219418</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6219418</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区大崎5-2-1
+電話:3492-6265
+最寄り駅:JR山手線・りんかい線 大崎駅</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎5-2-1</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/18">
+    <bp:所在地 xml:lang="ja">東京都品川区西大井6-13-1</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6006359</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7176166</geo:long>
+    <rdfs:label xml:lang="ja">伊藤児童センター</rdfs:label>
+    <bp:施設名称 xml:lang="ja">伊藤児童センター</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6006359</bp:緯度>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+区内には25の児童センターがあり、地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区西大井6-13-1
+電話:3771-1311 
+
+併設:伊藤保育園</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7176166</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/21">
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+区内には25の児童センターがあり、地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区大井5-19-14 
+電話:3771-3885</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5981821</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7289477</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区大井5-19-14</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5981821</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7289477</geo:long>
+    <rdfs:label xml:lang="ja">滝王子児童センター</rdfs:label>
+    <bp:施設名称 xml:lang="ja">滝王子児童センター</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/152">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7358071</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5928794</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区南大井4-20-2</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井4-20-2</bp:所在地>
+    <bp:施設名称 xml:lang="ja">新東京歯科衛生士学校</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5928794</geo:lat>
+    <rdfs:label xml:lang="ja">新東京歯科衛生士学校</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7358071</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/70">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6122976</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区戸越4-1-10
+電話:3781-5363
+最寄り:東急大井町線 戸越公園駅</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区戸越4-1-10</bp:所在地>
+    <rdfs:label xml:lang="ja">東戸越保育園</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7178016</bp:経度>
+    <bp:施設名称 xml:lang="ja">東戸越保育園</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7178016</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6122976</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/236">
+    <bp:施設名称 xml:lang="ja">アンジェリカ東品川保育園</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川4-8-8</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6094392</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7458530</bp:経度>
+    <bp:備考 xml:lang="ja">品川区東品川4-8-8 新幹ビル1階
+電話：6433-3065
+最寄駅：京浜急行線青物横丁駅</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6094392</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7458530</geo:long>
+    <rdfs:label xml:lang="ja">アンジェリカ東品川保育園</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/47">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7003820</bp:経度>
+    <bp:施設名称 xml:lang="ja">旗の台保育園</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7003820</geo:long>
+    <rdfs:label xml:lang="ja">旗の台保育園</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6037688</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区旗の台5-19-5 
+電話:3784-1903
+併設:
+旗の台児童センター
+旗の台文化センター
+最寄り駅:
+東急大井町線 旗の台駅</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6037688</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台5-19-5</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/160">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7250318</geo:long>
+    <bp:施設名称 xml:lang="ja">日本音楽学校</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区豊町2-16-12</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区豊町2-16-12</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6101633</bp:緯度>
+    <rdfs:label xml:lang="ja">日本音楽学校</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6101633</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7250318</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/31">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6023122</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7341259</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6023122</geo:lat>
+    <bp:施設名称 xml:lang="ja">大井倉田保育園</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区大井4-11-8</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7341259</geo:long>
+    <rdfs:label xml:lang="ja">大井倉田保育園</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区大井4-11-8
+電話:3776-8539
+最寄り駅:JR京浜東北線・東急線・りんかい線 大井町駅</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/219">
+    <bp:施設名称 xml:lang="ja">とうかいどう</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7432569</geo:long>
+    <bp:備考 xml:lang="ja">南品川1-2-11
+電話:5479-2201
+
+最寄り駅
+京浜急行線新馬場駅</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6162103</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6162103</bp:緯度>
+    <rdfs:label xml:lang="ja">とうかいどう</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7432569</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区南品川1-2-11</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/66">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6263924</bp:緯度>
+    <bp:施設名称 xml:lang="ja">宝保育園</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区西五反田4-11-18
+電話:3492-3872
+最寄り:東急目黒線 不動前駅</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7105959</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7105959</geo:long>
+    <rdfs:label xml:lang="ja">宝保育園</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6263924</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田4-12-13</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/15">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6065187</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区豊町4-17-21</bp:所在地>
+    <rdfs:label xml:lang="ja">南ゆたか児童センター</rdfs:label>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+区内には25の児童センターがあり、地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区豊町4-17-21 
+電話:3781-3577
+
+併設:南ゆたか保育園</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7210417</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6065187</bp:緯度>
+    <bp:施設名称 xml:lang="ja">南ゆたか児童センター</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7210417</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/115">
+    <rdfs:label xml:lang="ja">小野学園女子中学校</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6020717</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7266527</bp:経度>
+    <bp:備考 xml:lang="ja">品川区西大井1-6-13</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7266527</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井1-6-13</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6020717</bp:緯度>
+    <bp:施設名称 xml:lang="ja">小野学園女子中学校</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/10">
+    <bp:所在地 xml:lang="ja">東京都品川区西中延1-6-16</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7082896</geo:long>
+    <bp:施設名称 xml:lang="ja">中延児童センター</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6125593</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6125593</geo:lat>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+区内には25の児童センターがあり、地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区西中延1-6-16 
+電話:3781-9300
+
+併設:中延保育園</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7082896</bp:経度>
+    <rdfs:label xml:lang="ja">中延児童センター</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/127">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6101948</bp:緯度>
+    <rdfs:label xml:lang="ja">日本音楽高等学校</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区豊町2-16-12</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区豊町2-16-12</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7252836</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6101948</geo:lat>
+    <bp:施設名称 xml:lang="ja">日本音楽高等学校</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7252836</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/167">
+    <bp:所在地 xml:lang="ja">東京都品川区大崎4-2-16</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7236989</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6204810</geo:lat>
+    <rdfs:label xml:lang="ja">立正大学</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7236989</geo:long>
+    <bp:施設名称 xml:lang="ja">立正大学</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6204810</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/78">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7248065</bp:経度>
+    <bp:備考 xml:lang="ja">品川区大崎3-12-22</bp:備考>
+    <bp:施設名称 xml:lang="ja">芳水小学校</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎3-12-22</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6190862</bp:緯度>
+    <rdfs:label xml:lang="ja">芳水小学校</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6190862</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7248065</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/192">
+    <rdfs:label xml:lang="ja">荏原平塚学園</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区平塚3-16-26 
+電話　3782-7770 
+
+小中一貫校「荏原平塚学園」 
+平塚小学校と荏原平塚中学校を併設</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6157510</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6157510</bp:緯度>
+    <bp:施設名称 xml:lang="ja">荏原平塚学園</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7099159</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区平塚3-16-26</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7099159</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/122">
+    <bp:備考 xml:lang="ja">品川区西五反田5-14-2</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田5-14-2</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6244536</geo:lat>
+    <rdfs:label xml:lang="ja">攻玉社高校</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6244536</bp:緯度>
+    <bp:施設名称 xml:lang="ja">攻玉社高校</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7135723</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7135723</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/246">
+    <bp:所在地 xml:lang="ja">東京都品川区北品川5-2-6</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6233483</bp:緯度>
+    <bp:施設名称 xml:lang="ja">御殿山小学校</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7322907</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6233483</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7322907</bp:経度>
+    <rdfs:label xml:lang="ja">御殿山小学校</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区北品川5-2-6</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/95">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7117335</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6032512</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6032512</bp:緯度>
+    <rdfs:label xml:lang="ja">源氏前小学校</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区中延6-2-18</bp:所在地>
+    <bp:施設名称 xml:lang="ja">源氏前小学校</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7117335</geo:long>
+    <bp:備考 xml:lang="ja">品川区中延6-2-18</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/56">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5918014</geo:lat>
+    <bp:施設名称 xml:lang="ja">南大井保育園</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井3-7-4</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7344216</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5918014</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区南大井3-7-4 
+電話:3761-6543
+併設:
+南大井図書館
+南大井児童センター
+南大井シルバーセンター
+最寄り駅:
+京浜急行線 大森海岸駅</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7344216</bp:経度>
+    <rdfs:label xml:lang="ja">南大井保育園</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/132">
+    <bp:施設名称 xml:lang="ja">星薬科大学</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6193160</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7113764</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6193160</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区荏原2-4-41</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7113764</bp:経度>
+    <rdfs:label xml:lang="ja">星薬科大学</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区荏原2-4-41</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/11">
+    <bp:施設名称 xml:lang="ja">旗の台児童センター</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台5-19-5(旗の台文化センター)</bp:所在地>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区旗の台5-19-5
+電話:3785-1280
+
+併設:
+旗の台保育園
+旗の台文化センター</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6038763</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7005187</bp:経度>
+    <rdfs:label xml:lang="ja">旗の台児童センター</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7005187</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6038763</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/144">
+    <rdfs:label xml:lang="ja">日本高等洋裁学院</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7262964</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井1-6-13</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6025545</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7262964</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6025545</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区西大井1-6-13</bp:備考>
+    <bp:施設名称 xml:lang="ja">日本高等洋裁学院</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/16">
+    <bp:施設名称 xml:lang="ja">大原児童センター</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区戸越6-16-1</bp:所在地>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+区内には25の児童センターがあり、地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区戸越6-16-1
+電話:3785-5128</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7154347</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6073586</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7154347</geo:long>
+    <rdfs:label xml:lang="ja">大原児童センター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6073586</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/110">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7154348</bp:経度>
+    <bp:施設名称 xml:lang="ja">冨士見台中学校</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5982989</geo:lat>
+    <bp:備考 xml:lang="ja">品川区西大井5-5-14</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5982989</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井5-5-14</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7154348</geo:long>
+    <rdfs:label xml:lang="ja">冨士見台中学校</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/176">
+    <bp:所在地 xml:lang="ja">東京都品川区南大井2丁目4-1</bp:所在地>
+    <rdfs:label xml:lang="ja">鈴ヶ森めばえ幼稚園</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区南大井2丁目4-1</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5933068</geo:lat>
+    <bp:施設名称 xml:lang="ja">鈴ヶ森めばえ幼稚園</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5933068</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7368490</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7368490</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/188">
+    <bp:施設名称 xml:lang="ja">マイスクール八潮</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6040909</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6040909</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7534392</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7534392</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-2-1</bp:所在地>
+    <bp:備考 xml:lang="ja">東京都品川区八潮5-2-1
+電話　3799-1221</bp:備考>
+    <rdfs:label xml:lang="ja">マイスクール八潮</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/181">
+    <bp:備考 xml:lang="ja">品川区豊町2丁目16-12</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7253723</geo:long>
+    <rdfs:label xml:lang="ja">日本音楽学校付属幼稚園</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区豊町2丁目16-12</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7253723</bp:経度>
+    <bp:施設名称 xml:lang="ja">日本音楽学校付属幼稚園</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6099424</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6099424</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/126">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6005395</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井6-1-23</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区西大井6-1-23</bp:備考>
+    <rdfs:label xml:lang="ja">朋優学院高等学校</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7145372</geo:long>
+    <bp:施設名称 xml:lang="ja">朋優学院高等学校</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7145372</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6005395</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/80">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6256563</geo:lat>
+    <rdfs:label xml:lang="ja">第四日野小学校</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田4-29-9</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6256563</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7125064</geo:long>
+    <bp:施設名称 xml:lang="ja">第四日野小学校</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区西五反田4-29-9</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7125064</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/4">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6195919</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川5-8-15</bp:所在地>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+区内には25の児童センターがあり、地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区北品川5-8-15
+電話:3449-1676</bp:備考>
+    <rdfs:label xml:lang="ja">小関児童センター</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7326959</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7326959</geo:long>
+    <bp:施設名称 xml:lang="ja">小関児童センター</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6195919</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/104">
+    <bp:施設名称 xml:lang="ja">八潮学園</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6010569</bp:緯度>
+    <rdfs:label xml:lang="ja">八潮学園</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区八潮5-11-2
+電話　3799-1641
+
+小中一貫校「八潮学園」 
+八潮小学校と八潮中学校を併設</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6010569</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-9-11</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7514686</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7514686</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/244">
+    <bp:備考 xml:lang="ja">電話：03-6431-9273</bp:備考>
+    <bp:施設名称 xml:lang="ja">キッズガーデン品川上大崎</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6284110</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区上大崎4-5-37</bp:所在地>
+    <rdfs:label xml:lang="ja">キッズガーデン品川上大崎</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6284110</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7156819</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7156819</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/53">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6013287</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井6-1-15</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7142443</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7142443</geo:long>
+    <bp:施設名称 xml:lang="ja">冨士見台保育園</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6013287</geo:lat>
+    <rdfs:label xml:lang="ja">冨士見台保育園</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区西大井6-1-15
+電話:3785-7833
+最寄り駅:東急大井町線 中延駅</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/178">
+    <bp:所在地 xml:lang="ja">東京都品川区荏原7丁目18-15</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6987106</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6987106</bp:経度>
+    <bp:備考 xml:lang="ja">品川区荏原7丁目18-15</bp:備考>
+    <rdfs:label xml:lang="ja">洗足うさぎ幼稚園</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6098117</bp:緯度>
+    <bp:施設名称 xml:lang="ja">洗足うさぎ幼稚園</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6098117</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/74">
+    <bp:施設名称 xml:lang="ja">城南小学校</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区南品川2-8-21 
+
+併設
+城南幼稚園</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区南品川2-8-21</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7427322</geo:long>
+    <rdfs:label xml:lang="ja">城南小学校</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7427322</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6131737</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6131737</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/46">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7081172</bp:経度>
+    <rdfs:label xml:lang="ja">西中延保育園</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6073080</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区西中延3-8-5</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7081172</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6073080</geo:lat>
+    <bp:施設名称 xml:lang="ja">西中延保育園</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区西中延3-8-5
+電話:3783-1856
+併設:西中延児童センター
+最寄り駅:東急大井町線 荏原町駅</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/52">
+    <rdfs:label xml:lang="ja">平塚保育園</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7174542</bp:経度>
+    <bp:施設名称 xml:lang="ja">平塚保育園</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区平塚2-2-3 
+電話:3785-6770
+併設:平塚児童センター
+最寄り駅:東急池上線 戸越銀座駅</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6188039</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7174542</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区平塚2-2-3</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6188039</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/153">
+    <bp:所在地 xml:lang="ja">東京都品川区南大井4-20-2</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区南大井4-20-2</bp:備考>
+    <bp:施設名称 xml:lang="ja">新東京歯科技工士学校</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5929823</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5929823</geo:lat>
+    <rdfs:label xml:lang="ja">新東京歯科技工士学校</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7358589</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7358589</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/136">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7078361</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6158881</geo:lat>
+    <rdfs:label xml:lang="ja">平塚幼稚園</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7078361</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6158881</bp:緯度>
+    <bp:施設名称 xml:lang="ja">平塚幼稚園</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区荏原4-5-22</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区荏原4-5-22 
+
+併設:荏原西第二保育園
+(あわせて平塚すこやか園)</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/22">
+    <bp:所在地 xml:lang="ja">東京都品川区南大井5-13-19</bp:所在地>
+    <rdfs:label xml:lang="ja">水神児童センター</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7339834</geo:long>
+    <bp:施設名称 xml:lang="ja">水神児童センター</bp:施設名称>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+区内には25の児童センターがあり、地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区南大井5-13-19
+電話:3768-2027</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5954770</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7339834</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5954770</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/72">
+    <bp:施設名称 xml:lang="ja">八潮中央保育園</bp:施設名称>
+    <rdfs:label xml:lang="ja">八潮中央保育園</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5995262</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5995262</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-10-60101</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7511887</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7511887</bp:経度>
+    <bp:備考 xml:lang="ja">品川区八潮5-10-60-101
+電話:3799-1152
+最寄り:都営バス 八潮パークタウンバス停</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/114">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7176744</geo:long>
+    <bp:施設名称 xml:lang="ja">戸越台中学校</bp:施設名称>
+    <rdfs:label xml:lang="ja">戸越台中学校</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区戸越1-15-23</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区戸越1-15-23 
+
+併設
+戸越台特別養護老人ホーム
+戸越台在宅介護支援センター
+戸越台在宅サービスセンター</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7176744</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6155270</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6155270</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/93">
+    <bp:所在地 xml:lang="ja">東京都品川区戸越6-17-3</bp:所在地>
+    <rdfs:label xml:lang="ja">大原小学校</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6071632</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7161396</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7161396</geo:long>
+    <bp:備考 xml:lang="ja">品川区戸越6-17-3</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6071632</bp:緯度>
+    <bp:施設名称 xml:lang="ja">大原小学校</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/235">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7195014</bp:経度>
+    <bp:備考 xml:lang="ja">西五反田8-10-8
+電話：5436-2181
+最寄駅：東急池上線大崎広小路駅</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田8-10-8</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6195857</bp:緯度>
+    <bp:施設名称 xml:lang="ja">ポピンズナーサリースクール西五反田</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6195857</geo:lat>
+    <rdfs:label xml:lang="ja">ポピンズナーサリースクール西五反田</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7195014</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/166">
+    <bp:所在地 xml:lang="ja">東京都品川区南品川6-15-20</bp:所在地>
+    <rdfs:label xml:lang="ja">都立品川特別支援学校</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6095224</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6095224</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7379342</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7379342</bp:経度>
+    <bp:備考 xml:lang="ja">品川区南品川6-15-20</bp:備考>
+    <bp:施設名称 xml:lang="ja">都立品川特別支援学校</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/128">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6056183</bp:緯度>
+    <rdfs:label xml:lang="ja">文教大学付属高等学校</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6056183</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台3-2-17</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7065077</bp:経度>
+    <bp:備考 xml:lang="ja">品川区旗の台3-2-17</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7065077</geo:long>
+    <bp:施設名称 xml:lang="ja">文教大学付属高等学校</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/218">
+    <bp:備考 xml:lang="ja">戸越5-14-23
+電話:3786-0808
+
+最寄り駅
+東急池上線荏原中延駅</bp:備考>
+    <bp:施設名称 xml:lang="ja">グローバルキッズ戸越園</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6105561</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7151913</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7151913</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6105561</geo:lat>
+    <rdfs:label xml:lang="ja">グローバルキッズ戸越園</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区戸越5-14-23</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/143">
+    <bp:施設名称 xml:lang="ja">八潮わかば幼稚園</bp:施設名称>
+    <rdfs:label xml:lang="ja">八潮わかば幼稚園</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区八潮5-6-32</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-6-32</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5965468</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7497629</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7497629</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5965468</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/85">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5982320</geo:lat>
+    <rdfs:label xml:lang="ja">浜川小学校</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井4-3-27</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5982320</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区南大井4-3-27 
+
+浜川幼稚園併設</bp:備考>
+    <bp:施設名称 xml:lang="ja">浜川小学校</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7358644</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7358644</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/30">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6009420</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6009420</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7352558</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7352558</geo:long>
+    <rdfs:label xml:lang="ja">大井保育園</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井6-14-16</bp:所在地>
+    <bp:施設名称 xml:lang="ja">大井保育園</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区東大井6-14-16
+電話:3761-8798
+最寄り駅:京浜急行線 立会川駅</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/50">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7460771</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6191527</geo:lat>
+    <rdfs:label xml:lang="ja">東品川保育園</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6191527</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区東品川1-34-9 
+電話:3472-5805
+併設:東品川児童センター
+最寄り駅:京浜急行線 新馬場駅</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7460771</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川1-34-9</bp:所在地>
+    <bp:施設名称 xml:lang="ja">東品川保育園</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/105">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7492204</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川3-30-15</bp:所在地>
+    <rdfs:label xml:lang="ja">東海中学校</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区東品川3-30-15</bp:備考>
+    <bp:施設名称 xml:lang="ja">東海中学校</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6124592</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6124592</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7492204</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/76">
+    <bp:備考 xml:lang="ja">品川区西品川3-16-28</bp:備考>
+    <rdfs:label xml:lang="ja">三木小学校</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区西品川3-16-28</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6152914</geo:lat>
+    <bp:施設名称 xml:lang="ja">三木小学校</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7268158</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6152914</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7268158</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/186">
+    <bp:所在地 xml:lang="ja">東京都品川区上大崎2-19-6</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7146446</geo:long>
+    <bp:施設名称 xml:lang="ja">日本書道専門学校</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7146446</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6368467</geo:lat>
+    <rdfs:label xml:lang="ja">日本書道専門学校</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6368467</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/8">
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+区内には25の児童センターがあり、地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区平塚2-2-3 
+電話:3786-2228
+
+併設:平塚保育園</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6187860</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区平塚2-2-3</bp:所在地>
+    <bp:施設名称 xml:lang="ja">平塚児童センター</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7173311</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7173311</bp:経度>
+    <rdfs:label xml:lang="ja">平塚児童センター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6187860</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/102">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6228576</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7032153</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区小山台1-18-24</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6228576</bp:緯度>
+    <rdfs:label xml:lang="ja">小山台小学校</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区小山台1-18-24</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7032153</geo:long>
+    <bp:施設名称 xml:lang="ja">小山台小学校</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/242">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6073523</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6073523</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7254991</geo:long>
+    <bp:施設名称 xml:lang="ja">豊葉の杜学園</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区二葉1-3-40</bp:所在地>
+    <rdfs:label xml:lang="ja">豊葉の杜学園</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区二葉1-3-40</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7254991</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/17">
+    <bp:所在地 xml:lang="ja">東京都品川区西大井6-1-8</bp:所在地>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+区内には25の児童センターがあり、地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区西大井6-1-8
+電話:3785-7834</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7141964</geo:long>
+    <rdfs:label xml:lang="ja">冨士見台児童センター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6012285</geo:lat>
+    <bp:施設名称 xml:lang="ja">冨士見台児童センター</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7141964</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6012285</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/67">
+    <bp:所在地 xml:lang="ja">東京都品川区戸越6-16-14</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区戸越6-16-14
+電話:3787-5856
+最寄り:東急大井町線 戸越公園駅</bp:備考>
+    <bp:施設名称 xml:lang="ja">戸越ひまわり保育園</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7153850</bp:経度>
+    <rdfs:label xml:lang="ja">戸越ひまわり保育園</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6073632</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6073632</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7153850</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/42">
+    <bp:施設名称 xml:lang="ja">中延保育園</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区西中延1-6-16</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7084349</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7084349</geo:long>
+    <rdfs:label xml:lang="ja">中延保育園</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区西中延1-6-16 
+電話:3784-3405
+併設:中延児童センター
+最寄り駅:東急池上線 荏原中延駅</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6125102</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6125102</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/202">
+    <bp:施設名称 xml:lang="ja">小学館アカデミーおおさき駅前</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7268218</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6228732</bp:緯度>
+    <rdfs:label xml:lang="ja">小学館アカデミーおおさき駅前</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7268218</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎1-2-3</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6228732</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/33">
+    <rdfs:label xml:lang="ja">北品川保育園</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川2-7-21</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6187098</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6187098</geo:lat>
+    <bp:施設名称 xml:lang="ja">北品川保育園</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7439522</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7439522</bp:経度>
+    <bp:備考 xml:lang="ja">品川区北品川2-7-21 
+電話:3471-4907
+併設:北品川児童センター
+最寄り駅:京浜急行線 新馬場駅</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/195">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6353874</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7170692</geo:long>
+    <bp:備考 xml:lang="ja">上大崎2-10-33コミュニティースペース目黒3階
+電話:6408-0415
+
+最寄り駅
+JR線目黒駅</bp:備考>
+    <bp:施設名称 xml:lang="ja">アートチャイルドケア目黒</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7170692</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6353874</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区上大崎2-10-33</bp:所在地>
+    <rdfs:label xml:lang="ja">アートチャイルドケア目黒</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/185">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6245725</bp:緯度>
+    <rdfs:label xml:lang="ja">日野学園</rdfs:label>
+    <bp:施設名称 xml:lang="ja">日野学園</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7282104</bp:経度>
+    <bp:備考 xml:lang="ja">品川区東五反田2-11-1
+電話　3441-3209
+
+小中一貫校「日野学園」
+第二日野小学校と日野中学校併設</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7282104</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6245725</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区東五反田2-11-1</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/44">
+    <bp:備考 xml:lang="ja">品川区西五反田3-9-10
+電話:3493-0075
+併設:
+西五反田シルバーセンター
+最寄り駅:
+東急バス 大崎郵便局バス停</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田3-9-10</bp:所在地>
+    <bp:施設名称 xml:lang="ja">西五反田保育園</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7168722</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7168722</geo:long>
+    <rdfs:label xml:lang="ja">西五反田保育園</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6265224</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6265224</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/213">
+    <bp:所在地 xml:lang="ja">東京都品川区南品川2-4-7</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6106478</geo:lat>
+    <bp:施設名称 xml:lang="ja">ルーチェ保育園南品川</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6106478</bp:緯度>
+    <bp:備考 xml:lang="ja">南品川2-4-7アサミビル1階電話:5460-5420
+
+最寄り駅
+京浜急行線青物横丁駅</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7424651</geo:long>
+    <rdfs:label xml:lang="ja">ルーチェ保育園南品川</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7424651</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/118">
+    <rdfs:label xml:lang="ja">品川女子学院中等部</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7392976</bp:経度>
+    <bp:施設名称 xml:lang="ja">品川女子学院中等部</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川3-3-12</bp:所在地>
+    <bp:備考 xml:lang="ja">品川女子学院</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6209603</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7392976</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6209603</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/149">
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田5-14-2</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6244629</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7138571</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7138571</bp:経度>
+    <bp:施設名称 xml:lang="ja">攻玉社専門学校</bp:施設名称>
+    <rdfs:label xml:lang="ja">攻玉社専門学校</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区西五反田5-14-2</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6244629</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/20">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6023198</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7339205</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7339205</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6023198</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区大井4-11-34</bp:所在地>
+    <bp:施設名称 xml:lang="ja">大井倉田児童センター</bp:施設名称>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区大井4-11-34 
+電話:3776-4881
+
+毎週金曜日　10時～正午
+おもちゃプラザ</bp:備考>
+    <rdfs:label xml:lang="ja">大井倉田児童センター</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/199">
+    <bp:施設名称 xml:lang="ja">さくら大崎保育園</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎2-9-4</bp:所在地>
+    <bp:備考 xml:lang="ja">大崎2-9-4大崎ウエストシティタワーズ
+電話:5745-5500
+
+最寄り駅
+JR線大崎駅</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6166532</geo:lat>
+    <rdfs:label xml:lang="ja">さくら大崎保育園</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7277528</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7277528</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6166532</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/210">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6075300</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6075300</geo:lat>
+    <bp:備考 xml:lang="ja">東品川4-12-12
+電話:5796-2103
+
+最寄り駅
+りんかい線品川シーサイド駅</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7489283</geo:long>
+    <rdfs:label xml:lang="ja">ポピンズ東品川</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7489283</bp:経度>
+    <bp:施設名称 xml:lang="ja">ポピンズ東品川</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川4-12-12</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/75">
+    <bp:所在地 xml:lang="ja">東京都品川区南品川6-8-8</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7365320</bp:経度>
+    <bp:施設名称 xml:lang="ja">浅間台小学校</bp:施設名称>
+    <rdfs:label xml:lang="ja">浅間台小学校</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6114809</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6114809</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7365320</geo:long>
+    <bp:備考 xml:lang="ja">品川区南品川6-8-8</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/239">
+    <bp:施設名称 xml:lang="ja">ウィズブック保育園天王洲</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東品川2-5-5　ハーバーワンビル1階</bp:所在地>
+    <bp:備考 xml:lang="ja">電話03-6671-9396</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7494102</geo:long>
+    <rdfs:label xml:lang="ja">ウィズブック保育園天王洲</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6211610</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7494102</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6211610</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/233">
+    <rdfs:label xml:lang="ja">BunBu学院Jr 戸越園</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7173215</geo:long>
+    <bp:備考 xml:lang="ja">備考 戸越5-4-3　アズ品川202
+電話 03-6451-3655
+最寄り駅 東急大井町線戸越公園駅</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7173215</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6107691</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6107691</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都東京都品川区戸越5-4-3</bp:所在地>
+    <bp:施設名称 xml:lang="ja">BunBu学院Jr 戸越園</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/62">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7435605</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6229761</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川1-2-15</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7435605</geo:long>
+    <rdfs:label xml:lang="ja">八ッ山保育園</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区東品川1-2-15 
+電話:3472-4661
+併設:
+八ッ山ふれあいディホーム
+最寄り駅:
+京浜急行線 北品川駅</bp:備考>
+    <bp:施設名称 xml:lang="ja">八ッ山保育園</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6229761</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/98">
+    <bp:施設名称 xml:lang="ja">戸越小学校</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6111156</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区豊町2-1-20</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区豊町2-1-20</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6111156</bp:緯度>
+    <rdfs:label xml:lang="ja">戸越小学校</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7213296</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7213296</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/58">
+    <bp:備考 xml:lang="ja">品川区豊町4-17-21 
+電話:3781-3601
+併設:
+南ゆたか児童センター
+最寄り駅:
+東急大井町線 戸越公園駅</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7209266</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区豊町4-17-21</bp:所在地>
+    <rdfs:label xml:lang="ja">南ゆたか保育園</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6065364</geo:lat>
+    <bp:施設名称 xml:lang="ja">南ゆたか保育園</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7209266</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6065364</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/25">
+    <rdfs:label xml:lang="ja">八潮児童センター</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7515122</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5999497</bp:緯度>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区八潮5-10-27
+電話:3799-3000
+
+併設
+八潮地域センター
+八潮図書館</bp:備考>
+    <bp:施設名称 xml:lang="ja">八潮児童センター</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7515122</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5999497</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-10-27(八潮地域センター)</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/100">
+    <bp:所在地 xml:lang="ja">東京都品川区二葉4-4-10</bp:所在地>
+    <rdfs:label xml:lang="ja">上神明小学校</rdfs:label>
+    <bp:施設名称 xml:lang="ja">上神明小学校</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7152969</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6029975</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7152969</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6029975</geo:lat>
+    <bp:備考 xml:lang="ja">品川区二葉4-4-10</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/245">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6272671</bp:緯度>
+    <bp:備考 xml:lang="ja">電話：03-6431-1300</bp:備考>
+    <rdfs:label xml:lang="ja">学研こども園</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7203377</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田2-11-8</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6272671</geo:lat>
+    <bp:施設名称 xml:lang="ja">学研こども園</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7203377</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/212">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7474503</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6162943</bp:緯度>
+    <bp:施設名称 xml:lang="ja">ゆらりん東品川保育園</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川3-7-11</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7474503</bp:経度>
+    <rdfs:label xml:lang="ja">ゆらりん東品川保育園</rdfs:label>
+    <bp:備考 xml:lang="ja">東品川3-7-10　ATG　Park東品川1階
+電話:6433-2822
+
+最寄り駅
+京浜急行線新馬場駅</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6162943</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/193">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7491044</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7491044</geo:long>
+    <bp:施設名称 xml:lang="ja">産業技術大学院大学</bp:施設名称>
+    <rdfs:label xml:lang="ja">産業技術大学院大学</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区東大井1-10-40</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井1-10-40</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6071249</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6071249</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/3">
+    <bp:施設名称 xml:lang="ja">南品川児童センター</bp:施設名称>
+    <rdfs:label xml:lang="ja">南品川児童センター</rdfs:label>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+区内には25の児童センターがあり、地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区南品川4-5-28
+電話:3450-5043</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6134633</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6134633</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区南品川4-5-28</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7387090</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7387090</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/19">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7295497</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7295497</bp:経度>
+    <rdfs:label xml:lang="ja">一本橋児童センター</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6047323</bp:緯度>
+    <bp:施設名称 xml:lang="ja">一本橋児童センター</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6047323</geo:lat>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+区内には25の児童センターがあり、地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区大井2-25-1 
+電話:3775-4352
+
+併設:一本橋児童保育園</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区大井2-25-1</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/107">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7382919</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6002177</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7382919</bp:経度>
+    <rdfs:label xml:lang="ja">浜川中学校</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区東大井3-18-34</bp:備考>
+    <bp:施設名称 xml:lang="ja">浜川中学校</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井3-18-34</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6002177</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/171">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7401278</bp:経度>
+    <rdfs:label xml:lang="ja">エトワール幼稚園</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区南品川5丁目12-4</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7401278</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区南品川5丁目12-4</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6084361</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6084361</geo:lat>
+    <bp:施設名称 xml:lang="ja">エトワール幼稚園</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/113">
+    <bp:施設名称 xml:lang="ja">荏原第六中学校</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6164310</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6999380</geo:long>
+    <bp:備考 xml:lang="ja">品川区小山5-20-19</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区小山5-20-19</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6164310</geo:lat>
+    <rdfs:label xml:lang="ja">荏原第六中学校</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6999380</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/101">
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台1-11-17</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7026372</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6073938</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6073938</geo:lat>
+    <bp:備考 xml:lang="ja">品川区旗の台1-11-17</bp:備考>
+    <rdfs:label xml:lang="ja">清水台小学校</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7026372</bp:経度>
+    <bp:施設名称 xml:lang="ja">清水台小学校</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/120">
+    <rdfs:label xml:lang="ja">文教大学付属中学校</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区旗の台3-2-17</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7063680</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台3-2-17</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6056763</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7063680</bp:経度>
+    <bp:施設名称 xml:lang="ja">文教大学付属中学校</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6056763</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/68">
+    <bp:所在地 xml:lang="ja">東京都品川区南品川2-9-13</bp:所在地>
+    <bp:施設名称 xml:lang="ja">どんぐり保育園（本園）</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区南品川2-9-13
+電話:3471-1673
+最寄り:京浜急行線 新馬場駅</bp:備考>
+    <rdfs:label xml:lang="ja">どんぐり保育園（本園）</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7428160</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6141735</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7428160</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6141735</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/196">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6280393</bp:緯度>
+    <rdfs:label xml:lang="ja">アスク不動前保育園</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6280393</geo:lat>
+    <bp:備考 xml:lang="ja">西五反田4-1-10アーバンハイム不動前1階
+電話:5759-8015
+
+最寄り駅
+東急目黒線不動前駅</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7121873</bp:経度>
+    <bp:施設名称 xml:lang="ja">アスク不動前保育園</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田4-1-10</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7121873</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/168">
+    <bp:備考 xml:lang="ja">品川区大井5丁目10-12</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5982939</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7304922</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7304922</bp:経度>
+    <rdfs:label xml:lang="ja">あけぼの幼稚園</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5982939</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区大井5丁目10-12</bp:所在地>
+    <bp:施設名称 xml:lang="ja">あけぼの幼稚園</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/232">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6023399</bp:緯度>
+    <rdfs:label xml:lang="ja">小野学園幼稚園</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区西大井1-6-13</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井1-6-13</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7265283</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7265283</geo:long>
+    <bp:施設名称 xml:lang="ja">小野学園幼稚園</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6023399</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/205">
+    <bp:備考 xml:lang="ja">上大崎3-14-35山手ビル1階
+電話:5422-9798
+
+最寄り駅
+JR線五反田駅</bp:備考>
+    <bp:施設名称 xml:lang="ja">TKチルドレンズファーム上大崎</bp:施設名称>
+    <rdfs:label xml:lang="ja">TKチルドレンズファーム上大崎</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6293901</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7197374</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6293901</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区上大崎3-14-35</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7197374</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/109">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7378643</geo:long>
+    <rdfs:label xml:lang="ja">鈴ヶ森中学校</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5928575</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7378643</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井2-3-14</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区南大井2-3-14</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5928575</geo:lat>
+    <bp:施設名称 xml:lang="ja">鈴ヶ森中学校</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/131">
+    <bp:所在地 xml:lang="ja">東京都品川区上大崎4-6-19</bp:所在地>
+    <bp:施設名称 xml:lang="ja">杉野服飾大学</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6316214</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7158734</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7158734</geo:long>
+    <rdfs:label xml:lang="ja">杉野服飾大学</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区上大崎4-6-19</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6316214</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/170">
+    <bp:所在地 xml:lang="ja">東京都品川区中延5丁目6-18</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7082701</geo:long>
+    <bp:備考 xml:lang="ja">品川区中延5丁目6-18</bp:備考>
+    <bp:施設名称 xml:lang="ja">荏原学園旭幼稚園</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6031168</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6031168</geo:lat>
+    <rdfs:label xml:lang="ja">荏原学園旭幼稚園</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7082701</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/9">
+    <rdfs:label xml:lang="ja">後地児童センター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6206454</geo:lat>
+    <bp:施設名称 xml:lang="ja">後地児童センター</bp:施設名称>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区小山2-9-19 
+電話:3785-5033
+
+併設:
+後地シルバーセンター</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7092310</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区小山2-9-19</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6206454</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7092310</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/88">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7437964</bp:経度>
+    <bp:施設名称 xml:lang="ja">台場小学校</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川1-8-30</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区東品川1-8-30 
+
+台場幼稚園併設</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7437964</geo:long>
+    <rdfs:label xml:lang="ja">台場小学校</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6210266</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6210266</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/7">
+    <rdfs:label xml:lang="ja">中原児童センター</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区小山1-4-1</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6218924</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7123712</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7123712</geo:long>
+    <bp:施設名称 xml:lang="ja">中原児童センター</bp:施設名称>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+区内には25の児童センターがあり、地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区小山1-4-1 
+電話:3492-6119
+
+併設:中原保育園</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6218924</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/207">
+    <rdfs:label xml:lang="ja">パレット保育園不動前</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田5-12-1</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7137496</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6256268</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6256268</bp:緯度>
+    <bp:備考 xml:lang="ja">西五反田5-12-1不動前駅2階
+電話:5719-1149
+
+最寄り駅
+東急目黒線不動前駅</bp:備考>
+    <bp:施設名称 xml:lang="ja">パレット保育園不動前</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7137496</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/51">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7138475</bp:経度>
+    <bp:施設名称 xml:lang="ja">東中延保育園</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7138475</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6078339</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6078339</geo:lat>
+    <rdfs:label xml:lang="ja">東中延保育園</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区東中延2-5-10 
+電話:3785-0418
+併設:東中延児童センター
+最寄り駅:東急大井町線 中延駅</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区東中延2-5-10</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/36">
+    <rdfs:label xml:lang="ja">小山台保育園</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区小山台1-3-8
+電話:3710-4415
+最寄り駅:東急目黒線 不動前駅</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6250581</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区小山台1-3-8</bp:所在地>
+    <bp:施設名称 xml:lang="ja">小山台保育園</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7068113</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6250581</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7068113</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/183">
+    <bp:施設名称 xml:lang="ja">文教大学附属幼稚園</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6051805</geo:lat>
+    <bp:備考 xml:lang="ja">品川区旗の台3丁目2-17</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7060472</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7060472</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6051805</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台3丁目2-17</bp:所在地>
+    <rdfs:label xml:lang="ja">文教大学附属幼稚園</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/28">
+    <bp:備考 xml:lang="ja">品川区荏原2-16-18
+電話:3781-5331
+最寄り駅:東急池上線 戸越銀座駅</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6166852</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7088707</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7088707</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区荏原2-16-18</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6166852</geo:lat>
+    <rdfs:label xml:lang="ja">荏原保育園</rdfs:label>
+    <bp:施設名称 xml:lang="ja">荏原保育園</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/49">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6279857</geo:lat>
+    <bp:備考 xml:lang="ja">品川区東五反田5-24-1
+電話:3447-0663 
+併設:
+東五反田児童センター
+最寄り駅:
+JR山手線 五反田駅</bp:備考>
+    <bp:施設名称 xml:lang="ja">東五反田保育園</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区東五反田5-24-1</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6279857</bp:緯度>
+    <rdfs:label xml:lang="ja">東五反田保育園</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7233588</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7233588</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/151">
+    <rdfs:label xml:lang="ja">昭和大学医学部附属看護専門学校</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区旗の台1-5-8</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7035962</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6086714</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6086714</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7035962</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台1-5-8</bp:所在地>
+    <bp:施設名称 xml:lang="ja">昭和大学医学部附属看護専門学校</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/87">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5942592</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7352088</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5942592</bp:緯度>
+    <rdfs:label xml:lang="ja">鈴ヶ森小学校</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7352088</bp:経度>
+    <bp:備考 xml:lang="ja">品川区南大井4-16-2</bp:備考>
+    <bp:施設名称 xml:lang="ja">鈴ヶ森小学校</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井4-16-2</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/224">
+    <bp:所在地 xml:lang="ja">東京都品川区南品川6-15-20</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6094196</geo:lat>
+    <bp:施設名称 xml:lang="ja">都立品川特別支援学校</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6094196</bp:緯度>
+    <bp:備考 xml:lang="ja">南品川6-15-20</bp:備考>
+    <rdfs:label xml:lang="ja">都立品川特別支援学校</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7379809</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7379809</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/142">
+    <rdfs:label xml:lang="ja">二葉幼稚園・二葉つぼみ保育園</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6063850</bp:緯度>
+    <bp:施設名称 xml:lang="ja">二葉幼稚園・二葉つぼみ保育園</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7256197</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7256197</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区二葉1-3-24</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区二葉1-3-40 
+
+併設:二葉つぼみ保育園
+(あわせて二葉すこやか園)</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6063850</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/14">
+    <bp:所在地 xml:lang="ja">東京都品川区豊町1-18-15</bp:所在地>
+    <rdfs:label xml:lang="ja">ゆたか児童センター</rdfs:label>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+区内には25の児童センターがあり、地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区豊町1-18-15 
+電話:3786-0633
+
+併設:ゆたか保育園</bp:備考>
+    <bp:施設名称 xml:lang="ja">ゆたか児童センター</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6115951</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7227015</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6115951</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7227015</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/117">
+    <bp:備考 xml:lang="ja">品川区旗の台6-22-21</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6068762</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台6-22-21</bp:所在地>
+    <bp:施設名称 xml:lang="ja">香蘭女学校中学校</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6068762</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7014633</bp:経度>
+    <rdfs:label xml:lang="ja">香蘭女学校中学校</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7014633</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/163">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6212622</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6212622</geo:lat>
+    <bp:備考 xml:lang="ja">品川区小山3-3-32</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7035215</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7035215</geo:long>
+    <rdfs:label xml:lang="ja">小山台高等学校</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区小山3-3-32</bp:所在地>
+    <bp:施設名称 xml:lang="ja">小山台高等学校</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/13">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6077311</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6077311</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7138312</bp:経度>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+区内には25の児童センターがあり、地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区東中延2-5-10 
+電話:3785-0419
+
+併設:東中延保育園</bp:備考>
+    <bp:施設名称 xml:lang="ja">東中延児童センター</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区東中延2-5-10</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7138312</geo:long>
+    <rdfs:label xml:lang="ja">東中延児童センター</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/222">
+    <rdfs:label xml:lang="ja">みずなら</rdfs:label>
+    <bp:施設名称 xml:lang="ja">みずなら</bp:施設名称>
+    <bp:備考 xml:lang="ja">東品川3-21-10
+電話:5781-3707
+
+最寄り駅
+りんかい線品川シーサイド駅</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7473748</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6132438</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6132438</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7473748</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川3-21-10</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/238">
+    <bp:備考 xml:lang="ja">品川区西大井6-6-2
+電話：5742-8525
+最寄駅：JR横須賀線西大井駅</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7199764</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井6-6-2</bp:所在地>
+    <bp:施設名称 xml:lang="ja">グローバルキッズ西大井園</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6013955</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7199764</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6013955</bp:緯度>
+    <rdfs:label xml:lang="ja">グローバルキッズ西大井園</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/197">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7041430</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6062879</bp:緯度>
+    <bp:備考 xml:lang="ja">旗の台2-7-17
+電話:3783-0880
+
+最寄り駅
+東急大井町線旗の台駅</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6062879</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台2-7-17</bp:所在地>
+    <bp:施設名称 xml:lang="ja">こぐま保育園</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7041430</bp:経度>
+    <rdfs:label xml:lang="ja">こぐま保育園</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/194">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7384663</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6181701</bp:緯度>
+    <bp:施設名称 xml:lang="ja">品川学園</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川3-9-30</bp:所在地>
+    <rdfs:label xml:lang="ja">品川学園</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6181701</geo:lat>
+    <bp:備考 xml:lang="ja">北品川3-9-30　
+電話　3474-2671
+
+小中一貫校「品川学園」 
+品川小学校と城南中学校併設</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7384663</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/161">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7225267</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎4-5-20</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7225267</geo:long>
+    <rdfs:label xml:lang="ja">宮川文化服装専門学校</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区大崎4-5-20</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6201497</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6201497</bp:緯度>
+    <bp:施設名称 xml:lang="ja">宮川文化服装専門学校</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/175">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6226554</bp:緯度>
+    <bp:施設名称 xml:lang="ja">品川教会附属幼稚園</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区北品川4丁目7-40</bp:備考>
+    <rdfs:label xml:lang="ja">品川教会附属幼稚園</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6226554</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7371869</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川4丁目7-40</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7371869</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/182">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6136235</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6978825</geo:long>
+    <rdfs:label xml:lang="ja">ひまわり幼稚園</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6136235</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区小山6丁目10-11</bp:所在地>
+    <bp:施設名称 xml:lang="ja">ひまわり幼稚園</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6978825</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/26">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7296648</geo:long>
+    <bp:施設名称 xml:lang="ja">一本橋保育園</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区大井2-25-1 
+電話:3775-4351
+
+最寄り駅
+JR京浜東北線・東急線・りんかい線 大井町駅</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6046197</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区大井2-25-1</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7296648</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6046197</bp:緯度>
+    <rdfs:label xml:lang="ja">一本橋保育園</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/177">
+    <rdfs:label xml:lang="ja">専修幼稚園</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田6丁目11-5</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6208410</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6208410</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7177636</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7177636</bp:経度>
+    <bp:備考 xml:lang="ja">品川区西五反田6丁目11-5</bp:備考>
+    <bp:施設名称 xml:lang="ja">専修幼稚園</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/187">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7450534</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6073182</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7450534</geo:long>
+    <bp:備考 xml:lang="ja">東京都品川区南品川3-7-7
+電話　5796-6347</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6073182</geo:lat>
+    <rdfs:label xml:lang="ja">品川児童学園子ども発達相談室</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区南品川3-7-7</bp:所在地>
+    <bp:施設名称 xml:lang="ja">品川児童学園子ども発達相談室</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/216">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7216212</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5993503</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井2-5-21</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7216212</bp:経度>
+    <bp:備考 xml:lang="ja">西大井2-5-21
+電話:5718-1332
+
+最寄り駅
+横須賀線西大井駅</bp:備考>
+    <bp:施設名称 xml:lang="ja">キッズタウンにしおおい</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5993503</geo:lat>
+    <rdfs:label xml:lang="ja">キッズタウンにしおおい</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/179">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6149547</bp:緯度>
+    <rdfs:label xml:lang="ja">戸越幼稚園</rdfs:label>
+    <bp:施設名称 xml:lang="ja">戸越幼稚園</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区戸越1丁目21-15</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区戸越1丁目21-15</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7213205</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7213205</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6149547</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/172">
+    <rdfs:label xml:lang="ja">大井うさぎ幼稚園</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区大井7丁目1-5</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5974138</bp:緯度>
+    <bp:施設名称 xml:lang="ja">大井うさぎ幼稚園</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区大井7丁目1-5</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7254528</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5974138</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7254528</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/#">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.ja"/>
+    <cc:attributionName>東京都品川区</cc:attributionName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/208">
+    <bp:所在地 xml:lang="ja">東京都品川区大崎4-6-3</bp:所在地>
+    <bp:備考 xml:lang="ja">大崎4-6-3ファシネス・ハイツ2階
+電話:5437-5536
+
+最寄り駅
+JR線大崎駅</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6196151</geo:lat>
+    <bp:施設名称 xml:lang="ja">ひよこの家保育園</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7233036</geo:long>
+    <rdfs:label xml:lang="ja">ひよこの家保育園</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7233036</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6196151</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/35">
+    <rdfs:label xml:lang="ja">五反田保育園</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6218429</bp:緯度>
+    <bp:施設名称 xml:lang="ja">五反田保育園</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7295393</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6218429</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区東五反田2-15-6</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7295393</bp:経度>
+    <bp:備考 xml:lang="ja">品川区東五反田2-15-6
+電話:3445-4534
+併設:
+五反田ふれあいディホーム
+五反田シルバーセンター
+最寄り駅:
+JR山手線・りんかい線 大崎駅</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/37">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7378292</geo:long>
+    <rdfs:label xml:lang="ja">品川保育園</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井5-8-12</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6075152</bp:緯度>
+    <bp:施設名称 xml:lang="ja">品川保育園</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6075152</geo:lat>
+    <bp:備考 xml:lang="ja">品川区東大井5-8-12
+電話:3471-0506
+最寄り駅:JR京浜東北線・東急線・りんかい線 大井町駅</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7378292</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/103">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6040863</geo:lat>
+    <bp:施設名称 xml:lang="ja">私立明晴学園</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-2-1</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7533188</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6040863</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区八潮5-2-1
+電話:6380-6775</bp:備考>
+    <rdfs:label xml:lang="ja">私立明晴学園</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7533188</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/226">
+    <bp:施設名称 xml:lang="ja">うみのくに保育園とごし</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6147529</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7200975</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6147529</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区戸越1-19-18</bp:所在地>
+    <bp:備考 xml:lang="ja">戸越1-19-18エスト戸越2階 
+電話:6426-2692 
+
+最寄り駅:都営地下鉄戸越駅</bp:備考>
+    <rdfs:label xml:lang="ja">うみのくに保育園とごし</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7200975</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/40">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5981093</geo:lat>
+    <bp:施設名称 xml:lang="ja">滝王子保育園</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5981093</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7277129</geo:long>
+    <bp:備考 xml:lang="ja">品川区大井5-18-1
+電話:3775-4861
+最寄り駅:荏原循環バス 大井5丁目バス停</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7277129</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区大井5-18-1</bp:所在地>
+    <rdfs:label xml:lang="ja">滝王子保育園</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/209">
+    <bp:所在地 xml:lang="ja">東京都品川区東五反田2-10-1</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7268672</geo:long>
+    <bp:備考 xml:lang="ja">東五反田2-10-1パークタワーグランスカイ2階
+電話:5475-2110
+
+最寄り駅
+JR線五反田駅</bp:備考>
+    <rdfs:label xml:lang="ja">ポピンズ東五反田</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6239195</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6239195</geo:lat>
+    <bp:施設名称 xml:lang="ja">ポピンズ東五反田</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7268672</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/231">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6150701</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区荏原4-5-22
+電話:3781-8917
+併設:平塚幼稚園
+(あわせて平塚すこやか園)
+最寄り駅:東急目黒線武蔵小山駅</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6150701</geo:lat>
+    <bp:施設名称 xml:lang="ja">荏原西第二保育園</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区荏原4-5-22</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7076753</bp:経度>
+    <rdfs:label xml:lang="ja">荏原西第二保育園</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7076753</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/243">
+    <bp:備考 xml:lang="ja">幼稚園　電話：03-5795-1523
+保育園　電話：03-5795-1522</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6227972</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6227972</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川5-3-1</bp:所在地>
+    <bp:施設名称 xml:lang="ja">御殿山幼稚園・五反田第二保育園</bp:施設名称>
+    <rdfs:label xml:lang="ja">御殿山幼稚園・五反田第二保育園</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7317407</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7317407</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/79">
+    <rdfs:label xml:lang="ja">第三日野小学校</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7242124</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6326808</geo:lat>
+    <bp:施設名称 xml:lang="ja">第三日野小学校</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6326808</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区上大崎1-19-19</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7242124</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区上大崎1-19-19</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/45">
+    <rdfs:label xml:lang="ja">西品川保育園</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7261814</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6150221</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区西品川3-16-35</bp:所在地>
+    <bp:施設名称 xml:lang="ja">西品川保育園</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6150221</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7261814</geo:long>
+    <bp:備考 xml:lang="ja">品川区西品川3-16-35 
+電話:3493-1333
+併設:
+西品川学童保育クラブ
+最寄り駅:
+JR山手線・りんかい線 大崎駅</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/106">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6155350</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7227275</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7227275</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区西品川3-10-6</bp:所在地>
+    <bp:施設名称 xml:lang="ja">大崎中学校</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区西品川3-10-6</bp:備考>
+    <rdfs:label xml:lang="ja">大崎中学校</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6155350</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/241">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7417038</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6117375</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6117375</geo:lat>
+    <bp:施設名称 xml:lang="ja">太陽の子南品川保育園</bp:施設名称>
+    <bp:備考 xml:lang="ja">電話03-5715-7707</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区南品川5-3-10</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7417038</geo:long>
+    <rdfs:label xml:lang="ja">太陽の子南品川保育園</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/201">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7346818</geo:long>
+    <bp:備考 xml:lang="ja">大井1-1-1アトレ大井町2　3階
+電話:5718-3301
+
+最寄り駅
+JR線大井町駅</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区大井1-1-1</bp:所在地>
+    <rdfs:label xml:lang="ja">小学館アカデミーアトレ大井町</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7346818</bp:経度>
+    <bp:施設名称 xml:lang="ja">小学館アカデミーアトレ大井町</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6076547</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6076547</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/180">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7005555</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7005555</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台6丁目5-30</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区旗の台6丁目5-30</bp:備考>
+    <rdfs:label xml:lang="ja">帝京にしき幼稚園</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6086499</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6086499</geo:lat>
+    <bp:施設名称 xml:lang="ja">帝京にしき幼稚園</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/59">
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-1-3</bp:所在地>
+    <rdfs:label xml:lang="ja">八潮北保育園</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6046933</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7531379</bp:経度>
+    <bp:施設名称 xml:lang="ja">八潮北保育園</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区八潮5-1-3 
+電話:3799-0531
+併設:都営住宅
+最寄り駅:都営バス 福祉センター前バス停</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7531379</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6046933</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/147">
+    <bp:施設名称 xml:lang="ja">荏原医師会立看護高等専修学校</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6117467</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区中延1-7-12</bp:所在地>
+    <rdfs:label xml:lang="ja">荏原医師会立看護高等専修学校</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区中延1-7-12</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7124623</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6117467</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7124623</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/54">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7267273</bp:経度>
+    <bp:備考 xml:lang="ja">品川区二葉1-4-25 
+電話:3782-6786
+併設:二葉図書館
+最寄り駅:東急大井町線 下神明駅</bp:備考>
+    <rdfs:label xml:lang="ja">二葉保育園</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区二葉1-4-25</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7267273</geo:long>
+    <bp:施設名称 xml:lang="ja">二葉保育園</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6080266</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6080266</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/90">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7081212</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6090273</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区西中延2-17-5</bp:備考>
+    <bp:施設名称 xml:lang="ja">延山小学校</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6090273</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区西中延2-17-5</bp:所在地>
+    <rdfs:label xml:lang="ja">延山小学校</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7081212</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/60">
+    <bp:備考 xml:lang="ja">品川区八潮5-4-16
+電話:3799-0777
+最寄り駅:都営バス 八潮北バス停</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6016830</bp:緯度>
+    <bp:施設名称 xml:lang="ja">八潮西保育園</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7512726</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6016830</geo:lat>
+    <rdfs:label xml:lang="ja">八潮西保育園</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7512726</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-4-16</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/221">
+    <bp:施設名称 xml:lang="ja">まなびの森保育園大崎広小路</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田1-21-8</bp:所在地>
+    <rdfs:label xml:lang="ja">まなびの森保育園大崎広小路</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6229228</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7235350</geo:long>
+    <bp:備考 xml:lang="ja">西五反田1-21-8
+電話:5434-1044
+
+最寄り駅
+東急池上線大崎広小路駅</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6229228</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7235350</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/111">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6194505</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6194505</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7128405</geo:long>
+    <bp:備考 xml:lang="ja">品川区荏原1-24-30</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7128405</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区荏原1-24-30</bp:所在地>
+    <rdfs:label xml:lang="ja">荏原第一中学校</rdfs:label>
+    <bp:施設名称 xml:lang="ja">荏原第一中学校</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/2">
+    <bp:所在地 xml:lang="ja">東京都品川区北品川2-7-21</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7440035</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7440035</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6187796</bp:緯度>
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+区内には25の児童センターがあり、地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区北品川2-7-21 
+電話:3471-2360
+
+併設:北品川保育園</bp:備考>
+    <bp:施設名称 xml:lang="ja">北品川児童センター</bp:施設名称>
+    <rdfs:label xml:lang="ja">北品川児童センター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6187796</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/157">
+    <rdfs:label xml:lang="ja">東京聖星社会福祉専門学校</rdfs:label>
+    <bp:施設名称 xml:lang="ja">東京聖星社会福祉専門学校</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6101723</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区豊町2-16-12</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7251605</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6101723</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区豊町2-16-12</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7251605</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/227">
+    <bp:備考 xml:lang="ja">東大井3-18-2 
+電話:6420-0544 
+
+最寄り駅
+京浜急行線立会川駅</bp:備考>
+    <bp:施設名称 xml:lang="ja">アンジェリカはまかわ</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井3-18-2</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7385083</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6006171</bp:緯度>
+    <rdfs:label xml:lang="ja">アンジェリカはまかわ</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7385083</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6006171</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/116">
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田5-14-2</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区西五反田5-14-2</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7137118</geo:long>
+    <bp:施設名称 xml:lang="ja">攻玉社中学校</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7137118</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6245611</geo:lat>
+    <rdfs:label xml:lang="ja">攻玉社中学校</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6245611</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/135">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7427552</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6133692</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6133692</bp:緯度>
+    <rdfs:label xml:lang="ja">城南幼稚園</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区南品川2-8-21</bp:所在地>
+    <bp:施設名称 xml:lang="ja">城南幼稚園</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区南品川2-8-21 
+
+併設
+城南小学校</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7427552</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/159">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7159311</geo:long>
+    <bp:備考 xml:lang="ja">品川区上大崎4-6-19</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6315141</bp:緯度>
+    <rdfs:label xml:lang="ja">ドレスメーカー学院</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7159311</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区上大崎4-6-19</bp:所在地>
+    <bp:施設名称 xml:lang="ja">ドレスメーカー学院</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6315141</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/228">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6188099</bp:緯度>
+    <rdfs:label xml:lang="ja">グローバルキッズ大崎園</rdfs:label>
+    <bp:備考 xml:lang="ja">北品川5-9-15
+電話:3643-0404
+
+最寄り駅
+JR線大崎駅</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6188099</geo:lat>
+    <bp:施設名称 xml:lang="ja">グローバルキッズ大崎園</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7344056</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7344056</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川5-9-15</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/97">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7085330</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6215871</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区小山2-4-6</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区小山2-4-6</bp:備考>
+    <rdfs:label xml:lang="ja">後地小学校</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6215871</bp:緯度>
+    <bp:施設名称 xml:lang="ja">後地小学校</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7085330</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/24">
+    <bp:備考 xml:lang="ja">児童センターは、児童の健全育成を目的にした施設で、どなたでも自由に利用できます。
+区内には25の児童センターがあり、地域のこどもたちにあそびの楽しさを伝えるよう、さまざまな事業を実施しています。
+
+品川区東大井1-22-16
+電話:3471-1070
+
+併設
+東大井保育園</bp:備考>
+    <rdfs:label xml:lang="ja">東大井児童センター</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7415195</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井1-22-16</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7415195</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6032688</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6032688</geo:lat>
+    <bp:施設名称 xml:lang="ja">東大井児童センター</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/189">
+    <bp:施設名称 xml:lang="ja">第一日野小学校</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7162216</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6223866</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6223866</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田6-5-32</bp:所在地>
+    <rdfs:label xml:lang="ja">第一日野小学校</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区西五反田6-5-32</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7162216</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/225">
+    <bp:備考 xml:lang="ja">大井1-16-2 
+電話:3772-7571
+ 
+最寄り駅:JR線大井町駅</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6076290</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6076290</geo:lat>
+    <rdfs:label xml:lang="ja">あいのもり</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7301940</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7301940</geo:long>
+    <bp:施設名称 xml:lang="ja">あいのもり</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区大井1-16-2</bp:所在地>
+  </rdf:Description>
+</rdf:RDF>
+

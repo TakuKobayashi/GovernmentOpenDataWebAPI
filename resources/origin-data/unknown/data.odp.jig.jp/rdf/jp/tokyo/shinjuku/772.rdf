@@ -1,0 +1,391 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:sac="http://statdb.nstac.go.jp/lod/sac/C"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:odp="http://odp.jig.jp/odp/1.0#"
+    xmlns:schema="http://schema.org/"
+    xmlns:jrrk="http://purl.org/jrrk#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ipa="http://imi.ipa.go.jp/ns/core/rdf#"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:ic="http://imi.go.jp/ns/core/rdf#"
+    xmlns:cal="http://www.w3.org/2002/12/cal/icaltzd#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:gr="http://purl.org/goodrelations/v1#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:georss="http://www.georss.org/georss"
+    xmlns:civicfacility="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/772#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:qb="http://purl.org/linked-data/cube#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:pc="http://purl.org/procurement/public-contracts#">
+  <jrrk:CivicFacility rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/772#%E8%90%BD%E5%90%88%E4%BF%9D%E5%81%A5%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.71944/139.69493">
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13104"/>
+    <ipa:住所>
+      <rdf:Description rdf:nodeID="A0">
+        <rdfs:label xml:lang="ja-Hira">しもおちあい4-6-7</rdfs:label>
+        <rdfs:label xml:lang="ja">下落合4-6-7</rdfs:label>
+        <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+        <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+        <ic:表記 xml:lang="ja">東京都新宿区下落合4-6-7</ic:表記>
+        <ipa:表記 xml:lang="ja">東京都新宿区下落合4-6-7</ipa:表記>
+        <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+        <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+      </rdf:Description>
+    </ipa:住所>
+    <ic:説明 xml:lang="ja">H9.1左記に移設。落合第一特別出張所、落合第一地域センター併設。H11.4.1から保健センター化</ic:説明>
+    <schema:postalCode>161-0033</schema:postalCode>
+    <rdfs:label xml:lang="ja">落合保健センター</rdfs:label>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区下落合四丁目"/>
+    <ipa:連絡先>
+      <rdf:Description rdf:nodeID="A1">
+        <ic:電話番号>03-3952-7161</ic:電話番号>
+        <ipa:電話番号>03-3952-7161</ipa:電話番号>
+      </rdf:Description>
+    </ipa:連絡先>
+    <ic:種別>保健所等</ic:種別>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13104"/>
+    <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >1978-04-01</schema:foundingDate>
+    <jrrk:category>
+      <rdf:Description rdf:about="http://odp.jig.jp/res/category/%E4%BF%9D%E5%81%A5%E6%89%80%E7%AD%89">
+        <rdfs:label>保健所等</rdfs:label>
+      </rdf:Description>
+    </jrrk:category>
+    <schema:telephone>03-3952-7161</schema:telephone>
+    <ic:地理座標>
+      <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.719440/+139.694931/">
+        <ic:緯度>+35.719440</ic:緯度>
+        <ipa:緯度>+35.719440</ipa:緯度>
+        <ic:経度>+139.694931</ic:経度>
+        <ipa:経度>+139.694931</ipa:経度>
+      </rdf:Description>
+    </ic:地理座標>
+    <schema:description xml:lang="ja">H9.1左記に移設。落合第一特別出張所、落合第一地域センター併設。H11.4.1から保健センター化</schema:description>
+    <ipa:説明 xml:lang="ja">H9.1左記に移設。落合第一特別出張所、落合第一地域センター併設。H11.4.1から保健センター化</ipa:説明>
+    <ic:連絡先 rdf:nodeID="A1"/>
+    <ipa:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.719440/+139.694931/"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.69493</geo:long>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A2">
+        <ic:表記 xml:lang="ja">落合保健センター</ic:表記>
+        <ipa:表記 xml:lang="ja">落合保健センター</ipa:表記>
+      </rdf:Description>
+    </ic:名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.71944</geo:lat>
+    <jrrk:address xml:lang="ja">下落合4-6-7</jrrk:address>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ipa:種別>保健所等</ipa:種別>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13104"/>
+    <ipa:名称 rdf:nodeID="A2"/>
+  </jrrk:CivicFacility>
+  <jrrk:CivicFacility rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/772#%E6%96%B0%E5%AE%BF%E5%8C%BA%E4%BF%9D%E5%81%A5%E6%89%80/35.6939/139.70674">
+    <schema:description xml:lang="ja">H11.4.13保健所を統合。H16.2左記に移設。</schema:description>
+    <ic:連絡先>
+      <rdf:Description rdf:nodeID="A3">
+        <ic:電話番号>03-3209-1111</ic:電話番号>
+        <ipa:電話番号>03-3209-1111</ipa:電話番号>
+      </rdf:Description>
+    </ic:連絡先>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.6939</geo:lat>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13104"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13104"/>
+    <rdfs:label xml:lang="ja">新宿区保健所</rdfs:label>
+    <ipa:地理座標>
+      <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.693901/+139.706741/">
+        <ic:緯度>+35.693901</ic:緯度>
+        <ipa:緯度>+35.693901</ipa:緯度>
+        <ic:経度>+139.706741</ic:経度>
+        <ipa:経度>+139.706741</ipa:経度>
+      </rdf:Description>
+    </ipa:地理座標>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A4">
+        <ic:表記 xml:lang="ja">新宿区保健所</ic:表記>
+        <ipa:表記 xml:lang="ja">新宿区保健所</ipa:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ic:説明 xml:lang="ja">H11.4.13保健所を統合。H16.2左記に移設。</ic:説明>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13104"/>
+    <ic:種別>保健所等</ic:種別>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿五丁目"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.693901/+139.706741/"/>
+    <ipa:住所>
+      <rdf:Description rdf:nodeID="A5">
+        <rdfs:label xml:lang="ja-Hira">しんじゅく5-18-21</rdfs:label>
+        <rdfs:label xml:lang="ja">新宿5-18-21</rdfs:label>
+        <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+        <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+        <ic:表記 xml:lang="ja">東京都新宿区新宿5-18-21</ic:表記>
+        <ipa:表記 xml:lang="ja">東京都新宿区新宿5-18-21</ipa:表記>
+        <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+        <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+      </rdf:Description>
+    </ipa:住所>
+    <schema:postalCode>160-0022</schema:postalCode>
+    <jrrk:category rdf:resource="http://odp.jig.jp/res/category/%E4%BF%9D%E5%81%A5%E6%89%80%E7%AD%89"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.70674</geo:long>
+    <ipa:説明 xml:lang="ja">H11.4.13保健所を統合。H16.2左記に移設。</ipa:説明>
+    <jrrk:address xml:lang="ja">新宿5-18-21</jrrk:address>
+    <schema:telephone>03-3209-1111</schema:telephone>
+    <ipa:名称 rdf:nodeID="A4"/>
+    <ic:住所 rdf:nodeID="A5"/>
+    <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >1999-04-01</schema:foundingDate>
+    <ipa:種別>保健所等</ipa:種別>
+    <ipa:連絡先 rdf:nodeID="A3"/>
+  </jrrk:CivicFacility>
+  <jrrk:CivicFacility rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/772#%E5%9B%9B%E8%B0%B7%E4%BF%9D%E5%81%A5%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC+%E5%A5%B3%E6%80%A7%E3%81%AE%E5%81%A5%E5%BA%B7%E6%94%AF%E6%8F%B4%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.68869/139.72415">
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13104"/>
+    <schema:telephone>03-3351-5161</schema:telephone>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A6">
+        <ic:表記 xml:lang="ja">四谷保健センター 女性の健康支援センター</ic:表記>
+        <ipa:表記 xml:lang="ja">四谷保健センター 女性の健康支援センター</ipa:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <ipa:説明 xml:lang="ja">S50.4都から移管。H11.4.1から保健センター化。H26.2現在地に移転。新宿東清掃センター等併設</ipa:説明>
+    <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >1948-10-01</schema:foundingDate>
+    <ic:地理座標>
+      <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.688690/+139.724152/">
+        <ic:緯度>+35.688690</ic:緯度>
+        <ipa:緯度>+35.688690</ipa:緯度>
+        <ic:経度>+139.724152</ic:経度>
+        <ipa:経度>+139.724152</ipa:経度>
+      </rdf:Description>
+    </ic:地理座標>
+    <rdfs:label xml:lang="ja">四谷保健センター 女性の健康支援センター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.68869</geo:lat>
+    <schema:postalCode>160-0008</schema:postalCode>
+    <jrrk:address xml:lang="ja">四谷三栄町10-16</jrrk:address>
+    <ic:名称 rdf:nodeID="A6"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13104"/>
+    <ipa:連絡先>
+      <rdf:Description rdf:nodeID="A7">
+        <ic:電話番号>03-3351-5161</ic:電話番号>
+        <ipa:電話番号>03-3351-5161</ipa:電話番号>
+      </rdf:Description>
+    </ipa:連絡先>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.72415</geo:long>
+    <ic:説明 xml:lang="ja">S50.4都から移管。H11.4.1から保健センター化。H26.2現在地に移転。新宿東清掃センター等併設</ic:説明>
+    <jrrk:category rdf:resource="http://odp.jig.jp/res/category/%E4%BF%9D%E5%81%A5%E6%89%80%E7%AD%89"/>
+    <ipa:住所>
+      <rdf:Description rdf:nodeID="A8">
+        <rdfs:label xml:lang="ja-Hira">よつやさんえいちょう10-16</rdfs:label>
+        <rdfs:label xml:lang="ja">四谷三栄町10-16</rdfs:label>
+        <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+        <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+        <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+        <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+        <ic:表記 xml:lang="ja">東京都新宿区四谷三栄町10-16</ic:表記>
+        <ipa:表記 xml:lang="ja">東京都新宿区四谷三栄町10-16</ipa:表記>
+      </rdf:Description>
+    </ipa:住所>
+    <ic:種別>保健所等</ic:種別>
+    <ipa:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.688690/+139.724152/"/>
+    <ipa:種別>保健所等</ipa:種別>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13104"/>
+    <ic:住所 rdf:nodeID="A8"/>
+    <schema:description xml:lang="ja">S50.4都から移管。H11.4.1から保健センター化。H26.2現在地に移転。新宿東清掃センター等併設</schema:description>
+    <ic:連絡先 rdf:nodeID="A7"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区四谷"/>
+  </jrrk:CivicFacility>
+  <odp:Dataset rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/772">
+    <dcat:theme rdf:resource="http://purl.org/jrrk#CivicFacility"/>
+    <odp:target rdf:resource="http://purl.org/jrrk#CivicFacility"/>
+    <dcterms:publisher rdf:parseType="Resource">
+      <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13104"/>
+      <rdfs:label>東京都新宿区</rdfs:label>
+      <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13104"/>
+    </dcterms:publisher>
+    <dcterms:references rdf:resource="http://ckan.odp.jig.jp/dataset/jp-tokyo-shinjuku-772-odp"/>
+    <schema:version>3.7</schema:version>
+    <dcterms:modified>2021-02-10</dcterms:modified>
+    <dc:title>公共施設</dc:title>
+  </odp:Dataset>
+  <jrrk:CivicFacility rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/772#%E5%81%A5%E5%BA%B7%E9%83%A8%E5%88%86%E5%AE%A4/35.69711/139.6985">
+    <ipa:地理座標>
+      <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.697109/+139.698502/">
+        <ic:緯度>+35.697109</ic:緯度>
+        <ipa:緯度>+35.697109</ipa:緯度>
+        <ic:経度>+139.698502</ic:経度>
+        <ipa:経度>+139.698502</ipa:経度>
+      </rdf:Description>
+    </ipa:地理座標>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13104"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A9">
+        <ic:表記 xml:lang="ja">健康部分室</ic:表記>
+        <ipa:表記 xml:lang="ja">健康部分室</ipa:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.6985</geo:long>
+    <ic:名称 rdf:nodeID="A9"/>
+    <ipa:説明 xml:lang="ja">H26.6 西新宿保健センターの移転に伴い開室。新宿都税事務所1～2階。H28.10 人材育成センター(766㎡）・新宿自治創造研究所（78㎡）併設</ipa:説明>
+    <ic:種別>保健所等</ic:種別>
+    <ic:住所>
+      <rdf:Description rdf:nodeID="A10">
+        <rdfs:label xml:lang="ja-Hira">にししんじゅく7-5-8</rdfs:label>
+        <rdfs:label xml:lang="ja">西新宿7-5-8</rdfs:label>
+        <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+        <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+        <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+        <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+        <ic:表記 xml:lang="ja">東京都新宿区西新宿7-5-8</ic:表記>
+        <ipa:表記 xml:lang="ja">東京都新宿区西新宿7-5-8</ipa:表記>
+      </rdf:Description>
+    </ic:住所>
+    <ipa:住所 rdf:nodeID="A10"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.69711</geo:lat>
+    <jrrk:category rdf:resource="http://odp.jig.jp/res/category/%E4%BF%9D%E5%81%A5%E6%89%80%E7%AD%89"/>
+    <ipa:種別>保健所等</ipa:種別>
+    <jrrk:address xml:lang="ja">西新宿7-5-8</jrrk:address>
+    <schema:telephone>03-5389-5331</schema:telephone>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区西新宿七丁目"/>
+    <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2014-06-30</schema:foundingDate>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.697109/+139.698502/"/>
+    <ic:説明 xml:lang="ja">H26.6 西新宿保健センターの移転に伴い開室。新宿都税事務所1～2階。H28.10 人材育成センター(766㎡）・新宿自治創造研究所（78㎡）併設</ic:説明>
+    <schema:description xml:lang="ja">H26.6 西新宿保健センターの移転に伴い開室。新宿都税事務所1～2階。H28.10 人材育成センター(766㎡）・新宿自治創造研究所（78㎡）併設</schema:description>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13104"/>
+    <ic:連絡先>
+      <rdf:Description rdf:nodeID="A11">
+        <ic:電話番号>03-5389-5331</ic:電話番号>
+        <ipa:電話番号>03-5389-5331</ipa:電話番号>
+      </rdf:Description>
+    </ic:連絡先>
+    <ipa:連絡先 rdf:nodeID="A11"/>
+    <rdfs:label xml:lang="ja">健康部分室</rdfs:label>
+    <schema:postalCode>160-0023</schema:postalCode>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13104"/>
+  </jrrk:CivicFacility>
+  <jrrk:CivicFacility rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/772#%E6%9D%B1%E6%96%B0%E5%AE%BF%E4%BF%9D%E5%81%A5%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.69916/139.7092">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.7092</geo:long>
+    <ipa:地理座標>
+      <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.699162/+139.709198/">
+        <ic:緯度>+35.699162</ic:緯度>
+        <ipa:緯度>+35.699162</ipa:緯度>
+        <ic:経度>+139.709198</ic:経度>
+        <ipa:経度>+139.709198</ipa:経度>
+      </rdf:Description>
+    </ipa:地理座標>
+    <jrrk:address xml:lang="ja">新宿7-26-4</jrrk:address>
+    <ic:住所>
+      <rdf:Description rdf:nodeID="A12">
+        <rdfs:label xml:lang="ja-Hira">しんじゅく7-26-4</rdfs:label>
+        <rdfs:label xml:lang="ja">新宿7-26-4</rdfs:label>
+        <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+        <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+        <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+        <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+        <ic:表記 xml:lang="ja">東京都新宿区新宿7-26-4</ic:表記>
+        <ipa:表記 xml:lang="ja">東京都新宿区新宿7-26-4</ipa:表記>
+      </rdf:Description>
+    </ic:住所>
+    <schema:postalCode>160-0022</schema:postalCode>
+    <ic:連絡先>
+      <rdf:Description rdf:nodeID="A13">
+        <ic:電話番号>03-3200-1026</ic:電話番号>
+        <ipa:電話番号>03-3200-1026</ipa:電話番号>
+      </rdf:Description>
+    </ic:連絡先>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.69916</geo:lat>
+    <ic:説明 xml:lang="ja">S50.4都から移管。H11.4.1から保健センター化（西新宿保健センター）H26.6現在地に移転、名称変更。新宿区医師会区民健康センター併設</ic:説明>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A14">
+        <ic:表記 xml:lang="ja">東新宿保健センター</ic:表記>
+        <ipa:表記 xml:lang="ja">東新宿保健センター</ipa:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13104"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区新宿七丁目"/>
+    <jrrk:category rdf:resource="http://odp.jig.jp/res/category/%E4%BF%9D%E5%81%A5%E6%89%80%E7%AD%89"/>
+    <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >2014-06-30</schema:foundingDate>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.699162/+139.709198/"/>
+    <ipa:住所 rdf:nodeID="A12"/>
+    <ic:名称 rdf:nodeID="A14"/>
+    <ipa:連絡先 rdf:nodeID="A13"/>
+    <rdfs:label xml:lang="ja">東新宿保健センター</rdfs:label>
+    <schema:description xml:lang="ja">S50.4都から移管。H11.4.1から保健センター化（西新宿保健センター）H26.6現在地に移転、名称変更。新宿区医師会区民健康センター併設</schema:description>
+    <ipa:説明 xml:lang="ja">S50.4都から移管。H11.4.1から保健センター化（西新宿保健センター）H26.6現在地に移転、名称変更。新宿区医師会区民健康センター併設</ipa:説明>
+    <ic:種別>保健所等</ic:種別>
+    <schema:telephone>03-3200-1026</schema:telephone>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13104"/>
+    <ipa:種別>保健所等</ipa:種別>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13104"/>
+  </jrrk:CivicFacility>
+  <jrrk:CivicFacility rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinjuku/772#%E7%89%9B%E8%BE%BC%E4%BF%9D%E5%81%A5%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.70324/139.72742">
+    <schema:postalCode>162-0851</schema:postalCode>
+    <ic:連絡先>
+      <rdf:Description rdf:nodeID="A15">
+        <ic:電話番号>03-3260-6231</ic:電話番号>
+        <ipa:電話番号>03-3260-6231</ipa:電話番号>
+      </rdf:Description>
+    </ic:連絡先>
+    <rdfs:label xml:lang="ja">牛込保健センター</rdfs:label>
+    <ic:種別>保健所等</ic:種別>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13104"/>
+    <ic:地理座標>
+      <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.703239/+139.727417/">
+        <ic:緯度>+35.703239</ic:緯度>
+        <ipa:緯度>+35.703239</ipa:緯度>
+        <ic:経度>+139.727417</ic:経度>
+        <ipa:経度>+139.727417</ipa:経度>
+      </rdf:Description>
+    </ic:地理座標>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都新宿区弁天町"/>
+    <ipa:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.703239/+139.727417/"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A16">
+        <ic:表記 xml:lang="ja">牛込保健センター</ic:表記>
+        <ipa:表記 xml:lang="ja">牛込保健センター</ipa:表記>
+      </rdf:Description>
+    </ic:名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.70324</geo:lat>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13104"/>
+    <ipa:名称 rdf:nodeID="A16"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13104"/>
+    <jrrk:category rdf:resource="http://odp.jig.jp/res/category/%E4%BF%9D%E5%81%A5%E6%89%80%E7%AD%89"/>
+    <ic:住所>
+      <rdf:Description rdf:nodeID="A17">
+        <rdfs:label xml:lang="ja-Hira">べんてんちょう50</rdfs:label>
+        <rdfs:label xml:lang="ja">弁天町50</rdfs:label>
+        <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+        <ipa:市区町村 xml:lang="ja">新宿区</ipa:市区町村>
+        <ic:市区町村 xml:lang="ja">新宿区</ic:市区町村>
+        <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+        <ic:表記 xml:lang="ja">東京都新宿区弁天町50</ic:表記>
+        <ipa:表記 xml:lang="ja">東京都新宿区弁天町50</ipa:表記>
+      </rdf:Description>
+    </ic:住所>
+    <schema:foundingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+    >1948-10-01</schema:foundingDate>
+    <ipa:連絡先 rdf:nodeID="A15"/>
+    <ipa:説明 xml:lang="ja">S26.9左記に移設。S50.4都から移管。S51.4改築。弁天町保育園併設。H10.4新宿生活実習所併設。H11.4.1から保健センター化。R3.6.14から矢来町6に移転。</ipa:説明>
+    <ipa:住所 rdf:nodeID="A17"/>
+    <schema:telephone>03-3260-6231</schema:telephone>
+    <ic:説明 xml:lang="ja">S26.9左記に移設。S50.4都から移管。S51.4改築。弁天町保育園併設。H10.4新宿生活実習所併設。H11.4.1から保健センター化。R3.6.14から矢来町6に移転。</ic:説明>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.72742</geo:long>
+    <jrrk:address xml:lang="ja">弁天町50</jrrk:address>
+    <ipa:種別>保健所等</ipa:種別>
+    <schema:description xml:lang="ja">S26.9左記に移設。S50.4都から移管。S51.4改築。弁天町保育園併設。H10.4新宿生活実習所併設。H11.4.1から保健センター化。R3.6.14から矢来町6に移転。</schema:description>
+  </jrrk:CivicFacility>
+</rdf:RDF>

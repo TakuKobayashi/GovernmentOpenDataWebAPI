@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "名称": "大井警察署", "緯度": 35.5989109, "経度": 139.7298653 }, "geometry": { "type": "Point", "coordinates": [ 139.7298653, 35.5989109 ] } },
+{ "type": "Feature", "properties": { "名称": "荏原警察署", "緯度": 35.6120395, "経度": 139.7062371 }, "geometry": { "type": "Point", "coordinates": [ 139.70623710000001, 35.6120395 ] } },
+{ "type": "Feature", "properties": { "名称": "品川警察署", "緯度": 35.6138397, "経度": 139.7450501 }, "geometry": { "type": "Point", "coordinates": [ 139.7450501, 35.6138397 ] } },
+{ "type": "Feature", "properties": { "名称": "大崎警察署", "緯度": 35.6217168, "経度": 139.7241446 }, "geometry": { "type": "Point", "coordinates": [ 139.7241446, 35.6217168 ] } }
+]
+}

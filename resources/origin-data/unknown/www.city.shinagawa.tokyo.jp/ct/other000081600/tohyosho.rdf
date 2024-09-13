@@ -1,0 +1,1754 @@
+<rdf:RDF
+    xmlns:jrrk="http://purl.org/jrrk#"
+    xmlns:ic231="http://imi.ipa.go.jp/ns/core/rdf#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:sac="http://statdb.nstac.go.jp/lod/sac/C"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:pc="http://purl.org/procurement/public-contracts#"
+    xmlns:odp="http://odp.jig.jp/odp/1.0#"
+    xmlns:schema="http://schema.org/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:gr="http://purl.org/goodrelations/v1#"
+    xmlns:ic="http://imi.go.jp/ns/core/rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:polls="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#"
+    xmlns:qb="http://purl.org/linked-data/cube#"
+    xmlns:georss="http://www.georss.org/georss"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:cal="http://www.w3.org/2002/12/cal/icaltzd#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" > 
+  <rdf:Description rdf:nodeID="A0">
+    <ic231:表記 xml:lang="ja">小山小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">小山小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#43/%E3%81%93%E3%81%BF%E3%82%85%E3%81%AB%E3%81%A6%E3%81%83%E3%81%B7%E3%82%89%E3%81%96%E5%85%AB%E6%BD%AE/">
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.598202/+139.752350/"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区八潮五丁目"/>
+    <odp:precinct rdf:nodeID="A1"/>
+    <ic:住所 rdf:nodeID="A2"/>
+    <rdfs:label xml:lang="ja">こみゅにてぃぷらざ八潮</rdfs:label>
+    <ic231:名称 rdf:nodeID="A3"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.752355</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.5982</geo:lat>
+    <ic231:住所 rdf:nodeID="A2"/>
+    <ic:名称 rdf:nodeID="A3"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.598202/+139.752350/"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#13/%E3%82%B7%E3%83%86%E3%82%A3%E3%82%B3%E3%83%BC%E3%83%88%E7%9B%AE%E9%BB%92/">
+    <ic231:住所 rdf:nodeID="A4"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区上大崎二丁目"/>
+    <ic231:名称 rdf:nodeID="A5"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.717125</geo:long>
+    <ic:名称 rdf:nodeID="A5"/>
+    <ic:住所 rdf:nodeID="A4"/>
+    <rdfs:label xml:lang="ja">シティコート目黒</rdfs:label>
+    <odp:precinct rdf:nodeID="A6"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.635799/+139.717133/"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.635799/+139.717133/"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.6358</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区東大井2-10-14</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区東大井2-10-14</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区東大井2-10-14</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくひがしおおい２－１０－１４</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.603447/+139.711670/">
+    <ic231:経度>+139.711670</ic231:経度>
+    <ic:経度>+139.711670</ic:経度>
+    <ic231:緯度>+35.603447</ic231:緯度>
+    <ic:緯度>+35.603447</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#1/%E5%BE%A1%E6%AE%BF%E5%B1%B1%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:名称 rdf:nodeID="A8"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区北品川五丁目"/>
+    <ic:名称 rdf:nodeID="A8"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.623135/+139.731766/"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:住所 rdf:nodeID="A9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.623133</geo:lat>
+    <odp:precinct rdf:nodeID="A10"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.731772</geo:long>
+    <ic:住所 rdf:nodeID="A9"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.623135/+139.731766/"/>
+    <rdfs:label xml:lang="ja">御殿山小学校</rdfs:label>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <rdfs:label xml:lang="ja">第34投票区</rdfs:label>
+    <dcterms:identifier>34</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#36/%E5%A4%A7%E5%8E%9F%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <ic:住所 rdf:nodeID="A12"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.607323</geo:lat>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdfs:label xml:lang="ja">大原小学校</rdfs:label>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.607323/+139.716003/"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.715998</geo:long>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.607323/+139.716003/"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区戸越六丁目"/>
+    <ic231:住所 rdf:nodeID="A12"/>
+    <ic:名称 rdf:nodeID="A13"/>
+    <odp:precinct rdf:nodeID="A14"/>
+    <ic231:名称 rdf:nodeID="A13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.594479/+139.735245/">
+    <ic231:経度>+139.735245</ic231:経度>
+    <ic:経度>+139.735245</ic:経度>
+    <ic231:緯度>+35.594479</ic231:緯度>
+    <ic:緯度>+35.594479</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A15">
+    <rdfs:label xml:lang="ja">第21投票区</rdfs:label>
+    <dcterms:identifier>21</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A16">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区南品川2-8-21</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区南品川2-8-21</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区南品川2-8-21</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくみなみしながわ２－８－２１</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A17">
+    <ic231:表記 xml:lang="ja">芳水小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">芳水小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A18">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区二葉1-3-40</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区二葉1-3-40</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区二葉1-3-40</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくふたば１－３－４０</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.598755/+139.717285/">
+    <ic231:経度>+139.717285</ic231:経度>
+    <ic:経度>+139.717285</ic:経度>
+    <ic231:緯度>+35.598755</ic231:緯度>
+    <ic:緯度>+35.598755</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A19">
+    <ic231:表記 xml:lang="ja">東京都品川区南大井4-16-2</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区南大井4-16-2</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区南大井4-16-2</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくみなみおおい４－１６－２</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A20">
+    <ic231:表記 xml:lang="ja">立会小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">立会小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#12/%E7%AC%AC%E5%9B%9B%E6%97%A5%E9%87%8E%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <ic231:住所 rdf:nodeID="A21"/>
+    <ic:名称 rdf:nodeID="A22"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:名称 rdf:nodeID="A22"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.625805/+139.712341/"/>
+    <rdfs:label xml:lang="ja">第四日野小学校</rdfs:label>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区西五反田四丁目"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.625804</geo:lat>
+    <odp:precinct rdf:nodeID="A23"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.625805/+139.712341/"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:住所 rdf:nodeID="A21"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.712343</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A24">
+    <ic231:表記 xml:lang="ja">大井第一小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">大井第一小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A25">
+    <rdfs:label xml:lang="ja">第8投票区</rdfs:label>
+    <dcterms:identifier>8</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A26">
+    <ic231:表記 xml:lang="ja">東京都品川区小山5-10-6</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区小山5-10-6</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区小山5-10-6</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくこやま５－１０－６</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A27">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区旗の台4-7-11</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区旗の台4-7-11</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区旗の台4-7-11</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくはたのだい４－７－１１</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#31/%E4%BA%AC%E9%99%BD%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdfs:label xml:lang="ja">京陽小学校</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.713079</geo:long>
+    <ic231:住所 rdf:nodeID="A28"/>
+    <ic:名称 rdf:nodeID="A29"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <odp:precinct rdf:nodeID="A30"/>
+    <ic231:名称 rdf:nodeID="A29"/>
+    <ic:住所 rdf:nodeID="A28"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.615116/+139.713074/"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.615116/+139.713074/"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区平塚二丁目"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.615117</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.599255/+139.721863/">
+    <ic231:経度>+139.721863</ic231:経度>
+    <ic:経度>+139.721863</ic:経度>
+    <ic231:緯度>+35.599255</ic231:緯度>
+    <ic:緯度>+35.599255</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A31">
+    <ic231:表記 xml:lang="ja">荏原特別養護老人ホーム</ic231:表記>
+    <ic:表記 xml:lang="ja">荏原特別養護老人ホーム</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.632790/+139.723923/">
+    <ic231:経度>+139.723923</ic231:経度>
+    <ic:経度>+139.723923</ic:経度>
+    <ic231:緯度>+35.632790</ic231:緯度>
+    <ic:緯度>+35.632790</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.615528/+139.726852/">
+    <ic231:経度>+139.726852</ic231:経度>
+    <ic:経度>+139.726852</ic:経度>
+    <ic231:緯度>+35.615528</ic231:緯度>
+    <ic:緯度>+35.615528</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A32">
+    <rdfs:label xml:lang="ja">第14投票区</rdfs:label>
+    <dcterms:identifier>14</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.607422/+139.702332/">
+    <ic231:経度>+139.702332</ic231:経度>
+    <ic:経度>+139.702332</ic:経度>
+    <ic231:緯度>+35.607422</ic231:緯度>
+    <ic:緯度>+35.607422</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A22">
+    <ic231:表記 xml:lang="ja">第四日野小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">第四日野小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A33">
+    <rdfs:label xml:lang="ja">第4投票区</rdfs:label>
+    <dcterms:identifier>4</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A34">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区中延6-2-18</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区中延6-2-18</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区中延6-2-18</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくなかのぶ６－２－１８</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A35">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区西大井2-5-21</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区西大井2-5-21</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区西大井2-5-21</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくにしおおい２－５－２１</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#26/%E8%8D%8F%E5%8E%9F%E7%AC%AC%E5%85%AD%E4%B8%AD%E5%AD%A6%E6%A0%A1/">
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.616001/+139.703247/"/>
+    <rdfs:label xml:lang="ja">荏原第六中学校</rdfs:label>
+    <odp:precinct rdf:nodeID="A36"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.616002</geo:lat>
+    <ic231:名称 rdf:nodeID="A37"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.703249</geo:long>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:住所 rdf:nodeID="A38"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区小山五丁目"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.616001/+139.703247/"/>
+    <ic231:住所 rdf:nodeID="A38"/>
+    <ic:名称 rdf:nodeID="A37"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A39">
+    <ic231:表記 xml:lang="ja">延山小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">延山小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A13">
+    <ic231:表記 xml:lang="ja">大原小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">大原小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A40">
+    <ic231:表記 xml:lang="ja">城南第二小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">城南第二小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A41">
+    <rdfs:label xml:lang="ja">第17投票区</rdfs:label>
+    <dcterms:identifier>17</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A42">
+    <rdfs:label xml:lang="ja">第30投票区</rdfs:label>
+    <dcterms:identifier>30</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.615116/+139.713074/">
+    <ic231:経度>+139.713074</ic231:経度>
+    <ic:経度>+139.713074</ic:経度>
+    <ic231:緯度>+35.615116</ic231:緯度>
+    <ic:緯度>+35.615116</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A43">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区東五反田2-11-1</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区東五反田2-11-1</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区東五反田2-11-1</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくひがしごたんだ２－１１－１</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A44">
+    <rdfs:label xml:lang="ja">第25投票区</rdfs:label>
+    <dcterms:identifier>25</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A45">
+    <ic231:表記 xml:lang="ja">東京都品川区東大井4-15-9</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区東大井4-15-9</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区東大井4-15-9</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくひがしおおい４－１５－９</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A46">
+    <ic231:表記 xml:lang="ja">小山台小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">小山台小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A47">
+    <ic231:表記 xml:lang="ja">私立明晴学園</ic231:表記>
+    <ic:表記 xml:lang="ja">私立明晴学園</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A48">
+    <rdfs:label xml:lang="ja">第22投票区</rdfs:label>
+    <dcterms:identifier>22</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A49">
+    <ic231:表記 xml:lang="ja">東京都品川区南品川6-15-20</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区南品川6-15-20</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区南品川6-15-20</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくみなみしながわ６－１５－２０</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A50">
+    <ic231:表記 xml:lang="ja">伊藤小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">伊藤小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A51">
+    <ic231:表記 xml:lang="ja">東京都品川区二葉4-4-10</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区二葉4-4-10</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区二葉4-4-10</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくふたば４－４－１０</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A52">
+    <ic231:表記 xml:lang="ja">戸越小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">戸越小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A28">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区平塚2-19-20</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区平塚2-19-20</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区平塚2-19-20</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくひらつか２－１９－２０</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#8/%E8%8A%B3%E6%B0%B4%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdfs:label xml:lang="ja">芳水小学校</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.619255</geo:lat>
+    <ic231:住所 rdf:nodeID="A53"/>
+    <ic231:名称 rdf:nodeID="A17"/>
+    <ic:住所 rdf:nodeID="A53"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.724717</geo:long>
+    <ic:名称 rdf:nodeID="A17"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.619255/+139.724716/"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区大崎三丁目"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.619255/+139.724716/"/>
+    <odp:precinct rdf:nodeID="A25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#30/%E6%97%97%E5%8F%B0%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区旗の台四丁目"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.704194</geo:long>
+    <ic:名称 rdf:nodeID="A54"/>
+    <rdfs:label xml:lang="ja">旗台小学校</rdfs:label>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.603354</geo:lat>
+    <odp:precinct rdf:nodeID="A42"/>
+    <ic231:名称 rdf:nodeID="A54"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <ic231:住所 rdf:nodeID="A27"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.603355/+139.704193/"/>
+    <ic:住所 rdf:nodeID="A27"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.603355/+139.704193/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A55">
+    <rdfs:label xml:lang="ja">第9投票区</rdfs:label>
+    <dcterms:identifier>9</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A38">
+    <ic231:表記 xml:lang="ja">東京都品川区小山5-20-19</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区小山5-20-19</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区小山5-20-19</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくこやま５－２０－１９</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.598721/+139.731186/">
+    <ic231:経度>+139.731186</ic231:経度>
+    <ic:経度>+139.731186</ic:経度>
+    <ic231:緯度>+35.598721</ic231:緯度>
+    <ic:緯度>+35.598721</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <rdfs:label xml:lang="ja">第13投票区</rdfs:label>
+    <dcterms:identifier>13</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A56">
+    <ic231:表記 xml:lang="ja">城南小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">城南小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <ic231:表記 xml:lang="ja">東京都品川区八潮5-9-11</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区八潮5-9-11</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区八潮5-9-11</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくやしお５－９－１１</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A57">
+    <ic231:表記 xml:lang="ja">第二延山小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">第二延山小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A58">
+    <ic231:表記 xml:lang="ja">東京都品川区西大井5-6-8</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区西大井5-6-8</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区西大井5-6-8</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくにしおおい５－６－８</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#5/%E5%9F%8E%E5%8D%97%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <ic:名称 rdf:nodeID="A56"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.742746</geo:long>
+    <ic:住所 rdf:nodeID="A16"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.613331/+139.742752/"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.613331/+139.742752/"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <odp:precinct rdf:nodeID="A59"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <ic231:名称 rdf:nodeID="A56"/>
+    <rdfs:label xml:lang="ja">城南小学校</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.613329</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区南品川二丁目"/>
+    <ic231:住所 rdf:nodeID="A16"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A60">
+    <ic231:表記 xml:lang="ja">東京都品川区戸越1-15-23</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区戸越1-15-23</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区戸越1-15-23</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくとごし１－１５－２３</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#41/%E9%88%B4%E3%83%B6%E6%A3%AE%E4%B8%AD%E5%AD%A6%E6%A0%A1/">
+    <ic:名称 rdf:nodeID="A61"/>
+    <odp:precinct rdf:nodeID="A62"/>
+    <ic231:名称 rdf:nodeID="A61"/>
+    <rdfs:label xml:lang="ja">鈴ヶ森中学校</rdfs:label>
+    <ic:住所 rdf:nodeID="A63"/>
+    <ic231:住所 rdf:nodeID="A63"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.593147/+139.737778/"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区南大井二丁目"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.593147/+139.737778/"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.73778</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.593149</geo:lat>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A64">
+    <ic231:表記 xml:lang="ja">戸越台中学校</ic231:表記>
+    <ic:表記 xml:lang="ja">戸越台中学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A59">
+    <rdfs:label xml:lang="ja">第5投票区</rdfs:label>
+    <dcterms:identifier>5</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#21/%E3%82%A6%E3%82%A7%E3%83%AB%E3%82%AB%E3%83%A0%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E5%8E%9F/">
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <ic:名称 rdf:nodeID="A65"/>
+    <rdfs:label xml:lang="ja">ウェルカムセンター原</rdfs:label>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:住所 rdf:nodeID="A35"/>
+    <ic231:住所 rdf:nodeID="A35"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.721865</geo:long>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:名称 rdf:nodeID="A65"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.599255</geo:lat>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.599255/+139.721863/"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.599255/+139.721863/"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区西大井二丁目"/>
+    <odp:precinct rdf:nodeID="A15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.593147/+139.737778/">
+    <ic231:経度>+139.737778</ic231:経度>
+    <ic:経度>+139.737778</ic:経度>
+    <ic231:緯度>+35.593147</ic231:緯度>
+    <ic:緯度>+35.593147</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#9/%E6%97%A5%E9%87%8E%E5%AD%A6%E5%9C%92/">
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <ic231:名称 rdf:nodeID="A66"/>
+    <odp:precinct rdf:nodeID="A55"/>
+    <ic231:住所 rdf:nodeID="A43"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdfs:label xml:lang="ja">日野学園</rdfs:label>
+    <ic:住所 rdf:nodeID="A43"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区東五反田二丁目"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.624504/+139.728165/"/>
+    <ic:名称 rdf:nodeID="A66"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.728169</geo:long>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.624504/+139.728165/"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.624505</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A67">
+    <rdfs:label xml:lang="ja">第16投票区</rdfs:label>
+    <dcterms:identifier>16</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A68">
+    <ic231:表記 xml:lang="ja">杜松小跡地域密着型多機能ホーム</ic231:表記>
+    <ic:表記 xml:lang="ja">杜松小跡地域密着型多機能ホーム</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.602787/+139.729919/">
+    <ic231:経度>+139.729919</ic231:経度>
+    <ic:経度>+139.729919</ic:経度>
+    <ic231:緯度>+35.602787</ic231:緯度>
+    <ic:緯度>+35.602787</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A69">
+    <rdfs:label xml:lang="ja">第39投票区</rdfs:label>
+    <dcterms:identifier>39</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A70">
+    <ic231:表記 xml:lang="ja">東京都品川区上大崎1-19-19</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区上大崎1-19-19</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区上大崎1-19-19</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくかみおおさき１－１９－１９</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A36">
+    <rdfs:label xml:lang="ja">第26投票区</rdfs:label>
+    <dcterms:identifier>26</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A30">
+    <rdfs:label xml:lang="ja">第31投票区</rdfs:label>
+    <dcterms:identifier>31</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A71">
+    <ic231:表記 xml:lang="ja">品川学園</ic231:表記>
+    <ic:表記 xml:lang="ja">品川学園</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399">
+    <dc:title>投票場所</dc:title>
+    <dc:creator>情報推進課</dc:creator>
+    <dcterms:created>2015-07-22</dcterms:created>
+    <dcterms:modified>2015-07-22</dcterms:modified>
+    <schema:version rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</schema:version>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Dataset"/>
+    <dcterms:references rdf:resource="http://ckan.odp.jig.jp/dataset/jp-tokyo-shinagawa-399-odp"/>
+    <dcterms:publisher rdf:nodeID="A72"/>
+    <odp:target rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A73">
+    <ic231:表記 xml:lang="ja">東京都品川区西品川3-16-28</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区西品川3-16-28</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区西品川3-16-28</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくにししながわ３－１６－２８</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#27/%E8%8D%8F%E5%8E%9F%E7%89%B9%E5%88%A5%E9%A4%8A%E8%AD%B7%E8%80%81%E4%BA%BA%E3%83%9B%E3%83%BC%E3%83%A0/">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.711504</geo:long>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.617188/+139.711502/"/>
+    <rdfs:label xml:lang="ja">荏原特別養護老人ホーム</rdfs:label>
+    <ic:住所 rdf:nodeID="A74"/>
+    <ic:名称 rdf:nodeID="A31"/>
+    <odp:precinct rdf:nodeID="A75"/>
+    <ic231:名称 rdf:nodeID="A31"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区荏原二丁目"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.617186</geo:lat>
+    <ic231:住所 rdf:nodeID="A74"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.617188/+139.711502/"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A76">
+    <rdfs:label xml:lang="ja">第42投票区</rdfs:label>
+    <dcterms:identifier>42</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A54">
+    <ic231:表記 xml:lang="ja">旗台小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">旗台小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A77">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区旗の台1-6-1</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区旗の台1-6-1</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区旗の台1-6-1</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくはたのだい１－６－１</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#24/%E5%BE%8C%E5%9C%B0%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <ic:名称 rdf:nodeID="A78"/>
+    <odp:precinct rdf:nodeID="A79"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.621568</geo:lat>
+    <ic231:名称 rdf:nodeID="A78"/>
+    <ic231:住所 rdf:nodeID="A80"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdfs:label xml:lang="ja">後地小学校</rdfs:label>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.621567/+139.708572/"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.621567/+139.708572/"/>
+    <ic:住所 rdf:nodeID="A80"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区小山二丁目"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.708571</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A81">
+    <rdfs:label xml:lang="ja">第10投票区</rdfs:label>
+    <dcterms:identifier>10</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#6/%E9%83%BD%E7%AB%8B%E5%93%81%E5%B7%9D%E7%89%B9%E5%88%A5%E6%94%AF%E6%8F%B4%E5%AD%A6%E6%A0%A1/">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.738139</geo:long>
+    <ic:住所 rdf:nodeID="A49"/>
+    <rdfs:label xml:lang="ja">都立品川特別支援学校</rdfs:label>
+    <odp:precinct rdf:nodeID="A82"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:住所 rdf:nodeID="A49"/>
+    <ic:名称 rdf:nodeID="A83"/>
+    <ic231:名称 rdf:nodeID="A83"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.609695/+139.738144/"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.609695/+139.738144/"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区南品川六丁目"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.609696</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A84">
+    <rdfs:label xml:lang="ja">第19投票区</rdfs:label>
+    <dcterms:identifier>19</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <ic231:表記 xml:lang="ja">こみゅにてぃぷらざ八潮</ic231:表記>
+    <ic:表記 xml:lang="ja">こみゅにてぃぷらざ八潮</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A85">
+    <rdfs:label xml:lang="ja">第7投票区</rdfs:label>
+    <dcterms:identifier>7</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A86">
+    <ic231:表記 xml:lang="ja">東京都品川区豊町4-24-15</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区豊町4-24-15</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区豊町4-24-15</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくゆたかちょう４－２４－１５</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A82">
+    <rdfs:label xml:lang="ja">第6投票区</rdfs:label>
+    <dcterms:identifier>6</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A87">
+    <ic231:表記 xml:lang="ja">東京都品川区八潮5-2-1</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区八潮5-2-1</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区八潮5-2-1</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくやしお５－２－１</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A72">
+    <rdfs:label>東京都品川区</rdfs:label>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A88">
+    <rdfs:label xml:lang="ja">第28投票区</rdfs:label>
+    <dcterms:identifier>28</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.598202/+139.752350/">
+    <ic231:経度>+139.752350</ic231:経度>
+    <ic:経度>+139.752350</ic:経度>
+    <ic231:緯度>+35.598202</ic231:緯度>
+    <ic:緯度>+35.598202</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A89">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区西五反田6-5-32</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区西五反田6-5-32</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区西五反田6-5-32</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくにしごたんだ６－５－３２</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A90">
+    <ic231:表記 xml:lang="ja">伊藤学園</ic231:表記>
+    <ic:表記 xml:lang="ja">伊藤学園</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#33/%E5%BB%B6%E5%B1%B1%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <odp:precinct rdf:nodeID="A91"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.609012</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区西中延二丁目"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.609013/+139.708084/"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <ic231:名称 rdf:nodeID="A39"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:住所 rdf:nodeID="A92"/>
+    <rdfs:label xml:lang="ja">延山小学校</rdfs:label>
+    <ic:名称 rdf:nodeID="A39"/>
+    <ic231:住所 rdf:nodeID="A92"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.609013/+139.708084/"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.708082</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.619255/+139.724716/">
+    <ic231:経度>+139.724716</ic231:経度>
+    <ic:経度>+139.724716</ic:経度>
+    <ic231:緯度>+35.619255</ic231:緯度>
+    <ic:緯度>+35.619255</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A93">
+    <rdfs:label xml:lang="ja">第38投票区</rdfs:label>
+    <dcterms:identifier>38</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A94">
+    <rdfs:label xml:lang="ja">第20投票区</rdfs:label>
+    <dcterms:identifier>20</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A91">
+    <rdfs:label xml:lang="ja">第33投票区</rdfs:label>
+    <dcterms:identifier>33</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#34/%E6%BA%90%E6%B0%8F%E5%89%8D%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <ic:住所 rdf:nodeID="A34"/>
+    <ic231:名称 rdf:nodeID="A95"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.603448</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.711677</geo:long>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.603447/+139.711670/"/>
+    <ic231:住所 rdf:nodeID="A34"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <rdfs:label xml:lang="ja">源氏前小学校</rdfs:label>
+    <ic:名称 rdf:nodeID="A95"/>
+    <odp:precinct rdf:nodeID="A11"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.603447/+139.711670/"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区中延六丁目"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A96">
+    <ic231:表記 xml:lang="ja">東京都品川区豊町2-1-20</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区豊町2-1-20</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区豊町2-1-20</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくゆたかちょう２－１－２０</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.609695/+139.738144/">
+    <ic231:経度>+139.738144</ic231:経度>
+    <ic:経度>+139.738144</ic:経度>
+    <ic231:緯度>+35.609695</ic231:緯度>
+    <ic:緯度>+35.609695</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#22/%E4%BC%8A%E8%97%A4%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.598755/+139.717285/"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.717279</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.598755</geo:lat>
+    <rdfs:label xml:lang="ja">伊藤小学校</rdfs:label>
+    <odp:precinct rdf:nodeID="A48"/>
+    <ic:住所 rdf:nodeID="A58"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <ic231:住所 rdf:nodeID="A58"/>
+    <ic231:名称 rdf:nodeID="A50"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区西大井五丁目"/>
+    <ic:名称 rdf:nodeID="A50"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.598755/+139.717285/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.600151/+139.726089/">
+    <ic231:経度>+139.726089</ic231:経度>
+    <ic:経度>+139.726089</ic:経度>
+    <ic231:緯度>+35.600151</ic231:緯度>
+    <ic:緯度>+35.600151</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A62">
+    <rdfs:label xml:lang="ja">第41投票区</rdfs:label>
+    <dcterms:identifier>41</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A63">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区南大井2-3-14</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区南大井2-3-14</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区南大井2-3-14</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくみなみおおい２－３－１４</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.603355/+139.704193/">
+    <ic231:経度>+139.704193</ic231:経度>
+    <ic:経度>+139.704193</ic:経度>
+    <ic231:緯度>+35.603355</ic231:緯度>
+    <ic:緯度>+35.603355</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A97">
+    <ic231:表記 xml:lang="ja">東京都品川区旗の台1-11-17</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区旗の台1-11-17</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区旗の台1-11-17</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくはたのだい１－１１－１７</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A98">
+    <ic231:表記 xml:lang="ja">鈴ヶ森小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">鈴ヶ森小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A92">
+    <ic231:表記 xml:lang="ja">東京都品川区西中延2-17-5</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区西中延2-17-5</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区西中延2-17-5</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくにしなかのぶ２－１７－５</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.610119/+139.703613/">
+    <ic231:経度>+139.703613</ic231:経度>
+    <ic:経度>+139.703613</ic:経度>
+    <ic231:緯度>+35.610119</ic231:緯度>
+    <ic:緯度>+35.610119</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#42/%E7%A7%81%E7%AB%8B%E6%98%8E%E6%99%B4%E5%AD%A6%E5%9C%92/">
+    <odp:precinct rdf:nodeID="A76"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.603851/+139.753128/"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区八潮五丁目"/>
+    <ic231:住所 rdf:nodeID="A87"/>
+    <ic231:名称 rdf:nodeID="A47"/>
+    <ic:名称 rdf:nodeID="A47"/>
+    <ic:住所 rdf:nodeID="A87"/>
+    <rdfs:label xml:lang="ja">私立明晴学園</rdfs:label>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.603851/+139.753128/"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.753127</geo:long>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.60385</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.618050/+139.737976/">
+    <ic231:経度>+139.737976</ic231:経度>
+    <ic:経度>+139.737976</ic:経度>
+    <ic231:緯度>+35.618050</ic231:緯度>
+    <ic:緯度>+35.618050</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A99">
+    <rdfs:label xml:lang="ja">第15投票区</rdfs:label>
+    <dcterms:identifier>15</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#25/%E5%B0%8F%E5%B1%B1%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <ic:名称 rdf:nodeID="A0"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区小山五丁目"/>
+    <ic231:住所 rdf:nodeID="A26"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.703249</geo:long>
+    <ic231:名称 rdf:nodeID="A0"/>
+    <rdfs:label xml:lang="ja">小山小学校</rdfs:label>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.616001/+139.703247/"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.616001/+139.703247/"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.616002</geo:lat>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:住所 rdf:nodeID="A26"/>
+    <odp:precinct rdf:nodeID="A44"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#7/%E4%B8%89%E6%9C%A8%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.726856</geo:long>
+    <odp:precinct rdf:nodeID="A85"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区西品川三丁目"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.615528/+139.726852/"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.615528/+139.726852/"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:名称 rdf:nodeID="A100"/>
+    <ic231:名称 rdf:nodeID="A100"/>
+    <ic231:住所 rdf:nodeID="A73"/>
+    <ic:住所 rdf:nodeID="A73"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.615528</geo:lat>
+    <rdfs:label xml:lang="ja">三木小学校</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#3/%E5%8F%B0%E5%A0%B4%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <ic231:名称 rdf:nodeID="A101"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.621383</geo:lat>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.621384/+139.743179/"/>
+    <ic:住所 rdf:nodeID="A102"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:住所 rdf:nodeID="A102"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.621384/+139.743179/"/>
+    <rdfs:label xml:lang="ja">台場小学校</rdfs:label>
+    <ic:名称 rdf:nodeID="A101"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <odp:precinct rdf:nodeID="A103"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.743185</geo:long>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区東品川一丁目"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A104">
+    <rdfs:label xml:lang="ja">第40投票区</rdfs:label>
+    <dcterms:identifier>40</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A79">
+    <rdfs:label xml:lang="ja">第24投票区</rdfs:label>
+    <dcterms:identifier>24</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#28/%E7%AC%AC%E4%BA%8C%E5%BB%B6%E5%B1%B1%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.610119/+139.703613/"/>
+    <ic231:住所 rdf:nodeID="A77"/>
+    <ic:名称 rdf:nodeID="A57"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.703613</geo:long>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.610119/+139.703613/"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区旗の台一丁目"/>
+    <ic231:名称 rdf:nodeID="A57"/>
+    <odp:precinct rdf:nodeID="A88"/>
+    <ic:住所 rdf:nodeID="A77"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdfs:label xml:lang="ja">第二延山小学校</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.61012</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A105">
+    <rdfs:label xml:lang="ja">第29投票区</rdfs:label>
+    <dcterms:identifier>29</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A106">
+    <ic231:表記 xml:lang="ja">東京都品川区南大井4-3-27</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区南大井4-3-27</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区南大井4-3-27</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくみなみおおい４－３－２７</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#23/%E5%B0%8F%E5%B1%B1%E5%8F%B0%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.622793</geo:lat>
+    <ic231:住所 rdf:nodeID="A107"/>
+    <ic231:名称 rdf:nodeID="A46"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.703471</geo:long>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.622791/+139.703476/"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区小山台一丁目"/>
+    <odp:precinct rdf:nodeID="A108"/>
+    <rdfs:label xml:lang="ja">小山台小学校</rdfs:label>
+    <ic:住所 rdf:nodeID="A107"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.622791/+139.703476/"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:名称 rdf:nodeID="A46"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A53">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区大崎3-12-22</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区大崎3-12-22</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区大崎3-12-22</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくおおさき３－１２－２２</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A109">
+    <ic231:表記 xml:lang="ja">山中小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">山中小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A110">
+    <rdfs:label xml:lang="ja">第37投票区</rdfs:label>
+    <dcterms:identifier>37</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.609013/+139.708084/">
+    <ic231:経度>+139.708084</ic231:経度>
+    <ic:経度>+139.708084</ic:経度>
+    <ic231:緯度>+35.609013</ic231:緯度>
+    <ic:緯度>+35.609013</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A111">
+    <ic231:表記 xml:lang="ja">東京都品川区大井5-1-37</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区大井5-1-37</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区大井5-1-37</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくおおい５－１－３７</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A112">
+    <rdfs:label xml:lang="ja">第32投票区</rdfs:label>
+    <dcterms:identifier>32</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#35/%E6%88%B8%E8%B6%8A%E5%8F%B0%E4%B8%AD%E5%AD%A6%E6%A0%A1/">
+    <ic231:名称 rdf:nodeID="A64"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <ic:名称 rdf:nodeID="A64"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.717587</geo:long>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区戸越一丁目"/>
+    <odp:precinct rdf:nodeID="A113"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.615707/+139.717590/"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.615707/+139.717590/"/>
+    <rdfs:label xml:lang="ja">戸越台中学校</rdfs:label>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:住所 rdf:nodeID="A60"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.615706</geo:lat>
+    <ic:住所 rdf:nodeID="A60"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.615707/+139.717590/">
+    <ic231:経度>+139.717590</ic231:経度>
+    <ic:経度>+139.717590</ic:経度>
+    <ic231:緯度>+35.615707</ic231:緯度>
+    <ic:緯度>+35.615707</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A114">
+    <ic231:表記 xml:lang="ja">上神明小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">上神明小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#2/%E5%93%81%E5%B7%9D%E5%AD%A6%E5%9C%92/">
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:名称 rdf:nodeID="A71"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.61805</geo:lat>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <odp:precinct rdf:nodeID="A115"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区北品川三丁目"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.737983</geo:long>
+    <ic:住所 rdf:nodeID="A116"/>
+    <rdfs:label xml:lang="ja">品川学園</rdfs:label>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.618050/+139.737976/"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.618050/+139.737976/"/>
+    <ic231:名称 rdf:nodeID="A71"/>
+    <ic231:住所 rdf:nodeID="A116"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.607323/+139.716003/">
+    <ic231:経度>+139.716003</ic231:経度>
+    <ic:経度>+139.716003</ic:経度>
+    <ic231:緯度>+35.607323</ic231:緯度>
+    <ic:緯度>+35.607323</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.603851/+139.753128/">
+    <ic231:経度>+139.753128</ic231:経度>
+    <ic:経度>+139.753128</ic:経度>
+    <ic231:緯度>+35.603851</ic231:緯度>
+    <ic:緯度>+35.603851</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#16/%E6%B5%9C%E5%B7%9D%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.598267/+139.735870/"/>
+    <odp:precinct rdf:nodeID="A67"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.598268</geo:lat>
+    <rdfs:label xml:lang="ja">浜川小学校</rdfs:label>
+    <ic:名称 rdf:nodeID="A117"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:名称 rdf:nodeID="A117"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区南大井四丁目"/>
+    <ic231:住所 rdf:nodeID="A106"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.598267/+139.735870/"/>
+    <ic:住所 rdf:nodeID="A106"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.735864</geo:long>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A102">
+    <ic231:表記 xml:lang="ja">東京都品川区東品川1-8-30</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区東品川1-8-30</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区東品川1-8-30</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくひがししながわ１－８－３０</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.610764/+139.720978/">
+    <ic231:経度>+139.720978</ic231:経度>
+    <ic:経度>+139.720978</ic:経度>
+    <ic231:緯度>+35.610764</ic231:緯度>
+    <ic:緯度>+35.610764</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#20/%E4%BC%8A%E8%97%A4%E5%AD%A6%E5%9C%92/">
+    <rdfs:label xml:lang="ja">伊藤学園</rdfs:label>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.600151/+139.726089/"/>
+    <ic:名称 rdf:nodeID="A90"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.726095</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.600152</geo:lat>
+    <ic231:名称 rdf:nodeID="A90"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区大井五丁目"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.600151/+139.726089/"/>
+    <odp:precinct rdf:nodeID="A94"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:住所 rdf:nodeID="A111"/>
+    <ic231:住所 rdf:nodeID="A111"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#39/%E4%B8%8A%E7%A5%9E%E6%98%8E%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区二葉四丁目"/>
+    <ic:住所 rdf:nodeID="A51"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.602921</geo:lat>
+    <odp:precinct rdf:nodeID="A69"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.602921/+139.715744/"/>
+    <ic231:住所 rdf:nodeID="A51"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.602921/+139.715744/"/>
+    <ic231:名称 rdf:nodeID="A114"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.715751</geo:long>
+    <rdfs:label xml:lang="ja">上神明小学校</rdfs:label>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:名称 rdf:nodeID="A114"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A12">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区戸越6-17-3</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区戸越6-17-3</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区戸越6-17-3</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくとごし６－１７－３</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#32/%E4%B8%AD%E5%BB%B6%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <ic:住所 rdf:nodeID="A118"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.709502</geo:long>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.612568/+139.709503/"/>
+    <odp:precinct rdf:nodeID="A112"/>
+    <ic231:住所 rdf:nodeID="A118"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <ic:名称 rdf:nodeID="A119"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区中延一丁目"/>
+    <ic231:名称 rdf:nodeID="A119"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.612567</geo:lat>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.612568/+139.709503/"/>
+    <rdfs:label xml:lang="ja">中延小学校</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#11/%E7%AC%AC%E4%B8%80%E6%97%A5%E9%87%8E%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <odp:precinct rdf:nodeID="A120"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:名称 rdf:nodeID="A121"/>
+    <ic:名称 rdf:nodeID="A121"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.622169/+139.716095/"/>
+    <rdfs:label xml:lang="ja">第一日野小学校</rdfs:label>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.622169</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.716098</geo:long>
+    <ic:住所 rdf:nodeID="A89"/>
+    <ic231:住所 rdf:nodeID="A89"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区西五反田六丁目"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.622169/+139.716095/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.602921/+139.715744/">
+    <ic231:経度>+139.715744</ic231:経度>
+    <ic:経度>+139.715744</ic:経度>
+    <ic231:緯度>+35.602921</ic231:緯度>
+    <ic:緯度>+35.602921</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A95">
+    <ic231:表記 xml:lang="ja">源氏前小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">源氏前小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A115">
+    <rdfs:label xml:lang="ja">第2投票区</rdfs:label>
+    <dcterms:identifier>2</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.624504/+139.728165/">
+    <ic231:経度>+139.728165</ic231:経度>
+    <ic:経度>+139.728165</ic:経度>
+    <ic231:緯度>+35.624504</ic231:緯度>
+    <ic:緯度>+35.624504</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.615578/+139.745987/">
+    <ic231:経度>+139.745987</ic231:経度>
+    <ic:経度>+139.745987</ic:経度>
+    <ic231:緯度>+35.615578</ic231:緯度>
+    <ic:緯度>+35.615578</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A14">
+    <rdfs:label xml:lang="ja">第36投票区</rdfs:label>
+    <dcterms:identifier>36</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.607288/+139.725693/">
+    <ic231:経度>+139.725693</ic231:経度>
+    <ic:経度>+139.725693</ic:経度>
+    <ic231:緯度>+35.607288</ic231:緯度>
+    <ic:緯度>+35.607288</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.604469/+139.740189/">
+    <ic231:経度>+139.740189</ic231:経度>
+    <ic:経度>+139.740189</ic:経度>
+    <ic231:緯度>+35.604469</ic231:緯度>
+    <ic:緯度>+35.604469</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.598267/+139.735870/">
+    <ic231:経度>+139.735870</ic231:経度>
+    <ic:経度>+139.735870</ic:経度>
+    <ic231:緯度>+35.598267</ic231:緯度>
+    <ic:緯度>+35.598267</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A116">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区北品川3-9-30</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区北品川3-9-30</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区北品川3-9-30</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくきたしながわ３－９－３０</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.622169/+139.716095/">
+    <ic231:経度>+139.716095</ic231:経度>
+    <ic:経度>+139.716095</ic:経度>
+    <ic231:緯度>+35.622169</ic231:緯度>
+    <ic:緯度>+35.622169</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.621567/+139.708572/">
+    <ic231:経度>+139.708572</ic231:経度>
+    <ic:経度>+139.708572</ic:経度>
+    <ic231:緯度>+35.621567</ic231:緯度>
+    <ic:緯度>+35.621567</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#38/%E6%9D%9C%E6%9D%BE%E5%B0%8F%E8%B7%A1%E5%9C%B0%E5%9F%9F%E5%AF%86%E7%9D%80%E5%9E%8B%E5%A4%9A%E6%A9%9F%E8%83%BD%E3%83%9B%E3%83%BC%E3%83%A0/">
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:名称 rdf:nodeID="A68"/>
+    <odp:precinct rdf:nodeID="A93"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdfs:label xml:lang="ja">杜松小跡地域密着型多機能ホーム</rdfs:label>
+    <ic231:名称 rdf:nodeID="A68"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区豊町四丁目"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.722765</geo:long>
+    <ic:住所 rdf:nodeID="A86"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.606136/+139.722763/"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.606135</geo:lat>
+    <ic231:住所 rdf:nodeID="A86"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.606136/+139.722763/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#17/%E9%88%B4%E3%83%B6%E6%A3%AE%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <ic:名称 rdf:nodeID="A98"/>
+    <rdfs:label xml:lang="ja">鈴ヶ森小学校</rdfs:label>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区南大井四丁目"/>
+    <ic231:住所 rdf:nodeID="A19"/>
+    <ic:住所 rdf:nodeID="A19"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.594479/+139.735245/"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <odp:precinct rdf:nodeID="A41"/>
+    <ic231:名称 rdf:nodeID="A98"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.735242</geo:long>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.594479/+139.735245/"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.594478</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A65">
+    <ic231:表記 xml:lang="ja">ウェルカムセンター原</ic231:表記>
+    <ic:表記 xml:lang="ja">ウェルカムセンター原</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A101">
+    <ic231:表記 xml:lang="ja">台場小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">台場小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.612568/+139.709503/">
+    <ic231:経度>+139.709503</ic231:経度>
+    <ic:経度>+139.709503</ic:経度>
+    <ic231:緯度>+35.612568</ic231:緯度>
+    <ic:緯度>+35.612568</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.613331/+139.742752/">
+    <ic231:経度>+139.742752</ic231:経度>
+    <ic:経度>+139.742752</ic:経度>
+    <ic231:緯度>+35.613331</ic231:緯度>
+    <ic:緯度>+35.613331</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdfs:label xml:lang="ja">第43投票区</rdfs:label>
+    <dcterms:identifier>43</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <rdfs:label xml:lang="ja">第1投票区</rdfs:label>
+    <dcterms:identifier>1</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A75">
+    <rdfs:label xml:lang="ja">第27投票区</rdfs:label>
+    <dcterms:identifier>27</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#15/%E9%AE%AB%E6%B5%9C%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <ic231:名称 rdf:nodeID="A122"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区東大井二丁目"/>
+    <ic:名称 rdf:nodeID="A122"/>
+    <ic:住所 rdf:nodeID="A7"/>
+    <rdfs:label xml:lang="ja">鮫浜小学校</rdfs:label>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.601715/+139.740662/"/>
+    <ic231:住所 rdf:nodeID="A7"/>
+    <odp:precinct rdf:nodeID="A99"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.740669</geo:long>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.601716</geo:lat>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.601715/+139.740662/"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A113">
+    <rdfs:label xml:lang="ja">第35投票区</rdfs:label>
+    <dcterms:identifier>35</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A37">
+    <ic231:表記 xml:lang="ja">荏原第六中学校</ic231:表記>
+    <ic:表記 xml:lang="ja">荏原第六中学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区北品川5-2-6</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区北品川5-2-6</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区北品川5-2-6</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくきたしながわ５－２－６</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#40/%E8%B1%8A%E8%91%89%E3%81%AE%E6%9D%9C%E5%AD%A6%E5%9C%92/">
+    <rdfs:label xml:lang="ja">豊葉の杜学園</rdfs:label>
+    <ic:名称 rdf:nodeID="A123"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.607287</geo:lat>
+    <odp:precinct rdf:nodeID="A104"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.607288/+139.725693/"/>
+    <ic:住所 rdf:nodeID="A18"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.607288/+139.725693/"/>
+    <ic231:名称 rdf:nodeID="A123"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.725687</geo:long>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区二葉一丁目"/>
+    <ic231:住所 rdf:nodeID="A18"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A108">
+    <rdfs:label xml:lang="ja">第23投票区</rdfs:label>
+    <dcterms:identifier>23</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#18/%E5%B1%B1%E4%B8%AD%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.602787/+139.729919/"/>
+    <rdfs:label xml:lang="ja">山中小学校</rdfs:label>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.602788</geo:lat>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区大井三丁目"/>
+    <ic:住所 rdf:nodeID="A124"/>
+    <odp:precinct rdf:nodeID="A125"/>
+    <ic231:住所 rdf:nodeID="A124"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.729925</geo:long>
+    <ic231:名称 rdf:nodeID="A109"/>
+    <ic:名称 rdf:nodeID="A109"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.602787/+139.729919/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.621384/+139.743179/">
+    <ic231:経度>+139.743179</ic231:経度>
+    <ic:経度>+139.743179</ic:経度>
+    <ic231:緯度>+35.621384</ic231:緯度>
+    <ic:緯度>+35.621384</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <ic231:表記 xml:lang="ja">シティコート目黒</ic231:表記>
+    <ic:表記 xml:lang="ja">シティコート目黒</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#29/%E6%B8%85%E6%B0%B4%E5%8F%B0%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <odp:precinct rdf:nodeID="A105"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.70233</geo:long>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区旗の台一丁目"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.60742</geo:lat>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.607422/+139.702332/"/>
+    <ic:住所 rdf:nodeID="A97"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <ic231:住所 rdf:nodeID="A97"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.607422/+139.702332/"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:名称 rdf:nodeID="A126"/>
+    <rdfs:label xml:lang="ja">清水台小学校</rdfs:label>
+    <ic231:名称 rdf:nodeID="A126"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A83">
+    <ic231:表記 xml:lang="ja">都立品川特別支援学校</ic231:表記>
+    <ic:表記 xml:lang="ja">都立品川特別支援学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.622791/+139.703476/">
+    <ic231:経度>+139.703476</ic231:経度>
+    <ic:経度>+139.703476</ic:経度>
+    <ic231:緯度>+35.622791</ic231:緯度>
+    <ic:緯度>+35.622791</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A23">
+    <rdfs:label xml:lang="ja">第12投票区</rdfs:label>
+    <dcterms:identifier>12</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A117">
+    <ic231:表記 xml:lang="ja">浜川小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">浜川小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A74">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区荏原2-9-6</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区荏原2-9-6</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区荏原2-9-6</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくえばら２－９－６</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#4/%E5%9F%8E%E5%8D%97%E7%AC%AC%E4%BA%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区東品川三丁目"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.74599</geo:long>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.615578/+139.745987/"/>
+    <rdfs:label xml:lang="ja">城南第二小学校</rdfs:label>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:名称 rdf:nodeID="A40"/>
+    <ic231:住所 rdf:nodeID="A127"/>
+    <ic:名称 rdf:nodeID="A40"/>
+    <odp:precinct rdf:nodeID="A33"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:住所 rdf:nodeID="A127"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.615578/+139.745987/"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.615579</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A107">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区小山台1-18-24</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区小山台1-18-24</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区小山台1-18-24</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくこやまだい１－１８－２４</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A29">
+    <ic231:表記 xml:lang="ja">京陽小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">京陽小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A128">
+    <ic231:表記 xml:lang="ja">東京都品川区大井6-1-32</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区大井6-1-32</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区大井6-1-32</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくおおい６－１－３２</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A119">
+    <ic231:表記 xml:lang="ja">中延小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">中延小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A126">
+    <ic231:表記 xml:lang="ja">清水台小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">清水台小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.623135/+139.731766/">
+    <ic231:経度>+139.731766</ic231:経度>
+    <ic:経度>+139.731766</ic:経度>
+    <ic231:緯度>+35.623135</ic231:緯度>
+    <ic:緯度>+35.623135</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区上大崎2-10-34</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区上大崎2-10-34</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区上大崎2-10-34</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくかみおおさき２－１０－３４</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A100">
+    <ic231:表記 xml:lang="ja">三木小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">三木小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.625805/+139.712341/">
+    <ic231:経度>+139.712341</ic231:経度>
+    <ic:経度>+139.712341</ic:経度>
+    <ic231:緯度>+35.625805</ic231:緯度>
+    <ic:緯度>+35.625805</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <ic231:表記 xml:lang="ja">御殿山小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">御殿山小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A125">
+    <rdfs:label xml:lang="ja">第18投票区</rdfs:label>
+    <dcterms:identifier>18</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A66">
+    <ic231:表記 xml:lang="ja">日野学園</ic231:表記>
+    <ic:表記 xml:lang="ja">日野学園</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#37/%E6%88%B8%E8%B6%8A%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.610762</geo:lat>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.610764/+139.720978/"/>
+    <odp:precinct rdf:nodeID="A110"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.610764/+139.720978/"/>
+    <ic:住所 rdf:nodeID="A96"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.720973</geo:long>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区豊町二丁目"/>
+    <ic:名称 rdf:nodeID="A52"/>
+    <rdfs:label xml:lang="ja">戸越小学校</rdfs:label>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:住所 rdf:nodeID="A96"/>
+    <ic231:名称 rdf:nodeID="A52"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#19/%E5%A4%A7%E4%BA%95%E7%AC%AC%E4%B8%80%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <ic231:名称 rdf:nodeID="A24"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.731187</geo:long>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.598721/+139.731186/"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <ic231:住所 rdf:nodeID="A128"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.598722</geo:lat>
+    <rdfs:label xml:lang="ja">大井第一小学校</rdfs:label>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.598721/+139.731186/"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:名称 rdf:nodeID="A24"/>
+    <odp:precinct rdf:nodeID="A84"/>
+    <ic:住所 rdf:nodeID="A128"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区大井六丁目"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A103">
+    <rdfs:label xml:lang="ja">第3投票区</rdfs:label>
+    <dcterms:identifier>3</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#14/%E7%AB%8B%E4%BC%9A%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <ic:住所 rdf:nodeID="A45"/>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.604469/+139.740189/"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区東大井四丁目"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:住所 rdf:nodeID="A45"/>
+    <ic231:名称 rdf:nodeID="A20"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.604469</geo:lat>
+    <ic:名称 rdf:nodeID="A20"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.604469/+139.740189/"/>
+    <rdfs:label xml:lang="ja">立会小学校</rdfs:label>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.740191</geo:long>
+    <odp:precinct rdf:nodeID="A32"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A61">
+    <ic231:表記 xml:lang="ja">鈴ヶ森中学校</ic231:表記>
+    <ic:表記 xml:lang="ja">鈴ヶ森中学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A120">
+    <rdfs:label xml:lang="ja">第11投票区</rdfs:label>
+    <dcterms:identifier>11</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.606136/+139.722763/">
+    <ic231:経度>+139.722763</ic231:経度>
+    <ic:経度>+139.722763</ic:経度>
+    <ic231:緯度>+35.606136</ic231:緯度>
+    <ic:緯度>+35.606136</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A122">
+    <ic231:表記 xml:lang="ja">鮫浜小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">鮫浜小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.617188/+139.711502/">
+    <ic231:経度>+139.711502</ic231:経度>
+    <ic:経度>+139.711502</ic:経度>
+    <ic231:緯度>+35.617188</ic231:緯度>
+    <ic:緯度>+35.617188</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A78">
+    <ic231:表記 xml:lang="ja">後地小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">後地小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A80">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区小山2-4-6</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区小山2-4-6</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区小山2-4-6</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくこやま２－４－６</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.601715/+139.740662/">
+    <ic231:経度>+139.740662</ic231:経度>
+    <ic:経度>+139.740662</ic:経度>
+    <ic231:緯度>+35.601715</ic231:緯度>
+    <ic:緯度>+35.601715</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A118">
+    <ic231:表記 xml:lang="ja">東京都品川区中延1-11-15</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区中延1-11-15</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区中延1-11-15</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくなかのぶ１－１１－１５</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A124">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区大井3-7-19</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区大井3-7-19</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区大井3-7-19</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくおおい３－７－１９</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A129">
+    <ic231:表記 xml:lang="ja">第三日野小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">第三日野小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.616001/+139.703247/">
+    <ic231:経度>+139.703247</ic231:経度>
+    <ic:経度>+139.703247</ic:経度>
+    <ic231:緯度>+35.616001</ic231:緯度>
+    <ic:緯度>+35.616001</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.635799/+139.717133/">
+    <ic231:経度>+139.717133</ic231:経度>
+    <ic:経度>+139.717133</ic:経度>
+    <ic231:緯度>+35.635799</ic231:緯度>
+    <ic:緯度>+35.635799</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/399#10/%E7%AC%AC%E4%B8%89%E6%97%A5%E9%87%8E%E5%B0%8F%E5%AD%A6%E6%A0%A1/">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.63279</geo:lat>
+    <ic231:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.632790/+139.723923/"/>
+    <ic231:住所 rdf:nodeID="A70"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区上大崎一丁目"/>
+    <ic:住所 rdf:nodeID="A70"/>
+    <odp:precinct rdf:nodeID="A81"/>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Polls"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.723928</geo:long>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic231:名称 rdf:nodeID="A129"/>
+    <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.632790/+139.723923/"/>
+    <ic:名称 rdf:nodeID="A129"/>
+    <rdfs:label xml:lang="ja">第三日野小学校</rdfs:label>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A121">
+    <ic231:表記 xml:lang="ja">第一日野小学校</ic231:表記>
+    <ic:表記 xml:lang="ja">第一日野小学校</ic:表記>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A127">
+    <ic231:表記 xml:lang="ja">東京都品川区東品川3-4-5</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区東品川3-4-5</ic:表記>
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区東品川3-4-5</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくひがししながわ３－４－５</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A21">
+    <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+    <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+    <ic231:表記 xml:lang="ja">東京都品川区西五反田4-29-9</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区西五反田4-29-9</ic:表記>
+    <ic231:市区町村 xml:lang="ja">品川区</ic231:市区町村>
+    <ic231:都道府県 xml:lang="ja">東京都</ic231:都道府県>
+    <rdfs:label xml:lang="ja">東京都品川区西五反田4-29-9</rdfs:label>
+    <rdfs:label xml:lang="ja-Hira">とうきょうとしながわくにしごたんだ４－２９－９</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A123">
+    <ic231:表記 xml:lang="ja">豊葉の杜学園</ic231:表記>
+    <ic:表記 xml:lang="ja">豊葉の杜学園</ic:表記>
+  </rdf:Description>
+</rdf:RDF>

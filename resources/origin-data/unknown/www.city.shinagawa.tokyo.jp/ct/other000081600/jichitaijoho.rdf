@@ -1,0 +1,74 @@
+<rdf:RDF
+    xmlns:jrrk="http://purl.org/jrrk#"
+    xmlns:ic231="http://imi.ipa.go.jp/ns/core/rdf#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:sac="http://statdb.nstac.go.jp/lod/sac/C"
+    xmlns:localgovernment="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/220#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:pc="http://purl.org/procurement/public-contracts#"
+    xmlns:odp="http://odp.jig.jp/odp/1.0#"
+    xmlns:schema="http://schema.org/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:gr="http://purl.org/goodrelations/v1#"
+    xmlns:ic="http://imi.go.jp/ns/core/rdf#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:qb="http://purl.org/linked-data/cube#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:georss="http://www.georss.org/georss"
+    xmlns:cal="http://www.w3.org/2002/12/cal/icaltzd#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" > 
+  <rdf:Description rdf:nodeID="A0">
+    <rdfs:label>東京都品川区</rdfs:label>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/220#%E5%93%81%E5%B7%9D%E5%8C%BA/">
+    <ic:連絡先 rdf:nodeID="A1"/>
+    <ic231:住所 rdf:nodeID="A2"/>
+    <ic231:参照 rdf:resource="http://odp.jig.jp/res/url/www.city.shinagawa.tokyo.jp"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">139.730108</geo:long>
+    <schema:url rdf:resource="http://odp.jig.jp/res/url/www.city.shinagawa.tokyo.jp"/>
+    <rdfs:label xml:lang="ja">品川区</rdfs:label>
+    <ic231:連絡先 rdf:nodeID="A1"/>
+    <ic:住所 rdf:nodeID="A2"/>
+    <jrrk:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdfs:label xml:lang="ja-Hira">しながわく</rdfs:label>
+    <schema:telephone>03-3777-1111</schema:telephone>
+    <rdf:type rdf:resource="http://purl.org/jrrk#LocalGovernment"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.6091959</geo:lat>
+    <ic:参照 rdf:resource="http://odp.jig.jp/res/url/www.city.shinagawa.tokyo.jp"/>
+    <jrrk:address>東京都品川区広町2-1-36</jrrk:address>
+    <rdfs:label xml:lang="en">Shinagawa City</rdfs:label>
+    <schema:description>東京都</schema:description>
+    <schema:postalCode>142-8715</schema:postalCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/220">
+    <dc:title>地方自治体情報</dc:title>
+    <dc:creator>東京都品川区</dc:creator>
+    <dcterms:created>2014-11-17</dcterms:created>
+    <dcterms:modified>2014-11-17</dcterms:modified>
+    <schema:version rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.1</schema:version>
+    <rdf:type rdf:resource="http://odp.jig.jp/odp/1.0#Dataset"/>
+    <dcterms:references rdf:resource="http://ckan.odp.jig.jp/dataset/jp-tokyo-shinagawa-220-odp"/>
+    <dcterms:publisher rdf:nodeID="A0"/>
+    <odp:target rdf:resource="http://purl.org/jrrk#LocalGovernment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://odp.jig.jp/res/url/www.city.shinagawa.tokyo.jp">
+    <rdfs:label>www.city.shinagawa.tokyo.jp</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <ic231:郵便番号>1428715</ic231:郵便番号>
+    <ic:郵便番号>1428715</ic:郵便番号>
+    <ic231:表記 xml:lang="ja">東京都品川区広町2-1-36</ic231:表記>
+    <ic:表記 xml:lang="ja">東京都品川区広町2-1-36</ic:表記>
+    <rdfs:label>東京都品川区広町2-1-36</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <ic231:電話番号>03-3777-1111</ic231:電話番号>
+    <ic:電話番号>03-3777-1111</ic:電話番号>
+  </rdf:Description>
+</rdf:RDF>

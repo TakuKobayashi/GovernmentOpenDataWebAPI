@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:bp="http://www.city.shinagawa.tokyo.jp//property/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+   xmlns:ic="http://imi.go.jp/ns/core/rdf#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/4">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7241446</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7241446</geo:long>
+    <ic:座標 rdf:nodeID="ub14bL40C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6217168</bp:緯度>
+    <bp:名称 xml:lang="ja">大崎警察署</bp:名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6217168</geo:lat>
+    <rdfs:label xml:lang="ja">大崎警察署</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/3">
+    <bp:名称 xml:lang="ja">品川警察署</bp:名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7450501</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6138397</geo:lat>
+    <ic:座標 rdf:nodeID="ub14bL32C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6138397</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7450501</bp:経度>
+    <rdfs:label xml:lang="ja">品川警察署</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/1">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7298653</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5989109</bp:緯度>
+    <rdfs:label xml:lang="ja">大井警察署</rdfs:label>
+    <bp:名称 xml:lang="ja">大井警察署</bp:名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7298653</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5989109</geo:lat>
+    <ic:座標 rdf:nodeID="ub14bL16C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/2">
+    <ic:座標 rdf:nodeID="ub14bL24C9"/>
+    <rdfs:label xml:lang="ja">荏原警察署</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6120395</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7062371</bp:経度>
+    <bp:名称 xml:lang="ja">荏原警察署</bp:名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6120395</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7062371</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub14bL24C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6120395</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7062371</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub14bL32C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6138397</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7450501</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub14bL40C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6217168</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7241446</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub14bL16C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5989109</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7298653</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/#">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.ja"/>
+    <cc:attributionName>東京都品川区</cc:attributionName>
+  </rdf:Description>
+</rdf:RDF>
+

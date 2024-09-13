@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:bp="http://www.city.shinagawa.tokyo.jp//property/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+   xmlns:ic="http://imi.go.jp/ns/core/rdf#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:nodeID="ub4bL112C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6122655</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7115887</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/11">
+    <rdfs:label xml:lang="ja">品川総合福祉センター</rdfs:label>
+    <ic:座標 rdf:nodeID="ub4bL96C9"/>
+    <bp:名称 xml:lang="ja">品川総合福祉センター</bp:名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7522717</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7522717</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6052496</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6052496</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/12">
+    <ic:座標 rdf:nodeID="ub4bL104C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7118185</bp:経度>
+    <bp:名称 xml:lang="ja">中延シルバーセンター</bp:名称>
+    <rdfs:label xml:lang="ja">中延シルバーセンター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6125932</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7118185</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6125932</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/17">
+    <bp:名称 xml:lang="ja">東品川シルバーセンター</bp:名称>
+    <rdfs:label xml:lang="ja">東品川シルバーセンター</rdfs:label>
+    <ic:座標 rdf:nodeID="ub4bL144C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6126645</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6126645</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7503745</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7503745</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/22">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7467953</geo:long>
+    <bp:名称 xml:lang="ja">福栄会</bp:名称>
+    <rdfs:label xml:lang="ja">福栄会</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7467953</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171010</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171010</geo:lat>
+    <ic:座標 rdf:nodeID="ub4bL184C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/1">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7342376</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5916187</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5916187</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7342376</geo:long>
+    <bp:名称 xml:lang="ja">南大井シルバーセンター</bp:名称>
+    <rdfs:label xml:lang="ja">南大井シルバーセンター</rdfs:label>
+    <ic:座標 rdf:nodeID="ub4bL16C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/7">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6048875</geo:lat>
+    <bp:名称 xml:lang="ja">心身障害者福祉会館</bp:名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6048875</bp:緯度>
+    <rdfs:label xml:lang="ja">心身障害者福祉会館</rdfs:label>
+    <ic:座標 rdf:nodeID="ub4bL64C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7006163</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7006163</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/#">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.ja"/>
+    <cc:attributionName>東京都品川区</cc:attributionName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/6">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7509539</bp:経度>
+    <bp:名称 xml:lang="ja">高齢者住宅八潮わかくさ荘</bp:名称>
+    <rdfs:label xml:lang="ja">高齢者住宅八潮わかくさ荘</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7509539</geo:long>
+    <ic:座標 rdf:nodeID="ub4bL56C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5998699</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5998699</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/3">
+    <rdfs:label xml:lang="ja">さくら会老人保健施設「ケアセンター南大井」</rdfs:label>
+    <ic:座標 rdf:nodeID="ub4bL32C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7336750</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5945343</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7336750</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5945343</bp:緯度>
+    <bp:名称 xml:lang="ja">さくら会老人保健施設「ケアセンター南大井」</bp:名称>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL88C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7446282</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6073495</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL40C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7230698</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6008976</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL144C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7503745</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6126645</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/14">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7194903</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6081669</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6081669</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7194903</bp:経度>
+    <bp:名称 xml:lang="ja">ゆたかシルバーセンター</bp:名称>
+    <rdfs:label xml:lang="ja">ゆたかシルバーセンター</rdfs:label>
+    <ic:座標 rdf:nodeID="ub4bL120C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/13">
+    <rdfs:label xml:lang="ja">特別養護老人ホーム「成幸ホーム」</rdfs:label>
+    <ic:座標 rdf:nodeID="ub4bL112C9"/>
+    <bp:名称 xml:lang="ja">特別養護老人ホーム「成幸ホーム」</bp:名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7115887</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6122655</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7115887</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6122655</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL128C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7395401</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6100801</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/16">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6097666</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7378227</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7378227</bp:経度>
+    <ic:座標 rdf:nodeID="ub4bL136C9"/>
+    <bp:名称 xml:lang="ja">都立品川特別支援学校</bp:名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6097666</geo:lat>
+    <rdfs:label xml:lang="ja">都立品川特別支援学校</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/15">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7395401</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6100801</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6100801</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7395401</geo:long>
+    <rdfs:label xml:lang="ja">南品川シルバーセンター</rdfs:label>
+    <bp:名称 xml:lang="ja">南品川シルバーセンター</bp:名称>
+    <ic:座標 rdf:nodeID="ub4bL128C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/25">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6347299</geo:lat>
+    <bp:名称 xml:lang="ja">上大崎シルバーセンター</bp:名称>
+    <rdfs:label xml:lang="ja">上大崎シルバーセンター</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7222261</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6347299</bp:緯度>
+    <ic:座標 rdf:nodeID="ub4bL208C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7222261</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/2">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7224704</bp:経度>
+    <ic:座標 rdf:nodeID="ub4bL24C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5999621</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7224704</geo:long>
+    <rdfs:label xml:lang="ja">春光福祉会　特別養護老人ホーム「ロイヤルサニー」</rdfs:label>
+    <bp:名称 xml:lang="ja">春光福祉会　特別養護老人ホーム「ロイヤルサニー」</bp:名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5999621</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/9">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7364935</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6018677</bp:緯度>
+    <bp:名称 xml:lang="ja">関ヶ原シルバーセンター</bp:名称>
+    <rdfs:label xml:lang="ja">関ヶ原シルバーセンター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6018677</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7364935</bp:経度>
+    <ic:座標 rdf:nodeID="ub4bL80C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/10">
+    <ic:座標 rdf:nodeID="ub4bL88C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7446282</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6073495</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7446282</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6073495</bp:緯度>
+    <bp:名称 xml:lang="ja">品川児童学園</bp:名称>
+    <rdfs:label xml:lang="ja">品川児童学園</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/21">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7418432</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6206822</geo:lat>
+    <bp:名称 xml:lang="ja">北品川シルバーセンター</bp:名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6206822</bp:緯度>
+    <rdfs:label xml:lang="ja">北品川シルバーセンター</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7418432</bp:経度>
+    <ic:座標 rdf:nodeID="ub4bL176C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/18">
+    <bp:名称 xml:lang="ja">小山シルバーセンター</bp:名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7014478</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7014478</bp:経度>
+    <ic:座標 rdf:nodeID="ub4bL152C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6147042</geo:lat>
+    <rdfs:label xml:lang="ja">小山シルバーセンター</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6147042</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL56C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5998699</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7509539</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/4">
+    <bp:名称 xml:lang="ja">西大井シルバーセンター</bp:名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6008976</bp:緯度>
+    <rdfs:label xml:lang="ja">西大井シルバーセンター</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7230698</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6008976</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7230698</geo:long>
+    <ic:座標 rdf:nodeID="ub4bL40C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/23">
+    <bp:名称 xml:lang="ja">西五反田シルバーセンター</bp:名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7170725</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7170725</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6266424</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6266424</bp:緯度>
+    <ic:座標 rdf:nodeID="ub4bL192C9"/>
+    <rdfs:label xml:lang="ja">西五反田シルバーセンター</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/8">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7046896</geo:long>
+    <rdfs:label xml:lang="ja">旗の台シルバーセンター</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6025803</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7046896</bp:経度>
+    <bp:名称 xml:lang="ja">旗の台シルバーセンター</bp:名称>
+    <ic:座標 rdf:nodeID="ub4bL72C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6025803</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL32C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5945343</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7336750</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/5">
+    <bp:名称 xml:lang="ja">八潮児童センター</bp:名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5998066</geo:lat>
+    <ic:座標 rdf:nodeID="ub4bL48C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7516327</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7516327</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5998066</bp:緯度>
+    <rdfs:label xml:lang="ja">八潮児童センター</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL200C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7294771</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6216342</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/19">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7139996</bp:経度>
+    <rdfs:label xml:lang="ja">平塚シルバーセンター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6169969</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7139996</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6169969</bp:緯度>
+    <bp:名称 xml:lang="ja">平塚シルバーセンター</bp:名称>
+    <ic:座標 rdf:nodeID="ub4bL160C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL80C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7364935</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6018677</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/24">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7294771</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6216342</geo:lat>
+    <ic:座標 rdf:nodeID="ub4bL200C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7294771</geo:long>
+    <rdfs:label xml:lang="ja">五反田保育園</rdfs:label>
+    <bp:名称 xml:lang="ja">五反田保育園</bp:名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6216342</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL96C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6052496</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7522717</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL104C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7118185</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6125932</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL160C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7139996</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6169969</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL208C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6347299</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7222261</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL136C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7378227</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6097666</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL176C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7418432</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6206822</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/20">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7256112</bp:経度>
+    <ic:座標 rdf:nodeID="ub4bL168C9"/>
+    <rdfs:label xml:lang="ja">大崎シルバーセンター</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6168885</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7256112</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6168885</geo:lat>
+    <bp:名称 xml:lang="ja">大崎シルバーセンター</bp:名称>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL24C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5999621</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7224704</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL184C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7467953</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6171010</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL72C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6025803</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7046896</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL120C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7194903</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6081669</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL64C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7006163</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6048875</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL192C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7170725</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6266424</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL48C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5998066</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7516327</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL16C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5916187</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7342376</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL152C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7014478</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6147042</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL168C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6168885</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7256112</ic:経度>
+  </rdf:Description>
+</rdf:RDF>
+

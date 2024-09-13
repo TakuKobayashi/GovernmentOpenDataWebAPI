@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:bp="http://www.city.shinagawa.tokyo.jp//property/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+   xmlns:ic="http://imi.go.jp/ns/core/rdf#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/7">
+    <bp:所在地 xml:lang="ja">東京都品川区西大井4-1-8</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7211039</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5976934</geo:lat>
+    <ic:座標 rdf:nodeID="ub9bL129C9"/>
+    <rdfs:label xml:lang="ja">大井第三地域センター・区民集会所</rdfs:label>
+    <bp:施設名称 xml:lang="ja">大井第三地域センター・区民集会所</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5976934</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7211039</geo:long>
+    <bp:備考 xml:lang="ja">住所 西大井4-1-8
+電話 3773-2000
+交通 西大井駅徒歩10分
+
+●証明書 
+●支払い 
+●集会所あり</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/8">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7057503</geo:long>
+    <bp:施設名称 xml:lang="ja">荏原第一地域センター・区民集会所</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区小山3-22-3</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6192605</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7057503</bp:経度>
+    <ic:座標 rdf:nodeID="ub9bL146C9"/>
+    <rdfs:label xml:lang="ja">荏原第一地域センター・区民集会所</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6192605</bp:緯度>
+    <bp:備考 xml:lang="ja">住所 小山3-22-3
+電話 3786-2000
+交通 武蔵小山駅徒歩5分
+
+●届出 
+●証明書 
+●支払い 
+●集会所あり</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/1">
+    <bp:備考 xml:lang="ja">品川区広町2-1-36 
+電話03-3777-1111(代)
+併設
+ 防災センター
+ 国際友好協会
+ リサイクルショップリボン
+ 
+1階　法務局品川出張所
+2階　都税事務所
+8階　建設局第二建設事務所</bp:備考>
+    <bp:施設名称 xml:lang="ja">品川区役所</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6093959</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区広町2-1-36</bp:所在地>
+    <rdfs:label xml:lang="ja">品川区役所</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7301459</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7301459</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6093959</geo:lat>
+    <ic:座標 rdf:nodeID="ub9bL27C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/10">
+    <ic:座標 rdf:nodeID="ub9bL178C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区平塚1-13-18</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6133434</bp:緯度>
+    <bp:備考 xml:lang="ja">住所 平塚1-13-18
+電話 3783-2000
+交通 戸越駅徒歩3分、戸越銀座駅徒歩5分
+
+●証明書 
+●支払い 
+●集会所あり</bp:備考>
+    <rdfs:label xml:lang="ja">荏原第三地域センター・区民集会所</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7153629</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6133434</geo:lat>
+    <bp:施設名称 xml:lang="ja">荏原第三地域センター・区民集会所</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7153629</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/15">
+    <bp:備考 xml:lang="ja">住所 大崎2-9-4(大崎ウエストシティタワーズ貢献施設棟1、2階)
+電話 3492-2000
+交通 大崎駅南改札口徒歩5分（新西口方面）
+
+●証明書
+●支払い
+●集会所あり</bp:備考>
+    <bp:施設名称 xml:lang="ja">大崎第二地域センター・区民集会所</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎2-9-4</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7279883</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6166490</bp:緯度>
+    <rdfs:label xml:lang="ja">大崎第二地域センター・区民集会所</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6166490</geo:lat>
+    <ic:座標 rdf:nodeID="ub9bL245C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7279883</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/9">
+    <rdfs:label xml:lang="ja">荏原第二地域センター・区民集会所</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6110694</geo:lat>
+    <bp:備考 xml:lang="ja">住所 荏原6-17-12
+電話 3782-2000
+交通 旗の台駅、西小山駅各徒歩10分
+
+●証明書 
+●支払い 
+●集会所あり</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区荏原6-17-12</bp:所在地>
+    <ic:座標 rdf:nodeID="ub9bL162C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6110694</bp:緯度>
+    <bp:施設名称 xml:lang="ja">荏原第二地域センター・区民集会所</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7043829</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7043829</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/14">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6096778</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6096778</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7302715</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7302715</geo:long>
+    <rdfs:label xml:lang="ja">防災センター</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区広町2-1-36</bp:備考>
+    <ic:座標 rdf:nodeID="ub9bL229C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区広町2-1-36</bp:所在地>
+    <bp:施設名称 xml:lang="ja">防災センター</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub9bL195C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6038249</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7084941</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/16">
+    <ic:座標 rdf:nodeID="ub9bL261C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7256994</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区二葉1-1-2</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7256994</geo:long>
+    <bp:施設名称 xml:lang="ja">荏原第五地域センター・区民集会所</bp:施設名称>
+    <rdfs:label xml:lang="ja">荏原第五地域センター・区民集会所</rdfs:label>
+    <bp:備考 xml:lang="ja">TEL 3785-2000 
+FAX 3785-2016 
+交通 下神明駅徒歩1分 
+
+・証明書 
+・支払 
+・集会所あり</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6081773</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6081773</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub9bL261C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6081773</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7256994</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub9bL77C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6279721</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7164476</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/12">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7514663</geo:long>
+    <ic:座標 rdf:nodeID="ub9bL209C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6001681</bp:緯度>
+    <bp:備考 xml:lang="ja">住所 八潮5-10-27
+
+電話 3799-2000
+
+交通 JR大井町駅・品川駅からバス「八潮パ-クタウン」下車1分、モノレール大井競馬場前駅徒歩10分</bp:備考>
+    <bp:施設名称 xml:lang="ja">八潮地域センター・区民集会所</bp:施設名称>
+    <rdfs:label xml:lang="ja">八潮地域センター・区民集会所</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6001681</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7514663</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-10-27</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub9bL129C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5976934</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7211039</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/5">
+    <bp:所在地 xml:lang="ja">東京都品川区南大井1-12-6</bp:所在地>
+    <bp:備考 xml:lang="ja">住所 南大井1-12-6
+　　(南大井文化センタ-内)
+電話 3761-2000
+交通 立会川駅徒歩5分
+
+●届出 
+●証明書 
+●支払い 
+　
+集会所はありません</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7375406</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7375406</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5963292</geo:lat>
+    <ic:座標 rdf:nodeID="ub9bL96C9"/>
+    <rdfs:label xml:lang="ja">大井第一地域センター</rdfs:label>
+    <bp:施設名称 xml:lang="ja">大井第一地域センター</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5963292</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/4">
+    <ic:座標 rdf:nodeID="ub9bL77C9"/>
+    <rdfs:label xml:lang="ja">大崎第一地域センター・区民集会所</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7164476</bp:経度>
+    <bp:施設名称 xml:lang="ja">大崎第一地域センター・区民集会所</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田3-6-3</bp:所在地>
+    <bp:備考 xml:lang="ja">住所 西五反田3-6-3
+電話 3491-2000
+交通 五反田駅、目黒駅各徒歩10分、不動前駅徒歩5分
+
+●届出
+●証明書
+●支払い
+●集会所あり</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6279721</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7164476</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6279721</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/13">
+    <bp:所在地 xml:lang="ja">東京都品川区東大井2-16-12</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区東大井2-16-12</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7415771</geo:long>
+    <bp:施設名称 xml:lang="ja">東大井区民集会所</bp:施設名称>
+    <rdfs:label xml:lang="ja">東大井区民集会所</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6005168</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7415771</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6005168</bp:緯度>
+    <ic:座標 rdf:nodeID="ub9bL219C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub9bL209C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7514663</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6001681</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/6">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7304557</bp:経度>
+    <ic:座標 rdf:nodeID="ub9bL113C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6040785</geo:lat>
+    <bp:備考 xml:lang="ja">住所 大井2-27-20
+電話 3772-2000
+交通 大井町駅徒歩10分
+併設 大井保健相談所
+
+●証明書 
+●支払い 
+●集会所あり</bp:備考>
+    <rdfs:label xml:lang="ja">大井第二地域センター・区民集会所</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6040785</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区大井2-27-20</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7304557</geo:long>
+    <bp:施設名称 xml:lang="ja">大井第二地域センター・区民集会所</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub9bL44C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6166735</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7399950</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/11">
+    <rdfs:label xml:lang="ja">荏原第四地域センター・区民集会所</rdfs:label>
+    <bp:備考 xml:lang="ja">住所 中延5-3-12
+電話 3784-2000
+交通 荏原町駅徒歩1分
+
+●届出 
+●証明書 
+●支払い 
+●集会所あり</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6038249</geo:lat>
+    <bp:施設名称 xml:lang="ja">荏原第四地域センター・区民集会所</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6038249</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区中延5-3-12</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7084941</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7084941</bp:経度>
+    <ic:座標 rdf:nodeID="ub9bL195C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub9bL229C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6096778</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7302715</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub9bL96C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5963292</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7375406</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/#">
+    <cc:attributionName>東京都品川区</cc:attributionName>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.ja"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/2">
+    <bp:備考 xml:lang="ja">住所 北品川3-11-16 
+電話 3450-2000
+交通 新馬場駅徒歩3分
+
+●届出
+●証明書
+●支払い
+●集会所あり</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6166735</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7399950</geo:long>
+    <bp:施設名称 xml:lang="ja">品川第一地域センター・区民集会所</bp:施設名称>
+    <rdfs:label xml:lang="ja">品川第一地域センター・区民集会所</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川3-11-16</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7399950</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6166735</geo:lat>
+    <ic:座標 rdf:nodeID="ub9bL44C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/3">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7412774</bp:経度>
+    <ic:座標 rdf:nodeID="ub9bL60C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6113482</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区南品川5-3-20</bp:所在地>
+    <bp:施設名称 xml:lang="ja">品川第二地域センター・区民集会所</bp:施設名称>
+    <bp:備考 xml:lang="ja">住所 南品川5-3-20
+電話 3472-2000
+交通 青物横丁駅徒歩5分、大井町駅徒歩10分
+
+●証明書
+●支払い
+●集会所あり</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6113482</geo:lat>
+    <rdfs:label xml:lang="ja">品川第二地域センター・区民集会所</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7412774</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub9bL219C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6005168</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7415771</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub9bL113C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6040785</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7304557</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub9bL146C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6192605</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7057503</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub9bL162C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7043829</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6110694</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub9bL245C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7279883</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6166490</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub9bL60C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6113482</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7412774</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub9bL178C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6133434</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7153629</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub9bL27C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7301459</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6093959</ic:緯度>
+  </rdf:Description>
+</rdf:RDF>
+

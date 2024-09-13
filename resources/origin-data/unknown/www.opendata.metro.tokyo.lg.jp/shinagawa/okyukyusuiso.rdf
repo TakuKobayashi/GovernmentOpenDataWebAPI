@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:bp="http://www.city.shinagawa.tokyo.jp//property/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+   xmlns:ic="http://imi.go.jp/ns/core/rdf#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/2">
+    <ic:座標 rdf:nodeID="ub4bL21C9"/>
+    <bp:容量 xml:lang="ja">1500</bp:容量>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7225139</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6103442</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7225139</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6103442</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/1">
+    <ic:座標 rdf:nodeID="ub4bL14C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5958215</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7501909</bp:経度>
+    <bp:容量 xml:lang="ja">1500</bp:容量>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7501909</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5958215</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/3">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6116034</geo:lat>
+    <ic:座標 rdf:nodeID="ub4bL28C9"/>
+    <bp:容量 xml:lang="ja">100</bp:容量>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7461050</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6116034</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7461050</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/4">
+    <bp:容量 xml:lang="ja">1500</bp:容量>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7053747</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7053747</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6256792</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6256792</geo:lat>
+    <ic:座標 rdf:nodeID="ub4bL35C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL21C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7225139</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6103442</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL35C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7053747</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6256792</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL28C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7461050</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6116034</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/#">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.ja"/>
+    <cc:attributionName>東京都品川区</cc:attributionName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub4bL14C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7501909</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5958215</ic:緯度>
+  </rdf:Description>
+</rdf:RDF>
+

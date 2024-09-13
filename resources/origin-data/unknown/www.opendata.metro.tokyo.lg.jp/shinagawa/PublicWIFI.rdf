@@ -1,0 +1,3015 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:sac="http://statdb.nstac.go.jp/lod/sac/C"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:odp="http://odp.jig.jp/odp/1.0#"
+    xmlns:schema="http://schema.org/"
+    xmlns:jrrk="http://purl.org/jrrk#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ipa="http://imi.ipa.go.jp/ns/core/rdf#"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:ic="http://imi.go.jp/ns/core/rdf#"
+    xmlns:cal="http://www.w3.org/2002/12/cal/icaltzd#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:gr="http://purl.org/goodrelations/v1#"
+    xmlns:publicwifi="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:georss="http://www.georss.org/georss"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:qb="http://purl.org/linked-data/cube#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:pc="http://purl.org/procurement/public-contracts#">
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%93%81%E5%B7%9D%E7%AC%AC%E4%BA%8C%E5%9C%B0%E5%9F%9F%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.611371/139.741289">
+    <ic:住所>
+      <rdf:Description rdf:nodeID="A0">
+        <ic:都道府県 xml:lang="ja">東京都</ic:都道府県>
+        <ic:市区町村 xml:lang="ja">品川区</ic:市区町村>
+        <ipa:表記 xml:lang="ja">東京都品川区</ipa:表記>
+        <ic:表記 xml:lang="ja">東京都品川区</ic:表記>
+        <ipa:市区町村 xml:lang="ja">品川区</ipa:市区町村>
+        <ipa:都道府県 xml:lang="ja">東京都</ipa:都道府県>
+      </rdf:Description>
+    </ic:住所>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A1">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.611370/+139.741287/">
+            <ipa:経度>+139.741287</ipa:経度>
+            <ic:経度>+139.741287</ic:経度>
+            <ipa:緯度>+35.611370</ipa:緯度>
+            <ic:緯度>+35.611370</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.611370/+139.741287/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A2">
+            <ipa:表記 xml:lang="ja">東京都品川区南品川5-3-20</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区南品川5-3-20</ic:表記>
+            <rdfs:label>東京都品川区南品川5-3-20</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A2"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A3">
+        <ipa:表記 xml:lang="ja">品川第二地域センター</ipa:表記>
+        <ic:表記 xml:lang="ja">品川第二地域センター</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:設置地点 rdf:nodeID="A1"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.741289</geo:long>
+    <ic:名称 rdf:nodeID="A3"/>
+    <jrrk:address>東京都品川区南品川5-3-20</jrrk:address>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.611371</geo:lat>
+    <rdfs:label xml:lang="ja">品川第二地域センター</rdfs:label>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E8%8D%8F%E5%8E%9F%E7%AC%AC%E5%9B%9B%E5%9C%B0%E5%9F%9F%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.6038/139.708376">
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A4">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.603802/+139.708374/">
+            <ipa:経度>+139.708374</ipa:経度>
+            <ic:経度>+139.708374</ic:経度>
+            <ipa:緯度>+35.603802</ipa:緯度>
+            <ic:緯度>+35.603802</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.603802/+139.708374/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A5">
+            <ipa:表記 xml:lang="ja">東京都品川区中延5-3-12</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区中延5-3-12</ic:表記>
+            <rdfs:label>東京都品川区中延5-3-12</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A5"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ic:設置地点 rdf:nodeID="A4"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A6">
+        <ipa:表記 xml:lang="ja">荏原第四地域センター</ipa:表記>
+        <ic:表記 xml:lang="ja">荏原第四地域センター</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <jrrk:address>東京都品川区中延5-3-12</jrrk:address>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.708376</geo:long>
+    <ic:住所 rdf:nodeID="A0"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.6038</geo:lat>
+    <ic:名称 rdf:nodeID="A6"/>
+    <rdfs:label xml:lang="ja">荏原第四地域センター</rdfs:label>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E6%88%B8%E8%B6%8A%E9%8A%80%E5%BA%A7%E9%A7%85/35.615711/139.714768">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.615711</geo:lat>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A7">
+        <ipa:表記 xml:lang="ja">戸越銀座駅</ipa:表記>
+        <ic:表記 xml:lang="ja">戸越銀座駅</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A8">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.615711/+139.714767/">
+            <ipa:経度>+139.714767</ipa:経度>
+            <ic:経度>+139.714767</ic:経度>
+            <ipa:緯度>+35.615711</ipa:緯度>
+            <ic:緯度>+35.615711</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.615711/+139.714767/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A9">
+            <ipa:表記 xml:lang="ja">東京都品川区平塚2-16-1</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区平塚2-16-1</ic:表記>
+            <rdfs:label>東京都品川区平塚2-16-1</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A9"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ipa:設置地点 rdf:nodeID="A8"/>
+    <ic:名称 rdf:nodeID="A7"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <jrrk:address>東京都品川区平塚2-16-1</jrrk:address>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.714768</geo:long>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <rdfs:label xml:lang="ja">戸越銀座駅</rdfs:label>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E6%9D%B1%E5%93%81%E5%B7%9D%E6%B5%B7%E4%B8%8A%E5%85%AC%E5%9C%92/35.616984/139.749625">
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A10">
+        <ipa:表記 xml:lang="ja">東品川海上公園</ipa:表記>
+        <ic:表記 xml:lang="ja">東品川海上公園</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <rdfs:label xml:lang="ja">東品川海上公園</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.616984</geo:lat>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ic:名称 rdf:nodeID="A10"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A11">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.616985/+139.749619/">
+            <ipa:経度>+139.749619</ipa:経度>
+            <ic:経度>+139.749619</ic:経度>
+            <ipa:緯度>+35.616985</ipa:緯度>
+            <ic:緯度>+35.616985</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.616985/+139.749619/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A12">
+            <ipa:表記 xml:lang="ja">東京都品川区東品川二丁目・三丁目</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区東品川二丁目・三丁目</ic:表記>
+            <rdfs:label>東京都品川区東品川二丁目・三丁目</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A12"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <jrrk:address>東京都品川区東品川二丁目・三丁目</jrrk:address>
+    <ipa:設置地点 rdf:nodeID="A11"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.749625</geo:long>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E9%9A%9C%E5%AE%B3%E5%85%90%E8%80%85%E7%B7%8F%E5%90%88%E6%94%AF%E6%8F%B4%E6%96%BD%E8%A8%AD/35.60724/139.744841">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.744841</geo:long>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.60724</geo:lat>
+    <jrrk:address>東京都品川区南品川3-7-7</jrrk:address>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A13">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.607239/+139.744843/">
+            <ipa:経度>+139.744843</ipa:経度>
+            <ic:経度>+139.744843</ic:経度>
+            <ipa:緯度>+35.607239</ipa:緯度>
+            <ic:緯度>+35.607239</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.607239/+139.744843/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A14">
+            <ipa:表記 xml:lang="ja">東京都品川区南品川3-7-7</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区南品川3-7-7</ic:表記>
+            <rdfs:label>東京都品川区南品川3-7-7</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A14"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A15">
+        <ipa:表記 xml:lang="ja">障害児者総合支援施設</ipa:表記>
+        <ic:表記 xml:lang="ja">障害児者総合支援施設</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <ic:名称 rdf:nodeID="A15"/>
+    <ipa:設置地点 rdf:nodeID="A13"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdfs:label xml:lang="ja">障害児者総合支援施設</rdfs:label>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E6%9D%B1%E5%93%81%E5%B7%9D%E3%82%86%E3%81%86%E3%82%86%E3%81%86%E3%83%97%E3%83%A9%E3%82%B6/35.612974/139.750585">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.750585</geo:long>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A16">
+        <ipa:表記 xml:lang="ja">東品川ゆうゆうプラザ</ipa:表記>
+        <ic:表記 xml:lang="ja">東品川ゆうゆうプラザ</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A17">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.612972/+139.750580/">
+            <ipa:経度>+139.750580</ipa:経度>
+            <ic:経度>+139.750580</ic:経度>
+            <ipa:緯度>+35.612972</ipa:緯度>
+            <ic:緯度>+35.612972</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.612972/+139.750580/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A18">
+            <ipa:表記 xml:lang="ja">東京都品川区東品川3-32-10</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区東品川3-32-10</ic:表記>
+            <rdfs:label>東京都品川区東品川3-32-10</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A18"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ipa:名称 rdf:nodeID="A16"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.612974</geo:lat>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <rdfs:label xml:lang="ja">東品川ゆうゆうプラザ</rdfs:label>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <jrrk:address>東京都品川区東品川3-32-10</jrrk:address>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ipa:設置地点 rdf:nodeID="A17"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#+%E6%9D%B1%E5%93%81%E5%B7%9D%E6%96%87%E5%8C%96%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.612974/139.750585">
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdfs:label xml:lang="ja">東品川文化センター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.612974</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A19">
+        <ipa:表記 xml:lang="ja">東品川文化センター</ipa:表記>
+        <ic:表記 xml:lang="ja">東品川文化センター</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A20">
+        <ipa:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.612972/+139.750580/"/>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.612972/+139.750580/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A21">
+            <ipa:表記 xml:lang="ja">東京都品川区東品川3-32-10</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区東品川3-32-10</ic:表記>
+            <rdfs:label>東京都品川区東品川3-32-10</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A21"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.750585</geo:long>
+    <ipa:名称 rdf:nodeID="A19"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ipa:設置地点 rdf:nodeID="A20"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <jrrk:address>東京都品川区東品川3-32-10</jrrk:address>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E8%8D%8F%E5%8E%9F%E7%AC%AC%E4%BA%8C%E5%9C%B0%E5%9F%9F%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.611070/139.704426">
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A22">
+        <ipa:表記 xml:lang="ja">荏原第二地域センター</ipa:表記>
+        <ic:表記 xml:lang="ja">荏原第二地域センター</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <ic:名称 rdf:nodeID="A22"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A23">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.611069/+139.704422/">
+            <ipa:経度>+139.704422</ipa:経度>
+            <ic:経度>+139.704422</ic:経度>
+            <ipa:緯度>+35.611069</ipa:緯度>
+            <ic:緯度>+35.611069</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.611069/+139.704422/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A24">
+            <ipa:表記 xml:lang="ja">東京都品川区荏原6-17-12</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区荏原6-17-12</ic:表記>
+            <rdfs:label>東京都品川区荏原6-17-12</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A24"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.61107</geo:lat>
+    <ipa:設置地点 rdf:nodeID="A23"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdfs:label xml:lang="ja">荏原第二地域センター</rdfs:label>
+    <jrrk:address>東京都品川区荏原6-17-12</jrrk:address>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.704426</geo:long>
+    <ipa:住所 rdf:nodeID="A0"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%A4%A7%E4%BA%95%E7%AC%AC%E4%B8%80%E5%9C%B0%E5%9F%9F%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.596300/139.737535">
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A25">
+        <ipa:表記 xml:lang="ja">大井第一地域センター</ipa:表記>
+        <ic:表記 xml:lang="ja">大井第一地域センター</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.5963</geo:lat>
+    <rdfs:label xml:lang="ja">大井第一地域センター</rdfs:label>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.737535</geo:long>
+    <ic:名称 rdf:nodeID="A25"/>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A26">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.596298/+139.737534/">
+            <ipa:経度>+139.737534</ipa:経度>
+            <ic:経度>+139.737534</ic:経度>
+            <ipa:緯度>+35.596298</ipa:緯度>
+            <ic:緯度>+35.596298</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.596298/+139.737534/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A27">
+            <ipa:表記 xml:lang="ja">東京都品川区南大井1-12-6</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区南大井1-12-6</ic:表記>
+            <rdfs:label>東京都品川区南大井1-12-6</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A27"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <jrrk:address>東京都品川区南大井1-12-6</jrrk:address>
+    <ipa:設置地点 rdf:nodeID="A26"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%8D%97%E5%A4%A7%E4%BA%95%E5%9B%B3%E6%9B%B8%E9%A4%A8/35.591678/139.734418">
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A28">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.591679/+139.734421/">
+            <ipa:経度>+139.734421</ipa:経度>
+            <ic:経度>+139.734421</ic:経度>
+            <ipa:緯度>+35.591679</ipa:緯度>
+            <ic:緯度>+35.591679</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.591679/+139.734421/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A29">
+            <ipa:表記 xml:lang="ja">東京都品川区南大井3-7-13</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区南大井3-7-13</ic:表記>
+            <rdfs:label>東京都品川区南大井3-7-13</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A29"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A30">
+        <ipa:表記 xml:lang="ja">南大井図書館</ipa:表記>
+        <ic:表記 xml:lang="ja">南大井図書館</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <rdfs:label xml:lang="ja">南大井図書館</rdfs:label>
+    <ipa:名称 rdf:nodeID="A30"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.591678</geo:lat>
+    <ipa:設置地点 rdf:nodeID="A28"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.734418</geo:long>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <jrrk:address>東京都品川区南大井3-7-13</jrrk:address>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%93%81%E5%B7%9D%E5%AE%BF%E4%BA%A4%E6%B5%81%E9%A4%A8/35.617544/139.7444">
+    <ic:住所 rdf:nodeID="A0"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A31">
+        <ipa:表記 xml:lang="ja">品川宿交流館</ipa:表記>
+        <ic:表記 xml:lang="ja">品川宿交流館</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <rdfs:label xml:lang="ja">品川宿交流館</rdfs:label>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A32">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.617542/+139.744400/">
+            <ipa:経度>+139.744400</ipa:経度>
+            <ic:経度>+139.744400</ic:経度>
+            <ipa:緯度>+35.617542</ipa:緯度>
+            <ic:緯度>+35.617542</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.617542/+139.744400/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A33">
+            <ipa:表記 xml:lang="ja">東京都品川区北品川2-28-19</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区北品川2-28-19</ic:表記>
+            <rdfs:label>東京都品川区北品川2-28-19</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A33"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <jrrk:address>東京都品川区北品川2-28-19</jrrk:address>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.617544</geo:lat>
+    <ic:設置地点 rdf:nodeID="A32"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.7444</geo:long>
+    <ipa:名称 rdf:nodeID="A31"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E7%9B%AE%E9%BB%92%E9%A7%85%E8%A5%BF%E5%8F%A3/35.633736/139.714977">
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A34">
+        <ipa:表記 xml:lang="ja">目黒駅西口</ipa:表記>
+        <ic:表記 xml:lang="ja">目黒駅西口</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.633736</geo:lat>
+    <ipa:名称 rdf:nodeID="A34"/>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A35">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.633736/+139.714981/">
+            <ipa:経度>+139.714981</ipa:経度>
+            <ic:経度>+139.714981</ic:経度>
+            <ipa:緯度>+35.633736</ipa:緯度>
+            <ic:緯度>+35.633736</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.633736/+139.714981/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A36">
+            <ipa:表記 xml:lang="ja">東京都品川区上大崎4-1-4</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区上大崎4-1-4</ic:表記>
+            <rdfs:label>東京都品川区上大崎4-1-4</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A36"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <rdfs:label xml:lang="ja">目黒駅西口</rdfs:label>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <jrrk:address>東京都品川区上大崎4-1-4</jrrk:address>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.714977</geo:long>
+    <ic:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ic:設置地点 rdf:nodeID="A35"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E8%8D%8F%E5%8E%9F%E4%BF%9D%E5%81%A5%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.617167/139.711512">
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A37">
+        <ipa:表記 xml:lang="ja">荏原保健センター</ipa:表記>
+        <ic:表記 xml:lang="ja">荏原保健センター</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A38">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.617168/+139.711517/">
+            <ipa:経度>+139.711517</ipa:経度>
+            <ic:経度>+139.711517</ic:経度>
+            <ipa:緯度>+35.617168</ipa:緯度>
+            <ic:緯度>+35.617168</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.617168/+139.711517/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A39">
+            <ipa:表記 xml:lang="ja">東京都品川区荏原2-9-6</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区荏原2-9-6</ic:表記>
+            <rdfs:label>東京都品川区荏原2-9-6</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A39"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ic:設置地点 rdf:nodeID="A38"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.711512</geo:long>
+    <rdfs:label xml:lang="ja">荏原保健センター</rdfs:label>
+    <jrrk:address>東京都品川区荏原2-9-6</jrrk:address>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.617167</geo:lat>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ic:名称 rdf:nodeID="A37"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E3%81%97%E3%81%AA%E3%81%8C%E3%82%8F%E5%8C%BA%E6%B0%91%E5%85%AC%E5%9C%92%EF%BC%88%E3%81%97%E3%81%AA%E3%81%8C%E3%82%8F%E6%B0%B4%E6%97%8F%E9%A4%A8%EF%BC%89/35.589095/139.737173">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.589095</geo:lat>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A40">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.589096/+139.737167/">
+            <ipa:経度>+139.737167</ipa:経度>
+            <ic:経度>+139.737167</ic:経度>
+            <ipa:緯度>+35.589096</ipa:緯度>
+            <ic:緯度>+35.589096</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.589096/+139.737167/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A41">
+            <ipa:表記 xml:lang="ja">東京都品川区勝島３丁目２−１</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区勝島３丁目２−１</ic:表記>
+            <rdfs:label>東京都品川区勝島３丁目２−１</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A41"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <jrrk:address>東京都品川区勝島３丁目２−１</jrrk:address>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A42">
+        <ipa:表記 xml:lang="ja">しながわ区民公園（しながわ水族館）</ipa:表記>
+        <ic:表記 xml:lang="ja">しながわ区民公園（しながわ水族館）</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:名称 rdf:nodeID="A42"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <rdfs:label xml:lang="ja">しながわ区民公園（しながわ水族館）</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.737173</geo:long>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ipa:設置地点 rdf:nodeID="A40"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%A4%A7%E4%BA%95%E7%94%BA%E9%A7%85%E8%A5%BF%E5%8F%A3/35.606644/139.734154">
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A43">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.606644/+139.734161/">
+            <ipa:経度>+139.734161</ipa:経度>
+            <ic:経度>+139.734161</ic:経度>
+            <ipa:緯度>+35.606644</ipa:緯度>
+            <ic:緯度>+35.606644</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.606644/+139.734161/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A44">
+            <ipa:表記 xml:lang="ja">東京都品川区大井1-6付近</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区大井1-6付近</ic:表記>
+            <rdfs:label>東京都品川区大井1-6付近</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A44"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <rdfs:label xml:lang="ja">大井町駅西口</rdfs:label>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A45">
+        <ipa:表記 xml:lang="ja">大井町駅西口</ipa:表記>
+        <ic:表記 xml:lang="ja">大井町駅西口</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ipa:名称 rdf:nodeID="A45"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ipa:設置地点 rdf:nodeID="A43"/>
+    <jrrk:address>東京都品川区大井1-6付近</jrrk:address>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.734154</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.606644</geo:lat>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E6%9D%B1%E5%93%81%E5%B7%9D%E6%96%87%E5%8C%96%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.612974/139.750585">
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A46">
+        <ipa:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.612972/+139.750580/"/>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.612972/+139.750580/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A47">
+            <ipa:表記 xml:lang="ja">東京都品川区東品川3-32-10</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区東品川3-32-10</ic:表記>
+            <rdfs:label>東京都品川区東品川3-32-10</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A47"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ic:住所 rdf:nodeID="A0"/>
+    <rdfs:label xml:lang="ja">東品川文化センター</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.750585</geo:long>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A48">
+        <ipa:表記 xml:lang="ja">東品川文化センター</ipa:表記>
+        <ic:表記 xml:lang="ja">東品川文化センター</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.612974</geo:lat>
+    <ic:名称 rdf:nodeID="A48"/>
+    <ic:設置地点 rdf:nodeID="A46"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <jrrk:address>東京都品川区東品川3-32-10</jrrk:address>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%A4%A7%E5%B4%8E%E7%AC%AC%E4%B8%80%E5%9C%B0%E5%9F%9F%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.627880/139.716601">
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A49">
+        <ipa:表記 xml:lang="ja">大崎第一地域センター</ipa:表記>
+        <ic:表記 xml:lang="ja">大崎第一地域センター</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <jrrk:address>東京都品川区西五反田3-6-3</jrrk:address>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <rdfs:label xml:lang="ja">大崎第一地域センター</rdfs:label>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A50">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.627880/+139.716599/">
+            <ipa:経度>+139.716599</ipa:経度>
+            <ic:経度>+139.716599</ic:経度>
+            <ipa:緯度>+35.627880</ipa:緯度>
+            <ic:緯度>+35.627880</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.627880/+139.716599/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A51">
+            <ipa:表記 xml:lang="ja">東京都品川区西五反田3-6-3</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区西五反田3-6-3</ic:表記>
+            <rdfs:label>東京都品川区西五反田3-6-3</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A51"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ipa:名称 rdf:nodeID="A49"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.62788</geo:lat>
+    <ic:住所 rdf:nodeID="A0"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.716601</geo:long>
+    <ipa:設置地点 rdf:nodeID="A50"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E4%B8%AD%E5%BB%B6%E9%A7%85/35.606067/139.712881">
+    <ipa:住所 rdf:nodeID="A0"/>
+    <jrrk:address>東京都品川区中延4-5</jrrk:address>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A52">
+        <ipa:表記 xml:lang="ja">中延駅</ipa:表記>
+        <ic:表記 xml:lang="ja">中延駅</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdfs:label xml:lang="ja">中延駅</rdfs:label>
+    <ipa:名称 rdf:nodeID="A52"/>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A53">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.606068/+139.712875/">
+            <ipa:経度>+139.712875</ipa:経度>
+            <ic:経度>+139.712875</ic:経度>
+            <ipa:緯度>+35.606068</ipa:緯度>
+            <ic:緯度>+35.606068</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.606068/+139.712875/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A54">
+            <ipa:表記 xml:lang="ja">東京都品川区中延4-5</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区中延4-5</ic:表記>
+            <rdfs:label>東京都品川区中延4-5</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A54"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ipa:設置地点 rdf:nodeID="A53"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.712881</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.606067</geo:lat>
+    <ic:住所 rdf:nodeID="A0"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E6%BA%90%E6%B0%8F%E5%89%8D%E5%9B%B3%E6%9B%B8%E9%A4%A8/35.605528/139.70998">
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <jrrk:address>東京都品川区中延4-14-17</jrrk:address>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A55">
+        <ipa:表記 xml:lang="ja">源氏前図書館</ipa:表記>
+        <ic:表記 xml:lang="ja">源氏前図書館</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <rdfs:label xml:lang="ja">源氏前図書館</rdfs:label>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ipa:名称 rdf:nodeID="A55"/>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A56">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.605530/+139.709976/">
+            <ipa:経度>+139.709976</ipa:経度>
+            <ic:経度>+139.709976</ic:経度>
+            <ipa:緯度>+35.605530</ipa:緯度>
+            <ic:緯度>+35.605530</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.605530/+139.709976/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A57">
+            <ipa:表記 xml:lang="ja">東京都品川区中延4-14-17</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区中延4-14-17</ic:表記>
+            <rdfs:label>東京都品川区中延4-14-17</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A57"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.70998</geo:long>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ic:設置地点 rdf:nodeID="A56"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.605528</geo:lat>
+    <ic:住所 rdf:nodeID="A0"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E8%8D%8F%E5%8E%9F%E7%AC%AC%E4%BA%94%E5%9C%B0%E5%9F%9F%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.608235/139.725722">
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A58">
+        <ipa:表記 xml:lang="ja">荏原第五地域センター</ipa:表記>
+        <ic:表記 xml:lang="ja">荏原第五地域センター</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <rdfs:label xml:lang="ja">荏原第五地域センター</rdfs:label>
+    <ipa:名称 rdf:nodeID="A58"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.725722</geo:long>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A59">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.608234/+139.725723/">
+            <ipa:経度>+139.725723</ipa:経度>
+            <ic:経度>+139.725723</ic:経度>
+            <ipa:緯度>+35.608234</ipa:緯度>
+            <ic:緯度>+35.608234</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.608234/+139.725723/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A60">
+            <ipa:表記 xml:lang="ja">東京都品川区二葉1-1-2</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区二葉1-1-2</ic:表記>
+            <rdfs:label>東京都品川区二葉1-1-2</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A60"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ic:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:設置地点 rdf:nodeID="A59"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <jrrk:address>東京都品川区二葉1-1-2</jrrk:address>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.608235</geo:lat>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E7%AB%8B%E4%BC%9A%E5%B7%9D%E9%A7%85/35.598114/139.73863">
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.73863</geo:long>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A61">
+        <ipa:表記 xml:lang="ja">立会川駅</ipa:表記>
+        <ic:表記 xml:lang="ja">立会川駅</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A62">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.598114/+139.738632/">
+            <ipa:経度>+139.738632</ipa:経度>
+            <ic:経度>+139.738632</ic:経度>
+            <ipa:緯度>+35.598114</ipa:緯度>
+            <ic:緯度>+35.598114</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.598114/+139.738632/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A63">
+            <ipa:表記 xml:lang="ja">東京都品川区東大井2-23-1</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区東大井2-23-1</ic:表記>
+            <rdfs:label>東京都品川区東大井2-23-1</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A63"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <jrrk:address>東京都品川区東大井2-23-1</jrrk:address>
+    <rdfs:label xml:lang="ja">立会川駅</rdfs:label>
+    <ipa:名称 rdf:nodeID="A61"/>
+    <ic:設置地点 rdf:nodeID="A62"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.598114</geo:lat>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ic:住所 rdf:nodeID="A0"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E8%8D%8F%E5%8E%9F%E7%AC%AC%E4%B8%89%E5%9C%B0%E5%9F%9F%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.613375/139.715361">
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.715361</geo:long>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A64">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.613377/+139.715363/">
+            <ipa:経度>+139.715363</ipa:経度>
+            <ic:経度>+139.715363</ic:経度>
+            <ipa:緯度>+35.613377</ipa:緯度>
+            <ic:緯度>+35.613377</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.613377/+139.715363/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A65">
+            <ipa:表記 xml:lang="ja">東京都品川区平塚1-13-18</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区平塚1-13-18</ic:表記>
+            <rdfs:label>東京都品川区平塚1-13-18</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A65"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.613375</geo:lat>
+    <jrrk:address>東京都品川区平塚1-13-18</jrrk:address>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A66">
+        <ipa:表記 xml:lang="ja">荏原第三地域センター</ipa:表記>
+        <ic:表記 xml:lang="ja">荏原第三地域センター</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <ic:名称 rdf:nodeID="A66"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ic:設置地点 rdf:nodeID="A64"/>
+    <rdfs:label xml:lang="ja">荏原第三地域センター</rdfs:label>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#+%E3%81%93%E3%81%BF%E3%82%85%E3%81%AB%E3%81%A6%E3%81%83%E3%81%B7%E3%82%89%E3%81%96%E5%85%AB%E6%BD%AE/35.59818/139.752419">
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.59818</geo:lat>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A67">
+        <ipa:表記 xml:lang="ja">こみゅにてぃぷらざ八潮</ipa:表記>
+        <ic:表記 xml:lang="ja">こみゅにてぃぷらざ八潮</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.752419</geo:long>
+    <ic:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <rdfs:label xml:lang="ja">こみゅにてぃぷらざ八潮</rdfs:label>
+    <ic:名称 rdf:nodeID="A67"/>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A68">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.598179/+139.752426/">
+            <ipa:経度>+139.752426</ipa:経度>
+            <ic:経度>+139.752426</ic:経度>
+            <ipa:緯度>+35.598179</ipa:緯度>
+            <ic:緯度>+35.598179</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.598179/+139.752426/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A69">
+            <ipa:表記 xml:lang="ja">東京都品川区八潮5-9-11</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区八潮5-9-11</ic:表記>
+            <rdfs:label>東京都品川区八潮5-9-11</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A69"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ipa:設置地点 rdf:nodeID="A68"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <jrrk:address>東京都品川区八潮5-9-11</jrrk:address>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%93%81%E5%B7%9D%E4%BF%9D%E5%81%A5%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.61654/139.740684">
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <jrrk:address>東京都品川区北品川3-11-22</jrrk:address>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.740684</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.61654</geo:lat>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A70">
+        <ipa:表記 xml:lang="ja">品川保健センター</ipa:表記>
+        <ic:表記 xml:lang="ja">品川保健センター</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A71">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.616539/+139.740677/">
+            <ipa:経度>+139.740677</ipa:経度>
+            <ic:経度>+139.740677</ic:経度>
+            <ipa:緯度>+35.616539</ipa:緯度>
+            <ic:緯度>+35.616539</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.616539/+139.740677/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A72">
+            <ipa:表記 xml:lang="ja">東京都品川区北品川3-11-22</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区北品川3-11-22</ic:表記>
+            <rdfs:label>東京都品川区北品川3-11-22</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A72"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <rdfs:label xml:lang="ja">品川保健センター</rdfs:label>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ic:設置地点 rdf:nodeID="A71"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ipa:名称 rdf:nodeID="A70"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E4%BA%8C%E8%91%89%E5%9B%B3%E6%9B%B8%E9%A4%A8/35.607996/139.726673">
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A73">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.607998/+139.726669/">
+            <ipa:経度>+139.726669</ipa:経度>
+            <ic:経度>+139.726669</ic:経度>
+            <ipa:緯度>+35.607998</ipa:緯度>
+            <ic:緯度>+35.607998</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.607998/+139.726669/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A74">
+            <ipa:表記 xml:lang="ja">東京都品川区二葉1-4-25</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区二葉1-4-25</ic:表記>
+            <rdfs:label>東京都品川区二葉1-4-25</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A74"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.726673</geo:long>
+    <jrrk:address>東京都品川区二葉1-4-25</jrrk:address>
+    <rdfs:label xml:lang="ja">二葉図書館</rdfs:label>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.607996</geo:lat>
+    <ic:設置地点 rdf:nodeID="A73"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A75">
+        <ipa:表記 xml:lang="ja">二葉図書館</ipa:表記>
+        <ic:表記 xml:lang="ja">二葉図書館</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:名称 rdf:nodeID="A75"/>
+    <ic:住所 rdf:nodeID="A0"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%A4%A7%E5%B4%8E%E9%A7%85%E6%96%B0%E8%A5%BF%E5%8F%A3/35.61826/139.728433">
+    <ipa:住所 rdf:nodeID="A0"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.728433</geo:long>
+    <ic:住所 rdf:nodeID="A0"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.61826</geo:lat>
+    <jrrk:address>東京都品川区大崎2-1付近</jrrk:address>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A76">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.618259/+139.728439/">
+            <ipa:経度>+139.728439</ipa:経度>
+            <ic:経度>+139.728439</ic:経度>
+            <ipa:緯度>+35.618259</ipa:緯度>
+            <ic:緯度>+35.618259</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.618259/+139.728439/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A77">
+            <ipa:表記 xml:lang="ja">東京都品川区大崎2-1付近</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区大崎2-1付近</ic:表記>
+            <rdfs:label>東京都品川区大崎2-1付近</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A77"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A78">
+        <ipa:表記 xml:lang="ja">大崎駅新西口</ipa:表記>
+        <ic:表記 xml:lang="ja">大崎駅新西口</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <rdfs:label xml:lang="ja">大崎駅新西口</rdfs:label>
+    <ic:設置地点 rdf:nodeID="A76"/>
+    <ipa:名称 rdf:nodeID="A78"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E6%88%B8%E8%B6%8A%E5%85%AC%E5%9C%92/35.611006/139.722843">
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A79">
+        <ipa:表記 xml:lang="ja">戸越公園</ipa:表記>
+        <ic:表記 xml:lang="ja">戸越公園</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <ic:住所 rdf:nodeID="A0"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <rdfs:label xml:lang="ja">戸越公園</rdfs:label>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ic:名称 rdf:nodeID="A79"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A80">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.611008/+139.722839/">
+            <ipa:経度>+139.722839</ipa:経度>
+            <ic:経度>+139.722839</ic:経度>
+            <ipa:緯度>+35.611008</ipa:緯度>
+            <ic:緯度>+35.611008</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.611008/+139.722839/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A81">
+            <ipa:表記 xml:lang="ja">東京都品川区豊町2-1-30</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区豊町2-1-30</ic:表記>
+            <rdfs:label>東京都品川区豊町 2-1-30</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A81"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <jrrk:address>東京都品川区豊町 2-1-30</jrrk:address>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.611006</geo:lat>
+    <ipa:設置地点 rdf:nodeID="A80"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.722843</geo:long>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%A4%A9%E7%8E%8B%E6%B4%B2%E5%85%AC%E5%9C%92/35.619444/139.750076">
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A82">
+        <ipa:表記 xml:lang="ja">天王洲公園</ipa:表記>
+        <ic:表記 xml:lang="ja">天王洲公園</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <rdfs:label xml:lang="ja">天王洲公園</rdfs:label>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ic:名称 rdf:nodeID="A82"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A83">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.619446/+139.750076/">
+            <ipa:経度>+139.750076</ipa:経度>
+            <ic:経度>+139.750076</ic:経度>
+            <ipa:緯度>+35.619446</ipa:緯度>
+            <ic:緯度>+35.619446</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.619446/+139.750076/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A84">
+            <ipa:表記 xml:lang="ja">東京都品川区東品川2-6</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区東品川2-6</ic:表記>
+            <rdfs:label>東京都品川区東品川2-6</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A84"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.619444</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.750076</geo:long>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ipa:設置地点 rdf:nodeID="A83"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <jrrk:address>東京都品川区東品川2-6</jrrk:address>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E8%8D%8F%E5%8E%9F%E7%AC%AC%E4%B8%80%E5%9C%B0%E5%9F%9F%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.619308/139.705656">
+    <ic:住所 rdf:nodeID="A0"/>
+    <jrrk:address>東京都品川区小山3-22-3</jrrk:address>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.619308</geo:lat>
+    <rdfs:label xml:lang="ja">荏原第一地域センター</rdfs:label>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A85">
+        <ipa:表記 xml:lang="ja">荏原第一地域センター</ipa:表記>
+        <ic:表記 xml:lang="ja">荏原第一地域センター</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.705656</geo:long>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A86">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.619308/+139.705658/">
+            <ipa:経度>+139.705658</ipa:経度>
+            <ic:経度>+139.705658</ic:経度>
+            <ipa:緯度>+35.619308</ipa:緯度>
+            <ic:緯度>+35.619308</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.619308/+139.705658/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A87">
+            <ipa:表記 xml:lang="ja">東京都品川区小山3-22-3</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区小山3-22-3</ic:表記>
+            <rdfs:label>東京都品川区小山3-22-3</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A87"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ic:設置地点 rdf:nodeID="A86"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ipa:名称 rdf:nodeID="A85"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E6%96%87%E5%BA%AB%E3%81%AE%E6%A3%AE%E5%85%AC%E5%9C%92/35.612044/139.720541">
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A88">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.612045/+139.720535/">
+            <ipa:経度>+139.720535</ipa:経度>
+            <ic:経度>+139.720535</ic:経度>
+            <ipa:緯度>+35.612045</ipa:緯度>
+            <ic:緯度>+35.612045</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.612045/+139.720535/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A89">
+            <ipa:表記 xml:lang="ja">東京都品川区豊町1−16−23</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区豊町1−16−23</ic:表記>
+            <rdfs:label>東京都品川区豊町1−16−23</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A89"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <jrrk:address>東京都品川区豊町1−16−23</jrrk:address>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A90">
+        <ipa:表記 xml:lang="ja">文庫の森公園</ipa:表記>
+        <ic:表記 xml:lang="ja">文庫の森公園</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ic:設置地点 rdf:nodeID="A88"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ipa:名称 rdf:nodeID="A90"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.720541</geo:long>
+    <rdfs:label xml:lang="ja">文庫の森公園</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.612044</geo:lat>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E4%BA%94%E5%8F%8D%E7%94%B0%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/35.624714/139.724012">
+    <ic:住所 rdf:nodeID="A0"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A91">
+        <ipa:表記 xml:lang="ja">五反田リバーステーション</ipa:表記>
+        <ic:表記 xml:lang="ja">五反田リバーステーション</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.624714</geo:lat>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A92">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.624714/+139.724014/">
+            <ipa:経度>+139.724014</ipa:経度>
+            <ic:経度>+139.724014</ic:経度>
+            <ipa:緯度>+35.624714</ipa:緯度>
+            <ic:緯度>+35.624714</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.624714/+139.724014/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A93">
+            <ipa:表記 xml:lang="ja">東京都品川区西五反田1-10-2</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区西五反田1-10-2</ic:表記>
+            <rdfs:label>東京都品川区西五反田1-10-2</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A93"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <jrrk:address>東京都品川区西五反田1-10-2</jrrk:address>
+    <ipa:名称 rdf:nodeID="A91"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.724012</geo:long>
+    <rdfs:label xml:lang="ja">五反田リバーステーション</rdfs:label>
+    <ipa:設置地点 rdf:nodeID="A92"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E4%BA%94%E5%8F%8D%E7%94%B0%E9%A7%85%E6%9D%B1%E5%8F%A3/35.625761/139.724518">
+    <ic:住所 rdf:nodeID="A0"/>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A94">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.625759/+139.724518/">
+            <ipa:経度>+139.724518</ipa:経度>
+            <ic:経度>+139.724518</ic:経度>
+            <ipa:緯度>+35.625759</ipa:緯度>
+            <ic:緯度>+35.625759</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.625759/+139.724518/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A95">
+            <ipa:表記 xml:lang="ja">東京都品川区東五反田2-1-3</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区東五反田2-1-3</ic:表記>
+            <rdfs:label>東京都品川区東五反田2-1-3</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A95"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.625761</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.724518</geo:long>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <rdfs:label xml:lang="ja">五反田駅東口</rdfs:label>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A96">
+        <ipa:表記 xml:lang="ja">五反田駅東口</ipa:表記>
+        <ic:表記 xml:lang="ja">五反田駅東口</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <jrrk:address>東京都品川区東五反田2-1-3</jrrk:address>
+    <ipa:名称 rdf:nodeID="A96"/>
+    <ic:設置地点 rdf:nodeID="A94"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%A4%A7%E4%BA%95%E7%AC%AC%E4%B8%80%E5%9C%B0%E5%9F%9F%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%28%E5%8D%97%E5%A4%A7%E4%BA%95%E6%96%87%E5%8C%96%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%29+/35.596300/139.737535">
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A97">
+        <ipa:表記 xml:lang="ja">大井第一地域センター(南大井文化センター)</ipa:表記>
+        <ic:表記 xml:lang="ja">大井第一地域センター(南大井文化センター)</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.737535</geo:long>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <rdfs:label xml:lang="ja">大井第一地域センター(南大井文化センター)</rdfs:label>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <jrrk:address>東京都品川区南大井1-12-6</jrrk:address>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A98">
+        <ipa:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.596298/+139.737534/"/>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.596298/+139.737534/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A99">
+            <ipa:表記 xml:lang="ja">東京都品川区南大井1-12-6</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区南大井1-12-6</ic:表記>
+            <rdfs:label>東京都品川区南大井1-12-6</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A99"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ipa:設置地点 rdf:nodeID="A98"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ipa:名称 rdf:nodeID="A97"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.5963</geo:lat>
+  </jrrk:PublicWIFI>
+  <odp:Dataset rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945">
+    <schema:version>4</schema:version>
+    <dcterms:publisher rdf:parseType="Resource">
+      <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+      <rdfs:label>東京都品川区</rdfs:label>
+      <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    </dcterms:publisher>
+    <dcterms:references rdf:resource="http://ckan.odp.jig.jp/dataset/jp-tokyo-shinagawa-945-odp"/>
+    <dcat:theme rdf:resource="http://purl.org/jrrk#PublicWIFI"/>
+    <dcterms:created>2018-09-20</dcterms:created>
+    <dc:title>公衆無線LAN</dc:title>
+    <odp:target rdf:resource="http://purl.org/jrrk#PublicWIFI"/>
+    <dcterms:description>品川区が提供している無料公衆無線LAN（フリーWi-Fi)による、インターネット接続サービス「SHINAGAWA FREE Wi-Fi」の設置場所情報です。&#xD;
+</dcterms:description>
+    <dc:creator>東京都品川区</dc:creator>
+    <dcterms:modified>2019-09-01</dcterms:modified>
+  </odp:Dataset>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%93%81%E5%B7%9D%E7%AC%AC%E4%B8%80%E5%9C%B0%E5%9F%9F%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.616700/139.74009">
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A100">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.616699/+139.740097/">
+            <ipa:経度>+139.740097</ipa:経度>
+            <ic:経度>+139.740097</ic:経度>
+            <ipa:緯度>+35.616699</ipa:緯度>
+            <ic:緯度>+35.616699</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.616699/+139.740097/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A101">
+            <ipa:表記 xml:lang="ja">東京都品川区北品川3-11-16</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区北品川3-11-16</ic:表記>
+            <rdfs:label>東京都品川区北品川3-11-16</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A101"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ic:設置地点 rdf:nodeID="A100"/>
+    <rdfs:label xml:lang="ja">品川第一地域センター</rdfs:label>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A102">
+        <ipa:表記 xml:lang="ja">品川第一地域センター</ipa:表記>
+        <ic:表記 xml:lang="ja">品川第一地域センター</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.74009</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.6167</geo:lat>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <jrrk:address>東京都品川区北品川3-11-16</jrrk:address>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:名称 rdf:nodeID="A102"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#+%E4%BA%94%E5%8F%8D%E7%94%B0%E6%96%87%E5%8C%96%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.622575/139.71664">
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A103">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.622574/+139.716644/">
+            <ipa:経度>+139.716644</ipa:経度>
+            <ic:経度>+139.716644</ic:経度>
+            <ipa:緯度>+35.622574</ipa:緯度>
+            <ic:緯度>+35.622574</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.622574/+139.716644/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A104">
+            <ipa:表記 xml:lang="ja">東京都品川区西五反田6-5-1</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区西五反田6-5-1</ic:表記>
+            <rdfs:label>東京都品川区西五反田6-5-1</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A104"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A105">
+        <ipa:表記 xml:lang="ja">五反田文化センター</ipa:表記>
+        <ic:表記 xml:lang="ja">五反田文化センター</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.71664</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.622575</geo:lat>
+    <jrrk:address>東京都品川区西五反田6-5-1</jrrk:address>
+    <ic:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ipa:設置地点 rdf:nodeID="A103"/>
+    <rdfs:label xml:lang="ja">五反田文化センター</rdfs:label>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ipa:名称 rdf:nodeID="A105"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%A4%A7%E4%BA%95%E7%AC%AC%E4%BA%8C%E5%9C%B0%E5%9F%9F%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.60405/139.730384">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.60405</geo:lat>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A106">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.604050/+139.730377/">
+            <ipa:経度>+139.730377</ipa:経度>
+            <ic:経度>+139.730377</ic:経度>
+            <ipa:緯度>+35.604050</ipa:緯度>
+            <ic:緯度>+35.604050</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.604050/+139.730377/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A107">
+            <ipa:表記 xml:lang="ja">東京都品川区大井2-27-20</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区大井2-27-20</ic:表記>
+            <rdfs:label>東京都品川区大井2-27-20</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A107"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ic:設置地点 rdf:nodeID="A106"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.730384</geo:long>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A108">
+        <ipa:表記 xml:lang="ja">大井第二地域センター</ipa:表記>
+        <ic:表記 xml:lang="ja">大井第二地域センター</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <jrrk:address>東京都品川区大井2-27-20</jrrk:address>
+    <rdfs:label xml:lang="ja">大井第二地域センター</rdfs:label>
+    <ipa:名称 rdf:nodeID="A108"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%85%AB%E6%BD%AE%E5%9B%B3%E6%9B%B8%E9%A4%A8/35.600023/139.751672">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.600023</geo:lat>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A109">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.600021/+139.751678/">
+            <ipa:経度>+139.751678</ipa:経度>
+            <ic:経度>+139.751678</ic:経度>
+            <ipa:緯度>+35.600021</ipa:緯度>
+            <ic:緯度>+35.600021</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.600021/+139.751678/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A110">
+            <ipa:表記 xml:lang="ja">東京都品川区八潮5-10-27</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区八潮5-10-27</ic:表記>
+            <rdfs:label>東京都品川区八潮5-10-27</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A110"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A111">
+        <ipa:表記 xml:lang="ja">八潮図書館</ipa:表記>
+        <ic:表記 xml:lang="ja">八潮図書館</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <rdfs:label xml:lang="ja">八潮図書館</rdfs:label>
+    <jrrk:address>東京都品川区八潮5-10-27</jrrk:address>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.751672</geo:long>
+    <ipa:名称 rdf:nodeID="A111"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:設置地点 rdf:nodeID="A109"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%A4%A7%E4%BA%95%E7%AC%AC%E4%B8%89%E5%9C%B0%E5%9F%9F%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.59765/139.721093">
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A112">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.597649/+139.721100/">
+            <ipa:経度>+139.721100</ipa:経度>
+            <ic:経度>+139.721100</ic:経度>
+            <ipa:緯度>+35.597649</ipa:緯度>
+            <ic:緯度>+35.597649</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.597649/+139.721100/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A113">
+            <ipa:表記 xml:lang="ja">東京都品川区西大井4-1-8</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区西大井4-1-8</ic:表記>
+            <rdfs:label>東京都品川区西大井4-1-8</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A113"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A114">
+        <ipa:表記 xml:lang="ja">大井第三地域センター</ipa:表記>
+        <ic:表記 xml:lang="ja">大井第三地域センター</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ic:住所 rdf:nodeID="A0"/>
+    <jrrk:address>東京都品川区西大井4-1-8</jrrk:address>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.721093</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.59765</geo:lat>
+    <ipa:名称 rdf:nodeID="A114"/>
+    <ic:設置地点 rdf:nodeID="A112"/>
+    <rdfs:label xml:lang="ja">大井第三地域センター</rdfs:label>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E7%B7%8F%E5%90%88%E4%BD%93%E8%82%B2%E9%A4%A8/35.624171/139.728254">
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.728254</geo:long>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A115">
+        <ipa:表記 xml:lang="ja">総合体育館</ipa:表記>
+        <ic:表記 xml:lang="ja">総合体育館</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <jrrk:address>東京都品川区東五反田2-11-2</jrrk:address>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <rdfs:label xml:lang="ja">総合体育館</rdfs:label>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ipa:名称 rdf:nodeID="A115"/>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A116">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.624172/+139.728256/">
+            <ipa:経度>+139.728256</ipa:経度>
+            <ic:経度>+139.728256</ic:経度>
+            <ipa:緯度>+35.624172</ipa:緯度>
+            <ic:緯度>+35.624172</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.624172/+139.728256/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A117">
+            <ipa:表記 xml:lang="ja">東京都品川区東五反田2-11-2</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区東五反田2-11-2</ic:表記>
+            <rdfs:label>東京都品川区東五反田2-11-2</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A117"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ic:設置地点 rdf:nodeID="A116"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.624171</geo:lat>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E6%9D%B1%E5%93%81%E5%B7%9D%E6%B5%B7%E4%B8%8A%E5%85%AC%E5%9C%92/35.617141/139.749625">
+    <rdfs:label xml:lang="ja">東品川海上公園</rdfs:label>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A118">
+        <ipa:表記 xml:lang="ja">東品川海上公園</ipa:表記>
+        <ic:表記 xml:lang="ja">東品川海上公園</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A119">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.617142/+139.749619/">
+            <ipa:経度>+139.749619</ipa:経度>
+            <ic:経度>+139.749619</ic:経度>
+            <ipa:緯度>+35.617142</ipa:緯度>
+            <ic:緯度>+35.617142</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.617142/+139.749619/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A120">
+            <ipa:表記 xml:lang="ja">東京都品川区東品川二丁目・三丁目</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区東品川二丁目・三丁目</ic:表記>
+            <rdfs:label>東京都品川区東品川二丁目・三丁目</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A120"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.617141</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.749625</geo:long>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <jrrk:address>東京都品川区東品川二丁目・三丁目</jrrk:address>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ipa:設置地点 rdf:nodeID="A119"/>
+    <ipa:名称 rdf:nodeID="A118"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%A4%A7%E5%B4%8E%E5%9B%B3%E6%9B%B8%E9%A4%A8%E5%88%86%E9%A4%A8/35.619237/139.725537">
+    <ic:住所 rdf:nodeID="A0"/>
+    <rdfs:label xml:lang="ja">大崎図書館分館</rdfs:label>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A121">
+        <ipa:表記 xml:lang="ja">大崎図書館分館</ipa:表記>
+        <ic:表記 xml:lang="ja">大崎図書館分館</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A122">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.619236/+139.725540/">
+            <ipa:経度>+139.725540</ipa:経度>
+            <ic:経度>+139.725540</ic:経度>
+            <ipa:緯度>+35.619236</ipa:緯度>
+            <ic:緯度>+35.619236</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.619236/+139.725540/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A123">
+            <ipa:表記 xml:lang="ja">東京都品川区大崎3-12-22</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区大崎3-12-22</ic:表記>
+            <rdfs:label>東京都品川区大崎3-12-22</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A123"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ic:設置地点 rdf:nodeID="A122"/>
+    <jrrk:address>東京都品川区大崎3-12-22</jrrk:address>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.725537</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.619237</geo:lat>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ipa:名称 rdf:nodeID="A121"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.609252/139.727738">
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <jrrk:address>東京都品川区西品川1-28-3</jrrk:address>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A124">
+        <ipa:表記 xml:lang="ja">中小企業センター</ipa:表記>
+        <ic:表記 xml:lang="ja">中小企業センター</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ipa:名称 rdf:nodeID="A124"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A125">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.609253/+139.727737/">
+            <ipa:経度>+139.727737</ipa:経度>
+            <ic:経度>+139.727737</ic:経度>
+            <ipa:緯度>+35.609253</ipa:緯度>
+            <ic:緯度>+35.609253</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.609253/+139.727737/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A126">
+            <ipa:表記 xml:lang="ja">東京都品川区西品川1-28-3</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区西品川1-28-3</ic:表記>
+            <rdfs:label>東京都品川区西品川1-28-3</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A126"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <rdfs:label xml:lang="ja">中小企業センター</rdfs:label>
+    <ipa:設置地点 rdf:nodeID="A125"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.609252</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.727738</geo:long>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E4%BA%94%E5%8F%8D%E7%94%B0%E5%9B%B3%E6%9B%B8%E9%A4%A8/35.622558/139.716638">
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A127">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.622559/+139.716644/">
+            <ipa:経度>+139.716644</ipa:経度>
+            <ic:経度>+139.716644</ic:経度>
+            <ipa:緯度>+35.622559</ipa:緯度>
+            <ic:緯度>+35.622559</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.622559/+139.716644/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A128">
+            <ipa:表記 xml:lang="ja">東京都品川区西五反田6-5-1</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区西五反田6-5-1</ic:表記>
+            <rdfs:label>東京都品川区西五反田6-5-1</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A128"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <rdfs:label xml:lang="ja">五反田図書館</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.622558</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.716638</geo:long>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ipa:設置地点 rdf:nodeID="A127"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A129">
+        <ipa:表記 xml:lang="ja">五反田図書館</ipa:表記>
+        <ic:表記 xml:lang="ja">五反田図書館</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ipa:名称 rdf:nodeID="A129"/>
+    <jrrk:address>東京都品川区西五反田6-5-1</jrrk:address>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%85%AB%E6%BD%AE%E5%9C%B0%E5%9F%9F%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.600155/139.751256">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.600155</geo:lat>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A130">
+        <ipa:表記 xml:lang="ja">八潮地域センター</ipa:表記>
+        <ic:表記 xml:lang="ja">八潮地域センター</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <rdfs:label xml:lang="ja">八潮地域センター</rdfs:label>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <jrrk:address>東京都品川区八潮5-10-27</jrrk:address>
+    <ipa:名称 rdf:nodeID="A130"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.751256</geo:long>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A131">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.600155/+139.751251/">
+            <ipa:経度>+139.751251</ipa:経度>
+            <ic:経度>+139.751251</ic:経度>
+            <ipa:緯度>+35.600155</ipa:緯度>
+            <ic:緯度>+35.600155</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.600155/+139.751251/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A132">
+            <ipa:表記 xml:lang="ja">東京都品川区八潮5-10-27</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区八潮5-10-27</ic:表記>
+            <rdfs:label>東京都品川区八潮5-10-27</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A132"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ipa:設置地点 rdf:nodeID="A131"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%93%81%E5%B7%9D%E5%8C%BA%E5%BD%B9%E6%89%80%EF%BC%88%E6%9C%AC%E5%BA%81%E8%88%8E%E3%83%BB%E7%AC%AC%E4%BA%8C%E5%BA%81%E8%88%8E%EF%BC%89/35.609200/139.730169">
+    <jrrk:address>品川区広町2-1-36</jrrk:address>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.6092</geo:lat>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A133">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.609200/+139.730164/">
+            <ipa:経度>+139.730164</ipa:経度>
+            <ic:経度>+139.730164</ic:経度>
+            <ipa:緯度>+35.609200</ipa:緯度>
+            <ic:緯度>+35.609200</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.609200/+139.730164/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A134">
+            <ipa:表記 xml:lang="ja">品川区広町2-1-36</ipa:表記>
+            <ic:表記 xml:lang="ja">品川区広町2-1-36</ic:表記>
+            <rdfs:label>品川区広町2-1-36</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A134"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A135">
+        <ipa:表記 xml:lang="ja">品川区役所（本庁舎・第二庁舎）</ipa:表記>
+        <ic:表記 xml:lang="ja">品川区役所（本庁舎・第二庁舎）</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.730169</geo:long>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <rdfs:label xml:lang="ja">品川区役所（本庁舎・第二庁舎）</rdfs:label>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:名称 rdf:nodeID="A135"/>
+    <ic:設置地点 rdf:nodeID="A133"/>
+    <ic:住所 rdf:nodeID="A0"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%93%81%E5%B7%9D%E5%9B%B3%E6%9B%B8%E9%A4%A8/35.616956/139.742576">
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A136">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.616955/+139.742569/">
+            <ipa:経度>+139.742569</ipa:経度>
+            <ic:経度>+139.742569</ic:経度>
+            <ipa:緯度>+35.616955</ipa:緯度>
+            <ic:緯度>+35.616955</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.616955/+139.742569/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A137">
+            <ipa:表記 xml:lang="ja">東京都品川区北品川2-32-3</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区北品川2-32-3</ic:表記>
+            <rdfs:label>東京都品川区北品川2-32-3</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A137"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A138">
+        <ipa:表記 xml:lang="ja">品川図書館</ipa:表記>
+        <ic:表記 xml:lang="ja">品川図書館</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ic:設置地点 rdf:nodeID="A136"/>
+    <rdfs:label xml:lang="ja">品川図書館</rdfs:label>
+    <jrrk:address>東京都品川区北品川2-32-3</jrrk:address>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.742576</geo:long>
+    <ipa:名称 rdf:nodeID="A138"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.616956</geo:lat>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%A4%A7%E5%B4%8E%E3%82%86%E3%81%86%E3%82%86%E3%81%86%E3%83%97%E3%83%A9%E3%82%B6/35.616858/139.725844">
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A139">
+        <ipa:表記 xml:lang="ja">大崎ゆうゆうプラザ</ipa:表記>
+        <ic:表記 xml:lang="ja">大崎ゆうゆうプラザ</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.725844</geo:long>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A140">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.616859/+139.725845/">
+            <ipa:経度>+139.725845</ipa:経度>
+            <ic:経度>+139.725845</ic:経度>
+            <ipa:緯度>+35.616859</ipa:緯度>
+            <ic:緯度>+35.616859</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.616859/+139.725845/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A141">
+            <ipa:表記 xml:lang="ja">東京都品川区大崎2－7－13</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区大崎2－7－13</ic:表記>
+            <rdfs:label>東京都品川区大崎2－7－13</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A141"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ic:名称 rdf:nodeID="A139"/>
+    <rdfs:label xml:lang="ja">大崎ゆうゆうプラザ</rdfs:label>
+    <jrrk:address>東京都品川区大崎2－7－13</jrrk:address>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.616858</geo:lat>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:設置地点 rdf:nodeID="A140"/>
+    <ic:住所 rdf:nodeID="A0"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E8%A5%BF%E5%A4%A7%E4%BA%95%E9%A7%85/35.6016/139.721834">
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A142">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.601601/+139.721832/">
+            <ipa:経度>+139.721832</ipa:経度>
+            <ic:経度>+139.721832</ic:経度>
+            <ipa:緯度>+35.601601</ipa:緯度>
+            <ic:緯度>+35.601601</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.601601/+139.721832/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A143">
+            <ipa:表記 xml:lang="ja">東京都品川区西大井1-3-1</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区西大井1-3-1</ic:表記>
+            <rdfs:label>東京都品川区西大井1-3-1</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A143"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A144">
+        <ipa:表記 xml:lang="ja">西大井駅</ipa:表記>
+        <ic:表記 xml:lang="ja">西大井駅</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.6016</geo:lat>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.721834</geo:long>
+    <ic:設置地点 rdf:nodeID="A142"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <rdfs:label xml:lang="ja">西大井駅</rdfs:label>
+    <ic:名称 rdf:nodeID="A144"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <jrrk:address>東京都品川区西大井1-3-1</jrrk:address>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E6%97%97%E3%81%AE%E5%8F%B0%E9%A7%85/35.36174/139.42101">
+    <jrrk:address>東京都品川区旗の台2-13-1</jrrk:address>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.42101</geo:long>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <rdfs:label xml:lang="ja">旗の台駅</rdfs:label>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A145">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.361740/+139.421005/">
+            <ipa:経度>+139.421005</ipa:経度>
+            <ic:経度>+139.421005</ic:経度>
+            <ipa:緯度>+35.361740</ipa:緯度>
+            <ic:緯度>+35.361740</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.361740/+139.421005/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A146">
+            <ipa:表記 xml:lang="ja">東京都品川区旗の台2-13-1</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区旗の台2-13-1</ic:表記>
+            <rdfs:label>東京都品川区旗の台2-13-1</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A146"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.36174</geo:lat>
+    <ic:設置地点 rdf:nodeID="A145"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A147">
+        <ipa:表記 xml:lang="ja">旗の台駅</ipa:表記>
+        <ic:表記 xml:lang="ja">旗の台駅</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ipa:名称 rdf:nodeID="A147"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%A4%A7%E5%B4%8E%E7%AC%AC%E4%BA%8C%E5%9C%B0%E5%9F%9F%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.61694/139.727574">
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A148">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.616940/+139.727570/">
+            <ipa:経度>+139.727570</ipa:経度>
+            <ic:経度>+139.727570</ic:経度>
+            <ipa:緯度>+35.616940</ipa:緯度>
+            <ic:緯度>+35.616940</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.616940/+139.727570/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A149">
+            <ipa:表記 xml:lang="ja">東京都品川区大崎2-9-4</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区大崎2-9-4</ic:表記>
+            <rdfs:label>東京都品川区大崎2-9-4</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A149"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ic:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A150">
+        <ipa:表記 xml:lang="ja">大崎第二地域センター</ipa:表記>
+        <ic:表記 xml:lang="ja">大崎第二地域センター</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <ipa:設置地点 rdf:nodeID="A148"/>
+    <ic:名称 rdf:nodeID="A150"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.61694</geo:lat>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <jrrk:address>東京都品川区大崎2-9-4</jrrk:address>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.727574</geo:long>
+    <rdfs:label xml:lang="ja">大崎第二地域センター</rdfs:label>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%A4%A7%E4%BA%95%E7%94%BA%E9%A7%85%E6%9D%B1%E5%8F%A3/35.606112/139.735543">
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A151">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.606113/+139.735550/">
+            <ipa:経度>+139.735550</ipa:経度>
+            <ic:経度>+139.735550</ic:経度>
+            <ipa:緯度>+35.606113</ipa:緯度>
+            <ic:緯度>+35.606113</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.606113/+139.735550/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A152">
+            <ipa:表記 xml:lang="ja">東京都品川区大井1-18付近</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区大井1-18付近</ic:表記>
+            <rdfs:label>東京都品川区大井1-18付近</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A152"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ipa:設置地点 rdf:nodeID="A151"/>
+    <jrrk:address>東京都品川区大井1-18付近</jrrk:address>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A153">
+        <ipa:表記 xml:lang="ja">大井町駅東口</ipa:表記>
+        <ic:表記 xml:lang="ja">大井町駅東口</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.606112</geo:lat>
+    <rdfs:label xml:lang="ja">大井町駅東口</rdfs:label>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.735543</geo:long>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ic:名称 rdf:nodeID="A153"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E8%A5%BF%E5%B0%8F%E5%B1%B1%E9%A7%85/35.36565/139.41559">
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A154">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.365650/+139.415588/">
+            <ipa:経度>+139.415588</ipa:経度>
+            <ic:経度>+139.415588</ic:経度>
+            <ipa:緯度>+35.365650</ipa:緯度>
+            <ic:緯度>+35.365650</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.365650/+139.415588/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A155">
+            <ipa:表記 xml:lang="ja">東京都品川区小山6-3-10</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区小山6-3-10</ic:表記>
+            <rdfs:label>東京都品川区小山6-3-10</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A155"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <rdfs:label xml:lang="ja">西小山駅</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.36565</geo:lat>
+    <ipa:設置地点 rdf:nodeID="A154"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.41559</geo:long>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A156">
+        <ipa:表記 xml:lang="ja">西小山駅</ipa:表記>
+        <ic:表記 xml:lang="ja">西小山駅</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <jrrk:address>東京都品川区小山6-3-10</jrrk:address>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:名称 rdf:nodeID="A156"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#+%E6%97%97%E3%81%AE%E5%8F%B0%E6%96%87%E5%8C%96%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.60382/139.70055">
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A157">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.603821/+139.700546/">
+            <ipa:経度>+139.700546</ipa:経度>
+            <ic:経度>+139.700546</ic:経度>
+            <ipa:緯度>+35.603821</ipa:緯度>
+            <ic:緯度>+35.603821</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.603821/+139.700546/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A158">
+            <ipa:表記 xml:lang="ja">東京都品川区旗の台5-19-5</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区旗の台5-19-5</ic:表記>
+            <rdfs:label>東京都品川区旗の台5-19-5</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A158"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.60382</geo:lat>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <rdfs:label xml:lang="ja">旗の台文化センター</rdfs:label>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A159">
+        <ipa:表記 xml:lang="ja">旗の台文化センター</ipa:表記>
+        <ic:表記 xml:lang="ja">旗の台文化センター</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.70055</geo:long>
+    <jrrk:address>東京都品川区旗の台5-19-5</jrrk:address>
+    <ipa:設置地点 rdf:nodeID="A157"/>
+    <ipa:名称 rdf:nodeID="A159"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%A4%A7%E5%B4%8E%E5%9B%B3%E6%9B%B8%E9%A4%A8/35.623248/139.7317">
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <jrrk:address>東京都品川区北品川5-2-1　2階</jrrk:address>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.623248</geo:lat>
+    <rdfs:label xml:lang="ja">大崎図書館</rdfs:label>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A160">
+        <ipa:表記 xml:lang="ja">大崎図書館</ipa:表記>
+        <ic:表記 xml:lang="ja">大崎図書館</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A161">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.623249/+139.731705/">
+            <ipa:経度>+139.731705</ipa:経度>
+            <ic:経度>+139.731705</ic:経度>
+            <ipa:緯度>+35.623249</ipa:緯度>
+            <ic:緯度>+35.623249</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.623249/+139.731705/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A162">
+            <ipa:表記 xml:lang="ja">東京都品川区北品川5-2-12階</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区北品川5-2-12階</ic:表記>
+            <rdfs:label>東京都品川区北品川5-2-1　2階</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A162"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ipa:設置地点 rdf:nodeID="A161"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.7317</geo:long>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ic:名称 rdf:nodeID="A160"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2%E8%8D%8F%E5%8E%9F/35.615439/139.707428">
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A163">
+        <ipa:表記 xml:lang="ja">スクエア荏原</ipa:表記>
+        <ic:表記 xml:lang="ja">スクエア荏原</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.615439</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <rdfs:label xml:lang="ja">スクエア荏原</rdfs:label>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A164">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.615440/+139.707428/">
+            <ipa:経度>+139.707428</ipa:経度>
+            <ic:経度>+139.707428</ic:経度>
+            <ipa:緯度>+35.615440</ipa:緯度>
+            <ic:緯度>+35.615440</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.615440/+139.707428/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A165">
+            <ipa:表記 xml:lang="ja">東京都品川区荏原4-5-28</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区荏原4-5-28</ic:表記>
+            <rdfs:label>東京都品川区荏原4-5-28</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A165"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ipa:名称 rdf:nodeID="A163"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.707428</geo:long>
+    <jrrk:address>東京都品川区荏原4-5-28</jrrk:address>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:設置地点 rdf:nodeID="A164"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E3%81%97%E3%81%AA%E3%81%8C%E3%82%8F%E5%8C%BA%E6%B0%91%E5%85%AC%E5%9C%92/35.593198/139.739172">
+    <rdfs:label xml:lang="ja">しながわ区民公園</rdfs:label>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A166">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.593197/+139.739166/">
+            <ipa:経度>+139.739166</ipa:経度>
+            <ic:経度>+139.739166</ic:経度>
+            <ipa:緯度>+35.593197</ipa:緯度>
+            <ic:緯度>+35.593197</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.593197/+139.739166/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A167">
+            <ipa:表記 xml:lang="ja">東京都品川区勝島3-2-2</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区勝島3-2-2</ic:表記>
+            <rdfs:label>東京都品川区勝島3-2-2</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A167"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A168">
+        <ipa:表記 xml:lang="ja">しながわ区民公園</ipa:表記>
+        <ic:表記 xml:lang="ja">しながわ区民公園</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ic:設置地点 rdf:nodeID="A166"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.739172</geo:long>
+    <jrrk:address>東京都品川区勝島3-2-2</jrrk:address>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.593198</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:名称 rdf:nodeID="A168"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#+%E8%8D%8F%E5%8E%9F%E6%96%87%E5%8C%96%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/35.612106/139.710616">
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A169">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.612106/+139.710617/">
+            <ipa:経度>+139.710617</ipa:経度>
+            <ic:経度>+139.710617</ic:経度>
+            <ipa:緯度>+35.612106</ipa:緯度>
+            <ic:緯度>+35.612106</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.612106/+139.710617/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A170">
+            <ipa:表記 xml:lang="ja">東京都品川区中延1-9-15</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区中延1-9-15</ic:表記>
+            <rdfs:label>東京都品川区中延1-9-15</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A170"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A171">
+        <ipa:表記 xml:lang="ja">荏原文化センター</ipa:表記>
+        <ic:表記 xml:lang="ja">荏原文化センター</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.710616</geo:long>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <jrrk:address>東京都品川区中延1-9-15</jrrk:address>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.612106</geo:lat>
+    <rdfs:label xml:lang="ja">荏原文化センター</rdfs:label>
+    <ipa:設置地点 rdf:nodeID="A169"/>
+    <ic:名称 rdf:nodeID="A171"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:住所 rdf:nodeID="A0"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E8%8D%8F%E5%8E%9F%E5%9B%B3%E6%9B%B8%E9%A4%A8/35.612179/139.710678">
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.612179</geo:lat>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A172">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.612179/+139.710678/">
+            <ipa:経度>+139.710678</ipa:経度>
+            <ic:経度>+139.710678</ic:経度>
+            <ipa:緯度>+35.612179</ipa:緯度>
+            <ic:緯度>+35.612179</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.612179/+139.710678/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A173">
+            <ipa:表記 xml:lang="ja">東京都品川区中延1-9-15</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区中延1-9-15</ic:表記>
+            <rdfs:label>東京都品川区中延1-9-15</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A173"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <jrrk:address>東京都品川区中延1-9-15</jrrk:address>
+    <rdfs:label xml:lang="ja">荏原図書館</rdfs:label>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A174">
+        <ipa:表記 xml:lang="ja">荏原図書館</ipa:表記>
+        <ic:表記 xml:lang="ja">荏原図書館</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <ipa:設置地点 rdf:nodeID="A172"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.710678</geo:long>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ic:名称 rdf:nodeID="A174"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%B9%B3%E5%A1%9A%E6%A9%8B%E3%82%86%E3%81%86%E3%82%86%E3%81%86%E3%83%97%E3%83%A9%E3%82%B6/35.614361/139.71">
+    <jrrk:address>東京都品川区西中延1－2－8</jrrk:address>
+    <ic:住所 rdf:nodeID="A0"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.614361</geo:lat>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.71</geo:long>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A175">
+        <ipa:表記 xml:lang="ja">平塚橋ゆうゆうプラザ</ipa:表記>
+        <ic:表記 xml:lang="ja">平塚橋ゆうゆうプラザ</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <rdfs:label xml:lang="ja">平塚橋ゆうゆうプラザ</rdfs:label>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A176">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.614361/+139.710007/">
+            <ipa:経度>+139.710007</ipa:経度>
+            <ic:経度>+139.710007</ic:経度>
+            <ipa:緯度>+35.614361</ipa:緯度>
+            <ic:緯度>+35.614361</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.614361/+139.710007/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A177">
+            <ipa:表記 xml:lang="ja">東京都品川区西中延1－2－8</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区西中延1－2－8</ic:表記>
+            <rdfs:label>東京都品川区西中延1－2－8</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A177"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:名称 rdf:nodeID="A175"/>
+    <ipa:設置地点 rdf:nodeID="A176"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%A4%A7%E4%BA%95%E5%9B%B3%E6%9B%B8%E9%A4%A8/35.598249/139.729054">
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A178">
+        <ipa:表記 xml:lang="ja">大井図書館</ipa:表記>
+        <ic:表記 xml:lang="ja">大井図書館</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.598249</geo:lat>
+    <rdfs:label xml:lang="ja">大井図書館</rdfs:label>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.729054</geo:long>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A179">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.598248/+139.729050/">
+            <ipa:経度>+139.729050</ipa:経度>
+            <ic:経度>+139.729050</ic:経度>
+            <ipa:緯度>+35.598248</ipa:緯度>
+            <ic:緯度>+35.598248</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.598248/+139.729050/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A180">
+            <ipa:表記 xml:lang="ja">東京都品川区大井5-19-14</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区大井5-19-14</ic:表記>
+            <rdfs:label>東京都品川区大井5-19-14</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A180"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <jrrk:address>東京都品川区大井5-19-14</jrrk:address>
+    <ipa:設置地点 rdf:nodeID="A179"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:名称 rdf:nodeID="A178"/>
+    <ic:住所 rdf:nodeID="A0"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E6%88%B8%E8%B6%8A%E4%BD%93%E8%82%B2%E9%A4%A8/35.610846/139.72063">
+    <jrrk:address>東京都品川区豊町2-1-17</jrrk:address>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A181">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.610847/+139.720627/">
+            <ipa:経度>+139.720627</ipa:経度>
+            <ic:経度>+139.720627</ic:経度>
+            <ipa:緯度>+35.610847</ipa:緯度>
+            <ic:緯度>+35.610847</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.610847/+139.720627/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A182">
+            <ipa:表記 xml:lang="ja">東京都品川区豊町2-1-17</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区豊町2-1-17</ic:表記>
+            <rdfs:label>東京都品川区豊町2-1-17</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A182"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ipa:設置地点 rdf:nodeID="A181"/>
+    <rdfs:label xml:lang="ja">戸越体育館</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.72063</geo:long>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A183">
+        <ipa:表記 xml:lang="ja">戸越体育館</ipa:表記>
+        <ic:表記 xml:lang="ja">戸越体育館</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.610846</geo:lat>
+    <ipa:名称 rdf:nodeID="A183"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E6%AD%A6%E8%94%B5%E5%B0%8F%E5%B1%B1%E9%A7%85/35.619811/139.703631">
+    <ic:住所 rdf:nodeID="A0"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A184">
+        <ipa:表記 xml:lang="ja">武蔵小山駅</ipa:表記>
+        <ic:表記 xml:lang="ja">武蔵小山駅</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.703631</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.619811</geo:lat>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A185">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.619812/+139.703629/">
+            <ipa:経度>+139.703629</ipa:経度>
+            <ic:経度>+139.703629</ic:経度>
+            <ipa:緯度>+35.619812</ipa:緯度>
+            <ic:緯度>+35.619812</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.619812/+139.703629/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A186">
+            <ipa:表記 xml:lang="ja">東京都品川区小山3-27-3</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区小山3-27-3</ic:表記>
+            <rdfs:label>東京都品川区小山3-27-3</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A186"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <ic:設置地点 rdf:nodeID="A185"/>
+    <rdfs:label xml:lang="ja">武蔵小山駅</rdfs:label>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <jrrk:address>東京都品川区小山3-27-3</jrrk:address>
+    <ipa:名称 rdf:nodeID="A184"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#+%E3%81%97%E3%81%AA%E3%81%8C%E3%82%8F%E8%A6%B3%E5%85%89%E5%8D%94%E4%BC%9A/35.607649/139.731494">
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A187">
+        <ipa:表記 xml:lang="ja">しながわ観光協会</ipa:表記>
+        <ic:表記 xml:lang="ja">しながわ観光協会</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ic:名称 rdf:nodeID="A187"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.607649</geo:lat>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <jrrk:address>東京都品川区大井1-14-1</jrrk:address>
+    <rdfs:label xml:lang="ja">しながわ観光協会</rdfs:label>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A188">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.607651/+139.731491/">
+            <ipa:経度>+139.731491</ipa:経度>
+            <ic:経度>+139.731491</ic:経度>
+            <ipa:緯度>+35.607651</ipa:緯度>
+            <ic:緯度>+35.607651</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.607651/+139.731491/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A189">
+            <ipa:表記 xml:lang="ja">東京都品川区大井1-14-1</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区大井1-14-1</ic:表記>
+            <rdfs:label>東京都品川区大井1-14-1</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A189"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <ipa:設置地点 rdf:nodeID="A188"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.731494</geo:long>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E3%81%97%E3%81%AA%E3%81%8C%E3%82%8F%E4%B8%AD%E5%A4%AE%E5%85%AC%E5%9C%92%EF%BC%88%E6%9C%AC%E5%BA%81%E8%88%8EAP%EF%BC%89/35.60927/139.729891">
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A190">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.609268/+139.729889/">
+            <ipa:経度>+139.729889</ipa:経度>
+            <ic:経度>+139.729889</ic:経度>
+            <ipa:緯度>+35.609268</ipa:緯度>
+            <ic:緯度>+35.609268</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.609268/+139.729889/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A191">
+            <ipa:表記 xml:lang="ja">東京都品川区西品川１丁目27、28、20番品川区本庁舎東京都品川区広町2丁目1−36</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区西品川１丁目27、28、20番品川区本庁舎東京都品川区広町2丁目1−36</ic:表記>
+            <rdfs:label>東京都品川区西品川１丁目27、28、20番&#xD;
+品川区本庁舎　東京都品川区広町2丁目1−36</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A191"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.729891</geo:long>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <jrrk:address>東京都品川区西品川１丁目27、28、20番&#xD;
+品川区本庁舎　東京都品川区広町2丁目1−36</jrrk:address>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.60927</geo:lat>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A192">
+        <ipa:表記 xml:lang="ja">しながわ中央公園（本庁舎AP）</ipa:表記>
+        <ic:表記 xml:lang="ja">しながわ中央公園（本庁舎AP）</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <rdfs:label xml:lang="ja">しながわ中央公園（本庁舎AP）</rdfs:label>
+    <ipa:名称 rdf:nodeID="A192"/>
+    <ic:設置地点 rdf:nodeID="A190"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%BF%83%E8%BA%AB%E9%9A%9C%E5%AE%B3%E8%80%85%E7%A6%8F%E7%A5%89%E4%BC%9A%E9%A4%A8/35.605033/139.700433">
+    <jrrk:address>東京都品川区旗の台5-2-2</jrrk:address>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.700433</geo:long>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A193">
+        <ipa:表記 xml:lang="ja">心身障害者福祉会館</ipa:表記>
+        <ic:表記 xml:lang="ja">心身障害者福祉会館</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A194">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.605034/+139.700439/">
+            <ipa:経度>+139.700439</ipa:経度>
+            <ic:経度>+139.700439</ic:経度>
+            <ipa:緯度>+35.605034</ipa:緯度>
+            <ic:緯度>+35.605034</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.605034/+139.700439/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A195">
+            <ipa:表記 xml:lang="ja">東京都品川区旗の台5-2-2</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区旗の台5-2-2</ic:表記>
+            <rdfs:label>東京都品川区旗の台5-2-2</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A195"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.605033</geo:lat>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ipa:設置地点 rdf:nodeID="A194"/>
+    <rdfs:label xml:lang="ja">心身障害者福祉会館</rdfs:label>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <ipa:名称 rdf:nodeID="A193"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%B9%B3%E5%A1%9A%E3%82%86%E3%81%86%E3%82%86%E3%81%86%E3%83%97%E3%83%A9%E3%82%B6/35.616900/139.713965">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.713965</geo:long>
+    <ic:名称>
+      <rdf:Description rdf:nodeID="A196">
+        <ipa:表記 xml:lang="ja">平塚ゆうゆうプラザ</ipa:表記>
+        <ic:表記 xml:lang="ja">平塚ゆうゆうプラザ</ic:表記>
+      </rdf:Description>
+    </ic:名称>
+    <ic:住所 rdf:nodeID="A0"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.6169</geo:lat>
+    <rdfs:label xml:lang="ja">平塚ゆうゆうプラザ</rdfs:label>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A197">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.616901/+139.713959/">
+            <ipa:経度>+139.713959</ipa:経度>
+            <ic:経度>+139.713959</ic:経度>
+            <ipa:緯度>+35.616901</ipa:緯度>
+            <ic:緯度>+35.616901</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.616901/+139.713959/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A198">
+            <ipa:表記 xml:lang="ja">東京都品川区平塚2-10-20</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区平塚2-10-20</ic:表記>
+            <rdfs:label>東京都品川区平塚2-10-20</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A198"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <jrrk:address>東京都品川区平塚2-10-20</jrrk:address>
+    <ipa:名称 rdf:nodeID="A196"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ic:設置地点 rdf:nodeID="A197"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E4%BA%94%E5%8F%8D%E7%94%B0%E3%81%B5%E3%82%8C%E3%81%82%E3%81%84%E6%B0%B4%E8%BE%BA%E5%BA%83%E5%A0%B4/35.624219/139.726079">
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.726079</geo:long>
+    <jrrk:address>東京都品川区東五反田2-9-11</jrrk:address>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A199">
+        <ipa:表記 xml:lang="ja">五反田ふれあい水辺広場</ipa:表記>
+        <ic:表記 xml:lang="ja">五反田ふれあい水辺広場</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A200">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.624218/+139.726074/">
+            <ipa:経度>+139.726074</ipa:経度>
+            <ic:経度>+139.726074</ic:経度>
+            <ipa:緯度>+35.624218</ipa:緯度>
+            <ic:緯度>+35.624218</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.624218/+139.726074/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A201">
+            <ipa:表記 xml:lang="ja">東京都品川区東五反田2-9-11</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区東五反田2-9-11</ic:表記>
+            <rdfs:label>東京都品川区東五反田2-9-11</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A201"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <rdfs:label xml:lang="ja">五反田ふれあい水辺広場</rdfs:label>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.624219</geo:lat>
+    <ipa:設置地点 rdf:nodeID="A200"/>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <ic:名称 rdf:nodeID="A199"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E3%82%86%E3%81%9F%E3%81%8B%E5%9B%B3%E6%9B%B8%E9%A4%A8/35.611611/139.722427">
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A202">
+        <ipa:表記 xml:lang="ja">ゆたか図書館</ipa:表記>
+        <ic:表記 xml:lang="ja">ゆたか図書館</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <rdfs:label xml:lang="ja">ゆたか図書館</rdfs:label>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A203">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.611610/+139.722427/">
+            <ipa:経度>+139.722427</ipa:経度>
+            <ic:経度>+139.722427</ic:経度>
+            <ipa:緯度>+35.611610</ipa:緯度>
+            <ic:緯度>+35.611610</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.611610/+139.722427/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A204">
+            <ipa:表記 xml:lang="ja">東京都品川区豊町1-17-7</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区豊町1-17-7</ic:表記>
+            <rdfs:label>東京都品川区豊町1-17-7</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A204"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <jrrk:address>東京都品川区豊町1-17-7</jrrk:address>
+    <ic:名称 rdf:nodeID="A202"/>
+    <ipa:設置地点 rdf:nodeID="A203"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.722427</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.611611</geo:lat>
+    <ipa:住所 rdf:nodeID="A0"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E9%9D%92%E7%89%A9%E6%A8%AA%E4%B8%81%E9%A7%85/35.609663/139.742631">
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <jrrk:address>東京都品川区南品川3-1</jrrk:address>
+    <rdfs:label xml:lang="ja">青物横丁駅</rdfs:label>
+    <ic:設置地点>
+      <rdf:Description rdf:nodeID="A205">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.609661/+139.742630/">
+            <ipa:経度>+139.742630</ipa:経度>
+            <ic:経度>+139.742630</ic:経度>
+            <ipa:緯度>+35.609661</ipa:緯度>
+            <ic:緯度>+35.609661</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.609661/+139.742630/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A206">
+            <ipa:表記 xml:lang="ja">東京都品川区南品川3-1</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区南品川3-1</ic:表記>
+            <rdfs:label>東京都品川区南品川3-1</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A206"/>
+      </rdf:Description>
+    </ic:設置地点>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A207">
+        <ipa:表記 xml:lang="ja">青物横丁駅</ipa:表記>
+        <ic:表記 xml:lang="ja">青物横丁駅</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <ic:名称 rdf:nodeID="A207"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.742631</geo:long>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.609663</geo:lat>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ipa:設置地点 rdf:nodeID="A205"/>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E5%93%81%E5%B7%9D%E6%AD%B4%E5%8F%B2%E9%A4%A8/35.596564/139.730161">
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A208">
+        <ipa:表記 xml:lang="ja">品川歴史館</ipa:表記>
+        <ic:表記 xml:lang="ja">品川歴史館</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <jrrk:address>東京都品川区大井6-11-1</jrrk:address>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A209">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.596565/+139.730164/">
+            <ipa:経度>+139.730164</ipa:経度>
+            <ic:経度>+139.730164</ic:経度>
+            <ipa:緯度>+35.596565</ipa:緯度>
+            <ic:緯度>+35.596565</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.596565/+139.730164/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A210">
+            <ipa:表記 xml:lang="ja">東京都品川区大井6-11-1</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区大井6-11-1</ic:表記>
+            <rdfs:label>東京都品川区大井6-11-1</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A210"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ic:設置地点 rdf:nodeID="A209"/>
+    <ipa:住所 rdf:nodeID="A0"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.596564</geo:lat>
+    <ic:名称 rdf:nodeID="A208"/>
+    <rdfs:label xml:lang="ja">品川歴史館</rdfs:label>
+    <ic:住所 rdf:nodeID="A0"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.730161</geo:long>
+  </jrrk:PublicWIFI>
+  <jrrk:PublicWIFI rdf:about="http://odp.jig.jp/rdf/jp/tokyo/shinagawa/945#%E4%BA%94%E5%8F%8D%E7%94%B0%E9%A7%85%E8%A5%BF%E5%8F%A3/35.625973/139.72341">
+    <ipa:名称>
+      <rdf:Description rdf:nodeID="A211">
+        <ipa:表記 xml:lang="ja">五反田駅西口</ipa:表記>
+        <ic:表記 xml:lang="ja">五反田駅西口</ic:表記>
+      </rdf:Description>
+    </ipa:名称>
+    <ic:名称 rdf:nodeID="A211"/>
+    <odp:refArea rdf:resource="http://data.e-stat.go.jp/lod/sac/C13109"/>
+    <odp:refArea rdf:resource="http://statdb.nstac.go.jp/lod/sac/C13109"/>
+    <ipa:設置地点>
+      <rdf:Description rdf:nodeID="A212">
+        <ipa:地理座標>
+          <rdf:Description rdf:about="http://odp.jig.jp/res/geopoint/+35.625973/+139.723404/">
+            <ipa:経度>+139.723404</ipa:経度>
+            <ic:経度>+139.723404</ic:経度>
+            <ipa:緯度>+35.625973</ipa:緯度>
+            <ic:緯度>+35.625973</ic:緯度>
+          </rdf:Description>
+        </ipa:地理座標>
+        <ic:地理座標 rdf:resource="http://odp.jig.jp/res/geopoint/+35.625973/+139.723404/"/>
+        <ipa:住所>
+          <rdf:Description rdf:nodeID="A213">
+            <ipa:表記 xml:lang="ja">東京都品川区東五反田1-26-2</ipa:表記>
+            <ic:表記 xml:lang="ja">東京都品川区東五反田1-26-2</ic:表記>
+            <rdfs:label>東京都品川区東五反田1-26-2</rdfs:label>
+          </rdf:Description>
+        </ipa:住所>
+        <ic:住所 rdf:nodeID="A213"/>
+      </rdf:Description>
+    </ipa:設置地点>
+    <gn:locatedIn rdf:resource="http://geonames.jp/resource/東京都品川区"/>
+    <rdfs:label xml:lang="ja">五反田駅西口</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >35.625973</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"
+    >139.72341</geo:long>
+    <ic:設置地点 rdf:nodeID="A212"/>
+    <ic:住所 rdf:nodeID="A0"/>
+    <jrrk:address>東京都品川区東五反田1-26-2</jrrk:address>
+    <ipa:住所 rdf:nodeID="A0"/>
+  </jrrk:PublicWIFI>
+</rdf:RDF>

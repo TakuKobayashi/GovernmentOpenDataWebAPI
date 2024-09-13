@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "名称": "滝王子出張所", "緯度": 35.5984647, "経度": 139.7274195 }, "geometry": { "type": "Point", "coordinates": [ 139.7274195, 35.5984647 ] } },
+{ "type": "Feature", "properties": { "名称": "消防署", "緯度": 35.6056823, "経度": 139.6999571 }, "geometry": { "type": "Point", "coordinates": [ 139.69995710000001, 35.6056823 ] } },
+{ "type": "Feature", "properties": { "名称": "戸越出張所", "緯度": 35.6083161, "経度": 139.7187459 }, "geometry": { "type": "Point", "coordinates": [ 139.7187459, 35.6083161 ] } },
+{ "type": "Feature", "properties": { "名称": "東品川出張所", "緯度": 35.6134542, "経度": 139.7504186 }, "geometry": { "type": "Point", "coordinates": [ 139.7504186, 35.6134542 ] } },
+{ "type": "Feature", "properties": { "名称": "消防署", "緯度": 35.6200332, "経度": 139.7185314 }, "geometry": { "type": "Point", "coordinates": [ 139.7185314, 35.6200332 ] } }
+]
+}

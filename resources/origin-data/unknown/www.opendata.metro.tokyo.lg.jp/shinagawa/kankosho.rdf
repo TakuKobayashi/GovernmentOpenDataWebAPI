@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:bp="http://www.city.shinagawa.tokyo.jp//property/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+   xmlns:ic="http://imi.go.jp/ns/core/rdf#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:nodeID="ub6bL531C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6055999</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7135855</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL656C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6341140</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7157670</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/27">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6116016</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7078304</geo:long>
+    <rdfs:label xml:lang="ja">水道局品川営業所</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6116016</bp:緯度>
+    <bp:施設名称 xml:lang="ja">水道局品川営業所</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7078304</bp:経度>
+    <bp:備考 xml:lang="ja">品川区西中延1-9-10</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区西中延1-9-10</bp:所在地>
+    <ic:座標 rdf:nodeID="ub6bL279C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/11">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7316590</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎2-8-27</bp:所在地>
+    <ic:座標 rdf:nodeID="ub6bL119C9"/>
+    <bp:施設名称 xml:lang="ja">品川消防署大崎出張所</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7316590</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6133836</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6133836</geo:lat>
+    <rdfs:label xml:lang="ja">品川消防署大崎出張所</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/12">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6200165</bp:緯度>
+    <ic:座標 rdf:nodeID="ub6bL129C9"/>
+    <bp:施設名称 xml:lang="ja">品川消防署五反田出張所</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区西五反田7-25-14</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田7-25-14</bp:所在地>
+    <rdfs:label xml:lang="ja">品川消防署五反田出張所</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7187382</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6200165</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7187382</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL350C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5871233</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7301537</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL626C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6333950</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7154390</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/2">
+    <bp:施設名称 xml:lang="ja">鮫洲運転免許試験場</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6033213</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7464659</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6033213</geo:lat>
+    <rdfs:label xml:lang="ja">鮫洲運転免許試験場</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区東大井1-12-5</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井1-12-5</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7464659</bp:経度>
+    <ic:座標 rdf:nodeID="ub6bL29C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/22">
+    <bp:施設名称 xml:lang="ja">品川自動車税事務所</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6049300</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7473986</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井1-12-18</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6049300</bp:緯度>
+    <rdfs:label xml:lang="ja">品川自動車税事務所</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区東大井1-12-18</bp:備考>
+    <ic:座標 rdf:nodeID="ub6bL229C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7473986</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/25">
+    <bp:施設名称 xml:lang="ja">大崎郵便局</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区西五反田2-32-7</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田2-32-7</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6252595</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7189457</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7189457</bp:経度>
+    <rdfs:label xml:lang="ja">大崎郵便局</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6252595</geo:lat>
+    <ic:座標 rdf:nodeID="ub6bL259C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/29">
+    <ic:座標 rdf:nodeID="ub6bL299C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6236396</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区大崎5-1-5高徳ビル</bp:備考>
+    <bp:施設名称 xml:lang="ja">品川年金事務所</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7248636</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7248636</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎5-1-5高徳ビル</bp:所在地>
+    <rdfs:label xml:lang="ja">品川年金事務所</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6236396</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/44">
+    <bp:所在地 xml:lang="ja">東京都品川区西品川1丁目29-6</bp:所在地>
+    <bp:施設名称 xml:lang="ja">下神明駅</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7264653</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6087526</geo:lat>
+    <rdfs:label xml:lang="ja">下神明駅</rdfs:label>
+    <ic:座標 rdf:nodeID="ub6bL440C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7264653</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6087526</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL239C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7469919</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6046993</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL486C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6090709</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7431279</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL522C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7162560</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6143511</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/63">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6254040</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7242969</geo:long>
+    <bp:施設名称 xml:lang="ja">五反田駅(東急)</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6254040</geo:lat>
+    <rdfs:label xml:lang="ja">五反田駅(東急)</rdfs:label>
+    <bp:備考 xml:lang="ja">東京都品川区東五反田2-1-1</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区東五反田2-1-1</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7242969</bp:経度>
+    <ic:座標 rdf:nodeID="ub6bL616C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/14">
+    <ic:座標 rdf:nodeID="ub6bL149C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5983307</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5983307</geo:lat>
+    <bp:備考 xml:lang="ja">品川区大井5-17-9</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区大井5-17-9</bp:所在地>
+    <bp:施設名称 xml:lang="ja">大井消防署滝王子出張所</bp:施設名称>
+    <rdfs:label xml:lang="ja">大井消防署滝王子出張所</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7281165</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7281165</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/26">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7073544</bp:経度>
+    <rdfs:label xml:lang="ja">荏原郵便局</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6127130</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6127130</geo:lat>
+    <ic:座標 rdf:nodeID="ub6bL269C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区西中延1-7-23</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区西中延1-7-23</bp:備考>
+    <bp:施設名称 xml:lang="ja">荏原郵便局</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7073544</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/69">
+    <rdfs:label xml:lang="ja">都営バス「品川自動車営業所目黒支所」</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7167830</geo:long>
+    <bp:施設名称 xml:lang="ja">都営バス「品川自動車営業所目黒支所」</bp:施設名称>
+    <bp:備考 xml:lang="ja">東京都品川区上大崎3-1-2</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6328370</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区上大崎3-1-2</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7167830</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6328370</bp:緯度>
+    <ic:座標 rdf:nodeID="ub6bL676C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/34">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7301537</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7301537</bp:経度>
+    <ic:座標 rdf:nodeID="ub6bL350C9"/>
+    <rdfs:label xml:lang="ja">大森公証役場</rdfs:label>
+    <bp:施設名称 xml:lang="ja">大森公証役場</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5871233</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井6-12-12</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5871233</bp:緯度>
+    <bp:備考 xml:lang="ja">大田区大森北1-17-2大森センタービル2階</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/16">
+    <bp:備考 xml:lang="ja">品川区平塚3-16-20</bp:備考>
+    <ic:座標 rdf:nodeID="ub6bL169C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区平塚3-16-20</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6148569</bp:緯度>
+    <bp:施設名称 xml:lang="ja">荏原消防署</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7105344</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7105344</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6148569</geo:lat>
+    <rdfs:label xml:lang="ja">荏原消防署</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/41">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6224256</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6224256</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7224930</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7224930</geo:long>
+    <rdfs:label xml:lang="ja">大崎広小路駅</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎4丁目1-1</bp:所在地>
+    <ic:座標 rdf:nodeID="ub6bL413C9"/>
+    <bp:施設名称 xml:lang="ja">大崎広小路駅</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/48">
+    <bp:施設名称 xml:lang="ja">新馬場駅</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7414247</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川2丁目18-1</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6170364</bp:緯度>
+    <rdfs:label xml:lang="ja">新馬場駅</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6170364</geo:lat>
+    <ic:座標 rdf:nodeID="ub6bL477C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7414247</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/32">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6270162</bp:緯度>
+    <rdfs:label xml:lang="ja">五反田公証役場</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区東五反田5-27-6</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7234544</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区東五反田5-27-6</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7234544</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6270162</geo:lat>
+    <bp:施設名称 xml:lang="ja">五反田公証役場</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub6bL330C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/30">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6296077</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7190353</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区東五反田2-6-17</bp:所在地>
+    <bp:施設名称 xml:lang="ja">品川労働基準監督署</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7190353</bp:経度>
+    <bp:備考 xml:lang="ja">品川区東五反田2-6-17</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6296077</geo:lat>
+    <rdfs:label xml:lang="ja">品川労働基準監督署</rdfs:label>
+    <ic:座標 rdf:nodeID="ub6bL309C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/23">
+    <rdfs:label xml:lang="ja">関東運輸局東京陸運支局</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区東大井1-12-17</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井1-12-17</bp:所在地>
+    <ic:座標 rdf:nodeID="ub6bL239C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7469919</geo:long>
+    <bp:施設名称 xml:lang="ja">関東運輸局東京陸運支局</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6046993</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6046993</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7469919</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL559C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5949348</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7471756</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/24">
+    <ic:座標 rdf:nodeID="ub6bL249C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井5-23-34</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6050717</geo:lat>
+    <rdfs:label xml:lang="ja">品川郵便局</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7361881</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7361881</bp:経度>
+    <bp:施設名称 xml:lang="ja">品川郵便局</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6050717</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区東大井5-23-34</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/36">
+    <bp:施設名称 xml:lang="ja">大崎駅</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7285802</bp:経度>
+    <ic:座標 rdf:nodeID="ub6bL368C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6190999</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎1丁目21-4</bp:所在地>
+    <rdfs:label xml:lang="ja">大崎駅</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6190999</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7285802</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL468C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6225433</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7392315</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/64">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7154390</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7154390</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6333950</bp:緯度>
+    <ic:座標 rdf:nodeID="ub6bL626C9"/>
+    <rdfs:label xml:lang="ja">目黒駅(東急)</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6333950</geo:lat>
+    <bp:施設名称 xml:lang="ja">目黒駅(東急)</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区上大崎4-2-1</bp:所在地>
+    <bp:備考 xml:lang="ja">東京都品川区上大崎4-2-1</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/17">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6083098</geo:lat>
+    <bp:備考 xml:lang="ja">品川区戸越5-20-15</bp:備考>
+    <rdfs:label xml:lang="ja">荏原消防署戸越出張所</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6083098</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7187484</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区戸越5-20-15</bp:所在地>
+    <ic:座標 rdf:nodeID="ub6bL179C9"/>
+    <bp:施設名称 xml:lang="ja">荏原消防署戸越出張所</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7187484</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/67">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7157670</geo:long>
+    <bp:施設名称 xml:lang="ja">目黒駅(ＪＲ)</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6341140</bp:緯度>
+    <bp:備考 xml:lang="ja">東京都品川区上大崎2-16-9</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区上大崎2-16-9</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6341140</geo:lat>
+    <ic:座標 rdf:nodeID="ub6bL656C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7157670</bp:経度>
+    <rdfs:label xml:lang="ja">目黒駅(ＪＲ)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL249C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7361881</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6050717</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/20">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6296746</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7348360</bp:経度>
+    <bp:施設名称 xml:lang="ja">品川税務署</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6296746</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7348360</geo:long>
+    <ic:座標 rdf:nodeID="ub6bL209C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区港区高輪3-13-22</bp:所在地>
+    <bp:備考 xml:lang="ja">港区高輪3-13-22</bp:備考>
+    <rdfs:label xml:lang="ja">品川税務署</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/71">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6021270</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6021270</bp:緯度>
+    <bp:施設名称 xml:lang="ja">西大井駅(JR横須賀線)</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub6bL696C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区</bp:所在地>
+    <bp:備考 xml:lang="ja">東京都品川区</bp:備考>
+    <rdfs:label xml:lang="ja">西大井駅(JR横須賀線)</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7219446</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7219446</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL404C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7047325</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6206461</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/49">
+    <bp:所在地 xml:lang="ja">東京都品川区南品川3丁目1-20</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6090709</geo:lat>
+    <rdfs:label xml:lang="ja">青物横丁駅</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7431279</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7431279</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6090709</bp:緯度>
+    <ic:座標 rdf:nodeID="ub6bL486C9"/>
+    <bp:施設名称 xml:lang="ja">青物横丁駅</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL189C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6160664</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7022552</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/9">
+    <rdfs:label xml:lang="ja">品川消防署</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171422</geo:lat>
+    <bp:施設名称 xml:lang="ja">品川消防署</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub6bL99C9"/>
+    <bp:備考 xml:lang="ja">品川区北品川3-7-31</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171422</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川3-7-31</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7398073</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7398073</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/45">
+    <bp:所在地 xml:lang="ja">東京都品川区戸越5丁目10-15</bp:所在地>
+    <bp:施設名称 xml:lang="ja">戸越公園駅</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub6bL449C9"/>
+    <rdfs:label xml:lang="ja">戸越公園駅</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6089987</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6089987</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7184968</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7184968</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/39">
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田5丁目12-1</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7132457</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6254279</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6254279</bp:緯度>
+    <rdfs:label xml:lang="ja">不動前駅</rdfs:label>
+    <ic:座標 rdf:nodeID="ub6bL395C9"/>
+    <bp:施設名称 xml:lang="ja">不動前駅</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7132457</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL199C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6057800</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7000222</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/21">
+    <ic:座標 rdf:nodeID="ub6bL219C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6138370</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7097508</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区中延1-1-5</bp:所在地>
+    <rdfs:label xml:lang="ja">荏原税務署</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区中延1-1-5</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6138370</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7097508</geo:long>
+    <bp:施設名称 xml:lang="ja">荏原税務署</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL606C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6264180</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7236661</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/72">
+    <ic:座標 rdf:nodeID="ub6bL706C9"/>
+    <bp:備考 xml:lang="ja">東京都大田区大森北1丁目</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5889869</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7281534</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7281534</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5889869</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区</bp:所在地>
+    <bp:施設名称 xml:lang="ja">大森駅(JR京浜東北線)</bp:施設名称>
+    <rdfs:label xml:lang="ja">大森駅(JR京浜東北線)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/18">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6160664</bp:緯度>
+    <bp:施設名称 xml:lang="ja">荏原消防署小山出張所</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub6bL189C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7022552</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7022552</bp:経度>
+    <bp:備考 xml:lang="ja">品川区小山5-12-11</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区小山5-12-11</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6160664</geo:lat>
+    <rdfs:label xml:lang="ja">荏原消防署小山出張所</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/10">
+    <ic:座標 rdf:nodeID="ub6bL110C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7473344</geo:long>
+    <rdfs:label xml:lang="ja">品川消防署東品川出張所</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6128705</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6128705</geo:lat>
+    <bp:備考 xml:lang="ja">品川区東品川3-25-11
+電話　03-3450-0119</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7473344</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川3-25-11</bp:所在地>
+    <bp:施設名称 xml:lang="ja">品川消防署東品川出張所</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/4">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7454043</bp:経度>
+    <rdfs:label xml:lang="ja">品川警察署</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区東品川3-14-32</bp:備考>
+    <ic:座標 rdf:nodeID="ub6bL49C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川3-14-32</bp:所在地>
+    <bp:施設名称 xml:lang="ja">品川警察署</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6139521</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6139521</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7454043</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/31">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6090951</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7302296</geo:long>
+    <rdfs:label xml:lang="ja">東京法務局品川出張所（登記所）</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区広町2-1-36品川区総合庁舎</bp:所在地>
+    <ic:座標 rdf:nodeID="ub6bL320C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6090951</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7302296</bp:経度>
+    <bp:備考 xml:lang="ja">品川区広町2-1-36
+品川区総合庁舎1階</bp:備考>
+    <bp:施設名称 xml:lang="ja">東京法務局品川出張所（登記所）</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/47">
+    <bp:所在地 xml:lang="ja">東京都品川区北品川1丁目1-4</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7392315</bp:経度>
+    <rdfs:label xml:lang="ja">北品川駅</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7392315</geo:long>
+    <bp:施設名称 xml:lang="ja">北品川駅</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6225433</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6225433</geo:lat>
+    <ic:座標 rdf:nodeID="ub6bL468C9"/>
+    <bp:備考 xml:lang="ja">品川区北品川1丁目1-4</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL299C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6236396</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7248636</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/52">
+    <ic:座標 rdf:nodeID="ub6bL513C9"/>
+    <bp:施設名称 xml:lang="ja">大森海岸駅</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5874923</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5874923</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7352991</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7352991</bp:経度>
+    <rdfs:label xml:lang="ja">大森海岸駅</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井3丁目32-1</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/46">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6057842</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7126428</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区東中延2丁目9-12</bp:所在地>
+    <ic:座標 rdf:nodeID="ub6bL458C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7126428</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6057842</bp:緯度>
+    <bp:施設名称 xml:lang="ja">東急中延駅</bp:施設名称>
+    <rdfs:label xml:lang="ja">東急中延駅</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/61">
+    <ic:座標 rdf:nodeID="ub6bL596C9"/>
+    <rdfs:label xml:lang="ja">戸越銀座駅</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区平塚2-16-1</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6158834</geo:lat>
+    <bp:施設名称 xml:lang="ja">戸越銀座駅</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7148438</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6158834</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7148438</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/51">
+    <bp:施設名称 xml:lang="ja">立会川駅</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7389746</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5986501</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5986501</geo:lat>
+    <ic:座標 rdf:nodeID="ub6bL504C9"/>
+    <rdfs:label xml:lang="ja">立会川駅</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7389746</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井2丁目23-1</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/74">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7508339</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7508339</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-5-5</bp:所在地>
+    <bp:施設名称 xml:lang="ja">大井警察署八潮団地交番</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub6bL725C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5988304</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5988304</geo:lat>
+    <bp:備考 xml:lang="ja">品川区八潮5-5-5</bp:備考>
+    <rdfs:label xml:lang="ja">大井警察署八潮団地交番</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/42">
+    <bp:施設名称 xml:lang="ja">荏原中延駅</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6098891</bp:緯度>
+    <ic:座標 rdf:nodeID="ub6bL422C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区中延2丁目8-1</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7119465</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7119465</geo:long>
+    <rdfs:label xml:lang="ja">荏原中延駅</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6098891</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/40">
+    <bp:施設名称 xml:lang="ja">武蔵小山駅</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7047325</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6206461</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6206461</bp:緯度>
+    <rdfs:label xml:lang="ja">武蔵小山駅</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区小山3丁目4-8</bp:所在地>
+    <ic:座標 rdf:nodeID="ub6bL404C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7047325</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/28">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6129282</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区西品川1-8-1</bp:備考>
+    <rdfs:label xml:lang="ja">下水道局南部下水道事務所品川出張所</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区西品川1-8-1</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7301521</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7301521</bp:経度>
+    <ic:座標 rdf:nodeID="ub6bL289C9"/>
+    <bp:施設名称 xml:lang="ja">下水道局南部下水道事務所品川出張所</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6129282</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/6">
+    <bp:施設名称 xml:lang="ja">大井警察署</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7298873</bp:経度>
+    <ic:座標 rdf:nodeID="ub6bL69C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5987968</bp:緯度>
+    <rdfs:label xml:lang="ja">大井警察署</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5987968</geo:lat>
+    <bp:備考 xml:lang="ja">品川区大井5-10-2</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7298873</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区大井5-10-2</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/5">
+    <bp:備考 xml:lang="ja">品川区大崎4-2-10</bp:備考>
+    <bp:施設名称 xml:lang="ja">大崎警察署</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6217304</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6217304</geo:lat>
+    <rdfs:label xml:lang="ja">大崎警察署</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7241517</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7241517</bp:経度>
+    <ic:座標 rdf:nodeID="ub6bL59C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎4-2-10</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/73">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6231178</geo:lat>
+    <ic:座標 rdf:nodeID="ub6bL715C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川2-3-8</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7503428</bp:経度>
+    <bp:施設名称 xml:lang="ja">天王洲アイル駅（東京モノレール）</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6231178</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7503428</geo:long>
+    <rdfs:label xml:lang="ja">天王洲アイル駅（東京モノレール）</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/3">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6175581</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川3-7-21</bp:所在地>
+    <rdfs:label xml:lang="ja">品川児童相談所</rdfs:label>
+    <ic:座標 rdf:nodeID="ub6bL39C9"/>
+    <bp:備考 xml:lang="ja">品川区北品川3-7-21</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6175581</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7404569</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7404569</geo:long>
+    <bp:施設名称 xml:lang="ja">品川児童相談所</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/33">
+    <ic:座標 rdf:nodeID="ub6bL340C9"/>
+    <rdfs:label xml:lang="ja">目黒公証役場</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7150243</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6355392</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区上大崎2-17-5</bp:所在地>
+    <bp:施設名称 xml:lang="ja">目黒公証役場</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6355392</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7150243</geo:long>
+    <bp:備考 xml:lang="ja">品川区上大崎2-17-5</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/57">
+    <ic:座標 rdf:nodeID="ub6bL559C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区勝島2丁目2</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5949348</geo:lat>
+    <rdfs:label xml:lang="ja">大井競馬場前駅</rdfs:label>
+    <bp:施設名称 xml:lang="ja">大井競馬場前駅</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7471756</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7471756</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5949348</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/59">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6039899</bp:緯度>
+    <ic:座標 rdf:nodeID="ub6bL578C9"/>
+    <rdfs:label xml:lang="ja">荏原町駅</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区中延5-2-1</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7076062</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7076062</bp:経度>
+    <bp:施設名称 xml:lang="ja">荏原町駅</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6039899</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/70">
+    <bp:施設名称 xml:lang="ja">東急バス「荏原営業所」</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6024270</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7133260</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7133260</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6024270</bp:緯度>
+    <ic:座標 rdf:nodeID="ub6bL686C9"/>
+    <rdfs:label xml:lang="ja">東急バス「荏原営業所」</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区二葉4-27-1</bp:所在地>
+    <bp:備考 xml:lang="ja">東京都品川区二葉4-27-1</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL413C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7224930</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6224256</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/53">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7162560</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区戸越3丁目4-17</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7162560</bp:経度>
+    <rdfs:label xml:lang="ja">戸越駅</rdfs:label>
+    <ic:座標 rdf:nodeID="ub6bL522C9"/>
+    <bp:施設名称 xml:lang="ja">戸越駅</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6143511</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6143511</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL69C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5987968</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7298873</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/56">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6103127</geo:lat>
+    <ic:座標 rdf:nodeID="ub6bL550C9"/>
+    <bp:施設名称 xml:lang="ja">品川シーサイド駅</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7498309</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7498309</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川4丁目12</bp:所在地>
+    <rdfs:label xml:lang="ja">品川シーサイド駅</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6103127</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区東品川4丁目12</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL139C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6034742</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7401437</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL119C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7316590</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6133836</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/35">
+    <bp:所在地 xml:lang="ja">東京都品川区東五反田1丁目26-2</bp:所在地>
+    <rdfs:label xml:lang="ja">五反田駅</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7235869</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6260453</bp:緯度>
+    <bp:施設名称 xml:lang="ja">五反田駅</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7235869</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6260453</geo:lat>
+    <ic:座標 rdf:nodeID="ub6bL359C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/68">
+    <bp:備考 xml:lang="ja">東京都品川区北品川1-5-12</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7407480</geo:long>
+    <rdfs:label xml:lang="ja">都営バス「品川自動車営業所」</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6232740</bp:緯度>
+    <bp:施設名称 xml:lang="ja">都営バス「品川自動車営業所」</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7407480</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6232740</geo:lat>
+    <ic:座標 rdf:nodeID="ub6bL666C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川1-5-12</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/58">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6287472</bp:緯度>
+    <bp:備考 xml:lang="ja">港区港南2丁目</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都港区港南2丁目</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6287472</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7393921</geo:long>
+    <bp:施設名称 xml:lang="ja">品川駅</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7393921</bp:経度>
+    <rdfs:label xml:lang="ja">品川駅</rdfs:label>
+    <ic:座標 rdf:nodeID="ub6bL569C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/65">
+    <bp:施設名称 xml:lang="ja">洗足駅(目黒区)(東急)</bp:施設名称>
+    <bp:備考 xml:lang="ja">東京都目黒区洗足2-21-1</bp:備考>
+    <rdfs:label xml:lang="ja">洗足駅(目黒区)(東急)</rdfs:label>
+    <ic:座標 rdf:nodeID="ub6bL636C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6940000</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6940000</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6099500</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6099500</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都目黒区洗足2-21-1</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL129C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6200165</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7187382</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL259C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6252595</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7189457</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/7">
+    <bp:備考 xml:lang="ja">品川区荏原6-19-10</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7061891</geo:long>
+    <ic:座標 rdf:nodeID="ub6bL79C9"/>
+    <bp:施設名称 xml:lang="ja">荏原警察署</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7061891</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区荏原6-19-10</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6120733</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6120733</geo:lat>
+    <rdfs:label xml:lang="ja">荏原警察署</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL340C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7150243</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6355392</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL79C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6120733</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7061891</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL149C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5983307</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7281165</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL99C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6171422</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7398073</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL495C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6051498</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7424961</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/13">
+    <bp:所在地 xml:lang="ja">東京都品川区東大井3-6-12</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6034742</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7401437</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6034742</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7401437</bp:経度>
+    <rdfs:label xml:lang="ja">大井消防署</rdfs:label>
+    <ic:座標 rdf:nodeID="ub6bL139C9"/>
+    <bp:施設名称 xml:lang="ja">大井消防署</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区東大井3-6-12</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/#">
+    <cc:attributionName>東京都品川区</cc:attributionName>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.ja"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/55">
+    <ic:座標 rdf:nodeID="ub6bL540C9"/>
+    <bp:施設名称 xml:lang="ja">天王洲アイル駅（りんかい線）</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7508566</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7508566</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6216148</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川2-5-8</bp:所在地>
+    <rdfs:label xml:lang="ja">天王洲アイル駅（りんかい線）</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6216148</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL59C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6217304</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7241517</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/54">
+    <rdfs:label xml:lang="ja">都営中延駅</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7135855</bp:経度>
+    <ic:座標 rdf:nodeID="ub6bL531C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区東中延2丁目9-12</bp:所在地>
+    <bp:施設名称 xml:lang="ja">都営中延駅</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6055999</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7135855</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6055999</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/50">
+    <bp:施設名称 xml:lang="ja">鮫洲駅</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7424961</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7424961</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井1丁目2-20</bp:所在地>
+    <rdfs:label xml:lang="ja">鮫洲駅</rdfs:label>
+    <ic:座標 rdf:nodeID="ub6bL495C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6051498</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6051498</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL440C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6087526</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7264653</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL320C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7302296</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6090951</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL666C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7407480</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6232740</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL715C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7503428</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6231178</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/62">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7236661</bp:経度>
+    <rdfs:label xml:lang="ja">都営浅草線五反田駅「定期券販売所」</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6264180</geo:lat>
+    <ic:座標 rdf:nodeID="ub6bL606C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6264180</bp:緯度>
+    <bp:備考 xml:lang="ja">東京都品川区東五反田1-26-2</bp:備考>
+    <bp:施設名称 xml:lang="ja">都営浅草線五反田駅「定期券販売所」</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区東五反田1-26-2</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7236661</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/1">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6089834</geo:lat>
+    <ic:座標 rdf:nodeID="ub6bL19C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6089834</bp:緯度>
+    <rdfs:label xml:lang="ja">品川都税事務所</rdfs:label>
+    <bp:施設名称 xml:lang="ja">品川都税事務所</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区広町2-1-36 
+品川区役所　2階</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7302954</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7302954</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区広町2-1-36</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/8">
+    <bp:施設名称 xml:lang="ja">東京水上警察署</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub6bL89C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区港区港南5-8-36</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6323499</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6323499</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7550883</geo:long>
+    <rdfs:label xml:lang="ja">東京水上警察署</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7550883</bp:経度>
+    <bp:備考 xml:lang="ja">港区港南5-8-36</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL309C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6296077</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7190353</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL458C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6057842</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7126428</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL49C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6139521</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7454043</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/38">
+    <ic:座標 rdf:nodeID="ub6bL386C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井1丁目3-2</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6014780</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7214340</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7214340</geo:long>
+    <rdfs:label xml:lang="ja">西大井町駅</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6014780</geo:lat>
+    <bp:施設名称 xml:lang="ja">西大井町駅</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/19">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7000222</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7000222</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6057800</geo:lat>
+    <rdfs:label xml:lang="ja">荏原消防署旗の台出張所</rdfs:label>
+    <bp:施設名称 xml:lang="ja">荏原消防署旗の台出張所</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6057800</bp:緯度>
+    <ic:座標 rdf:nodeID="ub6bL199C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台6-24-11</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区旗の台6-24-11</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL229C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6049300</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7473986</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL569C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6287472</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7393921</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL359C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6260453</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7235869</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL578C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6039899</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7076062</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL696C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7219446</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6021270</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/37">
+    <bp:所在地 xml:lang="ja">東京都品川区大井1丁目2-12</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6075360</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7349666</geo:long>
+    <rdfs:label xml:lang="ja">大井町駅</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7349666</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6075360</bp:緯度>
+    <bp:施設名称 xml:lang="ja">大井町駅</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub6bL377C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL289C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6129282</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7301521</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL219C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6138370</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7097508</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL540C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7508566</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6216148</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL513C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5874923</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7352991</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL686C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7133260</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6024270</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL29C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6033213</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7464659</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/15">
+    <rdfs:label xml:lang="ja">大井消防署八潮出張所</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5971201</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7515991</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7515991</geo:long>
+    <bp:施設名称 xml:lang="ja">大井消防署八潮出張所</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5971201</geo:lat>
+    <ic:座標 rdf:nodeID="ub6bL159C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-8-3</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区八潮5-8-3</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/75">
+    <bp:備考 xml:lang="ja">東品川3-31-16
+電話　3472-3411</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6119765</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6119765</bp:緯度>
+    <rdfs:label xml:lang="ja">都立城南職業能力開発センター</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川3-31-16</bp:所在地>
+    <bp:施設名称 xml:lang="ja">都立城南職業能力開発センター</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub6bL736C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7497704</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7497704</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL279C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7078304</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6116016</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL386C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6014780</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7214340</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL616C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6254040</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7242969</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL587C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6158275</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.6989315</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL422C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6098891</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7119465</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/43">
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台2丁目13-1</bp:所在地>
+    <rdfs:label xml:lang="ja">旗の台駅</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7027961</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6048340</geo:lat>
+    <bp:施設名称 xml:lang="ja">旗の台駅</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub6bL431C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6048340</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7027961</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL504C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7389746</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5986501</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL676C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6328370</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7167830</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/60">
+    <rdfs:label xml:lang="ja">西小山駅</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6989315</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6158275</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区小山6-3-9</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6989315</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6158275</bp:緯度>
+    <bp:施設名称 xml:lang="ja">西小山駅</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub6bL587C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL19C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7302954</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6089834</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL39C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7404569</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6175581</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL89C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7550883</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6323499</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL477C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7414247</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6170364</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL269C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6127130</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7073544</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/66">
+    <bp:所在地 xml:lang="ja">東京都品川区大井1-2-12</bp:所在地>
+    <rdfs:label xml:lang="ja">大井町駅(ＪＲ)</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7348330</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6062210</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6062210</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7348330</bp:経度>
+    <bp:施設名称 xml:lang="ja">大井町駅(ＪＲ)</bp:施設名称>
+    <bp:備考 xml:lang="ja">東京都品川区大井1-2-12</bp:備考>
+    <ic:座標 rdf:nodeID="ub6bL646C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL179C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7187484</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6083098</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL169C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6148569</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7105344</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL368C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6190999</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7285802</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL550C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6103127</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7498309</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL330C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6270162</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7234544</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL159C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5971201</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7515991</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL725C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7508339</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5988304</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL636C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.6940000</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6099500</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL110C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7473344</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6128705</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL736C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7497704</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6119765</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL377C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6075360</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7349666</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL646C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6062210</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7348330</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL706C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7281534</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5889869</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL431C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6048340</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7027961</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL449C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6089987</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7184968</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL596C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7148438</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6158834</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL209C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7348360</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6296746</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub6bL395C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7132457</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6254279</ic:緯度>
+  </rdf:Description>
+</rdf:RDF>
+

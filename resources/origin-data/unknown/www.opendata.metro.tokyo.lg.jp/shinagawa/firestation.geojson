@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "名称": "荏原消防署", "緯度": 35.6144967, "経度": 139.7105109 }, "geometry": { "type": "Point", "coordinates": [ 139.7105109, 35.6144967 ] } },
+{ "type": "Feature", "properties": { "名称": "品川消防署", "緯度": 35.6170878, "経度": 139.7397523 }, "geometry": { "type": "Point", "coordinates": [ 139.7397523, 35.6170878 ] } }
+]
+}

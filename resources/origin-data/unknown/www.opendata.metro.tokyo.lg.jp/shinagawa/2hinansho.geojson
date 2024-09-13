@@ -1,0 +1,30 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "名称": "南大井シルバーセンター", "緯度": 35.5916187, "経度": 139.7342376 }, "geometry": { "type": "Point", "coordinates": [ 139.7342376, 35.5916187 ] } },
+{ "type": "Feature", "properties": { "名称": "春光福祉会　特別養護老人ホーム「ロイヤルサニー」", "緯度": 35.5999621, "経度": 139.7224704 }, "geometry": { "type": "Point", "coordinates": [ 139.7224704, 35.5999621 ] } },
+{ "type": "Feature", "properties": { "名称": "さくら会老人保健施設「ケアセンター南大井」", "緯度": 35.5945343, "経度": 139.733675 }, "geometry": { "type": "Point", "coordinates": [ 139.733675, 35.5945343 ] } },
+{ "type": "Feature", "properties": { "名称": "西大井シルバーセンター", "緯度": 35.6008976, "経度": 139.7230698 }, "geometry": { "type": "Point", "coordinates": [ 139.7230698, 35.6008976 ] } },
+{ "type": "Feature", "properties": { "名称": "八潮児童センター", "緯度": 35.5998066, "経度": 139.7516327 }, "geometry": { "type": "Point", "coordinates": [ 139.7516327, 35.5998066 ] } },
+{ "type": "Feature", "properties": { "名称": "高齢者住宅八潮わかくさ荘", "緯度": 35.5998699, "経度": 139.7509539 }, "geometry": { "type": "Point", "coordinates": [ 139.75095390000001, 35.5998699 ] } },
+{ "type": "Feature", "properties": { "名称": "心身障害者福祉会館", "緯度": 35.6048875, "経度": 139.7006163 }, "geometry": { "type": "Point", "coordinates": [ 139.70061630000001, 35.6048875 ] } },
+{ "type": "Feature", "properties": { "名称": "旗の台シルバーセンター", "緯度": 35.6025803, "経度": 139.7046896 }, "geometry": { "type": "Point", "coordinates": [ 139.7046896, 35.6025803 ] } },
+{ "type": "Feature", "properties": { "名称": "関ヶ原シルバーセンター", "緯度": 35.6018677, "経度": 139.7364935 }, "geometry": { "type": "Point", "coordinates": [ 139.7364935, 35.6018677 ] } },
+{ "type": "Feature", "properties": { "名称": "品川児童学園", "緯度": 35.6073495, "経度": 139.7446282 }, "geometry": { "type": "Point", "coordinates": [ 139.7446282, 35.6073495 ] } },
+{ "type": "Feature", "properties": { "名称": "品川総合福祉センター", "緯度": 35.6052496, "経度": 139.7522717 }, "geometry": { "type": "Point", "coordinates": [ 139.7522717, 35.6052496 ] } },
+{ "type": "Feature", "properties": { "名称": "中延シルバーセンター", "緯度": 35.6125932, "経度": 139.7118185 }, "geometry": { "type": "Point", "coordinates": [ 139.7118185, 35.6125932 ] } },
+{ "type": "Feature", "properties": { "名称": "特別養護老人ホーム「成幸ホーム」", "緯度": 35.6122655, "経度": 139.7115887 }, "geometry": { "type": "Point", "coordinates": [ 139.7115887, 35.6122655 ] } },
+{ "type": "Feature", "properties": { "名称": "ゆたかシルバーセンター", "緯度": 35.6081669, "経度": 139.7194903 }, "geometry": { "type": "Point", "coordinates": [ 139.7194903, 35.6081669 ] } },
+{ "type": "Feature", "properties": { "名称": "南品川シルバーセンター", "緯度": 35.6100801, "経度": 139.7395401 }, "geometry": { "type": "Point", "coordinates": [ 139.7395401, 35.6100801 ] } },
+{ "type": "Feature", "properties": { "名称": "都立品川特別支援学校", "緯度": 35.6097666, "経度": 139.7378227 }, "geometry": { "type": "Point", "coordinates": [ 139.73782270000001, 35.6097666 ] } },
+{ "type": "Feature", "properties": { "名称": "東品川シルバーセンター", "緯度": 35.6126645, "経度": 139.7503745 }, "geometry": { "type": "Point", "coordinates": [ 139.7503745, 35.6126645 ] } },
+{ "type": "Feature", "properties": { "名称": "小山シルバーセンター", "緯度": 35.6147042, "経度": 139.7014478 }, "geometry": { "type": "Point", "coordinates": [ 139.70144780000001, 35.6147042 ] } },
+{ "type": "Feature", "properties": { "名称": "平塚シルバーセンター", "緯度": 35.6169969, "経度": 139.7139996 }, "geometry": { "type": "Point", "coordinates": [ 139.7139996, 35.6169969 ] } },
+{ "type": "Feature", "properties": { "名称": "大崎シルバーセンター", "緯度": 35.6168885, "経度": 139.7256112 }, "geometry": { "type": "Point", "coordinates": [ 139.7256112, 35.6168885 ] } },
+{ "type": "Feature", "properties": { "名称": "北品川シルバーセンター", "緯度": 35.6206822, "経度": 139.7418432 }, "geometry": { "type": "Point", "coordinates": [ 139.74184320000001, 35.6206822 ] } },
+{ "type": "Feature", "properties": { "名称": "福栄会", "緯度": 35.617101, "経度": 139.7467953 }, "geometry": { "type": "Point", "coordinates": [ 139.7467953, 35.617101 ] } },
+{ "type": "Feature", "properties": { "名称": "西五反田シルバーセンター", "緯度": 35.6266424, "経度": 139.7170725 }, "geometry": { "type": "Point", "coordinates": [ 139.7170725, 35.6266424 ] } },
+{ "type": "Feature", "properties": { "名称": "五反田保育園", "緯度": 35.6216342, "経度": 139.7294771 }, "geometry": { "type": "Point", "coordinates": [ 139.7294771, 35.6216342 ] } },
+{ "type": "Feature", "properties": { "名称": "上大崎シルバーセンター", "緯度": 35.6347299, "経度": 139.7222261 }, "geometry": { "type": "Point", "coordinates": [ 139.7222261, 35.6347299 ] } }
+]
+}

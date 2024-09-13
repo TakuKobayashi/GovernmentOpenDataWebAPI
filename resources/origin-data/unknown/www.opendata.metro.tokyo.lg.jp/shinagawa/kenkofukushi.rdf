@@ -1,0 +1,2939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:bp="http://www.city.shinagawa.tokyo.jp//property/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+   xmlns:ic="http://imi.go.jp/ns/core/rdf#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/99">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7524143</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7524143</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-1-1</bp:所在地>
+    <rdfs:label xml:lang="ja">品川総合福祉センター</rdfs:label>
+    <bp:備考 xml:lang="ja">所在地: 品川区八潮5-1-1 
+交通機関:
+品川駅東口からバス「大井町東口行き」あるいは大井町東口から「品川駅東口行き」で「品川総合福祉センター前」下車 
+運営法人 :(社福)品川総合福祉センター 
+開設 : 昭和58年4月1日 
+建物概要 : 地上6階地下1階</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6051628</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6051628</bp:緯度>
+    <ic:座標 rdf:nodeID="ub16bL1329C9"/>
+    <bp:施設名称 xml:lang="ja">品川総合福祉センター</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/66">
+    <rdfs:label xml:lang="ja">荏原保健センター</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7114685</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171708</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区荏原2-9-6</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区荏原2-9-6 
+
+併設
+荏原健康センター
+荏原特別養護老人ホーム
+在宅介護支援センター
+在宅サービスセンター</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL897C9"/>
+    <bp:施設名称 xml:lang="ja">荏原保健センター</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7114685</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171708</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/7">
+    <bp:施設名称 xml:lang="ja">西五反田在宅介護支援センター</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6276895</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7169396</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6276895</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田3-6-6</bp:所在地>
+    <bp:備考 xml:lang="ja">在宅で介護しているご家族の相談を専門家が受け、必要なサービスへつなげ、支援・手助けするところです。 
+品川区西五反田3-6-6
+電話:5740-6115
+担当地区:西五反田 
+併設:ケアホーム西五反田・在宅サービスセンター・訪問看護ステーション</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7169396</geo:long>
+    <rdfs:label xml:lang="ja">西五反田在宅介護支援センター</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL110C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1561C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7405236</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6170304</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1233C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7334680</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5949383</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/43">
+    <rdfs:label xml:lang="ja">後地シルバーセンター</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7091517</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6206006</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7091517</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6206006</bp:緯度>
+    <bp:備考 xml:lang="ja">利用できる方:区内在住の満60歳以上の方 
+利用時間:午前9時～午後5時 
+休館日:日曜日、祝日(敬老の日は開館、翌日休館)、年末年始 
+小山2-9-19(併設:後地児童センター) 
+電話:3781-6506</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL585C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区小山2-9-19</bp:所在地>
+    <bp:施設名称 xml:lang="ja">後地シルバーセンター</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/58">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6076285</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7315014</bp:経度>
+    <bp:備考 xml:lang="ja">所在地:大井1-14-1 大井1丁目共同ビル
+電話 
+社会福祉協議会事務局:5718-7171
+ボランティアセンター:5718-7172
+さわやかサービス:5718-7173 
+業務時間:午前9時～午後5時 
+休業日:日曜日、祝日、年末年始(事務局は土曜日休業)</bp:備考>
+    <bp:施設名称 xml:lang="ja">品川区社会福祉協議会</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7315014</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区大井1-14-1大井1丁目共同ビル内</bp:所在地>
+    <ic:座標 rdf:nodeID="ub16bL778C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6076285</geo:lat>
+    <rdfs:label xml:lang="ja">品川区社会福祉協議会</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/59">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7315617</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区大井1-14-1大井1丁目共同ビル内</bp:所在地>
+    <bp:施設名称 xml:lang="ja">品川ボランティアセンター</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区大井1-14-1
+大井1丁目共同ビル
+品川区社会福祉協議会内
+併設
+さわやかサービス
+品川成年後見センター
+福祉ショップ「テルべ」</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL794C9"/>
+    <rdfs:label xml:lang="ja">品川ボランティアセンター</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6075784</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7315617</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6075784</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/156">
+    <bp:備考 xml:lang="ja">電話：5702-0125</bp:備考>
+    <bp:施設名称 xml:lang="ja">かもめ第2工房</bp:施設名称>
+    <rdfs:label xml:lang="ja">かもめ第2工房</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL1957C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6009773</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6009773</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井1-8-7</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7230521</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7230521</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL897C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6171708</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7114685</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/48">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6031079</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7518643</geo:long>
+    <bp:備考 xml:lang="ja">品川区八潮5-3-8</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL649C9"/>
+    <bp:施設名称 xml:lang="ja">重症心身障害者通所事業「ピッコロ」</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-3-8</bp:所在地>
+    <rdfs:label xml:lang="ja">重症心身障害者通所事業「ピッコロ」</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7518643</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6031079</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/40">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6128677</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6128677</geo:lat>
+    <bp:施設名称 xml:lang="ja">東品川シルバーセンター</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL543C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川3-32-10</bp:所在地>
+    <bp:備考 xml:lang="ja">利用できる方:区内在住の満60歳以上の方 
+利用時間:午前9時～午後5時 
+休館日:日曜日、祝日(敬老の日は開館、翌日休館)、年末年始 
+東品川3-32-10(併設:東品川文化センター) 
+電話:3472-2944</bp:備考>
+    <rdfs:label xml:lang="ja">東品川シルバーセンター</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7505676</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7505676</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1263C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7114291</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6169561</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/50">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171709</bp:緯度>
+    <bp:施設名称 xml:lang="ja">第一しいのき学園(福栄会)</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7469227</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川3-1-8</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7469227</bp:経度>
+    <rdfs:label xml:lang="ja">第一しいのき学園(福栄会)</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区東品川3-1-8 
+
+併設
+在宅介護支援センター
+在宅サービスセンター
+特養老人ホーム晴楓ホーム
+軽費老人ホーム東海ホーム</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171709</geo:lat>
+    <ic:座標 rdf:nodeID="ub16bL675C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/54">
+    <rdfs:label xml:lang="ja">ふれあい作業所</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5962214</geo:lat>
+    <ic:座標 rdf:nodeID="ub16bL721C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5962214</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7202756</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井4-9-9</bp:所在地>
+    <bp:施設名称 xml:lang="ja">ふれあい作業所</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区西大井4-9-9</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7202756</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/131">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6068740</geo:lat>
+    <bp:施設名称 xml:lang="ja">和(なごやか)</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6068740</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7152628</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7152628</geo:long>
+    <ic:座標 rdf:nodeID="ub16bL1673C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区戸越6-16-10</bp:所在地>
+    <rdfs:label xml:lang="ja">和(なごやか)</rdfs:label>
+    <bp:備考 xml:lang="ja">和(なごやか)
+品川区戸越6-16-10
+電話:3783-2254
+
+高齢者の健康カラオケ教室です</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1119C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7447659</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6073314</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/84">
+    <bp:備考 xml:lang="ja">品川区北品川3-7-21</bp:備考>
+    <bp:施設名称 xml:lang="ja">北品川つばさの家(知的障害者生活ホーム)</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL1129C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7407122</geo:long>
+    <rdfs:label xml:lang="ja">北品川つばさの家(知的障害者生活ホーム)</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川3-7-21</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7407122</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6177109</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6177109</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL478C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5997972</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7224908</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/163">
+    <rdfs:label xml:lang="ja">大井在宅サービスセンター</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区大井4-14-8 
+
+併設
+在宅介護支援センター
+高齢者住宅
+　大井倉田わかくさ荘</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL2046C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6017305</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区大井4-14-8</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6017305</bp:緯度>
+    <bp:施設名称 xml:lang="ja">大井在宅サービスセンター</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7329571</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7329571</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/122">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6118630</bp:緯度>
+    <rdfs:label xml:lang="ja">医師会立荏原訪問看護ステーション</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7124430</bp:経度>
+    <bp:備考 xml:lang="ja">東京都品川区中延1-7-12</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL1571C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6118630</geo:lat>
+    <bp:施設名称 xml:lang="ja">医師会立荏原訪問看護ステーション</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区中延1-7-12</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7124430</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL543C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7505676</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6128677</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/111">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6090000</bp:緯度>
+    <bp:備考 xml:lang="ja">東京都品川区小山7-14-4</bp:備考>
+    <rdfs:label xml:lang="ja">グループホーム小山（認知症高齢者グループホーム）</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL1461C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区小山7-14-4</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6967740</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6967740</geo:long>
+    <bp:施設名称 xml:lang="ja">グループホーム小山（認知症高齢者グループホーム）</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6090000</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/123">
+    <bp:所在地 xml:lang="ja">東京都品川区大井6-1-1</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7307670</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5989990</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5989990</geo:lat>
+    <rdfs:label xml:lang="ja">グループホーム温々(ぬくぬく)</rdfs:label>
+    <bp:備考 xml:lang="ja">東京都品川区大井6-1-1
+
+認知症高齢者グループホーム</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7307670</geo:long>
+    <ic:座標 rdf:nodeID="ub16bL1583C9"/>
+    <bp:施設名称 xml:lang="ja">グループホーム温々(ぬくぬく)</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/105">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5990008</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7214195</geo:long>
+    <bp:施設名称 xml:lang="ja">ウェルカムセンター原・交流施設</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL1396C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7214195</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井2-5-21</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5990008</geo:lat>
+    <rdfs:label xml:lang="ja">ウェルカムセンター原・交流施設</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/71">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6024012</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6024012</bp:緯度>
+    <bp:施設名称 xml:lang="ja">大井第二在宅介護支援センター</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7295035</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区大井3-15-7</bp:所在地>
+    <bp:備考 xml:lang="ja">在宅で介護しているご家族の相談を専門家が受け、必要なサービスへつなげ、支援・手助けするところです。 
+品川区大井3-15-7
+電話:5743-2943
+担当地区:西大井2～6丁目、大井6～7丁目</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7295035</bp:経度>
+    <rdfs:label xml:lang="ja">大井第二在宅介護支援センター</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL966C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/88">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6083941</geo:lat>
+    <rdfs:label xml:lang="ja">昭和大学病院</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区旗の台1-5-8</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL1168C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7035712</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7035712</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台1-5-8</bp:所在地>
+    <bp:施設名称 xml:lang="ja">昭和大学病院</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6083941</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL994C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6101825</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7399215</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/89">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6036215</geo:lat>
+    <ic:座標 rdf:nodeID="ub16bL1178C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6986957</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台5-17-16</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区旗の台5-17-16</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6036215</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6986957</geo:long>
+    <rdfs:label xml:lang="ja">旗の台脳神経外科病院</rdfs:label>
+    <bp:施設名称 xml:lang="ja">旗の台脳神経外科病院</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/83">
+    <bp:備考 xml:lang="ja">品川区南品川3-7-7</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7447659</bp:経度>
+    <rdfs:label xml:lang="ja">品川児童学園</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7447659</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6073314</bp:緯度>
+    <ic:座標 rdf:nodeID="ub16bL1119C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6073314</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区南品川3-7-7</bp:所在地>
+    <bp:施設名称 xml:lang="ja">品川児童学園</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/33">
+    <rdfs:label xml:lang="ja">戸越台特別養護老人ホーム(三徳会)</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6155780</geo:lat>
+    <ic:座標 rdf:nodeID="ub16bL451C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7173755</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7173755</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6155780</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区戸越1-15-23</bp:所在地>
+    <bp:施設名称 xml:lang="ja">戸越台特別養護老人ホーム(三徳会)</bp:施設名称>
+    <bp:備考 xml:lang="ja">特別養護老人ホーム
+社会福祉法人三徳会
+戸越1-15-23 
+電話:5750-1054
+併設:戸越台中学校・在宅介護支援センター・在宅サービスセンター</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1178C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6036215</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.6986957</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/47">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6050961</bp:緯度>
+    <bp:施設名称 xml:lang="ja">障害者支援施設かもめ</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL639C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7525486</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7525486</geo:long>
+    <bp:備考 xml:lang="ja">品川区八潮5-1-1 
+品川総合福祉センター内
+
+併設
+特護老人ホームかえで荘
+福祉工場「しながわ」
+かもめ園</bp:備考>
+    <rdfs:label xml:lang="ja">障害者支援施設かもめ</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-1-1</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6050961</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL229C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6000386</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7224549</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/138">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6167360</geo:lat>
+    <bp:施設名称 xml:lang="ja">品川保健センター検査室</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川3-11-16</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6167360</bp:緯度>
+    <bp:備考 xml:lang="ja">東京都品川区北品川3-11-16
+電話　3474-4951</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7398625</geo:long>
+    <rdfs:label xml:lang="ja">品川保健センター検査室</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7398625</bp:経度>
+    <ic:座標 rdf:nodeID="ub16bL1754C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/130">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6280224</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7234743</bp:経度>
+    <bp:施設名称 xml:lang="ja">おはなしたまご</bp:施設名称>
+    <bp:備考 xml:lang="ja">おはなしたまご
+品川区東五反田5-24-1
+
+小さいお子さんをもつ親子が対象です。</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区東五反田5-24-1</bp:所在地>
+    <rdfs:label xml:lang="ja">おはなしたまご</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL1659C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6280224</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7234743</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/128">
+    <rdfs:label xml:lang="ja">ふれあい作業所西品川分室</rdfs:label>
+    <bp:備考 xml:lang="ja">東京都品川区西品川1-28-3</bp:備考>
+    <bp:施設名称 xml:lang="ja">ふれあい作業所西品川分室</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6095310</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6095310</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区西品川1-28-3</bp:所在地>
+    <ic:座標 rdf:nodeID="ub16bL1633C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7275661</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7275661</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/18">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6965607</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6965607</geo:long>
+    <rdfs:label xml:lang="ja">小山在宅サービスセンター</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区小山7-14-18</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6090406</bp:緯度>
+    <bp:施設名称 xml:lang="ja">小山在宅サービスセンター</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6090406</geo:lat>
+    <bp:備考 xml:lang="ja">身体の障害や認知症高齢者など、家庭での介護や支援を必要とする方に、通所による、食事・入浴サービス・日常動作訓練などのサービスを提供する施設です。
+
+小山7-14-18 
+電話:5749-7251</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL255C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/155">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7439208</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6057242</bp:緯度>
+    <ic:座標 rdf:nodeID="ub16bL1947C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6057242</geo:lat>
+    <bp:所在地 xml:lang="ja">品川区東大井1-3-10</bp:所在地>
+    <bp:施設名称 xml:lang="ja">福祉工場しながわ</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7439208</geo:long>
+    <rdfs:label xml:lang="ja">福祉工場しながわ</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/41">
+    <bp:施設名称 xml:lang="ja">五反田シルバーセンター</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区東五反田2-15-6</bp:所在地>
+    <bp:備考 xml:lang="ja">利用できる方:区内在住の満60歳以上の方 
+利用時間:午前9時～午後5時 
+休館日:日曜日、祝日(敬老の日は開館、翌日休館)、年末年始 
+東五反田2-15-6(併設:五反田保育園・五反田ふれあいデイホーム) 
+電話3445-0296</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7293940</geo:long>
+    <ic:座標 rdf:nodeID="ub16bL557C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6219188</geo:lat>
+    <rdfs:label xml:lang="ja">五反田シルバーセンター</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7293940</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6219188</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1079C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7343949</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5916892</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/34">
+    <bp:所在地 xml:lang="ja">東京都品川区中延6-8-8</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7117421</bp:経度>
+    <rdfs:label xml:lang="ja">中延特別養護老人ホーム(品川総合福祉センター)</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6017258</bp:緯度>
+    <bp:備考 xml:lang="ja">特別養護老人ホーム
+社会福祉法人品川総合福祉センター
+中延6-8-8
+電話:3787-2951  
+併設:在宅介護支援センター・在宅サービスセンター</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6017258</geo:lat>
+    <ic:座標 rdf:nodeID="ub16bL465C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7117421</geo:long>
+    <bp:施設名称 xml:lang="ja">中延特別養護老人ホーム(品川総合福祉センター)</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1368C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6259908</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7193451</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1829C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6023823</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7073394</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/51">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171800</geo:lat>
+    <rdfs:label xml:lang="ja">第二しいのき学園(福栄会)</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川3-1-8</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区東品川3-1-8 
+
+併設
+在宅介護支援センター
+在宅サービスセンター
+特養老人ホーム晴楓ホーム
+軽費老人ホーム東海ホーム</bp:備考>
+    <bp:施設名称 xml:lang="ja">第二しいのき学園(福栄会)</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL691C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7470706</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7470706</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171800</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/124">
+    <ic:座標 rdf:nodeID="ub16bL1593C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区大井3-7-19</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7299802</geo:long>
+    <bp:備考 xml:lang="ja">東京都品川区大井3-7-19</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6029464</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6029464</geo:lat>
+    <rdfs:label xml:lang="ja">山中いきいき広場(山中小学校内)</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7299802</bp:経度>
+    <bp:施設名称 xml:lang="ja">山中いきいき広場(山中小学校内)</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/9">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7513321</bp:経度>
+    <bp:施設名称 xml:lang="ja">八潮在宅介護支援センター</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL138C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6001993</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7513321</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6001993</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-10-27</bp:所在地>
+    <bp:備考 xml:lang="ja">在宅で介護しているご家族の相談を専門家が受け、必要なサービスへつなげ、支援・手助けするところです。 
+品川区八潮5-10-27 
+電話:3790-0470 
+担当地区:八潮 
+併設:高齢者住宅八潮わかくさ荘・在宅サービスセンター</bp:備考>
+    <rdfs:label xml:lang="ja">八潮在宅介護支援センター</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/68">
+    <bp:施設名称 xml:lang="ja">荏原健康センター</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区荏原2-9-6 
+
+併設
+荏原特別養護老人ホー
+在宅介護支援センター
+在宅サービスセンター</bp:備考>
+    <rdfs:label xml:lang="ja">荏原健康センター</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区荏原2-9-6</bp:所在地>
+    <ic:座標 rdf:nodeID="ub16bL925C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6170994</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6170994</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7115946</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7115946</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/39">
+    <ic:座標 rdf:nodeID="ub16bL529C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6281595</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区西五反田3-6-6 
+電話:5434-7831
+併設:在宅介護支援センター・在宅サービスセンター・訪問看護ステーション・ケアホーム西五反田</bp:備考>
+    <bp:施設名称 xml:lang="ja">高齢者の安心の住まい「さくらハイツ西五反田」(さくら会)</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7166795</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7166795</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田3-6-6</bp:所在地>
+    <rdfs:label xml:lang="ja">高齢者の安心の住まい「さくらハイツ西五反田」(さくら会)</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6281595</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/125">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7027490</bp:経度>
+    <bp:備考 xml:lang="ja">東京都品川区荏原6-2-8</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6129330</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区荏原6-2-8</bp:所在地>
+    <rdfs:label xml:lang="ja">荏原いきいき倶楽部</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL1603C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6129330</bp:緯度>
+    <bp:施設名称 xml:lang="ja">荏原いきいき倶楽部</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7027490</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/150">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6929704</bp:経度>
+    <ic:座標 rdf:nodeID="ub16bL1890C9"/>
+    <bp:備考 xml:lang="ja">荏原病院 
+大田区東雪谷4-5-10 
+03-5734-8000</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5937463</geo:lat>
+    <bp:施設名称 xml:lang="ja">荏原病院</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5937463</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6929704</geo:long>
+    <bp:所在地 xml:lang="ja">東京都大田区東雪谷4-5-10</bp:所在地>
+    <rdfs:label xml:lang="ja">荏原病院</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/93">
+    <rdfs:label xml:lang="ja">南大井高齢者保健福祉複合施設</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL1233C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5949383</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井5-19-1</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5949383</geo:lat>
+    <bp:備考 xml:lang="ja">所在地:品川区南大井5-19-1 
+交通機関:JR京浜東北線「大森」東口徒歩10分 
+運営法人:(社福)さくら会 
+開設:平成12年5月 
+建物概要:地下1階地上8階</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7334680</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7334680</bp:経度>
+    <bp:施設名称 xml:lang="ja">南大井高齢者保健福祉複合施設</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/76">
+    <bp:備考 xml:lang="ja">利用できる方:区内在住の満60歳以上の方 
+利用時間:午前9時～午後5時 
+休館日:日曜日、祝日(敬老の日は開館、翌日休館)、年末年始
+小山5-17-18 
+電話　3785-6420</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7013897</geo:long>
+    <ic:座標 rdf:nodeID="ub16bL1036C9"/>
+    <bp:施設名称 xml:lang="ja">小山シルバーセンター</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区小山5-17-18</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6148389</geo:lat>
+    <rdfs:label xml:lang="ja">小山シルバーセンター</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6148389</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7013897</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/139">
+    <ic:座標 rdf:nodeID="ub16bL1765C9"/>
+    <rdfs:label xml:lang="ja">小山の家</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6964964</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6964964</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6089928</geo:lat>
+    <bp:施設名称 xml:lang="ja">小山の家</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6089928</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区小山7-14-18</bp:所在地>
+    <bp:備考 xml:lang="ja">東京都品川区小山7-14-18
+電話　5749-7251</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/19">
+    <ic:座標 rdf:nodeID="ub16bL269C9"/>
+    <bp:備考 xml:lang="ja">身体の障害や認知症高齢者など、家庭での介護や支援を必要とする方に、通所による、食事・入浴サービス・日常動作訓練などのサービスを提供する施設です。
+
+八潮5-10-27 
+電話:3790-0344 
+担当地区:八潮</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6002349</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6002349</geo:lat>
+    <rdfs:label xml:lang="ja">八潮在宅サービスセンター</rdfs:label>
+    <bp:施設名称 xml:lang="ja">八潮在宅サービスセンター</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-10-27</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7511815</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7511815</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/10">
+    <bp:備考 xml:lang="ja">身体の障害や認知症高齢者など、家庭での介護や支援を必要とする方に、通所による、食事・入浴サービス・日常動作訓練などのサービスを提供する施設です。
+南大井3-7-10
+電話:5767-0626 
+担当地区:大井、南大井、西大井、勝島、東大井</bp:備考>
+    <rdfs:label xml:lang="ja">月見橋在宅サービスセンター</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7345761</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5915446</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7345761</bp:経度>
+    <bp:施設名称 xml:lang="ja">月見橋在宅サービスセンター</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL151C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5915446</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井3-7-10</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1732C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7053227</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6160598</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/75">
+    <bp:施設名称 xml:lang="ja">西五反田シルバーセンター</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6264581</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7169380</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7169380</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田3-9-10</bp:所在地>
+    <rdfs:label xml:lang="ja">西五反田シルバーセンター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6264581</geo:lat>
+    <bp:備考 xml:lang="ja">利用できる方:区内在住の満60歳以上の方 
+利用時間:午前9時～午後5時 
+休館日:日曜日、祝日(敬老の日は開館、翌日休館)、年末年始 
+品川区西五反田3-9-10 (併設:西五反田保育園)
+電話:3493-0076</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL1022C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/23">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7334098</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5922686</bp:緯度>
+    <rdfs:label xml:lang="ja">(株)ケアサービスデイサービスセンター大森</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5922686</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井6-3-8ガーデニア大森1F</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区南大井6-3-8
+ガーデニア大森1F</bp:備考>
+    <bp:施設名称 xml:lang="ja">(株)ケアサービスデイサービスセンター大森</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7334098</geo:long>
+    <ic:座標 rdf:nodeID="ub16bL316C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/129">
+    <rdfs:label xml:lang="ja">ひまわりの会</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6028120</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6028120</bp:緯度>
+    <bp:備考 xml:lang="ja">ひまわりの会
+品川区二葉3-24-2
+
+高齢者の介護予防のためのサロンです。</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7210676</bp:経度>
+    <bp:施設名称 xml:lang="ja">ひまわりの会</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区二葉3-24-2</bp:所在地>
+    <ic:座標 rdf:nodeID="ub16bL1646C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7210676</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/154">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6052262</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6052262</bp:緯度>
+    <bp:施設名称 xml:lang="ja">南大井訪問看護ステーション</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7403369</bp:経度>
+    <ic:座標 rdf:nodeID="ub16bL1938C9"/>
+    <bp:備考 xml:lang="ja">品川区東大井4-9-1(大井林町高齢者複合施設)
+電話:5495-7084
+併設:地域密着型多機能ホーム(大井林町倶楽部)、南大井第二在宅介護支援センター、大井林町高齢者住宅</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7403369</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井4-9-1</bp:所在地>
+    <rdfs:label xml:lang="ja">南大井訪問看護ステーション</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/140">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6076037</geo:lat>
+    <bp:備考 xml:lang="ja">東京都品川区東大井5-8-12
+電話　5783-0753</bp:備考>
+    <bp:施設名称 xml:lang="ja">東大井地域密着型多機能ホーム</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7379433</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7379433</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井5-8-12</bp:所在地>
+    <rdfs:label xml:lang="ja">東大井地域密着型多機能ホーム</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6076037</bp:緯度>
+    <ic:座標 rdf:nodeID="ub16bL1776C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/67">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6166189</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7406399</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川3-11-22</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区北品川3-11-22 
+
+併設
+品川区保健センター</bp:備考>
+    <rdfs:label xml:lang="ja">品川健康センター</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7406399</geo:long>
+    <ic:座標 rdf:nodeID="ub16bL910C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6166189</bp:緯度>
+    <bp:施設名称 xml:lang="ja">品川健康センター</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/20">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7167094</geo:long>
+    <rdfs:label xml:lang="ja">西五反田在宅サービスセンター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6277698</geo:lat>
+    <bp:備考 xml:lang="ja">身体の障害や認知症高齢者など、家庭での介護や支援を必要とする方に、通所による、食事・入浴サービス・日常動作訓練などのサービスを提供する施設です。
+西五反田3-6-6
+電話:5434-5608
+担当地区:上大崎、東五反田4・5丁目、西五反田</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6277698</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田3-6-6</bp:所在地>
+    <bp:施設名称 xml:lang="ja">西五反田在宅サービスセンター</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL282C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7167094</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/12">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6119401</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6119401</bp:緯度>
+    <bp:施設名称 xml:lang="ja">成幸在宅サービスセンター</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7118493</geo:long>
+    <bp:備考 xml:lang="ja">身体の障害や認知症高齢者など、家庭での介護や支援を必要とする方に、通所による、食事・入浴サービス・日常動作訓練などのサービスを提供する施設です。
+中延1-8-7
+電話:3788-3315
+担当地区:中延1・2丁目、東中延1丁目、西中延1・2丁目、平塚1～3丁目、戸越5丁目</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7118493</bp:経度>
+    <rdfs:label xml:lang="ja">成幸在宅サービスセンター</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL177C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区中延1-8-7</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/134">
+    <rdfs:label xml:lang="ja">月見橋の家</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7347985</geo:long>
+    <ic:座標 rdf:nodeID="ub16bL1710C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5914857</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5914857</bp:緯度>
+    <bp:施設名称 xml:lang="ja">月見橋の家</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井3-7-10</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7347985</bp:経度>
+    <bp:備考 xml:lang="ja">身体の障害や認知症高齢者など、家庭での介護や支援を必要とする方に、通所による、食事・入浴サービス・日常動作訓練などのサービスを提供する施設です。
+南大井3-7-10
+電話:5767-0626 
+担当地区:大井、南大井、西大井、勝島、東大井</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1441C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6059140</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7332127</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/15">
+    <rdfs:label xml:lang="ja">中延在宅サービスセンター</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区中延6-8-8</bp:所在地>
+    <bp:施設名称 xml:lang="ja">中延在宅サービスセンター</bp:施設名称>
+    <bp:備考 xml:lang="ja">中延6-8-8 
+電話:3787-2137 
+担当地区:東中延2丁目、旗の台3～5丁目、中延3～6丁目、西中延3丁目、　戸越6丁目、豊町6丁目、二葉4丁目</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6017389</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6017389</geo:lat>
+    <ic:座標 rdf:nodeID="ub16bL216C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7114492</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7114492</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL282C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7167094</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6277698</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/3">
+    <bp:備考 xml:lang="ja">在宅で介護しているご家族の相談を専門家が受け、必要なサービスへつなげ、支援・手助けするところです。 
+
+品川区東品川3-1-5 
+電話:5479-2793
+担当地区:東品川3・4丁目 南品川 
+
+併設
+特別養護老人ホーム
+(晴楓ホーム)
+在宅サービスセンター</bp:備考>
+    <bp:施設名称 xml:lang="ja">東品川在宅介護支援センター</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL55C9"/>
+    <rdfs:label xml:lang="ja">東品川在宅介護支援センター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171394</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171394</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7473675</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川3-1-5</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7473675</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL529C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6281595</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7166795</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1841C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7046383</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6243556</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/78">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6083505</bp:緯度>
+    <bp:施設名称 xml:lang="ja">ゆたかシルバーセンター</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7196219</geo:long>
+    <ic:座標 rdf:nodeID="ub16bL1064C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区豊町3-2-15</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7196219</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6083505</geo:lat>
+    <rdfs:label xml:lang="ja">ゆたかシルバーセンター</rdfs:label>
+    <bp:備考 xml:lang="ja">利用できる方:区内在住の満60歳以上の方 
+利用時間:午前9時～午後5時 
+休館日:日曜日、祝日(敬老の日は開館、翌日休館)、年末年始 
+豊町3-2-15(併設:公益社団法人品川区シルバー人材センターゆたか支所) 
+電話:3781-5424</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL557C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6219188</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7293940</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/164">
+    <bp:備考 xml:lang="ja">在宅で介護しているご家族の相談を専門家が受け、必要なサービスへつなげ、支援・手助けするところです。 
+品川区南大井4-19-3
+電話:5753-3902 
+担当地区:南大井</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井4-19-3</bp:所在地>
+    <rdfs:label xml:lang="ja">南大井在宅介護支援センター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5932409</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7345402</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7345402</geo:long>
+    <ic:座標 rdf:nodeID="ub16bL2059C9"/>
+    <bp:施設名称 xml:lang="ja">南大井在宅介護支援センター</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5932409</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/159">
+    <rdfs:label xml:lang="ja">杜松地域密着型多機能ホーム</rdfs:label>
+    <bp:施設名称 xml:lang="ja">杜松地域密着型多機能ホーム</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7226796</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6060341</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7226796</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6060341</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区豊町4-24-15</bp:所在地>
+    <ic:座標 rdf:nodeID="ub16bL1991C9"/>
+    <bp:備考 xml:lang="ja">平成26年11月25日落成</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/29">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7119203</bp:経度>
+    <bp:備考 xml:lang="ja">特別養護老人ホーム
+社会福祉法人三徳会
+中延1-8-7 
+電話:3787-3616 
+併設:成幸在宅介護支援センター・成幸在宅サービスセンター・中延シルバーセンター</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6120520</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7119203</geo:long>
+    <rdfs:label xml:lang="ja">特別養護老人ホーム「成幸ホーム」(三徳会)</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区中延1-8-7</bp:所在地>
+    <ic:座標 rdf:nodeID="ub16bL393C9"/>
+    <bp:施設名称 xml:lang="ja">特別養護老人ホーム「成幸ホーム」(三徳会)</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6120520</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/77">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6026002</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7046836</bp:経度>
+    <ic:座標 rdf:nodeID="ub16bL1050C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6026002</bp:緯度>
+    <bp:施設名称 xml:lang="ja">旗の台シルバーセンター</bp:施設名称>
+    <bp:備考 xml:lang="ja">利用できる方:区内在住の満60歳以上の方 
+利用時間:午前9時～午後5時 
+休館日:日曜日、祝日(敬老の日は開館、翌日休館)、年末年始 
+旗の台4-13-1 
+電話:3783-7479</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台4-13-1</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7046836</geo:long>
+    <rdfs:label xml:lang="ja">旗の台シルバーセンター</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1623C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7285610</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6146830</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/166">
+    <ic:座標 rdf:nodeID="ub16bL2085C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6168382</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7258258</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6168382</geo:lat>
+    <bp:施設名称 xml:lang="ja">大崎ゆうゆうプラザ
+（大崎高齢者多世代交流支援施設）</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎2-7-13</bp:所在地>
+    <bp:備考 xml:lang="ja">住所：東京都品川区大崎2-7-13
+電話：03-5719-5322
+利用できる方：区内在住の満60歳以上の方、多世代交流事業を実施する方
+開館時間：午前9時～午後9時30分（日曜・祝日は午後5時まで）
+休館日：年末年始（12月29日～1月3日）</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7258258</geo:long>
+    <rdfs:label xml:lang="ja">大崎ゆうゆうプラザ
+（大崎高齢者多世代交流支援施設）</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/72">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6206472</bp:緯度>
+    <rdfs:label xml:lang="ja">北品川シルバーセンター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6206472</geo:lat>
+    <bp:備考 xml:lang="ja">利用できる方:区内在住の満60歳以上の方 
+利用時間:午前9時～午後5時 
+休館日:日曜日、祝日(敬老の日は開館、翌日休館)、年末年始 
+北品川1-29-12 
+電話:3471-6507</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川1-29-12</bp:所在地>
+    <ic:座標 rdf:nodeID="ub16bL980C9"/>
+    <bp:施設名称 xml:lang="ja">北品川シルバーセンター</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7417534</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7417534</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/118">
+    <rdfs:label xml:lang="ja">八ツ山保育園ふれあいデイホーム</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川1-1-9</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7428260</bp:経度>
+    <ic:座標 rdf:nodeID="ub16bL1531C9"/>
+    <bp:施設名称 xml:lang="ja">八ツ山保育園ふれあいデイホーム</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6227220</bp:緯度>
+    <bp:備考 xml:lang="ja">東京都品川区東品川1-1-9</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6227220</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7428260</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/160">
+    <bp:施設名称 xml:lang="ja">大崎在宅介護支援センター</bp:施設名称>
+    <bp:備考 xml:lang="ja">在宅で介護しているご家族の相談を専門家が受け、必要なサービスへつなげ、支援・手助けするところです。 
+品川区大崎2-11-1
+電話:03-3779-2981
+担当地区:西品川、大崎 
+併設:在宅サービスセンター</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7296591</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎2-11-1</bp:所在地>
+    <rdfs:label xml:lang="ja">大崎在宅介護支援センター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6169613</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6169613</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7296591</geo:long>
+    <ic:座標 rdf:nodeID="ub16bL2005C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/52">
+    <ic:座標 rdf:nodeID="ub16bL701C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井5-7-24</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5992571</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5992571</geo:lat>
+    <bp:備考 xml:lang="ja">品川区西大井5-7-24</bp:備考>
+    <rdfs:label xml:lang="ja">西大井つばさの家(福栄会)</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7165478</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7165478</bp:経度>
+    <bp:施設名称 xml:lang="ja">西大井つばさの家(福栄会)</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/38">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6278821</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6278821</geo:lat>
+    <bp:備考 xml:lang="ja">介護の必要な高齢者の住まい
+品川区西五反田3-6-6 
+電話:5434-7831
+併設:在宅介護支援センター・在宅サービスセンター・訪問看護ステーション・さくらハイツ西五反田</bp:備考>
+    <rdfs:label xml:lang="ja">ケアホーム西五反田(さくら会)</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田3-6-6</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7164947</geo:long>
+    <ic:座標 rdf:nodeID="ub16bL517C9"/>
+    <bp:施設名称 xml:lang="ja">ケアホーム西五反田(さくら会)</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7164947</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/104">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171155</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区医師会</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171155</geo:lat>
+    <rdfs:label xml:lang="ja">品川区医師会</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7406576</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7406576</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川3-7-25</bp:所在地>
+    <ic:座標 rdf:nodeID="ub16bL1387C9"/>
+    <bp:施設名称 xml:lang="ja">品川区医師会</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/119">
+    <bp:施設名称 xml:lang="ja">ほっとハウス温々(ぬくぬく)</bp:施設名称>
+    <bp:備考 xml:lang="ja">東京都品川区大井3-27-12</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6001850</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区大井3-27-12</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7298030</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6001850</bp:緯度>
+    <rdfs:label xml:lang="ja">ほっとハウス温々(ぬくぬく)</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7298030</bp:経度>
+    <ic:座標 rdf:nodeID="ub16bL1541C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/90">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7098573</geo:long>
+    <rdfs:label xml:lang="ja">平塚橋ゆうゆうプラザ
+（平塚橋高齢者多世代交流支援施設）</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6143775</bp:緯度>
+    <ic:座標 rdf:nodeID="ub16bL1194C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区西中延1-2-8</bp:所在地>
+    <bp:備考 xml:lang="ja">住所：東京都品川区西中延1-2-8
+電話：03-5498-7021
+利用できる方：区内在住の満60歳以上の方、多世代交流事業を実施する方
+開館時間：午前9時～午後9時30分（日曜・祝日は午後5時まで）
+休館日：年末年始（12月29日～1月3日）</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6143775</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7098573</bp:経度>
+    <bp:施設名称 xml:lang="ja">平塚橋ゆうゆうプラザ
+（平塚橋高齢者多世代交流支援施設）</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/49">
+    <bp:備考 xml:lang="ja">品川区八潮5-10-27</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7516196</geo:long>
+    <rdfs:label xml:lang="ja">サンかもめ(品川総合福祉センター)</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL659C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7516196</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6002174</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-10-27</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6002174</geo:lat>
+    <bp:施設名称 xml:lang="ja">サンかもめ(品川総合福祉センター)</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/143">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6073181</geo:lat>
+    <rdfs:label xml:lang="ja">児童デイサービスCOMPASS「コンパス」</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7449001</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区南品川3-7-7</bp:所在地>
+    <bp:備考 xml:lang="ja">東京都品川区南品川3-7-7
+電話　5781-5683</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL1809C9"/>
+    <bp:施設名称 xml:lang="ja">児童デイサービスCOMPASS「コンパス」</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7449001</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6073181</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/86">
+    <bp:所在地 xml:lang="ja">東京都品川区北品川3-3-7</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6213381</geo:lat>
+    <bp:備考 xml:lang="ja">品川区北品川3-3-7</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6213381</bp:緯度>
+    <rdfs:label xml:lang="ja">第三北品川病院</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7388487</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7388487</bp:経度>
+    <ic:座標 rdf:nodeID="ub16bL1148C9"/>
+    <bp:施設名称 xml:lang="ja">第三北品川病院</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/60">
+    <bp:備考 xml:lang="ja">品川区大井1-14-1
+大井1丁目共同ビル
+品川区社会福祉協議会内
+
+併設
+品川ボランティアセンター
+品川成年後見センター
+福祉ショップ「テルべ」</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6077107</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区大井1-14-1大井1丁目共同ビル内</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6077107</geo:lat>
+    <bp:施設名称 xml:lang="ja">さわやかサービス</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7314695</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7314695</bp:経度>
+    <rdfs:label xml:lang="ja">さわやかサービス</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL811C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/35">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7224908</geo:long>
+    <bp:施設名称 xml:lang="ja">特別養護老人ホーム「ロイヤルサニー」(春光福祉会)</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7224908</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5997972</bp:緯度>
+    <bp:備考 xml:lang="ja">特別養護老人ホーム
+社会福祉法人春光福祉会
+西大井2-4-4 
+電話:5743-6111</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5997972</geo:lat>
+    <rdfs:label xml:lang="ja">特別養護老人ホーム「ロイヤルサニー」(春光福祉会)</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井2-4-4</bp:所在地>
+    <ic:座標 rdf:nodeID="ub16bL478C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1866C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5689097</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7241705</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1798C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7466588</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6128345</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1158C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6002614</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7299362</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/97">
+    <bp:所在地 xml:lang="ja">東京都品川区中延6-8-8</bp:所在地>
+    <ic:座標 rdf:nodeID="ub16bL1296C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6017877</geo:lat>
+    <rdfs:label xml:lang="ja">中延複合施設</rdfs:label>
+    <bp:備考 xml:lang="ja">所在地:品川区中延6-8-8 
+交通機関:
+大井町線「荏原町」「中延」徒歩7分 
+都営浅草線「中延」徒歩7分 
+運営法人:(社福)品川総合福祉センター 
+開設 : 平成10年5月 
+建物概要 :地上6階地下1階</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7115895</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7115895</geo:long>
+    <bp:施設名称 xml:lang="ja">中延複合施設</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6017877</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/2">
+    <ic:座標 rdf:nodeID="ub16bL36C9"/>
+    <rdfs:label xml:lang="ja">成幸在宅介護支援センター</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7117917</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6120429</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区中延1-8-7</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7117917</geo:long>
+    <bp:施設名称 xml:lang="ja">成幸在宅介護支援センター</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6120429</geo:lat>
+    <bp:備考 xml:lang="ja">在宅で介護しているご家族の相談を専門家が受け、必要なサービスへつなげ、支援・手助けするところです。 
+品川区中延1-8-7
+電話: 3787-7493
+担当地区:中延1・2丁目、東中延1丁目、西中延1・2丁目、戸越5丁目、平塚
+併設:特別養護老人ホーム・在宅サービスセンター</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1471C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7226222</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5998510</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/63">
+    <bp:備考 xml:lang="ja">品川区北品川3-11-16 
+
+併設
+品川第一地域センター
+サポしながわ
+シルバー人材センター</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7401527</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川3-11-16</bp:所在地>
+    <rdfs:label xml:lang="ja">衛生試験所</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6167452</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7401527</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6167452</bp:緯度>
+    <bp:施設名称 xml:lang="ja">衛生試験所</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL854C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL379C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6169983</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7111465</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/82">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7194982</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6083182</bp:緯度>
+    <bp:施設名称 xml:lang="ja">品川区シルバー人材センターゆたか分室</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区豊町3-2-15</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6083182</geo:lat>
+    <ic:座標 rdf:nodeID="ub16bL1109C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7194982</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区豊町3-2-15</bp:所在地>
+    <rdfs:label xml:lang="ja">品川区シルバー人材センターゆたか分室</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL69C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6156943</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7174795</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL639C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6050961</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7525486</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/25">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6066371</geo:lat>
+    <ic:座標 rdf:nodeID="ub16bL338C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区戸越6-23-24コープ中延1F</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区戸越6-23-24
+コープ中延1F</bp:備考>
+    <bp:施設名称 xml:lang="ja">すずなり戸越</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6066371</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7142620</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7142620</bp:経度>
+    <rdfs:label xml:lang="ja">すずなり戸越</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/8">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6090195</bp:緯度>
+    <ic:座標 rdf:nodeID="ub16bL124C9"/>
+    <bp:備考 xml:lang="ja">在宅で介護しているご家族の相談を専門家が受け、必要なサービスへつなげ、支援・手助けするところです。
+品川区小山7-14-18 
+電話:5749-7288
+担当地区:小山6・7丁目、荏原5～7丁目、旗の台1・2・5(1-5.13-20)・6丁目
+併設:小山の家・在宅サービスセンター</bp:備考>
+    <rdfs:label xml:lang="ja">小山在宅介護支援センター</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6964293</geo:long>
+    <bp:施設名称 xml:lang="ja">小山在宅介護支援センター</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6964293</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6090195</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区小山7-14-18</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/106">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5989778</geo:lat>
+    <bp:施設名称 xml:lang="ja">西大井いきいきセンター</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7222357</bp:経度>
+    <ic:座標 rdf:nodeID="ub16bL1411C9"/>
+    <rdfs:label xml:lang="ja">西大井いきいきセンター</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井2-5-21</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7222357</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5989778</bp:緯度>
+    <bp:備考 xml:lang="ja">利用できる方:区内在住の満60歳以上の方 
+利用時間:午前9時～午後5時 
+休館日:日曜日、祝日(敬老の日は開館、翌日休館)、年末年始 
+西大井2-5-21 
+電話:5718-1330
+運営:社会福祉法人こうほうえん</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/114">
+    <rdfs:label xml:lang="ja">東芝病院</rdfs:label>
+    <bp:備考 xml:lang="ja">東京都品川区東大井6-3-22</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7348520</bp:経度>
+    <ic:座標 rdf:nodeID="ub16bL1491C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6016580</geo:lat>
+    <bp:施設名称 xml:lang="ja">東芝病院</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6016580</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井6-3-22</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7348520</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/6">
+    <rdfs:label xml:lang="ja">西大井在宅介護支援センター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5999180</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7225372</geo:long>
+    <ic:座標 rdf:nodeID="ub16bL96C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7225372</bp:経度>
+    <bp:施設名称 xml:lang="ja">西大井在宅介護支援センター</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井2-4-4</bp:所在地>
+    <bp:備考 xml:lang="ja">在宅で介護しているご家族の相談を専門家が受け、必要なサービスへつなげ、支援・手助けするところです。 
+品川区西大井2-4-4 
+電話:5743-6120
+担当地区:西大井2～6丁目、大井6～7丁目 
+併設:特別養護老人ホーム(ロイヤルサニー)・在宅サービスセンター</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5999180</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/28">
+    <bp:備考 xml:lang="ja">特別養護老人ホーム
+社会福祉法人三徳会 
+荏原2-9-6 
+電話:5750-2941  
+併設:品川区保健所・荏原健康センター・在宅介護支援センター・荏原在宅サービスセンター</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7111465</bp:経度>
+    <bp:施設名称 xml:lang="ja">荏原特別養護老人ホーム(三徳会)</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6169983</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6169983</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区荏原2-9-6</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7111465</geo:long>
+    <ic:座標 rdf:nodeID="ub16bL379C9"/>
+    <rdfs:label xml:lang="ja">荏原特別養護老人ホーム(三徳会)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL164C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6171482</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7111564</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1878C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6095216</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7054706</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/133">
+    <bp:所在地 xml:lang="ja">東京都品川区西大井3-1-4</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7236261</bp:経度>
+    <rdfs:label xml:lang="ja">西大井ほっと・サロン</rdfs:label>
+    <bp:施設名称 xml:lang="ja">西大井ほっと・サロン</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5979451</bp:緯度>
+    <ic:座標 rdf:nodeID="ub16bL1697C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5979451</geo:lat>
+    <bp:備考 xml:lang="ja">西大井ほっと・サロン
+西大井3-1-4
+電話:3772-9887</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7236261</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1219C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6170592</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7468072</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1551C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7055800</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6026400</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL408C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6050737</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7524117</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/161">
+    <bp:施設名称 xml:lang="ja">大原在宅介護支援センター</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6037836</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区豊町6-25-13　ハイタウン中延1階</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区豊町6-25-13　ハイタウン中延1階
+担当地区：戸越6丁目、豊町6丁目、二葉2丁目
+TEL:03-5749-2531</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6037836</geo:lat>
+    <ic:座標 rdf:nodeID="ub16bL2017C9"/>
+    <rdfs:label xml:lang="ja">大原在宅介護支援センター</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7135979</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7135979</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/74">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7220371</bp:経度>
+    <bp:備考 xml:lang="ja">利用できる方:区内在住の満60歳以上の方 
+利用時間:午前9時～午後5時 
+休館日:日曜日、祝日(敬老の日は開館、翌日休館)、年末年始 
+上大崎1-3-12(併設:上大崎在宅介護支援センター) 
+電話:3449-1750</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区上大崎1-3-12</bp:所在地>
+    <bp:施設名称 xml:lang="ja">上大崎シルバーセンター</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL1008C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6346151</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7220371</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6346151</bp:緯度>
+    <rdfs:label xml:lang="ja">上大崎シルバーセンター</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/5">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6018999</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7114517</geo:long>
+    <bp:施設名称 xml:lang="ja">中延在宅介護支援センター</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7114517</bp:経度>
+    <rdfs:label xml:lang="ja">中延在宅介護支援センター</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区中延6-8-8</bp:所在地>
+    <ic:座標 rdf:nodeID="ub16bL82C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6018999</bp:緯度>
+    <bp:備考 xml:lang="ja">品川区中延6-8-8 
+電話:3787-2167
+担当地区:東中延2丁目、中延3～6丁目、西中延3丁目、戸越6丁目、豊町6丁目、二葉4丁目、旗の台3・4・5(6-12.21-28)丁目 
+併設:特別養護老人ホーム・在宅サービスセンター</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1247C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7226148</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6000932</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1431C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5922360</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7335170</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/4">
+    <bp:備考 xml:lang="ja">在宅で介護しているご家族の相談を専門家が受け、必要なサービスへつなげ、支援・手助けするところです。 
+品川区戸越1-15-23 
+電話:5750-1053
+担当地区:二葉1～3丁目、豊町1～5丁目、戸越1～4丁目
+併設:戸越台中学校・特別養護老人ホーム・在宅サービスセンター</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7174795</geo:long>
+    <ic:座標 rdf:nodeID="ub16bL69C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7174795</bp:経度>
+    <rdfs:label xml:lang="ja">戸越台在宅介護支援センター</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6156943</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6156943</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区戸越1-15-23</bp:所在地>
+    <bp:施設名称 xml:lang="ja">戸越台在宅介護支援センター</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/80">
+    <bp:備考 xml:lang="ja">品川区東大井1-4-14</bp:備考>
+    <rdfs:label xml:lang="ja">品川区シルバー人材センター東大井支所</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL1089C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6057191</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7450655</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6057191</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7450655</bp:経度>
+    <bp:施設名称 xml:lang="ja">品川区シルバー人材センター東大井支所</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井1-4-14</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/142">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6128345</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7466588</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7466588</geo:long>
+    <rdfs:label xml:lang="ja">ちびっこタイム品川</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL1798C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6128345</geo:lat>
+    <bp:備考 xml:lang="ja">東京都品川区東品川3-25-16
+電話　3450-7402</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川3-25-16</bp:所在地>
+    <bp:施設名称 xml:lang="ja">ちびっこタイム品川</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL881C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7407084</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6165072</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/31">
+    <bp:備考 xml:lang="ja">特別養護老人ホーム
+社会福祉法人福栄会
+東品川3-1-8 
+電話:5479-2981
+
+併設:在宅介護支援センター・在宅サービスセンター・軽費老人ホーム東海ホーム・しいのき学園</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7465204</geo:long>
+    <ic:座標 rdf:nodeID="ub16bL423C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6169739</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6169739</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川3-1-8</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7465204</bp:経度>
+    <bp:施設名称 xml:lang="ja">特別養護老人ホーム「晴楓ホーム」(福栄会)</bp:施設名称>
+    <rdfs:label xml:lang="ja">特別養護老人ホーム「晴楓ホーム」(福栄会)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL659C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7516196</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6002174</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1613C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7197554</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6083828</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/42">
+    <bp:施設名称 xml:lang="ja">関ヶ原シルバーセンター</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6018977</bp:緯度>
+    <bp:備考 xml:lang="ja">利用できる方:区内在住の満60歳以上の方 
+利用時間:午前9時～午後5時 
+休館日:日曜日、祝日(敬老の日は開館、翌日休館)、年末年始 
+東大井6-11-11(併設:いきいきラボ関が原) 
+電話:3765-7022</bp:備考>
+    <rdfs:label xml:lang="ja">関ヶ原シルバーセンター</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井6-11-11</bp:所在地>
+    <ic:座標 rdf:nodeID="ub16bL571C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6018977</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7364958</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7364958</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/55">
+    <rdfs:label xml:lang="ja">家庭あんしんセンター</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区平塚2-12-2</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6170536</geo:lat>
+    <ic:座標 rdf:nodeID="ub16bL736C9"/>
+    <bp:施設名称 xml:lang="ja">家庭あんしんセンター</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6170536</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7129395</bp:経度>
+    <bp:備考 xml:lang="ja">4階建ての母子・障害者総合福祉施設。
+1階は、受付と障害者住宅。2階は、子育て支援センター、ファミリーサポートセンター、障害者生活支援センター。3・4階は、母子生活支援施設「ひまわり荘」
+
+所在地　平塚2-12-2
+電話　5749-1031(代表) 
+FAX 　5749-1035</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7129395</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/61">
+    <ic:座標 rdf:nodeID="ub16bL828C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7313875</geo:long>
+    <bp:施設名称 xml:lang="ja">成年後見センター</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区大井1-14-1大井1丁目共同ビル内</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6076284</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6076284</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7313875</bp:経度>
+    <rdfs:label xml:lang="ja">成年後見センター</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区大井1-14-1
+大井1丁目共同ビル
+品川区社会福祉協議会内
+
+併設
+品川ボランティアセンター
+さわやかサービス
+福祉ショップ「テルべ」</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/132">
+    <bp:施設名称 xml:lang="ja">ケアホーム西大井こうほうえん</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5992882</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7218793</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5992882</bp:緯度>
+    <rdfs:label xml:lang="ja">ケアホーム西大井こうほうえん</rdfs:label>
+    <bp:備考 xml:lang="ja">ケアホーム西大井
+西大井2-5-21
+電話:5718-1331</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7218793</bp:経度>
+    <ic:座標 rdf:nodeID="ub16bL1685C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井2-5-21</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1854C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6241862</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7436811</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/153">
+    <rdfs:label xml:lang="ja">南大井第二在宅介護支援センター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6051522</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7404278</geo:long>
+    <bp:施設名称 xml:lang="ja">南大井第二在宅介護支援センター</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区東大井4-9-1(大井林町高齢者複合施設)
+電話:5495-7083
+担当地区:東大井、勝島
+併設:地域密着型多機能ホーム(大井林町倶楽部)、南大井訪問介護看護ステーション、大井林町高齢者住宅</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7404278</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区東大井4-9-1</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6051522</bp:緯度>
+    <ic:座標 rdf:nodeID="ub16bL1926C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/85">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7407110</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7407110</geo:long>
+    <ic:座標 rdf:nodeID="ub16bL1138C9"/>
+    <rdfs:label xml:lang="ja">かもめ第1工房</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川3-7-21</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6175512</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6175512</bp:緯度>
+    <bp:施設名称 xml:lang="ja">かもめ第1工房</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/127">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7285610</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区西品川2-2-16</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6146830</bp:緯度>
+    <bp:施設名称 xml:lang="ja">トット文化館</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6146830</geo:lat>
+    <ic:座標 rdf:nodeID="ub16bL1623C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7285610</geo:long>
+    <bp:備考 xml:lang="ja">東京都品川区西品川2-2-16</bp:備考>
+    <rdfs:label xml:lang="ja">トット文化館</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL504C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7338598</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5946960</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/79">
+    <bp:備考 xml:lang="ja">利用できる方:区内在住の満60歳以上の方 
+利用時間:午前9時～午後5時 
+休館日:日曜日、祝日(敬老の日は開館、翌日休館)、年末年始 
+品川区南大井3-7-13 
+(併設:南大井図書館・南大井児童センター・南大井保育園)
+電話:3761-6540</bp:備考>
+    <bp:施設名称 xml:lang="ja">南大井シルバーセンター</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL1079C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7343949</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5916892</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5916892</geo:lat>
+    <rdfs:label xml:lang="ja">南大井シルバーセンター</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井3-7-13</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7343949</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/100">
+    <rdfs:label xml:lang="ja">西五反田高齢者等複合施設</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田3-6-6</bp:所在地>
+    <ic:座標 rdf:nodeID="ub16bL1346C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7166983</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6279307</geo:lat>
+    <bp:備考 xml:lang="ja">所在地 : 品川区西五反田3-6-6 
+交通機関 
+東急目黒線「不動前」徒歩7分 
+JR山手線「五反田」徒歩9分 
+JR山手線「目黒」徒歩10分 
+運営法人 :(社福)さくら会 
+開設　: 平成16年4月 
+建物概要 :高層棟地上14階・低層棟地上4階</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6279307</bp:緯度>
+    <bp:施設名称 xml:lang="ja">西五反田高齢者等複合施設</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7166983</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/44">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7399689</geo:long>
+    <bp:施設名称 xml:lang="ja">品川区シルバー人材センター</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区北品川3-11-16
+品川第一地域センタービル内
+
+併設
+サポしながわ</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6165542</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6165542</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川3-11-16品川第一地域センタービル内</bp:所在地>
+    <rdfs:label xml:lang="ja">品川区シルバー人材センター</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL599C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7399689</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1646C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6028120</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7210676</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1314C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6156604</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7176217</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1387C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6171155</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7406576</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/157">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6112739</geo:lat>
+    <rdfs:label xml:lang="ja">東品川第二在宅介護支援センター</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7459521</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6112739</bp:緯度>
+    <bp:施設名称 xml:lang="ja">東品川第二在宅介護支援センター</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7459521</geo:long>
+    <bp:備考 xml:lang="ja">在宅で介護しているご家族の相談を専門家が受け、必要なサービスへつなげ、支援・手助けするところです。 
+
+東品川3-27-25 オフィス・イン品川3階 
+電話:5783-2656
+担当地区:東品川3・4丁目 南品川</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL1971C9"/>
+    <bp:所在地 xml:lang="ja">東京都東品川3-27-25 オフィス・イン品川3階</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1346C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7166983</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6279307</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/162">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6018259</bp:緯度>
+    <ic:座標 rdf:nodeID="ub16bL2031C9"/>
+    <bp:施設名称 xml:lang="ja">大井在宅介護支援センター</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7328693</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7328693</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区大井4-14-8</bp:所在地>
+    <rdfs:label xml:lang="ja">大井在宅介護支援センター</rdfs:label>
+    <bp:備考 xml:lang="ja">在宅で介護しているご家族の相談を専門家が受け、必要なサービスへつなげ、支援・手助けするところです。
+品川区大井4-14-8
+電話:5742-2723
+担当地区:大井1、4、6丁目、広町
+併設:在宅サービスセンター・高齢者住宅大井倉田わかくさ荘</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6018259</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/94">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6000932</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7226148</bp:経度>
+    <bp:施設名称 xml:lang="ja">春光福祉会</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井2-4-4</bp:所在地>
+    <ic:座標 rdf:nodeID="ub16bL1247C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7226148</geo:long>
+    <bp:備考 xml:lang="ja">所在地:品川区西大井2-4-4 
+交通機関:JR横須賀線「西大井」徒歩2分 
+運営法人:(社福)春光福祉会 
+開設:平成12年4月 
+建物概要:地上4階地下1階</bp:備考>
+    <rdfs:label xml:lang="ja">春光福祉会</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6000932</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/87">
+    <ic:座標 rdf:nodeID="ub16bL1158C9"/>
+    <bp:備考 xml:lang="ja">品川区大井3-27-11</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7299362</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区大井3-27-11</bp:所在地>
+    <bp:施設名称 xml:lang="ja">大村病院</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7299362</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6002614</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6002614</geo:lat>
+    <rdfs:label xml:lang="ja">大村病院</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/167">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6143571</bp:緯度>
+    <ic:座標 rdf:nodeID="ub16bL2097C9"/>
+    <bp:施設名称 xml:lang="ja">平塚橋特別養護老人ホーム</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区西中延1-2-8</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6143571</geo:lat>
+    <bp:備考 xml:lang="ja">東京都品川区西中延1-2-8
+電話03-5750-3632
+品川区立平塚橋高齢者多世代交流支援施設（平塚橋ゆうゆうプラザ）併設</bp:備考>
+    <rdfs:label xml:lang="ja">平塚橋特別養護老人ホーム</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7100366</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7100366</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/137">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6184754</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6184754</bp:緯度>
+    <ic:座標 rdf:nodeID="ub16bL1743C9"/>
+    <bp:施設名称 xml:lang="ja">障害者就労支援センター「げんき品川」</bp:施設名称>
+    <bp:備考 xml:lang="ja">東京都品川区大崎4-11-12
+電話　5496-2525</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎4-11-12</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7213330</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7213330</geo:long>
+    <rdfs:label xml:lang="ja">障害者就労支援センター「げんき品川」</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/136">
+    <bp:施設名称 xml:lang="ja">にじのひろば</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区荏原4-12-20</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6160598</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7053227</bp:経度>
+    <bp:備考 xml:lang="ja">東京都品川区荏原4-12-20
+電話　3787-3757</bp:備考>
+    <rdfs:label xml:lang="ja">にじのひろば</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6160598</geo:lat>
+    <ic:座標 rdf:nodeID="ub16bL1732C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7053227</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL778C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6076285</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7315014</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/1">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6172020</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区荏原2-9-6</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6172020</bp:緯度>
+    <bp:備考 xml:lang="ja">在宅で介護しているご家族の相談を専門家が受け、必要なサービスへつなげ、支援・手助けするところです。 
+品川区荏原2-9-6 
+電話:5750-3704
+担当地区: 小山台、小山1～5丁目、荏原1～4丁目 
+併設:品川区保健所・荏原特別養護老人ホーム・在宅サービスセンター</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL22C9"/>
+    <bp:施設名称 xml:lang="ja">荏原在宅介護支援センター</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7113124</geo:long>
+    <rdfs:label xml:lang="ja">荏原在宅介護支援センター</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7113124</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/112">
+    <bp:所在地 xml:lang="ja">東京都品川区西大井2-4-4</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7226222</bp:経度>
+    <bp:施設名称 xml:lang="ja">グループホームロイヤル西大井（認知症高齢者グループホーム）</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL1471C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7226222</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5998510</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5998510</geo:lat>
+    <bp:備考 xml:lang="ja">東京都品川区西大井2-4-4</bp:備考>
+    <rdfs:label xml:lang="ja">グループホームロイヤル西大井（認知症高齢者グループホーム）</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/141">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6220128</geo:lat>
+    <bp:備考 xml:lang="ja">東京都品川区東五反田2-15-6
+電話　3765-2411</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区東五反田2-15-6</bp:所在地>
+    <bp:施設名称 xml:lang="ja">五反田保育園ふれあいデイホーム</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL1787C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7294925</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7294925</geo:long>
+    <rdfs:label xml:lang="ja">五反田保育園ふれあいデイホーム</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6220128</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/45">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7405926</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7405926</geo:long>
+    <bp:施設名称 xml:lang="ja">品川児童相談所</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6176202</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川3-7-21</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区北品川3-7-21</bp:備考>
+    <rdfs:label xml:lang="ja">品川児童相談所</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL609C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6176202</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/70">
+    <ic:座標 rdf:nodeID="ub16bL953C9"/>
+    <bp:備考 xml:lang="ja">在宅で介護しているご家族の相談を専門家が受け、必要なサービスへつなげ、支援・手助けするところです。 
+品川区上大崎1-3-12 
+電話:3473-1831
+担当地区:上大崎、東五反田、西五反田 
+併設:上大崎シルバーセンター</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7221741</geo:long>
+    <rdfs:label xml:lang="ja">上大崎在宅介護支援センター</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7221741</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区上大崎1-3-12</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6345705</geo:lat>
+    <bp:施設名称 xml:lang="ja">上大崎在宅介護支援センター</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6345705</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/26">
+    <bp:施設名称 xml:lang="ja">北品川病院 デイサービスセンター</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7413646</geo:long>
+    <bp:備考 xml:lang="ja">品川区北品川1-23-19
+北品川病院3F</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6211499</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6211499</geo:lat>
+    <rdfs:label xml:lang="ja">北品川病院 デイサービスセンター</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7413646</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川1-23-19北品川病院3F</bp:所在地>
+    <ic:座標 rdf:nodeID="ub16bL349C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/107">
+    <ic:座標 rdf:nodeID="ub16bL1421C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台3-4-9エンゼルハイツピュアネス</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7084710</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6061030</geo:lat>
+    <rdfs:label xml:lang="ja">ケアネット通所介護　旗の台</rdfs:label>
+    <bp:備考 xml:lang="ja">東京都品川区旗の台3-4-9エンゼルハイツピュアネス</bp:備考>
+    <bp:施設名称 xml:lang="ja">ケアネット通所介護　旗の台</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6061030</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7084710</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/148">
+    <bp:備考 xml:lang="ja">東邦大学医療センター大森病院 
+大田区大森西6-11-1 
+03-3762-4151</bp:備考>
+    <rdfs:label xml:lang="ja">東邦大学医療センター大森病院</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7241705</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都大田区大森西6-11-1</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5689097</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7241705</geo:long>
+    <bp:施設名称 xml:lang="ja">東邦大学医療センター大森病院</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL1866C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5689097</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1008C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7220371</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6346151</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/151">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5989331</bp:緯度>
+    <rdfs:label xml:lang="ja">品川区立八潮南特別養護老人ホーム</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7523760</geo:long>
+    <ic:座標 rdf:nodeID="ub16bL1901C9"/>
+    <bp:備考 xml:lang="ja">八潮5-9-2
+電話:5755-9360</bp:備考>
+    <bp:施設名称 xml:lang="ja">品川区立八潮南特別養護老人ホーム</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7523760</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-9-2</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5989331</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/14">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7175207</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区戸越1-15-23</bp:所在地>
+    <bp:施設名称 xml:lang="ja">戸越台在宅サービスセンター</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL204C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7175207</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6155870</geo:lat>
+    <rdfs:label xml:lang="ja">戸越台在宅サービスセンター</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6155870</bp:緯度>
+    <bp:備考 xml:lang="ja">身体の障害や認知症高齢者など、家庭での介護や支援を必要とする方に、通所による、食事・入浴サービス・日常動作訓練などのサービスを提供する施設です。
+
+戸越1-15-23
+電話:5750-1052
+担当地区:二葉1～3丁目、豊町1～5丁目、戸越1～4丁目</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/144">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5988792</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-5-7</bp:所在地>
+    <bp:施設名称 xml:lang="ja">グループホームミモザ品川八潮</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL1820C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5988792</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7496898</bp:経度>
+    <bp:備考 xml:lang="ja">東京都品川区グループホームミモザ品川八潮5-5-7
+電話　3790-7780</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7496898</geo:long>
+    <rdfs:label xml:lang="ja">グループホームミモザ品川八潮</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/165">
+    <ic:座標 rdf:nodeID="ub16bL2069C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6144707</geo:lat>
+    <bp:備考 xml:lang="ja">東京都品川区東品川3-17-5</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7496354</geo:long>
+    <bp:施設名称 xml:lang="ja">稲波脊椎・関節病院</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7496354</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川3-17-5</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6144707</bp:緯度>
+    <rdfs:label xml:lang="ja">稲波脊椎・関節病院</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1064C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6083505</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7196219</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/37">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7338598</bp:経度>
+    <ic:座標 rdf:nodeID="ub16bL504C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井5-19-1</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区南大井5-19-1 
+電話:5753-3900
+併設:老人保健施設(ケアセンター南大井)・在宅介護支援センター・在宅サービスセンター・訪問看護ステーション</bp:備考>
+    <bp:施設名称 xml:lang="ja">高齢者の安心の住まい「さくらハイツ南大井」(さくら会)</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5946960</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5946960</bp:緯度>
+    <rdfs:label xml:lang="ja">高齢者の安心の住まい「さくらハイツ南大井」(さくら会)</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7338598</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/101">
+    <bp:施設名称 xml:lang="ja">障害者生活支援センター</bp:施設名称>
+    <bp:備考 xml:lang="ja">旗の台5-2-2(心身障害者福祉会館内)
+相談員や福祉司による相談受付や講習会、講演会、また障害をもつ仲間同士のカウンセリング(ピアカウンセリング)など地域で自立生活をおくるための支援に努めています。</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7005296</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6049721</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台5-2-2</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6049721</geo:lat>
+    <rdfs:label xml:lang="ja">障害者生活支援センター</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL1357C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7005296</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/115">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7256990</bp:経度>
+    <bp:備考 xml:lang="ja">東京都品川区東五反田5-9-22</bp:備考>
+    <rdfs:label xml:lang="ja">ＮＴＴ東日本関東病院</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6311780</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区東五反田5-9-22</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6311780</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7256990</geo:long>
+    <bp:施設名称 xml:lang="ja">ＮＴＴ東日本関東病院</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL1501C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/24">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7332098</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区大井1-49-12大井町ビル3F</bp:所在地>
+    <bp:施設名称 xml:lang="ja">(株)仁済デイサービスセンター大井</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区大井1-49-12
+大井町ビル3F</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL327C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6060035</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6060035</geo:lat>
+    <rdfs:label xml:lang="ja">(株)仁済デイサービスセンター大井</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7332098</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1148C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7388487</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6213381</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL110C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7169396</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6276895</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/92">
+    <bp:施設名称 xml:lang="ja">福栄会</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL1219C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6170592</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川3-1-8</bp:所在地>
+    <bp:備考 xml:lang="ja">交通機関:京浜急行「新馬場」北口徒歩10分 
+運営法人:(社福)福栄会 
+開設:平成2年5月 
+建物概要:地上8階建て</bp:備考>
+    <rdfs:label xml:lang="ja">福栄会</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6170592</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7468072</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7468072</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL711C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5992974</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7166463</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/32">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6170187</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川3-1-8</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6170187</geo:lat>
+    <bp:施設名称 xml:lang="ja">軽費老人ホーム「東海ホーム」(福栄会)</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL437C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7466710</geo:long>
+    <bp:備考 xml:lang="ja">軽費老人ホーム 
+社会福祉法人福栄会
+東品川3-1-8 
+電話:5479-2981  
+併設:在宅介護支援センター・在宅サービスセンター・特別養護老人ホーム・ 晴楓ホーム・しいのき学園</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7466710</bp:経度>
+    <rdfs:label xml:lang="ja">軽費老人ホーム「東海ホーム」(福栄会)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL721C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7202756</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5962214</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/73">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6101825</bp:緯度>
+    <bp:施設名称 xml:lang="ja">南品川シルバーセンター</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6101825</geo:lat>
+    <rdfs:label xml:lang="ja">南品川シルバーセンター</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区南品川5-10-3</bp:所在地>
+    <bp:備考 xml:lang="ja">利用できる方:区内在住の満60歳以上の方 
+利用時間:午前9時～午後5時 
+休館日:日曜日、祝日(敬老の日は開館、翌日休館)、年末年始 
+南品川5-10-3
+電話:3471-7000</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7399215</geo:long>
+    <ic:座標 rdf:nodeID="ub16bL994C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7399215</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1820C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7496898</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5988792</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/149">
+    <bp:備考 xml:lang="ja">昭和大学病院附属東病院 
+品川区西中延2-14-19 
+03-3784-8383</bp:備考>
+    <rdfs:label xml:lang="ja">昭和大学病院附属東病院</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7054706</bp:経度>
+    <ic:座標 rdf:nodeID="ub16bL1878C9"/>
+    <bp:施設名称 xml:lang="ja">昭和大学病院附属東病院</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7054706</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区西中延2-14-19</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6095216</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6095216</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1673C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6068740</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7152628</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/135">
+    <bp:施設名称 xml:lang="ja">荏原ほっと・サロン</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6161144</bp:緯度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6161144</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7053187</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7053187</geo:long>
+    <rdfs:label xml:lang="ja">荏原ほっと・サロン</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL1721C9"/>
+    <bp:備考 xml:lang="ja">東京都品川区荏原4-12-20
+電話　3787-7443</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区荏原4-12-20</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/126">
+    <rdfs:label xml:lang="ja">シルバー人材センターゆたか分室</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL1613C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区豊町3-2-15</bp:所在地>
+    <bp:施設名称 xml:lang="ja">シルバー人材センターゆたか分室</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6083828</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6083828</bp:緯度>
+    <bp:備考 xml:lang="ja">東京都品川区豊町3-2-15</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7197554</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7197554</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/56">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6009602</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7151972</bp:経度>
+    <bp:施設名称 xml:lang="ja">知的障害者入所施設「かがやき園」</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7151972</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区西大井6-2-14</bp:所在地>
+    <rdfs:label xml:lang="ja">知的障害者入所施設「かがやき園」</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL752C9"/>
+    <bp:備考 xml:lang="ja">品川区西大井6-2-14 
+電話:3772-8171
+FAX:3772-8177
+交通:
+都営地下鉄中延駅徒歩8分
+都営地下鉄馬込駅徒歩8分
+JR線西大井駅徒歩10分</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6009602</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1926C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7404278</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6051522</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1168C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7035712</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6083941</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1501C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7256990</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6311780</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL828C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7313875</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6076284</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL599C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6165542</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7399689</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/57">
+    <rdfs:label xml:lang="ja">品川景徳学園</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL762C9"/>
+    <bp:備考 xml:lang="ja">品川区旗の台5-25-19</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台5-25-19</bp:所在地>
+    <bp:施設名称 xml:lang="ja">品川景徳学園</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7009996</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6028324</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7009996</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6028324</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/21">
+    <bp:施設名称 xml:lang="ja">東京マイコープデイサービスセンター八潮陽だまり</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-2-2</bp:所在地>
+    <bp:備考 xml:lang="ja">身体の障害や認知症高齢者など、家庭での介護や支援を必要とする方に、通所による、食事・入浴サービス・日常動作訓練などのサービスを提供する施設です。
+八潮5-2-2 
+電話:3799-3077 
+担当地区:東品川・大井・八潮在宅サービスセンターエリア</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7534925</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7534925</geo:long>
+    <rdfs:label xml:lang="ja">東京マイコープデイサービスセンター八潮陽だまり</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL295C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6044500</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6044500</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL2059C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7345402</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5932409</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/65">
+    <rdfs:label xml:lang="ja">品川保健センター</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7407084</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6165072</geo:lat>
+    <ic:座標 rdf:nodeID="ub16bL881C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川3-11-22</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6165072</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7407084</bp:経度>
+    <bp:施設名称 xml:lang="ja">品川保健センター</bp:施設名称>
+    <bp:備考 xml:lang="ja">品川区北品川3-11-22 
+
+併設
+品川健康センター</bp:備考>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL623C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6049899</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7004337</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/16">
+    <bp:所在地 xml:lang="ja">東京都品川区西大井2-4-4</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6000386</bp:緯度>
+    <rdfs:label xml:lang="ja">西大井在宅サービスセンター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6000386</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7224549</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7224549</geo:long>
+    <bp:施設名称 xml:lang="ja">西大井在宅サービスセンター</bp:施設名称>
+    <bp:備考 xml:lang="ja">身体の障害や認知症高齢者など、家庭での介護や支援を必要とする方に、通所による、食事・入浴サービス・日常動作訓練などのサービスを提供する施設です。
+大井4-14-8
+電話:5742-2721
+担当地区:大井1～5丁目、西大井1丁目、広町</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL229C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/120">
+    <ic:座標 rdf:nodeID="ub16bL1551C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6026400</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7055800</bp:経度>
+    <rdfs:label xml:lang="ja">湯～亀（ゆ～き）</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台4-5-18</bp:所在地>
+    <bp:備考 xml:lang="ja">東京都品川区旗の台4-5-18</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6026400</bp:緯度>
+    <bp:施設名称 xml:lang="ja">湯～亀（ゆ～き）</bp:施設名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7055800</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/22">
+    <rdfs:label xml:lang="ja">峰原坂ケアセンター</rdfs:label>
+    <bp:施設名称 xml:lang="ja">峰原坂ケアセンター</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区大崎5-5-3</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区大崎5-5-3</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7243154</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6233689</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7243154</geo:long>
+    <ic:座標 rdf:nodeID="ub16bL305C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6233689</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1451C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6089890</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.6968409</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/11">
+    <bp:施設名称 xml:lang="ja">荏原在宅サービスセンター</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7111564</bp:経度>
+    <rdfs:label xml:lang="ja">荏原在宅サービスセンター</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL164C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171482</bp:緯度>
+    <bp:備考 xml:lang="ja">身体の障害や認知症高齢者など、家庭での介護や支援を必要とする方に、通所による、食事・入浴サービス・日常動作訓練などのサービスを提供する施設です。
+荏原2-9-6 
+電話:5750-3708
+担当地区:小山台、小山1～7丁目、荏原1～7丁目、旗の台1・2・6丁目</bp:備考>
+    <bp:所在地 xml:lang="ja">東京都品川区荏原2-9-6</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7111564</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171482</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1411C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7222357</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5989778</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1890C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5937463</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.6929704</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/46">
+    <rdfs:label xml:lang="ja">心身障害者福祉会館</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7004337</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6049899</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7004337</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区旗の台5-2-2</bp:所在地>
+    <bp:施設名称 xml:lang="ja">心身障害者福祉会館</bp:施設名称>
+    <bp:備考 xml:lang="ja">障害のある方たちの活動の拠点として、簡単な作業、生活訓練、相談、部屋の貸し出しなどを行っています。
+所在地:旗の台5-2-2 
+電話:3785-3322～3 
+FAX :3785-3353 
+交通:東急大井町線・池上線「旗の台」駅南口下車徒歩3分</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6049899</geo:lat>
+    <ic:座標 rdf:nodeID="ub16bL623C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL216C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7114492</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6017389</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/121">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6170304</geo:lat>
+    <bp:施設名称 xml:lang="ja">医師会立品川区訪問看護ステーション</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川3-7-25</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6170304</bp:緯度>
+    <rdfs:label xml:lang="ja">医師会立品川区訪問看護ステーション</rdfs:label>
+    <bp:備考 xml:lang="ja">東京都品川区北品川3-7-25</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL1561C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7405236</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7405236</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/158">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7228777</geo:long>
+    <rdfs:label xml:lang="ja">杜松在宅介護支援センター</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6058644</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区豊町4-24-15</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6058644</geo:lat>
+    <bp:備考 xml:lang="ja">品川区豊町4-24-15</bp:備考>
+    <bp:施設名称 xml:lang="ja">杜松在宅介護支援センター</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL1981C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7228777</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL649C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6031079</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7518643</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/30">
+    <bp:所在地 xml:lang="ja">東京都品川区八潮5-1-1</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6050737</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7524117</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7524117</bp:経度>
+    <rdfs:label xml:lang="ja">特別養護老人ホーム「かえで荘」(品川総合福祉センター)</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL408C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6050737</geo:lat>
+    <bp:備考 xml:lang="ja">特別養護老人ホーム
+社会福祉法人品川総合福祉センター 
+
+八潮5-1-1 
+電話:3790-4729 
+併設:福祉工場「しながわ」・さつき園・かもめ園</bp:備考>
+    <bp:施設名称 xml:lang="ja">特別養護老人ホーム「かえで荘」(品川総合福祉センター)</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/113">
+    <bp:備考 xml:lang="ja">東京都品川区中延5-9-22</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6024180</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区中延5-9-22</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7072380</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7072380</geo:long>
+    <bp:施設名称 xml:lang="ja">グループホームロイヤル中延</bp:施設名称>
+    <rdfs:label xml:lang="ja">グループホームロイヤル中延</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL1481C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6024180</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/152">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6116366</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7417504</geo:long>
+    <rdfs:label xml:lang="ja">デイサービスセンター ドゥライフ品川</rdfs:label>
+    <bp:所在地 xml:lang="ja">東京都品川区南品川5-3-10</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7417504</bp:経度>
+    <ic:座標 rdf:nodeID="ub16bL1913C9"/>
+    <bp:施設名称 xml:lang="ja">デイサービスセンター ドゥライフ品川</bp:施設名称>
+    <bp:備考 xml:lang="ja">南品川5-3-10ミヤデラビル1階
+電話:3450-8136
+担当地区:北品川、東品川、南品川、西品川、上大崎、大崎、大井、東大井、南大井、西大井、東五反田、西五反田</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6116366</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/36">
+    <rdfs:label xml:lang="ja">老人保健施設「ケアセンター南大井」(さくら会)</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5946424</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7340076</bp:経度>
+    <ic:座標 rdf:nodeID="ub16bL492C9"/>
+    <bp:備考 xml:lang="ja">老人保健施設
+社会福祉法人さくら会
+南大井5-19-1 
+電話:5753-3901
+併設:在宅介護支援センター・在宅サービスセンター・訪問看護ステーション・さくらハイツ南大井</bp:備考>
+    <bp:施設名称 xml:lang="ja">老人保健施設「ケアセンター南大井」(さくら会)</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5946424</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7340076</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井5-19-1</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL255C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.6965607</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6090406</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL868C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6040338</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7304744</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1521C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7295097</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6023967</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/116">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7326870</geo:long>
+    <bp:施設名称 xml:lang="ja">いすゞ病院</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5895920</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井6-21-10</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7326870</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5895920</geo:lat>
+    <rdfs:label xml:lang="ja">いすゞ病院</rdfs:label>
+    <bp:備考 xml:lang="ja">東京都品川区南大井6-21-10</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL1511C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/81">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6166713</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7090216</geo:long>
+    <rdfs:label xml:lang="ja">品川区シルバー人材センター荏原支部</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL1099C9"/>
+    <bp:備考 xml:lang="ja">品川区荏原2-16-18</bp:備考>
+    <bp:施設名称 xml:lang="ja">品川区シルバー人材センター荏原支部</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区荏原2-16-18</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6166713</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7090216</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1541C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6001850</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7298030</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/146">
+    <bp:所在地 xml:lang="ja">東京都品川区小山台1-4-1</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6243556</geo:lat>
+    <rdfs:label xml:lang="ja">小山台在宅介護支援センター</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区小山台1-4-1りんし21区民集会所3階
+電話:5794-8511
+担当地区:小山台、小山1～3</bp:備考>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7046383</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7046383</bp:経度>
+    <ic:座標 rdf:nodeID="ub16bL1841C9"/>
+    <bp:施設名称 xml:lang="ja">小山台在宅介護支援センター</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6243556</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL675C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7469227</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6171709</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/117">
+    <bp:備考 xml:lang="ja">東京都品川区大井3-15-7</bp:備考>
+    <bp:施設名称 xml:lang="ja">大井第二在宅介護支援センター</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL1521C9"/>
+    <rdfs:label xml:lang="ja">大井第二在宅介護支援センター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6023967</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6023967</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区大井3-15-7</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7295097</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7295097</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/95">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6169561</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区荏原2-9-6</bp:所在地>
+    <bp:備考 xml:lang="ja">所在地:品川区荏原2-9-6 
+交通機関:
+東急目黒線「武蔵小山」徒歩10分 
+東急池上線「戸越銀座」徒歩7分 
+運営法人:(社福)三徳会 
+開設 : 平成9年5月 
+建物概要 : 地上7階地下1階</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7114291</bp:経度>
+    <bp:施設名称 xml:lang="ja">荏原複合施設</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL1263C9"/>
+    <rdfs:label xml:lang="ja">荏原複合施設</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7114291</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6169561</geo:lat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/102">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7193451</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田2-24-2</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7193451</bp:経度>
+    <bp:施設名称 xml:lang="ja">精神障害者地域生活支援センター「たいむ」</bp:施設名称>
+    <rdfs:label xml:lang="ja">精神障害者地域生活支援センター「たいむ」</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6259908</geo:lat>
+    <bp:備考 xml:lang="ja">西五反田2-24-2
+地域で生活する精神障害者とご家族の方々が利用できる施設です。</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6259908</bp:緯度>
+    <ic:座標 rdf:nodeID="ub16bL1368C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/108">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7335170</geo:long>
+    <rdfs:label xml:lang="ja">㈱ケアサービスデイサービスセンター大森</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5922360</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井6-3-8ガーデニア大森</bp:所在地>
+    <bp:備考 xml:lang="ja">東京都品川区南大井6-3-8ガーデニア大森</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL1431C9"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5922360</geo:lat>
+    <bp:施設名称 xml:lang="ja">㈱ケアサービスデイサービスセンター大森</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7335170</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/103">
+    <bp:施設名称 xml:lang="ja">かもめ第3工房</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6259557</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田2-24-2</bp:所在地>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7194176</bp:経度>
+    <ic:座標 rdf:nodeID="ub16bL1377C9"/>
+    <rdfs:label xml:lang="ja">かもめ第3工房</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7194176</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6259557</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/13">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171260</geo:lat>
+    <bp:備考 xml:lang="ja">身体の障害や認知症高齢者など、家庭での介護や支援を必要とする方に、通所による、食事・入浴サービス・日常動作訓練などのサービスを提供する施設です。
+東品川3-1-8 
+電話:5479-2946 
+担当地区:北品川、東品川、南品川</bp:備考>
+    <bp:施設名称 xml:lang="ja">東品川在宅サービスセンター</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL190C9"/>
+    <rdfs:label xml:lang="ja">東品川在宅サービスセンター</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7466490</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7466490</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川3-1-8</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6171260</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/98">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6156604</geo:lat>
+    <rdfs:label xml:lang="ja">戸越台複合施設</rdfs:label>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7176217</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区戸越1-15-23</bp:所在地>
+    <bp:施設名称 xml:lang="ja">戸越台複合施設</bp:施設名称>
+    <bp:備考 xml:lang="ja">所在地 :品川区戸越1-15-23 
+交通機関 :
+東急池上線「戸越銀座」徒歩3分 
+都営浅草線「戸越」徒歩2分 
+運営法人 :(社福)三徳会 
+開設 : 平成8年5月 
+ 
+建物概要 
+ 地上10階地下1階</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL1314C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7176217</geo:long>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6156604</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1754C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6167360</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7398625</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1776C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7379433</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6076037</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1531C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7428260</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6227220</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL242C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7341327</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5945680</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL177C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6119401</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7118493</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1947C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6057242</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7439208</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/69">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6166355</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7401221</geo:long>
+    <bp:備考 xml:lang="ja">在宅で介護しているご家族の相談を専門家が受け、必要なサービスへつなげ、支援・手助けするところです。 
+
+北品川3-11-16 
+電話:5479-8593 
+担当地区:北品川、東品川1・2・5丁目</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7401221</bp:経度>
+    <rdfs:label xml:lang="ja">台場在宅介護支援センター</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL939C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6166355</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区東品川1-8-30</bp:所在地>
+    <bp:施設名称 xml:lang="ja">台場在宅介護支援センター</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1421C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6061030</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7084710</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL794C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7315617</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6075784</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1050C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6026002</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7046836</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/145">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7073394</bp:経度>
+    <rdfs:label xml:lang="ja">ロイヤル中延</rdfs:label>
+    <bp:施設名称 xml:lang="ja">ロイヤル中延</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6023823</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7073394</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区中延5-9-22</bp:所在地>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6023823</bp:緯度>
+    <ic:座標 rdf:nodeID="ub16bL1829C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1296C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7115895</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6017877</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL571C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6018977</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7364958</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1913C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7417504</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6116366</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL2046C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6017305</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7329571</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/17">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5945680</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区南大井5-19-1</bp:所在地>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5945680</geo:lat>
+    <ic:座標 rdf:nodeID="ub16bL242C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7341327</bp:経度>
+    <bp:施設名称 xml:lang="ja">南大井在宅サービスセンター</bp:施設名称>
+    <bp:備考 xml:lang="ja">身体の障害や認知症高齢者など、家庭での介護や支援を必要とする方に、通所による、食事・入浴サービス・日常動作訓練などのサービスを提供する施設です。
+南大井5-19-1 
+電話:5753-3903
+担当地区:南大井、東大井、勝島</bp:備考>
+    <rdfs:label xml:lang="ja">南大井在宅サービスセンター</rdfs:label>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7341327</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/96">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6121296</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6121296</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区中延1-8-7</bp:所在地>
+    <bp:施設名称 xml:lang="ja">三徳会</bp:施設名称>
+    <rdfs:label xml:lang="ja">三徳会</rdfs:label>
+    <bp:備考 xml:lang="ja">所在地:品川区中延1-8-7 
+交通機関: 
+東急池上線「荏原中延」徒歩3分 
+東急大井町線「中延」徒歩10分 
+都営浅草線「戸越」徒歩10分 
+運営法人:(社福)三徳会 
+開設:昭和57年11月 
+建物概要:地上4階</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL1280C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7118303</geo:long>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7118303</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/53">
+    <bp:所在地 xml:lang="ja">東京都品川区西大井5-7-24</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7166463</geo:long>
+    <bp:施設名称 xml:lang="ja">西大井福祉園(福栄会)</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5992974</geo:lat>
+    <bp:備考 xml:lang="ja">品川区西大井5-7-24</bp:備考>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.5992974</bp:緯度>
+    <rdfs:label xml:lang="ja">西大井福祉園(福栄会)</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL711C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7166463</bp:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1206C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6212321</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7322703</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1721C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7053187</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6161144</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1022C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6264581</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7169380</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1481C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6024180</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7072380</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/110">
+    <bp:施設名称 xml:lang="ja">小山倶楽部（小規模多機能型居宅介護）</bp:施設名称>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6089890</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6968409</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6089890</bp:緯度>
+    <bp:備考 xml:lang="ja">東京都品川区小山7-14-4</bp:備考>
+    <rdfs:label xml:lang="ja">小山倶楽部（小規模多機能型居宅介護）</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL1451C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.6968409</geo:long>
+    <bp:所在地 xml:lang="ja">東京都品川区小山7-14-4</bp:所在地>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1138C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6175512</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7407110</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL338C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7142620</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6066371</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1357C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7005296</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6049721</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL124C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.6964293</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6090195</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL36C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6120429</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7117917</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/109">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7332127</bp:経度>
+    <bp:所在地 xml:lang="ja">東京都品川区大井1-49-12大井町ビル</bp:所在地>
+    <bp:備考 xml:lang="ja">東京都品川区大井1-49-12大井町ビル</bp:備考>
+    <rdfs:label xml:lang="ja">㈱仁済デイサービスセンター大井</rdfs:label>
+    <ic:座標 rdf:nodeID="ub16bL1441C9"/>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6059140</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7332127</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6059140</geo:lat>
+    <bp:施設名称 xml:lang="ja">㈱仁済デイサービスセンター大井</bp:施設名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/64">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6040338</bp:緯度>
+    <rdfs:label xml:lang="ja">大井保健センター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6040338</geo:lat>
+    <ic:座標 rdf:nodeID="ub16bL868C9"/>
+    <bp:所在地 xml:lang="ja">東京都品川区大井2-27-20</bp:所在地>
+    <bp:備考 xml:lang="ja">品川区大井2-27-20 
+
+併設
+大井第二地域センター
+大井備蓄倉庫</bp:備考>
+    <bp:施設名称 xml:lang="ja">大井保健センター</bp:施設名称>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7304744</bp:経度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7304744</geo:long>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL295C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6044500</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7534925</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/27">
+    <bp:所在地 xml:lang="ja">東京都品川区西五反田3-6-6</bp:所在地>
+    <bp:施設名称 xml:lang="ja">西五反田訪問看護ステーション</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL365C9"/>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7168956</geo:long>
+    <bp:備考 xml:lang="ja">品川区西五反田3-6-6 
+
+併設
+在宅介護支援センター
+在宅サービスセンター
+ケアホーム西五反田
+さくらハイツ西五反田</bp:備考>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7168956</bp:経度>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6278326</geo:lat>
+    <rdfs:label xml:lang="ja">西五反田訪問看護ステーション</rdfs:label>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6278326</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL2017C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7135979</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6037836</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL190C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6171260</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7466490</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL423C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7465204</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6169739</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL492C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5946424</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7340076</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1901C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7523760</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5989331</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/62">
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6094310</bp:緯度>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7274926</bp:経度>
+    <rdfs:label xml:lang="ja">品川介護福祉専門学校</rdfs:label>
+    <bp:備考 xml:lang="ja">品川区西品川1-28-3 
+中小企業センター併設</bp:備考>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6094310</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7274926</geo:long>
+    <bp:施設名称 xml:lang="ja">品川介護福祉専門学校</bp:施設名称>
+    <bp:所在地 xml:lang="ja">東京都品川区西品川1-28-3</bp:所在地>
+    <ic:座標 rdf:nodeID="ub16bL839C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1089C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7450655</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6057191</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1583C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7307670</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5989990</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL980C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6206472</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7417534</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL96C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7225372</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5999180</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1809C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6073181</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7449001</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1765C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.6964964</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6089928</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL966C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7295035</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6024012</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/91">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6212321</geo:lat>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7322703</bp:経度>
+    <bp:施設名称 xml:lang="ja">東京ハートセンター</bp:施設名称>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6212321</bp:緯度>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川5-4-12</bp:所在地>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7322703</geo:long>
+    <rdfs:label xml:lang="ja">東京ハートセンター</rdfs:label>
+    <bp:備考 xml:lang="ja">24時間体制で心臓血管外科医・循環器内科医が院内待機、いつでも心臓病の救急対応が可能
+所在地:北品川5-4-12
+電話:5789-8100</bp:備考>
+    <ic:座標 rdf:nodeID="ub16bL1206C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL22C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6172020</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7113124</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL349C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7413646</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6211499</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL305C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7243154</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6233689</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1491C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6016580</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7348520</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL762C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7009996</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6028324</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL437C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7466710</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6170187</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1129C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6177109</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7407122</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1036C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6148389</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7013897</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL854C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6167452</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7401527</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1603C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6129330</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7027490</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL517C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7164947</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6278821</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL204C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6155870</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7175207</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL365C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6278326</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7168956</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL138C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6001993</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7513321</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/147">
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7436811</geo:long>
+    <bp:備考 xml:lang="ja">身体の障害や認知症高齢者など、家庭での介護や支援を必要とする方に、通所による、食事・入浴サービス・日常動作訓練などのサービスを提供する施設です。
+大崎2-11-9
+電話:3779-2981
+担当地区:西品川、東五反田1～3丁目、大崎</bp:備考>
+    <rdfs:label xml:lang="ja">大崎在宅サービスセンター</rdfs:label>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6241862</geo:lat>
+    <bp:所在地 xml:lang="ja">東京都品川区北品川1-16-5</bp:所在地>
+    <bp:施設名称 xml:lang="ja">大崎在宅サービスセンター</bp:施設名称>
+    <ic:座標 rdf:nodeID="ub16bL1854C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7436811</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6241862</bp:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL701C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5992571</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7165478</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL2069C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6144707</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7496354</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1633C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7275661</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6095310</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1099C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6166713</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7090216</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL953C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6345705</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7221741</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL82C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7114517</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6018999</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1593C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6029464</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7299802</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL393C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6120520</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7119203</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL465C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6017258</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7117421</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL609C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6176202</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7405926</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1697C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7236261</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5979451</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1377C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7194176</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6259557</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL585C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7091517</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6206006</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1194C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6143775</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7098573</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1461C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.6967740</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6090000</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL736C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7129395</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6170536</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL2031C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6018259</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7328693</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL2085C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7258258</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6168382</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1571C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7124430</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6118630</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1971C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7459521</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6112739</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL151C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5915446</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7345761</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL839C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7274926</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6094310</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1396C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5990008</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7214195</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1329C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6051628</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7524143</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL327C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7332098</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6060035</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL752C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7151972</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6009602</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL55C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6171394</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7473675</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL811C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7314695</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6077107</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL451C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7173755</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6155780</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL2005C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7296591</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6169613</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1938C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7403369</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6052262</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL691C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6171800</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7470706</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1991C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6060341</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7226796</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1981C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6058644</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7228777</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL316C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7334098</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5922686</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL2097C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7100366</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6143571</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1743C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7213330</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6184754</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1787C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7294925</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6220128</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1710C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5914857</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7347985</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL269C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6002349</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7511815</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1957C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7230521</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6009773</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/#">
+    <cc:attributionName>東京都品川区</cc:attributionName>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.ja"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1109C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6083182</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7194982</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1685C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7218793</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5992882</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1659C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7234743</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6280224</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL939C9">
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7401221</ic:経度>
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6166355</ic:緯度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL925C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6170994</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7115946</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1280C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6121296</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7118303</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL1511C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.5895920</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7326870</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub16bL910C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6166189</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7406399</ic:経度>
+  </rdf:Description>
+</rdf:RDF>
+

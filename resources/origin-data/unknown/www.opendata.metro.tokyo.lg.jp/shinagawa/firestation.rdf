@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:bp="http://www.city.shinagawa.tokyo.jp//property/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+   xmlns:ic="http://imi.go.jp/ns/core/rdf#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/1">
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7105109</bp:経度>
+    <ic:座標 rdf:nodeID="ub7bL16C9"/>
+    <bp:名称 xml:lang="ja">荏原消防署</bp:名称>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7105109</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6144967</geo:lat>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6144967</bp:緯度>
+    <rdfs:label xml:lang="ja">荏原消防署</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub7bL16C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6144967</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7105109</ic:経度>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/2">
+    <ic:座標 rdf:nodeID="ub7bL24C9"/>
+    <bp:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7397523</bp:経度>
+    <bp:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6170878</bp:緯度>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">139.7397523</geo:long>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchemadouble">35.6170878</geo:lat>
+    <rdfs:label xml:lang="ja">品川消防署</rdfs:label>
+    <bp:名称 xml:lang="ja">品川消防署</bp:名称>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.city.shinagawa.tokyo.jp/#">
+    <cc:attributionName>東京都品川区</cc:attributionName>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.ja"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub7bL24C9">
+    <ic:緯度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">35.6170878</ic:緯度>
+    <ic:経度 rdf:datatype="http://www.w3.org/2001/XMLSchemafloat">139.7397523</ic:経度>
+  </rdf:Description>
+</rdf:RDF>
+
