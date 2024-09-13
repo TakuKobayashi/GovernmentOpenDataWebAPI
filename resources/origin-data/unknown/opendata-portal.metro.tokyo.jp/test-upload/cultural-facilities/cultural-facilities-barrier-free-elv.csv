@@ -333,7 +333,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
             </div>
                     </dl>
 
-        <input type="hidden" name="uid" value="9bce8888b896a24c6df6d38815ac4b2b29cf5c26" >
+        <input type="hidden" name="uid" value="22d92fd90901856bf995e5c862cc8bf7ce5eb050" >
         <div id="global-error-message" class="modal-survey__error"></div>
 
         <div class="modal-button send">
@@ -451,7 +451,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
             </section>
             <section id="ranking" class="ranking_section">
                 <h2 class="ranking_section__title">アクセスランキング</h2>
-                <p class="period">集計期間：2024/09/03〜2024/09/10</p>
+                <p class="period">集計期間：2024/09/05〜2024/09/12</p>
                 <ol class="ranking_section__list">
                                         <li>
                        <a href="https://catalog.data.metro.tokyo.lg.jp/dataset/t000014d0000000029" target="_blank">
@@ -502,9 +502,15 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                        </a>
                     </li>
                                         <li>
-                       <a href="https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000363" target="_blank">
-                         <span class="subject strong">TOKYO WALKING MAP</span>
-                         <p class="division">【東京都保健医療局】  東京の魅力を再発見しながら楽しんでウォーキングをしていただくための特設サイト「TOKYO WALKING MAP」に掲載しているウォーキングコースを、kml形式（図形や座標等の地理空間情報をxmlで記述した形式）で公開しています。  各リソースデータはzip形式で圧縮されていますので、ダウンロード後展開してご利用ください。   なお、重ね合わせる地図等によっては、実際とは異なるルートを指し示す場合があります。何卒ご了承ください。  （原著作権者の承諾が得られたコースのみを公開しています）</p>
+                       <a href="https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000019" target="_blank">
+                         <span class="subject strong">土地利用現況調査GISデータ</span>
+                         <p class="division">【東京都都市整備局】　東京都における土地利用現況調査の結果をGISデータで作成したものです。</p>
+                       </a>
+                    </li>
+                                        <li>
+                       <a href="https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d0000000007" target="_blank">
+                         <span class="subject strong">東京消防庁 消火栓及び防火水槽等</span>
+                         <p class="division">東京消防庁マップ及び東京消防庁公式アプリの消防マップに掲載している東京消防庁管内の消火栓及び防火水槽等の位置情報です。(令和6年4月1日現在)　※表示された位置と実際の位置に多少の差異がある場合があります。</p>
                        </a>
                     </li>
                                         <li>
@@ -516,27 +522,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 
 https://logoform.jp/form/Trw5/645674
 </p>
-                       </a>
-                    </li>
-                                        <li>
-                       <a href="https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000019" target="_blank">
-                         <span class="subject strong">土地利用現況調査GISデータ</span>
-                         <p class="division">【東京都都市整備局】　東京都における土地利用現況調査の結果をGISデータで作成したものです。</p>
-                       </a>
-                    </li>
-                                        <li>
-                       <a href="https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000397" target="_blank">
-                         <span class="subject strong">東京都 新型コロナウイルス感染症新規陽性者数</span>
-                         <p class="division">【新型コロナの５類移行に伴い、2023年5月8日（月曜日）分をもって更新を終了しました】
-
-（接触歴等不明者数は2020年3月27日から、増加比は2020年4月9日から掲載）
-</p>
-                       </a>
-                    </li>
-                                        <li>
-                       <a href="https://catalog.data.metro.tokyo.lg.jp/dataset/t000017d0000000007" target="_blank">
-                         <span class="subject strong">東京消防庁 消火栓及び防火水槽等</span>
-                         <p class="division">東京消防庁マップ及び東京消防庁公式アプリの消防マップに掲載している東京消防庁管内の消火栓及び防火水槽等の位置情報です。(令和6年4月1日現在)　※表示された位置と実際の位置に多少の差異がある場合があります。</p>
                        </a>
                     </li>
                                         <li>
@@ -552,6 +537,30 @@ https://logoform.jp/form/Trw5/645674
                        <a href="https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d0000000028" target="_blank">
                          <span class="subject strong">都市計画決定情報GISデータ</span>
                          <p class="division">【東京都都市整備局】　東京都の都市計画情報をGISデータで作成したものです。データはシェープ形式となっています。 ｢東京都縮尺1/2,500地形図｣をベースとして作成しています。  座標系は測地成果2011に基づく平面直角座標系第9系です。 </p>
+                       </a>
+                    </li>
+                                        <li>
+                       <a href="https://catalog.data.metro.tokyo.lg.jp/dataset/t000055d0000000397" target="_blank">
+                         <span class="subject strong">東京都 新型コロナウイルス感染症新規陽性者数</span>
+                         <p class="division">【新型コロナの５類移行に伴い、2023年5月8日（月曜日）分をもって更新を終了しました】
+
+（接触歴等不明者数は2020年3月27日から、増加比は2020年4月9日から掲載）
+</p>
+                       </a>
+                    </li>
+                                        <li>
+                       <a href="https://catalog.data.metro.tokyo.lg.jp/dataset/t000029d0000000020" target="_blank">
+                         <span class="subject strong">東京都デジタルツイン　多摩地域点群データ</span>
+                         <p class="division">【東京都デジタルサービス局】陸部を航空レーザ測量、島しょ部の沿岸部を航空レーザ測深及びナローマルチビームにより、取得し統合された、16点/㎡以上の高密度点群データを利用しています。データの参照座標系は、日本測地系2011／平面直角座標Ⅸ系、標高＝東京湾平均海面です。計測機体：固定翼
+
+
+
+〈注意〉
+
+点群データは、１ファイルの最大サイズが１GB以上あるものもあります（平均約200MB）。ダウンロードに際しては、帯域によっては時間がかかることと、保存先の空き容量にご注意ください。
+
+データは、CC BY 4.0により利用可能です。
+</p>
                        </a>
                     </li>
                                         <li>

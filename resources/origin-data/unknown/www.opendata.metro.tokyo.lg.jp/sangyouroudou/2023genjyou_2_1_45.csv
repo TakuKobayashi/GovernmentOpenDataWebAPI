@@ -28,216 +28,3 @@
 創業時期別,,1991～2000年,116,61.2,18.1,11.2,4.3,2.6,2.6
 創業時期別,,2001～2010年,143,66.4,16.8,8.4,3.5,3.5,1.4
 創業時期別,,2011年以降,72,70.8,11.1,6.9,4.2,4.2,2.8
-創業時期別,,                        <rdf:li>/All/PDF/PageProperties/PageContent/RenderingContent/Color</rdf:li>
-                        <rdf:li>/All/PDF/PageProperties/PageContent/RenderingContent/Font</rdf:li>
-                        <rdf:li>/All/PDF/PageProperties/PageContent/RenderingContent/Geometry</rdf:li>
-                     </rdf:Bag>
-                  </CP2:zones>
-                  <CP2:tool_desc>
-                     <rdf:Alt>
-                        <rdf:li xml:lang="x-default">Enfocus CertifiedPDF2XMP Toolkit v1</rdf:li>
-                        <rdf:li xml:lang="en-US">Enfocus CertifiedPDF2XMP Toolkit v1</rdf:li>
-                     </rdf:Alt>
-                  </CP2:tool_desc>
-                  <CP2:appl_desc>
-                     <rdf:Alt>
-                        <rdf:li xml:lang="x-default">Enfocus StatusCheck 21</rdf:li>
-                     </rdf:Alt>
-                  </CP2:appl_desc>
-               </rdf:li>
-            </rdf:Seq>
-         </CP2:sessions>
-         <CP2:certificates>
-            <rdf:Seq>
-               <rdf:li rdf:parseType="Resource">
-                  <CP2:class_id>Preflight</CP2:class_id>
-                  <CP2:type_id>com.enfocus.preflight</CP2:type_id>
-                  <CP2:type_version>1.0</CP2:type_version>
-                  <CP2:impl_id>com.enfocus.pitstop-pro</CP2:impl_id>
-                  <CP2:impl_version>21</CP2:impl_version>
-                  <CP2:session_id_ref>1</CP2:session_id_ref>
-                  <CP2:state>Success</CP2:state>
-                  <CP2:fingerprint>52b772040e3a10093ddfd0a214e03a02</CP2:fingerprint>
-                  <CP2:time>2024-04-09T04:32:16</CP2:time>
-                  <CP2:type_desc>
-                     <rdf:Alt>
-                        <rdf:li xml:lang="x-default">Enfocus 繝励Μ繝輔Λ繧､繝郁ｨｼ譏取嶌 v1.0</rdf:li>
-                     </rdf:Alt>
-                  </CP2:type_desc>
-                  <CP2:impl_desc>
-                     <rdf:Alt>
-                        <rdf:li xml:lang="x-default">Enfocus PitStop Pro 21</rdf:li>
-                     </rdf:Alt>
-                  </CP2:impl_desc>
-                  <CP2:statement_desc>
-                     <rdf:Alt>
-                        <rdf:li xml:lang="x-default">繝励Μ繝輔Λ繧､繝� 繝励Ο繝輔ぃ繧､繝ｫ PDF/X-4 縺ｫ貅匁侠縺励∪縺�</rdf:li>
-                     </rdf:Alt>
-                  </CP2:statement_desc>
-                  <CP2:state_desc>
-                     <rdf:Alt>
-                        <rdf:li xml:lang="x-default">繧ｨ繝ｩ繝ｼ縺ｪ縺励�∵ｳｨ諢上↑縺�, 9 菫ｮ豁｣</rdf:li>
-                     </rdf:Alt>
-                  </CP2:state_desc>
-                  <CP2:zones>
-                     <rdf:Bag>
-                        <rdf:li>/All/PDF/DocumentEncoding</rdf:li>
-                        <rdf:li>/All/PDF/Metadata</rdf:li>
-                        <rdf:li>/All/PDF/OptionalContentConfiguration</rdf:li>
-                        <rdf:li>/All/PDF/PageProperties</rdf:li>
-                     </rdf:Bag>
-                  </CP2:zones>
-                  <CP2:data>
-                     <rdf:Bag>
-                        <rdf:li rdf:parseType="Resource">
-                           <CP2:tag>Legacy</CP2:tag>
-                           <CP2:text>true</CP2:text>
-                        </rdf:li>
-                     </rdf:Bag>
-                  </CP2:data>
-                  <CP2:data_desc>
-                     <rdf:Alt>
-                        <rdf:li xml:lang="x-default">PDF/X-4</rdf:li>
-                     </rdf:Alt>
-                  </CP2:data_desc>
-               </rdf:li>
-            </rdf:Seq>
-         </CP2:certificates>
-         <pdfaExtension:schemas>
-            <rdf:Bag>
-               <rdf:li rdf:parseType="Resource">
-                  <pdfaSchema:namespaceURI>http://ns.adobe.com/pdf/1.3/</pdfaSchema:namespaceURI>
-                  <pdfaSchema:prefix>pdf</pdfaSchema:prefix>
-                  <pdfaSchema:schema>Adobe PDF Schema</pdfaSchema:schema>
-                  <pdfaSchema:property>
-                     <rdf:Seq>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>A name object indicating whether the document has been modified to include trapping information</pdfaProperty:description>
-                           <pdfaProperty:name>Trapped</pdfaProperty:name>
-                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                        </rdf:li>
-                     </rdf:Seq>
-                  </pdfaSchema:property>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <pdfaSchema:namespaceURI>http://ns.adobe.com/xap/1.0/mm/</pdfaSchema:namespaceURI>
-                  <pdfaSchema:prefix>xmpMM</pdfaSchema:prefix>
-                  <pdfaSchema:schema>XMP Media Management Schema</pdfaSchema:schema>
-                  <pdfaSchema:property>
-                     <rdf:Seq>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>UUID based identifier for specific incarnation of a document</pdfaProperty:description>
-                           <pdfaProperty:name>InstanceID</pdfaProperty:name>
-                           <pdfaProperty:valueType>URI</pdfaProperty:valueType>
-                        </rdf:li>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>The common identifier for all versions and renditions of a document.</pdfaProperty:description>
-                           <pdfaProperty:name>OriginalDocumentID</pdfaProperty:name>
-                           <pdfaProperty:valueType>URI</pdfaProperty:valueType>
-                        </rdf:li>
-                     </rdf:Seq>
-                  </pdfaSchema:property>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <pdfaSchema:namespaceURI>http://www.gwg.org/ns/gwg_preflight_v1/</pdfaSchema:namespaceURI>
-                  <pdfaSchema:prefix>gwg_preflight</pdfaSchema:prefix>
-                  <pdfaSchema:schema>Preflight Ticket</pdfaSchema:schema>
-                  <pdfaSchema:property>
-                     <rdf:Seq>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>Name of the preflight profile used</pdfaProperty:description>
-                           <pdfaProperty:name>profile_name</pdfaProperty:name>
-                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                        </rdf:li>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>Software by which the profile was created</pdfaProperty:description>
-                           <pdfaProperty:name>profile_creator</pdfaProperty:name>
-                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                        </rdf:li>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>The version number of the software used for creating the profile</pdfaProperty:description>
-                           <pdfaProperty:name>profile_creator_version</pdfaProperty:name>
-                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                        </rdf:li>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>The version number of the format in which the profile was stored</pdfaProperty:description>
-                           <pdfaProperty:name>profile_format_version</pdfaProperty:name>
-                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                        </rdf:li>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>Result of executing the profile, with four possible values "Errors", "Warnings", "Info" or "Success" (severity in decreasing order; highest severity found in the preflight check must be reported here)</pdfaProperty:description>
-                           <pdfaProperty:name>preflight_results</pdfaProperty:name>
-                           <pdfaProperty:valueType>Closed Choice of Text</pdfaProperty:valueType>
-                        </rdf:li>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>An optional entry with descriptive text about the errors if any (actual implementation is at the discretion of the software creating the audit trail)</pdfaProperty:description>
-                           <pdfaProperty:name>preflight_results_description</pdfaProperty:name>
-                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                        </rdf:li>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>Date and time when the profile was executed</pdfaProperty:description>
-                           <pdfaProperty:name>preflight_executed_date</pdfaProperty:name>
-                           <pdfaProperty:valueType>Date</pdfaProperty:valueType>
-                        </rdf:li>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>A fingerprint for the profile that was used to carry out the preflight check</pdfaProperty:description>
-                           <pdfaProperty:name>profile_fingerprint</pdfaProperty:name>
-                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                        </rdf:li>
-                     </rdf:Seq>
-                  </pdfaSchema:property>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <pdfaSchema:namespaceURI>http://www.npes.org/pdfx/ns/id/</pdfaSchema:namespaceURI>
-                  <pdfaSchema:prefix>pdfxid</pdfaSchema:prefix>
-                  <pdfaSchema:schema>PDF/X ID Schema</pdfaSchema:schema>
-                  <pdfaSchema:property>
-                     <rdf:Seq>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>ID of PDF/X standard</pdfaProperty:description>
-                           <pdfaProperty:name>GTS_PDFXVersion</pdfaProperty:name>
-                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                        </rdf:li>
-                     </rdf:Seq>
-                  </pdfaSchema:property>
-               </rdf:li>
-            </rdf:Bag>
-         </pdfaExtension:schemas>
-      </rdf:Description>
-   </rdf:RDF>
-</x:xmpmeta>
-<?xpacket end="r"?>
-endstream
-
-endobj
-3379 0 obj
-<< /Length 17362 /Filter /FlateDecode>>
-stream
-H仮Wﾛ雁ｸ}?��濃[wAQ`�ＺhBzf!	､鞜ﾏﾚ貞緜ｫﾊﾝﾁﾉCQ>ｶ､ｽｴ/kｯ�矼O_�ﾝ=?ｱ鈍ﾋK�ﾜ>|�O��8w�";ｼ��ｼi'わｼ柩g｣ﾊｻ.H+､爵誉n?v�ｸ･ﾗﾛ��Qv朎��,;鷽ｽ�ﾖ痞�OZ)｡ｴ唐ﾈ�ｷg)Iｾｼ��6ｽﾞ~ｸﾘ塲!kR_bM
- �?wOﾋﾓﾗ� 訟5浴8Xﾔ^ﾀｿ�/)簷ﾚ�鈩ﾁ侠`ﾌxa嵌vﾇP9F争蝌�ｬ�ﾇbLh&>�ｩﾅ|蒔�ｾ巍KFHSﾐ�'給嚼ﾏu侔.'I�F�NｸD�01ﾀnｳ擺J鶺舖6.ﾙ`ﾙ,ｹ7vpﾐ�d=�<戴B;珮�+ﾚ幡;ﾊoB縉ｻﾁﾎ齢ｻ冝�Ⅹﾞ
-逡~ﾜ%S�/Fwfｧ�.zﾎ暿ｦ獪ﾅ潘ﾌ4ｱ)�H��詐ｼﾜｩ�6:ゥw6�5r1ｺ3;mtﾎg�7壞ﾅﾘﾞｷﾒF怦ﾖ�閨S.ﾁvfｧ丑ﾋ(剥�*ｺｼ N昻ﾑ〕ｭ3鋤之ｻ閒LﾘkiｷKｹｫﾁ无i｣;F}`ﾇ`/f甦;mt1ｰ培ﾜ､ﾝl/wbｦ河燹5vfｼﾜｩ�6:ｰc0髙oq\O昻ﾑ9ｶ"wｩI�｣;ｳﾓFｪﾐHv9ﾐﾕ�=ｳｳ
-<ﾓxdﾌA>ﾜ礒@O抦@ﾟP�ﾕ衍ｬ�
-v{]ｿﾜOﾆ
-
-ﾝ	ﾔ$ｫ憺檠?G昏ﾋﾂ�ﾈ {m｢)?ﾆﾁe雛UE^�9･")��HL鴻Zｾ''ﾊ�4ｪ�?ｽ��FA`Gﾂ肇�(ﾄﾓ3�｡濾9ﾄ$F砥o~謁� Y9絲f9� #�ﾜM%ﾜ�I Gｸ<fX!咯ﾌｬUﾝ{�+竹�'�/J鋪駑uｧ劦�8ﾖﾕcｮﾗ孕ｼﾋ]��9ｻﾔ繋yaﾇﾜ､ﾋﾅGE.､ｻ醢0-ﾓz"�踪ｯﾆｱﾑｪ�0ﾘ�HBﾎ~ｽ�ﾆV憖�1Kcsｮ�綫�<智ﾆ]�ﾖmuﾂ^ｱﾉｭ�ｬｳｲｸﾜ栓ﾑd�WVkgFｯ']R��n儘Lv�ﾗqFﾙ_ﾐ�=ﾅAｹgTｰiD咢�%�dﾞp�0Zr弛矮ｬ�Z�h�Kﾁ�訴kBz�;ﾑ�rl籾M}ﾘ9�T*qﾑ汀�ｦKﾐ靖�衂ｬ､�ｿｨﾕn~ﾄｭGﾔﾆ~ﾘ楮ﾘ
-=��ﾝﾝ夥愑�9z1ﾇ彼ﾌT;ﾈC�;ｾ�,ｱsｷA|�7ly�)L9ｾ侖･ｰ,栂ﾅうﾏ&�D巣ﾍ[ﾋ･VJﾙｯ�ﾓ|�/Q~ﾛ|�j3�ｿe￢Q%弘ｵｶ�
-D�*杖�ﾀT/>$ｰ､�5fﾆ･｡:dq佗6ｵ�ﾚ.!L�	ﾒｦsp$｡,[ﾑ鯨ｭmd躙B�ﾇﾚ(秕d�ｵﾇ蕚慟ｷ:�ｬJｽL;ﾄ菊葵\MQ��5ﾖ/�D0iﾉｩﾀl選碚I�(ｧ�~�'+S�kp�hｵ�3�&ETn姫④*ﾏ=�怒A章�r+#Lｼ3]埔徃йﾎ\ﾄ金Zﾖd^｢霞ｩ佝ｩ�=贄+ｫ�<｣越<gWFﾐﾕ ｿ�劭ﾆbDQﾔr@髑9ﾅ( 胄ｹ悁fIﾓLtｺﾉ`怩�ｳ|b3&/筬ｱ遥��h顥sｷ<|��#>�餃･�e^ﾉｫ枳	<eT0�ぬﾔ+ｳ､ﾀUqpｦ-雑ﾗｕ2ﾌ刧huW	�"I�H趺49(NeｹeEﾘ$nﾐM|h�#ﾋ�(4椋ﾇ�ﾁ慄2ｯｫlYwﾝｵ朶1nﾉ2
-軛EV榊ﾒ笠sw諮^ﾄﾔ6W~ｳﾌ�%tｿﾇr%qgre�囎ﾏｹ�?f轡'ｯﾇ}#Mﾈ�#�!g
-2yﾈ$ｭ慫/hVｺt矮ｮi典z(幸oﾗ�cｪo悋�訷g:b�s Pｭ@��#y6l､ｽ∫ｿ/@#�(黍ｦ+絹鯖天K綮ﾋ･6ｬﾌ舁.ｲｬ)ﾋﾎu?+CJﾎ1ｷｮ戈vﾋｸn$~歌峽ﾎ$,A�~､ｰ-o�ｰ>p3-┐�4ﾉｱ､nﾇ4r億ｭ7ﾌ哿�lt斎[ヽﾊ会p但�0o=p�>嵂[ｫﾏﾏｾa?暲N｡豁�(悳�	σK]ｨR6价��)s｢0ﾔ&鈎��aQ益V�3yV<�iKⅩ欺閒L怏ﾂﾆ�ｮJbﾗ�;3ﾓ逕p朏~ｻｫﾒ騏猥ﾌｴﾁy+ｼﾝ�舗ｵ猥ﾌｴﾁ� dﾕ珵K�ﾜ劔*)孥�ﾘCﾎ贒ｲ悸f哢Dﾛﾎ6v][ｧfV'ｾﾁ~徇ﾅU��u8ﾏﾌｴ舉ｺ�1ﾕｵ凅jｦ#�=:ﾑp-ｸ33mpN
-ﾌXﾎTﾗ6ｵS3?ｼ!ｬﾛU�-3Aﾊﾚc璟bVｱｪﾔz��;>ｿカ0{ｵ�!�wU�ﾛ�Eeh･P@!ﾜ"ﾗ�(gﾟﾛ�	ﾓW�7ｩ�孀gｭdﾑ~P5!NrR�ﾄ驟�s�弼ｲ
-�ﾙ浦�5��-ｽ#ｴ披�ｳｬ^gZ[｡脳�ｬeｯi$/ｧ八h｢�&參梧kｵsｷﾛ*W	�燁ﾂｮ�z-ﾞ2�ﾐ}{r忍邀ﾞKﾐ�ｬ垉�CFL�2/1� � ]Wqﾘﾃﾅc\6奔?ﾒ
-q鏈ﾚｲｫ�2�∽ｪp策�S橲滑隨\��=Z"ﾘEｮeﾟｯ5+RYﾓ< &.ｶ�twL	Aﾈ&児ﾃX�9ｰﾜｹﾏｩ3&ｧ讀ﾊ�
-j帋Sawﾃ茗YVe�)7c刷|?ﾝ諸h險ﾖ楼ﾈﾐ�|�$ぬ瘧�~`F侈|id~L_�ｿ\鍋?諳ﾉz杞9ﾃc俾�ｳ
-\(]�8�.狹J､躪ｷ��37'淺<�ﾕｰ奓6]氾B廂院:ﾊ2}�;}<s��v�ｽvJ��Zﾚ�､ｼﾝ劑6:cﾐ鐸ｻｸ\.Fwfｧ歳�靜�ﾑ9vﾈPﾌﾅ靜�ﾑy4匹ｶ2乞ﾌN]pﾂｳﾜx1ｺ3;mtﾑcH9x綯tgv夊D�?d+I{1｣憇i｣｣�;Yｻﾛeﾝﾅ罫jｧ康ﾜiｿK嶢_乞ﾌN搦ｸS4ｻ]韲｣;ｳﾓFg"���ﾘｯvIV$�ｯ(ｳﾛh薮CjｵTYcｽ腿ｭｵｫ�:{��$I(ｪ5ﾌX3ﾆtUAﾄ9ﾁ�5巛ｧﾍN炅｣ｶﾂ咥dv#�6;C∂ｰ�ｻN屎E;ﾉG79吽ｧﾍﾎ1祗m�or0ﾄiｲエ｢D��0伸ﾎｻ!N�ﾃV韈'ｳ盒ﾙ｡｣ﾖ鸛�c2ｻN`蹠ﾙ1ю�	Sｷ�2題'﨓B}ｶvｵT｣ﾉ斃ｧ}ﾟJﾌ･uUTｳuf意f�>ﾛﾐﾚ舘ﾛlv#�6;\ﾏﾄ馘v#�6;儲VL\&ﾗｷ!ﾎ�%｣衄顥/y�｣Dﾋ��L)�8mvyﾎ桟ｳ�ｧﾃﾎy�$XM究8#獄ｨF

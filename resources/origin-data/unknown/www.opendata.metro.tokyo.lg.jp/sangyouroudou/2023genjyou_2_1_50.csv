@@ -29,157 +29,3 @@
 経常損益の変化別（3年前）,,増益,6,33.3,0.0,33.3,16.7,0.0,0.0,0.0,16.7
 経常損益の変化別（3年前）,,横ばい,16,18.8,0.0,37.5,6.3,0.0,18.8,0.0,18.8
 経常損益の変化別（3年前）,,減益,22,9.1,0.0,45.5,4.5,0.0,27.3,0.0,13.6
-,,前回調査,4</rdf:Bag>
-                  </CP2:data>
-                  <CP2:data_desc>
-                     <rdf:Alt>
-                        <rdf:li xml:lang="x-default">PDF/X-4</rdf:li>
-                     </rdf:Alt>
-                  </CP2:data_desc>
-               </rdf:li>
-            </rdf:Seq>
-         </CP2:certificates>
-         <pdfaExtension:schemas>
-            <rdf:Bag>
-               <rdf:li rdf:parseType="Resource">
-                  <pdfaSchema:namespaceURI>http://ns.adobe.com/pdf/1.3/</pdfaSchema:namespaceURI>
-                  <pdfaSchema:prefix>pdf</pdfaSchema:prefix>
-                  <pdfaSchema:schema>Adobe PDF Schema</pdfaSchema:schema>
-                  <pdfaSchema:property>
-                     <rdf:Seq>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>A name object indicating whether the document has been modified to include trapping information</pdfaProperty:description>
-                           <pdfaProperty:name>Trapped</pdfaProperty:name>
-                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                        </rdf:li>
-                     </rdf:Seq>
-                  </pdfaSchema:property>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <pdfaSchema:namespaceURI>http://ns.adobe.com/xap/1.0/mm/</pdfaSchema:namespaceURI>
-                  <pdfaSchema:prefix>xmpMM</pdfaSchema:prefix>
-                  <pdfaSchema:schema>XMP Media Management Schema</pdfaSchema:schema>
-                  <pdfaSchema:property>
-                     <rdf:Seq>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>UUID based identifier for specific incarnation of a document</pdfaProperty:description>
-                           <pdfaProperty:name>InstanceID</pdfaProperty:name>
-                           <pdfaProperty:valueType>URI</pdfaProperty:valueType>
-                        </rdf:li>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>The common identifier for all versions and renditions of a document.</pdfaProperty:description>
-                           <pdfaProperty:name>OriginalDocumentID</pdfaProperty:name>
-                           <pdfaProperty:valueType>URI</pdfaProperty:valueType>
-                        </rdf:li>
-                     </rdf:Seq>
-                  </pdfaSchema:property>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <pdfaSchema:namespaceURI>http://www.gwg.org/ns/gwg_preflight_v1/</pdfaSchema:namespaceURI>
-                  <pdfaSchema:prefix>gwg_preflight</pdfaSchema:prefix>
-                  <pdfaSchema:schema>Preflight Ticket</pdfaSchema:schema>
-                  <pdfaSchema:property>
-                     <rdf:Seq>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>Name of the preflight profile used</pdfaProperty:description>
-                           <pdfaProperty:name>profile_name</pdfaProperty:name>
-                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                        </rdf:li>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>Software by which the profile was created</pdfaProperty:description>
-                           <pdfaProperty:name>profile_creator</pdfaProperty:name>
-                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                        </rdf:li>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>The version number of the software used for creating the profile</pdfaProperty:description>
-                           <pdfaProperty:name>profile_creator_version</pdfaProperty:name>
-                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                        </rdf:li>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>The version number of the format in which the profile was stored</pdfaProperty:description>
-                           <pdfaProperty:name>profile_format_version</pdfaProperty:name>
-                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                        </rdf:li>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>Result of executing the profile, with four possible values "Errors", "Warnings", "Info" or "Success" (severity in decreasing order; highest severity found in the preflight check must be reported here)</pdfaProperty:description>
-                           <pdfaProperty:name>preflight_results</pdfaProperty:name>
-                           <pdfaProperty:valueType>Closed Choice of Text</pdfaProperty:valueType>
-                        </rdf:li>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>An optional entry with descriptive text about the errors if any (actual implementation is at the discretion of the software creating the audit trail)</pdfaProperty:description>
-                           <pdfaProperty:name>preflight_results_description</pdfaProperty:name>
-                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                        </rdf:li>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>Date and time when the profile was executed</pdfaProperty:description>
-                           <pdfaProperty:name>preflight_executed_date</pdfaProperty:name>
-                           <pdfaProperty:valueType>Date</pdfaProperty:valueType>
-                        </rdf:li>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>A fingerprint for the profile that was used to carry out the preflight check</pdfaProperty:description>
-                           <pdfaProperty:name>profile_fingerprint</pdfaProperty:name>
-                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                        </rdf:li>
-                     </rdf:Seq>
-                  </pdfaSchema:property>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <pdfaSchema:namespaceURI>http://www.npes.org/pdfx/ns/id/</pdfaSchema:namespaceURI>
-                  <pdfaSchema:prefix>pdfxid</pdfaSchema:prefix>
-                  <pdfaSchema:schema>PDF/X ID Schema</pdfaSchema:schema>
-                  <pdfaSchema:property>
-                     <rdf:Seq>
-                        <rdf:li rdf:parseType="Resource">
-                           <pdfaProperty:category>internal</pdfaProperty:category>
-                           <pdfaProperty:description>ID of PDF/X standard</pdfaProperty:description>
-                           <pdfaProperty:name>GTS_PDFXVersion</pdfaProperty:name>
-                           <pdfaProperty:valueType>Text</pdfaProperty:valueType>
-                        </rdf:li>
-                     </rdf:Seq>
-                  </pdfaSchema:property>
-               </rdf:li>
-            </rdf:Bag>
-         </pdfaExtension:schemas>
-      </rdf:Description>
-   </rdf:RDF>
-</x:xmpmeta>
-<?xpacket end="r"?>
-endstream
-
-endobj
-3020 0 obj
-<< /Length 8974 /Filter /FlateDecode>>
-stream
-H仮Wﾙ�%ｹ}/�?�濃｡]P4臻l0ﾌ�?4ﾆｳ稽pﾛﾐｿ�!蚌3ｳ*ｻM�.77)暫9q篥w?|�O��F7?vC�岌ﾟ����鮟aj7xﾘ<��怖ｭ贋淇214I{･mn>��ｧ譟Oﾝ���Q7��鮻7ﾔｼ�Z�q+Wﾖel勲ﾐ簡･踞O/Z��ｷｧ鵆岶ylrｰｦ�-ﾖｴ貉^}i� 梯\w�E��rｰﾓ*ｭ�JgKQ%c.*jlｷ瀕ｩ\ｶ)WﾉｫｬｱM"ﾆ4�ﾝﾈ靍:SﾍKTuﾓjfｳ-9･]A'WuI�恝�[2i､｜ﾅ	郵R.'x!ﾂmｾ1ﾞ(G宰ｼﾏﾆ%,{c翁ﾆﾀｶ:Aﾏ�+ﾙ�"ﾜacﾝ�ｺn\Q~]�喇�/ﾍ�nｾﾙ� =ｬ蛙�ﾜ�*ﾝuﾓﾍ隶�｣ﾋ袖~ｷ(s3ｸ3ｧﾘ�L｢�ｪ.黠ﾁ]ﾚ9G逅霖躱6ｸp7ｺ+;鉅４ﾁ�4u7c{ﾟﾊ9ｲT_E徨ｶ+;ｧ隰ﾎﾊ墲ｸｴs�d�ｮﾄ�57ｻ鑅ﾌ96ｰ#ｾ5ｻU&ﾜ鑅ﾎ9:ｰcｶ赳o3_ﾚ9G�KﾉﾇE6L�fpfNｱ9�w`ﾇ艷{ﾁ]ﾚ9GvL.�o狩･捏t��CZ2楨隶�｣�5t`ﾈ樶珠幅E犹s∫A緬菘ｪozig劦ｪ~卒*8��Fp?;ｯ(5ﾏ､P闘ﾊ?qｦG��Q#ﾂ+7:鰒ｺ�ﾍﾐ肄ｳY送ﾏ�1�餬旅Ncj�}崢ﾇ?ｿ��鴬<馳ｯ^|ﾁﾋｨ､�hy%S`Rﾘn�ﾒ(!ﾃ�排y�wT-ｸ治�(�ﾐ�+n�YU�-ZAnp JS9鷹ⅰm鶚�ﾀ%pｪ�ｩw=99mｱI?}4ｨ鮒ﾜYΦｶﾀ�`°ｭﾏ6)�$､韈}KS$c㌢>� ,ｰn蕘z��ｾ�J�ﾜ斥�,zFｬ逎ﾁ挙+枻ﾄﾁPHﾝbﾗ衝永\交ｩvx8･<X鎬q>Lﾇp昌�佳�u鷦�莽<g戚vｦP吠=眸ﾎｿeﾕ<ﾉｪh箚
-ｮﾙ舊B騙]2ﾕ相ﾙIR(_[&oG[ｲ旨ﾗｮ^ﾍD~Hk弡狗89}[olbGq�ｿｾUT� Itﾒ曜n�5煙�=ｵ|Nx #/ﾗﾗﾘ:�諏=mﾒｪﾙÅﾅ団F赤緤eﾍ�ｩm灯|}� 甄ｭ豢匍+Yxﾏ｢簽z｣ﾌBﾞ�&o=8o"yﾗowｬｶRﾋ70>�5拈nﾂn謄;%鑪/f｡玳@ﾞ8ｂ�嗇ｿtA�~�棒兒M焜[Jﾓ罎ﾓR[ｨ)熟�0xN,ﾝ{)ｺ貭*�-歔ｬｱﾀｻ�袱ﾋ�僅L+ｴnｲ�,^ﾍ･ｨG004S(湲L�.靦貉XМQｭ茯�Rｱﾌ���(�鮏(Yﾗｸ	RU�!q入eno;ｿｲｴ8ﾖg蔘"~RﾐCﾌﾔ勹uﾛﾒﾒRtｷｿE\-ﾃpBD=説h��Lpﾇh5ｧｳ巨ﾈ鶫�(ﾇｮC楙飯PｺRp4foc梭84]FT��u�zｿP魎ﾆ)療ﾊqcﾔﾓ菎�?wp�愠c4<ﾕﾓ0命KK卜ｭ�&4kqe���!|ﾎ�6#�ﾕ=J渉ﾀ)F	'皛蚌jｺ圜B公ｬS0ｼﾃ`ﾞ
-Kっ恣醸h�ｹA�劣ﾅ率� 忞�椅�"蔕ﾘ|_�xeV6p�BﾏﾍGfｩΕb<澂_ｯｲ^Hｷ味dXﾜnｴ‐､廷‥ｮｻ鰰p*�(ｯﾒ&q�=ﾅqｴﾆ皖;｢8ﾐ允殳的ﾈRｾ巍r^ｵjﾙgﾆｸ%ﾋｬBﾈ3ｲ9ﾑ�zv諮ｭ:n孵ﾜ|踐殷阮丞Jje
-襠%+_､�?f熊遏ｷk[�F夊ｵqBcｶc/凾L蠇､M允�&cｹﾗ<�X通qﾙm綮ｼ鍈ﾗEyｻOzｦ#豼 ｵ
-:ｲ��iﾃF6FL�hDet�9ﾟﾗｴｦ6ｮ･\諞%掘ﾁK痩*-o8ﾗ綸=ei]締~ﾋｸa�ｪ/'k�堵ﾝ鐺紲
-;｣��x�V�)&nｦ�PT哥=�4ｯ咩�.ｱ･�~nﾁﾎﾎﾑz+P�9�Nr�貘NｲG_ﾎﾅﾅﾖ跋誤�[Yｾ衄�ﾛｳSｨKﾓV@ﾎ]cﾂ lｭSﾊｳ｡\!侈!?國#f隼欧Xｿ}�挌ﾘo6#3�L{籠}XUY�>pWfﾎﾁｹｬ|ﾞｯ唔�>pWfﾎﾁ｣Bﾜｯ夐�>pWfﾎﾁEｯ｢錠p､p/ｸ+3鈞RRﾉ皛ﾍ�>pWfｾ櫑ﾙ�ｮ�=括鰍ｬｼ逾儡'｢mｨ澎Vﾝ[庸'ｾﾁ~懦��ﾟ�ﾊﾌｹｭCﾗ>Vｾｹ7/ﾍ怎ﾃ�ьFﾔﾟ鑅ﾌ9ｸ�fｬx8ﾒｽM橫ﾌ+ﾇvﾍ!oﾋLﾐ怪六曝7ｬ*ｭ昕罇謗ﾏﾏ�ﾜ^鍈z鏘�.ﾊｰｶ]ﾘП�+*Taｸｼwﾊwx�0}�0dｿi3ﾏｱ�ｴRﾒE涬ﾕ､<��ｧ枷ﾌｱ�(偏c(筏w<B�E*-鐚zGhﾃ�gyｻﾌ,ｴｶBI\uki�ｨﾇｮ妣uﾝｨｻnB2q汯ｶﾊU烝役ﾋ､GｽﾝG距%ｴ.aOｺ�<ﾖ{4 ｫfﾑﾈ�ｨ��ｱ鮗暗.r]ﾐsX跿�5�ﾋﾒ望ﾝ婿ﾏ)$ﾗﾗ驤臆遁ｮｨxﾎﾊ:ﾔﾏq&r��Q艘��"P3Aｰ"�0M=bﾟ宅ｩ猥戳Bｲ営ｦS?敗|ﾝﾗ3ｷ�:Cﾌﾔ决ｾ\Rm3|Z;�禄4ﾋ｢ｬ>I3ｶﾈﾏ1ｼ汪試�?lﾝ!Gﾂ|B斯ｻ^&TWｵ=3ﾂX覓ｧ蠣rm�b=&ﾏq訊搶<ｱr�0ﾓ&ｿｲ
-\ｨフ戟ｫxｳ�)ﾏゼｲMｧ苫c萇jX|07]任･Mｹ"錘v･���ﾀﾎ`ｽ�ｿﾕN�煜ﾖｪD煜恃7｣ｻｲs斜9t､�*.李ﾑ]ﾙ9G蹉%vｿ�tWvﾎﾑvﾈPﾌﾍ隶�｣吃*㌫eﾝ幅st)ｨpﾌVp耋隶�｣ﾋCﾊﾁ緝7｣ｻｲs莞@菁Cｶ程73ﾊ･捏t廃&\<ｮfFｹｴs斜$彿ｿﾊｺﾔﾞ乞ﾊﾎ9:獷eﾇ��鰹ﾕ迥z(p侚�ﾟ{ﾚﾅ�ﾂ��Э價･dｹzｲX`�)ﾛ鎚�wrｲ:�~0ｺ臓6:駱ｧ�]ﾕﾑ錻~ﾚ雍5w�｣｣3ｾﾃﾋ周ｴﾑYｴ洞�8ｺﾉτ刷ｴﾑ9壘鹿偬��夊`qR{ｶﾎy7FG殼l���錻~ﾚ靤Q�[�､q0ｺ臓�ﾎ�ｲ=b!'ｦn#ﾒlr ﾐ臓hg雉ｵｫ�ﾜｹ�ｴﾟ[ｩ	sｩｪﾔIｭ3C?mt雉ｫO1�8ﾝﾈO伃ｮ粮`t#?mt雉-ｧｺｷ�ﾛﾐﾏ0酉r#ﾁ~}&飾4ﾃ(ﾑrｻF�泣Gﾊ｡�6:�<ｧ�ｩ｣O撈膀恥�ｱh鑒､ﾑﾕﾈ�!粨0周罫E｢�K鞨\仡ｿ7�ﾝ`	鬟ﾑ�ﾑ｡@ﾚK鐐ｹ仡｣SbX耿ﾑ�S洞ｿ疇G~ﾚ�0 ﾝ8･F7Aｧ'&Cﾎ周ｴﾑ��Y1Aｧ'ﾝb�ﾕw荅歳ﾒd[lu｣�3ｵﾘztﾎ周ｴﾑ9>ﾉ[裳ｻ臓ao�ｶﾑ�+�0周4ﾃｨ�\qy,ｺ｡�6:4fv|!橦ﾁ錻~ﾚ雕帑.�ﾅe鑒ﾔ�)�;N譓'､｡�(k�ﾘ@a�LW釖骭`ﾔ鵆ﾟ昉�NG恕Gﾔ�� 戍D<�gﾞCqﾏ'�#y>�� dﾎY<R�49�oﾜﾌｷｺﾏｪgｽｿﾙﾖﾋoqW��6FdX<3<ｦ<}�ﾏ)}�)ﾘﾌﾘ}f~ﾉ�ﾌ1Iｪ�U厠K�ﾈ蒐aH�mﾅ>�ｫgR�>禹,P$ｶbB胯$4�ﾂ偈_�	陰ｺ�鄙ｾ�0鋸ﾃ J�Z炮､ﾖﾇ鰥{N�ｸ黎xb�ｺ�5擬!@ﾖ� 湧rﾒN4��Yﾃkq!:!ｮZjc�t*ﾄ	���&ｺ卷)�ﾅKa)=舌Svｴ\9ｦﾚI�jh�ﾆKﾑIL"�y準���泱-�.ﾋx%eｱN�hｷ1Zﾙjｹ4ｿ9mﾐ�ﾋ>鶺啗*ｩ閒~ｺｼV童2Gﾒ�
-~ｱ｡\_�ｼﾖc'寇亢\eﾎﾓ^eﾚ葉A矣c踰桎|｣｡竜�繕'ﾖ|稔�$vﾀｶ棺�iﾁ��.ﾎBｺｯゎｫ ｧe$xﾁQ湾bｰﾘP[;�4ﾈﾙ饑�W�,ﾎﾇ3�>�z�<)A鮎Lf瀦珖ｽX^ｬw蕊2�*ﾟｭ�6K|躡覩ｯcｮ彌
-ｻJc)cZｱ_溘ｩs!,o;矮1'嵓蔓nﾀdzC疚Bﾕ1炬~E>п滅�(�%波l迹若3�>^o珈ﾟ|ｺ��鑢ﾐ�ｹｱﾐE}��jｯ:i7i�9ｩ恚ｴHﾗ^vp�&滸��臾XﾁZｪyｹn(ﾗWbvdｨｵZｪBﾉU��給ｮ悔舶{(nｫｬ褜e�登犬ｲ汜�｡ｮQgｳ�>h�
-d[茫�/Jｿ��'mｮ�婀�ﾜｽｼ�/$拮T|ｽｶ`uﾅ_3cﾎﾗUﾟkxOo�;ﾐ:ﾜD篶�>ﾋｰｩ抹偕ﾚｨ.蔟ﾔEﾟBZ廝ｼ4B$}[ｨ7Oｪ:ｽW8&s採P餉_ﾔｨ]ｪ/�WC+ﾇmｱ叝�ｩ0ｿﾅ*ﾓｦdﾚ�6c��y翼ﾂﾜH@�#�$劯ﾀ>�ﾒFﾗｬ[爍K盡ﾓ O9*ﾛｭｸﾒhﾟQ	{ﾛR禅ｽ�OYV�ｧ
-[Kb�,�0ｵi�4捉,ｬ渧ｺ,劦q\S�#wlﾗﾁｺﾜv獸M鎮p�5蜀U'{A窟�
-:�捌Ta[5!蜴ﾍ���介�ｲ祟1苓ﾃ*1ｷo櫛}讀%ｸV飲Uﾙ~J餬Jｭﾞ\@鷏狽cﾂL(ｳ､聊��?ﾜP@譖a�q6ﾗﾍ屍ﾜ裴�,ﾉ<�
-､/ﾛ�vFCｭｼo 7p2�<�.ﾘ-ﾕc輙ﾝL�]暄Q��亰({ｳﾂ�*C1該Nｵ悅ﾐ睦NﾅS>ﾝMｰk･UPN&ﾞ):ｽVS"7Sﾆ�#ﾔｾVH}ﾗ�	蹣9	|2點!_�ﾑ｢�SΩTﾁｰ5�ﾜ�､ﾂﾞR轉ｼ6t\�‐U[挂0ｯ.)ﾟ椣充､ｺﾐ雹ﾄo0}ｿ慝膀ﾑ冬ﾎXP摘N8桜ﾍﾇB･Kﾁﾒﾟl_ﾕ�/wゑﾙ･徃ｳ�8B"冝��ﾍ弁.ﾓｺｾH辨�ﾗｯ2弯ﾕ斤Bｫ^d�z層�
-ﾂぃ[zｲ�/z玩C
-勃t�ﾞ�ｾs�･f茵pU�l圭橳�5婪ﾍZｳﾏ2�ﾍ7	抒Dﾍ�9ﾇ伹q都ﾕk挟=ﾜX�-@`ｿLU�ｹnSﾎ9人慯>､bﾉ閾4ﾛ{�勣u(ﾆ"K/贒ｵM�瀋弄m銭vﾈS�>ﾒ｣dWﾚｰ�ﾁ#ﾆx$讎<7ﾃ�8ﾔ鉛#+ﾃ｢",#�-ｹｿ7e .｡4-霸 模Jﾗ$�6��2ｪP�ｭ�)U麪ｭ@�糲｢ﾂ鮠ﾀv*ﾏｯﾕ�瘻｡呼eP|�ﾜPｮg猤� Aﾉ!ﾐ{ｼ~Mﾁ�忱Jt鐇Pｾｨ威ｪ��5Z*ﾙ,<,O+�hﾕ?Z�ｧU=@z沓�m{�髱z�,｡-z�ｽUﾓﾐlｺｮ囃蜩1/ﾔｴ<ﾟPﾓ|ｾｫｦ]�	橙b溿M�M5�xSM9�)ｻｪ)д�嚼>�-�*拆ﾙ�'*ﾙ�弛ﾘｵｯｵｳPL契7NOzﾜb><鼇rｺ\ﾗ��ｷC蛆X･zX]ｲ
-Uﾑ･蓆k2ｮｯ)鏆3ﾑC壅ｻIﾜ止ﾃ]j=�,ﾗﾚｸｽﾞgﾊ北ｾ淀e蠻Kﾏ~c綮bﾒ\Uｹ址A�	�ﾆﾍh�%M､ﾊw!ｦｷ鶏M勃O#7�ﾄ�6>#qﾉﾔﾟ�+ﾎ&�e%ｦA7T9ﾊ
-ｴ&�速l�A齲詁�$3��qﾔﾈ沓Axﾕ�5Mｺi ~:ﾊﾛﾜJNNe砥考ﾜｪﾈзAﾁ�､Y\_Tｻ_�g?/pｬQ|霊盧#｢ﾜﾋ樢=淲\:･�8�+;
-#sｯ*{qｾUﾙﾓe�OO|｣侵RU ��窮ｮ悔棺涛RrSﾛo_寵sQﾛｵ6dnｼ[ﾟP��
-疫ﾌ}ｵｾｳﾛｬﾙ|3�豹ﾎﾈvEｧ3Mﾁ変碧Oﾁｳ讒ﾄX�靏)8ｷ用>�fvｺ-!ZY�.(ﾃｷｰｳMｬJZ\Yｦﾐﾘ
-v_.IkｿKﾇ�o�6=+I�_zcｺ�;ﾗzNｭｶ}ﾜ�/ｹ崕��蜥o"�'7P<董ｧ&ｧ]�4�BﾈKtｩ9ﾍﾆ�/惧ｨ�M4Yﾅ鎗｡kｴ�5ｫｼ腴塚>ｶP筬��覺j+�kM[ｴｿｬ余�5魁�yｽ`�甲ﾗ+Tｫu1�ｪ�Y$5剽ｲX徙ﾉb:�*ﾎ響h/与7r#
-�+z�ｸ4Yﾅ'0濳W
-ｲH ﾃd卩2ｳｰ8Y蔡邁_jｲﾙ.D�;勅x麑>ｪ}�ﾕｩﾆ投ｻﾇﾓq9ﾚ�朶ﾞoGｿ紫ﾇM8�uｦﾗ	sﾜｨ飄�7ﾍm琦
