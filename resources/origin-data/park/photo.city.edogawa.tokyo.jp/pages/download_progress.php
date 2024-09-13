@@ -491,7 +491,7 @@ headerLinksDropdown();
   <h2>簡単検索</h2>
 	<p><label for="ssearchbox">説明文、キーワード、リソースIDを使って検索してください。<br><br>複数指定する場合は半角スペースで区切ってください。</label></p>
 	<form id="simple_search_form" method="post" action="https://photo.city.edogawa.tokyo.jp/pages/search.php" onSubmit="return CentralSpacePost(this,true);">
-        <input type="hidden" name="CSRFToken" value="OWI0MDRiNDg2MjZkZTViNDVhNzA2M2RlYzBiMTYxNDViMWFmYzg4ZTE2ZjBhMGM4MjJiMDEzN2MyZGU3ZjRjYkBAsBkPmcM0CD/6Jko22bGmhpGLYwSU0gUJ9gS3AsoQg/ijlTw6mm2GNhQoN+e2dKIqStHbXiP+1+HstHVgjRksvZrwfk3rPIz5Uy68BS4RTow5Ru9UX/X91fvqhy7F+IoeH9Mwoiz5QErekCnpkuXUWSZ0L4YIA5wrwH71qFlmQonnAqINLu73JcUM1nzSIzdyp2sS8IiDVzTmoRDcBWtuOnfCoGcuokVCu07NeZ45dUBA0tiav35t1oze8KwivowsLkBURf41OE6N27OKvbro6uw=">
+        <input type="hidden" name="CSRFToken" value="ZTMzZWUyOWU4OWJmMWVmZDM2YjU3ZjBmZTJmYWIzYWVjNGUyNzRiMmQ2N2RhNTY3M2Q2NmUxODdlMGVjMjM2OUBAwbbM/4XX51vj+hhz4siyNPYYvN/rumflR4SB4Wp9PcwUQkansxkotk87tUJZ6+hGCfeiV04tJGkucRyuBXTFUxSnOqbo5pEjSMZZfw2lIH0od1JpZ/60mZ7CAc2oNic5KG8+5iVkLVLfxkvIvHD2A7MNwGenqArSGCROx1GQzu8DaeJ4Ux/fWRL0IM1lUjznQAUquQAPdJMznZEVZEeo2kqc3bRSFtysZ4cMqZp7MEBA4mWYKj3RPcMaicZLN35PaD0LiJVs1H2BnPBzKXiqjRU=">
             <input id="ssearchbox"  name="search" type="text" class="SearchWidth" value="">
         <script>
                     jQuery(document).ready(function () {
@@ -546,7 +546,7 @@ headerLinksDropdown();
 linkreload = true;
 jQuery(document).ready(function()
     {
-    ActivateHeaderLink("https:\/\/photo.city.edogawa.tokyo.jp%2Fpages%2Fdownload_progress.php%3Fref%3D2232");
+    ActivateHeaderLink("https:\/\/photo.city.edogawa.tokyo.jp%2Fpages%2Fdownload_progress.php%3Fref%3D1266");
 
     jQuery(document).mouseup(function(e)
         {
@@ -564,7 +564,7 @@ window.onresize=function()
     }
 </script>
 	<script type="text/javascript">
-        window.setTimeout("document.location='https://photo.city.edogawa.tokyo.jp/pages/download.php?ref=2232&size=&ext=jpg&k=&alternative=-1&usage=-1&usagecomment='",1000);
+        window.setTimeout("document.location='https://photo.city.edogawa.tokyo.jp/pages/download.php?ref=1266&size=&ext=jpg&k=&alternative=-1&usage=-1&usagecomment='",1000);
 	</script>
 	
 <div class="BasicsBox">
@@ -573,8 +573,8 @@ window.onresize=function()
 		<!--<h2>&nbsp;</h2>-->
     <h1>ダウンロード中</h1>
     <p>ダウンロードはまもなく開始します。 続けて作業する場合は以下のリンクを使用してください。</p>
-		    <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/view.php?ref=2232&k=&search=&offset=&order_by=&sort=&archive="><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;リソース表示へ戻る</a></p>
-    <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/search.php?ref=2232&k=&search=&offset=&order_by=&sort=&archive="><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;戻る</a></p>
+		    <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/view.php?ref=1266&k=&search=&offset=&order_by=&sort=&archive="><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;リソース表示へ戻る</a></p>
+    <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/search.php?ref=1266&k=&search=&offset=&order_by=&sort=&archive="><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;戻る</a></p>
 
         <p><a onClick="return CentralSpaceLoad(this,true);" href="/pages/home.php?"><i aria-hidden="true" class="fa fa-caret-left"></i>&nbsp;ホームへ戻る</a></p>
 	    
