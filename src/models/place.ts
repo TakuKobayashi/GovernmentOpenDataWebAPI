@@ -33,6 +33,8 @@ export class PlaceModel implements PlaceInterface {
   lon?: number;
   geohash?: string;
 
+  // 何らかの事情でデータが壊れていてフォローができない場合のフラグ
+  private importInvalidLogs: { message: string; [key: string]: any }[] = [];
   private stashExtraInfo: { [key: string]: any } = {};
 
   updateStashExtraInfo(extraInfo: { [key: string]: any }) {
@@ -47,7 +49,19 @@ export class PlaceModel implements PlaceInterface {
     return this.stashExtraInfo;
   }
 
+  getImportInvalidLogs(): { [key: string]: any }[] {
+    return this.importInvalidLogs;
+  }
+
   private adjustAddress() {
+    // 住所が明らかに長すぎる場合は文字化けしている可能性がある
+    if (this.address && this.address.length > 255) {
+      this.importInvalidLogs.push({
+        message: 'address Too Long',
+        address: this.address,
+      });
+      this.address = undefined;
+    }
     if (this.address && this.province && !this.address.startsWith(this.province)) {
       if (this.city) {
         if (this.address.startsWith(this.city)) {
@@ -63,10 +77,23 @@ export class PlaceModel implements PlaceInterface {
     if (this.lat && this.lon) {
       // 緯度、経度が間違えて入れ替えている場合がある
       if (this.lat < -90 || 90 < this.lat) {
-        const prevLat = this.lat;
-        const prevLon = this.lon;
-        this.lat = prevLon;
-        this.lon = prevLat;
+        // 入れ替えではなく小数点の打ち間違いの疑いがある場合は緯度経度はないものとする
+        if (this.lat <= 180 && -90 <= this.lon && this.lon <= 90) {
+          const prevLat = this.lat;
+          const prevLon = this.lon;
+          this.lat = prevLon;
+          this.lon = prevLat;
+        } else {
+          if (!this.address) {
+            this.importInvalidLogs.push({
+              message: 'mission range lat lon',
+              lat: this.lat,
+              lon: this.lon,
+            });
+          }
+          this.lat = undefined;
+          this.lon = undefined;
+        }
       }
     }
   }
@@ -83,16 +110,36 @@ export class PlaceModel implements PlaceInterface {
     }
   }
 
+  private validateName() {
+    if (this.name.length > 255) {
+      // 何らかの理由で住所がおかしくて緯度・経度が取得できなかった場合、データが壊れたとみなす
+      this.importInvalidLogs.push({
+        message: 'error name strings',
+        name: this.name,
+      });
+      this.name = '';
+    }
+  }
+
   adjustCustomData() {
     this.adjustAddress();
     this.adjustLatLon();
     this.setCalcedHashCode();
+    this.validateName();
   }
 
   async setLocationInfo() {
     if (this.lat && this.lon && !this.address) {
-      const reverceGeoCodeResultData = await requestReverceGeoCoder(this.lat, this.lon);
-      const placeFeatureData = reverceGeoCodeResultData.Feature || [];
+      const reverceGeoCodeResultData = await requestReverceGeoCoder(this.lat, this.lon).catch((error) => {
+        this.importInvalidLogs.push({
+          message: 'missing request reverceGeocoder',
+          lat: this.lat,
+          lon: this.lon,
+          address: this.address,
+          error: error,
+        });
+      });
+      const placeFeatureData = reverceGeoCodeResultData?.Feature || [];
       if (placeFeatureData[0]) {
         const addressData = placeFeatureData[0].Property || {};
         const addressElements = addressData.AddressElement || [];
@@ -107,8 +154,16 @@ export class PlaceModel implements PlaceInterface {
         this.address = addressData.Address?.normalize('NFKC');
       }
     } else if (!this.lat && !this.lon && this.address) {
-      const geoCodeResultData = await requestGeoCoder(this.address);
-      const gecodeData = geoCodeResultData.Feature || [];
+      const geoCodeResultData = await requestGeoCoder(this.address).catch((error) => {
+        this.importInvalidLogs.push({
+          message: 'missing request geocoder',
+          lat: this.lat,
+          lon: this.lon,
+          address: this.address,
+          error: error,
+        });
+      });
+      const gecodeData = geoCodeResultData?.Feature || [];
       const feature = gecodeData[0];
       if (feature) {
         const [lon, lat] = feature.Geometry.Coordinates.split(',');
@@ -126,6 +181,14 @@ export class PlaceModel implements PlaceInterface {
   private setGeohash() {
     if (this.lat && this.lon) {
       this.geohash = encodeBase32(this.lat, this.lon);
+    } else {
+      // 何らかの理由で住所がおかしくて緯度・経度が取得できなかった場合、データが壊れたとみなす
+      this.importInvalidLogs.push({
+        message: 'error address strings',
+        lat: this.lat,
+        lon: this.lon,
+        address: this.address,
+      });
     }
   }
 }
@@ -159,8 +222,8 @@ export function buildPlacesDataFromWorkbook(workbook: WorkBook): PlaceModel[] {
           newPlaceModel.updateStashExtraInfo({ multipurposes_count: Number(rowObj[rowKey]) });
         }
       }
+      newPlaceModel.adjustCustomData();
       if (newPlaceModel.name && ((newPlaceModel.lat && newPlaceModel.lon) || newPlaceModel.address)) {
-        newPlaceModel.adjustCustomData();
         convertedHashcodeApiFormatDataObjs[newPlaceModel.hashcode] = newPlaceModel;
       }
     }
