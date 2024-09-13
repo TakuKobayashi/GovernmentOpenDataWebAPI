@@ -370,24 +370,23 @@ dataCommand
             continue;
           }
           let saveData: Buffer;
-          if (['.csv', '.json', '.txt', '.rdf', '.xml'].includes(crawlerModel.origin_file_ext)) {
-            const detectedEncoding = Encoding.detect(response.data);
-            let textData: string;
-            if (detectedEncoding === 'UNICODE') {
-              textData = Encoding.convert(response.data, {
-                to: 'UTF8',
-                from: 'SJIS',
-              });
-            } else {
-              textData = Encoding.convert(response.data, {
-                to: 'UTF8',
-                from: detectedEncoding || 'UTF8',
-              });
-            }
+          const detectedEncoding = Encoding.detect(response.data);
+          if (!detectedEncoding || detectedEncoding === 'UTF32') {
+            saveData = response.data;
+          } else if (detectedEncoding === 'UNICODE') {
+            const textData = Encoding.convert(response.data, {
+              to: 'UTF8',
+              from: 'SJIS',
+            });
             saveData = Buffer.from(textData, 'utf8');
             willUpdateCrawlerObj.origin_file_encoder = detectedEncoding.toString();
           } else {
-            saveData = response.data;
+            const textData = Encoding.convert(response.data, {
+              to: 'UTF8',
+              from: detectedEncoding,
+            });
+            saveData = Buffer.from(textData, 'utf8');
+            willUpdateCrawlerObj.origin_file_encoder = detectedEncoding.toString();
           }
           // 100MB以上のファイルはGitに乗らないのでダウンロードしない
           if (response.data.length < 99900000) {
