@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+
+<html xml:lang="ja" lang="ja" >
+<head>
+
+    <base href="/suginami/suginami/">
+    <script type="text/javascript">
+    var jsBaseDir = "/v/common/Scripts/";
+    </script>
+    <!--[if lte IE 9]>
+    <script>
+        (function()
+        {
+            var base = document.getElementsByTagName('base')[0];
+            base.href = base.href;
+        })();
+    </script>
+    <![endif]-->
+
+    <meta charset="utf-8" />
+    <meta name="robots" content="nofollow">
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8; IE=EmulateIE9; IE=EmulateIE10; IE=EmulateIE11" />
+    <title>すぎナビ | </title>
+    <link rel="shortcut icon" href="/suginami/suginami/favicon.ico">
+    <link rel="apple-touch-icon" href="/suginami/suginami/apple-touch-icon.png">
+    <link rel="android-touch-icon" href="/suginami/suginami/android-touch-icon.png">
+
+    
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/css/bundles/styles.css">
+    
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/css/bundles/content.themes.base.css">
+
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/top/common.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/top/btn.css" />
+    
+    
+    
+    
+    
+    <script type="text/javascript" src="/v/common/Scripts/bundles/bundles.modernizr.js"></script>
+    
+    <script type="text/javascript" src="/v/common/Scripts/bundles/bundles.jquery.js"></script>
+    <script type="text/javascript" src="/v/common/Scripts/plugin/lib/GeoAccessJS/lib/GeoAccessLoad.js"></script>
+    <script type="text/javascript" src="/v/common/Scripts/plugin/lib/function.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/v/common/Scripts/plugin/lib/fix-ie-css.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/v/common/Scripts/plugin/lib/GeoAccessJS_extend.js" charset="utf-8"></script>
+    
+
+</head>
+<body>
+    
+
+<script>
+    var RedirectHttpsPage = function () {
+        if (location.href.indexOf("https") < 0) {
+            location.href = location.href.replace("http", "https");
+        }
+    }
+    var FQDN = "_map.pref.chiba.lg.jp,gis.pref.okinawa.jp,bousaimap.pref.kochi.lg.jp,_web-gis.pref.shimane.lg.jp,www4.city.otsu.shiga.jp,multi-hazard-map.pref.kyoto.jp,www.gis.pref.okayama.jp,map.city.shiojiri.nagano.jp,map.city.shiojiri.lg.jp";
+    var ModeIntra = "1";
+
+
+
+    if (FQDN && ModeIntra == 1) {
+        var fqdnArr = FQDN.split(",");
+        if ($.inArray(location.host.toString(), fqdnArr) < 0) {
+            RedirectHttpsPage();
+        }
+    }
+</script>
+
+<!DOCTYPE html>
+
+    <title>オープンデータ一覧</title>
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/top/reset.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/top/common.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/top/index.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/top/carousel.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/top/login.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/top/btn.css" />
+
+    <!--↓物件別CSS設定↓-->
+        <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/separate/13115-site.css" />
+    <!--↑物件別CSS設定↑-->
+
+    <script type="text/javascript" src="/v/common/Scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/v/common/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script type="text/javascript" src="/v/common/Scripts/admin/RequestHelper.js"></script>
+    <script type="text/javascript" src="/v/common/Scripts/admin/CommonJs.js"></script>
+    <script type="text/javascript" src="/v/common/Scripts/jquery-ui-1.10.3.js"></script>
+    <style>
+        #contents {
+            clear: both;
+            width: 990px;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+        .contents-inner {
+            width: 990px;
+            background: transparent;
+            margin: 0 auto;
+            padding: 0 0 15px;
+        }
+
+        .pageMds {
+            line-height: 1.5;
+            padding: 10px 0;
+        }
+
+            .pageMds h1 {
+                border-left: 4px solid #085AA5;
+                padding-left: .4em;
+                font-size: 180%;
+                font-weight: 700;
+                color: #085AA5;
+            }
+
+            .pageMds p.note {
+                font-size: 93%;
+                color: #085AA5;
+                padding: .5em 1em;
+            }
+
+        .column-left-od {
+            float: left;
+            width: 200px;
+        }
+
+        .column-right-od {
+            float: right;
+            width: 770px;
+        }
+
+        .mds-od {
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+            .mds-od h2 {
+                padding-left: 52px;
+                background: url(./Content/images/site/opendata/mds_cate_all.png) no-repeat 0 0 rgba(0,0,0,0);
+                font-size: 220%;
+                line-height: 43px;
+            }
+
+        .column-left-dt {
+            float: left;
+            width: 430px;
+        }
+
+        .column-right-dt {
+            float: right;
+            width: 540px;
+        }
+
+        .outer-module2 {
+            border: 1px solid #dcdcdc;
+            border-top: 0;
+            box-sizing: border-box;
+            background-color: #fff;
+            margin: 0 0 10px;
+            padding: 5px 10px 10px;
+        }
+
+            .outer-module2 p {
+                font-size: 93%;
+                padding-bottom: 5px;
+            }
+
+        .outer-map {
+            display: block;
+            width: 100%;
+            height: 540px;
+            box-sizing: border-box;
+        }
+
+        .listMapcate {
+            box-sizing: border-box;
+            border: 1px solid #fff;
+            background-color: #fff;
+            line-height: 2;
+        }
+
+            .listMapcate li {
+                width: auto;
+                background-color: #ececfb;
+                border-bottom: 1px solid #fff;
+                position: relative;
+            }
+
+                .listMapcate li:last-child {
+                    border-bottom: none;
+                }
+
+                .listMapcate li a {
+                    display: block;
+                    min-height: 40px;       /*長いマップ名対策のためmin-heightに変更*/
+                    font-size: 116%;
+                    line-height: 40px;
+                    text-decoration: none;
+                    padding: 0 0 0 40px;
+                }
+
+                .listMapcate li.current a {
+                    background-color: #987D00;
+                    color: #fff;
+                }
+
+        .icon-chgmap {
+            background: url(./Content/images/site/opendata/mds_icon_all.png) no-repeat 0 -132px rgba(0,0,0,0);
+        }
+
+        .icon-checked {
+            background: url(./Content/images/site/opendata/list_icon_all.png) no-repeat 0 0 rgba(0,0,0,0);
+        }
+
+        .icon-nocheck {
+            background: url(./Content/images/site/opendata/list_icon_all.png) no-repeat 0 -22px rgba(0,0,0,0);
+        }
+
+        li:hover .icon-nocheck {
+            background: url(./Content/images/site/opendata/list_icon_all.png) no-repeat 0 -44px rgba(0,0,0,0);
+        }
+
+        .icon-facility {
+            background: url(./Content/images/site/opendata/mds_icon_all.png) no-repeat 0 -154px rgba(0,0,0,0);
+        }
+
+        .icon-download {
+            background: url(./Content/images/site/opendata/mds_icon_all.png) no-repeat 0 -176px rgba(0,0,0,0);
+        }
+
+        .list-download {
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            border-bottom: 5px solid #ededed;
+        }
+
+            .list-download li {
+                font-size: 100%;
+                position: relative;
+            }
+
+                .list-download li a {
+                    padding-left: 45px;
+                    height: auto;
+                    line-height: 40px;
+                    font-size: 120%;
+                    font-weight: 700;
+                }
+
+        .file-icon {
+            bottom: 0;
+            display: inline-block;
+            height: 30px;
+            left: 7px;
+            position: absolute;
+            top: 0;
+            width: 30px;
+            margin: auto;
+        }
+
+        .icon-csv {
+            background: url(./Content/images/site/opendata/file-icon/ico_csv.png) no-repeat 0 0 rgba(0,0,0,0);
+        }
+
+        .icon-pdf {
+            background: url(./Content/images/site/opendata/file-icon/ico_pdf.png) no-repeat 0 0 rgba(0,0,0,0);
+        }
+
+        .tbl-opendata {
+            width: 100%;
+        }
+
+            .tbl-opendata th {
+                text-align: center;
+                background-color: #333;
+                border: 1px solid #999;
+                font-size: 93%;
+                color: #fff;
+                line-height: 2;
+                white-space: nowrap;
+            }
+
+            .tbl-opendata tr.tr-odd td {
+                background-color: #f0f0fe;
+            }
+
+            .tbl-opendata tr.tr-even td {
+                background-color: #fff;
+            }
+
+            .tbl-opendata td {
+                background-color: #fff;
+                border: 1px solid #ddd;
+                padding: 2px 4px;
+            }
+
+                .tbl-opendata td.c1 {
+                    vertical-align: top;
+                }
+
+                .tbl-opendata td.c4, .tbl-opendata td.c5 {
+                    text-align: center;
+                }
+
+        .btn-link-s, .btn-link-c, .btn-link-d, .btn-link-gis {
+            border-radius: 2px;
+            font-size: 18px;
+            color: #fff !important;
+            text-decoration: none;
+            white-space: nowrap;
+            padding: 2px 4px;
+        }
+        .btn-link-d .visited{
+
+        }
+
+        .btn-link-s {
+            background-color: #cb6214;
+        }
+
+        .btn-link-c {
+        }
+
+        .btn-link-csv, .btn-link-shape, .btn-link-kml, .btn-link-geojson, .btn-link-external {
+            margin:2px 0 0 0;
+        }
+
+        .btn-link-csv {
+            background-color: #3fcb14;
+        }
+
+        .btn-link-shape {
+            background-color: #3fcb14;
+        }
+
+        .btn-link-kml {
+            background-color: #3fcb14;
+        }
+
+        .btn-link-geojson {
+            background-color: #3fcb14;
+        }
+
+        .btn-link-external {
+            background-color: #3fcb14;
+        }
+
+        .btn-link-d {
+            background-color: #085AA5;
+        }
+
+            .btn-link-s:hover, .btn-link-c:hover, .btn-link-d:hover {
+                color: #fff;
+            }
+
+        .btn-link-gis {
+            border-radius: 2px;
+            background-color: #A54310;
+            font-size: 140%;
+            color: #fff;
+            text-decoration: none;
+            white-space: nowrap;
+            padding: .3em 1em;
+        }
+
+        .mds-icon2, .list-icon {
+            bottom: 0;
+            display: inline-block;
+            height: 22px;
+            left: 7px;
+            position: absolute;
+            top: 0;
+            width: 22px;
+            margin: auto;
+        }
+
+        .mds {
+            background-color: #fff;
+            border: 1px solid #dcdcdc;
+            padding: 1px;
+            position: relative;
+        }
+
+            .mds h2 {
+                background-color: #085AA5;
+                color: #fff;
+                font-size: 125%;
+                height: 32px;
+                line-height: 34px;
+                padding-left: 32px;
+                text-shadow: 1px 1px 2px #003366;
+            }
+
+        .pager {
+            text-align: center;
+        }
+        .pager .current{
+            text-decoration: none;
+        }
+    </style>
+    <script>
+        var mids = "";
+        var totalCount = "69";
+        var current_page = 1;
+        var records_per_page = 20;
+    </script>
+
+    <!--ヘッダー-->
+
+<script type="text/javascript">
+    var mid;
+
+    $(function () {
+        mid = $('#MapId,#MapSelect').val() == null ? "" : $('#MapId,#MapSelect').val();
+
+        var langmodeParam = "";
+        
+        var langmode = "0";
+
+        if (langmode != 0) {
+            langmodeParam = "&langmode=" + langmode;
+        }
+
+        if ($('#a_PositionSelect').length > 0) {
+            if ("opendata" != "Agreement") {
+                $('#a_PositionSelect').attr('href', GetAbsoluteUrl("PositionSelect?mid=" + mid + langmodeParam));
+            }
+            else {
+                $('#a_PositionSelect').attr('href', GetAbsoluteUrl("PositionSelect?mid=" + "" + langmodeParam));
+            }
+        }
+
+        if ($('#a_AddressSearch').length > 0) {
+            $('#a_AddressSearch').attr('href', GetAbsoluteUrl("AddressSearch?mid=" + mid));
+        }
+
+        if ("1" == "1" && "false" == "true") {
+            $("#li_Agreement").show();
+        }
+        else {
+            $("#li_Agreement").hide();
+        }
+    });
+
+    var onRefuse = function () {
+        $('#MapId,#MapSelect').val(OldMapId);
+        $('#MapId').triggerHandler("onRefuse");
+
+        onClose();
+    }
+
+    var onAgree = function () {
+        mid = $('#MapId,#MapSelect').val() == null ? "" : $('#MapId,#MapSelect').val();
+
+        var langmodeParam = "";
+        if (langmode != 0) {
+            langmodeParam = "&langmode=" + langmode;
+        }
+
+        if ("opendata" == "PositionSelect") {
+            RedirectUrl(GetAbsoluteUrl("PositionSelect?mid=" + mid + langmodeParam));
+        }
+
+        OldMapId = mid;
+        if (typeof (oG0501AData) != "undefined" && oG0501AData != null) {
+            oG0501AData.mid = mid;
+        }
+        if ("1" == "1") {
+            $("#li_Agreement").show();
+        }
+
+        var langmodeParam = "";
+        if (langmode != 0) {
+            langmodeParam = "&langmode=" + langmode;
+        }
+        if ($('#a_PositionSelect').length > 0) {
+            $('#a_PositionSelect').attr('href', GetAbsoluteUrl("PositionSelect?mid=" + mid + langmodeParam));
+        }
+
+        if ($('#a_AddressSearch').length > 0) {
+            $('#a_AddressSearch').attr('href', GetAbsoluteUrl("AddressSearch?mid=" + mid + langmodeParam));
+        }
+        onClose();
+    }
+
+    var onClose = function () {
+        top.dofunction.iframeobj.hide();
+    }
+
+    // 利用許諾画面を開く
+    var OpenAgree = function (Parent) {
+        mid = $('#MapId,#MapSelect').val() == null ? "" : $('#MapId,#MapSelect').val();
+
+        var args = {
+            width: GetWinWidth() - 100,
+            height: GetWinHeight() - 100,
+            src: '../Agreement',
+            title: "利用許諾",
+            closebutton: false,
+            dofunction: {
+                onAgree: onAgree,
+                onRefuse: onRefuse,
+                onClose: onClose
+            }
+        };
+        var oG0304CWindow = new IframeWindow(args);
+        if (langmode == 0) {
+        oG0304CWindow.open({ modal: 1, MapId: mid, Parent: Parent });
+        } else {
+            oG0304CWindow.open({ modal: 1, MapId: mid, langmode: langmode, Parent: Parent });
+        }
+    }
+</script>
+<head>
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/top/crumbs.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="./Content/CSS/pages/separate/13115-site.css" />
+</head>
+<header id="header">
+    <div id="headerInner" class="clearfix">
+        <a href="../Portal"><h1>
+            <!--img src="./Content/images/pages/top/logo.png" alt="すぎナビ"--></h1></a>
+            
+            <p class="headerTxt"><span>
+              杉並区
+              公式電子地図サービス
+              すぎナビ
+            </span></p>
+            
+        <nav id="headerNav">
+            <ul>
+                                <!--li class="btn-zsite-li"><a onclick="openZoomSight();" class="btn-zsite">ズームサイト</a></li-->
+                <li><a href="./Content/pages/help/help.html" onclick="window.open(this.href, '使い方ガイド', 'width=800,height=768,toolbar=no,menubar=no,location=no,status=no,resizable=yes'); return false;" onkeypress="window.open(this.href, '使い方ガイド', 'htight=768,width=800,toolbar=no,menubar=no,location=no,status=no'); return false;" tabindex="0" class="btn-help">
+                <!--img src="./Content/images/pages/top/btn_guide_off.jpg" alt="使い方ガイド"-->
+                </a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!--/#header-->
+
+<div id="topicPath">
+    <div id="topicPathInner" class="clearfix">
+        <ul class="crumbs">
+                        <li><a href="./../Portal">トップページ</a><span>＞</span></li>
+                        <li id="li_Agreement"><a href='javascript:void(0);' onclick="OpenAgree('opendata');" onkeypress="OpenAgree('opendata');" tabindex="0">利用許諾</a><span>＞</span></li>
+                <li><a class="current"></a></li>
+        </ul>
+
+    </div>
+    <!--/#statusArea-->
+</div>
+<!--/#topicPath-->
+
+
+    <article>
+            <div id="contents" class="odcontents">
+                <div class="contents-inner clearfix">
+                    <!--■ 見出し／説明------------------------------------------------------------------------------>
+                    <div class="pageMds">
+                        <h1>オープンデータ一覧</h1>
+                        <p class="note">
+                            地図情報がオープンデータとして公開されています。準備中と表示されている場合は、システムが地図情報の更新内容をオープンデータとして公開する準備をしています。しばらくお待ちください。
+                        </p>
+                    </div>
+                </div>
+                <!--■ 左カラム------------------------------------------------------------------------------>
+                <div class="column-left-od">
+                    <div class="mds">
+                        <h2><span class="list-icon icon-chgmap"></span>カテゴリの切替</h2>
+                    </div>
+                    <div class="outer-module">
+                        <ul class="listMapcate">
+                            <li class="current" data-mapid="" data-url="../OpenData/">
+                                <span class="list-icon icon-checked"></span>
+                                <a href="javascript:void(0);">全て</a>
+                            </li>
+
+                                    <li class="map-1" data-mapid="1" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">公共施設情報</a>
+                                    </li>
+                                    <li class="map-12" data-mapid="12" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">広報スタンド</a>
+                                    </li>
+                                    <li class="map-53" data-mapid="53" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">防災マップ</a>
+                                    </li>
+                                    <li class="map-4" data-mapid="4" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">わが家の水害ハザードマップ</a>
+                                    </li>
+                                    <li class="map-3" data-mapid="3" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">河川カメラ</a>
+                                    </li>
+                                    <li class="map-16" data-mapid="16" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">地盤高</a>
+                                    </li>
+                                    <li class="map-39" data-mapid="39" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">不燃化に関する助成制度</a>
+                                    </li>
+                                    <li class="map-59" data-mapid="59" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">都市計画施設図</a>
+                                    </li>
+                                    <li class="map-26" data-mapid="26" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">路線図</a>
+                                    </li>
+                                    <li class="map-7" data-mapid="7" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">公共基準点</a>
+                                    </li>
+                                    <li class="map-24" data-mapid="24" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">舗装種別</a>
+                                    </li>
+                                    <li class="map-87" data-mapid="87" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">街路灯</a>
+                                    </li>
+                                    <li class="map-109" data-mapid="109" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">無電柱化整備状況</a>
+                                    </li>
+                                    <li class="map-19" data-mapid="19" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">南北バス「すぎ丸」</a>
+                                    </li>
+                                    <li class="map-60" data-mapid="60" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">自転車駐車場等</a>
+                                    </li>
+                                    <li class="map-99" data-mapid="99" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">交通安全施設</a>
+                                    </li>
+                                    <li class="map-42" data-mapid="42" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">埋蔵文化財包蔵地</a>
+                                    </li>
+                                    <li class="map-8" data-mapid="8" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">公園・緑地</a>
+                                    </li>
+                                    <li class="map-107" data-mapid="107" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">公園樹木</a>
+                                    </li>
+                                    <li class="map-10" data-mapid="10" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">街路樹</a>
+                                    </li>
+                                    <li class="map-31" data-mapid="31" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">ある区マップ</a>
+                                    </li>
+                                    <li class="map-30" data-mapid="30" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">科学と自然の散歩みち</a>
+                                    </li>
+                                    <li class="map-22" data-mapid="22" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">AEDマップ</a>
+                                    </li>
+                                    <li class="map-36" data-mapid="36" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">福祉事務所</a>
+                                    </li>
+                                    <li class="map-35" data-mapid="35" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">路上禁煙地区</a>
+                                    </li>
+                                    <li class="map-33" data-mapid="33" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">区立学校・学校指定通学区域図・杉並区立小学校通学路線図</a>
+                                    </li>
+                                    <li class="map-13" data-mapid="13" data-url="/suginami/OpenData/">
+                                        <span class="list-icon icon-nocheck"></span>
+                                        <a href="javascript:void(0);">人口マップ</a>
+                                    </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+                <!--/.column-left-->
+
+                <div class="column-right-od">
+                    <div class="mds-od">
+                        <h2>全て</h2>
+                    </div>
+                    <div class="outer-module">
+                        <table class="tbl-opendata">
+                            <thead>
+                                <tr>
+                                    <th>データ名</th>
+                                    <th>説明</th>
+                                    <th>掲載日</th>
+                                    <th>ダウンロード</th>
+                                    <th>詳細</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                <tr class="tr-even" data-layerid="950">
+                    <td class="c1" rowspan="1">区役所・区民事務所等</td>
+                    <td class="c2" rowspan="1">区役所・区民事務所・証明書自動交付機</td>
+
+                    <td class="c3">2022/03/31</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/CSV/opendata_950.csv">csv (2.75 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/SHAPE/opendata_950.zip">shape (1.72 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/KML/opendata_950.kml">kml (10.55 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=950&mids=1">詳細</a>
+                    </td>
+                </tr>
+                <tr class="tr-even" data-layerid="951">
+                    <td class="c1" rowspan="1">保健福祉関連施設</td>
+                    <td class="c2" rowspan="1">保健福祉関連施設</td>
+
+                    <td class="c3">2022/03/31</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/CSV/opendata_951.csv">csv (9.03 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/SHAPE/opendata_951.zip">shape (2.89 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/KML/opendata_951.kml">kml (34.15 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=951&mids=1">詳細</a>
+                    </td>
+                </tr>
+                <tr class="tr-even" data-layerid="952">
+                    <td class="c1" rowspan="1">高齢者関連施設</td>
+                    <td class="c2" rowspan="1">高齢者関連施設</td>
+
+                    <td class="c3">2022/03/31</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/CSV/opendata_952.csv">csv (14.2 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/SHAPE/opendata_952.zip">shape (4.4 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/KML/opendata_952.kml">kml (67.25 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=952&mids=1">詳細</a>
+                    </td>
+                </tr>
+                <tr class="tr-even" data-layerid="953">
+                    <td class="c1" rowspan="1">子育て関連施設</td>
+                    <td class="c2" rowspan="1">子育て関連施設</td>
+
+                    <td class="c3">2022/03/31</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/CSV/opendata_953.csv">csv (98.53 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/SHAPE/opendata_953.zip">shape (30.88 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/KML/opendata_953.kml">kml (546.61 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=953&mids=1">詳細</a>
+                    </td>
+                </tr>
+                <tr class="tr-even" data-layerid="954">
+                    <td class="c1" rowspan="1">学校</td>
+                    <td class="c2" rowspan="1">学校</td>
+
+                    <td class="c3">2022/03/31</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/CSV/opendata_954.csv">csv (24.32 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/SHAPE/opendata_954.zip">shape (7.5 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/KML/opendata_954.kml">kml (152.88 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=954&mids=1">詳細</a>
+                    </td>
+                </tr>
+                <tr class="tr-even" data-layerid="955">
+                    <td class="c1" rowspan="1">障害者関連施設</td>
+                    <td class="c2" rowspan="1">障害者関連施設</td>
+
+                    <td class="c3">2022/03/31</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/CSV/opendata_955.csv">csv (5.86 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/SHAPE/opendata_955.zip">shape (2.32 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/KML/opendata_955.kml">kml (20.15 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=955&mids=1">詳細</a>
+                    </td>
+                </tr>
+                <tr class="tr-even" data-layerid="956">
+                    <td class="c1" rowspan="1">区民センター・集会・地域活動施設</td>
+                    <td class="c2" rowspan="1">区民センター・集会・地域活動施設</td>
+
+                    <td class="c3">2022/03/31</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/CSV/opendata_956.csv">csv (11.94 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/SHAPE/opendata_956.zip">shape (3.69 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/KML/opendata_956.kml">kml (49.41 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=956&mids=1">詳細</a>
+                    </td>
+                </tr>
+                <tr class="tr-even" data-layerid="957">
+                    <td class="c1" rowspan="1">図書館・文化教養施設</td>
+                    <td class="c2" rowspan="1">図書館・文化教養施設</td>
+
+                    <td class="c3">2022/03/31</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/CSV/opendata_957.csv">csv (9.82 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/SHAPE/opendata_957.zip">shape (3.18 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/KML/opendata_957.kml">kml (38.69 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=957&mids=1">詳細</a>
+                    </td>
+                </tr>
+                <tr class="tr-even" data-layerid="958">
+                    <td class="c1" rowspan="1">スポーツ施設</td>
+                    <td class="c2" rowspan="1">スポーツ施設</td>
+
+                    <td class="c3">2022/03/31</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/CSV/opendata_958.csv">csv (7.38 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/SHAPE/opendata_958.zip">shape (2.67 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/KML/opendata_958.kml">kml (30.76 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=958&mids=1">詳細</a>
+                    </td>
+                </tr>
+                <tr class="tr-even" data-layerid="959">
+                    <td class="c1" rowspan="1">公園</td>
+                    <td class="c2" rowspan="1">公園</td>
+
+                    <td class="c3">2022/03/31</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/CSV/opendata_959.csv">csv (71.71 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/SHAPE/opendata_959.zip">shape (20.08 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/KML/opendata_959.kml">kml (469.36 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=959&mids=1">詳細</a>
+                    </td>
+                </tr>
+                <tr class="tr-even" data-layerid="960">
+                    <td class="c1" rowspan="1">土木事務所</td>
+                    <td class="c2" rowspan="1">土木事務所</td>
+
+                    <td class="c3">2022/03/31</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/CSV/opendata_960.csv">csv (0.3 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/SHAPE/opendata_960.zip">shape (0.92 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/KML/opendata_960.kml">kml (1.47 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=960&mids=1">詳細</a>
+                    </td>
+                </tr>
+                <tr class="tr-even" data-layerid="961">
+                    <td class="c1" rowspan="1">自転車駐車場</td>
+                    <td class="c2" rowspan="1">自転車駐車場</td>
+
+                    <td class="c3">2022/03/31</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/CSV/opendata_961.csv">csv (11.48 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/SHAPE/opendata_961.zip">shape (3.8 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/KML/opendata_961.kml">kml (67.87 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=961&mids=1">詳細</a>
+                    </td>
+                </tr>
+                <tr class="tr-even" data-layerid="962">
+                    <td class="c1" rowspan="1">環境・清掃施設</td>
+                    <td class="c2" rowspan="1">環境・清掃施設</td>
+
+                    <td class="c3">2022/03/31</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/CSV/opendata_962.csv">csv (1.69 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/SHAPE/opendata_962.zip">shape (1.44 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/KML/opendata_962.kml">kml (8.39 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=962&mids=1">詳細</a>
+                    </td>
+                </tr>
+                <tr class="tr-even" data-layerid="963">
+                    <td class="c1" rowspan="1">産業・就労支援施設</td>
+                    <td class="c2" rowspan="1">産業・就労支援施設</td>
+
+                    <td class="c3">2022/03/31</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/CSV/opendata_963.csv">csv (4.38 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/SHAPE/opendata_963.zip">shape (2.18 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/KML/opendata_963.kml">kml (18.75 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=963&mids=1">詳細</a>
+                    </td>
+                </tr>
+                <tr class="tr-even" data-layerid="964">
+                    <td class="c1" rowspan="1">防災・防犯</td>
+                    <td class="c2" rowspan="1">防災・防犯</td>
+
+                    <td class="c3">2022/03/31</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/CSV/opendata_964.csv">csv (34 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/SHAPE/opendata_964.zip">shape (7.76 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/KML/opendata_964.kml">kml (161.55 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=964&mids=1">詳細</a>
+                    </td>
+                </tr>
+                <tr class="tr-even" data-layerid="965">
+                    <td class="c1" rowspan="1">期日前投票所</td>
+                    <td class="c2" rowspan="1">期日前投票所</td>
+
+                    <td class="c3">2022/03/31</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/CSV/opendata_965.csv">csv (3.65 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/SHAPE/opendata_965.zip">shape (1.87 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/KML/opendata_965.kml">kml (19.13 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=965&mids=1">詳細</a>
+                    </td>
+                </tr>
+                <tr class="tr-even" data-layerid="966">
+                    <td class="c1" rowspan="1">公社・区内官公署・その他</td>
+                    <td class="c2" rowspan="1">公社・区内官公署・その他</td>
+
+                    <td class="c3">2022/03/31</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/CSV/opendata_966.csv">csv (10.43 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/SHAPE/opendata_966.zip">shape (3.97 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_1/KML/opendata_966.kml">kml (60.31 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=966&mids=1">詳細</a>
+                    </td>
+                </tr>
+                <tr class="tr-even" data-layerid="94">
+                    <td class="c1" rowspan="1">広報スタンド設置場所</td>
+                    <td class="c2" rowspan="1">広報スタンド設置場所</td>
+
+                    <td class="c3">2022/03/31</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_12/CSV/opendata_94.csv">csv (56.91 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_12/SHAPE/opendata_94.zip">shape (14.54 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_12/KML/opendata_94.kml">kml (395.59 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=94&mids=12">詳細</a>
+                    </td>
+                </tr>
+                <tr class="tr-even" data-layerid="989">
+                    <td class="c1" rowspan="1">震災救援所</td>
+                    <td class="c2" rowspan="1">震災救援所</td>
+
+                    <td class="c3">2023/06/24</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_53/CSV/opendata_989.csv">csv (5.43 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_53/SHAPE/opendata_989.zip">shape (2.41 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_53/KML/opendata_989.kml">kml (49.9 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=989&mids=53">詳細</a>
+                    </td>
+                </tr>
+                <tr class="tr-even" data-layerid="990">
+                    <td class="c1" rowspan="1">緊急医療救護所</td>
+                    <td class="c2" rowspan="1">緊急医療救護所</td>
+
+                    <td class="c3">2023/03/14</td>
+
+                    <td class="c4">
+                                <div class="btn-link-csv">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_53/CSV/opendata_990.csv">csv (1.55 KB)</a>
+                                </div>
+                                <div class="btn-link-shape">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_53/SHAPE/opendata_990.zip">shape (1.41 KB)</a>
+                                </div>
+                                <div class="btn-link-kml">
+                                    <a class="btn-link-c" href="javascript:void(0);" data-downloadpath="/suginami/suginami/OpenDatafile/map_53/KML/opendata_990.kml">kml (10.57 KB)</a>
+                                </div>
+                                            </td>
+
+                    <td class="c5" rowspan="1">
+                        <a class="btn-link-d" href="javascript:void(0);" action-url="/suginami/OpenDataDetail?lid=990&mids=53">詳細</a>
+                    </td>
+                </tr>
+
+                            </tbody>
+                        </table>
+                        <div class="pager" data-url="/suginami/OpenData/">
+                            <span id="paging">
+                                <a id="first" class="current">|&lt;</a>
+                                <a id="prev" class="current">&lt;</a>
+                                <span id="page" class="current"></span>
+                                <a id="next" class="current">&gt;</a>
+                                <a id="last" class="current">&gt;|</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="dialog-agreement" data-url-dp="../OpenDataAgreement" data-url-dl="../OpenDataAgreement" style=" overflow: hidden; ">
+            </div>
+
+    </article>
+
+    <footer id="footer">
+        <div class="footer-inner clearfix">
+            <address>
+                <span>杉並区役所 都市整備部 土木管理課</span>
+                <div>
+                    <span>〒166-8570　杉並区阿佐谷南1丁目15番1号</span>
+                    <span>03-3312-2111</span>
+                </div>
+            </address>
+            <p id="copyright">Copyright c 2022 City Suginami. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="/v/common/Scripts/pages/jquery.extend.js"></script>
+    <script type="text/javascript" src="/v/common/Scripts/pages/OpenData.js"></script>
+
+
+
+    <script type="text/javascript" src="/v/common/Scripts/jquery.showLoading.js"></script>
+    
+</body>
+</html>
+

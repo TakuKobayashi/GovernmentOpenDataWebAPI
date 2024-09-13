@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="ja" class="ie ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="ja" class="ie ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="ja" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="ja"> <!--<![endif]-->
+  <head>
+    <!--[if lte ie 8]><script type="text/javascript" src="/fanstatic/vendor/:version:2018-02-06T14:36:31.36/html5.min.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2018-02-06T14:36:31.36/select2/select2.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/css/:version:2018-02-06T14:36:31.35/main.min.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2018-02-06T14:36:31.36/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/ckanext-geoview/:version:2018-02-19T11:35:26.18/css/geo-resource-styles.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/ckanext-harvest/:version:2018-02-19T11:02:08.08/styles/harvest.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/pages/:version:2018-02-19T11:33:30.56/:bundle:css/medium-editor.css;css/bootstrap.css" />
+
+    <meta charset="utf-8" />
+      <meta name="generator" content="ckan 2.7.3" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>赤ちゃんの駅 - 赤ちゃんの駅 - 港区オープンデータカタログ</title>
+
+    
+    
+    
+  <link rel="shortcut icon" href="/base/images/favicon.ico" />
+    
+  
+    <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-145749806-2', 'auto', {});
+     
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+</script>
+  
+
+
+    <!--[if IE]>
+    <script src="/classList.min.js"></script>
+    <![endif]-->
+
+    
+    
+    
+    
+
+    
+  
+      
+    
+  
+
+    
+
+
+    
+      
+      
+    
+  
+  <meta property="og:title" content="赤ちゃんの駅 - 赤ちゃんの駅 - 港区オープンデータカタログ">
+  <meta property="og:description" content="東京都福祉局が管理するデータ「赤ちゃん・ふらっと一覧」へのリンクとなります。
+掲載データのご利用はリンク先の利用規約等に準じます。確認の上ご利用ください。">
+<style>
+        // #0A77BD
+
+body {
+//    background: #fbfbfb;
+      background: #0A77BD;
+    font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+a.logo {
+position: absolute;
+/ /top: -26px;
+top: -1px;
+}
+
+@media (min-width: 768px){
+	[role=main], .main {
+	    padding-top: 10px;
+	    background: #fff url("../../../base/images/background.png") repeat scroll 0 0
+	}
+	.hero {
+	    background: url("../../../base/images/hero.jpg") center no-repeat;
+	    background-size: cover;
+	}
+	.navbar .container {
+	    width: 940px;
+	}
+}
+
+@media (max-width: 767px){
+	[role=main], .main {
+	    padding-top: 10px;
+	    background: #fff url("../../../base/images/background.png") repeat scroll 0 0
+	}
+	.hero {
+	    background: url("../../../base/images/hero.jpg") center no-repeat;
+	    background-size: cover;
+	}
+}
+
+.site-footer {
+    min-height: 55px;
+    color: #fff;
+//    background: #005d7a ;
+      background: #0A77BD ;
+    padding: 20px 0;
+}
+
+
+.account-masthead {
+    min-height: 30px;
+    //color: #fff;
+    //background: #003647;
+    color: #003647;
+    background: #FBFBFB;
+}
+
+.account-masthead .account ul li {
+    border-left: 5px solid #fbfbfb;
+}
+
+
+.masthead {
+    min-height: 55px;
+    color: #fff;
+    background: #FFFFFF ;
+    //border-bottom-color : #005d7a;
+    border-bottom-color : #0A77BD;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+.masthead .nav > li > a, .masthead .nav > li > a:focus, .masthead .nav > li > a:hover, .masthead .nav > .active > a, .masthead .nav > .active > a:hover, .masthead .nav > .active > a:focus {
+   
+    //color: #005d7a;
+    color: #0A77BD;
+    text-shadow: none;
+}
+
+.masthead .navigation .nav-pills li a:hover,
+.masthead .navigation .nav-pills li.active a {
+  //background-color: #003647;
+  //color: #fff;
+  background-color: #ffffff;
+  color: orange;
+}
+
+
+a:hover, a:focus {
+    color: #0d4252;
+    text-decoration: underline;
+}
+
+.account-masthead .account ul li a:hover {
+  color: orange;
+  background-color: #fbfbfb;
+  text-decoration: none;
+}
+
+.hero {
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.25);
+}
+
+.homepage .module-search .tags {*zoom:1;
+  padding: 5px 10px 10px 10px;
+  background-color: rgba(25,25,25,0.1);
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+}
+
+#frontsb .module-search {
+    border:none;    
+    background: rgba(128,128,128,0.5);
+　  background-color: none;
+}
+.box {
+    background-color: rgba(255,255,255,0.4);
+    border: none;
+}
+
+.stats {
+    background-color: rgba(255,255,255,0.9);
+}
+
+.homepage .module-search .module-content {
+    background-color:  rgba(255,255,255,0.1);
+}
+
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+#s2id_field-lang-select {
+width:160px;
+}
+
+.site-footer {
+    background:#5588aa;
+}
+
+.homepage .stats ul li {
+	width:33%;
+	text-align:center;
+}
+
+.main_catch {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fbfbfb;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin: 40px auto 60px auto;
+    text-align: center;
+}
+
+.row2 {
+    margin-bottom:20px
+}
+
+p.leadTxt, .leadTxt {
+    font-size: 2em;
+    line-height: 150%;
+    padding: 0;
+}
+
+p.aboutTxt {
+    font-size: 17px;
+    line-height: 170%;
+}
+
+.module-heading {
+     border-top: none;
+     border-bottom: none;
+}
+@media (min-width: 768px) {
+ li.resource-item {
+     padding-right:110px;
+ }
+}
+
+.search-form .search-input.search-giant button {
+ margin-top: 0;
+ top: calc(50% - 15px);
+}
+      </style>
+    
+  </head>
+
+  
+  <body data-site-root="https://opendata.city.minato.tokyo.jp/" data-locale-root="https://opendata.city.minato.tokyo.jp/" >
+
+    
+    <div class="hide"><a href="#content">スキップして内容へ</a></div>
+  
+
+  
+    
+
+  <header class="account-masthead">
+    <div class="container">
+      
+        
+          <nav class="account not-authed">
+            <ul class="unstyled">
+              
+              <li><a href="/user/login">ログイン</a></li>
+              
+              
+            </ul>
+          </nav>
+        
+      
+    </div>
+  </header>
+
+<header class="navbar navbar-static-top masthead">
+  
+    
+  
+  <div class="container">
+    <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+      <span class="fa fa-bars"></span>
+    </button>
+    
+    <hgroup class="header-image pull-left">
+
+      
+        
+          <a class="logo" href="/"><img src="/uploads/admin/2019-07-15-090249.900656EmblemofMinatoTokyo5.png" alt="港区オープンデータカタログ" title="港区オープンデータカタログ" /></a>
+        
+      
+
+    </hgroup>
+
+    <div class="nav-collapse collapse">
+
+      
+        <nav class="section navigation">
+          <ul class="nav nav-pills">
+            
+              <li><a href="/dataset">データセット</a></li><li><a href="/group">グループ</a></li><li><a href="/about">利用規約</a></li>
+            
+          </ul>
+        </nav>
+      
+
+      
+<!--
+        <form class="section site-search simple-input" action="/dataset" method="get">
+          <div class="field">
+            <label for="field-sitewide-search">データセットを検索</label>
+            <input id="field-sitewide-search" type="text" name="q" placeholder="検索" />
+            <button class="btn-search" type="submit"><i class="fa fa-search"></i></button>
+          </div>
+        </form>
+-->
+      
+
+    </div>
+  </div>
+</header>
+
+  
+    <div role="main">
+      <div id="content" class="container">
+        
+          
+            <div class="flash-messages">
+              
+                
+              
+            </div>
+          
+
+          
+            <div class="toolbar">
+              
+                
+                  <ol class="breadcrumb">
+                    
+<li class="home"><a href="/"><i class="fa fa-home"></i><span> ホーム</span></a></li>
+                    
+  
+  
+    
+    
+      
+      <li><a href="/organization">組織</a></li>
+      <li><a href="/organization/minatoku">港区</a></li>
+    
+    <li><a href="/dataset/akachan_station">赤ちゃんの駅</a></li>
+  
+
+  <li class="active"><a href="">赤ちゃんの駅</a></li>
+
+                  </ol>
+                
+              
+            </div>
+          
+
+          <div class="row wrapper">
+
+            
+            
+  
+    <section class="module module-resource">
+      
+      <div class="module-content">
+        <div class="actions">
+          
+          <ul>
+            
+  
+            
+            
+              <li>
+                <a class="btn btn-primary resource-url-analytics resource-type-None" href="https://www.fukushi.metro.tokyo.lg.jp/kodomo/kosodate/akachanflat.html">
+                  
+                    <i class="fa fa-external-link"></i> リソースへ行く
+                  
+                </a>
+              </li>
+            
+            
+  
+
+          </ul>
+          
+        </div>
+        
+          <h1 class="page-heading">赤ちゃんの駅</h1>
+          
+            
+              <p class="muted ellipsis">URL: <a class="resource-url-analytics" href="https://www.fukushi.metro.tokyo.lg.jp/kodomo/kosodate/akachanflat.html" title="https://www.fukushi.metro.tokyo.lg.jp/kodomo/kosodate/akachanflat.html">https://www.fukushi.metro.tokyo.lg.jp/kodomo/kosodate/akachanflat.html</a></p>
+            
+          
+          <div class="prose notes" property="rdfs:label">
+            
+              <p>東京都福祉局が管理するデータ「赤ちゃん・ふらっと一覧」へのリンクとなります。<br>
+掲載データのご利用はリンク先の利用規約等に準じます。確認の上ご利用ください。</p>
+            
+            
+          </div>
+        
+      </div>
+      
+      
+        
+          
+          
+
+        
+        <div class="module-content">
+          
+            <div class="resource-view">
+              
+              
+              
+                
+                <div class="module-content data-viewer-info">
+                  <p>このリソースのために作成されたビューはまだありません</p>
+                  
+                </div>
+              
+            </div>
+          
+        </div>
+      
+      
+      
+    </section>
+  
+
+
+            
+              <div class="primary span9">
+                
+                
+  
+    
+      <section class="module">
+        
+  
+  
+        <div class="module-content">
+          <h2>追加情報</h2>
+          <table class="table table-striped table-bordered table-condensed" data-module="table-toggle-more">
+            <thead>
+              <tr>
+                <th scope="col">フィールド</th>
+                <th scope="col">値</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">最終更新日</th>
+                <td>2024 / 5月 / 16,</td>
+              </tr>
+              <tr>
+                <th scope="row">メタデータ最終更新日時</th>
+                <td>2024 / 5月 / 16,</td>
+              </tr>
+              <tr>
+                <th scope="row">作成日</th>
+                <td>2024 / 5月 / 16,</td>
+              </tr>
+              <tr>
+                <th scope="row">データ形式</th>
+                <td>text/html</td>
+              </tr>
+              <tr>
+                <th scope="row">ライセンス</th>
+                <td>
+
+
+  
+    
+      
+  
+    <span property="dc:rights">ライセンスが指定されていません</span>
+  
+
+    
+  
+</td>
+              </tr>
+              
+                <tr class="toggle-more"><th scope="row">created</th><td>3 月前</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">format</th><td>HTML</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">id</th><td>bf522dd3-64c7-41e7-a71e-d287cb4bdabe</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">mimetype</th><td>text/html</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">package id</th><td>b94bde46-f53c-4dc0-8c1e-799dba65ea01</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">revision id</th><td>9775bdd3-f47a-4a4a-9979-db240aa55465</td></tr>
+              
+                <tr class="toggle-more"><th scope="row">state</th><td>active</td></tr>
+              
+            </tbody>
+          </table>
+        </div>
+        
+
+      </section>
+    
+  
+
+              </div>
+            
+
+            
+              <aside class="secondary span3">
+                
+                
+
+  
+    
+
+
+  
+    <section class="module module-narrow resources">
+      
+        
+          <h2 class="module-heading"><i class="fa fa-files-o"></i> リソース</h2>
+        
+        
+          <ul class="unstyled nav nav-simple">
+            
+              <li class="nav-item active">
+                <a class=" active" href="/dataset/akachan_station/resource/bf522dd3-64c7-41e7-a71e-d287cb4bdabe?inner_span=True"><span>赤ちゃんの駅</span></a>
+              </li>
+            
+          </ul>
+        
+      
+    </section>
+  
+
+  
+
+  
+    
+
+  <section class="module module-narrow social">
+    
+      <h2 class="module-heading"><i class="fa fa-medium fa-share-square-o"></i> ソーシャル</h2>
+    
+    
+      <ul class="nav nav-simple">
+        <li class="nav-item"><a href="https://plus.google.com/share?url=https://opendata.city.minato.tokyo.jp/dataset/akachan_station/resource/bf522dd3-64c7-41e7-a71e-d287cb4bdabe" target="_blank"><i class="fa fa-google-plus-square"></i> Google+</a></li>
+        <li class="nav-item"><a href="https://twitter.com/share?url=https://opendata.city.minato.tokyo.jp/dataset/akachan_station/resource/bf522dd3-64c7-41e7-a71e-d287cb4bdabe" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+        <li class="nav-item"><a href="https://www.facebook.com/sharer.php?u=https://opendata.city.minato.tokyo.jp/dataset/akachan_station/resource/bf522dd3-64c7-41e7-a71e-d287cb4bdabe" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+      </ul>
+    
+  </section>
+
+  
+
+              </aside>
+            
+          </div>
+        
+      </div>
+    </div>
+  
+    <footer class="site-footer">
+  <div class="container">
+    
+    <div class="row">
+      <div class="span8 footer-links">
+        
+          <ul class="unstyled">
+            
+              <li><a href="/about">About 港区オープンデータカタログ</a></li>
+
+              <li><a href="/pages/links">リンク集</a></li>
+
+            
+          </ul>
+<!--
+          <ul class="unstyled">
+            
+              
+              <li><a href="http://docs.ckan.org/en/ckan-2.7.3/api/">CKAN API</a></li>
+              <li><a href="http://www.opendefinition.org/okd/"><img src="/base/images/od_80x15_blue.png"></a></li>
+            
+          </ul>
+-->
+        
+      </div>
+      <div class="span4 attribution">
+        
+          <p><strong>Powered by</strong> <a class="hide-text ckan-footer-logo" href="http://ckan.org">CKAN</a></p>
+        
+      </div>
+    </div>
+    
+  </div>
+
+  
+    
+  
+</footer>
+  
+    
+    
+    
+      
+    
+  
+  
+    
+  
+    
+    <div class="js-hide" data-module="google-analytics"
+      data-module-googleanalytics_resource_prefix="">
+    </div>
+  
+
+
+  
+      
+  
+  <div class="modal fade" id="touModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">利用規約</h4>
+        </div>
+        <div class="modal-body">
+          港区オープンデータカタログサイトの<a href="/about" target=_blank >利用規約</a>をご確認の上、ご利用ください。
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>document.getElementsByTagName('html')[0].className += ' js';</script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2018-02-06T14:36:31.36/jquery.min.js"></script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2018-02-06T14:36:31.36/:bundle:bootstrap/js/bootstrap.min.js;jed.min.js;moment-with-locales.js;select2/select2.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/:version:2018-02-06T14:36:31.35/:bundle:plugins/jquery.inherit.min.js;plugins/jquery.proxy-all.min.js;plugins/jquery.url-helpers.min.js;plugins/jquery.date-helpers.min.js;plugins/jquery.slug.min.js;plugins/jquery.slug-preview.min.js;plugins/jquery.truncator.min.js;plugins/jquery.masonry.min.js;plugins/jquery.form-warning.min.js;sandbox.min.js;module.min.js;pubsub.min.js;client.min.js;notify.min.js;i18n.min.js;main.min.js;modules/select-switch.min.js;modules/slug-preview.min.js;modules/basic-form.min.js;modules/confirm-action.min.js;modules/api-info.min.js;modules/autocomplete.min.js;modules/custom-fields.min.js;modules/data-viewer.min.js;modules/table-selectable-rows.min.js;modules/resource-form.min.js;modules/resource-upload-field.min.js;modules/resource-reorder.min.js;modules/resource-view-reorder.min.js;modules/follow.min.js;modules/activity-stream.min.js;modules/dashboard.min.js;modules/resource-view-embed.min.js;view-filters.min.js;modules/resource-view-filters-form.min.js;modules/resource-view-filters.min.js;modules/table-toggle-more.min.js;modules/dataset-visibility.min.js;modules/media-grid.min.js;modules/image-upload.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/:version:2018-02-06T14:36:31.35/tracking.min.js"></script>
+<script type="text/javascript" src="/fanstatic/ckanext-googleanalytics/:version:2019-10-14T23:49:35.68/googleanalytics_event_tracking.js"></script>
+<script type="text/javascript" src="/fanstatic/minatoku_theme/:version:2019-07-04T17:52:08.10/terms_of_use_popup.js"></script>
+<script type="text/javascript" src="/fanstatic/pages/:version:2018-02-19T11:33:30.56/:bundle:js/medium-editor.min.js;js/pages-editor.js"></script></body>
+</html>

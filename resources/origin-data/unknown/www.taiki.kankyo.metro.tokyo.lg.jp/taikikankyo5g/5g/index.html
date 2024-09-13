@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="../css/common.css" rel="stylesheet" type="text/css" />
+<link href="../css/layout.catalog.css?v=6" rel="stylesheet" type="text/css" />
+<link href="../css/dcmegamenu.css" rel="stylesheet" type="text/css" />
+<link href="../css/jquery-ui.css" rel="stylesheet" />
+<link type="text/css" href="../css/jquery.jqplot.css" rel="stylesheet" />
+<link href="../css/graph.catalog.css?v=6" rel="stylesheet" type="text/css" />
+
+<script type='text/javascript' src='../js/jquery-1.11.1.min.js'></script>
+<script type='text/javascript' src='../js/jquery-ui.min.js'></script>
+<script type='text/javascript' src='../js/jquery.ba-throttle-debounce.min.js'></script>
+<script type="text/javascript" src="../js/moment-2.8.3.min.js"></script>
+
+<script type='text/javascript' src='../js/datepicker-ja.js'></script>
+<script type='text/javascript' src='../js/jquery.dcmegamenu.1.3.3.min.js'></script>
+<script type="text/javascript" src="../js/jquery/jqplot/excanvas.min.js"></script>
+
+<script type="text/javascript" src="../js/jquery/jqplot/jquery.jqplot.min.js"></script>
+<script type="text/javascript" src="../js/jquery/jqplot/jqplot.enhancedLegendRenderer.js"></script>
+
+<script type="text/javascript" src="../js/jquery/jqplot/plugins/jqplot.cursor.min.js"></script>
+<script type="text/javascript" src="../js/jquery/jqplot/plugins/jqplot.barRenderer.min.js"></script>
+<script type="text/javascript" src="../js/jquery/jqplot/plugins/jqplot.categoryAxisRenderer.min.js"></script>
+<script type="text/javascript" src="../js/jquery/jqplot/plugins/jqplot.pointLabels.min.js"></script>
+
+<!-- SystemCode -->
+<script type='text/javascript' src='../js/common.write.catalog.js'></script>
+<script type='text/javascript' src='../js/jquery.stickytableheaders.min.js'></script>
+<script type="text/javascript" src="../js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="../js/jquery/plugin/jquery.textresizer.min.js"></script>
+
+<!-- SystemCode -->
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>モニタリングデータ</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+<body>
+	<script type="text/javascript">
+		writeHeader("../", "header.catalog.html");
+	</script>
+	<div id="contents">
+		<script type="text/javascript">
+			writeHeader("../", "menu.catalog.html");
+		</script>
+		<!-- InstanceBeginEditable name="EditPlist" -->
+		<div id="p_list">
+		</div>
+		<!-- InstanceEndEditable -->
+		<div id="main">
+			<!-- InstanceBeginEditable name="EditMain" -->
+			<div id="atmosphere">
+				<div class="line" id="catalog">
+					<h2>モニタリングデータ</h2>
+
+					<script type="text/javascript">
+						writeHeader("../", "ymdhm.catalog.html");
+					</script>
+					<script type="text/javascript">
+						writeHeader("../", "items.html");
+					</script>
+					<div id="print_area_table">
+						<div class="x_data_area">
+							<div id="jqPlot-sample" style="height: 1200px; width: 950px;">&nbsp;</div>
+						</div>
+					</div>
+					<div class="guidance">
+						<a id="pageSetsume" >ここからデータの説明です。</a>
+					</div>
+					<ul class="mt20 note" aria-hidden="true">
+					</ul>
+				</div>
+			</div>
+			<!-- InstanceEndEditable -->
+		</div>
+		<script type="text/javascript">
+			writeHeader("../", "footer_bg.html");
+		</script>
+	</div>
+	<!-- InstanceBeginEditable name="EditJavaarea" -->
+	<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd -->
+</html>
