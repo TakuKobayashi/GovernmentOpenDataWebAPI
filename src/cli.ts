@@ -18,7 +18,7 @@ import { exportToInsertSQL } from './utils/data-exporters';
 import { requestKeyphrase, requestAnalysisParse } from './utils/yahoo-api';
 import { sleep } from './utils/util';
 import { config } from 'dotenv';
-import { CrawlerState, PrismaClient } from '@prisma/client';
+import { CrawlerState, CrawlerType, PrismaClient } from '@prisma/client';
 config();
 
 program.storeOptionsAsProperties(false);
@@ -558,11 +558,11 @@ program
       }
     }
 
-    const originXlsFilePathes = fg.sync(['resources', 'origin-data', '**', '*.xls'].join('/'))
-    const originXlsxFilePathes = fg.sync(['resources', 'origin-data', '**', '*.xlsx'].join('/'))
-    const originCsvFilePathes = fg.sync(['resources', 'origin-data', '**', '*.csv'].join('/'))
-    for(const dataFilePath of [...originXlsFilePathes, ...originXlsxFilePathes,...originCsvFilePathes]){
-      let workbook
+    const originXlsFilePathes = fg.sync(['resources', 'origin-data', '**', '*.xls'].join('/'));
+    const originXlsxFilePathes = fg.sync(['resources', 'origin-data', '**', '*.xlsx'].join('/'));
+    const originCsvFilePathes = fg.sync(['resources', 'origin-data', '**', '*.csv'].join('/'));
+    for (const dataFilePath of [...originXlsFilePathes, ...originXlsxFilePathes, ...originCsvFilePathes]) {
+      let workbook;
       try {
         if (path.extname(dataFilePath) === '.csv') {
           const readFileData = fs.readFileSync(dataFilePath, 'utf8');
@@ -576,14 +576,106 @@ program
 
       const urlFilePathParts = dataFilePath.split('/');
       urlFilePathParts.splice(0, 3);
+      const crawlerRelationObj = await loadCrawlerRelationObj(urlFilePathParts.join('/'));
+      if (!crawlerRelationObj.crawler || !crawlerRelationObj.crawlerRootRelation || !crawlerRelationObj.crawlerRoot) {
+        continue;
+      }
+      const rootUrl = new URL(crawlerRelationObj.crawlerRoot.url);
+      const fileTitle = crawlerRelationObj.crawler.origin_title.normalize('NFKC');
+      const filePathes: Set<string> = new Set();
       const sheetNames = Object.keys(workbook.Sheets);
       for (const sheetName of sheetNames) {
         const themeRows: any[] = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName]);
-        const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, 'origin', ...urlFilePathParts, sheetName, `${sheetName}.json`);
+        const saveFileName = `${fileTitle}_${sheetName.normalize('NFKC')}.json`;
+        filePathes.add(saveFileName);
+        const willSaveFilePath: string = path.join(
+          'build',
+          'api',
+          API_VERSION_NAME,
+          'origin',
+          ...rootUrl.pathname.split('/'),
+          saveFileName,
+        );
         saveToLocalFileFromString(willSaveFilePath, JSON.stringify(themeRows));
       }
+      const fileListSavePath: string = path.join(
+        'build',
+        'api',
+        API_VERSION_NAME,
+        'origin',
+        ...rootUrl.pathname.split('/'),
+        'filelist.json',
+      );
+      saveToLocalFileFromString(fileListSavePath, JSON.stringify(Array.from(filePathes)));
     }
   });
+
+async function loadCrawlerRelationObj(filePath: string): Promise<{ [modelName: string]: any }> {
+  const httpsFileUrl = `https://${filePath}`;
+  const crawlerModelsObj: {
+    crawler?: {
+      id: number;
+      origin_url: string;
+      origin_file_ext: string;
+      origin_title: string | null;
+      checksum: string | null;
+      need_manual_edit: boolean;
+      state: CrawlerState;
+      last_updated_at: Date | null;
+      origin_file_encoder: string | null;
+      origin_file_size: bigint;
+    };
+    crawlerRootRelation?: {
+      id: number;
+      to_url: string;
+      to_crawler_type: CrawlerType;
+      from_crawler_root_id: number;
+    };
+    crawlerRoot?: {
+      id: number;
+      url: string;
+      last_updated_at: Date | null;
+    };
+  } = {};
+  const httpsCrawlerModel = await prismaClient.crawler.findFirst({
+    where: {
+      origin_url: {
+        startsWith: httpsFileUrl,
+      },
+    },
+  });
+  if (httpsCrawlerModel) {
+    crawlerModelsObj.crawler = httpsCrawlerModel;
+  } else {
+    const httpFileUrl = `http://${filePath}`;
+    const httpCrawlerModel = await prismaClient.crawler.findFirst({
+      where: {
+        origin_url: {
+          startsWith: httpFileUrl,
+        },
+      },
+    });
+    if (httpCrawlerModel) {
+      crawlerModelsObj.crawler = httpCrawlerModel;
+    }
+  }
+  if (!crawlerModelsObj.crawler) {
+    return {};
+  }
+  const crawlerRootRelationModel = await prismaClient.crawlerRootRelation.findFirst({
+    where: {
+      to_url: crawlerModelsObj.crawler.origin_url,
+    },
+  });
+  if (crawlerRootRelationModel) {
+    crawlerModelsObj.crawlerRootRelation = crawlerRootRelationModel;
+    const crawlerRootModel = await prismaClient.crawlerRoot.findFirst({ where: { id: crawlerRootRelationModel.from_crawler_root_id } });
+    if (crawlerRootModel) {
+      crawlerModelsObj.crawlerRoot = crawlerRootModel;
+    }
+  }
+  return crawlerModelsObj;
+}
 
 const crawlCommand = new Command('crawl');
 
