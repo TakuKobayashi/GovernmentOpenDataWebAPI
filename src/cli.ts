@@ -561,8 +561,6 @@ program
     const originXlsFilePathes = fg.sync(['resources', 'origin-data', '**', '*.xls'].join('/'));
     const originXlsxFilePathes = fg.sync(['resources', 'origin-data', '**', '*.xlsx'].join('/'));
     const originCsvFilePathes = fg.sync(['resources', 'origin-data', '**', '*.csv'].join('/'));
-    const rootUrlFilePathes: { [rootUrl: string]: Set<string> } = {};
-    await crawlerFindInBatches({}, 1000, async (crawlerModels) => {});
     for (const dataFilePath of [...originXlsFilePathes, ...originXlsxFilePathes, ...originCsvFilePathes]) {
       let workbook;
       try {
@@ -583,16 +581,13 @@ program
         continue;
       }
       const rootUrl = new URL(crawlerRelationObj.crawlerRoot.url);
-      if (!rootUrlFilePathes[rootUrl.pathname]) {
-        rootUrlFilePathes[rootUrl.pathname] = new Set<string>();
-      }
-      const fileUrlPath = path.parse(crawlerRelationObj.crawler.origin_url);
       const fileTitle = crawlerRelationObj.crawler.origin_title.normalize('NFKC');
+      const filePathes: Set<string> = new Set();
       const sheetNames = Object.keys(workbook.Sheets);
       for (const sheetName of sheetNames) {
         const themeRows: any[] = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName]);
-        const saveFileName = `${fileUrlPath.name}_${sheetName.normalize('NFKC')}_${path.extname(dataFilePath).substring(1)}.json`;
-        rootUrlFilePathes[rootUrl.pathname].add(saveFileName);
+        const saveFileName = `${fileTitle}_${sheetName.normalize('NFKC')}.json`;
+        filePathes.add(saveFileName);
         const willSaveFilePath: string = path.join(
           'build',
           'api',
@@ -601,7 +596,7 @@ program
           ...rootUrl.pathname.split('/'),
           saveFileName,
         );
-        saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ title: fileTitle, sheetName: sheetName, data: themeRows }));
+        saveToLocalFileFromString(willSaveFilePath, JSON.stringify(themeRows));
       }
       const fileListSavePath: string = path.join(
         'build',
@@ -611,7 +606,7 @@ program
         ...rootUrl.pathname.split('/'),
         'filelist.json',
       );
-      saveToLocalFileFromString(fileListSavePath, JSON.stringify(Array.from(rootUrlFilePathes[rootUrl.pathname])));
+      saveToLocalFileFromString(fileListSavePath, JSON.stringify(Array.from(filePathes)));
     }
   });
 
