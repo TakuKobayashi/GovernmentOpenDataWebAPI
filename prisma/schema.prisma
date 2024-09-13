@@ -19,16 +19,17 @@ model Category {
 }
 
 model Place {
-  id               Int            @id @default(autoincrement())
-  hashcode         String         @unique @db.VarChar(255)
-  name             String         @db.VarChar(255)
+  id               Int                 @id @default(autoincrement())
+  hashcode         String              @unique @db.VarChar(255)
+  name             String              @db.VarChar(255)
   province         String?
   city             String?
-  address          String?        @db.VarChar(255)
+  address          String?             @db.VarChar(255)
   lat              Float?
   lon              Float?
-  geohash          String?        @db.VarChar(255)
-  place_categories DataCategory[] @relation("PlaceSource")
+  geohash          String?             @db.VarChar(255)
+  place_categories DataCategory[]      @relation("DataCategoryPlaceSource")
+  import_crawlers  ImportCrawlerData[] @relation("ImportCrawlerPlaceSource")
 
   @@index([geohash])
   @@map("places")
@@ -40,7 +41,7 @@ model DataCategory {
   source_type SourceType
   category_id Int
   extra_info  Json?
-  place       Place      @relation("PlaceSource", fields: [source_id], references: [id], map: "place_source_id")
+  place       Place      @relation("DataCategoryPlaceSource", fields: [source_id], references: [id], map: "place_category_source_id")
   category    Category   @relation(fields: [category_id], references: [id])
 
   @@unique([source_type, source_id, category_id])
@@ -54,15 +55,43 @@ model Crawler {
   origin_title        String?               @db.VarChar(255)
   checksum            String?               @db.VarChar(255)
   need_manual_edit    Boolean               @default(false)
+  state               CrawlerState          @default(STANDBY)
   last_updated_at     DateTime?
   origin_file_encoder String?
   origin_file_size    BigInt                @default(0)
   crawler_categories  CrawlerCategory[]     @relation("CrawlerCategory")
+  import_crawler_data ImportCrawlerData[]
+  import_fail_logs    ImportFailLog[]
   crawler_keywords    CrawlerKeyword[]
   parents             CrawlerRootRelation[] @relation("CrawlerOriginUrl")
 
   @@index([last_updated_at])
   @@map("crawlers")
+}
+
+model ImportFailLog {
+  id             Int        @id @default(autoincrement())
+  crawl_url      String
+  file_path      String?
+  to_source_type SourceType
+  fail_logs      Json?
+  crawler        Crawler    @relation(fields: [crawl_url], references: [origin_url])
+
+  @@index([crawl_url])
+  @@map("import_fail_logs")
+}
+
+model ImportCrawlerData {
+  id          Int        @id @default(autoincrement())
+  source_id   Int
+  source_type SourceType
+  crawl_url   String
+  extra_info  Json?
+  place       Place      @relation("ImportCrawlerPlaceSource", fields: [source_id], references: [id], map: "import_crawler_place_source_id")
+  crawler     Crawler    @relation(fields: [crawl_url], references: [origin_url])
+
+  @@unique([crawl_url, source_type, source_id])
+  @@map("import_crawler_data")
 }
 
 model Gsimuni {
@@ -133,6 +162,14 @@ model Keyword {
   crawler_keywords CrawlerKeyword[]
 
   @@map("keywords")
+}
+
+enum CrawlerState {
+  STANDBY
+  DOWNLOADED
+  KEYWORD_GENERATED
+  IMPORTED
+  IMPORT_FAILED
 }
 
 enum SourceType {

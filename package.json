@@ -17,7 +17,9 @@
   "author": "TakuKobayashi",
   "private": false,
   "dependencies": {
+    "@koozaki/romaji-conv": "^2.0.30",
     "@prisma/client": "5.18.0",
+    "adm-zip": "^0.5.16",
     "axios": "^1.7.5",
     "encoding-japanese": "^2.2.0",
     "geohashing": "^2.0.1",
@@ -25,6 +27,7 @@
     "mysql2": "^3.11.0",
     "node-html-parser": "^6.1.13",
     "prisma": "^5.18.0",
+    "puppeteer": "^23.3.0",
     "simple-git": "^3.26.0"
   },
   "devDependencies": {
