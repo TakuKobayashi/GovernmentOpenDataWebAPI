@@ -1,0 +1,271 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D>
+      rdf:type rdf:Property ;
+      rdfs:label "投票所名"@ja .
+<http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0>
+      rdf:type rdf:Property ;
+      rdfs:label "登録者数"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%91%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第１投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "四谷保健センター等複合施設"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "5005"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%92%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第２投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "四谷小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "5339"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%93%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第３投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "四谷ひろば"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "7538"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%94%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第４投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "信濃町子ども家庭支援センター"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "7634"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%95%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第５投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "花園小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "6434"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%96%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第６投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "津久戸小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "8232"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%97%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第７投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "愛日小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "4425"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%98%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第８投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "江戸川小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "6266"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%99%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第９投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "簞笥町特別出張所"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "4251"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%91%EF%BC%90%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第１０投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "市谷幼稚園"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "4866"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%91%EF%BC%91%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第１１投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "細工町高齢者在宅ｻｰﾋﾞｽｾﾝﾀｰ"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "5744"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%91%EF%BC%92%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第１２投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "牛込仲之小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "7079"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%91%EF%BC%93%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第１３投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "都立新宿山吹高等学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "6487"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%91%EF%BC%94%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第１４投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "鶴巻小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "4008"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%91%EF%BC%95%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第１５投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "早稲田小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "6818"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%91%EF%BC%96%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第１６投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "成城学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "8116"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%91%EF%BC%97%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第１７投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "区立障害者福祉センター"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "2158"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%91%EF%BC%98%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第１８投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "若松町特別出張所"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "5632"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%91%EF%BC%99%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第１９投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "住吉町生涯学習館"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "3498"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%92%EF%BC%90%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第２０投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "富久小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "5935"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%92%EF%BC%91%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第２１投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "西早稲田中学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "4945"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%92%EF%BC%92%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第２２投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "東戸山小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "4639"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%92%EF%BC%93%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第２３投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "子ども総合センター"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "5106"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%92%EF%BC%94%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第２４投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "天神小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "5577"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%92%EF%BC%95%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第２５投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "新宿スポーツセンター"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "6474"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%92%EF%BC%96%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第２６投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "大久保小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "2331"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%92%EF%BC%97%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第２７投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "新宿区役所第一分庁舎"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "2491"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%92%EF%BC%98%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第２８投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "戸山小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "6191"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%92%EF%BC%99%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第２９投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "西戸山小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "6225"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%93%EF%BC%90%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第３０投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "西早稲田地域交流館"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "4795"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%93%EF%BC%91%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第３１投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "戸塚第一小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "4904"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%93%EF%BC%92%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第３２投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "戸塚第二幼稚園"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "4746"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%93%EF%BC%93%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第３３投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "新宿リサイクル活動センター"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "4896"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%93%EF%BC%94%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第３４投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "戸塚第三小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "6268"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%93%EF%BC%95%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第３５投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "落合第四小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "6544"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%93%EF%BC%96%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第３６投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "落合第一特別出張所"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "7594"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%93%EF%BC%97%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第３７投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "落合第二中学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "5294"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%93%EF%BC%98%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第３８投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "中落合高齢者在宅ｻｰﾋﾞｽｾﾝﾀｰ"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "3784"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%93%EF%BC%99%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第３９投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "落合第二小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "8096"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%94%EF%BC%90%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第４０投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "落合第六小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "7350"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%94%EF%BC%91%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第４１投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "落合第三小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "5590"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%94%EF%BC%92%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第４２投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "落合第五小学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "7861"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%94%EF%BC%93%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第４３投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "東京母子愛育会保育園"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "4832"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%94%EF%BC%94%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第４４投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "淀橋第四幼稚園"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "5129"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%94%EF%BC%95%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第４５投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "大智学園高等学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "5758"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%94%EF%BC%96%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第４６投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "柏木地域センター"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "4127"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%94%EF%BC%97%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第４７投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "西新宿中学校"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "4572"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%94%EF%BC%98%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第４８投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "新宿ファーストウエスト"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "451"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%94%EF%BC%99%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第４９投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "芸能花伝舎"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "6097"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E7%AC%AC%EF%BC%95%EF%BC%90%E6%8A%95%E7%A5%A8%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "第５０投票区"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "角筈特別出張所"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "7652"@ja .
+
+<http://linkdata.org/resource/rdf1s7503i#%E5%90%88%E8%A8%88>
+      <http://www.w3.org/2000/01/rdf-schema#label> "合計"@ja ;
+      <http://linkdata.org/property/rdf1s7503i#%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0> "275784"@ja .
+

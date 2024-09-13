@@ -1,0 +1,19 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	nihonjin_gaikokujinbetsu_jinko_suii2015
+#download_from	http://linkdata.org/work/rdf1s7892i
+#property	総数(単位:人)	日本人(単位:人)	外国人(単位:人)	不詳(単位:人)
+#object_type_xsd	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion
+1990年	296790	280322	10830	5638
+1995年	279048	262985	13026	3037
+2000年	286726	269699	16474	553
+2005年	305716	287351	16457	1908
+2010年	326309	286398	25742	14169
+2015年	333560	300013	30506	3041
+【参考】男(2015年)	167258	150113	15384	1761
+【参考】女(2015年)	166302	149900	15122	1280
+【参考】特別区部(2015年)	9272740	8836254	318457	118029
+【参考】全国(2015年)	127094745	124283901	1752368	1058476

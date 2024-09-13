@@ -1,0 +1,198 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s5043i#%E7%B7%8F%E6%95%B0%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "総数（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "慢性気管支炎(総数)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "慢性気管支炎(特級)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "慢性気管支炎(1級)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "慢性気管支炎(2級)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "慢性気管支炎(3級)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "慢性気管支炎(等級外)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "気管支ぜん息(総数)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "気管支ぜん息(特級)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "気管支ぜん息(1級)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "気管支ぜん息(2級)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "気管支ぜん息(3級)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "気管支ぜん息(等級外)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "ぜん息性気管支炎(総数)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "ぜん息性気管支炎(特級)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "ぜん息性気管支炎(1級)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "ぜん息性気管支炎(2級)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "ぜん息性気管支炎(3級)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "ぜん息性気管支炎(等級外)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "肺気しゅ(総数)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "肺気しゅ(特級)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "肺気しゅ(1級)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "肺気しゅ(2級)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "肺気しゅ(3級)（単位：人）"@ja .
+<http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "肺気しゅ(等級外)（単位：人）"@ja .
+
+<http://linkdata.org/resource/rdf1s5043i#29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "29"@ja ;
+      <http://linkdata.org/property/rdf1s5043i#%E7%B7%8F%E6%95%B0%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "829"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "27"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "1"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "23"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "3"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "802"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "12"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "519"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "271"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s5043i#30>
+      <http://www.w3.org/2000/01/rdf-schema#label> "30"@ja ;
+      <http://linkdata.org/property/rdf1s5043i#%E7%B7%8F%E6%95%B0%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "809"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "23"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "1"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "19"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "3"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "786"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "14"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "502"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "270"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s5043i#%E5%85%83>
+      <http://www.w3.org/2000/01/rdf-schema#label> "元"@ja ;
+      <http://linkdata.org/property/rdf1s5043i#%E7%B7%8F%E6%95%B0%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "796"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "20"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "1"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "16"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "3"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "776"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "12"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "495"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "269"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s5043i#2>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2"@ja ;
+      <http://linkdata.org/property/rdf1s5043i#%E7%B7%8F%E6%95%B0%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "764"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "18"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "1"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "14"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%85%A2%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "3"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "746"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "12"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "495"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E6%B0%97%E7%AE%A1%E6%94%AF%E3%81%9C%E3%82%93%E6%81%AF%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "239"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E3%81%9C%E3%82%93%E6%81%AF%E6%80%A7%E6%B0%97%E7%AE%A1%E6%94%AF%E7%82%8E%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%28%E7%B7%8F%E6%95%B0%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%28%E7%89%B9%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%281%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%282%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%283%E7%B4%9A%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5043i#%E8%82%BA%E6%B0%97%E3%81%97%E3%82%85%28%E7%AD%89%E7%B4%9A%E5%A4%96%29%EF%BC%88%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%EF%BC%89> "0"^^xsd:int .
+

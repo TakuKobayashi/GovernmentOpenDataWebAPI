@@ -1,0 +1,14 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	gaikokujin_rodoryokujinko_rodoryokuritsu_suii2015
+#download_from	http://linkdata.org/work/rdf1s7901i
+#property	A外国人就業者（主に仕事）(単位：人)	B外国人就業者（家事のほか仕事）(単位：人)	C外国人就業者（通学のかたわら仕事）(単位：人)	D外国人就業者（休業者）(単位：人)	E外国人完全失業者(単位：人)	F外国人労働力人口[A＋B+C＋D＋E](単位：人)	G外国人非労働力人口(単位：人)	H外国人労働力 状態「不詳」(単位：人)	I外国人人口[F＋G＋H]（15歳以上）(単位：人)	J日本人を含む労働力人口総数（15歳以上）(単位：人)	【参考】労働力率（日本人・外国人計）(単位：%)	日本人を含む労働力人口総数に占める外国人の割合[F÷J](単位：%)	外国人の労働力率[F÷(F+G)](単位：%)
+#object_type_xsd	string	string	string	string	string	string	string	string	string	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+2005年	4219	559	629	158	662	6227	5429	3406	15062	148551	63.7	4.2	53.4
+2010年	5229	708	643	178	462	7220	4993	9690	21903	146060	66.3	4.9	59.1
+2015年	6842	618	805	137	213	8615	3288	16046	27949	139638	67.4	6.2	72.4
+【参考】2015年特別区	77116	11628	5010	2807	4345	100906	45682	138998	285586	4133813	65.4	2.4	68.8
+【参考】2015年全国	664956	94854	29073	19113	46300	854296	370738	342396	1567430	61523327	60	1.4	69.7

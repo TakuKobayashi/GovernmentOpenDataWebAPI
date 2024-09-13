@@ -1,0 +1,12 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	15saiijo_shugyo_tsugakusha_chibetsujinko_suii2015
+#download_from	http://linkdata.org/work/rdf1s7902i
+#property	新宿区内（自宅）で従業(単位:人)	新宿区内（自宅外）で従業・通学(単位:人)	都内他区で従業・通学(単位:人)	都内市町村で従業・通学(単位:人)	他県で従業・通学(単位:人)	従業・通学先市区町村「不詳・外国」(単位:人)	従業地・通学地「不詳」(単位:人)
+#object_type_xsd	string	string	string	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+2005年	17010	59394	69425	4399	7444	－	－
+2010年	12760	44945	59236	3621	6273	7815	21118
+2015年	11586	38125	58123	3482	6456	1225	28021

@@ -1,0 +1,132 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "母子世帯の母の総数(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "母子世帯の母の労働力人口(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%E3%81%AE%E3%81%86%E3%81%A1%E5%B0%B1%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "母子世帯の母の労働力人口のうち就業者(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E9%9D%9E%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "母子世帯の母の非労働力人口(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "母子世帯の母の労働力状態「不詳」人口(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29>
+      rdf:type rdf:Property ;
+      rdfs:label "母子世帯の母の労働力率(単位:％)"@ja .
+<http://linkdata.org/property/rdf1s7910i#%E5%A5%B3%E6%80%A7%E5%85%A8%E4%BD%93%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29>
+      rdf:type rdf:Property ;
+      rdfs:label "女性全体の労働力率(単位:％)"@ja .
+
+<http://linkdata.org/resource/rdf1s7910i#%E7%B7%8F%E6%95%B0>
+      <http://www.w3.org/2000/01/rdf-schema#label> "総数"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1566"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "927"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%E3%81%AE%E3%81%86%E3%81%A1%E5%B0%B1%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "882"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E9%9D%9E%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "119"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "520"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "88.6"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E5%A5%B3%E6%80%A7%E5%85%A8%E4%BD%93%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "58.3"@ja .
+
+<http://linkdata.org/resource/rdf1s7910i#%E6%AF%8D%E3%81%AE%E5%B9%B4%E9%BD%A2%EF%BC%9A15%EF%BD%9E19%E6%AD%B3>
+      <http://www.w3.org/2000/01/rdf-schema#label> "母の年齢：15～19歳"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%E3%81%AE%E3%81%86%E3%81%A1%E5%B0%B1%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E9%9D%9E%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E5%A5%B3%E6%80%A7%E5%85%A8%E4%BD%93%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "18.9"@ja .
+
+<http://linkdata.org/resource/rdf1s7910i#%E6%AF%8D%E3%81%AE%E5%B9%B4%E9%BD%A2%EF%BC%9A20%EF%BD%9E24%E6%AD%B3>
+      <http://www.w3.org/2000/01/rdf-schema#label> "母の年齢：20～24歳"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "21"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "9"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%E3%81%AE%E3%81%86%E3%81%A1%E5%B0%B1%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "9"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E9%9D%9E%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "5"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "7"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "64.3"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E5%A5%B3%E6%80%A7%E5%85%A8%E4%BD%93%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "65.3"@ja .
+
+<http://linkdata.org/resource/rdf1s7910i#%E6%AF%8D%E3%81%AE%E5%B9%B4%E9%BD%A2%EF%BC%9A25%EF%BD%9E29%E6%AD%B3>
+      <http://www.w3.org/2000/01/rdf-schema#label> "母の年齢：25～29歳"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "87"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "46"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%E3%81%AE%E3%81%86%E3%81%A1%E5%B0%B1%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "40"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E9%9D%9E%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "10"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "31"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "82.1"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E5%A5%B3%E6%80%A7%E5%85%A8%E4%BD%93%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "88.1"@ja .
+
+<http://linkdata.org/resource/rdf1s7910i#%E6%AF%8D%E3%81%AE%E5%B9%B4%E9%BD%A2%EF%BC%9A30%EF%BD%9E34%E6%AD%B3>
+      <http://www.w3.org/2000/01/rdf-schema#label> "母の年齢：30～34歳"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "153"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "77"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%E3%81%AE%E3%81%86%E3%81%A1%E5%B0%B1%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "70"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E9%9D%9E%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "14"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "62"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "84.6"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E5%A5%B3%E6%80%A7%E5%85%A8%E4%BD%93%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "81.8"@ja .
+
+<http://linkdata.org/resource/rdf1s7910i#%E6%AF%8D%E3%81%AE%E5%B9%B4%E9%BD%A2%EF%BC%9A35%EF%BD%9E39%E6%AD%B3>
+      <http://www.w3.org/2000/01/rdf-schema#label> "母の年齢：35～39歳"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "265"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "155"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%E3%81%AE%E3%81%86%E3%81%A1%E5%B0%B1%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "147"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E9%9D%9E%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "23"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "87"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "87.1"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E5%A5%B3%E6%80%A7%E5%85%A8%E4%BD%93%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "78"@ja .
+
+<http://linkdata.org/resource/rdf1s7910i#%E6%AF%8D%E3%81%AE%E5%B9%B4%E9%BD%A2%EF%BC%9A40%EF%BD%9E44%E6%AD%B3>
+      <http://www.w3.org/2000/01/rdf-schema#label> "母の年齢：40～44歳"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "406"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "243"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%E3%81%AE%E3%81%86%E3%81%A1%E5%B0%B1%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "234"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E9%9D%9E%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "22"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "141"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "91.7"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E5%A5%B3%E6%80%A7%E5%85%A8%E4%BD%93%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "77.6"@ja .
+
+<http://linkdata.org/resource/rdf1s7910i#%E6%AF%8D%E3%81%AE%E5%B9%B4%E9%BD%A2%EF%BC%9A45%EF%BD%9E49%E6%AD%B3>
+      <http://www.w3.org/2000/01/rdf-schema#label> "母の年齢：45～49歳"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "359"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "223"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%E3%81%AE%E3%81%86%E3%81%A1%E5%B0%B1%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "213"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E9%9D%9E%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "24"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "112"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "90.3"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E5%A5%B3%E6%80%A7%E5%85%A8%E4%BD%93%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "78.9"@ja .
+
+<http://linkdata.org/resource/rdf1s7910i#%E6%AF%8D%E3%81%AE%E5%B9%B4%E9%BD%A2%EF%BC%9A50%EF%BD%9E54%E6%AD%B3>
+      <http://www.w3.org/2000/01/rdf-schema#label> "母の年齢：50～54歳"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "202"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "132"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%E3%81%AE%E3%81%86%E3%81%A1%E5%B0%B1%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "129"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E9%9D%9E%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "12"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "58"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "91.7"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E5%A5%B3%E6%80%A7%E5%85%A8%E4%BD%93%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "75.1"@ja .
+
+<http://linkdata.org/resource/rdf1s7910i#%E6%AF%8D%E3%81%AE%E5%B9%B4%E9%BD%A2%EF%BC%9A55%E6%AD%B3%E4%BB%A5%E4%B8%8A>
+      <http://www.w3.org/2000/01/rdf-schema#label> "母の年齢：55歳以上"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "71"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "42"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%E3%81%AE%E3%81%86%E3%81%A1%E5%B0%B1%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "40"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E9%9D%9E%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "7"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "22"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E6%AF%8D%E5%AD%90%E4%B8%96%E5%B8%AF%E3%81%AE%E6%AF%8D%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "85.7"@ja ;
+      <http://linkdata.org/property/rdf1s7910i#%E5%A5%B3%E6%80%A7%E5%85%A8%E4%BD%93%E3%81%AE%E5%8A%B4%E5%83%8D%E5%8A%9B%E7%8E%87%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "36.3"@ja .
+

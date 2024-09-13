@@ -1,0 +1,173 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7>
+      rdf:type rdf:Property ;
+      rdfs:label "当日有権者数(人)：男"@ja .
+<http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3>
+      rdf:type rdf:Property ;
+      rdfs:label "当日有権者数(人)：女"@ja .
+<http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7>
+      rdf:type rdf:Property ;
+      rdfs:label "投票者数(人)：男"@ja .
+<http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3>
+      rdf:type rdf:Property ;
+      rdfs:label "投票者数(人)：女"@ja .
+<http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E7%94%B7>
+      rdf:type rdf:Property ;
+      rdfs:label "投票率(％)：男"@ja .
+<http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E5%A5%B3>
+      rdf:type rdf:Property ;
+      rdfs:label "投票率(％)：女"@ja .
+
+<http://linkdata.org/resource/rdf1s8544i#18>
+      <http://www.w3.org/2000/01/rdf-schema#label> "18"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "794"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "796"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "502"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "538"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E7%94%B7> "63.22"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E5%A5%B3> "67.59"@ja .
+
+<http://linkdata.org/resource/rdf1s8544i#19>
+      <http://www.w3.org/2000/01/rdf-schema#label> "19"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "924"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1017"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "446"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "521"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E7%94%B7> "48.27"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E5%A5%B3> "51.23"@ja .
+
+<http://linkdata.org/resource/rdf1s8544i#20>
+      <http://www.w3.org/2000/01/rdf-schema#label> "20"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1080"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1096"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "488"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "494"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E7%94%B7> "45.19"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E5%A5%B3> "45.07"@ja .
+
+<http://linkdata.org/resource/rdf1s8544i#21%EF%BD%9E24>
+      <http://www.w3.org/2000/01/rdf-schema#label> "21～24"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "6538"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "7051"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2321"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2714"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E7%94%B7> "35.50"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E5%A5%B3> "38.49"@ja .
+
+<http://linkdata.org/resource/rdf1s8544i#25%EF%BD%9E29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "25～29"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "13087"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "12024"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "4789"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "5199"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E7%94%B7> "36.59"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E5%A5%B3> "43.24"@ja .
+
+<http://linkdata.org/resource/rdf1s8544i#30%EF%BD%9E34>
+      <http://www.w3.org/2000/01/rdf-schema#label> "30～34"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "13548"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "12195"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "5834"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "6162"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E7%94%B7> "43.06"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E5%A5%B3> "50.53"@ja .
+
+<http://linkdata.org/resource/rdf1s8544i#35%EF%BD%9E39>
+      <http://www.w3.org/2000/01/rdf-schema#label> "35～39"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "14017"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "11758"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "6775"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "6587"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E7%94%B7> "48.33"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E5%A5%B3> "56.02"@ja .
+
+<http://linkdata.org/resource/rdf1s8544i#40%EF%BD%9E44>
+      <http://www.w3.org/2000/01/rdf-schema#label> "40～44"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "13217"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "11765"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "7032"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "7030"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E7%94%B7> "53.20"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E5%A5%B3> "59.75"@ja .
+
+<http://linkdata.org/resource/rdf1s8544i#45%EF%BD%9E49>
+      <http://www.w3.org/2000/01/rdf-schema#label> "45～49"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "13311"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "12640"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "7377"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "8054"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E7%94%B7> "55.42"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E5%A5%B3> "63.72"@ja .
+
+<http://linkdata.org/resource/rdf1s8544i#50%EF%BD%9E54>
+      <http://www.w3.org/2000/01/rdf-schema#label> "50～54"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "11516"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "10844"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "6697"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "7131"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E7%94%B7> "58.15"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E5%A5%B3> "65.76"@ja .
+
+<http://linkdata.org/resource/rdf1s8544i#55%EF%BD%9E59>
+      <http://www.w3.org/2000/01/rdf-schema#label> "55～59"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "9364"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "8956"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "5605"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "5931"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E7%94%B7> "59.86"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E5%A5%B3> "66.22"@ja .
+
+<http://linkdata.org/resource/rdf1s8544i#60%EF%BD%9E64>
+      <http://www.w3.org/2000/01/rdf-schema#label> "60～64"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "7584"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "7154"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "4553"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "4798"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E7%94%B7> "60.03"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E5%A5%B3> "67.07"@ja .
+
+<http://linkdata.org/resource/rdf1s8544i#65%EF%BD%9E69>
+      <http://www.w3.org/2000/01/rdf-schema#label> "65～69"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "7332"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "7008"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "4382"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "4863"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E7%94%B7> "59.77"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E5%A5%B3> "69.39"@ja .
+
+<http://linkdata.org/resource/rdf1s8544i#70%EF%BD%9E74>
+      <http://www.w3.org/2000/01/rdf-schema#label> "70～74"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "8215"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "8602"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "5151"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "5782"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E7%94%B7> "62.70"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E5%A5%B3> "67.22"@ja .
+
+<http://linkdata.org/resource/rdf1s8544i#75%EF%BD%9E79>
+      <http://www.w3.org/2000/01/rdf-schema#label> "75～79"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "5689"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "7443"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "3625"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "4905"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E7%94%B7> "63.72"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E5%A5%B3> "65.90"@ja .
+
+<http://linkdata.org/resource/rdf1s8544i#80%E6%AD%B3%E4%BB%A3%E4%BB%A5%E4%B8%8A>
+      <http://www.w3.org/2000/01/rdf-schema#label> "80歳代以上"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "7411"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "14477"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "3900"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "6354"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E7%94%B7> "52.62"@ja ;
+      <http://linkdata.org/property/rdf1s8544i#%E6%8A%95%E7%A5%A8%E7%8E%87%28%EF%BC%85%29%EF%BC%9A%E5%A5%B3> "43.89"@ja .
+

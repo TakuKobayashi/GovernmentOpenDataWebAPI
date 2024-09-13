@@ -1,0 +1,638 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D>
+      rdf:type rdf:Property ;
+      rdfs:label "投票所名"@ja .
+<http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7>
+      rdf:type rdf:Property ;
+      rdfs:label "登録日現在登録者数(人)（令和2年6月17日現在）：男"@ja .
+<http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3>
+      rdf:type rdf:Property ;
+      rdfs:label "登録日現在登録者数(人)（令和2年6月17日現在）：女"@ja .
+<http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7>
+      rdf:type rdf:Property ;
+      rdfs:label "当日有権者数(人)：男"@ja .
+<http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3>
+      rdf:type rdf:Property ;
+      rdfs:label "当日有権者数(人)：女"@ja .
+<http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7>
+      rdf:type rdf:Property ;
+      rdfs:label "投票者総数(人)：男"@ja .
+<http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3>
+      rdf:type rdf:Property ;
+      rdfs:label "投票者総数(人)：女"@ja .
+<http://linkdata.org/property/rdf1s8543i#投票率(%)：男>
+      rdf:type rdf:Property ;
+      rdfs:label "投票率(%)：男"@ja .
+<http://linkdata.org/property/rdf1s8543i#投票率(%)：女>
+      rdf:type rdf:Property ;
+      rdfs:label "投票率(%)：女"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#1>
+      <http://www.w3.org/2000/01/rdf-schema#label> "1"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "四谷保健センター等複合施設"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2395"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2580"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2336"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2532"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1351"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1525"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "57.83"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "60.23"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#2>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "四谷小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2607"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2685"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2561"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2641"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1505"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1604"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "58.77"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "60.73"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#3>
+      <http://www.w3.org/2000/01/rdf-schema#label> "3"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "四谷ひろば"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "3775"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "3743"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "3677"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "3662"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1854"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2032"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "50.42"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "55.49"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "4"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "信濃町子ども家庭支援センター"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "3406"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "4073"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "3307"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "3990"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1869"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2280"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "56.52"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "57.14"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#5>
+      <http://www.w3.org/2000/01/rdf-schema#label> "5"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "花園小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "3476"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2911"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "3367"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2852"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1698"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1630"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "50.43"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "57.15"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#6>
+      <http://www.w3.org/2000/01/rdf-schema#label> "6"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "津久戸小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "3827"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "4389"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "3752"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "4326"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2187"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2620"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "58.29"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "60.56"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#7>
+      <http://www.w3.org/2000/01/rdf-schema#label> "7"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "愛日小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2045"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2365"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2006"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2332"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1240"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1541"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "61.81"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "66.08"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#8>
+      <http://www.w3.org/2000/01/rdf-schema#label> "8"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "江戸川小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "3022"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "3177"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2932"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "3111"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1721"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1892"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "58.7"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "60.82"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#9>
+      <http://www.w3.org/2000/01/rdf-schema#label> "9"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "箪笥町特別出張所"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "1996"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2251"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1957"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2218"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1122"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1377"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "57.33"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "62.08"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#10>
+      <http://www.w3.org/2000/01/rdf-schema#label> "10"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "市谷幼稚園"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2237"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2594"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2180"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2545"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1324"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1607"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "60.73"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "63.14"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#11>
+      <http://www.w3.org/2000/01/rdf-schema#label> "11"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "細工町高齢者在宅サービスセンター"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2553"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "3203"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2502"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "3109"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1511"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1875"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "60.39"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "60.31"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#12>
+      <http://www.w3.org/2000/01/rdf-schema#label> "12"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "牛込仲之小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "3753"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "3397"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "3563"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "3300"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1970"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2024"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "55.29"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "61.33"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#13>
+      <http://www.w3.org/2000/01/rdf-schema#label> "13"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "都立新宿山吹高等学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "3047"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "3406"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2978"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "3339"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1692"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2024"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "56.82"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "60.62"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#14>
+      <http://www.w3.org/2000/01/rdf-schema#label> "14"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "鶴巻小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2016"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2009"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1958"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1955"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1064"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1154"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "54.34"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "59.03"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#15>
+      <http://www.w3.org/2000/01/rdf-schema#label> "15"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "早稲田小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "3270"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "3530"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "3197"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "3470"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1786"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2088"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "55.86"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "60.17"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#16>
+      <http://www.w3.org/2000/01/rdf-schema#label> "16"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "成城学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "3790"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "4325"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "3704"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "4233"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2027"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2383"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "54.72"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "56.3"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#17>
+      <http://www.w3.org/2000/01/rdf-schema#label> "17"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "区立障害者福祉センター"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "995"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "1094"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "969"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1076"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "532"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "613"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "54.9"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "56.97"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#18>
+      <http://www.w3.org/2000/01/rdf-schema#label> "18"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "若松町特別出張所"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2755"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2840"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2677"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2779"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1430"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1620"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "53.42"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "58.29"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#19>
+      <http://www.w3.org/2000/01/rdf-schema#label> "19"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "住吉町生涯学習館"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "1732"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "1788"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1688"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1739"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "873"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "976"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "51.72"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "56.12"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#20>
+      <http://www.w3.org/2000/01/rdf-schema#label> "20"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "富久小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2949"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2943"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2883"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2904"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1541"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1649"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "53.45"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "56.78"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#21>
+      <http://www.w3.org/2000/01/rdf-schema#label> "21"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "西早稲田中学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2523"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2334"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2457"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2280"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1333"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1356"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "54.25"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "59.47"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#22>
+      <http://www.w3.org/2000/01/rdf-schema#label> "22"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "東戸山小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "1820"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2835"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1806"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2812"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "951"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1582"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "52.66"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "56.26"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#23>
+      <http://www.w3.org/2000/01/rdf-schema#label> "23"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "子ども総合センター"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2631"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2459"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2568"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2421"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1148"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1244"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "44.7"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "51.38"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#24>
+      <http://www.w3.org/2000/01/rdf-schema#label> "24"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "天神小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "3083"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2485"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2992"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2416"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1185"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1110"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "39.61"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "45.94"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#25>
+      <http://www.w3.org/2000/01/rdf-schema#label> "25"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "新宿スポーツセンター"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "3331"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "3150"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "3230"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "3064"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1530"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1754"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "47.37"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "57.25"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#26>
+      <http://www.w3.org/2000/01/rdf-schema#label> "26"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "大久保小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "1274"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "1041"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1225"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1011"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "461"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "456"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "37.63"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "45.1"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#27>
+      <http://www.w3.org/2000/01/rdf-schema#label> "27"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "新宿区役所第一分庁舎"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "1660"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "795"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1562"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "768"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "397"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "318"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "25.42"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "41.41"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#28>
+      <http://www.w3.org/2000/01/rdf-schema#label> "28"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "戸山小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "3393"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2713"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "3292"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2656"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1329"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1254"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "40.37"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "47.21"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "29"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "西戸山小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2782"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "3442"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2718"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "3398"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1539"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1967"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "56.62"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "57.89"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#30>
+      <http://www.w3.org/2000/01/rdf-schema#label> "30"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "西早稲田地域交流館"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2307"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2502"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2233"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2467"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1221"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1470"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "54.68"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "59.59"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#31>
+      <http://www.w3.org/2000/01/rdf-schema#label> "31"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "戸塚第一小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2476"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2418"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2423"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2386"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1384"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1480"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "57.12"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "62.03"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#32>
+      <http://www.w3.org/2000/01/rdf-schema#label> "32"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "戸塚第二幼稚園"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2494"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2216"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2435"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2173"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1292"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1306"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "53.06"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "60.1"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#33>
+      <http://www.w3.org/2000/01/rdf-schema#label> "33"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "新宿リサイクル活動センター"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2543"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2337"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2489"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2299"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1271"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1311"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "51.06"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "57.02"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#34>
+      <http://www.w3.org/2000/01/rdf-schema#label> "34"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "戸塚第三小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "3306"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2904"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "3214"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2852"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1548"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1573"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "48.16"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "55.15"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#35>
+      <http://www.w3.org/2000/01/rdf-schema#label> "35"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "落合第四小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "3014"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "3506"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2955"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "3450"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1556"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1978"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "52.66"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "57.33"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#36>
+      <http://www.w3.org/2000/01/rdf-schema#label> "36"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "落合第一特別出張所"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "3579"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "3973"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "3517"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "3907"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1936"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2319"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "55.05"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "59.36"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#37>
+      <http://www.w3.org/2000/01/rdf-schema#label> "37"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "落合第二中学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2549"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2712"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2498"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2671"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1320"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1500"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "52.84"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "56.16"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#38>
+      <http://www.w3.org/2000/01/rdf-schema#label> "38"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "中落合高齢者在宅サービスセンター"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "1846"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "1914"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1789"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1872"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "934"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1067"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "52.21"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "57"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#39>
+      <http://www.w3.org/2000/01/rdf-schema#label> "39"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "落合第二小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "4159"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "3930"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "4078"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "3872"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2121"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2236"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "52.01"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "57.75"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#40>
+      <http://www.w3.org/2000/01/rdf-schema#label> "40"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "落合第六小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "3427"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "3900"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "3343"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "3827"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1813"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2185"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "54.23"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "57.09"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#41>
+      <http://www.w3.org/2000/01/rdf-schema#label> "41"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "落合第三小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2839"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2701"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2794"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2653"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1471"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1564"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "52.65"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "58.95"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#42>
+      <http://www.w3.org/2000/01/rdf-schema#label> "42"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "落合第五小学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "4036"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "3800"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "3951"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "3731"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2051"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2094"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "51.91"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "56.12"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#43>
+      <http://www.w3.org/2000/01/rdf-schema#label> "43"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "東京母子愛育会保育園"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2492"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2310"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2423"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2262"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1242"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1261"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "51.26"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "55.75"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#44>
+      <http://www.w3.org/2000/01/rdf-schema#label> "44"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "淀橋第四幼稚園"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2675"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2408"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2619"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2362"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1241"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1250"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "47.38"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "52.92"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#45>
+      <http://www.w3.org/2000/01/rdf-schema#label> "45"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "大智学園高等学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "3095"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2671"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "3019"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2599"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1250"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1234"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "41.4"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "47.48"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#46>
+      <http://www.w3.org/2000/01/rdf-schema#label> "46"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "柏木地域センター"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2185"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "1924"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2140"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1896"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1165"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1137"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "54.44"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "59.97"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#47>
+      <http://www.w3.org/2000/01/rdf-schema#label> "47"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "西新宿中学校"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "2447"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2064"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "2378"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2017"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1075"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1073"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "45.21"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "53.2"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#48>
+      <http://www.w3.org/2000/01/rdf-schema#label> "48"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "新宿ファーストウエスト"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "238"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "214"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "230"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "212"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "103"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "117"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "44.78"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "55.19"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#49>
+      <http://www.w3.org/2000/01/rdf-schema#label> "49"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "芸能花伝舎"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "3255"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "2831"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "3178"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "2780"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1424"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1422"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "44.81"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "51.15"@ja .
+
+<http://linkdata.org/resource/rdf1s8543i#50>
+      <http://www.w3.org/2000/01/rdf-schema#label> "50"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E6%89%80%E5%90%8D> "角筈特別出張所"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E7%94%B7> "3982"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E7%99%BB%E9%8C%B2%E6%97%A5%E7%8F%BE%E5%9C%A8%E7%99%BB%E9%8C%B2%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%88%E4%BB%A4%E5%92%8C2%E5%B9%B46%E6%9C%8817%E6%97%A5%E7%8F%BE%E5%9C%A8%EF%BC%89%EF%BC%9A%E5%A5%B3> "3677"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "3877"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E5%BD%93%E6%97%A5%E6%9C%89%E6%A8%A9%E8%80%85%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "3599"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E7%94%B7> "1889"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#%E6%8A%95%E7%A5%A8%E8%80%85%E7%B7%8F%E6%95%B0%28%E4%BA%BA%29%EF%BC%9A%E5%A5%B3> "1931"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：男> "48.72"@ja ;
+      <http://linkdata.org/property/rdf1s8543i#投票率(%)：女> "53.65"@ja .
+

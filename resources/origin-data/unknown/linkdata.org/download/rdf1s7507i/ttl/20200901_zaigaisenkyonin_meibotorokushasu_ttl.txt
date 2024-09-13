@@ -1,0 +1,38 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s7507i#%E7%94%B7>
+      rdf:type rdf:Property ;
+      rdfs:label "男"@ja .
+<http://linkdata.org/property/rdf1s7507i#%E5%A5%B3>
+      rdf:type rdf:Property ;
+      rdfs:label "女"@ja .
+<http://linkdata.org/property/rdf1s7507i#%E8%A8%88>
+      rdf:type rdf:Property ;
+      rdfs:label "計"@ja .
+
+<http://linkdata.org/resource/rdf1s7507i#%E6%9C%80%E7%B5%82%E4%BD%8F%E6%89%80%E5%9C%B0%E7%99%BB%E9%8C%B2%E8%80%85>
+      <http://www.w3.org/2000/01/rdf-schema#label> "最終住所地登録者"@ja ;
+      <http://linkdata.org/property/rdf1s7507i#%E7%94%B7> "395"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7507i#%E5%A5%B3> "428"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7507i#%E8%A8%88> "823"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7507i#%E6%9C%AC%E7%B1%8D%E5%9C%B0%E7%99%BB%E9%8C%B2%E8%80%85>
+      <http://www.w3.org/2000/01/rdf-schema#label> "本籍地登録者"@ja ;
+      <http://linkdata.org/property/rdf1s7507i#%E7%94%B7> "61"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7507i#%E5%A5%B3> "114"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7507i#%E8%A8%88> "175"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7507i#%E7%99%BB%E9%8C%B2%E8%80%85%E8%A8%88>
+      <http://www.w3.org/2000/01/rdf-schema#label> "登録者計"@ja ;
+      <http://linkdata.org/property/rdf1s7507i#%E7%94%B7> "456"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7507i#%E5%A5%B3> "542"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7507i#%E8%A8%88> "998"^^xsd:int .
+

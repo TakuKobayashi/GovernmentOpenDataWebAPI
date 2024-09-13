@@ -1,0 +1,21 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	seitobetsu_jikanbetsu_tokuhyosu_1ku
+#download_from	http://linkdata.org/work/rdf1s9227i
+#property	名簿届出政党等の名称	速報時刻：23:15/開票率：55.98%	速報時刻：0:15/開票率：90.54%	速報時刻：3:15（新宿区確定）/開票率：100%
+#object_type_xsd	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion
+1	自由民主党	12000	40500	40759
+2	社会民主党	1500	1500	1851
+3	国民民主党	4500	4500	6149.477
+4	日本維新の会	12000	19000	19756
+5	日本第一党	500	500	759
+6	れいわ新選組	6500	7000	7462
+7	公明党	12000	12500	13204
+8	新党やまと	0	0	300
+9	日本共産党	12000	14000	14833
+10	立憲民主党	12000	19000	23446.522
+11	政権交代によるコロナ対策強化新党	0	0	119
+12	ＮＨＫと裁判してる党弁護士法72条違反で	1500	2000	2105

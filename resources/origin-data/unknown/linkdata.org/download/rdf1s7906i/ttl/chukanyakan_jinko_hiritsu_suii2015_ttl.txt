@@ -1,0 +1,56 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s7906i#%E6%98%BC%E9%96%93%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "昼間人口(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7906i#%E5%A4%9C%E9%96%93%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%B8%B8%E4%BD%8F%E4%BA%BA%E5%8F%A3%EF%BC%89%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "夜間人口（常住人口）(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7906i#%E6%98%BC%E5%A4%9C%E9%96%93>
+      rdf:type rdf:Property ;
+      rdfs:label "昼夜間"@ja .
+
+<http://linkdata.org/resource/rdf1s7906i#1990%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "1990年"@ja ;
+      <http://linkdata.org/property/rdf1s7906i#%E6%98%BC%E9%96%93%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "817095"@ja ;
+      <http://linkdata.org/property/rdf1s7906i#%E5%A4%9C%E9%96%93%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%B8%B8%E4%BD%8F%E4%BA%BA%E5%8F%A3%EF%BC%89%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "291152"@ja ;
+      <http://linkdata.org/property/rdf1s7906i#%E6%98%BC%E5%A4%9C%E9%96%93> "280.6"@ja .
+
+<http://linkdata.org/resource/rdf1s7906i#1995%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "1995年"@ja ;
+      <http://linkdata.org/property/rdf1s7906i#%E6%98%BC%E9%96%93%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "806095"@ja ;
+      <http://linkdata.org/property/rdf1s7906i#%E5%A4%9C%E9%96%93%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%B8%B8%E4%BD%8F%E4%BA%BA%E5%8F%A3%EF%BC%89%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "276011"@ja ;
+      <http://linkdata.org/property/rdf1s7906i#%E6%98%BC%E5%A4%9C%E9%96%93> "292.1"@ja .
+
+<http://linkdata.org/resource/rdf1s7906i#2000%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2000年"@ja ;
+      <http://linkdata.org/property/rdf1s7906i#%E6%98%BC%E9%96%93%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "798611"@ja ;
+      <http://linkdata.org/property/rdf1s7906i#%E5%A4%9C%E9%96%93%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%B8%B8%E4%BD%8F%E4%BA%BA%E5%8F%A3%EF%BC%89%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "286173"@ja ;
+      <http://linkdata.org/property/rdf1s7906i#%E6%98%BC%E5%A4%9C%E9%96%93> "279.1"@ja .
+
+<http://linkdata.org/resource/rdf1s7906i#2005%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2005年"@ja ;
+      <http://linkdata.org/property/rdf1s7906i#%E6%98%BC%E9%96%93%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "770094"@ja ;
+      <http://linkdata.org/property/rdf1s7906i#%E5%A4%9C%E9%96%93%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%B8%B8%E4%BD%8F%E4%BA%BA%E5%8F%A3%EF%BC%89%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "303808"@ja ;
+      <http://linkdata.org/property/rdf1s7906i#%E6%98%BC%E5%A4%9C%E9%96%93> "253.5"@ja .
+
+<http://linkdata.org/resource/rdf1s7906i#2010%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2010年"@ja ;
+      <http://linkdata.org/property/rdf1s7906i#%E6%98%BC%E9%96%93%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "750120"@ja ;
+      <http://linkdata.org/property/rdf1s7906i#%E5%A4%9C%E9%96%93%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%B8%B8%E4%BD%8F%E4%BA%BA%E5%8F%A3%EF%BC%89%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "326309"@ja ;
+      <http://linkdata.org/property/rdf1s7906i#%E6%98%BC%E5%A4%9C%E9%96%93> "229.9"@ja .
+
+<http://linkdata.org/resource/rdf1s7906i#2015%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2015年"@ja ;
+      <http://linkdata.org/property/rdf1s7906i#%E6%98%BC%E9%96%93%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "775549"@ja ;
+      <http://linkdata.org/property/rdf1s7906i#%E5%A4%9C%E9%96%93%E4%BA%BA%E5%8F%A3%EF%BC%88%E5%B8%B8%E4%BD%8F%E4%BA%BA%E5%8F%A3%EF%BC%89%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "333560"@ja ;
+      <http://linkdata.org/property/rdf1s7906i#%E6%98%BC%E5%A4%9C%E9%96%93> "232.5"@ja .
+

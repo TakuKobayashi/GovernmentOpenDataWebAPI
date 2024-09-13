@@ -1,0 +1,15 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	danjobetsu_haigukankeibetsu_15saiijojinko_suii2015
+#download_from	http://linkdata.org/work/rdf1s7890i
+#property	【男女計】総数(単位:人)	【男】総数(単位:人)	【男】未婚(単位:人)	【男】有配偶(単位:人)	【男】死別(単位:人)	【男】離別(単位:人)	【男】不詳(単位:人)	【女】総数(単位:人)	【女】未婚(単位:人)	【女】有配偶(単位:人)	【女】死別(単位:人)	【女】離別(単位:人)	【女】不詳(単位:人)
+#object_type_xsd	string	string	string	string	string	string	string	string	string	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+1990年	256403	124772	54183	63179	2381	3023	2006	131631	46582	62372	14418	6197	2062
+1995年	248738	121921	53234	58248	2531	3383	4525	126817	45892	57132	14696	6315	2782
+2000年	261184	129983	58568	57922	2534	4021	6938	131201	49266	56699	14324	6809	4103
+2005年	279611	138219	61318	59348	2671	4681	10201	141392	53829	58466	14318	7487	7292
+2010年	293053	144685	66561	59027	2737	4832	11528	148368	58481	57986	13881	7980	10040
+2015年	293053	148408	66656	60369	2889	4904	13590	149354	57740	60312	13530	8043	9729

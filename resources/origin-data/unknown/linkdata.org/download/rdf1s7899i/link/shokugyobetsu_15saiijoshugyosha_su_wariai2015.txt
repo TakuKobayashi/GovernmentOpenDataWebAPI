@@ -1,0 +1,23 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	shokugyobetsu_15saiijoshugyosha_su_wariai2015
+#download_from	http://linkdata.org/work/rdf1s7899i
+#property	2010年新宿区(単位:人)	2015年新宿区(単位:人)	2010年新宿区割合(単位:%)	2015年新宿区割合(単位:%)	2015年特別区部割合(単位:%)	2015年全国割合(単位:%)
+#object_type_xsd	string	string	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+総数	137299	134848	100	100	100	100
+Ａ 管理的職業従事者	5662	5122	5.1	4.9	3.8	2.5
+Ｂ 専門的・技術的職業従事者	27959	28452	25.1	27	21.9	16.8
+Ｃ 事務従事者	29483	28859	26.5	27.4	27.1	20
+Ｄ 販売従事者	16691	15397	15	14.6	15.7	13.2
+Ｅ サービス職業従事者	15135	12462	13.6	11.8	11.6	12.3
+Ｆ 保安職業従事者	2755	2735	2.5	2.6	1.5	1.9
+Ｇ 農林漁業従事者	73	88	0.1	0.1	0.2	3.8
+Ｈ 生産工程従事者	5019	4550	4.5	4.3	6.9	14.2
+Ｉ 輸送・機械運転従事者	1516	1225	1.4	1.2	2.7	3.6
+Ｊ 建設・採掘従事者	1914	1644	1.7	1.6	2.8	4.6
+Ｋ 運搬・清掃・包装等従事者	4997	4777	4.5	4.5	5.8	7
+Ｌ 分類不能の職業	26095	29537	ー	ー	ー	ー
+注）割合は、分母の就業者総数から「分類不能の職業」を除いて算出						

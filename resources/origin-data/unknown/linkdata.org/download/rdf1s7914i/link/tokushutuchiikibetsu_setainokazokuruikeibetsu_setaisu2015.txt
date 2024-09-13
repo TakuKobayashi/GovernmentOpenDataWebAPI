@@ -1,0 +1,21 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	tokushutuchiikibetsu_setainokazokuruikeibetsu_setaisu2015
+#download_from	http://linkdata.org/work/rdf1s7914i
+#property	単独世帯(単位:世帯)	夫婦のみ世帯(単位:世帯)	夫婦と子ども世帯(単位:世帯)	ひとり親と子ども世帯(単位:世帯)	その他の世帯(単位:世帯)	家族類型「不詳」(単位:世帯)
+#object_type_xsd	string	string	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+新宿区	132644	25569	27979	10936	7221	198
+四谷	14606	2837	2937	1202	793	10
+箪笥	12160	3438	3941	1109	702	13
+榎	13293	2600	2863	1099	712	3
+若松	10302	2688	2787	1471	661	121
+大久保	19926	2978	3246	1475	1085	34
+戸塚	16893	2826	3135	1321	870	3
+落合第一	12479	2561	3054	995	712	1
+落合第二	10831	2241	2924	934	678	6
+柏木	14342	2211	2138	868	685	5
+角筈・区役所	7812	1189	954	462	323	2
+※町丁別で集計しているため、実際の特別出張所所管区域とは異なる						

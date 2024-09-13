@@ -1,0 +1,13 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	kohoshabetsu_jikanbetsu_tokuhyosu_1ku
+#download_from	http://linkdata.org/work/rdf1s9225i
+#property	候補者氏名	候補者届出政党の名称	新前元	速報時刻：21:30/開票率：1.13%	速報時刻：22:00/開票率：11.65%	速報時刻：22:30/開票率：33.44%	速報時刻：23:00/開票率：55.98%	速報時刻：23:30/開票率：96.93%	速報時刻：00:56（新宿区確定）/開票率：100%	東京都第１区全体	重複	当落
+#object_type_xsd	string	string	string	string	string	string	string	string	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+1	海江田　万里	立憲民主党	前	500	6500	18500	30500	48500	49001	90043	○	
+2	小野　たいすけ	日本維新の会	新	500	2500	7500	13500	29000	29057	60230	○	
+3	山田　みき	自由民主党	前	500	6500	18500	30500	49000	49033	99133	○	当
+4	ないとう　ひさお		新	0	0	0	0	2500	2544	4715		

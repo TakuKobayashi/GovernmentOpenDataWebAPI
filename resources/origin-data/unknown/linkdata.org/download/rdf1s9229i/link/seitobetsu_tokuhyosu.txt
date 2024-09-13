@@ -1,0 +1,21 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	seitobetsu_tokuhyosu
+#download_from	http://linkdata.org/work/rdf1s9229i
+#property	名簿届出政党等の名称	東京都第1区（新宿区）	東京都第10区（新宿区）	新宿区全体	東京都選挙区全体
+#object_type_xsd	string	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion
+1	自由民主党	40759	5978	46737	2000084
+2	社会民主党	1851	311	2162	92995
+3	国民民主党	6149.477	1017.907	7167.384	306179.757
+4	日本維新の会	19756	2727	22483	858577
+5	日本第一党	759	129	888	33661
+6	れいわ新選組	7462	1253	8715	360387
+7	公明党	13204	2285	15489	715450
+8	新党やまと	300	43	343	16970
+9	日本共産党	14833	2532	17365	670340
+10	立憲民主党	23446.522	4160.092	27606.614	1293281.168
+11	政権交代によるコロナ対策強化新党	119	31	150	6620
+12	ＮＨＫと裁判してる党弁護士法72条違反で	2105	319	2424	92353

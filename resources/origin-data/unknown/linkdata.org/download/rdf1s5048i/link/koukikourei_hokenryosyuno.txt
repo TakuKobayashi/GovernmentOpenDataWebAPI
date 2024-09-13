@@ -1,0 +1,18 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	koukikourei_hokenryosyuno
+#download_from	http://linkdata.org/work/rdf1s5048i
+#property	現年度分　調定額(千円)	現年度分　収納額(千円)	現年度分　収納率(%)	滞納繰越分　調定額(千円)	滞納繰越分　収納額(千円)	滞納繰越分　収納率(%)	計　収納率(%)
+#object_type_xsd	int	int	float	int	int	float	float
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+H24	3280582	3237410	98.68	73897	31117	42.11	97.44
+H25	3269012	3230989	98.84	76142	32544	42.74	97.56
+H26	3550251	3508414	98.82	69490	25885	37.25	97.64
+H27	3587490	3544826	98.81	73545	24711	33.6	97.5
+H28	3682915	3645963	99	72019	30406	42.22	97.91
+H29	3793964	3757797	99.05	62627	26273	41.95	98.12
+H30	3998196	3960132	99.05	60371	29800	49.36	98.31
+R1	4085841	4043196	98.96	60149	22856	38	98.07
+（注）収納額は、還付未済額を含まない。							

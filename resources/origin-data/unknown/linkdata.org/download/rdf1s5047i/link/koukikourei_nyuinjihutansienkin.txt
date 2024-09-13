@@ -1,0 +1,17 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	koukikourei_nyuinjihutansienkin
+#download_from	http://linkdata.org/work/rdf1s5047i
+#property	入院期間7日～60日　10,000円　件数（件）	入院期間7日～60日　10,000円　支給額（千円）	入院期間61日～120日　20,000円　件数（件）	入院期間61日～120日　20,000円　支給額（千円）	入院期間121日～　30,000円　件数（件）	入院期間121日～　30,000円　支給額（千円）
+#object_type_xsd	int	int	int	int	int	int
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+H24	3868	38680	748	14960	577	17310
+H25	4063	40630	688	13760	527	15810
+H26	4025	40250	675	13500	594	17820
+H27	4225	42250	746	14920	576	17280
+H28	4092	40920	833	16600	559	16770
+H29	4112	41120	782	15640	576	17280
+H30	4300	43000	832	16640	569	17070
+R1	4110	41100	820	16400	548	16440

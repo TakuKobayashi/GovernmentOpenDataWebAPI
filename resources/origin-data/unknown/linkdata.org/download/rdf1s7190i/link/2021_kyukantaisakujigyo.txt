@@ -1,0 +1,13 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	2021_kyukantaisakujigyo
+#download_from	http://linkdata.org/work/rdf1s7190i
+#property	テレホンセンター（単位：件）	休日診療（単位：件）	休日夜間診療（単位：件）	休日歯科応急診療(区内)（単位：件）	休日歯科応急診療(その他)（単位：件）	小児平日・土曜日夜間診療（単位：件）
+#object_type_xsd	string	string	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+29	4053	3417	1071	258	137	1044
+30	4069	3361	942	270	144	1545
+元	3713	3058	843	346	126	1350
+2	1375	547	136	238	62	290

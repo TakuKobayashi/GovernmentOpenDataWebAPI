@@ -1,0 +1,17 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	koukikourei_hokenryohuka
+#download_from	http://linkdata.org/work/rdf1s5049i
+#property	普通徴収(千円)	普通徴収　構成比(%)	特別徴収(千円)	特別徴収　構成比(%)	合計(千円)	合計　構成比(%)
+#object_type_xsd	int	float	int	float	int	float
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+H24	2127367	64.85	1153215	35.15	3280582	100
+H25	2168906	66.35	1100106	33.65	3269012	100
+H26	2419874	68.16	1130377	31.84	3550251	100
+H27	2505958	69.85	1081531	30.15	3587490	100
+H28	2598616	70.56	1084300	29.44	3682915	100
+H29	2688156	70.85	1105809	29.15	3793964	100
+H30	2872458	71.84	1125738	28.16	3998196	100
+R1	2924994	71.59	1160847	28.41	4085841	100

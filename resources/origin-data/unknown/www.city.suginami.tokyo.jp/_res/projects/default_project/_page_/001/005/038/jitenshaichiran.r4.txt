@@ -1,0 +1,1082 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "suginami-city"@ja ;
+      cc:attributionURL <http://www.city.suginami.tokyo.jp/> ;
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A>
+      rdf:type rdf:Property ;
+      rdfs:label "路線"@ja .
+<http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D>
+      rdf:type rdf:Property ;
+      rdfs:label "駅名"@ja .
+<http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0>
+      rdf:type rdf:Property ;
+      rdfs:label "自転車駐車場等の名称"@ja .
+<http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6>
+      rdf:type rdf:Property ;
+      rdfs:label "運営"@ja .
+<http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0>
+      rdf:type rdf:Property ;
+      rdfs:label "所在地"@ja .
+<http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1>
+      rdf:type rdf:Property ;
+      rdfs:label "電話"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#1>
+      <http://www.w3.org/2000/01/rdf-schema#label> "1"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "西武新宿線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "下井草"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "下井草南自転車駐車場　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区下井草2-36-16"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3397-8251"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#2>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "西武新宿線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "下井草"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "下井草北第一自転車駐車場　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区井草1-10-17"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "下井草南自転車駐車場へ"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#3>
+      <http://www.w3.org/2000/01/rdf-schema#label> "3"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "西武新宿線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "下井草"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "下井草北第二自転車駐車場　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区井草1-2-4"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3395-9677"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "4"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "西武新宿線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "下井草"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "下井草北口駅前駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区井草1-6-2"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#5>
+      <http://www.w3.org/2000/01/rdf-schema#label> "5"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "西武新宿線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "下井草"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ﾀｲﾑﾊﾟｰｷﾝｸﾞ下井草駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区下井草3-41-2"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#6>
+      <http://www.w3.org/2000/01/rdf-schema#label> "6"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "西武新宿線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "下井草"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｴｺｽﾃｰｼｮﾝ21西友下井草店駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区下井草2-41-8"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#7>
+      <http://www.w3.org/2000/01/rdf-schema#label> "7"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "西武新宿線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "下井草"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ﾃｨｯﾌﾟﾈｽ下井草駐輪場A"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区下井草2-40-17"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#8>
+      <http://www.w3.org/2000/01/rdf-schema#label> "8"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "西武新宿線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "下井草"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ﾃｨｯﾌﾟﾈｽ下井草駐輪場B"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区下井草2-40-17"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#9>
+      <http://www.w3.org/2000/01/rdf-schema#label> "9"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "西武新宿線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "井荻"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "井荻北地下自転車駐車場　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区井草3-3-10"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-5310-3513"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#10>
+      <http://www.w3.org/2000/01/rdf-schema#label> "10"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "西武新宿線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "井荻"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "井荻南地下自転車駐車場　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区上井草1-24-16"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-5310-3966"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#11>
+      <http://www.w3.org/2000/01/rdf-schema#label> "11"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "西武新宿線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "井荻"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ﾈｯﾄﾊﾟｰｸ井荻駅前自転車駐車場2"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区井草3-4"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#12>
+      <http://www.w3.org/2000/01/rdf-schema#label> "12"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "西武新宿線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "井荻"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ﾋﾟｰｺｯｸｽﾄｱ井荻店駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区下井草5-18-22"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#13>
+      <http://www.w3.org/2000/01/rdf-schema#label> "13"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "西武新宿線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "上井草"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "上井草北自転車駐車場　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区井草5-5-2"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3399-9780"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#14>
+      <http://www.w3.org/2000/01/rdf-schema#label> "14"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "西武新宿線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "上井草"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "西武ｽﾏｲﾙﾊﾟｰｸ上井草駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区上井草3-32"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#15>
+      <http://www.w3.org/2000/01/rdf-schema#label> "15"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "西武新宿線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "上井草"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｼｽﾃﾑﾊﾟｰｸ上井草駅前 自転車ｴﾘｱ"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区井草5-19-3"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#16>
+      <http://www.w3.org/2000/01/rdf-schema#label> "16"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "西武新宿線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "上井草"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｻｲｸﾙﾎﾟｰﾄ杉並上井草2"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区上井草2-45-7"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#17>
+      <http://www.w3.org/2000/01/rdf-schema#label> "17"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "丸の内線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "南阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "南阿佐ヶ谷第一自転車駐車場　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区成田東4-37-6"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3315-9960"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#18>
+      <http://www.w3.org/2000/01/rdf-schema#label> "18"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "丸の内線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "南阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "南阿佐ヶ谷第二自転車駐車場　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷南1-15-19"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3315-9975"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#19>
+      <http://www.w3.org/2000/01/rdf-schema#label> "19"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "丸の内線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "南阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "南阿佐ヶ谷第三自転車駐車場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷南3-2-32"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3315-9960"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#20>
+      <http://www.w3.org/2000/01/rdf-schema#label> "20"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "丸の内線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "南阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｻｲｶﾊﾟｰｸ南阿佐ヶ谷駐輪場　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区成田東5-36-15"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#21>
+      <http://www.w3.org/2000/01/rdf-schema#label> "21"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "丸の内線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "南阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "三井のﾘﾊﾟｰｸ南阿佐ヶ谷駅前駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷南1-17"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#22>
+      <http://www.w3.org/2000/01/rdf-schema#label> "22"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "丸の内線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "南阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｼﾞｬﾝｼﾞｬﾝﾏｰﾙｺﾞｯﾄ南阿佐ヶ谷駅前店駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区成田東5-42-20"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#23>
+      <http://www.w3.org/2000/01/rdf-schema#label> "23"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "丸の内線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "南阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ﾋﾟｰｺｯｸｽﾄｱ阿佐谷店自転車駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷南1-32-10"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#24>
+      <http://www.w3.org/2000/01/rdf-schema#label> "24"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "丸の内線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "新高円寺"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "新高円寺地下自転車駐車場　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区梅里1-7-20"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3315-1200"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#25>
+      <http://www.w3.org/2000/01/rdf-schema#label> "25"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "丸の内線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "東高円寺"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ﾊﾞｲﾊﾟｰｸ東高円寺駐輪場　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区和田3-55-40"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#26>
+      <http://www.w3.org/2000/01/rdf-schema#label> "26"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "丸の内線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "中野富士見町"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "中野富士見町自転車駐車場　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区和田1-1-9"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3380-2552"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#27>
+      <http://www.w3.org/2000/01/rdf-schema#label> "27"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "丸の内線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "方南町"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "方南町西自転車駐車場　　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区和泉4-51-7"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3317-7656"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#28>
+      <http://www.w3.org/2000/01/rdf-schema#label> "28"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "丸の内線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "方南町"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "方南町東自転車駐車場　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区方南2-20-2"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "方南町西自転車駐車場へ"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "29"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "西荻窪"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "西荻窪西自転車駐車場　　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区松庵3-41-1"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3399-7040"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#30>
+      <http://www.w3.org/2000/01/rdf-schema#label> "30"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "西荻窪"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "Parking in 西荻窪駅前第2駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区松庵3-41-1"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#31>
+      <http://www.w3.org/2000/01/rdf-schema#label> "31"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "西荻窪"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "Parking in 西荻窪駅前駐輪場　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区西荻南3-24-1"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#32>
+      <http://www.w3.org/2000/01/rdf-schema#label> "32"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "西荻窪"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｱｯﾌﾟﾙﾊﾟｰｸ西荻窪駅前駐輪場第2"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区西荻北3-22-16"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#33>
+      <http://www.w3.org/2000/01/rdf-schema#label> "33"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "西荻窪"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｻｲｸﾙﾌﾟﾗｻﾞ西荻窪第2"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区西荻北3-3-6"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#34>
+      <http://www.w3.org/2000/01/rdf-schema#label> "34"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "西荻窪"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｻｲｸﾙﾌﾟﾗｻﾞ西荻窪第3"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区松庵3-35-15"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#35>
+      <http://www.w3.org/2000/01/rdf-schema#label> "35"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "西荻窪"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｱｯﾌﾟﾙﾊﾟｰｸ西荻窪駅前駐輪場第1"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区西荻北3-4-11"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#36>
+      <http://www.w3.org/2000/01/rdf-schema#label> "36"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "西荻窪"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｱｯﾌﾟﾙﾊﾟｰｸ西荻窪駅北駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区西荻北3-22-8"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#37>
+      <http://www.w3.org/2000/01/rdf-schema#label> "37"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "荻窪(北口)"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "荻窪東地下自転車駐車場　　　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区上荻1-2-1"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3393-7774"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#38>
+      <http://www.w3.org/2000/01/rdf-schema#label> "38"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "荻窪(北口)"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "荻窪東地下（短時間利用）自転車駐車場　　　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区上荻1-4-8"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3393-7774"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#39>
+      <http://www.w3.org/2000/01/rdf-schema#label> "39"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "荻窪(北口)"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "荻窪北第一自転車駐車場　　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区天沼3-3-19"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3393-5887"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#40>
+      <http://www.w3.org/2000/01/rdf-schema#label> "40"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "荻窪(北口)"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "荻窪北第二自転車駐車場　　　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区天沼3-2-13"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "荻窪北第一自転車駐車場へ"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#41>
+      <http://www.w3.org/2000/01/rdf-schema#label> "41"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "荻窪(北口)"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "荻窪北第三自転車駐車場　　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区天沼3-30-40"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3393-2353"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#42>
+      <http://www.w3.org/2000/01/rdf-schema#label> "42"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "荻窪(北口)"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "荻窪西第一自転車駐車場　　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区上荻1-20-3"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3392-0514"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#43>
+      <http://www.w3.org/2000/01/rdf-schema#label> "43"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "荻窪(北口)"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "荻窪西第二自転車駐車場　　　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区上荻1-21-25"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "荻窪西第一自転車駐車場へ　"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#44>
+      <http://www.w3.org/2000/01/rdf-schema#label> "44"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "荻窪(北口)"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｴｺｽﾃｰｼｮﾝ21ﾀｳﾝｾﾌﾞﾝ指定駐輪場　　　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区上荻1-9-1"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#45>
+      <http://www.w3.org/2000/01/rdf-schema#label> "45"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "荻窪(北口)"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ﾊﾟｰﾄﾅｰ天沼3丁目駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区天沼3-2"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#46>
+      <http://www.w3.org/2000/01/rdf-schema#label> "46"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "荻窪(北口)"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "三井のﾘﾊﾟｰｸ荻窪北"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区天沼3-2-24"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#47>
+      <http://www.w3.org/2000/01/rdf-schema#label> "47"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "荻窪(北口)"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "上荻一丁目駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区上荻1-18-12"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#48>
+      <http://www.w3.org/2000/01/rdf-schema#label> "48"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "荻窪(北口)"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "荻窪駅西口ﾊﾞｲｸ駐車場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区上荻1-10-10外"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#49>
+      <http://www.w3.org/2000/01/rdf-schema#label> "49"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "荻窪(北口)"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "荻窪ﾊﾞｲｸ第2駐車場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区上荻1-11-4"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#50>
+      <http://www.w3.org/2000/01/rdf-schema#label> "50"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "荻窪(南口)"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "荻窪南第一自転車駐車場　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区荻窪4-21-16"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3220-3002"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#51>
+      <http://www.w3.org/2000/01/rdf-schema#label> "51"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "荻窪(南口)"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "荻窪南第二自転車駐車場　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区荻窪5-15-13"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3391-2663"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#52>
+      <http://www.w3.org/2000/01/rdf-schema#label> "52"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "荻窪(南口)"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "Ｎちゃりﾊﾟｰｸ　　　　　　　　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区荻窪5-18-11"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#53>
+      <http://www.w3.org/2000/01/rdf-schema#label> "53"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "荻窪(南口)"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｴｺｽﾃｰｼｮﾝ21荻窪駅南口駐輪場　　　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区荻窪5-30"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#54>
+      <http://www.w3.org/2000/01/rdf-schema#label> "54"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "阿佐ヶ谷東自転車駐車場　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷南2-41-1"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3223-0274"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#55>
+      <http://www.w3.org/2000/01/rdf-schema#label> "55"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "阿佐ヶ谷西高架下自転車駐車場　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷南3-58-1"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3223-0284"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#56>
+      <http://www.w3.org/2000/01/rdf-schema#label> "56"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "Parking in 阿佐ヶ谷駅東駐輪場　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷南2-41-1"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#57>
+      <http://www.w3.org/2000/01/rdf-schema#label> "57"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "Parking in 阿佐ヶ谷駅西駐輪場　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷南3-56-1"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#58>
+      <http://www.w3.org/2000/01/rdf-schema#label> "58"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｻｲｸﾙﾊﾟｰｸ阿佐ヶ谷南第5駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷南1-35-13"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#59>
+      <http://www.w3.org/2000/01/rdf-schema#label> "59"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｻｲｸﾙﾊﾟｰｸ阿佐ヶ谷南第4駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷南3-32-17"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#60>
+      <http://www.w3.org/2000/01/rdf-schema#label> "60"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "阿佐谷北口駅前ビル駐輪場　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷北2-13-2"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#61>
+      <http://www.w3.org/2000/01/rdf-schema#label> "61"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "三井のﾘﾊﾟｰｸ阿佐ヶ谷　　　　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷南2-14-9"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#62>
+      <http://www.w3.org/2000/01/rdf-schema#label> "62"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ＳＫＹﾊﾟｰｸ（定期専用）"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷北1-8-2"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#63>
+      <http://www.w3.org/2000/01/rdf-schema#label> "63"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｻｲｸﾙﾊﾟｰｸ阿佐ヶ谷南第2駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷南3-37"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#64>
+      <http://www.w3.org/2000/01/rdf-schema#label> "64"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "Parking in ﾋﾞｰﾝｽﾞ阿佐ヶ谷駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷南3-58-1"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#65>
+      <http://www.w3.org/2000/01/rdf-schema#label> "65"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｴｺｽﾃｰｼｮﾝ21西友阿佐ヶ谷店駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷北1-5-6"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#66>
+      <http://www.w3.org/2000/01/rdf-schema#label> "66"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｴｺｽﾃｰｼｮﾝ21ﾊﾟｰｸﾊｳｽ阿佐ヶ谷ﾚｼﾞﾃﾞﾝｽ駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷南3-35-8"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#67>
+      <http://www.w3.org/2000/01/rdf-schema#label> "67"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｻｲｸﾙﾊﾟｰｸ阿佐ヶ谷南第3駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷南3-32-14"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#68>
+      <http://www.w3.org/2000/01/rdf-schema#label> "68"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ﾕｱｰｽﾞ阿佐ヶ谷駅前駐輪場第1"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷北2-11-17"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#69>
+      <http://www.w3.org/2000/01/rdf-schema#label> "69"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "Parking in 阿佐ヶ谷南2丁目駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷南2-40-1"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#70>
+      <http://www.w3.org/2000/01/rdf-schema#label> "70"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "阿佐ヶ谷"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｷﾌﾟﾄ阿佐谷南駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区阿佐谷南1-47-8"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#71>
+      <http://www.w3.org/2000/01/rdf-schema#label> "71"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "高円寺"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "高円寺北自転車駐車場　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区高円寺北3-20-23"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3336-1530"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#72>
+      <http://www.w3.org/2000/01/rdf-schema#label> "72"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "高円寺"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "高円寺東高架下自転車駐車場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区高円寺南4-50-2"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "高円寺北自転車駐車場へ"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#73>
+      <http://www.w3.org/2000/01/rdf-schema#label> "73"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "高円寺"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "Parking in 高円寺南3丁目駐輪場　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区高円寺南3-65"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#74>
+      <http://www.w3.org/2000/01/rdf-schema#label> "74"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "高円寺"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ＴＡＣＹｻｲｸﾙﾊﾟｰｸ高円寺駐輪場　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区高円寺南4-48"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#75>
+      <http://www.w3.org/2000/01/rdf-schema#label> "75"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "高円寺"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｴｺﾌﾟｰﾙ高円寺駅北口駐輪場（定期専用）"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区高円寺北2-3-18"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#76>
+      <http://www.w3.org/2000/01/rdf-schema#label> "76"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "JR中央線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "高円寺"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "TOBUPARK高円寺駅南口時間貸駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区高円寺南3-58-18"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#77>
+      <http://www.w3.org/2000/01/rdf-schema#label> "77"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "永福町"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "永福町南自転車駐車場　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区永福2-53-5"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3323-0255"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#78>
+      <http://www.w3.org/2000/01/rdf-schema#label> "78"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "永福町"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "永福町北第一自転車駐車場　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区永福4-7-8"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3325-0092"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#79>
+      <http://www.w3.org/2000/01/rdf-schema#label> "79"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "永福町"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "永福町北第二自転車駐車場　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区和泉3-12-15"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3325-9898"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#80>
+      <http://www.w3.org/2000/01/rdf-schema#label> "80"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "永福町"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "永福町北第三自転車駐車場　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区和泉3-7-3"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "永福町北第二自転車駐車場へ"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#81>
+      <http://www.w3.org/2000/01/rdf-schema#label> "81"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "永福町"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "京王ｻｲｸﾙﾊﾟｰｸ永福町　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区永福2-60-23"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#82>
+      <http://www.w3.org/2000/01/rdf-schema#label> "82"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "西永福"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "西永福北自転車駐車場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区永福3-55-7"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "浜田山北第二自転車駐車場へ"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#83>
+      <http://www.w3.org/2000/01/rdf-schema#label> "83"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "西永福"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "西永福南第一自転車駐車場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区永福3-38-10"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "浜田山北第二自転車駐車場へ"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#84>
+      <http://www.w3.org/2000/01/rdf-schema#label> "84"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "西永福"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "西永福南第二自転車駐車場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区浜田山1-33-3"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "浜田山北第二自転車駐車場へ"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#85>
+      <http://www.w3.org/2000/01/rdf-schema#label> "85"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "西永福"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｻｲｸﾙﾀｲﾑｽﾞ西永福"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区永福3-31"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#86>
+      <http://www.w3.org/2000/01/rdf-schema#label> "86"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "浜田山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "浜田山北第一自転車駐車場　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区浜田山3-24-13"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3302-7225"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#87>
+      <http://www.w3.org/2000/01/rdf-schema#label> "87"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "浜田山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "浜田山北第二自転車駐車場　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区浜田山3-27-21"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3312-7055"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#88>
+      <http://www.w3.org/2000/01/rdf-schema#label> "88"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "浜田山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "浜田山南自転車駐車場　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区浜田山2-22-12"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "浜田山北第二自転車駐車場へ"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#89>
+      <http://www.w3.org/2000/01/rdf-schema#label> "89"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "浜田山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "三井のﾘﾊﾟｰｸ浜田山駅前駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区浜田山2-23-12"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#90>
+      <http://www.w3.org/2000/01/rdf-schema#label> "90"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "浜田山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ﾊﾟｰｸ浜田山駅前BC"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区浜田山3-34-5"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#91>
+      <http://www.w3.org/2000/01/rdf-schema#label> "91"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "浜田山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "西友浜田山店駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区浜田山3-29-6"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#92>
+      <http://www.w3.org/2000/01/rdf-schema#label> "92"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "浜田山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｱｯﾌﾟﾙﾊﾟｰｸ成城石井浜田山店駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区浜田山3-34-26"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#93>
+      <http://www.w3.org/2000/01/rdf-schema#label> "93"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "高井戸"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "高井戸東自転車駐車場　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区高井戸東2-30-25"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3247-0577"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#94>
+      <http://www.w3.org/2000/01/rdf-schema#label> "94"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "高井戸"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "高井戸北自転車駐車場　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区高井戸西2-2-1"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3333-7730"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#95>
+      <http://www.w3.org/2000/01/rdf-schema#label> "95"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "高井戸"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "京王ｻｲｸﾙﾊﾟｰｸ高井戸"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区高井戸西1-30"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#96>
+      <http://www.w3.org/2000/01/rdf-schema#label> "96"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "富士見ヶ丘"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "富士見ヶ丘北自転車駐車場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区久我山5-1-24"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3332-7888"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#97>
+      <http://www.w3.org/2000/01/rdf-schema#label> "97"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "富士見ヶ丘"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "富士見ヶ丘南自転車駐車場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区高井戸西1-32先"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "富士見ヶ丘北自転車駐車場へ"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#98>
+      <http://www.w3.org/2000/01/rdf-schema#label> "98"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "富士見ヶ丘"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｴｺｽﾃｰｼｮﾝ21西友富士見ヶ丘店駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区高井戸西2-10-13"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#99>
+      <http://www.w3.org/2000/01/rdf-schema#label> "99"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "久我山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "久我山西自転車駐車場　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区久我山3-35-29"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3333-7208"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#100>
+      <http://www.w3.org/2000/01/rdf-schema#label> "100"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "久我山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "久我山南自転車駐車場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区久我山3-25-6"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "久我山西自転車駐車場へ"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#101>
+      <http://www.w3.org/2000/01/rdf-schema#label> "101"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "久我山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "久我山北自転車駐車場　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区久我山5-38-10"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "久我山西自転車駐車場へ"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#102>
+      <http://www.w3.org/2000/01/rdf-schema#label> "102"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "久我山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "久我山駅店舗駐車場　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区久我山4-1-11"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#103>
+      <http://www.w3.org/2000/01/rdf-schema#label> "103"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "久我山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "三井のﾘﾊﾟｰｸ久我山駅前駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区久我山2-16-25"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#104>
+      <http://www.w3.org/2000/01/rdf-schema#label> "104"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "久我山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "三井のﾘﾊﾟｰｸ久我山駅前第2駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区久我山2-16"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#105>
+      <http://www.w3.org/2000/01/rdf-schema#label> "105"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "久我山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｱｯﾌﾟﾙﾊﾟｰｸﾋﾟｰｺｯｸｽﾄｱ久我山駐車場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区久我山4-2-6"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#106>
+      <http://www.w3.org/2000/01/rdf-schema#label> "106"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "久我山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "三井のﾘﾊﾟｰｸ久我山駅前第3駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区久我山2-16"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#107>
+      <http://www.w3.org/2000/01/rdf-schema#label> "107"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "久我山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "三井のﾘﾊﾟｰｸ久我山駅前第4駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区久我山5-7-12"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#108>
+      <http://www.w3.org/2000/01/rdf-schema#label> "108"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王井の頭線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "久我山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "三井のﾘﾊﾟｰｸ久我山駅前第5駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区久我山3-24-18"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#109>
+      <http://www.w3.org/2000/01/rdf-schema#label> "109"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "八幡山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "八幡山北自転車等駐車場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "世田谷区"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "世田谷区上北沢4-35-12"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-5317-5838"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#110>
+      <http://www.w3.org/2000/01/rdf-schema#label> "110"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "八幡山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "京王ｻｲｸﾙﾊﾟｰｸ八幡山東　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "世田谷区上北沢4-36"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#111>
+      <http://www.w3.org/2000/01/rdf-schema#label> "111"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "八幡山"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "京王ｻｲｸﾙﾊﾟｰｸ八幡山西　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区上高井戸1-1-11"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#112>
+      <http://www.w3.org/2000/01/rdf-schema#label> "112"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "桜上水"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "桜上水北自転車駐車場　　　　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "区営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区下高井戸1-24-15"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "03-3303-1774"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#113>
+      <http://www.w3.org/2000/01/rdf-schema#label> "113"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "桜上水"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "京王ｻｲｸﾙﾊﾟｰｸ桜上水北　　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "世田谷区桜上水5-29"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#114>
+      <http://www.w3.org/2000/01/rdf-schema#label> "114"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "桜上水"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "京王ｻｲｸﾙﾊﾟｰｸ桜上水駅南口前　"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "世田谷区桜上水5-24-9"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#115>
+      <http://www.w3.org/2000/01/rdf-schema#label> "115"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "桜上水"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ｱｯﾌﾟﾙﾊﾟｰｸ桜上水駐輪場第1"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "世田谷区桜上水5-24-13"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#116>
+      <http://www.w3.org/2000/01/rdf-schema#label> "116"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "下高井戸"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "世田谷区営駐輪場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "世田谷区"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "世田谷区役所へお尋ねください。"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "世田谷区役所へお尋ねください。"@ja .
+
+<http://linkdata.org/resource/rdf1s7614i#117>
+      <http://www.w3.org/2000/01/rdf-schema#label> "117"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%B7%AF%E7%B7%9A> "京王線"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%A7%85%E5%90%8D> "代田橋"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E8%87%AA%E8%BB%A2%E8%BB%8A%E9%A7%90%E8%BB%8A%E5%A0%B4%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "代田橋ﾊﾞｲｸ自転車駐車場"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%81%8B%E5%96%B6> "民営"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E6%89%80%E5%9C%A8%E5%9C%B0> "杉並区和泉1-3"@ja ;
+      <http://linkdata.org/property/rdf1s7614i#%E9%9B%BB%E8%A9%B1> "―"@ja .
+

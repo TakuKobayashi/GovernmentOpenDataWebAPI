@@ -1,0 +1,17 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	koukikourei_sousaihi
+#download_from	http://linkdata.org/work/rdf1s5046i
+#property	葬祭費　件数(件)	葬祭費　支給額(千円)
+#object_type_xsd	int	int
+#property_context	Assertion	Assertion
+H24	1516	106120
+H25	1527	106890
+H26	1540	107800
+H27	1570	109900
+H28	1597	111790
+H29	1647	115290
+H30	1647	115290
+R1	1653	115710

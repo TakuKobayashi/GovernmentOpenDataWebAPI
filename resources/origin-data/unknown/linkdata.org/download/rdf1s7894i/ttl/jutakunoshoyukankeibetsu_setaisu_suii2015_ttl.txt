@@ -1,0 +1,65 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s7894i#%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29>
+      rdf:type rdf:Property ;
+      rdfs:label "総数(単位:世帯)"@ja .
+<http://linkdata.org/property/rdf1s7894i#%E6%8C%81%E3%81%A1%E5%AE%B6%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29>
+      rdf:type rdf:Property ;
+      rdfs:label "持ち家(単位:世帯)"@ja .
+<http://linkdata.org/property/rdf1s7894i#%E6%B0%91%E5%96%B6%E3%81%AE%E5%80%9F%E5%AE%B6%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29>
+      rdf:type rdf:Property ;
+      rdfs:label "民営の借家(単位:世帯)"@ja .
+<http://linkdata.org/property/rdf1s7894i#%E5%85%AC%E5%96%B6%E4%BD%8F%E5%AE%85%E3%80%81%E7%B5%A6%E4%B8%8E%E4%BD%8F%E5%AE%85%E3%80%81%E9%96%93%E5%80%9F%E3%82%8A%E7%AD%89%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29>
+      rdf:type rdf:Property ;
+      rdfs:label "公営住宅、給与住宅、間借り等(単位:世帯)"@ja .
+
+<http://linkdata.org/resource/rdf1s7894i#1990%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "1990年"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "125029"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E6%8C%81%E3%81%A1%E5%AE%B6%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "45089"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E6%B0%91%E5%96%B6%E3%81%AE%E5%80%9F%E5%AE%B6%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "61240"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E5%85%AC%E5%96%B6%E4%BD%8F%E5%AE%85%E3%80%81%E7%B5%A6%E4%B8%8E%E4%BD%8F%E5%AE%85%E3%80%81%E9%96%93%E5%80%9F%E3%82%8A%E7%AD%89%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "18700"@ja .
+
+<http://linkdata.org/resource/rdf1s7894i#1995%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "1995年"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "128556"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E6%8C%81%E3%81%A1%E5%AE%B6%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "45407"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E6%B0%91%E5%96%B6%E3%81%AE%E5%80%9F%E5%AE%B6%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "63198"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E5%85%AC%E5%96%B6%E4%BD%8F%E5%AE%85%E3%80%81%E7%B5%A6%E4%B8%8E%E4%BD%8F%E5%AE%85%E3%80%81%E9%96%93%E5%80%9F%E3%82%8A%E7%AD%89%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "19951"@ja .
+
+<http://linkdata.org/resource/rdf1s7894i#2000%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2000年"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "146747"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E6%8C%81%E3%81%A1%E5%AE%B6%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "50710"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E6%B0%91%E5%96%B6%E3%81%AE%E5%80%9F%E5%AE%B6%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "74304"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E5%85%AC%E5%96%B6%E4%BD%8F%E5%AE%85%E3%80%81%E7%B5%A6%E4%B8%8E%E4%BD%8F%E5%AE%85%E3%80%81%E9%96%93%E5%80%9F%E3%82%8A%E7%AD%89%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "21733"@ja .
+
+<http://linkdata.org/resource/rdf1s7894i#2005%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2005年"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "165884"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E6%8C%81%E3%81%A1%E5%AE%B6%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "59050"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E6%B0%91%E5%96%B6%E3%81%AE%E5%80%9F%E5%AE%B6%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "85838"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E5%85%AC%E5%96%B6%E4%BD%8F%E5%AE%85%E3%80%81%E7%B5%A6%E4%B8%8E%E4%BD%8F%E5%AE%85%E3%80%81%E9%96%93%E5%80%9F%E3%82%8A%E7%AD%89%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "20996"@ja .
+
+<http://linkdata.org/resource/rdf1s7894i#2010%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2010年"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "192332"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E6%8C%81%E3%81%A1%E5%AE%B6%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "59448"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E6%B0%91%E5%96%B6%E3%81%AE%E5%80%9F%E5%AE%B6%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "110953"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E5%85%AC%E5%96%B6%E4%BD%8F%E5%AE%85%E3%80%81%E7%B5%A6%E4%B8%8E%E4%BD%8F%E5%AE%85%E3%80%81%E9%96%93%E5%80%9F%E3%82%8A%E7%AD%89%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "21931"@ja .
+
+<http://linkdata.org/resource/rdf1s7894i#2015%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2015年"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "201161"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E6%8C%81%E3%81%A1%E5%AE%B6%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "71483"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E6%B0%91%E5%96%B6%E3%81%AE%E5%80%9F%E5%AE%B6%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "108764"@ja ;
+      <http://linkdata.org/property/rdf1s7894i#%E5%85%AC%E5%96%B6%E4%BD%8F%E5%AE%85%E3%80%81%E7%B5%A6%E4%B8%8E%E4%BD%8F%E5%AE%85%E3%80%81%E9%96%93%E5%80%9F%E3%82%8A%E7%AD%89%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "20914"@ja .
+

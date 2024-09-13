@@ -1,0 +1,13 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	genjushoniokeru_kyojukikanbetsu_jinko2015
+#download_from	http://linkdata.org/work/rdf1s7908i
+#property	総数(単位:人)	1年未満(単位:人)	1年以上5年未満(単位:人)	5年以上10年未満(単位:人)	10年以上20年未満(単位:人)	20年以上(単位:人)	出生時から(単位:人)	居住期間「不詳」(単位:人)
+#object_type_xsd	string	string	string	string	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+2010年新宿区	326309	21728	47767	34882	32476	55529	17399	116528
+2015年新宿区	333560	20373	48796	26455	35615	47178	18371	136772
+【参考】2015年特別区部	9272740	548898	1451830	958238	1318750	1702820	667826	2624378
+【参考】2015年全国	127094745	7220205	19702701	15324581	21426851	36545269	15985647	10889491

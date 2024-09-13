@@ -1,0 +1,491 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D>
+      rdf:type rdf:Property ;
+      rdfs:label "候補者氏名"@ja .
+<http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D>
+      rdf:type rdf:Property ;
+      rdfs:label "党派名"@ja .
+<http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%>
+      rdf:type rdf:Property ;
+      rdfs:label "速報時刻:23:00/開票率:25.98%"@ja .
+<http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%>
+      rdf:type rdf:Property ;
+      rdfs:label "速報時刻:23:30/開票率:90.43%"@ja .
+<http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%>
+      rdf:type rdf:Property ;
+      rdfs:label "速報時刻:1:29(確定)/開票率:100%"@ja .
+<http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD>
+      rdf:type rdf:Property ;
+      rdfs:label "当落"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#38>
+      <http://www.w3.org/2000/01/rdf-schema#label> "38"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "吉住　はるお"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "自由民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "5400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "5511.739"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#13>
+      <http://www.w3.org/2000/01/rdf-schema#label> "13"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "沢田　あゆみ"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "日本共産党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "3200"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "3232"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#30>
+      <http://www.w3.org/2000/01/rdf-schema#label> "30"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "渡辺　みちたか"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "自由民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "2800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "2999.918"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#35>
+      <http://www.w3.org/2000/01/rdf-schema#label> "35"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "よだ　かれん"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "無所属"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "2800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "2983"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#49>
+      <http://www.w3.org/2000/01/rdf-schema#label> "49"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "鈴木　ひろみ"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "無所属"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "2800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "2968"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#17>
+      <http://www.w3.org/2000/01/rdf-schema#label> "17"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "大門　さちえ"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "自由民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "2600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "2825"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#14>
+      <http://www.w3.org/2000/01/rdf-schema#label> "14"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "のづ　ケン"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "無所属"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "2600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "2618.544"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#39>
+      <http://www.w3.org/2000/01/rdf-schema#label> "39"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "田中　ゆきえ"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "立憲民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "2200"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "2510.262"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#50>
+      <http://www.w3.org/2000/01/rdf-schema#label> "50"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "近藤　なつ子"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "日本共産党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "2400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "2430"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#12>
+      <http://www.w3.org/2000/01/rdf-schema#label> "12"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "いとう　陽平"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "無所属"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "2200"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "2385.605"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#33>
+      <http://www.w3.org/2000/01/rdf-schema#label> "33"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "有馬　としろう"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "公明党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "2200"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "2300"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#45>
+      <http://www.w3.org/2000/01/rdf-schema#label> "45"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "佐原　たけし"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "自由民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "2000"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "2188.455"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#51>
+      <http://www.w3.org/2000/01/rdf-schema#label> "51"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "えのき　秀隆"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "無所属"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "2000"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "2155"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#22>
+      <http://www.w3.org/2000/01/rdf-schema#label> "22"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "高月　まな"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "日本共産党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "2125"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#19>
+      <http://www.w3.org/2000/01/rdf-schema#label> "19"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "志田　雄一郎"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "無所属"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "2000"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "2096"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#27>
+      <http://www.w3.org/2000/01/rdf-schema#label> "27"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "いげた　栄一"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "公明党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "2066"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#36>
+      <http://www.w3.org/2000/01/rdf-schema#label> "36"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "中村　しんいち"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "公明党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "2000"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "2063"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#20>
+      <http://www.w3.org/2000/01/rdf-schema#label> "20"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "木もと　ひろゆき"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "公明党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "2000"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "2059"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#47>
+      <http://www.w3.org/2000/01/rdf-schema#label> "47"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "三雲　たかまさ"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "立憲民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "2000"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "2042"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#43>
+      <http://www.w3.org/2000/01/rdf-schema#label> "43"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "三沢　ひで子"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "公明党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "2000"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "2036"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#42>
+      <http://www.w3.org/2000/01/rdf-schema#label> "42"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "野もと　あきとし"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "公明党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1974"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#7>
+      <http://www.w3.org/2000/01/rdf-schema#label> "7"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "川村　のりあき"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "日本共産党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1963"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "4"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "下村　はるお"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "自由民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1940.260"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#16>
+      <http://www.w3.org/2000/01/rdf-schema#label> "16"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "雨宮　たけひこ"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "日本共産党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1924"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#37>
+      <http://www.w3.org/2000/01/rdf-schema#label> "37"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "北島　としあき"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "公明党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1903"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#24>
+      <http://www.w3.org/2000/01/rdf-schema#label> "24"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "久保　こうすけ"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "立憲民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1858"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#53>
+      <http://www.w3.org/2000/01/rdf-schema#label> "53"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "松田　みき"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "NHKから  国民を守る党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1848"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#32>
+      <http://www.w3.org/2000/01/rdf-schema#label> "32"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "永原　たかやす"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "自由民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1795"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#44>
+      <http://www.w3.org/2000/01/rdf-schema#label> "44"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "池田　だいすけ"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "自由民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1795"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#18>
+      <http://www.w3.org/2000/01/rdf-schema#label> "18"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "豊島　あつし"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "公明党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1784"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#15>
+      <http://www.w3.org/2000/01/rdf-schema#label> "15"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "時光　じゅん子"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "公明党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1783"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#26>
+      <http://www.w3.org/2000/01/rdf-schema#label> "26"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "小野　裕次郎"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "立憲民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1762.672"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#41>
+      <http://www.w3.org/2000/01/rdf-schema#label> "41"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "藤原　たけき"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "日本共産党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1717"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#8>
+      <http://www.w3.org/2000/01/rdf-schema#label> "8"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "渡辺　清人"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "自由民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1690.081"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#28>
+      <http://www.w3.org/2000/01/rdf-schema#label> "28"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "おぐら　利彦"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "自由民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1625"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#21>
+      <http://www.w3.org/2000/01/rdf-schema#label> "21"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "桑原　ようへい"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "自由民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1551.394"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#10>
+      <http://www.w3.org/2000/01/rdf-schema#label> "10"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "みやさか　俊文"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "自由民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1529"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#2>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "かわの　達男"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "社会民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1200"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1472"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%BD%93%E8%90%BD> "当"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#11>
+      <http://www.w3.org/2000/01/rdf-schema#label> "11"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "田中　のりひで"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "日本共産党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1465.737"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#3>
+      <http://www.w3.org/2000/01/rdf-schema#label> "3"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "あざみ　民栄"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "日本共産党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1461"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "29"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "佐藤　佳一"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "日本共産党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1436"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#52>
+      <http://www.w3.org/2000/01/rdf-schema#label> "52"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "ひやま　真一"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "自由民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1200"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1392"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#34>
+      <http://www.w3.org/2000/01/rdf-schema#label> "34"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "平間　しのぶ"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "無所属"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1200"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1226"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#25>
+      <http://www.w3.org/2000/01/rdf-schema#label> "25"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "堀切　笹美"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "日本第一党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "0"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "1000"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1129"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#46>
+      <http://www.w3.org/2000/01/rdf-schema#label> "46"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "李　小牧"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "無所属"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "0"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "1036"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#5>
+      <http://www.w3.org/2000/01/rdf-schema#label> "5"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "青木　かずこ"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "みんなの党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "0"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "975"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#40>
+      <http://www.w3.org/2000/01/rdf-schema#label> "40"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "おの　けん一郎"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "国民民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "0"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "857.327"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#1>
+      <http://www.w3.org/2000/01/rdf-schema#label> "1"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "小川　さだひろ"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "立憲民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "0"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "800"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "857"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#48>
+      <http://www.w3.org/2000/01/rdf-schema#label> "48"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "ふじ川　たかし"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "日本維新の会"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "0"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "600"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "759"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#6>
+      <http://www.w3.org/2000/01/rdf-schema#label> "6"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "岡田　ひろし"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "無所属"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "0"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "400"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "425"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#23>
+      <http://www.w3.org/2000/01/rdf-schema#label> "23"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "成田　賢壱"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "無所属"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "0"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "200"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "408"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#31>
+      <http://www.w3.org/2000/01/rdf-schema#label> "31"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "遠藤　修一"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "反グローバリズム国際保守連合"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "0"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "200"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "344"@ja .
+
+<http://linkdata.org/resource/rdf1s8143i#9>
+      <http://www.w3.org/2000/01/rdf-schema#label> "9"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%80%99%E8%A3%9C%E8%80%85%E6%B0%8F%E5%90%8D> "浜野　ひであき"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#%E5%85%9A%E6%B4%BE%E5%90%8D> "みんなの党"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:00/開票率:25.98%> "0"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:23:30/開票率:90.43%> "200"@ja ;
+      <http://linkdata.org/property/rdf1s8143i#速報時刻:1:29(確定)/開票率:100%> "251"@ja .
+

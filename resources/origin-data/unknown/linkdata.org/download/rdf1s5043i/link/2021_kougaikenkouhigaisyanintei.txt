@@ -1,0 +1,13 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	2021_kougaikenkouhigaisyanintei
+#download_from	http://linkdata.org/work/rdf1s5043i
+#property	総数（単位：人）	慢性気管支炎(総数)（単位：人）	慢性気管支炎(特級)（単位：人）	慢性気管支炎(1級)（単位：人）	慢性気管支炎(2級)（単位：人）	慢性気管支炎(3級)（単位：人）	慢性気管支炎(等級外)（単位：人）	気管支ぜん息(総数)（単位：人）	気管支ぜん息(特級)（単位：人）	気管支ぜん息(1級)（単位：人）	気管支ぜん息(2級)（単位：人）	気管支ぜん息(3級)（単位：人）	気管支ぜん息(等級外)（単位：人）	ぜん息性気管支炎(総数)（単位：人）	ぜん息性気管支炎(特級)（単位：人）	ぜん息性気管支炎(1級)（単位：人）	ぜん息性気管支炎(2級)（単位：人）	ぜん息性気管支炎(3級)（単位：人）	ぜん息性気管支炎(等級外)（単位：人）	肺気しゅ(総数)（単位：人）	肺気しゅ(特級)（単位：人）	肺気しゅ(1級)（単位：人）	肺気しゅ(2級)（単位：人）	肺気しゅ(3級)（単位：人）	肺気しゅ(等級外)（単位：人）
+#object_type_xsd	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+29	829	27	0	0	1	23	3	802	0	0	12	519	271	0	0	0	0	0	0	0	0	0	0	0	0
+30	809	23	0	0	1	19	3	786	0	0	14	502	270	0	0	0	0	0	0	0	0	0	0	0	0
+元	796	20	0	0	1	16	3	776	0	0	12	495	269	0	0	0	0	0	0	0	0	0	0	0	0
+2	764	18	0	0	1	14	3	746	0	0	12	495	239	0	0	0	0	0	0	0	0	0	0	0	0

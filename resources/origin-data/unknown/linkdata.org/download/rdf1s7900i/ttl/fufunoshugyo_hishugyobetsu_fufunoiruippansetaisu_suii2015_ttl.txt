@@ -1,0 +1,74 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%83%BB%E5%A6%BB%E3%81%A8%E3%82%82%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29>
+      rdf:type rdf:Property ;
+      rdfs:label "夫・妻とも就業(単位:世帯)"@ja .
+<http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%81%8C%E5%B0%B1%E6%A5%AD%E3%80%81%E5%A6%BB%E3%81%8C%E9%9D%9E%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29>
+      rdf:type rdf:Property ;
+      rdfs:label "夫が就業、妻が非就業(単位:世帯)"@ja .
+<http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%81%8C%E9%9D%9E%E5%B0%B1%E6%A5%AD%E3%80%81%E5%A6%BB%E3%81%8C%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29>
+      rdf:type rdf:Property ;
+      rdfs:label "夫が非就業、妻が就業(単位:世帯)"@ja .
+<http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%83%BB%E5%A6%BB%E3%81%A8%E3%82%82%E9%9D%9E%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29>
+      rdf:type rdf:Property ;
+      rdfs:label "夫・妻とも非就業(単位:世帯)"@ja .
+<http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%81%BE%E3%81%9F%E3%81%AF%E5%A6%BB%E3%81%AE%E5%B0%B1%E6%A5%AD%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29>
+      rdf:type rdf:Property ;
+      rdfs:label "夫または妻の就業状態「不詳」(単位:世帯)"@ja .
+<http://linkdata.org/property/rdf1s7900i#%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29>
+      rdf:type rdf:Property ;
+      rdfs:label "総数(単位:世帯)"@ja .
+
+<http://linkdata.org/resource/rdf1s7900i#2005%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2005年"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%83%BB%E5%A6%BB%E3%81%A8%E3%82%82%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "21541"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%81%8C%E5%B0%B1%E6%A5%AD%E3%80%81%E5%A6%BB%E3%81%8C%E9%9D%9E%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "18523"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%81%8C%E9%9D%9E%E5%B0%B1%E6%A5%AD%E3%80%81%E5%A6%BB%E3%81%8C%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "1540"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%83%BB%E5%A6%BB%E3%81%A8%E3%82%82%E9%9D%9E%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "8519"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%81%BE%E3%81%9F%E3%81%AF%E5%A6%BB%E3%81%AE%E5%B0%B1%E6%A5%AD%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "5173"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "55296"@ja .
+
+<http://linkdata.org/resource/rdf1s7900i#2010%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2010年"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%83%BB%E5%A6%BB%E3%81%A8%E3%82%82%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "21708"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%81%8C%E5%B0%B1%E6%A5%AD%E3%80%81%E5%A6%BB%E3%81%8C%E9%9D%9E%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "15597"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%81%8C%E9%9D%9E%E5%B0%B1%E6%A5%AD%E3%80%81%E5%A6%BB%E3%81%8C%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "1646"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%83%BB%E5%A6%BB%E3%81%A8%E3%82%82%E9%9D%9E%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "7977"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%81%BE%E3%81%9F%E3%81%AF%E5%A6%BB%E3%81%AE%E5%B0%B1%E6%A5%AD%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "7461"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "54389"@ja .
+
+<http://linkdata.org/resource/rdf1s7900i#2015%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2015年"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%83%BB%E5%A6%BB%E3%81%A8%E3%82%82%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "22205"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%81%8C%E5%B0%B1%E6%A5%AD%E3%80%81%E5%A6%BB%E3%81%8C%E9%9D%9E%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "12775"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%81%8C%E9%9D%9E%E5%B0%B1%E6%A5%AD%E3%80%81%E5%A6%BB%E3%81%8C%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "1579"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%83%BB%E5%A6%BB%E3%81%A8%E3%82%82%E9%9D%9E%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "7836"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%81%BE%E3%81%9F%E3%81%AF%E5%A6%BB%E3%81%AE%E5%B0%B1%E6%A5%AD%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "11711"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "56106"@ja .
+
+<http://linkdata.org/resource/rdf1s7900i#%E3%80%90%E5%8F%82%E8%80%83%E3%80%912015%E5%B9%B4%E7%89%B9%E5%88%A5%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "【参考】2015年特別区"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%83%BB%E5%A6%BB%E3%81%A8%E3%82%82%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "792458"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%81%8C%E5%B0%B1%E6%A5%AD%E3%80%81%E5%A6%BB%E3%81%8C%E9%9D%9E%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "471816"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%81%8C%E9%9D%9E%E5%B0%B1%E6%A5%AD%E3%80%81%E5%A6%BB%E3%81%8C%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "56614"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%83%BB%E5%A6%BB%E3%81%A8%E3%82%82%E9%9D%9E%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "278494"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%81%BE%E3%81%9F%E3%81%AF%E5%A6%BB%E3%81%AE%E5%B0%B1%E6%A5%AD%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "297047"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "1896429"@ja .
+
+<http://linkdata.org/resource/rdf1s7900i#%E3%80%90%E5%8F%82%E8%80%83%E3%80%912015%E5%B9%B4%E5%85%A8%E5%9B%BD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "【参考】2015年全国"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%83%BB%E5%A6%BB%E3%81%A8%E3%82%82%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "13080450"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%81%8C%E5%B0%B1%E6%A5%AD%E3%80%81%E5%A6%BB%E3%81%8C%E9%9D%9E%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "7271587"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%81%8C%E9%9D%9E%E5%B0%B1%E6%A5%AD%E3%80%81%E5%A6%BB%E3%81%8C%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "1131195"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%83%BB%E5%A6%BB%E3%81%A8%E3%82%82%E9%9D%9E%E5%B0%B1%E6%A5%AD%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "6020899"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E5%A4%AB%E3%81%BE%E3%81%9F%E3%81%AF%E5%A6%BB%E3%81%AE%E5%B0%B1%E6%A5%AD%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "1229047"@ja ;
+      <http://linkdata.org/property/rdf1s7900i#%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%B8%96%E5%B8%AF%29> "28733178"@ja .
+

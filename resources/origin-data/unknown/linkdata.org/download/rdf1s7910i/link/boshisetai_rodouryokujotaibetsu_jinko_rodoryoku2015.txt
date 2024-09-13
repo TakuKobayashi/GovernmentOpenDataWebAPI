@@ -1,0 +1,19 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	boshisetai_rodouryokujotaibetsu_jinko_rodoryoku2015
+#download_from	http://linkdata.org/work/rdf1s7910i
+#property	母子世帯の母の総数(単位:人)	母子世帯の母の労働力人口(単位:人)	母子世帯の母の労働力人口のうち就業者(単位:人)	母子世帯の母の非労働力人口(単位:人)	母子世帯の母の労働力状態「不詳」人口(単位:人)	母子世帯の母の労働力率(単位:％)	女性全体の労働力率(単位:％)
+#object_type_xsd	string	string	string	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+総数	1566	927	882	119	520	88.6	58.3
+母の年齢：15～19歳	2	0	0	2	0	0	18.9
+母の年齢：20～24歳	21	9	9	5	7	64.3	65.3
+母の年齢：25～29歳	87	46	40	10	31	82.1	88.1
+母の年齢：30～34歳	153	77	70	14	62	84.6	81.8
+母の年齢：35～39歳	265	155	147	23	87	87.1	78
+母の年齢：40～44歳	406	243	234	22	141	91.7	77.6
+母の年齢：45～49歳	359	223	213	24	112	90.3	78.9
+母の年齢：50～54歳	202	132	129	12	58	91.7	75.1
+母の年齢：55歳以上	71	42	40	7	22	85.7	36.3

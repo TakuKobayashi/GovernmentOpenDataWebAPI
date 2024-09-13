@@ -1,0 +1,22 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	20190721_seitotomeibetsu_tokuhyosu_uchiwake_hirei
+#download_from	http://linkdata.org/work/rdf1s8255i
+#property	政党その他の政治団体の名称	得票総数(A)	政党名等票数(B)	名簿登載者名票数(C)	政党名票の割合(B)/(A) (%)
+#object_type_xsd	string	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion
+1	日本共産党	15837.198	14602.000	1235.198	92.20
+2	自由民主党	44399.144	33072.000	11327.144	74.49
+3	オリーブの木	524.356	431.000	93.356	82.20
+4	社会民主党	2588.000	2131.000	457.000	82.34
+5	公明党	14256.150	13338.000	918.150	93.56
+6	国民民主党	5297.368	4210.000	1087.368	79.47
+7	日本維新の会	10627.000	8617.000	2010.000	81.09
+8	幸福実現党	440.000	346.000	94.000	78.64
+9	立憲民主党	22575.887	19609.000	2966.887	86.86
+10	労働の解放をめざす労働者党	129.000	99.000	30.000	76.74
+11	ＮＨＫから国民を守る党	3270.000	2848.000	422.000	87.09
+12	安楽死制度を考える会	1223.000	1133.000	90.000	92.64
+13	れいわ新選組	13066.886	6782.145	6284.741	51.90

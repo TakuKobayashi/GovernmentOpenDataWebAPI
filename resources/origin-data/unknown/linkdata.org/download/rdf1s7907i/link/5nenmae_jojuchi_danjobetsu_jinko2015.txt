@@ -1,0 +1,17 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	5nenmae_jojuchi_danjobetsu_jinko2015
+#download_from	http://linkdata.org/work/rdf1s7907i
+#property	総数（常住者）(単位:人)	現住所(単位:人)	【現住所以外(移動人口)】新宿区内(単位:人)	【現住所以外(移動人口)】都内他区(単位:人)	【現住所以外(移動人口)】都内市町村(単位:人)	【現住所以外(移動人口)】他県(単位:人)	【現住所以外(移動人口)】国外(単位:人)	5年前の常住市区町村「不詳」 (単位:人)	移動状況「不詳」 (単位:人)
+#object_type_xsd	string	string	string	string	string	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+2010年：総数	326309	143128	17422	16897	3754	22481	5375		117252
+2010年：男	161921	65603	8398	8250	1929	11799	2505		63437
+2010年：女	164388	77525	9024	8647	1825	10682	2870		53815
+2015年：総数	333560	130401	18669	17173	3822	22135	4479	253	136628
+2015年：男	167258	59540	9121	8406	1970	11472	2215	117	74417
+2015年：女	166302	70861	9548	8767	1852	10663	2264	136	62211
+2015年：日本人	300013	127748	17539	16502	3707	21739	2050	232	110496
+2015年：外国人	30506	2653	1128	671	115	395	2428	21	23095

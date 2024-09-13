@@ -1,0 +1,12 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	koyosha_jugyojonochii_danjobetsujinko2015
+#download_from	http://linkdata.org/work/rdf1s7897i
+#property	【男女計】総数(単位:人)	【男】総数(単位:人)	【男】（雇用者）正規の職員・従業員(単位:人)	【男】（雇用者）派遣社員(単位:人)	【男】（雇用者）パート・アルバイト・その他(単位:人)	【男】役員(単位:人)	【男】自営業主(単位:人)	【男】家族従業者(単位:人)	【男】従業上の地位「不詳」(単位:人)	【女】総数(単位:人)	【女】（雇用者）正規の職員・従業員(単位:人)	【女】（雇用者）派遣社員(単位:人)	【女】（雇用者）パート・アルバイト・その他(単位:人)	【女】役員(単位:人)	【女】自営業主(単位:人)	【女】家族従業者(単位:人)	【女】従業上の地位「不詳」(単位:人)
+#object_type_xsd	string	string	string	string	string	string	string	string	string	string	string	string	string	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+新宿区	134848	73911	34564	1068	7648	7732	7169	375	15355	60937	23394	2600	14769	3076	4048	1870	11180
+特別区部	3979836	2213284	1217279	39412	244610	214486	223209	12862	261426	1766552	708624	88591	557553	71910	99692	57130	183052
+全国　	58919036	33077703	20585204	660120	3916443	2179507	3946627	412763	1377039	25841333	9748167	883563	10811633	704337	1249847	1534290	909496

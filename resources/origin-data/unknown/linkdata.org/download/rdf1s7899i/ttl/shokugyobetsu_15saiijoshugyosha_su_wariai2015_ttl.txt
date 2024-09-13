@@ -1,0 +1,149 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s7899i#2010%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "2010年新宿区(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7899i#2015%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "2015年新宿区(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7899i#2010年新宿区割合(単位:%)>
+      rdf:type rdf:Property ;
+      rdfs:label "2010年新宿区割合(単位:%)"@ja .
+<http://linkdata.org/property/rdf1s7899i#2015年新宿区割合(単位:%)>
+      rdf:type rdf:Property ;
+      rdfs:label "2015年新宿区割合(単位:%)"@ja .
+<http://linkdata.org/property/rdf1s7899i#2015年特別区部割合(単位:%)>
+      rdf:type rdf:Property ;
+      rdfs:label "2015年特別区部割合(単位:%)"@ja .
+<http://linkdata.org/property/rdf1s7899i#2015年全国割合(単位:%)>
+      rdf:type rdf:Property ;
+      rdfs:label "2015年全国割合(単位:%)"@ja .
+
+<http://linkdata.org/resource/rdf1s7899i#%E7%B7%8F%E6%95%B0>
+      <http://www.w3.org/2000/01/rdf-schema#label> "総数"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "137299"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "134848"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010年新宿区割合(単位:%)> "100"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年新宿区割合(単位:%)> "100"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年特別区部割合(単位:%)> "100"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年全国割合(単位:%)> "100"@ja .
+
+<http://linkdata.org/resource/rdf1s7899i#%EF%BC%A1%20%E7%AE%A1%E7%90%86%E7%9A%84%E8%81%B7%E6%A5%AD%E5%BE%93%E4%BA%8B%E8%80%85>
+      <http://www.w3.org/2000/01/rdf-schema#label> "Ａ 管理的職業従事者"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "5662"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "5122"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010年新宿区割合(単位:%)> "5.1"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年新宿区割合(単位:%)> "4.9"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年特別区部割合(単位:%)> "3.8"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年全国割合(単位:%)> "2.5"@ja .
+
+<http://linkdata.org/resource/rdf1s7899i#%EF%BC%A2%20%E5%B0%82%E9%96%80%E7%9A%84%E3%83%BB%E6%8A%80%E8%A1%93%E7%9A%84%E8%81%B7%E6%A5%AD%E5%BE%93%E4%BA%8B%E8%80%85>
+      <http://www.w3.org/2000/01/rdf-schema#label> "Ｂ 専門的・技術的職業従事者"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "27959"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "28452"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010年新宿区割合(単位:%)> "25.1"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年新宿区割合(単位:%)> "27"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年特別区部割合(単位:%)> "21.9"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年全国割合(単位:%)> "16.8"@ja .
+
+<http://linkdata.org/resource/rdf1s7899i#%EF%BC%A3%20%E4%BA%8B%E5%8B%99%E5%BE%93%E4%BA%8B%E8%80%85>
+      <http://www.w3.org/2000/01/rdf-schema#label> "Ｃ 事務従事者"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "29483"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "28859"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010年新宿区割合(単位:%)> "26.5"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年新宿区割合(単位:%)> "27.4"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年特別区部割合(単位:%)> "27.1"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年全国割合(単位:%)> "20"@ja .
+
+<http://linkdata.org/resource/rdf1s7899i#%EF%BC%A4%20%E8%B2%A9%E5%A3%B2%E5%BE%93%E4%BA%8B%E8%80%85>
+      <http://www.w3.org/2000/01/rdf-schema#label> "Ｄ 販売従事者"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "16691"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "15397"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010年新宿区割合(単位:%)> "15"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年新宿区割合(単位:%)> "14.6"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年特別区部割合(単位:%)> "15.7"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年全国割合(単位:%)> "13.2"@ja .
+
+<http://linkdata.org/resource/rdf1s7899i#%EF%BC%A5%20%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E8%81%B7%E6%A5%AD%E5%BE%93%E4%BA%8B%E8%80%85>
+      <http://www.w3.org/2000/01/rdf-schema#label> "Ｅ サービス職業従事者"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "15135"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "12462"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010年新宿区割合(単位:%)> "13.6"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年新宿区割合(単位:%)> "11.8"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年特別区部割合(単位:%)> "11.6"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年全国割合(単位:%)> "12.3"@ja .
+
+<http://linkdata.org/resource/rdf1s7899i#%EF%BC%A6%20%E4%BF%9D%E5%AE%89%E8%81%B7%E6%A5%AD%E5%BE%93%E4%BA%8B%E8%80%85>
+      <http://www.w3.org/2000/01/rdf-schema#label> "Ｆ 保安職業従事者"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2755"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2735"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010年新宿区割合(単位:%)> "2.5"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年新宿区割合(単位:%)> "2.6"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年特別区部割合(単位:%)> "1.5"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年全国割合(単位:%)> "1.9"@ja .
+
+<http://linkdata.org/resource/rdf1s7899i#%EF%BC%A7%20%E8%BE%B2%E6%9E%97%E6%BC%81%E6%A5%AD%E5%BE%93%E4%BA%8B%E8%80%85>
+      <http://www.w3.org/2000/01/rdf-schema#label> "Ｇ 農林漁業従事者"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "73"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "88"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010年新宿区割合(単位:%)> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年新宿区割合(単位:%)> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年特別区部割合(単位:%)> "0.2"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年全国割合(単位:%)> "3.8"@ja .
+
+<http://linkdata.org/resource/rdf1s7899i#%EF%BC%A8%20%E7%94%9F%E7%94%A3%E5%B7%A5%E7%A8%8B%E5%BE%93%E4%BA%8B%E8%80%85>
+      <http://www.w3.org/2000/01/rdf-schema#label> "Ｈ 生産工程従事者"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "5019"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "4550"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010年新宿区割合(単位:%)> "4.5"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年新宿区割合(単位:%)> "4.3"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年特別区部割合(単位:%)> "6.9"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年全国割合(単位:%)> "14.2"@ja .
+
+<http://linkdata.org/resource/rdf1s7899i#%EF%BC%A9%20%E8%BC%B8%E9%80%81%E3%83%BB%E6%A9%9F%E6%A2%B0%E9%81%8B%E8%BB%A2%E5%BE%93%E4%BA%8B%E8%80%85>
+      <http://www.w3.org/2000/01/rdf-schema#label> "Ｉ 輸送・機械運転従事者"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1516"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1225"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010年新宿区割合(単位:%)> "1.4"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年新宿区割合(単位:%)> "1.2"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年特別区部割合(単位:%)> "2.7"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年全国割合(単位:%)> "3.6"@ja .
+
+<http://linkdata.org/resource/rdf1s7899i#%EF%BC%AA%20%E5%BB%BA%E8%A8%AD%E3%83%BB%E6%8E%A1%E6%8E%98%E5%BE%93%E4%BA%8B%E8%80%85>
+      <http://www.w3.org/2000/01/rdf-schema#label> "Ｊ 建設・採掘従事者"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1914"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1644"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010年新宿区割合(単位:%)> "1.7"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年新宿区割合(単位:%)> "1.6"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年特別区部割合(単位:%)> "2.8"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年全国割合(単位:%)> "4.6"@ja .
+
+<http://linkdata.org/resource/rdf1s7899i#%EF%BC%AB%20%E9%81%8B%E6%90%AC%E3%83%BB%E6%B8%85%E6%8E%83%E3%83%BB%E5%8C%85%E8%A3%85%E7%AD%89%E5%BE%93%E4%BA%8B%E8%80%85>
+      <http://www.w3.org/2000/01/rdf-schema#label> "Ｋ 運搬・清掃・包装等従事者"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "4997"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "4777"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010年新宿区割合(単位:%)> "4.5"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年新宿区割合(単位:%)> "4.5"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年特別区部割合(単位:%)> "5.8"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年全国割合(単位:%)> "7"@ja .
+
+<http://linkdata.org/resource/rdf1s7899i#%EF%BC%AC%20%E5%88%86%E9%A1%9E%E4%B8%8D%E8%83%BD%E3%81%AE%E8%81%B7%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "Ｌ 分類不能の職業"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "26095"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015%E5%B9%B4%E6%96%B0%E5%AE%BF%E5%8C%BA%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "29537"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2010年新宿区割合(単位:%)> "ー"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年新宿区割合(単位:%)> "ー"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年特別区部割合(単位:%)> "ー"@ja ;
+      <http://linkdata.org/property/rdf1s7899i#2015年全国割合(単位:%)> "ー"@ja .
+
+<http://linkdata.org/resource/rdf1s7899i#%E6%B3%A8%EF%BC%89%E5%89%B2%E5%90%88%E3%81%AF%E3%80%81%E5%88%86%E6%AF%8D%E3%81%AE%E5%B0%B1%E6%A5%AD%E8%80%85%E7%B7%8F%E6%95%B0%E3%81%8B%E3%82%89%E3%80%8C%E5%88%86%E9%A1%9E%E4%B8%8D%E8%83%BD%E3%81%AE%E8%81%B7%E6%A5%AD%E3%80%8D%E3%82%92%E9%99%A4%E3%81%84%E3%81%A6%E7%AE%97%E5%87%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "注）割合は、分母の就業者総数から「分類不能の職業」を除いて算出"@ja .
+

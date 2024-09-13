@@ -1,0 +1,23 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	tokushutuchikibetsu_gaikokujinjinko_wariai2015
+#download_from	http://linkdata.org/work/rdf1s7913i
+#property	外国人人口(単位:人)	外国人割合(単位:％)
+#object_type_xsd	string	string
+#property_context	Assertion	Assertion
+新宿区	30506	9.2
+四谷	1698	4.7
+箪笥	1338	3.5
+榎	1730	5.1
+若松	2393	7.6
+大久保	9649	21.8
+戸塚	4802	12.1
+落合第一	2170	6.5
+落合第二	1174	3.9
+柏木	4345	14.2
+角筈・区役所	1207	7.7
+※新宿区の外国人割合は、日本人・外国人別「不詳」人口を除いて算出		
+※地域別の外国人割合は、日本人・外国人別「不詳」人口が公表されていないため、分母の地域別人口には「不詳」を含んでいる		
+※町丁別で集計しているため、実際の特別出張所所管区域とは異なる		

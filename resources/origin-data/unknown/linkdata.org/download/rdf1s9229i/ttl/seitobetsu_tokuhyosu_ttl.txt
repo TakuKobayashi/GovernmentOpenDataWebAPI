@@ -1,0 +1,122 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s9229i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0>
+      rdf:type rdf:Property ;
+      rdfs:label "名簿届出政党等の名称"@ja .
+<http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC1%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "東京都第1区（新宿区）"@ja .
+<http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC10%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89>
+      rdf:type rdf:Property ;
+      rdfs:label "東京都第10区（新宿区）"@ja .
+<http://linkdata.org/property/rdf1s9229i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%85%A8%E4%BD%93>
+      rdf:type rdf:Property ;
+      rdfs:label "新宿区全体"@ja .
+<http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E9%81%B8%E6%8C%99%E5%8C%BA%E5%85%A8%E4%BD%93>
+      rdf:type rdf:Property ;
+      rdfs:label "東京都選挙区全体"@ja .
+
+<http://linkdata.org/resource/rdf1s9229i#1>
+      <http://www.w3.org/2000/01/rdf-schema#label> "1"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "自由民主党"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC1%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "40759"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC10%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "5978"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%85%A8%E4%BD%93> "46737"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E9%81%B8%E6%8C%99%E5%8C%BA%E5%85%A8%E4%BD%93> "2000084"@ja .
+
+<http://linkdata.org/resource/rdf1s9229i#2>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "社会民主党"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC1%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "1851"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC10%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "311"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%85%A8%E4%BD%93> "2162"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E9%81%B8%E6%8C%99%E5%8C%BA%E5%85%A8%E4%BD%93> "92995"@ja .
+
+<http://linkdata.org/resource/rdf1s9229i#3>
+      <http://www.w3.org/2000/01/rdf-schema#label> "3"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "国民民主党"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC1%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "6149.477"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC10%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "1017.907"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%85%A8%E4%BD%93> "7167.384"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E9%81%B8%E6%8C%99%E5%8C%BA%E5%85%A8%E4%BD%93> "306179.757"@ja .
+
+<http://linkdata.org/resource/rdf1s9229i#4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "4"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "日本維新の会"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC1%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "19756"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC10%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "2727"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%85%A8%E4%BD%93> "22483"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E9%81%B8%E6%8C%99%E5%8C%BA%E5%85%A8%E4%BD%93> "858577"@ja .
+
+<http://linkdata.org/resource/rdf1s9229i#5>
+      <http://www.w3.org/2000/01/rdf-schema#label> "5"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "日本第一党"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC1%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "759"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC10%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "129"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%85%A8%E4%BD%93> "888"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E9%81%B8%E6%8C%99%E5%8C%BA%E5%85%A8%E4%BD%93> "33661"@ja .
+
+<http://linkdata.org/resource/rdf1s9229i#6>
+      <http://www.w3.org/2000/01/rdf-schema#label> "6"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "れいわ新選組"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC1%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "7462"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC10%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "1253"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%85%A8%E4%BD%93> "8715"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E9%81%B8%E6%8C%99%E5%8C%BA%E5%85%A8%E4%BD%93> "360387"@ja .
+
+<http://linkdata.org/resource/rdf1s9229i#7>
+      <http://www.w3.org/2000/01/rdf-schema#label> "7"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "公明党"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC1%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "13204"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC10%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "2285"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%85%A8%E4%BD%93> "15489"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E9%81%B8%E6%8C%99%E5%8C%BA%E5%85%A8%E4%BD%93> "715450"@ja .
+
+<http://linkdata.org/resource/rdf1s9229i#8>
+      <http://www.w3.org/2000/01/rdf-schema#label> "8"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "新党やまと"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC1%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "300"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC10%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "43"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%85%A8%E4%BD%93> "343"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E9%81%B8%E6%8C%99%E5%8C%BA%E5%85%A8%E4%BD%93> "16970"@ja .
+
+<http://linkdata.org/resource/rdf1s9229i#9>
+      <http://www.w3.org/2000/01/rdf-schema#label> "9"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "日本共産党"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC1%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "14833"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC10%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "2532"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%85%A8%E4%BD%93> "17365"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E9%81%B8%E6%8C%99%E5%8C%BA%E5%85%A8%E4%BD%93> "670340"@ja .
+
+<http://linkdata.org/resource/rdf1s9229i#10>
+      <http://www.w3.org/2000/01/rdf-schema#label> "10"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "立憲民主党"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC1%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "23446.522"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC10%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "4160.092"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%85%A8%E4%BD%93> "27606.614"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E9%81%B8%E6%8C%99%E5%8C%BA%E5%85%A8%E4%BD%93> "1293281.168"@ja .
+
+<http://linkdata.org/resource/rdf1s9229i#11>
+      <http://www.w3.org/2000/01/rdf-schema#label> "11"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "政権交代によるコロナ対策強化新党"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC1%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "119"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC10%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "31"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%85%A8%E4%BD%93> "150"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E9%81%B8%E6%8C%99%E5%8C%BA%E5%85%A8%E4%BD%93> "6620"@ja .
+
+<http://linkdata.org/resource/rdf1s9229i#12>
+      <http://www.w3.org/2000/01/rdf-schema#label> "12"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ＮＨＫと裁判してる党弁護士法72条違反で"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC1%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "2105"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AC%AC10%E5%8C%BA%EF%BC%88%E6%96%B0%E5%AE%BF%E5%8C%BA%EF%BC%89> "319"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%85%A8%E4%BD%93> "2424"@ja ;
+      <http://linkdata.org/property/rdf1s9229i#%E6%9D%B1%E4%BA%AC%E9%83%BD%E9%81%B8%E6%8C%99%E5%8C%BA%E5%85%A8%E4%BD%93> "92353"@ja .
+

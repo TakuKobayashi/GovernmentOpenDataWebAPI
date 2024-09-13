@@ -1,0 +1,847 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "新宿区就業者数(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29>
+      rdf:type rdf:Property ;
+      rdfs:label "新宿区就業者構成割合(単位:％)"@ja .
+<http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "全国就業者数(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29>
+      rdf:type rdf:Property ;
+      rdfs:label "全国就業者構成割合(単位:％)"@ja .
+<http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94>
+      rdf:type rdf:Property ;
+      rdfs:label "構成割合の対全国比"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E7%B7%8F%E6%95%B0>
+      <http://www.w3.org/2000/01/rdf-schema#label> "総数"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "518170"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "100"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "58890810"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "100"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%A1%20%E8%BE%B2%E6%A5%AD%EF%BC%8C%E6%9E%97%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ａ 農業，林業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "140"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2072890"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "3.7"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.01"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8001%20%E8%BE%B2%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　01 農業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "140"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2008270"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "3.6"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.01"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8002%20%E6%9E%97%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　02 林業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "64620"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%A2%20%E6%BC%81%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ｂ 漁業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "152860"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.3"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8003%20%E6%BC%81%E6%A5%AD%EF%BC%88%E6%B0%B4%E7%94%A3%E9%A4%8A%E6%AE%96%E6%A5%AD%E3%82%92%E9%99%A4%E3%81%8F%EF%BC%89>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　03 漁業（水産養殖業を除く）"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "110120"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8004%20%E6%B0%B4%E7%94%A3%E9%A4%8A%E6%AE%96%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　04 水産養殖業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "42740"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%A3%20%E9%89%B1%E6%A5%AD%EF%BC%8C%E6%8E%A1%E7%9F%B3%E6%A5%AD%EF%BC%8C%E7%A0%82%E5%88%A9%E6%8E%A1%E5%8F%96%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ｃ 鉱業，採石業，砂利採取業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "40"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "23710"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.2"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8005%20%E9%89%B1%E6%A5%AD%EF%BC%8C%E6%8E%A1%E7%9F%B3%E6%A5%AD%EF%BC%8C%E7%A0%82%E5%88%A9%E6%8E%A1%E5%8F%96%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　05 鉱業，採石業，砂利採取業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "40"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "23710"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.2"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%A4%20%E5%BB%BA%E8%A8%AD%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ｄ 建設業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "26390"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "5.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "4429650"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "7.9"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.7"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8006%20%E5%BB%BA%E8%A8%AD%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　06 建設業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "26390"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "5.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "4429650"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "7.9"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.7"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%A5%20%E8%A3%BD%E9%80%A0%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ｅ 製造業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "26570"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "5.6"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "9077510"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "16.3"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.34"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8009%20%E9%A3%9F%E6%96%99%E5%93%81%E8%A3%BD%E9%80%A0%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　09 食料品製造業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2060"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1155690"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "2.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.21"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8010%20%E9%A3%B2%E6%96%99%E3%83%BB%E3%81%9F%E3%81%B0%E3%81%93%E3%83%BB%E9%A3%BC%E6%96%99%E8%A3%BD%E9%80%A0%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　10 飲料・たばこ・飼料製造業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "80"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "124650"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.07"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8011%20%E7%B9%8A%E7%B6%AD%E5%B7%A5%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　11 繊維工業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1220"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.3"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "420690"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.8"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.34"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8012%20%E6%9C%A8%E6%9D%90%E3%83%BB%E6%9C%A8%E8%A3%BD%E5%93%81%E8%A3%BD%E9%80%A0%E6%A5%AD%EF%BC%88%E5%AE%B6%E5%85%B7%E3%82%92%E9%99%A4%E3%81%8F%EF%BC%89>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　12 木材・木製品製造業（家具を除く）"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "50"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "117960"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.05"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8013%20%E5%AE%B6%E5%85%B7%E3%83%BB%E8%A3%85%E5%82%99%E5%93%81%E8%A3%BD%E9%80%A0%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　13 家具・装備品製造業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "280"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "133470"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.24"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8014%20%E3%83%91%E3%83%AB%E3%83%97%E3%83%BB%E7%B4%99%E3%83%BB%E7%B4%99%E5%8A%A0%E5%B7%A5%E5%93%81%E8%A3%BD%E9%80%A0%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　14 パルプ・紙・紙加工品製造業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "460"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "217440"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.25"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8015%20%E5%8D%B0%E5%88%B7%E3%83%BB%E5%90%8C%E9%96%A2%E9%80%A3%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　15 印刷・同関連業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "10650"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "2.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "372950"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.7"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "3.33"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8016%20%E5%8C%96%E5%AD%A6%E5%B7%A5%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　16 化学工業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "3800"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.8"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "482420"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.9"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.92"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8017%20%E7%9F%B3%E6%B2%B9%E8%A3%BD%E5%93%81%E3%83%BB%E7%9F%B3%E7%82%AD%E8%A3%BD%E5%93%81%E8%A3%BD%E9%80%A0%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　17 石油製品・石炭製品製造業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "28510"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8018%20%E3%83%97%E3%83%A9%E3%82%B9%E3%83%81%E3%83%83%E3%82%AF%E8%A3%BD%E5%93%81%E8%A3%BD%E9%80%A0%E6%A5%AD%EF%BC%88%E5%88%A5%E6%8E%B2%E3%82%92%E9%99%A4%E3%81%8F%EF%BC%89>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　18 プラスチック製品製造業（別掲を除く）"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "780"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "443220"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.8"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.21"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8019%20%E3%82%B4%E3%83%A0%E8%A3%BD%E5%93%81%E8%A3%BD%E9%80%A0%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　19 ゴム製品製造業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "80"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "141660"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.3"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.07"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8020%20%E3%81%AA%E3%82%81%E3%81%97%E9%9D%A9%E3%83%BB%E5%90%8C%E8%A3%BD%E5%93%81%E3%83%BB%E6%AF%9B%E7%9A%AE%E8%A3%BD%E9%80%A0%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　20 なめし革・同製品・毛皮製造業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "110"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "39970"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.32"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8021%20%E7%AA%AF%E6%A5%AD%E3%83%BB%E5%9C%9F%E7%9F%B3%E8%A3%BD%E5%93%81%E8%A3%BD%E9%80%A0%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　21 窯業・土石製品製造業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "260"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "282980"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.11"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8022%20%E9%89%84%E9%8B%BC%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　22 鉄鋼業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "10"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "245500"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8023%20%E9%9D%9E%E9%89%84%E9%87%91%E5%B1%9E%E8%A3%BD%E9%80%A0%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　23 非鉄金属製造業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "110"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "148120"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.3"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.09"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8024%20%E9%87%91%E5%B1%9E%E8%A3%BD%E5%93%81%E8%A3%BD%E9%80%A0%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　24 金属製品製造業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "360"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "781200"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.05"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8025%20%E3%81%AF%E3%82%93%E7%94%A8%E6%A9%9F%E6%A2%B0%E5%99%A8%E5%85%B7%E8%A3%BD%E9%80%A0%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　25 はん用機械器具製造業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "380"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "336240"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.6"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.13"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8026%20%E7%94%9F%E7%94%A3%E7%94%A8%E6%A9%9F%E6%A2%B0%E5%99%A8%E5%85%B7%E8%A3%BD%E9%80%A0%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　26 生産用機械器具製造業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "440"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "595350"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.09"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8027%20%E6%A5%AD%E5%8B%99%E7%94%A8%E6%A9%9F%E6%A2%B0%E5%99%A8%E5%85%B7%E8%A3%BD%E9%80%A0%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　27 業務用機械器具製造業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1760"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "290730"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.71"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8028%20%E9%9B%BB%E5%AD%90%E9%83%A8%E5%93%81%E3%83%BB%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%83%BB%E9%9B%BB%E5%AD%90%E5%9B%9E%E8%B7%AF%E8%A3%BD%E9%80%A0%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　28 電子部品・デバイス・電子回路製造業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "820"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "512280"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.9"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.19"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8029%20%E9%9B%BB%E6%B0%97%E6%A9%9F%E6%A2%B0%E5%99%A8%E5%85%B7%E8%A3%BD%E9%80%A0%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　29 電気機械器具製造業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "950"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "543050"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.2"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8030%20%E6%83%85%E5%A0%B1%E9%80%9A%E4%BF%A1%E6%A9%9F%E6%A2%B0%E5%99%A8%E5%85%B7%E8%A3%BD%E9%80%A0%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　30 情報通信機械器具製造業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "560"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "213590"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.31"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8031%20%E8%BC%B8%E9%80%81%E7%94%A8%E6%A9%9F%E6%A2%B0%E5%99%A8%E5%85%B7%E8%A3%BD%E9%80%A0%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　31 輸送用機械器具製造業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "170"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1075420"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.9"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.02"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8032%20%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E8%A3%BD%E9%80%A0%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　32 その他の製造業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1180"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "374410"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.7"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.37"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%A6%20%E9%9B%BB%E6%B0%97%E3%83%BB%E3%82%AC%E3%82%B9%E3%83%BB%E7%86%B1%E4%BE%9B%E7%B5%A6%E3%83%BB%E6%B0%B4%E9%81%93%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ｆ 電気・ガス・熱供給・水道業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "3460"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.7"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "276550"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.46"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8033%20%E9%9B%BB%E6%B0%97%E3%83%BB%E3%82%AC%E3%82%B9%E3%83%BB%E7%86%B1%E4%BE%9B%E7%B5%A6%E3%83%BB%E6%B0%B4%E9%81%93%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　33 電気・ガス・熱供給・水道業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "3460"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.7"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "276550"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.46"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%A7%20%E6%83%85%E5%A0%B1%E9%80%9A%E4%BF%A1%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ｇ 情報通信業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "68550"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "14.3"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1658450"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "3"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "4.83"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8037%20%E9%80%9A%E4%BF%A1%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　37 通信業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "7260"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "143370"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.3"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "5.91"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8038%20%E6%94%BE%E9%80%81%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　38 放送業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "240"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "68820"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.41"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8039%20%E6%83%85%E5%A0%B1%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　39 情報サービス業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "42780"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "8.9"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1071740"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.9"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "4.66"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8040%20%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E9%99%84%E9%9A%8F%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　40 インターネット附随サービス業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "5250"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "106340"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "5.76"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8041%20%E6%98%A0%E5%83%8F%E3%83%BB%E9%9F%B3%E5%A3%B0%E3%83%BB%E6%96%87%E5%AD%97%E6%83%85%E5%A0%B1%E5%88%B6%E4%BD%9C%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　41 映像・音声・文字情報制作業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "13010"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "2.7"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "268190"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "5.66"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%A8%20%E9%81%8B%E8%BC%B8%E6%A5%AD%EF%BC%8C%E9%83%B5%E4%BE%BF%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ｈ 運輸業，郵便業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "9910"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "2.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "3000500"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "5.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.39"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8042%20%E9%89%84%E9%81%93%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　42 鉄道業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "3810"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.8"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "222750"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "2"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8043%20%E9%81%93%E8%B7%AF%E6%97%85%E5%AE%A2%E9%81%8B%E9%80%81%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　43 道路旅客運送業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1770"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "482340"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.9"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.43"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8044%20%E9%81%93%E8%B7%AF%E8%B2%A8%E7%89%A9%E9%81%8B%E9%80%81%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　44 道路貨物運送業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2420"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1599200"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "2.9"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.18"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8045%20%E6%B0%B4%E9%81%8B%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　45 水運業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "90"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "52890"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.2"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8046%20%E8%88%AA%E7%A9%BA%E9%81%8B%E8%BC%B8%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　46 航空運輸業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "50"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "41190"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.14"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8047%20%E5%80%89%E5%BA%AB%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　47 倉庫業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "290"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "219000"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.15"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8048%20%E9%81%8B%E8%BC%B8%E3%81%AB%E9%99%84%E5%B8%AF%E3%81%99%E3%82%8B%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　48 運輸に附帯するサービス業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "730"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "300390"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.28"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8049%20%E9%83%B5%E4%BE%BF%E6%A5%AD%EF%BC%88%E4%BF%A1%E6%9B%B8%E4%BE%BF%E4%BA%8B%E6%A5%AD%E3%82%92%E5%90%AB%E3%82%80%EF%BC%89>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　49 郵便業（信書便事業を含む）"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "760"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "82750"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.07"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%A9%20%E5%8D%B8%E5%A3%B2%E6%A5%AD%EF%BC%8C%E5%B0%8F%E5%A3%B2%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ｉ 卸売業，小売業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "73720"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "15.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "9367820"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "16.8"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.92"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8050%20%E5%8D%B8%E5%A3%B2%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　50 卸売業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "29950"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "6.3"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2889370"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "5.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.21"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8056%20%E5%90%84%E7%A8%AE%E5%95%86%E5%93%81%E5%B0%8F%E5%A3%B2%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　56 各種商品小売業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "7890"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.7"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "461810"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.8"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.99"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8057%20%E7%B9%94%E7%89%A9%E3%83%BB%E8%A1%A3%E6%9C%8D%E3%83%BB%E8%BA%AB%E3%81%AE%E5%9B%9E%E3%82%8A%E5%93%81%E5%B0%8F%E5%A3%B2%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　57 織物・衣服・身の回り品小売業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "8500"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.8"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "617220"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.61"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8058%20%E9%A3%B2%E9%A3%9F%E6%96%99%E5%93%81%E5%B0%8F%E5%A3%B2%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　58 飲食料品小売業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "10320"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "2.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2396830"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "4.3"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.5"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8059%20%E6%A9%9F%E6%A2%B0%E5%99%A8%E5%85%B7%E5%B0%8F%E5%A3%B2%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　59 機械器具小売業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "3680"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.8"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "858880"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.5"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8060%20%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E5%B0%8F%E5%A3%B2%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　60 その他の小売業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "13390"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "2.8"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2143710"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "3.8"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.73"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%AA%20%E9%87%91%E8%9E%8D%E6%A5%AD%EF%BC%8C%E4%BF%9D%E9%99%BA%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ｊ 金融業，保険業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "26790"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "5.6"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1417760"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "2.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "2.21"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8062%20%E9%87%91%E8%9E%8D%E6%A5%AD%EF%BC%8C%E4%BF%9D%E9%99%BA%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　62 金融業，保険業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "26790"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "5.6"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1417760"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "2.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "2.21"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%AB%20%E4%B8%8D%E5%8B%95%E7%94%A3%E6%A5%AD%EF%BC%8C%E7%89%A9%E5%93%81%E8%B3%83%E8%B2%B8%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ｋ 不動産業，物品賃貸業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "23670"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1179570"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "2.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "2.34"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8068%20%E4%B8%8D%E5%8B%95%E7%94%A3%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　68 不動産業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "21520"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "4.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "929900"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.7"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "2.7"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8070%20%E7%89%A9%E5%93%81%E8%B3%83%E8%B2%B8%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　70 物品賃貸業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2150"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "249670"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.01"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%AC%20%E5%AD%A6%E8%A1%93%E7%A0%94%E7%A9%B6%EF%BC%8C%E5%B0%82%E9%96%80%E3%83%BB%E6%8A%80%E8%A1%93%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ｌ 学術研究，専門・技術サービス業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "38900"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "8.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1963060"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "3.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "2.31"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8071%20%E5%AD%A6%E8%A1%93%E3%83%BB%E9%96%8B%E7%99%BA%E7%A0%94%E7%A9%B6%E6%A9%9F%E9%96%A2>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　71 学術・開発研究機関"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1810"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "201210"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.05"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8072%20%E5%B0%82%E9%96%80%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E6%A5%AD%EF%BC%88%E4%BB%96%E3%81%AB%E5%88%86%E9%A1%9E%E3%81%95%E3%82%8C%E3%81%AA%E3%81%84%E3%82%82%E3%81%AE%EF%BC%89>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　72 専門サービス業（他に分類されないもの）"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "21900"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "4.6"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "799430"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "3.2"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8073%20%E5%BA%83%E5%91%8A%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　73 広告業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "5150"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "128380"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "4.68"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8074%20%E6%8A%80%E8%A1%93%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E6%A5%AD%EF%BC%88%E4%BB%96%E3%81%AB%E5%88%86%E9%A1%9E%E3%81%95%E3%82%8C%E3%81%AA%E3%81%84%E3%82%82%E3%81%AE%EF%BC%89>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　74 技術サービス業（他に分類されないもの）"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "10030"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "2.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "834040"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.4"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%AD%20%E5%AE%BF%E6%B3%8A%E6%A5%AD%EF%BC%8C%E9%A3%B2%E9%A3%9F%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ｍ 宿泊業，飲食サービス業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "31790"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "6.6"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "3288060"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "5.9"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.13"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8075%20%E5%AE%BF%E6%B3%8A%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　75 宿泊業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "4700"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "547980"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8076%20%E9%A3%B2%E9%A3%9F%E5%BA%97>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　76 飲食店"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "25610"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "5.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2265380"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "4.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.32"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8077%20%E6%8C%81%E3%81%A1%E5%B8%B0%E3%82%8A%E3%83%BB%E9%85%8D%E9%81%94%E9%A3%B2%E9%A3%9F%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　77 持ち帰り・配達飲食サービス業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1490"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.3"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "474700"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.9"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.37"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%AE%20%E7%94%9F%E6%B4%BB%E9%96%A2%E9%80%A3%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E6%A5%AD%EF%BC%8C%E5%A8%AF%E6%A5%BD%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ｎ 生活関連サービス業，娯楽業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "19380"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "4.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2121390"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "3.8"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.07"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8078%20%E6%B4%97%E6%BF%AF%E3%83%BB%E7%90%86%E5%AE%B9%E3%83%BB%E7%BE%8E%E5%AE%B9%E3%83%BB%E6%B5%B4%E5%A0%B4%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　78 洗濯・理容・美容・浴場業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "4340"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.9"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1009000"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.8"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.5"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8079%20%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E7%94%9F%E6%B4%BB%E9%96%A2%E9%80%A3%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　79 その他の生活関連サービス業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "8430"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.8"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "427090"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.8"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "2.3"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8080%20%E5%A8%AF%E6%A5%BD%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　80 娯楽業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "6610"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "685300"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.13"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%AF%20%E6%95%99%E8%82%B2%EF%BC%8C%E5%AD%A6%E7%BF%92%E6%94%AF%E6%8F%B4%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ｏ 教育，学習支援業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "24720"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "5.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2666230"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "4.8"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.08"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8081%20%E5%AD%A6%E6%A0%A1%E6%95%99%E8%82%B2>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　81 学校教育"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "12600"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "2.6"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1862190"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "3.3"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.79"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8082%20%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%95%99%E8%82%B2%EF%BC%8C%E5%AD%A6%E7%BF%92%E6%94%AF%E6%8F%B4%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　82 その他の教育，学習支援業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "12130"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "2.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "804040"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.76"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%B0%20%E5%8C%BB%E7%99%82%EF%BC%8C%E7%A6%8F%E7%A5%89>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ｐ 医療，福祉"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "27070"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "5.7"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "7031700"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "12.6"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.45"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8083%20%E5%8C%BB%E7%99%82%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　83 医療業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "17040"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "3.6"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "3497070"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "6.3"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.57"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8084%20%E4%BF%9D%E5%81%A5%E8%A1%9B%E7%94%9F>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　84 保健衛生"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1450"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.3"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "109410"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.55"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8085%20%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%99%BA%E3%83%BB%E7%A4%BE%E4%BC%9A%E7%A6%8F%E7%A5%89%E3%83%BB%E4%BB%8B%E8%AD%B7%E4%BA%8B%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　85 社会保険・社会福祉・介護事業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "8580"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.8"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "3425220"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "6.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.29"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%B1%20%E8%A4%87%E5%90%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E4%BA%8B%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ｑ 複合サービス事業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "880"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "496440"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.9"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.21"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8086%20%E9%83%B5%E4%BE%BF%E5%B1%80>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　86 郵便局"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "780"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "274790"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.33"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8087%20%E5%8D%94%E5%90%8C%E7%B5%84%E5%90%88%EF%BC%88%E4%BB%96%E3%81%AB%E5%88%86%E9%A1%9E%E3%81%95%E3%82%8C%E3%81%AA%E3%81%84%E3%82%82%E3%81%AE%EF%BC%89>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　87 協同組合（他に分類されないもの）"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "100"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "221650"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.05"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%B2%20%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E6%A5%AD%EF%BC%88%E4%BB%96%E3%81%AB%E5%88%86%E9%A1%9E%E3%81%95%E3%82%8C%E3%81%AA%E3%81%84%E3%82%82%E3%81%AE%EF%BC%89>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ｒ サービス業（他に分類されないもの）"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "52620"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "11"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "3586970"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "6.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.71"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8088%20%E5%BB%83%E6%A3%84%E7%89%A9%E5%87%A6%E7%90%86%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　88 廃棄物処理業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "410"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "298130"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.16"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8089%20%E8%87%AA%E5%8B%95%E8%BB%8A%E6%95%B4%E5%82%99%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　89 自動車整備業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "180"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "281970"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.5"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.07"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8090%20%E6%A9%9F%E6%A2%B0%E7%AD%89%E4%BF%AE%E7%90%86%E6%A5%AD%EF%BC%88%E5%88%A5%E6%8E%B2%E3%82%92%E9%99%A4%E3%81%8F%EF%BC%89>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　90 機械等修理業（別掲を除く）"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2020"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "220460"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.07"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8091%20%E8%81%B7%E6%A5%AD%E7%B4%B9%E4%BB%8B%E3%83%BB%E5%8A%B4%E5%83%8D%E8%80%85%E6%B4%BE%E9%81%A3%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　91 職業紹介・労働者派遣業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "7470"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.6"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "173310"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.3"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "5.03"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8092%20%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E4%BA%8B%E6%A5%AD%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　92 その他の事業サービス業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "34810"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "7.3"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2129250"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "3.8"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.91"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8093%20%E6%94%BF%E6%B2%BB%E3%83%BB%E7%B5%8C%E6%B8%88%E3%83%BB%E6%96%87%E5%8C%96%E5%9B%A3%E4%BD%93>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　93 政治・経済・文化団体"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "5820"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "224910"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.4"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "3.02"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8094%20%E5%AE%97%E6%95%99>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　94 宗教"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1450"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.3"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "193990"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.3"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0.87"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8095%20%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　95 その他のサービス業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "460"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "45670"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0.1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.18"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8096%20%E5%A4%96%E5%9B%BD%E5%85%AC%E5%8B%99>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　96 外国公務"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "19290"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "0"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "0"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%B3%20%E5%85%AC%E5%8B%99%EF%BC%88%E4%BB%96%E3%81%AB%E5%88%86%E9%A1%9E%E3%81%95%E3%82%8C%E3%82%8B%E3%82%82%E3%81%AE%E3%82%92%E9%99%A4%E3%81%8F%EF%BC%89>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ｓ 公務（他に分類されるものを除く）"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "23580"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "4.9"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2011750"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "3.6"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.37"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8097%20%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%8B%99>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　97 国家公務"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "10540"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "2.2"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "564590"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "1"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "2.18"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8098%20%E5%9C%B0%E6%96%B9%E5%85%AC%E5%8B%99>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　98 地方公務"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "13040"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "2.7"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1447170"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%28%E5%8D%98%E4%BD%8D%3A%EF%BC%85%29> "2.6"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AE%E5%AF%BE%E5%85%A8%E5%9B%BD%E6%AF%94> "1.05"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%EF%BC%B4%20%E5%88%86%E9%A1%9E%E4%B8%8D%E8%83%BD%E3%81%AE%E7%94%A3%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　Ｔ 分類不能の産業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "39990"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "3067920"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%E3%80%80%E3%80%8099%20%E5%88%86%E9%A1%9E%E4%B8%8D%E8%83%BD%E3%81%AE%E7%94%A3%E6%A5%AD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　　99 分類不能の産業"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "39990"@ja ;
+      <http://linkdata.org/property/rdf1s7911i#%E5%85%A8%E5%9B%BD%E5%B0%B1%E6%A5%AD%E8%80%85%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "3067920"@ja .
+
+<http://linkdata.org/resource/rdf1s7911i#%EF%BC%88%E6%B3%A8%EF%BC%89%E6%A7%8B%E6%88%90%E5%89%B2%E5%90%88%E3%81%AF%E5%88%86%E6%AF%8D%E3%81%AE%E7%B7%8F%E6%95%B0%E3%81%8B%E3%82%89%E3%80%8C%E5%88%86%E9%A1%9E%E4%B8%8D%E8%83%BD%E3%81%AE%E7%94%A3%E6%A5%AD%E3%80%8D%E3%82%92%E9%99%A4%E3%81%84%E3%81%A6%E7%AE%97%E5%87%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "（注）構成割合は分母の総数から「分類不能の産業」を除いて算出"@ja .
+

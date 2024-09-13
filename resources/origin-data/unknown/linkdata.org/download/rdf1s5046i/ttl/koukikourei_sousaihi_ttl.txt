@@ -1,0 +1,57 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s5046i#%E8%91%AC%E7%A5%AD%E8%B2%BB%E3%80%80%E4%BB%B6%E6%95%B0%28%E4%BB%B6%29>
+      rdf:type rdf:Property ;
+      rdfs:label "葬祭費　件数(件)"@ja .
+<http://linkdata.org/property/rdf1s5046i#%E8%91%AC%E7%A5%AD%E8%B2%BB%E3%80%80%E6%94%AF%E7%B5%A6%E9%A1%8D%28%E5%8D%83%E5%86%86%29>
+      rdf:type rdf:Property ;
+      rdfs:label "葬祭費　支給額(千円)"@ja .
+
+<http://linkdata.org/resource/rdf1s5046i#H24>
+      <http://www.w3.org/2000/01/rdf-schema#label> "H24"@ja ;
+      <http://linkdata.org/property/rdf1s5046i#%E8%91%AC%E7%A5%AD%E8%B2%BB%E3%80%80%E4%BB%B6%E6%95%B0%28%E4%BB%B6%29> "1516"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5046i#%E8%91%AC%E7%A5%AD%E8%B2%BB%E3%80%80%E6%94%AF%E7%B5%A6%E9%A1%8D%28%E5%8D%83%E5%86%86%29> "106120"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s5046i#H25>
+      <http://www.w3.org/2000/01/rdf-schema#label> "H25"@ja ;
+      <http://linkdata.org/property/rdf1s5046i#%E8%91%AC%E7%A5%AD%E8%B2%BB%E3%80%80%E4%BB%B6%E6%95%B0%28%E4%BB%B6%29> "1527"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5046i#%E8%91%AC%E7%A5%AD%E8%B2%BB%E3%80%80%E6%94%AF%E7%B5%A6%E9%A1%8D%28%E5%8D%83%E5%86%86%29> "106890"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s5046i#H26>
+      <http://www.w3.org/2000/01/rdf-schema#label> "H26"@ja ;
+      <http://linkdata.org/property/rdf1s5046i#%E8%91%AC%E7%A5%AD%E8%B2%BB%E3%80%80%E4%BB%B6%E6%95%B0%28%E4%BB%B6%29> "1540"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5046i#%E8%91%AC%E7%A5%AD%E8%B2%BB%E3%80%80%E6%94%AF%E7%B5%A6%E9%A1%8D%28%E5%8D%83%E5%86%86%29> "107800"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s5046i#H27>
+      <http://www.w3.org/2000/01/rdf-schema#label> "H27"@ja ;
+      <http://linkdata.org/property/rdf1s5046i#%E8%91%AC%E7%A5%AD%E8%B2%BB%E3%80%80%E4%BB%B6%E6%95%B0%28%E4%BB%B6%29> "1570"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5046i#%E8%91%AC%E7%A5%AD%E8%B2%BB%E3%80%80%E6%94%AF%E7%B5%A6%E9%A1%8D%28%E5%8D%83%E5%86%86%29> "109900"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s5046i#H28>
+      <http://www.w3.org/2000/01/rdf-schema#label> "H28"@ja ;
+      <http://linkdata.org/property/rdf1s5046i#%E8%91%AC%E7%A5%AD%E8%B2%BB%E3%80%80%E4%BB%B6%E6%95%B0%28%E4%BB%B6%29> "1597"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5046i#%E8%91%AC%E7%A5%AD%E8%B2%BB%E3%80%80%E6%94%AF%E7%B5%A6%E9%A1%8D%28%E5%8D%83%E5%86%86%29> "111790"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s5046i#H29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "H29"@ja ;
+      <http://linkdata.org/property/rdf1s5046i#%E8%91%AC%E7%A5%AD%E8%B2%BB%E3%80%80%E4%BB%B6%E6%95%B0%28%E4%BB%B6%29> "1647"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5046i#%E8%91%AC%E7%A5%AD%E8%B2%BB%E3%80%80%E6%94%AF%E7%B5%A6%E9%A1%8D%28%E5%8D%83%E5%86%86%29> "115290"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s5046i#H30>
+      <http://www.w3.org/2000/01/rdf-schema#label> "H30"@ja ;
+      <http://linkdata.org/property/rdf1s5046i#%E8%91%AC%E7%A5%AD%E8%B2%BB%E3%80%80%E4%BB%B6%E6%95%B0%28%E4%BB%B6%29> "1647"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5046i#%E8%91%AC%E7%A5%AD%E8%B2%BB%E3%80%80%E6%94%AF%E7%B5%A6%E9%A1%8D%28%E5%8D%83%E5%86%86%29> "115290"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s5046i#R1>
+      <http://www.w3.org/2000/01/rdf-schema#label> "R1"@ja ;
+      <http://linkdata.org/property/rdf1s5046i#%E8%91%AC%E7%A5%AD%E8%B2%BB%E3%80%80%E4%BB%B6%E6%95%B0%28%E4%BB%B6%29> "1653"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5046i#%E8%91%AC%E7%A5%AD%E8%B2%BB%E3%80%80%E6%94%AF%E7%B5%A6%E9%A1%8D%28%E5%8D%83%E5%86%86%29> "115710"^^xsd:int .
+

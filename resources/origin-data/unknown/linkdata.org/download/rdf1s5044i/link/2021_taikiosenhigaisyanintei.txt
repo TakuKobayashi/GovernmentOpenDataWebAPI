@@ -1,0 +1,13 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	2021_taikiosenhigaisyanintei
+#download_from	http://linkdata.org/work/rdf1s5044i
+#property	総数（単位：人）	慢性気管支炎（単位：人）	気管支ぜん息（単位：人）	ぜん息性気管支炎（単位：人）	肺気しゅ（単位：人）
+#object_type_xsd	int	int	int	int	int
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion
+29	1704	0	1704	0	0
+30	1513	0	1513	0	0
+元	1358	0	1358	0	0
+2	1253	0	1253	0	0

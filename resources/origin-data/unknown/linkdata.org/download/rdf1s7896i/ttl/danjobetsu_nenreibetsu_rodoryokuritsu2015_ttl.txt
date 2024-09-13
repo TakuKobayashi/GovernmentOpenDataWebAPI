@@ -1,0 +1,100 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s7896i#15～19歳(単位:%)>
+      rdf:type rdf:Property ;
+      rdfs:label "15～19歳(単位:%)"@ja .
+<http://linkdata.org/property/rdf1s7896i#20～24歳(単位:%)>
+      rdf:type rdf:Property ;
+      rdfs:label "20～24歳(単位:%)"@ja .
+<http://linkdata.org/property/rdf1s7896i#25～29歳(単位:%)>
+      rdf:type rdf:Property ;
+      rdfs:label "25～29歳(単位:%)"@ja .
+<http://linkdata.org/property/rdf1s7896i#30～34歳(単位:%)>
+      rdf:type rdf:Property ;
+      rdfs:label "30～34歳(単位:%)"@ja .
+<http://linkdata.org/property/rdf1s7896i#35～39歳(単位:%)>
+      rdf:type rdf:Property ;
+      rdfs:label "35～39歳(単位:%)"@ja .
+<http://linkdata.org/property/rdf1s7896i#40～44歳(単位:%)>
+      rdf:type rdf:Property ;
+      rdfs:label "40～44歳(単位:%)"@ja .
+<http://linkdata.org/property/rdf1s7896i#45～49歳(単位:%)>
+      rdf:type rdf:Property ;
+      rdfs:label "45～49歳(単位:%)"@ja .
+<http://linkdata.org/property/rdf1s7896i#50～54歳(単位:%)>
+      rdf:type rdf:Property ;
+      rdfs:label "50～54歳(単位:%)"@ja .
+<http://linkdata.org/property/rdf1s7896i#55～59歳(単位:%)>
+      rdf:type rdf:Property ;
+      rdfs:label "55～59歳(単位:%)"@ja .
+<http://linkdata.org/property/rdf1s7896i#60～64歳(単位:%)>
+      rdf:type rdf:Property ;
+      rdfs:label "60～64歳(単位:%)"@ja .
+<http://linkdata.org/property/rdf1s7896i#65歳以上(単位:%)>
+      rdf:type rdf:Property ;
+      rdfs:label "65歳以上(単位:%)"@ja .
+
+<http://linkdata.org/resource/rdf1s7896i#%E7%94%B7%282005%E5%B9%B4%29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "男(2005年)"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#15～19歳(単位:%)> "19.1"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#20～24歳(単位:%)> "56.8"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#25～29歳(単位:%)> "88.5"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#30～34歳(単位:%)> "95.2"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#35～39歳(単位:%)> "96.9"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#40～44歳(単位:%)> "97.5"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#45～49歳(単位:%)> "97.1"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#50～54歳(単位:%)> "96.3"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#55～59歳(単位:%)> "94.3"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#60～64歳(単位:%)> "82.8"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#65歳以上(単位:%)> "45"@ja .
+
+<http://linkdata.org/resource/rdf1s7896i#%E7%94%B7%282015%E5%B9%B4%29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "男(2015年)"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#15～19歳(単位:%)> "16.6"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#20～24歳(単位:%)> "62.1"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#25～29歳(単位:%)> "92.1"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#30～34歳(単位:%)> "95.9"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#35～39歳(単位:%)> "96.8"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#40～44歳(単位:%)> "96.1"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#45～49歳(単位:%)> "96.3"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#50～54歳(単位:%)> "95.8"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#55～59歳(単位:%)> "94"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#60～64歳(単位:%)> "84.7"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#65歳以上(単位:%)> "44.6"@ja .
+
+<http://linkdata.org/resource/rdf1s7896i#%E5%A5%B3%282005%E5%B9%B4%29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "女(2005年)"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#15～19歳(単位:%)> "17.3"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#20～24歳(単位:%)> "58.4"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#25～29歳(単位:%)> "77.2"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#30～34歳(単位:%)> "68.2"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#35～39歳(単位:%)> "63.3"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#40～44歳(単位:%)> "63.9"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#45～49歳(単位:%)> "67.6"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#50～54歳(単位:%)> "66"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#55～59歳(単位:%)> "61.8"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#60～64歳(単位:%)> "49.9"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#65歳以上(単位:%)> "21.4"@ja .
+
+<http://linkdata.org/resource/rdf1s7896i#%E5%A5%B3%282015%E5%B9%B4%29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "女(2015年)"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#15～19歳(単位:%)> "18.9"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#20～24歳(単位:%)> "65.3"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#25～29歳(単位:%)> "88.1"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#30～34歳(単位:%)> "81.8"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#35～39歳(単位:%)> "78"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#40～44歳(単位:%)> "77.6"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#45～49歳(単位:%)> "78.9"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#50～54歳(単位:%)> "75.1"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#55～59歳(単位:%)> "70.9"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#60～64歳(単位:%)> "59.4"@ja ;
+      <http://linkdata.org/property/rdf1s7896i#65歳以上(単位:%)> "24.9"@ja .
+

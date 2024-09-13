@@ -1,0 +1,20 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	20210922_kohoshabetsu_tokuhyosu
+#download_from	http://linkdata.org/work/rdf1s8905i
+#property	候補者氏名	党派名	新現元	速報時刻：21:30/開票率：2.65%	速報時刻：22:00/開票率：31.84%	速報時刻：22:30/開票率：81.81%	速報時刻：23:00/開票率：95.52%	速報時刻：23:53（確定）/開票率：100%	当落
+#object_type_xsd	string	string	string	string	string	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+7	大山とも子	日本共産党	現	500	6000	17500	20000	20397.624	当
+6	古城まさお	公明党	現	500	6000	16000	18500	18764	当
+8	森口つかさ	都民ファーストの会	現	500	6000	15000	17000	17410	当
+3	吉住はるお	自由民主党	新	500	6000	13000	15000	15386	当
+1	三雲たかまさ	立憲民主党	新	500	6000	13000	14000	14469	
+10	秋田一郎	自由民主党	現	500	6000	12500	12500	12951	
+4	さおとめ智子	無所属	新	0	0	3000	4500	4714.375	
+2	上塚てつじ	日本維新の会	新	0	0	2500	4500	4577	
+9	梅田なつき	減税とうきょう	新	0	0	0	1500	1620	
+5	木下ようすけ	全都黎明	新	0	0	0	500	523	
+11	山井とおる	日本公益党	新	0	0	0	0	356	

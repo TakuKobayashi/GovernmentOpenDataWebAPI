@@ -1,0 +1,130 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s7901i#A%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E4%B8%BB%E3%81%AB%E4%BB%95%E4%BA%8B%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "A外国人就業者（主に仕事）(単位：人)"@ja .
+<http://linkdata.org/property/rdf1s7901i#B%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E5%AE%B6%E4%BA%8B%E3%81%AE%E3%81%BB%E3%81%8B%E4%BB%95%E4%BA%8B%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "B外国人就業者（家事のほか仕事）(単位：人)"@ja .
+<http://linkdata.org/property/rdf1s7901i#C%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E9%80%9A%E5%AD%A6%E3%81%AE%E3%81%8B%E3%81%9F%E3%82%8F%E3%82%89%E4%BB%95%E4%BA%8B%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "C外国人就業者（通学のかたわら仕事）(単位：人)"@ja .
+<http://linkdata.org/property/rdf1s7901i#D%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E4%BC%91%E6%A5%AD%E8%80%85%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "D外国人就業者（休業者）(単位：人)"@ja .
+<http://linkdata.org/property/rdf1s7901i#E%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%AE%8C%E5%85%A8%E5%A4%B1%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "E外国人完全失業者(単位：人)"@ja .
+<http://linkdata.org/property/rdf1s7901i#F%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%5BA%EF%BC%8BB%2BC%EF%BC%8BD%EF%BC%8BE%5D%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "F外国人労働力人口[A＋B+C＋D＋E](単位：人)"@ja .
+<http://linkdata.org/property/rdf1s7901i#G%E5%A4%96%E5%9B%BD%E4%BA%BA%E9%9D%9E%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "G外国人非労働力人口(単位：人)"@ja .
+<http://linkdata.org/property/rdf1s7901i#H%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%8A%B4%E5%83%8D%E5%8A%9B%20%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "H外国人労働力 状態「不詳」(単位：人)"@ja .
+<http://linkdata.org/property/rdf1s7901i#I%E5%A4%96%E5%9B%BD%E4%BA%BA%E4%BA%BA%E5%8F%A3%5BF%EF%BC%8BG%EF%BC%8BH%5D%EF%BC%8815%E6%AD%B3%E4%BB%A5%E4%B8%8A%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "I外国人人口[F＋G＋H]（15歳以上）(単位：人)"@ja .
+<http://linkdata.org/property/rdf1s7901i#J%E6%97%A5%E6%9C%AC%E4%BA%BA%E3%82%92%E5%90%AB%E3%82%80%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%EF%BC%8815%E6%AD%B3%E4%BB%A5%E4%B8%8A%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "J日本人を含む労働力人口総数（15歳以上）(単位：人)"@ja .
+<http://linkdata.org/property/rdf1s7901i#【参考】労働力率（日本人・外国人計）(単位：%)>
+      rdf:type rdf:Property ;
+      rdfs:label "【参考】労働力率（日本人・外国人計）(単位：%)"@ja .
+<http://linkdata.org/property/rdf1s7901i#日本人を含む労働力人口総数に占める外国人の割合[F÷J](単位：%)>
+      rdf:type rdf:Property ;
+      rdfs:label "日本人を含む労働力人口総数に占める外国人の割合[F÷J](単位：%)"@ja .
+<http://linkdata.org/property/rdf1s7901i#外国人の労働力率[F÷(F+G)](単位：%)>
+      rdf:type rdf:Property ;
+      rdfs:label "外国人の労働力率[F÷(F+G)](単位：%)"@ja .
+
+<http://linkdata.org/resource/rdf1s7901i#2005%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2005年"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#A%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E4%B8%BB%E3%81%AB%E4%BB%95%E4%BA%8B%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "4219"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#B%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E5%AE%B6%E4%BA%8B%E3%81%AE%E3%81%BB%E3%81%8B%E4%BB%95%E4%BA%8B%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "559"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#C%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E9%80%9A%E5%AD%A6%E3%81%AE%E3%81%8B%E3%81%9F%E3%82%8F%E3%82%89%E4%BB%95%E4%BA%8B%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "629"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#D%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E4%BC%91%E6%A5%AD%E8%80%85%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "158"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#E%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%AE%8C%E5%85%A8%E5%A4%B1%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "662"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#F%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%5BA%EF%BC%8BB%2BC%EF%BC%8BD%EF%BC%8BE%5D%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "6227"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#G%E5%A4%96%E5%9B%BD%E4%BA%BA%E9%9D%9E%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "5429"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#H%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%8A%B4%E5%83%8D%E5%8A%9B%20%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "3406"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#I%E5%A4%96%E5%9B%BD%E4%BA%BA%E4%BA%BA%E5%8F%A3%5BF%EF%BC%8BG%EF%BC%8BH%5D%EF%BC%8815%E6%AD%B3%E4%BB%A5%E4%B8%8A%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "15062"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#J%E6%97%A5%E6%9C%AC%E4%BA%BA%E3%82%92%E5%90%AB%E3%82%80%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%EF%BC%8815%E6%AD%B3%E4%BB%A5%E4%B8%8A%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "148551"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#【参考】労働力率（日本人・外国人計）(単位：%)> "63.7"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#日本人を含む労働力人口総数に占める外国人の割合[F÷J](単位：%)> "4.2"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#外国人の労働力率[F÷(F+G)](単位：%)> "53.4"@ja .
+
+<http://linkdata.org/resource/rdf1s7901i#2010%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2010年"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#A%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E4%B8%BB%E3%81%AB%E4%BB%95%E4%BA%8B%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "5229"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#B%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E5%AE%B6%E4%BA%8B%E3%81%AE%E3%81%BB%E3%81%8B%E4%BB%95%E4%BA%8B%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "708"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#C%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E9%80%9A%E5%AD%A6%E3%81%AE%E3%81%8B%E3%81%9F%E3%82%8F%E3%82%89%E4%BB%95%E4%BA%8B%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "643"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#D%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E4%BC%91%E6%A5%AD%E8%80%85%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "178"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#E%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%AE%8C%E5%85%A8%E5%A4%B1%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "462"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#F%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%5BA%EF%BC%8BB%2BC%EF%BC%8BD%EF%BC%8BE%5D%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "7220"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#G%E5%A4%96%E5%9B%BD%E4%BA%BA%E9%9D%9E%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "4993"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#H%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%8A%B4%E5%83%8D%E5%8A%9B%20%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "9690"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#I%E5%A4%96%E5%9B%BD%E4%BA%BA%E4%BA%BA%E5%8F%A3%5BF%EF%BC%8BG%EF%BC%8BH%5D%EF%BC%8815%E6%AD%B3%E4%BB%A5%E4%B8%8A%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "21903"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#J%E6%97%A5%E6%9C%AC%E4%BA%BA%E3%82%92%E5%90%AB%E3%82%80%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%EF%BC%8815%E6%AD%B3%E4%BB%A5%E4%B8%8A%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "146060"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#【参考】労働力率（日本人・外国人計）(単位：%)> "66.3"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#日本人を含む労働力人口総数に占める外国人の割合[F÷J](単位：%)> "4.9"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#外国人の労働力率[F÷(F+G)](単位：%)> "59.1"@ja .
+
+<http://linkdata.org/resource/rdf1s7901i#2015%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2015年"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#A%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E4%B8%BB%E3%81%AB%E4%BB%95%E4%BA%8B%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "6842"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#B%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E5%AE%B6%E4%BA%8B%E3%81%AE%E3%81%BB%E3%81%8B%E4%BB%95%E4%BA%8B%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "618"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#C%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E9%80%9A%E5%AD%A6%E3%81%AE%E3%81%8B%E3%81%9F%E3%82%8F%E3%82%89%E4%BB%95%E4%BA%8B%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "805"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#D%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E4%BC%91%E6%A5%AD%E8%80%85%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "137"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#E%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%AE%8C%E5%85%A8%E5%A4%B1%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "213"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#F%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%5BA%EF%BC%8BB%2BC%EF%BC%8BD%EF%BC%8BE%5D%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "8615"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#G%E5%A4%96%E5%9B%BD%E4%BA%BA%E9%9D%9E%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "3288"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#H%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%8A%B4%E5%83%8D%E5%8A%9B%20%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "16046"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#I%E5%A4%96%E5%9B%BD%E4%BA%BA%E4%BA%BA%E5%8F%A3%5BF%EF%BC%8BG%EF%BC%8BH%5D%EF%BC%8815%E6%AD%B3%E4%BB%A5%E4%B8%8A%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "27949"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#J%E6%97%A5%E6%9C%AC%E4%BA%BA%E3%82%92%E5%90%AB%E3%82%80%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%EF%BC%8815%E6%AD%B3%E4%BB%A5%E4%B8%8A%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "139638"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#【参考】労働力率（日本人・外国人計）(単位：%)> "67.4"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#日本人を含む労働力人口総数に占める外国人の割合[F÷J](単位：%)> "6.2"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#外国人の労働力率[F÷(F+G)](単位：%)> "72.4"@ja .
+
+<http://linkdata.org/resource/rdf1s7901i#%E3%80%90%E5%8F%82%E8%80%83%E3%80%912015%E5%B9%B4%E7%89%B9%E5%88%A5%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "【参考】2015年特別区"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#A%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E4%B8%BB%E3%81%AB%E4%BB%95%E4%BA%8B%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "77116"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#B%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E5%AE%B6%E4%BA%8B%E3%81%AE%E3%81%BB%E3%81%8B%E4%BB%95%E4%BA%8B%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "11628"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#C%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E9%80%9A%E5%AD%A6%E3%81%AE%E3%81%8B%E3%81%9F%E3%82%8F%E3%82%89%E4%BB%95%E4%BA%8B%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "5010"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#D%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E4%BC%91%E6%A5%AD%E8%80%85%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "2807"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#E%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%AE%8C%E5%85%A8%E5%A4%B1%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "4345"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#F%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%5BA%EF%BC%8BB%2BC%EF%BC%8BD%EF%BC%8BE%5D%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "100906"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#G%E5%A4%96%E5%9B%BD%E4%BA%BA%E9%9D%9E%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "45682"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#H%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%8A%B4%E5%83%8D%E5%8A%9B%20%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "138998"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#I%E5%A4%96%E5%9B%BD%E4%BA%BA%E4%BA%BA%E5%8F%A3%5BF%EF%BC%8BG%EF%BC%8BH%5D%EF%BC%8815%E6%AD%B3%E4%BB%A5%E4%B8%8A%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "285586"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#J%E6%97%A5%E6%9C%AC%E4%BA%BA%E3%82%92%E5%90%AB%E3%82%80%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%EF%BC%8815%E6%AD%B3%E4%BB%A5%E4%B8%8A%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "4133813"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#【参考】労働力率（日本人・外国人計）(単位：%)> "65.4"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#日本人を含む労働力人口総数に占める外国人の割合[F÷J](単位：%)> "2.4"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#外国人の労働力率[F÷(F+G)](単位：%)> "68.8"@ja .
+
+<http://linkdata.org/resource/rdf1s7901i#%E3%80%90%E5%8F%82%E8%80%83%E3%80%912015%E5%B9%B4%E5%85%A8%E5%9B%BD>
+      <http://www.w3.org/2000/01/rdf-schema#label> "【参考】2015年全国"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#A%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E4%B8%BB%E3%81%AB%E4%BB%95%E4%BA%8B%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "664956"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#B%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E5%AE%B6%E4%BA%8B%E3%81%AE%E3%81%BB%E3%81%8B%E4%BB%95%E4%BA%8B%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "94854"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#C%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E9%80%9A%E5%AD%A6%E3%81%AE%E3%81%8B%E3%81%9F%E3%82%8F%E3%82%89%E4%BB%95%E4%BA%8B%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "29073"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#D%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%B0%B1%E6%A5%AD%E8%80%85%EF%BC%88%E4%BC%91%E6%A5%AD%E8%80%85%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "19113"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#E%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%AE%8C%E5%85%A8%E5%A4%B1%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "46300"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#F%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%5BA%EF%BC%8BB%2BC%EF%BC%8BD%EF%BC%8BE%5D%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "854296"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#G%E5%A4%96%E5%9B%BD%E4%BA%BA%E9%9D%9E%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "370738"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#H%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%8A%B4%E5%83%8D%E5%8A%9B%20%E7%8A%B6%E6%85%8B%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "342396"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#I%E5%A4%96%E5%9B%BD%E4%BA%BA%E4%BA%BA%E5%8F%A3%5BF%EF%BC%8BG%EF%BC%8BH%5D%EF%BC%8815%E6%AD%B3%E4%BB%A5%E4%B8%8A%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "1567430"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#J%E6%97%A5%E6%9C%AC%E4%BA%BA%E3%82%92%E5%90%AB%E3%82%80%E5%8A%B4%E5%83%8D%E5%8A%9B%E4%BA%BA%E5%8F%A3%E7%B7%8F%E6%95%B0%EF%BC%8815%E6%AD%B3%E4%BB%A5%E4%B8%8A%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29> "61523327"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#【参考】労働力率（日本人・外国人計）(単位：%)> "60"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#日本人を含む労働力人口総数に占める外国人の割合[F÷J](単位：%)> "1.4"@ja ;
+      <http://linkdata.org/property/rdf1s7901i#外国人の労働力率[F÷(F+G)](単位：%)> "69.7"@ja .
+

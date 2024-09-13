@@ -1,0 +1,130 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%94%BF%E6%B2%BB%E5%9B%A3%E4%BD%93%E3%81%AE%E5%90%8D%E7%A7%B0>
+      rdf:type rdf:Property ;
+      rdfs:label "政党その他の政治団体の名称"@ja .
+<http://linkdata.org/property/rdf1s8255i#%E5%BE%97%E7%A5%A8%E7%B7%8F%E6%95%B0%28A%29>
+      rdf:type rdf:Property ;
+      rdfs:label "得票総数(A)"@ja .
+<http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E5%90%8D%E7%AD%89%E7%A5%A8%E6%95%B0%28B%29>
+      rdf:type rdf:Property ;
+      rdfs:label "政党名等票数(B)"@ja .
+<http://linkdata.org/property/rdf1s8255i#%E5%90%8D%E7%B0%BF%E7%99%BB%E8%BC%89%E8%80%85%E5%90%8D%E7%A5%A8%E6%95%B0%28C%29>
+      rdf:type rdf:Property ;
+      rdfs:label "名簿登載者名票数(C)"@ja .
+<http://linkdata.org/property/rdf1s8255i#政党名票の割合(B)/(A) (%)>
+      rdf:type rdf:Property ;
+      rdfs:label "政党名票の割合(B)/(A) (%)"@ja .
+
+<http://linkdata.org/resource/rdf1s8255i#1>
+      <http://www.w3.org/2000/01/rdf-schema#label> "1"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%94%BF%E6%B2%BB%E5%9B%A3%E4%BD%93%E3%81%AE%E5%90%8D%E7%A7%B0> "日本共産党"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%BE%97%E7%A5%A8%E7%B7%8F%E6%95%B0%28A%29> "15837.198"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E5%90%8D%E7%AD%89%E7%A5%A8%E6%95%B0%28B%29> "14602.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%90%8D%E7%B0%BF%E7%99%BB%E8%BC%89%E8%80%85%E5%90%8D%E7%A5%A8%E6%95%B0%28C%29> "1235.198"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#政党名票の割合(B)/(A) (%)> "92.20"@ja .
+
+<http://linkdata.org/resource/rdf1s8255i#2>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%94%BF%E6%B2%BB%E5%9B%A3%E4%BD%93%E3%81%AE%E5%90%8D%E7%A7%B0> "自由民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%BE%97%E7%A5%A8%E7%B7%8F%E6%95%B0%28A%29> "44399.144"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E5%90%8D%E7%AD%89%E7%A5%A8%E6%95%B0%28B%29> "33072.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%90%8D%E7%B0%BF%E7%99%BB%E8%BC%89%E8%80%85%E5%90%8D%E7%A5%A8%E6%95%B0%28C%29> "11327.144"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#政党名票の割合(B)/(A) (%)> "74.49"@ja .
+
+<http://linkdata.org/resource/rdf1s8255i#3>
+      <http://www.w3.org/2000/01/rdf-schema#label> "3"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%94%BF%E6%B2%BB%E5%9B%A3%E4%BD%93%E3%81%AE%E5%90%8D%E7%A7%B0> "オリーブの木"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%BE%97%E7%A5%A8%E7%B7%8F%E6%95%B0%28A%29> "524.356"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E5%90%8D%E7%AD%89%E7%A5%A8%E6%95%B0%28B%29> "431.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%90%8D%E7%B0%BF%E7%99%BB%E8%BC%89%E8%80%85%E5%90%8D%E7%A5%A8%E6%95%B0%28C%29> "93.356"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#政党名票の割合(B)/(A) (%)> "82.20"@ja .
+
+<http://linkdata.org/resource/rdf1s8255i#4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "4"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%94%BF%E6%B2%BB%E5%9B%A3%E4%BD%93%E3%81%AE%E5%90%8D%E7%A7%B0> "社会民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%BE%97%E7%A5%A8%E7%B7%8F%E6%95%B0%28A%29> "2588.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E5%90%8D%E7%AD%89%E7%A5%A8%E6%95%B0%28B%29> "2131.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%90%8D%E7%B0%BF%E7%99%BB%E8%BC%89%E8%80%85%E5%90%8D%E7%A5%A8%E6%95%B0%28C%29> "457.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#政党名票の割合(B)/(A) (%)> "82.34"@ja .
+
+<http://linkdata.org/resource/rdf1s8255i#5>
+      <http://www.w3.org/2000/01/rdf-schema#label> "5"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%94%BF%E6%B2%BB%E5%9B%A3%E4%BD%93%E3%81%AE%E5%90%8D%E7%A7%B0> "公明党"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%BE%97%E7%A5%A8%E7%B7%8F%E6%95%B0%28A%29> "14256.150"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E5%90%8D%E7%AD%89%E7%A5%A8%E6%95%B0%28B%29> "13338.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%90%8D%E7%B0%BF%E7%99%BB%E8%BC%89%E8%80%85%E5%90%8D%E7%A5%A8%E6%95%B0%28C%29> "918.150"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#政党名票の割合(B)/(A) (%)> "93.56"@ja .
+
+<http://linkdata.org/resource/rdf1s8255i#6>
+      <http://www.w3.org/2000/01/rdf-schema#label> "6"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%94%BF%E6%B2%BB%E5%9B%A3%E4%BD%93%E3%81%AE%E5%90%8D%E7%A7%B0> "国民民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%BE%97%E7%A5%A8%E7%B7%8F%E6%95%B0%28A%29> "5297.368"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E5%90%8D%E7%AD%89%E7%A5%A8%E6%95%B0%28B%29> "4210.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%90%8D%E7%B0%BF%E7%99%BB%E8%BC%89%E8%80%85%E5%90%8D%E7%A5%A8%E6%95%B0%28C%29> "1087.368"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#政党名票の割合(B)/(A) (%)> "79.47"@ja .
+
+<http://linkdata.org/resource/rdf1s8255i#7>
+      <http://www.w3.org/2000/01/rdf-schema#label> "7"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%94%BF%E6%B2%BB%E5%9B%A3%E4%BD%93%E3%81%AE%E5%90%8D%E7%A7%B0> "日本維新の会"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%BE%97%E7%A5%A8%E7%B7%8F%E6%95%B0%28A%29> "10627.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E5%90%8D%E7%AD%89%E7%A5%A8%E6%95%B0%28B%29> "8617.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%90%8D%E7%B0%BF%E7%99%BB%E8%BC%89%E8%80%85%E5%90%8D%E7%A5%A8%E6%95%B0%28C%29> "2010.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#政党名票の割合(B)/(A) (%)> "81.09"@ja .
+
+<http://linkdata.org/resource/rdf1s8255i#8>
+      <http://www.w3.org/2000/01/rdf-schema#label> "8"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%94%BF%E6%B2%BB%E5%9B%A3%E4%BD%93%E3%81%AE%E5%90%8D%E7%A7%B0> "幸福実現党"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%BE%97%E7%A5%A8%E7%B7%8F%E6%95%B0%28A%29> "440.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E5%90%8D%E7%AD%89%E7%A5%A8%E6%95%B0%28B%29> "346.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%90%8D%E7%B0%BF%E7%99%BB%E8%BC%89%E8%80%85%E5%90%8D%E7%A5%A8%E6%95%B0%28C%29> "94.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#政党名票の割合(B)/(A) (%)> "78.64"@ja .
+
+<http://linkdata.org/resource/rdf1s8255i#9>
+      <http://www.w3.org/2000/01/rdf-schema#label> "9"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%94%BF%E6%B2%BB%E5%9B%A3%E4%BD%93%E3%81%AE%E5%90%8D%E7%A7%B0> "立憲民主党"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%BE%97%E7%A5%A8%E7%B7%8F%E6%95%B0%28A%29> "22575.887"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E5%90%8D%E7%AD%89%E7%A5%A8%E6%95%B0%28B%29> "19609.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%90%8D%E7%B0%BF%E7%99%BB%E8%BC%89%E8%80%85%E5%90%8D%E7%A5%A8%E6%95%B0%28C%29> "2966.887"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#政党名票の割合(B)/(A) (%)> "86.86"@ja .
+
+<http://linkdata.org/resource/rdf1s8255i#10>
+      <http://www.w3.org/2000/01/rdf-schema#label> "10"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%94%BF%E6%B2%BB%E5%9B%A3%E4%BD%93%E3%81%AE%E5%90%8D%E7%A7%B0> "労働の解放をめざす労働者党"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%BE%97%E7%A5%A8%E7%B7%8F%E6%95%B0%28A%29> "129.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E5%90%8D%E7%AD%89%E7%A5%A8%E6%95%B0%28B%29> "99.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%90%8D%E7%B0%BF%E7%99%BB%E8%BC%89%E8%80%85%E5%90%8D%E7%A5%A8%E6%95%B0%28C%29> "30.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#政党名票の割合(B)/(A) (%)> "76.74"@ja .
+
+<http://linkdata.org/resource/rdf1s8255i#11>
+      <http://www.w3.org/2000/01/rdf-schema#label> "11"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%94%BF%E6%B2%BB%E5%9B%A3%E4%BD%93%E3%81%AE%E5%90%8D%E7%A7%B0> "ＮＨＫから国民を守る党"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%BE%97%E7%A5%A8%E7%B7%8F%E6%95%B0%28A%29> "3270.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E5%90%8D%E7%AD%89%E7%A5%A8%E6%95%B0%28B%29> "2848.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%90%8D%E7%B0%BF%E7%99%BB%E8%BC%89%E8%80%85%E5%90%8D%E7%A5%A8%E6%95%B0%28C%29> "422.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#政党名票の割合(B)/(A) (%)> "87.09"@ja .
+
+<http://linkdata.org/resource/rdf1s8255i#12>
+      <http://www.w3.org/2000/01/rdf-schema#label> "12"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%94%BF%E6%B2%BB%E5%9B%A3%E4%BD%93%E3%81%AE%E5%90%8D%E7%A7%B0> "安楽死制度を考える会"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%BE%97%E7%A5%A8%E7%B7%8F%E6%95%B0%28A%29> "1223.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E5%90%8D%E7%AD%89%E7%A5%A8%E6%95%B0%28B%29> "1133.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%90%8D%E7%B0%BF%E7%99%BB%E8%BC%89%E8%80%85%E5%90%8D%E7%A5%A8%E6%95%B0%28C%29> "90.000"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#政党名票の割合(B)/(A) (%)> "92.64"@ja .
+
+<http://linkdata.org/resource/rdf1s8255i#13>
+      <http://www.w3.org/2000/01/rdf-schema#label> "13"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%94%BF%E6%B2%BB%E5%9B%A3%E4%BD%93%E3%81%AE%E5%90%8D%E7%A7%B0> "れいわ新選組"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%BE%97%E7%A5%A8%E7%B7%8F%E6%95%B0%28A%29> "13066.886"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E6%94%BF%E5%85%9A%E5%90%8D%E7%AD%89%E7%A5%A8%E6%95%B0%28B%29> "6782.145"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#%E5%90%8D%E7%B0%BF%E7%99%BB%E8%BC%89%E8%80%85%E5%90%8D%E7%A5%A8%E6%95%B0%28C%29> "6284.741"@ja ;
+      <http://linkdata.org/property/rdf1s8255i#政党名票の割合(B)/(A) (%)> "51.90"@ja .
+

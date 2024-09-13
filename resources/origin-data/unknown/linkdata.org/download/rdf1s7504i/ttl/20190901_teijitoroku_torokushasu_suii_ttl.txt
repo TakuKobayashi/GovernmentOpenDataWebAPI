@@ -1,0 +1,296 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s7504i#%E7%94%B7>
+      rdf:type rdf:Property ;
+      rdfs:label "男"@ja .
+<http://linkdata.org/property/rdf1s7504i#%E5%A5%B3>
+      rdf:type rdf:Property ;
+      rdfs:label "女"@ja .
+<http://linkdata.org/property/rdf1s7504i#%E8%A8%88>
+      rdf:type rdf:Property ;
+      rdfs:label "計"@ja .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E6%98%AD%E5%92%8C%E3%80%8049>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　昭和　49"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "133815"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "139010"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "272825"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E6%98%AD%E5%92%8C%E3%80%8050>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　昭和　50"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "131817"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "137844"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "269661"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E6%98%AD%E5%92%8C%E3%80%8051>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　昭和　51"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "129231"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "135654"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "264885"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E6%98%AD%E5%92%8C%E3%80%8052>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　昭和　52"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "128038"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "134744"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "262782"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E6%98%AD%E5%92%8C%E3%80%8053>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　昭和　53"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "125081"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "132727"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "257808"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E6%98%AD%E5%92%8C%E3%80%8054>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　昭和　54"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "125044"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "132845"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "257889"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E6%98%AD%E5%92%8C%E3%80%8055>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　昭和　55"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "124654"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "132147"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "256801"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E6%98%AD%E5%92%8C%E3%80%8056>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　昭和　56"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "124964"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "132072"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "257036"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E6%98%AD%E5%92%8C%E3%80%8057>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　昭和　57"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "124639"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "131506"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "256145"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E6%98%AD%E5%92%8C%E3%80%8058>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　昭和　58"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "126307"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "131954"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "258261"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E6%98%AD%E5%92%8C%E3%80%8059>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　昭和　59"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "125883"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "131267"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "257150"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E6%98%AD%E5%92%8C%E3%80%8060>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　昭和　60"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "126037"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "131161"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "257198"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E6%98%AD%E5%92%8C%E3%80%8061>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　昭和　61"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "126201"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "130357"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "256558"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E6%98%AD%E5%92%8C%E3%80%8062>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　昭和　62"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "124610"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "128508"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "253118"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E6%98%AD%E5%92%8C%E3%80%8063>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　昭和　63"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "122121"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "125892"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "248013"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%80%E5%85%83>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　元"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "120044"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "123655"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "243699"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%80%E3%80%802>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　　2"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "117205"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "120852"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "238057"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%80%E3%80%803>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　　3"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "114902"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "119004"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "233906"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%80%E3%80%804>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　　4"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "112415"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "117248"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "229663"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%80%E3%80%805>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　　5"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "111120"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "116243"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "227363"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%80%E3%80%806>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　　6"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "109729"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "115216"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "224945"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%80%E3%80%807>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　　7"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "110193"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "115221"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "225414"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%80%E3%80%808>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　　8"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "109649"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "114243"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "223892"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%80%E3%80%809>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　　9"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "110829"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "114410"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "225239"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8010>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　10"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "111974"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "115476"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "227450"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8011>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　11"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "112611"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "115894"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "228505"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8012>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　12"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "113322"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "116412"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "229734"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8013>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　13"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "114441"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "117160"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "231601"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8014>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　14"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "115958"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "118071"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "234029"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8015>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　15"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "117176"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "119171"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "236347"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8016>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　16"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "119091"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "120749"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "239840"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8017>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　17"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "120534"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "121962"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "242496"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8018>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　18"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "121673"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "122746"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "244419"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8019>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　19"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "122692"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "123419"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "246111"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8020>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　20"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "124013"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "124437"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "248450"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8021>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　21"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "125235"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "125615"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "250850"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8022>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　22"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "125530"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "126116"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "251646"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8023>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　23"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "126062"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "126662"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "252724"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8024>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　24"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "126780"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "127421"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "254201"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8025>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　25"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "128124"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "128798"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "256922"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8026>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　26"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "128704"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "129721"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "258425"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8027>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　27"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "129566"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "130406"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "259972"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8028>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　28"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "133400"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "133984"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "267384"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8029>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　29"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "134005"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "134693"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "268698"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E5%B9%B3%E6%88%90%E3%80%8030>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　平成　30"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "135020"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "135878"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "270898"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s7504i#%E3%80%80%E4%BB%A4%E5%92%8C%E3%80%80%E5%85%83>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　令和　元"@ja ;
+      <http://linkdata.org/property/rdf1s7504i#%E7%94%B7> "136567"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E5%A5%B3> "137109"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s7504i#%E8%A8%88> "273676"^^xsd:int .
+

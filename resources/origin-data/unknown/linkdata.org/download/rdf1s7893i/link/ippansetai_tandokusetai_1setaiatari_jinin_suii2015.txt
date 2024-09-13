@@ -1,0 +1,14 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	ippansetai_tandokusetai_1setaiatari_jinin_suii2015
+#download_from	http://linkdata.org/work/rdf1s7893i
+#property	一般世帯(単位:世帯)	うち単独世帯(単位:世帯)	1世帯当たり人員(単位:人)
+#object_type_xsd	string	string	string
+#property_context	Assertion	Assertion	Assertion
+1995年	136647	69974	1.98
+2000年	153473	85770	1.84
+2005年	170957	98923	1.75
+2010年	194555	121861	1.65
+2015年	204547	132644	1.61

@@ -1,0 +1,14 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	2016_kougaikenkouhigaisyanintei
+#download_from	http://linkdata.org/work/rdf1s5043i
+#property	総数	慢性気管支炎(総数)	慢性気管支炎(特級)	慢性気管支炎(1級)	慢性気管支炎(2級)	慢性気管支炎(3級)	慢性気管支炎(等級外)	気管支ぜん息(総数)	気管支ぜん息(特級)	気管支ぜん息(1級)	気管支ぜん息(2級)	気管支ぜん息(3級)	気管支ぜん息(等級外)	ぜん息性気管支炎(総数)	ぜん息性気管支炎(特級)	ぜん息性気管支炎(1級)	ぜん息性気管支炎(2級)	ぜん息性気管支炎(3級)	ぜん息性気管支炎(等級外)	肺気しゅ(総数)	肺気しゅ(特級)	肺気しゅ(1級)	肺気しゅ(2級)	肺気しゅ(3級)	肺気しゅ(等級外)
+#object_type_xsd	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+（各年度末日現在）																									
+24	970	36	0	0	4	29	3	923	0	0	20	545	358	9	0	0	0	5	4	2	0	0	2	0	0
+25	942	34	0	0	3	25	6	907	0	0	17	546	344	0	0	0	0	0	0	1	0	0	1	0	0
+26	909	32	0	0	4	23	5	876	0	0	15	526	335	0	0	0	0	0	0	1	0	0	1	0	0
+27	869	30	0	0	3	23	4	839	0	0	15	516	308	0	0	0	0	0	0	0	0	0	0	0	0

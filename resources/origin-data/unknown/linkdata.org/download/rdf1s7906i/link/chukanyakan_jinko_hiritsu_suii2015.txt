@@ -1,0 +1,15 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	chukanyakan_jinko_hiritsu_suii2015
+#download_from	http://linkdata.org/work/rdf1s7906i
+#property	昼間人口(単位:人)	夜間人口（常住人口）(単位:人)	昼夜間
+#object_type_xsd	string	string	string
+#property_context	Assertion	Assertion	Assertion
+1990年	817095	291152	280.6
+1995年	806095	276011	292.1
+2000年	798611	286173	279.1
+2005年	770094	303808	253.5
+2010年	750120	326309	229.9
+2015年	775549	333560	232.5

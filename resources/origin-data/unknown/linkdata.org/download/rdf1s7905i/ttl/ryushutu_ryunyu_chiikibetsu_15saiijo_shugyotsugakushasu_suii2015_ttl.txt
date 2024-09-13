@@ -1,0 +1,467 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4>
+      rdf:type rdf:Property ;
+      rdfs:label "2005年"@ja .
+<http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4>
+      rdf:type rdf:Property ;
+      rdfs:label "2010年"@ja .
+<http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4>
+      rdf:type rdf:Property ;
+      rdfs:label "2015年"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#A%20%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%86%85%E3%81%AB%E5%B8%B8%E4%BD%8F%5BB%EF%BC%8BC%EF%BC%8BD%5D%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "A 新宿区内に常住[B＋C＋D](単位：人)"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "157672"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "155768"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "147018"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#B%20%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%86%85%E3%81%AB%E5%B8%B8%E4%BD%8F%E3%81%97%E3%80%81%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%86%85%E3%81%A7%E5%BE%93%E6%A5%AD%E3%83%BB%E9%80%9A%E5%AD%A6%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "B 新宿区内に常住し、新宿区内で従業・通学(単位：人)"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "76404"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "57705"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "49711"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#C%20%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%86%85%E3%81%AB%E5%B8%B8%E4%BD%8F%E3%81%97%E3%80%81%E4%BB%96%E5%B8%82%E5%8C%BA%E7%94%BA%E6%9D%91%E3%81%A7%E5%BE%93%E6%A5%AD%E3%83%BB%E9%80%9A%E5%AD%A6%EF%BC%88%E6%B5%81%E5%87%BA%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "C 新宿区内に常住し、他市区町村で従業・通学（流出）(単位：人)"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "81268"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "76945"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "69286"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち千代田区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "14868"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "13134"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "13317"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E4%B8%AD%E5%A4%AE%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち中央区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "7389"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "6017"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "5989"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E6%B8%AF%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち港区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "10687"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "9095"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "9284"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E6%96%87%E4%BA%AC%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち文京区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "3973"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "3429"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "3414"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E5%8F%B0%E6%9D%B1%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち台東区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "1560"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "1220"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "1119"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E5%A2%A8%E7%94%B0%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち墨田区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "715"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "662"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "647"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E6%B1%9F%E6%9D%B1%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち江東区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "2148"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "2108"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "2346"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E5%93%81%E5%B7%9D%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち品川区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "2237"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "2093"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "2010"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E7%9B%AE%E9%BB%92%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち目黒区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "1343"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "1047"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "978"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E5%A4%A7%E7%94%B0%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち大田区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "1188"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "1030"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "929"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち世田谷区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "2060"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "1652"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "1524"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E6%B8%8B%E8%B0%B7%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち渋谷区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "6807"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "5578"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "5253"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E4%B8%AD%E9%87%8E%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち中野区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "3362"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "2807"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "2686"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E6%9D%89%E4%B8%A6%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち杉並区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "2073"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "1789"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "1526"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E8%B1%8A%E5%B3%B6%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち豊島区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "4184"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "3540"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "3217"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E5%8C%97%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち北区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "831"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "674"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "621"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E8%8D%92%E5%B7%9D%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち荒川区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "370"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "295"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "276"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E6%9D%BF%E6%A9%8B%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち板橋区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "1206"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "1004"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "966"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E7%B7%B4%E9%A6%AC%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち練馬区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "1284"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "1060"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "977"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E8%B6%B3%E7%AB%8B%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち足立区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "400"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "375"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "372"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E8%91%9B%E9%A3%BE%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち葛飾区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "210"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "186"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "231"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E6%B1%9F%E6%88%B8%E5%B7%9D%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち江戸川区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "530"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "441"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "441"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E5%85%AB%E7%8E%8B%E5%AD%90%E5%B8%82>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち八王子市"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "633"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "472"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "454"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E6%AD%A6%E8%94%B5%E9%87%8E%E5%B8%82>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち武蔵野市"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "608"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "490"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "461"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E4%B8%89%E9%B7%B9%E5%B8%82>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち三鷹市"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "278"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "272"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "239"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E8%AA%BF%E5%B8%83%E5%B8%82>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち調布市"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "304"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "289"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "271"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E8%A5%BF%E6%9D%B1%E4%BA%AC%E5%B8%82>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち西東京市"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "206"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "183"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "190"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E9%83%BD%E5%86%85%E3%81%AE%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E5%B8%82%E7%94%BA%E6%9D%91>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち都内のその他の市町村"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "2370"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "1915"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "1867"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E5%9F%BC%E7%8E%89%E7%9C%8C>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち埼玉県"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "2468"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "1971"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "1961"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E5%8D%83%E8%91%89%E7%9C%8C>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち千葉県"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "1480"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "1184"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "1157"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち神奈川県"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "2737"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "2580"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "2590"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E9%81%93%E5%BA%9C%E7%9C%8C>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうちその他の道府県"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "759"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "538"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "748"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80C%20%E3%81%AE%E3%81%86%E3%81%A1%E5%BE%93%E6%A5%AD%E3%83%BB%E9%80%9A%E5%AD%A6%E5%85%88%E5%B8%82%E5%8C%BA%E7%94%BA%E6%9D%91%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%83%BB%E5%A4%96%E5%9B%BD%E3%80%8D%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　C のうち従業・通学先市区町村「不詳・外国」(単位：人)"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "‐"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "7815"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "1225"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#D%20%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%86%85%E3%81%AB%E5%B8%B8%E4%BD%8F%E3%81%97%E3%80%81%E5%BE%93%E6%A5%AD%E5%9C%B0%E3%83%BB%E9%80%9A%E5%AD%A6%E5%9C%B0%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "D 新宿区内に常住し、従業地・通学地「不詳」(単位：人)"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "‐"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "21118"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "28021"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#E%20%E4%BB%96%E5%B8%82%E5%8C%BA%E7%94%BA%E6%9D%91%E3%81%AB%E5%B8%B8%E4%BD%8F%E3%81%97%E3%80%81%E6%96%B0%E5%AE%BF%E5%8C%BA%E3%81%A7%E5%BE%93%E6%A5%AD%E3%83%BB%E9%80%9A%E5%AD%A6%EF%BC%88%E6%B5%81%E5%85%A5%EF%BC%89%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "E 他市区町村に常住し、新宿区で従業・通学（流入）(単位：人)"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "546514"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "491591"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "508558"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち千代田区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "1155"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "1159"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "1181"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E4%B8%AD%E5%A4%AE%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち中央区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "1649"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "2036"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "2169"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E6%B8%AF%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち港区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "2981"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "3098"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "2887"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E6%96%87%E4%BA%AC%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち文京区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "6714"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "6202"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "6030"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E5%8F%B0%E6%9D%B1%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち台東区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "2573"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "2356"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "2516"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E5%A2%A8%E7%94%B0%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち墨田区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "3882"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "3387"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "3904"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E6%B1%9F%E6%9D%B1%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち江東区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "9252"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "8856"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "8886"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E5%93%81%E5%B7%9D%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち品川区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "5580"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "5369"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "5932"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E7%9B%AE%E9%BB%92%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち目黒区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "5720"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "4685"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "5092"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E5%A4%A7%E7%94%B0%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち大田区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "8638"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "7647"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "8470"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち世田谷区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "23809"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "20311"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "19640"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E6%B8%8B%E8%B0%B7%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち渋谷区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "8211"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "6700"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "7185"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E4%B8%AD%E9%87%8E%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち中野区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "20749"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "18242"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "18983"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E6%9D%89%E4%B8%A6%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち杉並区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "26425"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "21849"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "23368"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E8%B1%8A%E5%B3%B6%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち豊島区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "10279"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "8578"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "9416"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E5%8C%97%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち北区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "9056"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "7461"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "7176"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E8%8D%92%E5%B7%9D%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち荒川区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "3468"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "3154"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "3466"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E6%9D%BF%E6%A9%8B%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち板橋区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "14340"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "12123"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "12901"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E7%B7%B4%E9%A6%AC%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち練馬区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "22887"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "23829"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "22209"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E8%B6%B3%E7%AB%8B%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち足立区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "8244"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "7384"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "7233"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E8%91%9B%E9%A3%BE%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち葛飾区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "6394"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "5314"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "5709"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E6%B1%9F%E6%88%B8%E5%B7%9D%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち江戸川区"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "11582"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "9948"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "10859"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E5%85%AB%E7%8E%8B%E5%AD%90%E5%B8%82>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち八王子市"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "9371"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "8244"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "8098"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E6%AD%A6%E8%94%B5%E9%87%8E%E5%B8%82>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち武蔵野市"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "5374"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "4416"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "4872"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E4%B8%89%E9%B7%B9%E5%B8%82>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち三鷹市"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "5445"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "4899"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "5092"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E8%AA%BF%E5%B8%83%E5%B8%82>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち調布市"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "8728"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "7676"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "8468"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E8%A5%BF%E6%9D%B1%E4%BA%AC%E5%B8%82>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち西東京市"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "9095"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "7908"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "8415"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E9%83%BD%E5%86%85%E3%81%AE%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E5%B8%82%E7%94%BA%E6%9D%91>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち都内のその他の市町村"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "63051"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "55478"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "55777"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E5%9F%BC%E7%8E%89%E7%9C%8C>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち埼玉県"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "93171"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "85261"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "86332"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E5%8D%83%E8%91%89%E7%9C%8C>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち千葉県"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "51802"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "46628"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "47284"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうち神奈川県"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "74483"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "70101"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "75891"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E3%80%80E%20%E3%81%AE%E3%81%86%E3%81%A1%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E9%81%93%E5%BA%9C%E7%9C%8C>
+      <http://www.w3.org/2000/01/rdf-schema#label> "　E のうちその他の道府県"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "12406"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "11292"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "13117"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#F%20%E5%BE%93%E6%A5%AD%E5%9C%B0%E3%83%BB%E9%80%9A%E5%AD%A6%E5%9C%B0%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29%E3%80%80>
+      <http://www.w3.org/2000/01/rdf-schema#label> "F 従業地・通学地「不詳」(単位：人)　"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "‐"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "28933"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "29246"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#G%20%E6%96%B0%E5%AE%BF%E5%8C%BA%E3%81%A7%E5%BE%93%E6%A5%AD%E3%83%BB%E9%80%9A%E5%AD%A6%5BB%EF%BC%8BE%EF%BC%8BF%5D%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "G 新宿区で従業・通学[B＋E＋F](単位：人)"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "622918"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "578229"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "587515"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#H%20%E6%B5%81%E5%85%A5%E8%B6%85%E9%81%8E%E4%BA%BA%E5%8F%A3%5BE%EF%BC%8DC%5D%28%E5%8D%98%E4%BD%8D%EF%BC%9A%E4%BA%BA%29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "H 流入超過人口[E－C](単位：人)"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "465246"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "414646"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "439272"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E6%B5%81%E5%85%A5%E8%B6%85%E9%81%8E%E7%8E%87%5BH%EF%BC%8FA%5D%28%E5%8D%98%E4%BD%8D%EF%BC%9A%EF%BC%85%29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "流入超過率[H／A](単位：％)"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2005%E5%B9%B4> "295.1"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2010%E5%B9%B4> "266.2"@ja ;
+      <http://linkdata.org/property/rdf1s7905i#2015%E5%B9%B4> "298.8"@ja .
+
+<http://linkdata.org/resource/rdf1s7905i#%E2%80%BBF%20%E5%BE%93%E6%A5%AD%E5%9C%B0%E3%83%BB%E9%80%9A%E5%AD%A6%E5%9C%B0%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%E3%81%AF%E3%80%81C%20%E3%81%AE%E3%81%86%E3%81%A1%E5%BE%93%E6%A5%AD%E3%83%BB%E9%80%9A%E5%AD%A6%E5%85%88%E5%B8%82%E5%8C%BA%E7%94%BA%E6%9D%91%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%83%BB%E5%A4%96%E5%9B%BD%E3%80%8D%E3%81%A8D%20%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%86%85%E3%81%AB%E5%B8%B8%E4%BD%8F%E3%81%97%E3%80%81%E5%BE%93%E6%A5%AD%E5%9C%B0%E3%83%BB%E9%80%9A%E5%AD%A6%E5%9C%B0%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%E3%81%AE%E5%90%88%E8%A8%88%E3%81%A8%E4%B8%80%E8%87%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "※F 従業地・通学地「不詳」は、C のうち従業・通学先市区町村「不詳・外国」とD 新宿区内に常住し、従業地・通学地「不詳」の合計と一致"@ja .
+

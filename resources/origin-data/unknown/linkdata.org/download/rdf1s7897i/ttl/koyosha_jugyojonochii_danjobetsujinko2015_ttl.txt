@@ -1,0 +1,122 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E5%A5%B3%E8%A8%88%E3%80%91%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "【男女計】総数(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "【男】総数(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E6%AD%A3%E8%A6%8F%E3%81%AE%E8%81%B7%E5%93%A1%E3%83%BB%E5%BE%93%E6%A5%AD%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "【男】（雇用者）正規の職員・従業員(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E6%B4%BE%E9%81%A3%E7%A4%BE%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "【男】（雇用者）派遣社員(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E3%83%91%E3%83%BC%E3%83%88%E3%83%BB%E3%82%A2%E3%83%AB%E3%83%90%E3%82%A4%E3%83%88%E3%83%BB%E3%81%9D%E3%81%AE%E4%BB%96%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "【男】（雇用者）パート・アルバイト・その他(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E5%BD%B9%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "【男】役員(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E8%87%AA%E5%96%B6%E6%A5%AD%E4%B8%BB%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "【男】自営業主(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E5%AE%B6%E6%97%8F%E5%BE%93%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "【男】家族従業者(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E5%BE%93%E6%A5%AD%E4%B8%8A%E3%81%AE%E5%9C%B0%E4%BD%8D%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "【男】従業上の地位「不詳」(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "【女】総数(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E6%AD%A3%E8%A6%8F%E3%81%AE%E8%81%B7%E5%93%A1%E3%83%BB%E5%BE%93%E6%A5%AD%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "【女】（雇用者）正規の職員・従業員(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E6%B4%BE%E9%81%A3%E7%A4%BE%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "【女】（雇用者）派遣社員(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E3%83%91%E3%83%BC%E3%83%88%E3%83%BB%E3%82%A2%E3%83%AB%E3%83%90%E3%82%A4%E3%83%88%E3%83%BB%E3%81%9D%E3%81%AE%E4%BB%96%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "【女】（雇用者）パート・アルバイト・その他(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E5%BD%B9%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "【女】役員(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E8%87%AA%E5%96%B6%E6%A5%AD%E4%B8%BB%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "【女】自営業主(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E5%AE%B6%E6%97%8F%E5%BE%93%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "【女】家族従業者(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E5%BE%93%E6%A5%AD%E4%B8%8A%E3%81%AE%E5%9C%B0%E4%BD%8D%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "【女】従業上の地位「不詳」(単位:人)"@ja .
+
+<http://linkdata.org/resource/rdf1s7897i#%E6%96%B0%E5%AE%BF%E5%8C%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "新宿区"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E5%A5%B3%E8%A8%88%E3%80%91%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "134848"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "73911"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E6%AD%A3%E8%A6%8F%E3%81%AE%E8%81%B7%E5%93%A1%E3%83%BB%E5%BE%93%E6%A5%AD%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "34564"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E6%B4%BE%E9%81%A3%E7%A4%BE%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1068"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E3%83%91%E3%83%BC%E3%83%88%E3%83%BB%E3%82%A2%E3%83%AB%E3%83%90%E3%82%A4%E3%83%88%E3%83%BB%E3%81%9D%E3%81%AE%E4%BB%96%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "7648"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E5%BD%B9%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "7732"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E8%87%AA%E5%96%B6%E6%A5%AD%E4%B8%BB%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "7169"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E5%AE%B6%E6%97%8F%E5%BE%93%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "375"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E5%BE%93%E6%A5%AD%E4%B8%8A%E3%81%AE%E5%9C%B0%E4%BD%8D%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "15355"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "60937"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E6%AD%A3%E8%A6%8F%E3%81%AE%E8%81%B7%E5%93%A1%E3%83%BB%E5%BE%93%E6%A5%AD%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "23394"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E6%B4%BE%E9%81%A3%E7%A4%BE%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2600"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E3%83%91%E3%83%BC%E3%83%88%E3%83%BB%E3%82%A2%E3%83%AB%E3%83%90%E3%82%A4%E3%83%88%E3%83%BB%E3%81%9D%E3%81%AE%E4%BB%96%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "14769"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E5%BD%B9%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "3076"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E8%87%AA%E5%96%B6%E6%A5%AD%E4%B8%BB%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "4048"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E5%AE%B6%E6%97%8F%E5%BE%93%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1870"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E5%BE%93%E6%A5%AD%E4%B8%8A%E3%81%AE%E5%9C%B0%E4%BD%8D%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "11180"@ja .
+
+<http://linkdata.org/resource/rdf1s7897i#%E7%89%B9%E5%88%A5%E5%8C%BA%E9%83%A8>
+      <http://www.w3.org/2000/01/rdf-schema#label> "特別区部"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E5%A5%B3%E8%A8%88%E3%80%91%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "3979836"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2213284"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E6%AD%A3%E8%A6%8F%E3%81%AE%E8%81%B7%E5%93%A1%E3%83%BB%E5%BE%93%E6%A5%AD%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1217279"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E6%B4%BE%E9%81%A3%E7%A4%BE%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "39412"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E3%83%91%E3%83%BC%E3%83%88%E3%83%BB%E3%82%A2%E3%83%AB%E3%83%90%E3%82%A4%E3%83%88%E3%83%BB%E3%81%9D%E3%81%AE%E4%BB%96%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "244610"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E5%BD%B9%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "214486"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E8%87%AA%E5%96%B6%E6%A5%AD%E4%B8%BB%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "223209"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E5%AE%B6%E6%97%8F%E5%BE%93%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "12862"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E5%BE%93%E6%A5%AD%E4%B8%8A%E3%81%AE%E5%9C%B0%E4%BD%8D%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "261426"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1766552"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E6%AD%A3%E8%A6%8F%E3%81%AE%E8%81%B7%E5%93%A1%E3%83%BB%E5%BE%93%E6%A5%AD%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "708624"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E6%B4%BE%E9%81%A3%E7%A4%BE%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "88591"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E3%83%91%E3%83%BC%E3%83%88%E3%83%BB%E3%82%A2%E3%83%AB%E3%83%90%E3%82%A4%E3%83%88%E3%83%BB%E3%81%9D%E3%81%AE%E4%BB%96%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "557553"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E5%BD%B9%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "71910"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E8%87%AA%E5%96%B6%E6%A5%AD%E4%B8%BB%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "99692"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E5%AE%B6%E6%97%8F%E5%BE%93%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "57130"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E5%BE%93%E6%A5%AD%E4%B8%8A%E3%81%AE%E5%9C%B0%E4%BD%8D%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "183052"@ja .
+
+<http://linkdata.org/resource/rdf1s7897i#%E5%85%A8%E5%9B%BD%E3%80%80>
+      <http://www.w3.org/2000/01/rdf-schema#label> "全国　"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E5%A5%B3%E8%A8%88%E3%80%91%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "58919036"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "33077703"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E6%AD%A3%E8%A6%8F%E3%81%AE%E8%81%B7%E5%93%A1%E3%83%BB%E5%BE%93%E6%A5%AD%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "20585204"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E6%B4%BE%E9%81%A3%E7%A4%BE%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "660120"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E3%83%91%E3%83%BC%E3%83%88%E3%83%BB%E3%82%A2%E3%83%AB%E3%83%90%E3%82%A4%E3%83%88%E3%83%BB%E3%81%9D%E3%81%AE%E4%BB%96%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "3916443"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E5%BD%B9%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "2179507"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E8%87%AA%E5%96%B6%E6%A5%AD%E4%B8%BB%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "3946627"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E5%AE%B6%E6%97%8F%E5%BE%93%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "412763"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E7%94%B7%E3%80%91%E5%BE%93%E6%A5%AD%E4%B8%8A%E3%81%AE%E5%9C%B0%E4%BD%8D%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1377039"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E7%B7%8F%E6%95%B0%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "25841333"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E6%AD%A3%E8%A6%8F%E3%81%AE%E8%81%B7%E5%93%A1%E3%83%BB%E5%BE%93%E6%A5%AD%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "9748167"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E6%B4%BE%E9%81%A3%E7%A4%BE%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "883563"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%EF%BC%88%E9%9B%87%E7%94%A8%E8%80%85%EF%BC%89%E3%83%91%E3%83%BC%E3%83%88%E3%83%BB%E3%82%A2%E3%83%AB%E3%83%90%E3%82%A4%E3%83%88%E3%83%BB%E3%81%9D%E3%81%AE%E4%BB%96%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "10811633"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E5%BD%B9%E5%93%A1%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "704337"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E8%87%AA%E5%96%B6%E6%A5%AD%E4%B8%BB%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1249847"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E5%AE%B6%E6%97%8F%E5%BE%93%E6%A5%AD%E8%80%85%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "1534290"@ja ;
+      <http://linkdata.org/property/rdf1s7897i#%E3%80%90%E5%A5%B3%E3%80%91%E5%BE%93%E6%A5%AD%E4%B8%8A%E3%81%AE%E5%9C%B0%E4%BD%8D%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "909496"@ja .
+

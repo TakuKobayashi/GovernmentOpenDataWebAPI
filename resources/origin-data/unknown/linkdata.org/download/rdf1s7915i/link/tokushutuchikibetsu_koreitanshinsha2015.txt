@@ -1,0 +1,21 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	tokushutuchikibetsu_koreitanshinsha2015
+#download_from	http://linkdata.org/work/rdf1s7915i
+#property	65歳以上の単身者(単位:人)	65歳以上人口に占める単身者の割合(単位:％)
+#object_type_xsd	string	string
+#property_context	Assertion	Assertion
+新宿区	21821	33.4
+四谷	2613	34.8
+箪笥	1814	27.1
+榎	1928	29.6
+若松	2604	33
+大久保	3174	39.3
+戸塚	2823	35.9
+落合第一	2073	31.3
+落合第二	1933	31.3
+柏木	1971	36.7
+角筈・区役所	888	34.6
+※町丁別で集計しているため、実際の特別出張所所管区域とは異なる		

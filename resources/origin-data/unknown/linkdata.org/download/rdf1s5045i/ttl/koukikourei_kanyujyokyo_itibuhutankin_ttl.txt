@@ -1,0 +1,93 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%80%E7%B7%8F%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E6%95%B0%28%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "被保険者　総被保険者数(人)"@ja .
+<http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%801%E5%89%B2%E8%B2%A0%E6%8B%85%28%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "被保険者　1割負担(人)"@ja .
+<http://linkdata.org/property/rdf1s5045i#被保険者　1割負担　構成比(%)>
+      rdf:type rdf:Property ;
+      rdfs:label "被保険者　1割負担　構成比(%)"@ja .
+<http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%803%E5%89%B2%E8%B2%A0%E6%8B%85%28%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "被保険者　3割負担(人)"@ja .
+<http://linkdata.org/property/rdf1s5045i#被保険者　3割負担　構成比(%)>
+      rdf:type rdf:Property ;
+      rdfs:label "被保険者　3割負担　構成比(%)"@ja .
+
+<http://linkdata.org/resource/rdf1s5045i#H24>
+      <http://www.w3.org/2000/01/rdf-schema#label> "H24"@ja ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%80%E7%B7%8F%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E6%95%B0%28%E4%BA%BA%29> "29771"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%801%E5%89%B2%E8%B2%A0%E6%8B%85%28%E4%BA%BA%29> "23800"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#被保険者　1割負担　構成比(%)> "79.9"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%803%E5%89%B2%E8%B2%A0%E6%8B%85%28%E4%BA%BA%29> "5971"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#被保険者　3割負担　構成比(%)> "20.1"^^xsd:float .
+
+<http://linkdata.org/resource/rdf1s5045i#H25>
+      <http://www.w3.org/2000/01/rdf-schema#label> "H25"@ja ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%80%E7%B7%8F%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E6%95%B0%28%E4%BA%BA%29> "29983"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%801%E5%89%B2%E8%B2%A0%E6%8B%85%28%E4%BA%BA%29> "24143"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#被保険者　1割負担　構成比(%)> "80.5"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%803%E5%89%B2%E8%B2%A0%E6%8B%85%28%E4%BA%BA%29> "5840"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#被保険者　3割負担　構成比(%)> "19.5"^^xsd:float .
+
+<http://linkdata.org/resource/rdf1s5045i#H26>
+      <http://www.w3.org/2000/01/rdf-schema#label> "H26"@ja ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%80%E7%B7%8F%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E6%95%B0%28%E4%BA%BA%29> "30248"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%801%E5%89%B2%E8%B2%A0%E6%8B%85%28%E4%BA%BA%29> "24186"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#被保険者　1割負担　構成比(%)> "80"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%803%E5%89%B2%E8%B2%A0%E6%8B%85%28%E4%BA%BA%29> "6062"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#被保険者　3割負担　構成比(%)> "20"^^xsd:float .
+
+<http://linkdata.org/resource/rdf1s5045i#H27>
+      <http://www.w3.org/2000/01/rdf-schema#label> "H27"@ja ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%80%E7%B7%8F%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E6%95%B0%28%E4%BA%BA%29> "30862"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%801%E5%89%B2%E8%B2%A0%E6%8B%85%28%E4%BA%BA%29> "24763"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#被保険者　1割負担　構成比(%)> "80.2"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%803%E5%89%B2%E8%B2%A0%E6%8B%85%28%E4%BA%BA%29> "6099"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#被保険者　3割負担　構成比(%)> "19.8"^^xsd:float .
+
+<http://linkdata.org/resource/rdf1s5045i#H28>
+      <http://www.w3.org/2000/01/rdf-schema#label> "H28"@ja ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%80%E7%B7%8F%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E6%95%B0%28%E4%BA%BA%29> "31622"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%801%E5%89%B2%E8%B2%A0%E6%8B%85%28%E4%BA%BA%29> "25313"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#被保険者　1割負担　構成比(%)> "80"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%803%E5%89%B2%E8%B2%A0%E6%8B%85%28%E4%BA%BA%29> "6309"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#被保険者　3割負担　構成比(%)> "20"^^xsd:float .
+
+<http://linkdata.org/resource/rdf1s5045i#H29>
+      <http://www.w3.org/2000/01/rdf-schema#label> "H29"@ja ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%80%E7%B7%8F%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E6%95%B0%28%E4%BA%BA%29> "32173"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%801%E5%89%B2%E8%B2%A0%E6%8B%85%28%E4%BA%BA%29> "25755"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#被保険者　1割負担　構成比(%)> "80.1"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%803%E5%89%B2%E8%B2%A0%E6%8B%85%28%E4%BA%BA%29> "6418"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#被保険者　3割負担　構成比(%)> "19.9"^^xsd:float .
+
+<http://linkdata.org/resource/rdf1s5045i#H30>
+      <http://www.w3.org/2000/01/rdf-schema#label> "H30"@ja ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%80%E7%B7%8F%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E6%95%B0%28%E4%BA%BA%29> "32992"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%801%E5%89%B2%E8%B2%A0%E6%8B%85%28%E4%BA%BA%29> "26275"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#被保険者　1割負担　構成比(%)> "79.6"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%803%E5%89%B2%E8%B2%A0%E6%8B%85%28%E4%BA%BA%29> "6717"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#被保険者　3割負担　構成比(%)> "20.4"^^xsd:float .
+
+<http://linkdata.org/resource/rdf1s5045i#R1>
+      <http://www.w3.org/2000/01/rdf-schema#label> "R1"@ja ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%80%E7%B7%8F%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E6%95%B0%28%E4%BA%BA%29> "33277"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%801%E5%89%B2%E8%B2%A0%E6%8B%85%28%E4%BA%BA%29> "26545"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#被保険者　1割負担　構成比(%)> "79.8"^^xsd:float ;
+      <http://linkdata.org/property/rdf1s5045i#%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%80%803%E5%89%B2%E8%B2%A0%E6%8B%85%28%E4%BA%BA%29> "6732"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s5045i#被保険者　3割負担　構成比(%)> "20.2"^^xsd:float .
+
+<http://linkdata.org/resource/rdf1s5045i#%EF%BC%88%E6%B3%A8%EF%BC%89%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E6%95%B0%E5%8F%8A%E3%81%B3%E4%B8%80%E9%83%A8%E8%B2%A0%E6%8B%85%E9%87%91%E3%81%AE%E5%89%B2%E5%90%88%E7%8A%B6%E6%B3%81%E3%81%AF%E3%80%81%E5%BD%93%E8%A9%B2%E5%B9%B4%E5%BA%A63%E6%9C%88%E6%9C%AB%E6%97%A5%E7%8F%BE%E5%9C%A8>
+      <http://www.w3.org/2000/01/rdf-schema#label> "（注）被保険者数及び一部負担金の割合状況は、当該年度3月末日現在"@ja .
+

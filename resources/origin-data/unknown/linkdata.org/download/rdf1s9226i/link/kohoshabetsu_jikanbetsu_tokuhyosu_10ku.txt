@@ -1,0 +1,14 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	kohoshabetsu_jikanbetsu_tokuhyosu_10ku
+#download_from	http://linkdata.org/work/rdf1s9226i
+#property	候補者氏名	候補者届出政党の名称	新前元	速報時刻：21:30/開票率：4.72%	速報時刻：22:00/開票率：35.42%	速報時刻：22:30/開票率：80.28%	速報時刻：23:00/開票率：92.09%	速報時刻：00:15（新宿区確定）/開票率：100%	東京都第10区全体	重複	当落
+#object_type_xsd	string	string	string	string	string	string	string	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+1	鈴木　ようすけ	立憲民主党	新	500	3500	7500	8000	8129.009	107920.109	○	
+2	鈴木　隼人	自由民主党	前	500	3500	7500	9000	9124.99	115122.887	○	当
+3	小山　徹		新	0	0	0	0	367	4684		
+4	ふじ川　たかし	日本維新の会	新	0	500	2000	2500	2517	30574	○	
+5	沢口　ゆうじ		新	0	0	0	0	399	4552		

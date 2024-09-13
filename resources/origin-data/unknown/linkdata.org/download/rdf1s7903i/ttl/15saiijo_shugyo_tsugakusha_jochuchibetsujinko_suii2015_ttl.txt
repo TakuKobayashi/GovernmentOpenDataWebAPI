@@ -1,0 +1,50 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s7903i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%86%85%E3%81%AB%E5%B8%B8%E4%BD%8F%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "新宿区内に常住(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7903i#%E9%83%BD%E5%86%85%E4%BB%96%E5%8C%BA%E3%81%AB%E5%B8%B8%E4%BD%8F%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "都内他区に常住(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7903i#%E9%83%BD%E5%86%85%E5%B8%82%E7%94%BA%E6%9D%91%E3%81%AB%E5%B8%B8%E4%BD%8F%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "都内市町村に常住(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7903i#%E4%BB%96%E7%9C%8C%E3%81%AB%E5%B8%B8%E4%BD%8F%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "他県に常住(単位:人)"@ja .
+<http://linkdata.org/property/rdf1s7903i#%E5%BE%93%E6%A5%AD%E5%9C%B0%E3%83%BB%E9%80%9A%E5%AD%A6%E5%9C%B0%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29>
+      rdf:type rdf:Property ;
+      rdfs:label "従業地・通学地「不詳」(単位:人)"@ja .
+
+<http://linkdata.org/resource/rdf1s7903i#2005%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2005年"@ja ;
+      <http://linkdata.org/property/rdf1s7903i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%86%85%E3%81%AB%E5%B8%B8%E4%BD%8F%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "76404"@ja ;
+      <http://linkdata.org/property/rdf1s7903i#%E9%83%BD%E5%86%85%E4%BB%96%E5%8C%BA%E3%81%AB%E5%B8%B8%E4%BD%8F%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "213588"@ja ;
+      <http://linkdata.org/property/rdf1s7903i#%E9%83%BD%E5%86%85%E5%B8%82%E7%94%BA%E6%9D%91%E3%81%AB%E5%B8%B8%E4%BD%8F%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "101064"@ja ;
+      <http://linkdata.org/property/rdf1s7903i#%E4%BB%96%E7%9C%8C%E3%81%AB%E5%B8%B8%E4%BD%8F%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "231862"@ja ;
+      <http://linkdata.org/property/rdf1s7903i#%E5%BE%93%E6%A5%AD%E5%9C%B0%E3%83%BB%E9%80%9A%E5%AD%A6%E5%9C%B0%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "－"@ja .
+
+<http://linkdata.org/resource/rdf1s7903i#2010%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2010年"@ja ;
+      <http://linkdata.org/property/rdf1s7903i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%86%85%E3%81%AB%E5%B8%B8%E4%BD%8F%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "57705"@ja ;
+      <http://linkdata.org/property/rdf1s7903i#%E9%83%BD%E5%86%85%E4%BB%96%E5%8C%BA%E3%81%AB%E5%B8%B8%E4%BD%8F%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "189688"@ja ;
+      <http://linkdata.org/property/rdf1s7903i#%E9%83%BD%E5%86%85%E5%B8%82%E7%94%BA%E6%9D%91%E3%81%AB%E5%B8%B8%E4%BD%8F%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "88621"@ja ;
+      <http://linkdata.org/property/rdf1s7903i#%E4%BB%96%E7%9C%8C%E3%81%AB%E5%B8%B8%E4%BD%8F%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "213282"@ja ;
+      <http://linkdata.org/property/rdf1s7903i#%E5%BE%93%E6%A5%AD%E5%9C%B0%E3%83%BB%E9%80%9A%E5%AD%A6%E5%9C%B0%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "28933"@ja .
+
+<http://linkdata.org/resource/rdf1s7903i#2015%E5%B9%B4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2015年"@ja ;
+      <http://linkdata.org/property/rdf1s7903i#%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%86%85%E3%81%AB%E5%B8%B8%E4%BD%8F%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "49711"@ja ;
+      <http://linkdata.org/property/rdf1s7903i#%E9%83%BD%E5%86%85%E4%BB%96%E5%8C%BA%E3%81%AB%E5%B8%B8%E4%BD%8F%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "195212"@ja ;
+      <http://linkdata.org/property/rdf1s7903i#%E9%83%BD%E5%86%85%E5%B8%82%E7%94%BA%E6%9D%91%E3%81%AB%E5%B8%B8%E4%BD%8F%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "90722"@ja ;
+      <http://linkdata.org/property/rdf1s7903i#%E4%BB%96%E7%9C%8C%E3%81%AB%E5%B8%B8%E4%BD%8F%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "222624"@ja ;
+      <http://linkdata.org/property/rdf1s7903i#%E5%BE%93%E6%A5%AD%E5%9C%B0%E3%83%BB%E9%80%9A%E5%AD%A6%E5%9C%B0%E3%80%8C%E4%B8%8D%E8%A9%B3%E3%80%8D%28%E5%8D%98%E4%BD%8D%3A%E4%BA%BA%29> "29246"@ja .
+

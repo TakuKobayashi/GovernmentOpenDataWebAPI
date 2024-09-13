@@ -1,0 +1,1087 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0>
+      rdf:type rdf:Property ;
+      rdfs:label "世帯数"@ja .
+<http://linkdata.org/property/rdf1s9128i#%E7%94%B7>
+      rdf:type rdf:Property ;
+      rdfs:label "男"@ja .
+<http://linkdata.org/property/rdf1s9128i#%E5%A5%B3>
+      rdf:type rdf:Property ;
+      rdfs:label "女"@ja .
+<http://linkdata.org/property/rdf1s9128i#%E8%A8%88>
+      rdf:type rdf:Property ;
+      rdfs:label "計"@ja .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%9B%9B%E8%B0%B7%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "四谷１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "283"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "236"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "313"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "549"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%9B%9B%E8%B0%B7%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "四谷２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "289"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "221"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "237"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "458"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%9B%9B%E8%B0%B7%EF%BC%93%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "四谷３丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "283"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "188"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "222"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "410"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%9B%9B%E8%B0%B7%EF%BC%94%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "四谷４丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2220"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1758"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1652"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "3410"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%9B%9B%E8%B0%B7%E6%9C%AC%E5%A1%A9%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "四谷本塩町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "336"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "258"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "241"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "499"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%9B%9B%E8%B0%B7%E4%B8%89%E6%A0%84%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "四谷三栄町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1102"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "958"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1022"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1980"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%9B%9B%E8%B0%B7%E5%9D%82%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "四谷坂町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1681"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1337"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1241"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "2578"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%8B%A5%E8%91%89%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "若葉１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1404"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1304"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1251"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "2555"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%8B%A5%E8%91%89%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "若葉２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "490"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "438"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "437"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "875"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%8B%A5%E8%91%89%EF%BC%93%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "若葉３丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "633"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "493"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "484"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "977"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E9%A0%88%E8%B3%80%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "須賀町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "801"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "682"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "667"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1349"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B7%A6%E9%96%80%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "左門町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1069"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "736"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "877"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1613"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%BF%A1%E6%BF%83%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "信濃町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "610"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "432"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "520"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "952"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%8D%97%E5%85%83%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "南元町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1420"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1186"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1398"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "2584"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%8D%92%E6%9C%A8%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "荒木町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1710"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1260"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1262"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "2522"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%88%9F%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "舟町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1017"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "667"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "740"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1407"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%84%9B%E4%BD%8F%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "愛住町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "921"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "707"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "708"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1415"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%A4%A7%E4%BA%AC%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "大京町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2432"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1826"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2110"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "3936"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E9%9C%9E%E3%83%B6%E4%B8%98%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "霞ヶ丘町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%86%85%E8%97%A4%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "内藤町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "688"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "610"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "678"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1288"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E7%89%87%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "片町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "323"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "222"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "216"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "438"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%96%B0%E5%AE%BF%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "新宿１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "3178"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2235"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1985"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "4220"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%96%B0%E5%AE%BF%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "新宿２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "915"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "688"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "502"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1190"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%96%B0%E5%AE%BF%EF%BC%93%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "新宿３丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "83"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "78"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "38"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "116"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%96%B0%E5%AE%BF%EF%BC%94%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "新宿４丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "187"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "155"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "97"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "252"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%96%B0%E5%AE%BF%EF%BC%95%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "新宿５丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2225"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1531"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1203"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "2734"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%96%B0%E5%AE%BF%EF%BC%96%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "新宿６丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "3111"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2272"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1932"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "4204"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%96%B0%E5%AE%BF%EF%BC%97%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "新宿７丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "4325"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "3373"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "3156"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "6529"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%AD%8C%E8%88%9E%E4%BC%8E%E7%94%BA%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "歌舞伎町１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "141"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "106"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "51"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "157"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%AD%8C%E8%88%9E%E4%BC%8E%E7%94%BA%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "歌舞伎町２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1871"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1440"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "736"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "2176"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E7%94%B0%E7%94%BA%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷田町１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "14"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "8"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "17"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "25"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E7%94%B0%E7%94%BA%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷田町２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "317"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "248"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "322"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "570"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E7%94%B0%E7%94%BA%EF%BC%93%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷田町３丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "190"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "153"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "190"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "343"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E6%9C%AC%E6%9D%91%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷本村町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1804"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1572"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1140"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "2712"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E7%A0%82%E5%9C%9F%E5%8E%9F%E7%94%BA%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷砂土原町１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "104"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "96"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "111"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "207"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E7%A0%82%E5%9C%9F%E5%8E%9F%E7%94%BA%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷砂土原町２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "256"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "203"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "251"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "454"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E7%A0%82%E5%9C%9F%E5%8E%9F%E7%94%BA%EF%BC%93%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷砂土原町３丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "471"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "479"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "497"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "976"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E5%B7%A6%E5%86%85%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷左内町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "263"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "229"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "250"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "479"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E5%8A%A0%E8%B3%80%E7%94%BA%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷加賀町１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "243"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "299"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "341"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "640"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E5%8A%A0%E8%B3%80%E7%94%BA%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷加賀町２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "990"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "767"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1030"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1797"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E7%94%B2%E8%89%AF%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷甲良町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "483"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "410"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "459"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "869"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E8%88%B9%E6%B2%B3%E5%8E%9F%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷船河原町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "79"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "95"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "99"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "194"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E9%95%B7%E5%BB%B6%E5%AF%BA%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷長延寺町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "83"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "38"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "74"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "112"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E9%B7%B9%E5%8C%A0%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷鷹匠町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "51"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "35"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "36"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "71"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E5%B1%B1%E4%BC%8F%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷山伏町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "310"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "269"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "296"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "565"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E5%85%AB%E5%B9%A1%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷八幡町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "63"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "57"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "64"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "121"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E7%A5%9E%E6%A5%BD%E5%9D%82%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "神楽坂１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "12"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "13"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "15"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "28"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E7%A5%9E%E6%A5%BD%E5%9D%82%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "神楽坂２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "125"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "82"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "112"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "194"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E7%A5%9E%E6%A5%BD%E5%9D%82%EF%BC%93%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "神楽坂３丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "285"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "230"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "195"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "425"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E7%A5%9E%E6%A5%BD%E5%9D%82%EF%BC%94%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "神楽坂４丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "97"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "82"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "97"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "179"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E7%A5%9E%E6%A5%BD%E5%9D%82%EF%BC%95%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "神楽坂５丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "377"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "307"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "383"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "690"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E7%A5%9E%E6%A5%BD%E5%9D%82%EF%BC%96%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "神楽坂６丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "523"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "359"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "428"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "787"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E7%B4%B0%E5%B7%A5%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "細工町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "265"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "218"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "216"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "434"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%BA%8C%E5%8D%81%E9%A8%8E%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "二十騎町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "421"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "317"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "370"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "687"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%8F%9A%E5%A0%B4%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "揚場町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "59"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "49"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "53"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "102"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%B4%A5%E4%B9%85%E6%88%B8%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "津久戸町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "58"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "42"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "44"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "86"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%9D%B1%E4%BA%94%E8%BB%92%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "東五軒町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1298"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1092"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1237"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "2329"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%A5%BF%E4%BA%94%E8%BB%92%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "西五軒町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1071"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "874"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "915"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1789"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%B5%A4%E5%9F%8E%E5%85%83%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "赤城元町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "263"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "220"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "241"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "461"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%8D%97%E6%A6%8E%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "南榎町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "704"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "690"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "710"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1400"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%A2%8B%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "袋町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "372"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "325"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "338"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "663"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%89%95%E6%96%B9%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "払方町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "538"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "478"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "548"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1026"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%8D%97%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "南町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "392"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "427"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "444"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "871"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%8C%97%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "北町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "527"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "467"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "530"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "997"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E7%B4%8D%E6%88%B8%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "納戸町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "550"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "491"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "554"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1045"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%8D%97%E5%B1%B1%E4%BC%8F%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "南山伏町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "426"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "343"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "369"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "712"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%8C%97%E5%B1%B1%E4%BC%8F%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "北山伏町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "398"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "250"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "340"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "590"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E7%99%BD%E9%8A%80%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "白銀町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "772"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "624"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "783"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1407"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%B8%8B%E5%AE%AE%E6%AF%94%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "下宮比町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "197"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "109"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "147"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "256"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E7%9F%A2%E6%9D%A5%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "矢来町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2478"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2067"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2332"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "4399"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%8B%A5%E5%AE%AE%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "若宮町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "530"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "485"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "497"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "982"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B2%A9%E6%88%B8%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "岩戸町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "424"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "281"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "353"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "634"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%B8%AD%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "中町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "257"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "253"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "233"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "486"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E7%AE%AA%E7%AC%A5%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "箪笥町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "475"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "312"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "371"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "683"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%A8%AA%E5%AF%BA%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "横寺町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "637"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "475"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "495"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "970"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E7%AD%91%E5%9C%9F%E5%85%AB%E5%B9%A1%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "筑土八幡町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "617"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "457"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "536"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "993"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%96%B0%E5%B0%8F%E5%B7%9D%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "新小川町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2077"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1659"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1634"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "3293"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E7%A5%9E%E6%A5%BD%E6%B2%B3%E5%B2%B8>
+      <http://www.w3.org/2000/01/rdf-schema#label> "神楽河岸"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "0"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "0"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E8%96%AC%E7%8E%8B%E5%AF%BA%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷薬王寺町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2097"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1572"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1711"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "3283"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E6%9F%B3%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷柳町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "936"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "622"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "729"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1351"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E4%BB%B2%E4%B9%8B%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷仲之町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1358"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1192"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1334"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "2526"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%B5%A4%E5%9F%8E%E4%B8%8B%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "赤城下町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "869"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "678"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "649"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1327"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%A4%A9%E7%A5%9E%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "天神町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "722"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "520"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "551"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1071"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%A6%8E%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "榎町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "495"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "329"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "352"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "681"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%9D%B1%E6%A6%8E%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "東榎町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "264"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "173"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "175"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "348"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%97%A9%E7%A8%B2%E7%94%B0%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "早稲田町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "914"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "605"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "699"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1304"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%97%A9%E7%A8%B2%E7%94%B0%E5%8D%97%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "早稲田南町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "460"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "372"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "393"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "765"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E9%A6%AC%E5%A0%B4%E4%B8%8B%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "馬場下町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "323"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "248"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "243"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "491"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%8E%9F%E7%94%BA%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "原町１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "910"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "720"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "769"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1489"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%8E%9F%E7%94%BA%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "原町２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "689"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "628"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "614"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1242"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%8E%9F%E7%94%BA%EF%BC%93%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "原町３丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1229"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "952"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1107"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "2059"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%96%9C%E4%B9%85%E4%BA%95%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "喜久井町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1138"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "972"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "959"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1931"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E7%AF%89%E5%9C%B0%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "築地町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "328"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "257"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "304"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "561"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%BC%81%E5%A4%A9%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "弁天町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2078"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1665"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1809"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "3474"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%B8%AD%E9%87%8C%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "中里町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "360"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "330"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "364"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "694"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B1%B1%E5%90%B9%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "山吹町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2775"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1887"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2086"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "3973"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%94%B9%E4%BB%A3%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "改代町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "399"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "312"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "306"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "618"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%B0%B4%E9%81%93%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "水道町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "761"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "510"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "511"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1021"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%97%A9%E7%A8%B2%E7%94%B0%E9%B6%B4%E5%B7%BB%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "早稲田鶴巻町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "3933"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2738"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2880"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "5618"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%BD%8F%E5%90%89%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "住吉町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1836"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1364"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1405"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "2769"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%B8%82%E8%B0%B7%E5%8F%B0%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "市谷台町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "941"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "717"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "707"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1424"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%B2%B3%E7%94%B0%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "河田町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1591"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1491"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1455"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "2946"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%8B%A5%E6%9D%BE%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "若松町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "3483"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2745"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "3087"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "5832"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%BD%99%E4%B8%81%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "余丁町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2555"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1981"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2072"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "4053"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%88%B8%E5%B1%B1%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "戸山１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1510"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1191"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1300"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "2491"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%88%B8%E5%B1%B1%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "戸山２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "3361"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2071"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "3292"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "5363"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%88%B8%E5%B1%B1%EF%BC%93%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "戸山３丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "654"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "540"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "570"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1110"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%AF%8C%E4%B9%85%E7%94%BA>
+      <http://www.w3.org/2000/01/rdf-schema#label> "富久町"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "4121"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "3601"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "3529"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "7130"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E7%99%BE%E4%BA%BA%E7%94%BA%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "百人町１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2900"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2123"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1478"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "3601"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E7%99%BE%E4%BA%BA%E7%94%BA%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "百人町２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "3493"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2616"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2067"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "4683"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E7%99%BE%E4%BA%BA%E7%94%BA%EF%BC%93%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "百人町３丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2605"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2617"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2848"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "5465"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E7%99%BE%E4%BA%BA%E7%94%BA%EF%BC%94%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "百人町４丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1691"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1165"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1573"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "2738"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%A4%A7%E4%B9%85%E4%BF%9D%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "大久保１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "3034"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2119"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1771"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "3890"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%A4%A7%E4%B9%85%E4%BF%9D%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "大久保２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "5373"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "4033"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "3595"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "7628"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%A4%A7%E4%B9%85%E4%BF%9D%EF%BC%93%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "大久保３丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2520"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2335"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2512"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "4847"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E6%88%B8%E5%A1%9A%E7%94%BA%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "戸塚町１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "174"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "119"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "113"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "232"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%A5%BF%E6%97%A9%E7%A8%B2%E7%94%B0%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "西早稲田１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "3751"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2705"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2858"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "5563"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%A5%BF%E6%97%A9%E7%A8%B2%E7%94%B0%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "西早稲田２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "4289"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "3210"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "3042"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "6252"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%A5%BF%E6%97%A9%E7%A8%B2%E7%94%B0%EF%BC%93%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "西早稲田３丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "4166"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "3458"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "3336"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "6794"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E9%AB%98%E7%94%B0%E9%A6%AC%E5%A0%B4%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "高田馬場１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2926"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2308"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2088"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "4396"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E9%AB%98%E7%94%B0%E9%A6%AC%E5%A0%B4%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "高田馬場２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1391"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1069"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "864"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1933"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E9%AB%98%E7%94%B0%E9%A6%AC%E5%A0%B4%EF%BC%93%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "高田馬場３丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "4367"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "3222"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2766"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "5988"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E9%AB%98%E7%94%B0%E9%A6%AC%E5%A0%B4%EF%BC%94%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "高田馬場４丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "4252"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "3409"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "3065"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "6474"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%B8%8B%E8%90%BD%E5%90%88%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "下落合１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2178"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1454"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1386"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "2840"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%B8%8B%E8%90%BD%E5%90%88%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "下落合２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2125"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1804"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1828"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "3632"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%B8%8B%E8%90%BD%E5%90%88%EF%BC%93%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "下落合３丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2708"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2114"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2532"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "4646"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%B8%8B%E8%90%BD%E5%90%88%EF%BC%94%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "下落合４丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2720"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2196"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2327"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "4523"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%B8%AD%E8%90%BD%E5%90%88%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "中落合１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2430"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1860"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1802"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "3662"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%B8%AD%E8%90%BD%E5%90%88%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "中落合２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2913"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2490"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2552"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "5042"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%B8%AD%E8%90%BD%E5%90%88%EF%BC%93%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "中落合３丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2432"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1987"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2188"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "4175"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%B8%AD%E8%90%BD%E5%90%88%EF%BC%94%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "中落合４丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1729"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1543"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1492"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "3035"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%B8%8A%E8%90%BD%E5%90%88%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "上落合１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "3338"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2670"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2640"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "5310"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%B8%8A%E8%90%BD%E5%90%88%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "上落合２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "3308"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2470"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2397"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "4867"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%B8%8A%E8%90%BD%E5%90%88%EF%BC%93%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "上落合３丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "3340"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2461"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2279"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "4740"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%A5%BF%E8%90%BD%E5%90%88%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "西落合１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2916"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2238"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2380"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "4618"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%A5%BF%E8%90%BD%E5%90%88%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "西落合２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2599"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2125"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2136"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "4261"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%A5%BF%E8%90%BD%E5%90%88%EF%BC%93%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "西落合３丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1911"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1483"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1700"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "3183"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%A5%BF%E8%90%BD%E5%90%88%EF%BC%94%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "西落合４丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1373"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1117"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1232"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "2349"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%B8%AD%E4%BA%95%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "中井１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1316"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "968"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "805"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "1773"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E4%B8%AD%E4%BA%95%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "中井２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1751"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1597"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1619"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "3216"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%8C%97%E6%96%B0%E5%AE%BF%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "北新宿１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "5438"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "3974"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "3337"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "7311"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%8C%97%E6%96%B0%E5%AE%BF%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "北新宿２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "3322"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2800"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "2540"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "5340"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%8C%97%E6%96%B0%E5%AE%BF%EF%BC%93%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "北新宿３丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "4801"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "3678"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "3289"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "6967"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E5%8C%97%E6%96%B0%E5%AE%BF%EF%BC%94%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "北新宿４丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "4471"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "3313"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "3081"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "6394"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%A5%BF%E6%96%B0%E5%AE%BF%EF%BC%91%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "西新宿１丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "30"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "24"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "24"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "48"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%A5%BF%E6%96%B0%E5%AE%BF%EF%BC%92%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "西新宿２丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "4"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "5"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%A5%BF%E6%96%B0%E5%AE%BF%EF%BC%93%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "西新宿３丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1631"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1119"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1039"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "2158"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%A5%BF%E6%96%B0%E5%AE%BF%EF%BC%94%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "西新宿４丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "5097"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "3783"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "3427"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "7210"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%A5%BF%E6%96%B0%E5%AE%BF%EF%BC%95%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "西新宿５丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2626"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2070"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1851"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "3921"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%A5%BF%E6%96%B0%E5%AE%BF%EF%BC%96%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "西新宿６丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2477"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "2001"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1715"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "3716"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%A5%BF%E6%96%B0%E5%AE%BF%EF%BC%97%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "西新宿７丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "1709"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1297"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "962"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "2259"^^xsd:int .
+
+<http://linkdata.org/resource/rdf1s9128i#%E8%A5%BF%E6%96%B0%E5%AE%BF%EF%BC%98%E4%B8%81%E7%9B%AE>
+      <http://www.w3.org/2000/01/rdf-schema#label> "西新宿８丁目"@ja ;
+      <http://linkdata.org/property/rdf1s9128i#%E4%B8%96%E5%B8%AF%E6%95%B0> "2278"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E7%94%B7> "1646"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E5%A5%B3> "1542"^^xsd:int ;
+      <http://linkdata.org/property/rdf1s9128i#%E8%A8%88> "3188"^^xsd:int .
+

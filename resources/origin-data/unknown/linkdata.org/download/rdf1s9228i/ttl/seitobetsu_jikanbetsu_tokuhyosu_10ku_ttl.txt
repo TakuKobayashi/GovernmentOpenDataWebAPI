@@ -1,0 +1,92 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:  <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+<>
+      cc:attributionName "新宿区役所情報システム課"@ja ;
+
+      cc:license <http://creativecommons.org/licenses/by/3.0/deed.ja> .
+
+<http://linkdata.org/property/rdf1s9228i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0>
+      rdf:type rdf:Property ;
+      rdfs:label "名簿届出政党等の名称"@ja .
+<http://linkdata.org/property/rdf1s9228i#速報時刻：23:15/開票率：77.92%>
+      rdf:type rdf:Property ;
+      rdfs:label "速報時刻：23:15/開票率：77.92%"@ja .
+<http://linkdata.org/property/rdf1s9228i#速報時刻：0:30（新宿区確定）/開票率：100%>
+      rdf:type rdf:Property ;
+      rdfs:label "速報時刻：0:30（新宿区確定）/開票率：100%"@ja .
+
+<http://linkdata.org/resource/rdf1s9228i#1>
+      <http://www.w3.org/2000/01/rdf-schema#label> "1"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "自由民主党"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：23:15/開票率：77.92%> "5500"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：0:30（新宿区確定）/開票率：100%> "5978"@ja .
+
+<http://linkdata.org/resource/rdf1s9228i#2>
+      <http://www.w3.org/2000/01/rdf-schema#label> "2"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "社会民主党"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：23:15/開票率：77.92%> "0"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：0:30（新宿区確定）/開票率：100%> "311"@ja .
+
+<http://linkdata.org/resource/rdf1s9228i#3>
+      <http://www.w3.org/2000/01/rdf-schema#label> "3"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "国民民主党"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：23:15/開票率：77.92%> "500"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：0:30（新宿区確定）/開票率：100%> "1017.907"@ja .
+
+<http://linkdata.org/resource/rdf1s9228i#4>
+      <http://www.w3.org/2000/01/rdf-schema#label> "4"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "日本維新の会"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：23:15/開票率：77.92%> "2500"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：0:30（新宿区確定）/開票率：100%> "2727"@ja .
+
+<http://linkdata.org/resource/rdf1s9228i#5>
+      <http://www.w3.org/2000/01/rdf-schema#label> "5"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "日本第一党"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：23:15/開票率：77.92%> "0"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：0:30（新宿区確定）/開票率：100%> "129"@ja .
+
+<http://linkdata.org/resource/rdf1s9228i#6>
+      <http://www.w3.org/2000/01/rdf-schema#label> "6"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "れいわ新選組"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：23:15/開票率：77.92%> "1000"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：0:30（新宿区確定）/開票率：100%> "1253"@ja .
+
+<http://linkdata.org/resource/rdf1s9228i#7>
+      <http://www.w3.org/2000/01/rdf-schema#label> "7"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "公明党"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：23:15/開票率：77.92%> "2000"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：0:30（新宿区確定）/開票率：100%> "2285"@ja .
+
+<http://linkdata.org/resource/rdf1s9228i#8>
+      <http://www.w3.org/2000/01/rdf-schema#label> "8"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "新党やまと"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：23:15/開票率：77.92%> "0"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：0:30（新宿区確定）/開票率：100%> "43"@ja .
+
+<http://linkdata.org/resource/rdf1s9228i#9>
+      <http://www.w3.org/2000/01/rdf-schema#label> "9"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "日本共産党"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：23:15/開票率：77.92%> "2000"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：0:30（新宿区確定）/開票率：100%> "2532"@ja .
+
+<http://linkdata.org/resource/rdf1s9228i#10>
+      <http://www.w3.org/2000/01/rdf-schema#label> "10"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "立憲民主党"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：23:15/開票率：77.92%> "3000"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：0:30（新宿区確定）/開票率：100%> "4160.092"@ja .
+
+<http://linkdata.org/resource/rdf1s9228i#11>
+      <http://www.w3.org/2000/01/rdf-schema#label> "11"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "政権交代によるコロナ対策強化新党"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：23:15/開票率：77.92%> "0"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：0:30（新宿区確定）/開票率：100%> "31"@ja .
+
+<http://linkdata.org/resource/rdf1s9228i#12>
+      <http://www.w3.org/2000/01/rdf-schema#label> "12"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#%E5%90%8D%E7%B0%BF%E5%B1%8A%E5%87%BA%E6%94%BF%E5%85%9A%E7%AD%89%E3%81%AE%E5%90%8D%E7%A7%B0> "ＮＨＫと裁判してる党弁護士法72条違反で"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：23:15/開票率：77.92%> "0"@ja ;
+      <http://linkdata.org/property/rdf1s9228i#速報時刻：0:30（新宿区確定）/開票率：100%> "319"@ja .
+

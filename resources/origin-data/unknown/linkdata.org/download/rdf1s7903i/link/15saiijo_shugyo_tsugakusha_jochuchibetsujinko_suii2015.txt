@@ -1,0 +1,12 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	15saiijo_shugyo_tsugakusha_jochuchibetsujinko_suii2015
+#download_from	http://linkdata.org/work/rdf1s7903i
+#property	新宿区内に常住(単位:人)	都内他区に常住(単位:人)	都内市町村に常住(単位:人)	他県に常住(単位:人)	従業地・通学地「不詳」(単位:人)
+#object_type_xsd	string	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion
+2005年	76404	213588	101064	231862	－
+2010年	57705	189688	88621	213282	28933
+2015年	49711	195212	90722	222624	29246

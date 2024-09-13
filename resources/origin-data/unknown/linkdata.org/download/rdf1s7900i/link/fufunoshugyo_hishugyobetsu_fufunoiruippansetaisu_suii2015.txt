@@ -1,0 +1,14 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	fufunoshugyo_hishugyobetsu_fufunoiruippansetaisu_suii2015
+#download_from	http://linkdata.org/work/rdf1s7900i
+#property	夫・妻とも就業(単位:世帯)	夫が就業、妻が非就業(単位:世帯)	夫が非就業、妻が就業(単位:世帯)	夫・妻とも非就業(単位:世帯)	夫または妻の就業状態「不詳」(単位:世帯)	総数(単位:世帯)
+#object_type_xsd	string	string	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion	Assertion
+2005年	21541	18523	1540	8519	5173	55296
+2010年	21708	15597	1646	7977	7461	54389
+2015年	22205	12775	1579	7836	11711	56106
+【参考】2015年特別区	792458	471816	56614	278494	297047	1896429
+【参考】2015年全国	13080450	7271587	1131195	6020899	1229047	28733178

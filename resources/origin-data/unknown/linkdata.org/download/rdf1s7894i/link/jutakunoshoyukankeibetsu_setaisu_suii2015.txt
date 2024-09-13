@@ -1,0 +1,15 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	jutakunoshoyukankeibetsu_setaisu_suii2015
+#download_from	http://linkdata.org/work/rdf1s7894i
+#property	総数(単位:世帯)	持ち家(単位:世帯)	民営の借家(単位:世帯)	公営住宅、給与住宅、間借り等(単位:世帯)
+#object_type_xsd	string	string	string	string
+#property_context	Assertion	Assertion	Assertion	Assertion
+1990年	125029	45089	61240	18700
+1995年	128556	45407	63198	19951
+2000年	146747	50710	74304	21733
+2005年	165884	59050	85838	20996
+2010年	192332	59448	110953	21931
+2015年	201161	71483	108764	20914

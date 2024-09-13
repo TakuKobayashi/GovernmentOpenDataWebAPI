@@ -1,0 +1,18 @@
+#LINK
+#lang	ja
+#attribution_name	新宿区役所情報システム課
+#license	http://creativecommons.org/licenses/by/3.0/deed.ja
+#file_name	koukikourei_kanyujyokyo_itibuhutankin
+#download_from	http://linkdata.org/work/rdf1s5045i
+#property	被保険者　総被保険者数(人)	被保険者　1割負担(人)	被保険者　1割負担　構成比(%)	被保険者　3割負担(人)	被保険者　3割負担　構成比(%)
+#object_type_xsd	int	int	float	int	float
+#property_context	Assertion	Assertion	Assertion	Assertion	Assertion
+H24	29771	23800	79.9	5971	20.1
+H25	29983	24143	80.5	5840	19.5
+H26	30248	24186	80	6062	20
+H27	30862	24763	80.2	6099	19.8
+H28	31622	25313	80	6309	20
+H29	32173	25755	80.1	6418	19.9
+H30	32992	26275	79.6	6717	20.4
+R1	33277	26545	79.8	6732	20.2
+（注）被保険者数及び一部負担金の割合状況は、当該年度3月末日現在					
