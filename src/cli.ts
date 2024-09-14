@@ -428,7 +428,7 @@ dataCommand
       async (crawlerModels) => {
         for (const crawlerModel of crawlerModels) {
           const originUrl = new URL(crawlerModel.origin_url);
-          crawlerFilePathSet.add(originUrl.pathname);
+          crawlerFilePathSet.add(path.parse(originUrl.pathname).name);
         }
         await importOriginRoutine(crawlerModels);
       },
@@ -446,7 +446,7 @@ dataCommand
       async (crawlerModels) => {
         const csvCrawlerModels = crawlerModels.filter((crawlerModel) => {
           const originUrl = new URL(crawlerModel.origin_url);
-          return !crawlerFilePathSet.has(originUrl.pathname);
+          return !crawlerFilePathSet.has(path.parse(originUrl.pathname).name);
         });
         await importOriginRoutine(csvCrawlerModels);
       },
@@ -801,9 +801,7 @@ async function importOriginRoutine(
   const crawlerIdcrawlerKeywords = _.groupBy(crawlerKeywords, (crawlerKeyword) => crawlerKeyword.crawler_id);
   for (const crawlerModel of crawlerModels) {
     const crawlerCategory = crawlerIdCrawlerCategory[crawlerModel.id];
-    const filePathes = fg.sync(
-      getSaveOriginFilePathParts(crawlerModel, crawlerIdcrawlerKeywords[crawlerModel.id], crawlerCategory).join('/'),
-    );
+    const filePathes = fg.sync(getSaveOriginFilePathParts(crawlerModel, undefined, crawlerCategory).join('/'));
     for (const filePath of filePathes) {
       let workbook: WorkBook | undefined;
       try {
