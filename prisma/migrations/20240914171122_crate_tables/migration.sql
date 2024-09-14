@@ -58,8 +58,8 @@ CREATE TABLE `crawlers` (
 -- CreateTable
 CREATE TABLE `import_fail_logs` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
-    `crawl_url` VARCHAR(191) NOT NULL,
-    `file_path` VARCHAR(191) NULL,
+    `crawl_url` VARCHAR(255) NOT NULL,
+    `file_path` VARCHAR(255) NULL,
     `to_source_type` ENUM('Place') NOT NULL,
     `fail_logs` JSON NULL,
 
@@ -72,7 +72,7 @@ CREATE TABLE `import_crawler_data` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
     `source_id` INTEGER NOT NULL,
     `source_type` ENUM('Place') NOT NULL,
-    `crawl_url` VARCHAR(191) NOT NULL,
+    `crawl_url` VARCHAR(255) NOT NULL,
     `extra_info` JSON NULL,
 
     UNIQUE INDEX `import_crawler_data_crawl_url_source_type_source_id_key`(`crawl_url`, `source_type`, `source_id`),
