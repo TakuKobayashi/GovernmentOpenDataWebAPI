@@ -841,7 +841,7 @@ async function importOriginRoutine(
         for (const buildPlaceModel of buildPlaceModels) {
           failLogs.push(buildPlaceModel.getImportInvalidLogs());
         }
-        if (failLogs.length <= 0) {
+        if (failLogs.length > 0) {
           // 問題のないデータもあるのでここでは記録するだけにとどめておく
           await prismaClient.$transaction([
             prismaClient.crawler.updateMany({
