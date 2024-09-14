@@ -419,6 +419,7 @@ dataCommand
       {
         checksum: { not: null },
         last_updated_at: { not: null },
+        state: { in: ['STANDBY', 'DOWNLOADED', 'KEYWORD_GENERATED'] },
         origin_file_ext: {
           in: ['.xlsx', '.xls'],
         },
@@ -436,6 +437,7 @@ dataCommand
       {
         checksum: { not: null },
         last_updated_at: { not: null },
+        state: { in: ['STANDBY', 'DOWNLOADED', 'KEYWORD_GENERATED'] },
         origin_file_ext: {
           in: ['.csv'],
         },
@@ -558,11 +560,11 @@ program
       }
     }
 
-    const originXlsFilePathes = fg.sync(['resources', 'origin-data', '**', '*.xls'].join('/'))
-    const originXlsxFilePathes = fg.sync(['resources', 'origin-data', '**', '*.xlsx'].join('/'))
-    const originCsvFilePathes = fg.sync(['resources', 'origin-data', '**', '*.csv'].join('/'))
-    for(const dataFilePath of [...originXlsFilePathes, ...originXlsxFilePathes,...originCsvFilePathes]){
-      let workbook
+    const originXlsFilePathes = fg.sync(['resources', 'origin-data', '**', '*.xls'].join('/'));
+    const originXlsxFilePathes = fg.sync(['resources', 'origin-data', '**', '*.xlsx'].join('/'));
+    const originCsvFilePathes = fg.sync(['resources', 'origin-data', '**', '*.csv'].join('/'));
+    for (const dataFilePath of [...originXlsFilePathes, ...originXlsxFilePathes, ...originCsvFilePathes]) {
+      let workbook;
       try {
         if (path.extname(dataFilePath) === '.csv') {
           const readFileData = fs.readFileSync(dataFilePath, 'utf8');
@@ -579,7 +581,15 @@ program
       const sheetNames = Object.keys(workbook.Sheets);
       for (const sheetName of sheetNames) {
         const themeRows: any[] = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName]);
-        const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, 'origin', ...urlFilePathParts, sheetName, `${sheetName}.json`);
+        const willSaveFilePath: string = path.join(
+          'build',
+          'api',
+          API_VERSION_NAME,
+          'origin',
+          ...urlFilePathParts,
+          sheetName,
+          `${sheetName}.json`,
+        );
         saveToLocalFileFromString(willSaveFilePath, JSON.stringify(themeRows));
       }
     }
