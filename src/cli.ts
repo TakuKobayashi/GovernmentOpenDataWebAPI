@@ -956,10 +956,12 @@ async function importOriginRoutine(
             data: createdPlaces
               .filter((place) => !currentSourceIdSet.has(place.id))
               .map((place) => {
+                const willSavePlace = willSavePlaces.find((willSavePlace) => willSavePlace.hashcode === place.hashcode);
                 return {
                   crawl_url: crawlerModel.origin_url,
                   source_id: place.id,
                   source_type: 'Place',
+                  extra_info: willSavePlace?.getStashExtraInfo(),
                 };
               }),
           });
