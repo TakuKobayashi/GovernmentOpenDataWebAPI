@@ -1200,3 +1200,7 @@ INSERT INTO `data_categories` (`id`, `source_id`, `source_type`, `category_id`, 
 INSERT INTO `data_categories` (`id`, `source_id`, `source_type`, `category_id`, `extra_info`) VALUES (1200,1200,'Place',1,'{\"males_count\": 1, \"females_count\": 1, \"multipurposes_count\": 0}');
 INSERT INTO `data_categories` (`id`, `source_id`, `source_type`, `category_id`, `extra_info`) VALUES (1201,1201,'Place',1,'{\"males_count\": 5, \"females_count\": 4, \"multipurposes_count\": 1}');
 INSERT INTO `data_categories` (`id`, `source_id`, `source_type`, `category_id`, `extra_info`) VALUES (1202,1202,'Place',1,'{\"males_count\": 7, \"females_count\": 4, \"multipurposes_count\": 0}');
+INSERT INTO `data_categories` (`id`, `source_id`, `source_type`, `category_id`, `extra_info`) VALUES (1203,1326,'Place',4,'{}');
+INSERT INTO `data_categories` (`id`, `source_id`, `source_type`, `category_id`, `extra_info`) VALUES (1204,1327,'Place',4,'{}');
+INSERT INTO `data_categories` (`id`, `source_id`, `source_type`, `category_id`, `extra_info`) VALUES (1205,1328,'Place',4,'{}');
+INSERT INTO `data_categories` (`id`, `source_id`, `source_type`, `category_id`, `extra_info`) VALUES (1206,1329,'Place',4,'{}');
