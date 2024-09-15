@@ -498,7 +498,7 @@ INSERT INTO `keywords` (`id`, `word`, `appear_count`) VALUES (497,'火災',335);
 INSERT INTO `keywords` (`id`, `word`, `appear_count`) VALUES (498,'焼損',16);
 INSERT INTO `keywords` (`id`, `word`, `appear_count`) VALUES (499,'出火',59);
 INSERT INTO `keywords` (`id`, `word`, `appear_count`) VALUES (500,'し尿',29);
-INSERT INTO `keywords` (`id`, `word`, `appear_count`) VALUES (501,'ごみ',179);
+INSERT INTO `keywords` (`id`, `word`, `appear_count`) VALUES (501,'ごみ',155);
 INSERT INTO `keywords` (`id`, `word`, `appear_count`) VALUES (502,'廃棄',166);
 INSERT INTO `keywords` (`id`, `word`, `appear_count`) VALUES (503,'処分',335);
 INSERT INTO `keywords` (`id`, `word`, `appear_count`) VALUES (504,'公害',81);
@@ -1102,6 +1102,7 @@ INSERT INTO `keywords` (`id`, `word`, `appear_count`) VALUES (1101,'店舗',145)
 INSERT INTO `keywords` (`id`, `word`, `appear_count`) VALUES (1102,'薬局',28);
 INSERT INTO `keywords` (`id`, `word`, `appear_count`) VALUES (1103,'施術',53);
 INSERT INTO `keywords` (`id`, `word`, `appear_count`) VALUES (1104,'来訪',5);
+INSERT INTO `keywords` (`id`, `word`, `appear_count`) VALUES (1105,'ゴミ',24);
 INSERT INTO `keywords` (`id`, `word`, `appear_count`) VALUES (1106,'時点',383);
 INSERT INTO `keywords` (`id`, `word`, `appear_count`) VALUES (1107,'男',145);
 INSERT INTO `keywords` (`id`, `word`, `appear_count`) VALUES (1108,'女',143);
