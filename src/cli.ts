@@ -10,13 +10,13 @@ import _ from 'lodash';
 import Encoding from 'encoding-japanese';
 import nodeHtmlParser from 'node-html-parser';
 import romajiConv from '@koozaki/romaji-conv';
-import { buildPlacesDataFromWorkbook, PlaceModel } from './models/place';
+import { buildPlacesDataFromWorkbook, PlaceModel, buildPlacesDataFromRowObjs } from './models/place';
 import { importGsiMuni } from './models/gsimuni';
 import { prismaClient } from './utils/prisma-common';
 import { saveToLocalFileFromString, saveToLocalFileFromBuffer, loadSpreadSheetRowObject } from './utils/util';
 import { exportToInsertSQL } from './utils/data-exporters';
 import { requestKeyphrase, requestAnalysisParse } from './utils/yahoo-api';
-import { sleep, readStreamCSVFile } from './utils/util';
+import { sleep, readStreamCSVFileToHeaderObjs } from './utils/util';
 import { config } from 'dotenv';
 import { CrawlerState } from '@prisma/client';
 
@@ -807,13 +807,14 @@ async function importOriginRoutine(
     const crawlerCategory = crawlerIdCrawlerCategory[crawlerModel.id];
     const filePathes = fg.sync(getSaveOriginFilePathParts(crawlerModel, undefined, crawlerCategory).join('/'));
     for (const filePath of filePathes) {
-      let workbook: WorkBook | undefined;
+      let buildPlaceModels: PlaceModel[] = [];
       try {
         if (path.extname(filePath) === '.csv') {
-          const csvString = await readStreamCSVFile(filePath);
-          workbook = XLSX.read(csvString, { type: 'string' });
+          const parsedCsvObjs = await readStreamCSVFileToHeaderObjs(filePath);
+          buildPlaceModels = buildPlacesDataFromRowObjs(parsedCsvObjs);
         } else if (['.xlsx', '.xls'].includes(path.extname(filePath))) {
-          workbook = XLSX.readFile(filePath);
+          const workbook = XLSX.readFile(filePath);
+          buildPlaceModels = buildPlacesDataFromWorkbook(workbook);
         }
       } catch (error: any) {
         await prismaClient.$transaction([
@@ -839,8 +840,7 @@ async function importOriginRoutine(
         ]);
         continue;
       }
-      if (workbook) {
-        const buildPlaceModels = buildPlacesDataFromWorkbook(workbook);
+      if (buildPlaceModels.length > 0) {
         const failLogs: any[][] = [];
         for (const buildPlaceModel of buildPlaceModels) {
           failLogs.push(buildPlaceModel.getImportInvalidLogs());
