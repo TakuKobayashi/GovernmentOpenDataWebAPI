@@ -1174,7 +1174,7 @@ function getSaveOriginFilePathParts(
 ): string[] {
   const downloadUrl = new URL(crawlerModel.origin_url);
   const crawlerKeywordModel = _.maxBy(keywords, (cKeyword) => {
-    return cKeyword.keyword.appear_count * cKeyword.score;
+    return cKeyword.keyword.appear_count * cKeyword.score * cKeyword.keyword.word.length;
   });
   const dirTitle = crawlerKeywordModel?.keyword?.word || crawlerCategory?.category?.title || 'unknown';
   return ['resources', 'origin-data', dirTitle, downloadUrl.hostname, ...downloadUrl.pathname.split('/')];
