@@ -170,6 +170,9 @@ export class PlaceModel implements PlaceInterface {
         const [lon, lat] = feature.Geometry.Coordinates.split(',');
         this.lat = Number(lat);
         this.lon = Number(lon);
+        if (feature.Property?.Address) {
+          this.address = feature.Property.Address;
+        }
       }
     }
     if (this.address) {
