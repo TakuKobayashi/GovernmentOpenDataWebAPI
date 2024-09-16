@@ -193,39 +193,48 @@ export class PlaceModel implements PlaceInterface {
   }
 }
 
+export function buildPlacesDataFromRowObjs(rowObjs: { [key: string]: any }[]): PlaceModel[] {
+  const convertedHashcodeApiFormatDataObjs: { [hashcode: string]: PlaceModel } = {};
+  for (const rowObj of rowObjs) {
+    const rowKeys = Object.keys(rowObj);
+    const newPlaceModel = new PlaceModel();
+    for (const rowKey of rowKeys) {
+      if (candidateNameKeys.includes(rowKey)) {
+        newPlaceModel.name = rowObj[rowKey].toString().trim();
+      } else if (candidateProvinceKeys.includes(rowKey)) {
+        newPlaceModel.province = rowObj[rowKey].toString().trim();
+      } else if (candidateCityKeys.includes(rowKey)) {
+        newPlaceModel.city = rowObj[rowKey].toString().trim();
+      } else if (candidateAddressKeys.includes(rowKey)) {
+        newPlaceModel.address = rowObj[rowKey].toString().trim().normalize('NFKC');
+      } else if (candidateLatKeys.includes(rowKey)) {
+        newPlaceModel.lat = Number(rowObj[rowKey]);
+      } else if (candidateLonKeys.includes(rowKey)) {
+        newPlaceModel.lon = Number(rowObj[rowKey]);
+      } else if (candidateMalesCountKeys.includes(rowKey)) {
+        newPlaceModel.updateStashExtraInfo({ males_count: Number(rowObj[rowKey]) });
+      } else if (candidateFemalesCountKeys.includes(rowKey)) {
+        newPlaceModel.updateStashExtraInfo({ females_count: Number(rowObj[rowKey]) });
+      } else if (multipurposesCountKeys.includes(rowKey)) {
+        newPlaceModel.updateStashExtraInfo({ multipurposes_count: Number(rowObj[rowKey]) });
+      }
+    }
+    newPlaceModel.adjustCustomData();
+    if (newPlaceModel.name && ((newPlaceModel.lat && newPlaceModel.lon) || newPlaceModel.address)) {
+      convertedHashcodeApiFormatDataObjs[newPlaceModel.hashcode] = newPlaceModel;
+    }
+  }
+  return Object.values(convertedHashcodeApiFormatDataObjs);
+}
+
 export function buildPlacesDataFromWorkbook(workbook: WorkBook): PlaceModel[] {
   const convertedHashcodeApiFormatDataObjs: { [hashcode: string]: PlaceModel } = {};
   const sheetNames = Object.keys(workbook.Sheets);
   for (const sheetName of sheetNames) {
     const themeRows: any[] = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName]);
-    for (const rowObj of themeRows) {
-      const rowKeys = Object.keys(rowObj);
-      const newPlaceModel = new PlaceModel();
-      for (const rowKey of rowKeys) {
-        if (candidateNameKeys.includes(rowKey)) {
-          newPlaceModel.name = rowObj[rowKey].toString().trim();
-        } else if (candidateProvinceKeys.includes(rowKey)) {
-          newPlaceModel.province = rowObj[rowKey].toString().trim();
-        } else if (candidateCityKeys.includes(rowKey)) {
-          newPlaceModel.city = rowObj[rowKey].toString().trim();
-        } else if (candidateAddressKeys.includes(rowKey)) {
-          newPlaceModel.address = rowObj[rowKey].toString().trim().normalize('NFKC');
-        } else if (candidateLatKeys.includes(rowKey)) {
-          newPlaceModel.lat = Number(rowObj[rowKey]);
-        } else if (candidateLonKeys.includes(rowKey)) {
-          newPlaceModel.lon = Number(rowObj[rowKey]);
-        } else if (candidateMalesCountKeys.includes(rowKey)) {
-          newPlaceModel.updateStashExtraInfo({ males_count: Number(rowObj[rowKey]) });
-        } else if (candidateFemalesCountKeys.includes(rowKey)) {
-          newPlaceModel.updateStashExtraInfo({ females_count: Number(rowObj[rowKey]) });
-        } else if (multipurposesCountKeys.includes(rowKey)) {
-          newPlaceModel.updateStashExtraInfo({ multipurposes_count: Number(rowObj[rowKey]) });
-        }
-      }
-      newPlaceModel.adjustCustomData();
-      if (newPlaceModel.name && ((newPlaceModel.lat && newPlaceModel.lon) || newPlaceModel.address)) {
-        convertedHashcodeApiFormatDataObjs[newPlaceModel.hashcode] = newPlaceModel;
-      }
+    const hashcodeBuildObjs = buildPlacesDataFromRowObjs(themeRows);
+    for (const hashcode of Object.keys(hashcodeBuildObjs)) {
+      convertedHashcodeApiFormatDataObjs[hashcode] = hashcodeBuildObjs[hashcode];
     }
   }
   return Object.values(convertedHashcodeApiFormatDataObjs);
