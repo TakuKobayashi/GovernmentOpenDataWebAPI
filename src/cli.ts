@@ -355,7 +355,11 @@ dataCommand
             origin_file_size: 0,
           };
           const willSaveFilePath: string = path.join(
-            ...getSaveOriginFilePathParts(crawlerModel, crawlerIdcrawlerKeywords[crawlerModel.id], crawlerIdCrawlerCategory[crawlerModel.id]),
+            ...getSaveOriginFilePathParts(
+              crawlerModel,
+              crawlerIdcrawlerKeywords[crawlerModel.id],
+              crawlerIdCrawlerCategory[crawlerModel.id],
+            ),
           );
           const response = await axios.get(crawlerModel.origin_url, { responseType: 'arraybuffer' }).catch(async (error) => {
             willUpdateCrawlerObj.need_manual_edit = true;
@@ -1175,7 +1179,7 @@ function getSaveOriginFilePathParts(
 ): string[] {
   const downloadUrl = new URL(crawlerModel.origin_url);
   const crawlerKeywordModel = _.maxBy(keywords, (cKeyword) => {
-    return cKeyword.keyword.appear_count * cKeyword.score * cKeyword.keyword.word.length;
+    return cKeyword.score * cKeyword.keyword.word.length * 0.75;
   });
   const dirTitle = crawlerKeywordModel?.keyword?.word || crawlerCategory?.category?.title || 'unknown';
   return ['resources', 'origin-data', dirTitle, downloadUrl.hostname, ...downloadUrl.pathname.split('/')];
