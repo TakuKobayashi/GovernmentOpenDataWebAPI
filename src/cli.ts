@@ -16,9 +16,10 @@ import { prismaClient } from './utils/prisma-common';
 import { saveToLocalFileFromString, saveToLocalFileFromBuffer, loadSpreadSheetRowObject } from './utils/util';
 import { exportToInsertSQL } from './utils/data-exporters';
 import { requestKeyphrase, requestAnalysisParse } from './utils/yahoo-api';
-import { sleep } from './utils/util';
+import { sleep, readStreamCSVFile } from './utils/util';
 import { config } from 'dotenv';
-import { CrawlerState, PrismaClient } from '@prisma/client';
+import { CrawlerState } from '@prisma/client';
+
 config();
 
 program.storeOptionsAsProperties(false);
@@ -805,8 +806,8 @@ async function importOriginRoutine(
       let workbook: WorkBook | undefined;
       try {
         if (path.extname(filePath) === '.csv') {
-          const readFileData = fs.readFileSync(filePath, 'utf8');
-          workbook = XLSX.read(readFileData, { type: 'string' });
+          const csvString = await readStreamCSVFile(filePath);
+          workbook = XLSX.read(csvString, { type: 'string' });
         } else if (['.xlsx', '.xls'].includes(path.extname(filePath))) {
           workbook = XLSX.readFile(filePath);
         }
