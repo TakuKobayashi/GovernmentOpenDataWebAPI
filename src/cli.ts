@@ -342,7 +342,6 @@ dataCommand
           },
         });
         const crawlerIdcrawlerKeywords = _.groupBy(crawlerKeywords, (crawlerKeyword) => crawlerKeyword.crawler_id);
-
         for (const crawlerModel of crawlerModels) {
           const willUpdateCrawlerObj: {
             need_manual_edit: boolean;
@@ -355,7 +354,7 @@ dataCommand
             origin_file_size: 0,
           };
           const willSaveFilePath: string = path.join(
-            ...getSaveOriginFilePathParts(crawlerModel, undefined, crawlerIdCrawlerCategory[crawlerModel.id]),
+            ...getSaveOriginFilePathParts(crawlerModel, crawlerIdcrawlerKeywords[crawlerModel.id], crawlerIdCrawlerCategory[crawlerModel.id]),
           );
           const response = await axios.get(crawlerModel.origin_url, { responseType: 'arraybuffer' }).catch(async (error) => {
             willUpdateCrawlerObj.need_manual_edit = true;
