@@ -17,6 +17,7 @@ export interface PlaceInterface {
   name: string;
   hashcode: string;
   province?: string;
+  city?: string;
   address?: string;
   lat?: number;
   lon?: number;
@@ -76,7 +77,7 @@ export class PlaceModel implements PlaceInterface {
   private adjustLatLon() {
     if (this.lat && this.lon) {
       // 緯度、経度が間違えて入れ替えている場合がある
-      if (this.lat < -90 || 90 < this.lat) {
+      if (this.lat < -90 || 90 < this.lat || this.lon < -180 || 180 < this.lon) {
         // 入れ替えではなく小数点の打ち間違いの疑いがある場合は緯度経度はないものとする
         if (this.lat <= 180 && -90 <= this.lon && this.lon <= 90) {
           const prevLat = this.lat;
