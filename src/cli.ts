@@ -75,7 +75,7 @@ dataCommand
       need_manual_edit?: boolean;
     }[] = [];
     const alreadyExistOriginUrlSet: Set<string> = new Set();
-    await crawlerFindInBatches({}, 1000, async (crawlers) => {
+    await findInBatches('crawler', {}, 1000, async (crawlers) => {
       for (const crawler of crawlers) {
         alreadyExistOriginUrlSet.add(crawler.origin_url);
       }
@@ -204,7 +204,8 @@ dataCommand
   .command('generate:keywords')
   .description('')
   .action(async (options: any) => {
-    await crawlerFindInBatches(
+    await findInBatches(
+      'crawler',
       {
         origin_title: { not: null },
         state: { in: ['STANDBY', 'DOWNLOADED'] },
@@ -318,7 +319,8 @@ dataCommand
   .command('download')
   .description('')
   .action(async (options: any) => {
-    await crawlerFindInBatches(
+    await findInBatches(
+      'crawler',
       {
         need_manual_edit: false,
         state: { in: ['STANDBY', 'KEYWORD_GENERATED'] },
@@ -424,7 +426,8 @@ dataCommand
   .command('import:origin')
   .description('')
   .action(async (options: any) => {
-    await crawlerFindInBatches(
+    await findInBatches(
+      'crawler',
       {
         checksum: { not: null },
         last_updated_at: { not: null },
@@ -438,7 +441,8 @@ dataCommand
         await importOriginRoutine(crawlerModels);
       },
     );
-    await crawlerFindInBatches(
+    await findInBatches(
+      'crawler',
       {
         checksum: { not: null },
         last_updated_at: { not: null },
@@ -452,7 +456,8 @@ dataCommand
         await importOriginRoutine(crawlerModels);
       },
     );
-    await crawlerFindInBatches(
+    await findInBatches(
+      'crawler',
       {
         checksum: { not: null },
         last_updated_at: { not: null },
@@ -475,7 +480,7 @@ dataCommand
     const downloadInfoFilePath = path.join('resources', 'master-data', 'download-file-info.csv');
     const downloadFileInfoCsvStream = fs.createWriteStream(downloadInfoFilePath);
     downloadFileInfoCsvStream.write(['url', 'categoryTitle', 'title', 'needManualEdit'].join(','));
-    await crawlerFindInBatches({}, 1000, async (crawlerModels) => {
+    await findInBatches('crawler', {}, 1000, async (crawlerModels) => {
       const crawlerCategories = await prismaClient.crawlerCategory.findMany({
         where: {
           crawler_id: {
@@ -1091,22 +1096,11 @@ async function crawlRootUrlFromDataset(
   }
 }
 
-async function crawlerFindInBatches(
+async function findInBatches(
+  tableName: string,
   filter: { [columnName: string]: any } = {},
   batchSize: number = 1000,
-  inBatches: (
-    models: {
-      id: number;
-      origin_url: string;
-      origin_file_ext: string;
-      origin_title: string | null;
-      origin_file_size: bigint;
-      origin_file_encoder: string | null;
-      checksum: string | null;
-      need_manual_edit: boolean;
-      last_updated_at: Date | null;
-    }[],
-  ) => Promise<void>,
+  inBatches: (models: any[]) => Promise<void>,
 ) {
   const filterObj = {
     id: {
@@ -1115,7 +1109,7 @@ async function crawlerFindInBatches(
     ...filter,
   };
   while (true) {
-    const crawlerModels = await prismaClient.crawler.findMany({
+    const models = await prismaClient[tableName].findMany({
       where: filterObj,
       take: batchSize,
       orderBy: [
@@ -1124,7 +1118,7 @@ async function crawlerFindInBatches(
         },
       ],
     });
-    const maxId = _.maxBy(crawlerModels, (crawlerModel) => crawlerModel.id)?.id;
+    const maxId = _.maxBy(models, (model: any) => model.id)?.id;
     if (maxId) {
       filterObj.id = {
         gt: maxId,
@@ -1132,7 +1126,7 @@ async function crawlerFindInBatches(
     } else {
       break;
     }
-    await inBatches(crawlerModels);
+    await inBatches(models);
   }
 }
 
