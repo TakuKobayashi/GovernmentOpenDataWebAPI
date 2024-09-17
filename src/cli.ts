@@ -510,28 +510,29 @@ dataCommand
     });
     downloadFileInfoCsvStream.end();
 
-    const crawlerRootModels = await prismaClient.crawlerRoot.findMany();
-    const crawlerRootCategories = await prismaClient.crawlerCategory.findMany({
-      where: {
-        crawler_id: {
-          in: crawlerRootModels.map((crawlerRootModel) => crawlerRootModel.id),
-        },
-        crawler_type: 'CrawlerRoot',
-      },
-      include: {
-        category: true,
-      },
-    });
-    const crawlerRootIdCrawlerCategory = _.keyBy(crawlerRootCategories, (crawlerCategory) => crawlerCategory.crawler_id);
     const downloadRootInfoFilePath = path.join('resources', 'master-data', 'download-root-info.csv');
     const downloadRootInfoCsvStream = fs.createWriteStream(downloadRootInfoFilePath);
     downloadRootInfoCsvStream.write(['url', 'categoryTitle'].join(','));
-    for (const crawlerRootModel of crawlerRootModels) {
-      const crawlerCategory = crawlerRootIdCrawlerCategory[crawlerRootModel.id];
-      const categoryTitle = crawlerCategory?.category?.title || '';
-      downloadRootInfoCsvStream.write('\n');
-      downloadRootInfoCsvStream.write([crawlerRootModel.url, categoryTitle].join(','));
-    }
+    await findInBatches('crawlerRoot', {}, 1000, async (crawlerRootModels) => {
+      const crawlerRootCategories = await prismaClient.crawlerCategory.findMany({
+        where: {
+          crawler_id: {
+            in: crawlerRootModels.map((crawlerRootModel) => crawlerRootModel.id),
+          },
+          crawler_type: 'CrawlerRoot',
+        },
+        include: {
+          category: true,
+        },
+      });
+      const crawlerRootIdCrawlerCategory = _.keyBy(crawlerRootCategories, (crawlerCategory) => crawlerCategory.crawler_id);
+      for (const crawlerRootModel of crawlerRootModels) {
+        const crawlerCategory = crawlerRootIdCrawlerCategory[crawlerRootModel.id];
+        const categoryTitle = crawlerCategory?.category?.title || '';
+        downloadRootInfoCsvStream.write('\n');
+        downloadRootInfoCsvStream.write([crawlerRootModel.url, categoryTitle].join(','));
+      }
+    });
     downloadRootInfoCsvStream.end();
   });
 
