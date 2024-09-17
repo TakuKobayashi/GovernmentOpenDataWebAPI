@@ -5,6 +5,7 @@
   "scripts": {
     "format": "prettier --config .prettierrc --write \"src/**/*.{ts,js}\"",
     "docs": "typedoc --tsconfig tsconfig.json --entryPoints src/**/*.ts --out docs/",
+    "redocly": "redocly",
     "ts-node": "ts-node",
     "prisma": "prisma",
     "commander": "ts-node src/cli.ts",
@@ -32,6 +33,7 @@
     "simple-git": "^3.26.0"
   },
   "devDependencies": {
+    "@redocly/cli": "^1.25.2",
     "@types/axios": "^0.14.0",
     "@types/cheerio": "^0.22.35",
     "@types/encoding-japanese": "^2.2.1",
