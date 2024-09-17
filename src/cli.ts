@@ -656,7 +656,6 @@ program
     for (const word of Object.keys(wordExportObj)) {
       const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, 'keyword', word, 'list.json');
       const apiObjs = wordExportObj[word];
-      console.log(apiObjs);
       saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ keyword: word, data: apiObjs }));
       const provinceApiObj = _.groupBy(apiObjs, (apiObj) => apiObj.province);
       for (const province of Object.keys(provinceApiObj)) {
