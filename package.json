@@ -17,6 +17,7 @@
   "author": "TakuKobayashi",
   "private": false,
   "dependencies": {
+    "@geolonia/normalize-japanese-addresses": "^2.10.1",
     "@koozaki/romaji-conv": "^2.0.30",
     "@prisma/client": "5.18.0",
     "adm-zip": "^0.5.16",

@@ -2,6 +2,7 @@ import XLSX, { WorkBook } from 'xlsx';
 import crypto from 'crypto';
 import { requestGeoCoder, requestReverceGeoCoder } from '../utils/yahoo-api';
 import { encodeBase32 } from 'geohashing';
+import { normalize } from '@geolonia/normalize-japanese-addresses';
 import { GeoJSON } from 'geojson';
 import _ from 'lodash';
 
@@ -187,7 +188,16 @@ export class PlaceModel implements PlaceInterface {
       this.address = this.address.replace(/,/g, '-');
       this.address = this.address.split(' ').join('');
     }
+    await this.normalizeAddress();
     this.setGeohash();
+  }
+
+  private async normalizeAddress() {
+    if (this.address) {
+      const normalizedAddress = await normalize(this.address);
+      this.province = normalizedAddress.pref;
+      this.city = normalizedAddress.city;
+    }
   }
 
   private setGeohash() {
