@@ -16,9 +16,10 @@ import {
   buildPlacesDataFromRowObjs,
   buildPlacesDataFromGeoJson,
   adjustAndFilterAcceptPlaceModels,
+  loadResourceFileAndBuildPlaceModels,
 } from './models/place';
 import { importGsiMuni } from './models/gsimuni';
-import { prismaClient } from './utils/prisma-common';
+import { prismaClient, findInBatches } from './utils/prisma-common';
 import { saveToLocalFileFromString, saveToLocalFileFromBuffer, loadSpreadSheetRowObject } from './utils/util';
 import { exportToInsertSQL } from './utils/data-exporters';
 import { requestKeyphrase, requestAnalysisParse } from './utils/yahoo-api';
