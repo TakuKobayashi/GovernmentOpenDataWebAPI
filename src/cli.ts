@@ -1,6 +1,5 @@
 import { program, Command } from 'commander';
 import packageJson from '../package.json';
-import XLSX, { WorkBook } from 'xlsx';
 import path from 'path';
 import fs from 'fs';
 import axios from 'axios';
@@ -10,20 +9,13 @@ import _ from 'lodash';
 import Encoding from 'encoding-japanese';
 import nodeHtmlParser from 'node-html-parser';
 import romajiConv from '@koozaki/romaji-conv';
-import {
-  buildPlacesDataFromWorkbook,
-  PlaceModel,
-  buildPlacesDataFromRowObjs,
-  buildPlacesDataFromGeoJson,
-  adjustAndFilterAcceptPlaceModels,
-  loadResourceFileAndBuildPlaceModels,
-} from './models/place';
+import { PlaceModel, loadResourceFileAndBuildPlaceModels } from './models/place';
 import { importGsiMuni } from './models/gsimuni';
 import { prismaClient, findInBatches } from './utils/prisma-common';
 import { saveToLocalFileFromString, saveToLocalFileFromBuffer, loadSpreadSheetRowObject } from './utils/util';
 import { exportToInsertSQL } from './utils/data-exporters';
 import { requestKeyphrase, requestAnalysisParse } from './utils/yahoo-api';
-import { sleep, readStreamCSVFileToHeaderObjs } from './utils/util';
+import { sleep } from './utils/util';
 import { config } from 'dotenv';
 import { CrawlerState } from '@prisma/client';
 
@@ -553,64 +545,30 @@ program
   .command('build')
   .description('')
   .action(async (options: any) => {
-    const placeIdCategory: { [categoryId: number]: any } = {};
-    const placeIdExtraInfo: { [categoryId: number]: any } = {};
-    const categories = await prismaClient.category.findMany({
-      include: {
-        data_categories: true,
-      },
-    });
-    for (const categoryModel of categories) {
-      for (const dataCategory of categoryModel.data_categories) {
-        if (dataCategory.source_type === 'Place') {
-          placeIdCategory[dataCategory.source_id] = categoryModel;
-          placeIdExtraInfo[dataCategory.source_id] = dataCategory.extra_info;
-        }
-      }
-    }
-    const categoryPlaceIds = _.uniq(Object.keys(placeIdCategory).map(Number));
-    const categoryPlaceModels = await prismaClient.place.findMany({
-      where: {
-        id: {
-          in: categoryPlaceIds,
+    const placeIdCategoryTitle: { [placeId: number]: string } = {};
+    const placeIdExtraInfo: { [placeId: number]: any } = {};
+    await findInBatches('category', {}, 100, async (categories) => {
+      const dataCategories = await prismaClient.dataCategory.findMany({
+        where: {
+          category_id: {
+            in: categories.map((category) => category.id),
+          },
         },
-      },
-    });
-
-    const categoryTitleExportObj: { [title: string]: any[] } = {};
-    for (const placeModel of categoryPlaceModels) {
-      const categoryModel = placeIdCategory[placeModel.id];
-      const extraInfo = placeIdExtraInfo[placeModel.id] || {};
-      const categoryApiObjs = convertToApiFormatDataObjs(placeModel);
-      if (!categoryTitleExportObj[categoryModel.title]) {
-        categoryTitleExportObj[categoryModel.title] = [];
-      }
-      categoryTitleExportObj[categoryModel.title].push({ ...categoryApiObjs, ...(extraInfo as object) });
-    }
-    for (const categoryTitle of Object.keys(categoryTitleExportObj)) {
-      const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, 'category', categoryTitle, 'list.json');
-      const apiObjs = categoryTitleExportObj[categoryTitle];
-      saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ category: categoryTitle, data: apiObjs }));
-      const provinceApiObj = _.groupBy(apiObjs, (apiObj) => apiObj.province);
-      for (const province of Object.keys(provinceApiObj)) {
-        if (!province) {
-          continue;
-        }
-        const provincePlaces = provinceApiObj[province];
-        const cityApiObjs = _.groupBy(provincePlaces, (apiObj) => apiObj.city);
-        for (const city of Object.keys(cityApiObjs)) {
-          if (!city) {
-            continue;
+      });
+      const categoryIdDataCategory = _.groupBy(dataCategories, (dataCategory) => dataCategory.category_id);
+      for (const categoryModel of categories) {
+        const dataCategories = categoryIdDataCategory[categoryModel.id] || [];
+        for (const dataCategory of dataCategories) {
+          if (dataCategory.source_type === 'Place') {
+            placeIdCategoryTitle[dataCategory.source_id] = categoryModel.title;
+            placeIdExtraInfo[dataCategory.source_id] = dataCategory.extra_info;
           }
-          const provinceCityApiObjs = cityApiObjs[city];
-          const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, province, city, `${categoryTitle}.json`);
-          saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ category: categoryTitle, data: provinceCityApiObjs }));
         }
       }
-    }
+    });
+    await convertApiJsonRoutine('category', placeIdCategoryTitle, placeIdExtraInfo);
 
-    const placeIdKeyword: { [placeId: number]: any } = {};
-    const wordExportObj: { [word: string]: any[] } = {};
+    const placeIdKeyword: { [placeId: number]: string } = {};
     await findInBatches('keyword', {}, 100, async (keywords) => {
       const crawlerKeywords = await prismaClient.crawlerKeyword.findMany({
         where: {
@@ -626,56 +584,21 @@ program
           },
         },
       });
+      const keywordIdCrawlerKeywords = _.groupBy(crawlerKeywords, (crawlerKeyword) => crawlerKeyword.keyword_id);
       for (const keywordModel of keywords) {
+        const crawlerKeywords = keywordIdCrawlerKeywords[keywordModel.id] || [];
         for (const crawlerKeywordModel of crawlerKeywords) {
           const importCrawlerData = crawlerKeywordModel.crawler.import_crawler_data;
           for (const importCrawler of importCrawlerData) {
             if (importCrawler.source_type === 'Place') {
-              placeIdKeyword[importCrawler.source_id] = keywordModel;
+              placeIdKeyword[importCrawler.source_id] = keywordModel.word;
               placeIdExtraInfo[importCrawler.source_id] = importCrawler.extra_info;
             }
           }
         }
       }
-      const keywordPlaceIds = _.uniq(Object.keys(placeIdKeyword).map(Number));
-      const keywordPlaceModels = await prismaClient.place.findMany({
-        where: {
-          id: {
-            in: keywordPlaceIds,
-          },
-        },
-      });
-      for (const placeModel of keywordPlaceModels) {
-        const keywordModel = placeIdKeyword[placeModel.id];
-        const extraInfo = placeIdExtraInfo[placeModel.id] || {};
-        const keywordApiObjs = convertToApiFormatDataObjs(placeModel);
-        if (!wordExportObj[keywordModel.word]) {
-          wordExportObj[keywordModel.word] = [];
-        }
-        wordExportObj[keywordModel.word].push({ ...keywordApiObjs, ...(extraInfo as object) });
-      }
     });
-    for (const word of Object.keys(wordExportObj)) {
-      const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, 'keyword', word, 'list.json');
-      const apiObjs = wordExportObj[word];
-      saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ keyword: word, data: apiObjs }));
-      const provinceApiObj = _.groupBy(apiObjs, (apiObj) => apiObj.province);
-      for (const province of Object.keys(provinceApiObj)) {
-        if (!province) {
-          continue;
-        }
-        const provincePlaces = provinceApiObj[province];
-        const cityApiObjs = _.groupBy(provincePlaces, (apiObj) => apiObj.city);
-        for (const city of Object.keys(cityApiObjs)) {
-          if (!city) {
-            continue;
-          }
-          const provinceCityApiObjs = cityApiObjs[city];
-          const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, province, city, `${word}.json`);
-          saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ keyword: word, data: provinceCityApiObjs }));
-        }
-      }
-    }
+    await convertApiJsonRoutine('keyword', placeIdKeyword, placeIdExtraInfo);
   });
 
 const crawlCommand = new Command('crawl');
@@ -1194,6 +1117,53 @@ function getSaveOriginFilePathParts(
   });
   const dirTitle = crawlerKeywordModel?.keyword?.word || crawlerCategory?.category?.title || 'unknown';
   return ['resources', 'origin-data', dirTitle, downloadUrl.hostname, ...downloadUrl.pathname.split('/')];
+}
+
+async function convertApiJsonRoutine(
+  dirPrefix: string,
+  placeIdText: { [placeId: number]: string },
+  placeIdExtraInfo: { [placeId: number]: any },
+) {
+  const placeIds = _.uniq(Object.keys(placeIdText).map(Number));
+  const placeModels = await prismaClient.place.findMany({
+    where: {
+      id: {
+        in: placeIds,
+      },
+    },
+  });
+
+  const textExportObj: { [title: string]: any[] } = {};
+  for (const placeModel of placeModels) {
+    const text = placeIdText[placeModel.id];
+    const extraInfo = placeIdExtraInfo[placeModel.id] || {};
+    const categoryApiObjs = convertToApiFormatDataObjs(placeModel);
+    if (!textExportObj[text]) {
+      textExportObj[text] = [];
+    }
+    textExportObj[text].push({ ...categoryApiObjs, ...(extraInfo as object) });
+  }
+  for (const text of Object.keys(textExportObj)) {
+    const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, dirPrefix, text, 'list.json');
+    const apiObjs = textExportObj[text];
+    saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ [dirPrefix]: text, data: apiObjs }));
+    const provinceApiObj = _.groupBy(apiObjs, (apiObj) => apiObj.province);
+    for (const province of Object.keys(provinceApiObj)) {
+      if (!province) {
+        continue;
+      }
+      const provincePlaces = provinceApiObj[province];
+      const cityApiObjs = _.groupBy(provincePlaces, (apiObj) => apiObj.city);
+      for (const city of Object.keys(cityApiObjs)) {
+        if (!city) {
+          continue;
+        }
+        const provinceCityApiObjs = cityApiObjs[city];
+        const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, province, city, `${text}.json`);
+        saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ [dirPrefix]: text, data: provinceCityApiObjs }));
+      }
+    }
+  }
 }
 
 function convertToApiFormatDataObjs(placeModel: any): {
