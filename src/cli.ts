@@ -823,33 +823,6 @@ async function importOriginRoutine(
         continue;
       }
       if (buildPlaceModels.length > 0) {
-        const failLogs: Set<any> = new Set();
-        for (const buildPlaceModel of buildPlaceModels) {
-          for (const log of buildPlaceModel.getImportInvalidLogs()) {
-            failLogs.add(log);
-          }
-        }
-        if (failLogs.size > 0) {
-          // 問題のないデータもあるのでここでは記録するだけにとどめておく
-          await prismaClient.$transaction([
-            prismaClient.crawler.updateMany({
-              where: {
-                id: crawlerModel.id,
-              },
-              data: {
-                need_manual_edit: true,
-              },
-            }),
-            prismaClient.importFailLog.create({
-              data: {
-                crawl_url: crawlerModel.origin_url,
-                file_path: filePath,
-                to_source_type: 'Place',
-                fail_logs: Array.from(failLogs),
-              },
-            }),
-          ]);
-        }
         const hashcodes = _.compact(buildPlaceModels.map((placeModel) => placeModel.hashcode));
         if (hashcodes.length <= 0) {
           await updateCrawlerState(prismaClient, crawlerModel.id, 'IMPORT_FAILED');
@@ -866,13 +839,21 @@ async function importOriginRoutine(
           },
         });
         const currentHashCodeSet: Set<string> = new Set(currentPlaceModels.map((currentPlaceModel) => currentPlaceModel.hashcode));
-        const newPlaceModels = buildPlaceModels.filter((placeModel) => placeModel.hashcode && !currentHashCodeSet.has(placeModel.hashcode));
-        if (newPlaceModels.length <= 0) {
-          await updateCrawlerState(prismaClient, crawlerModel.id, 'IMPORT_FAILED');
-          continue;
+        const [newPlaceModels, errorPlaceModels] = _.partition(
+          buildPlaceModels,
+          (placeModel) => placeModel.hashcode && !currentHashCodeSet.has(placeModel.hashcode),
+        );
+        if (newPlaceModels.length > 0) {
+          await Promise.all(newPlaceModels.map((newPlaceModel) => newPlaceModel.setLocationInfo()));
         }
-        await Promise.all(newPlaceModels.map((newPlaceModel) => newPlaceModel.setLocationInfo()));
         const willSavePlaces: PlaceModel[] = [];
+        const failLogs: Set<any> = new Set();
+        for (const errorPlaceModel of errorPlaceModels) {
+          const logs = errorPlaceModel.getImportInvalidLogs();
+          for (const log of logs) {
+            failLogs.add(log);
+          }
+        }
         for (const newPlaceModel of newPlaceModels) {
           const logs = newPlaceModel.getImportInvalidLogs();
           if (logs.length > 0) {
