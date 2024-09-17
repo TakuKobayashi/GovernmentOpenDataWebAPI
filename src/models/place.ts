@@ -1,9 +1,12 @@
 import XLSX, { WorkBook } from 'xlsx';
 import crypto from 'crypto';
 import { requestGeoCoder, requestReverceGeoCoder } from '../utils/yahoo-api';
+import { readStreamCSVFileToHeaderObjs } from '../utils/util';
 import { encodeBase32 } from 'geohashing';
 import { normalize } from '@geolonia/normalize-japanese-addresses';
 import { GeoJSON } from 'geojson';
+import path from 'path';
+import fs from 'fs';
 import _ from 'lodash';
 
 const candidateNameKeys = ['施設名', '名称', 'タイトル', '設置場所', '施設名称', '施設名', '保育園名'];
@@ -346,4 +349,30 @@ export function adjustAndFilterAcceptPlaceModels(placeModels: PlaceModel[]): Pla
     }
   }
   return Object.values(convertedHashcodeApiFormatDataObjs);
+}
+
+export async function loadResourceFileAndBuildPlaceModels(filePath: string): Promise<PlaceModel[]> {
+  return new Promise<PlaceModel[]>((resolve, reject) => {
+    try {
+      if (path.extname(filePath) === '.csv') {
+        readStreamCSVFileToHeaderObjs(filePath)
+          .then((parsedCsvObjs) => {
+            resolve(buildPlacesDataFromRowObjs(parsedCsvObjs));
+          })
+          .catch((error) => {
+            reject(error);
+          });
+      } else if (['.xlsx', '.xls'].includes(path.extname(filePath))) {
+        const workbook = XLSX.readFile(filePath);
+        resolve(buildPlacesDataFromWorkbook(workbook));
+      } else if (['.json', '.geojson'].includes(path.extname(filePath))) {
+        const jsonString = fs.readFileSync(filePath, 'utf-8');
+        const json = JSON.parse(jsonString);
+        const placeModels = buildPlacesDataFromGeoJson(json);
+        resolve(adjustAndFilterAcceptPlaceModels(placeModels));
+      }
+    } catch (error) {
+      reject(error);
+    }
+  });
 }
