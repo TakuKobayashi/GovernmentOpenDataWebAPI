@@ -823,11 +823,13 @@ async function importOriginRoutine(
         continue;
       }
       if (buildPlaceModels.length > 0) {
-        const failLogs: any[][] = [];
+        const failLogs: Set<any> = new Set();
         for (const buildPlaceModel of buildPlaceModels) {
-          failLogs.push(buildPlaceModel.getImportInvalidLogs());
+          for (const log of buildPlaceModel.getImportInvalidLogs()) {
+            failLogs.add(log);
+          }
         }
-        if (failLogs.length > 0) {
+        if (failLogs.size > 0) {
           // 問題のないデータもあるのでここでは記録するだけにとどめておく
           await prismaClient.$transaction([
             prismaClient.crawler.updateMany({
@@ -843,11 +845,10 @@ async function importOriginRoutine(
                 crawl_url: crawlerModel.origin_url,
                 file_path: filePath,
                 to_source_type: 'Place',
-                fail_logs: failLogs.flat(),
+                fail_logs: Array.from(failLogs),
               },
             }),
           ]);
-          failLogs.splice(0);
         }
         const hashcodes = _.compact(buildPlaceModels.map((placeModel) => placeModel.hashcode));
         if (hashcodes.length <= 0) {
@@ -875,12 +876,14 @@ async function importOriginRoutine(
         for (const newPlaceModel of newPlaceModels) {
           const logs = newPlaceModel.getImportInvalidLogs();
           if (logs.length > 0) {
-            failLogs.push(logs);
+            for (const log of logs) {
+              failLogs.add(log);
+            }
           } else {
             willSavePlaces.push(newPlaceModel);
           }
         }
-        if (failLogs.length > 0) {
+        if (failLogs.size > 0) {
           // 問題のないデータもあるのでここでは記録するだけにとどめておく
           await prismaClient.$transaction([
             prismaClient.crawler.updateMany({
@@ -896,7 +899,7 @@ async function importOriginRoutine(
                 crawl_url: crawlerModel.origin_url,
                 file_path: filePath,
                 to_source_type: 'Place',
-                fail_logs: failLogs.flat(),
+                fail_logs: Array.from(failLogs),
               },
             }),
           ]);
