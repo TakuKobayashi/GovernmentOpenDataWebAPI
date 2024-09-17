@@ -884,21 +884,7 @@ async function importOriginRoutine(
     const crawlerCategory = crawlerIdCrawlerCategory[crawlerModel.id];
     const filePathes = fg.sync(getSaveOriginFilePathParts(crawlerModel, undefined, crawlerCategory).join('/'));
     for (const filePath of filePathes) {
-      let buildPlaceModels: PlaceModel[] = [];
-      try {
-        if (path.extname(filePath) === '.csv') {
-          const parsedCsvObjs = await readStreamCSVFileToHeaderObjs(filePath);
-          buildPlaceModels = buildPlacesDataFromRowObjs(parsedCsvObjs);
-        } else if (['.xlsx', '.xls'].includes(path.extname(filePath))) {
-          const workbook = XLSX.readFile(filePath);
-          buildPlaceModels = buildPlacesDataFromWorkbook(workbook);
-        } else if (['.json', '.geojson'].includes(path.extname(filePath))) {
-          const jsonString = fs.readFileSync(filePath, 'utf-8');
-          const json = JSON.parse(jsonString);
-          const placeModels = buildPlacesDataFromGeoJson(json);
-          buildPlaceModels = adjustAndFilterAcceptPlaceModels(placeModels);
-        }
-      } catch (error: any) {
+      const buildPlaceModels = await loadResourceFileAndBuildPlaceModels(filePath).catch(async (error) => {
         await prismaClient.$transaction([
           prismaClient.importFailLog.create({
             data: {
@@ -920,6 +906,8 @@ async function importOriginRoutine(
             },
           }),
         ]);
+      });
+      if (!buildPlaceModels) {
         continue;
       }
       if (buildPlaceModels.length > 0) {
@@ -1188,40 +1176,6 @@ async function crawlRootUrlFromDataset(
     });
     pageNumber = pageNumber + 1;
     await sleep(1000);
-  }
-}
-
-async function findInBatches(
-  tableName: string,
-  filter: { [columnName: string]: any } = {},
-  batchSize: number = 1000,
-  inBatches: (models: any[]) => Promise<void>,
-) {
-  const filterObj = {
-    id: {
-      gt: 0,
-    },
-    ...filter,
-  };
-  while (true) {
-    const models = await prismaClient[tableName].findMany({
-      where: filterObj,
-      take: batchSize,
-      orderBy: [
-        {
-          id: 'asc',
-        },
-      ],
-    });
-    const maxId = _.maxBy(models, (model: any) => model.id)?.id;
-    if (maxId) {
-      filterObj.id = {
-        gt: maxId,
-      };
-    } else {
-      break;
-    }
-    await inBatches(models);
   }
 }
 
