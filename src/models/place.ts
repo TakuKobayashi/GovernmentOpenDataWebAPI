@@ -125,6 +125,12 @@ export class PlaceModel implements PlaceInterface {
   }
 
   adjustCustomData() {
+    if (this.lat) {
+      this.lat = Number(this.lat);
+    }
+    if (this.lon) {
+      this.lon = Number(this.lon);
+    }
     this.adjustAddress();
     this.adjustLatLon();
     this.setCalcedHashCode();
