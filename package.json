@@ -34,6 +34,7 @@
     "@types/axios": "^0.14.0",
     "@types/cheerio": "^0.22.35",
     "@types/encoding-japanese": "^2.2.1",
+    "@types/geojson": "^7946.0.14",
     "@types/lodash": "^4.17.0",
     "@types/node": "^22.5.1",
     "commander": "^12.0.0",
