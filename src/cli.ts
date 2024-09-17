@@ -10,7 +10,13 @@ import _ from 'lodash';
 import Encoding from 'encoding-japanese';
 import nodeHtmlParser from 'node-html-parser';
 import romajiConv from '@koozaki/romaji-conv';
-import { buildPlacesDataFromWorkbook, PlaceModel, buildPlacesDataFromRowObjs } from './models/place';
+import {
+  buildPlacesDataFromWorkbook,
+  PlaceModel,
+  buildPlacesDataFromRowObjs,
+  buildPlacesDataFromGeoJson,
+  adjustAndFilterAcceptPlaceModels,
+} from './models/place';
 import { importGsiMuni } from './models/gsimuni';
 import { prismaClient } from './utils/prisma-common';
 import { saveToLocalFileFromString, saveToLocalFileFromBuffer, loadSpreadSheetRowObject } from './utils/util';
@@ -418,7 +424,6 @@ dataCommand
   .command('import:origin')
   .description('')
   .action(async (options: any) => {
-    const crawlerFilePathSet: Set<string> = new Set();
     await crawlerFindInBatches(
       {
         checksum: { not: null },
@@ -430,10 +435,6 @@ dataCommand
       },
       1000,
       async (crawlerModels) => {
-        for (const crawlerModel of crawlerModels) {
-          const originUrl = new URL(crawlerModel.origin_url);
-          crawlerFilePathSet.add(path.parse(originUrl.pathname).name);
-        }
         await importOriginRoutine(crawlerModels);
       },
     );
@@ -448,11 +449,21 @@ dataCommand
       },
       1000,
       async (crawlerModels) => {
-        const csvCrawlerModels = crawlerModels.filter((crawlerModel) => {
-          const originUrl = new URL(crawlerModel.origin_url);
-          return !crawlerFilePathSet.has(path.parse(originUrl.pathname).name);
-        });
-        await importOriginRoutine(csvCrawlerModels);
+        await importOriginRoutine(crawlerModels);
+      },
+    );
+    await crawlerFindInBatches(
+      {
+        checksum: { not: null },
+        last_updated_at: { not: null },
+        state: { in: ['STANDBY', 'DOWNLOADED', 'KEYWORD_GENERATED'] },
+        origin_file_ext: {
+          in: ['.json', '.geojson'],
+        },
+      },
+      1000,
+      async (crawlerModels) => {
+        await importOriginRoutine(crawlerModels);
       },
     );
   });
@@ -781,6 +792,11 @@ async function importOriginRoutine(
         } else if (['.xlsx', '.xls'].includes(path.extname(filePath))) {
           const workbook = XLSX.readFile(filePath);
           buildPlaceModels = buildPlacesDataFromWorkbook(workbook);
+        } else if (['.json', '.geojson'].includes(path.extname(filePath))) {
+          const jsonString = fs.readFileSync(filePath, 'utf-8');
+          const json = JSON.parse(jsonString);
+          const placeModels = buildPlacesDataFromGeoJson(json);
+          buildPlaceModels = adjustAndFilterAcceptPlaceModels(placeModels);
         }
       } catch (error: any) {
         await prismaClient.$transaction([
