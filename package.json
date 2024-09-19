@@ -10,7 +10,7 @@
     "prisma": "prisma",
     "commander": "ts-node src/cli.ts",
     "build": "ts-node src/cli.ts build",
-    "deploy": "ts-node src/cli.ts build & gh-pages -d build"
+    "deploy": "ts-node src/cli.ts build & redocly build-docs swagger.yml --output=build/index.html & gh-pages -d build"
   },
   "prisma": {
     "seed": "ts-node prisma/seed.ts"
@@ -30,7 +30,8 @@
     "node-html-parser": "^6.1.13",
     "prisma": "^5.18.0",
     "puppeteer": "^23.3.0",
-    "simple-git": "^3.26.0"
+    "simple-git": "^3.26.0",
+    "yaml": "^2.5.1"
   },
   "devDependencies": {
     "@redocly/cli": "^1.25.2",

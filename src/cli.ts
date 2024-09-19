@@ -18,7 +18,7 @@ import { requestKeyphrase, requestAnalysisParse } from './utils/yahoo-api';
 import { sleep } from './utils/util';
 import { config } from 'dotenv';
 import { CrawlerState } from '@prisma/client';
-
+import { OpenApi } from './utils/open-api';
 config();
 
 program.storeOptionsAsProperties(false);
@@ -544,6 +544,8 @@ sqlCommand
 
 program.addCommand(sqlCommand);
 
+const openApi = OpenApi.loadYaml(fs.readFileSync('swagger.yml', 'utf-8'));
+
 program
   .command('build')
   .description('')
@@ -602,6 +604,7 @@ program
       }
     });
     await convertApiJsonRoutine('keyword', placeIdKeyword, placeIdExtraInfo);
+    fs.writeFileSync('swagger.yml', openApi.toYaml());
   });
 
 const crawlCommand = new Command('crawl');
@@ -1149,6 +1152,23 @@ async function convertApiJsonRoutine(
   for (const text of Object.keys(textExportObj)) {
     const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, dirPrefix, text, 'list.json');
     const apiObjs = textExportObj[text];
+    openApi.addApiPath({
+      apiPath: ['api', API_VERSION_NAME, dirPrefix, text, 'list.json'].join('/'),
+      status: 200,
+      method: 'get',
+      example: {
+        type: 'object',
+        properties: {
+          [dirPrefix]: {
+            type: 'string',
+            example: text,
+          },
+          data: {
+            example: apiObjs[0],
+          },
+        },
+      },
+    });
     saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ [dirPrefix]: text, data: apiObjs }));
     const provinceApiObj = _.groupBy(apiObjs, (apiObj) => apiObj.province);
     for (const province of Object.keys(provinceApiObj)) {
@@ -1163,6 +1183,23 @@ async function convertApiJsonRoutine(
         }
         const provinceCityApiObjs = cityApiObjs[city];
         const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, province, city, `${text}.json`);
+        openApi.addApiPath({
+          apiPath: ['api', API_VERSION_NAME, province, city, `${text}.json`].join('/'),
+          status: 200,
+          method: 'get',
+          example: {
+            type: 'object',
+            properties: {
+              [dirPrefix]: {
+                type: 'string',
+                example: text,
+              },
+              data: {
+                example: provinceCityApiObjs[0],
+              },
+            },
+          },
+        });
         saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ [dirPrefix]: text, data: provinceCityApiObjs }));
       }
     }
