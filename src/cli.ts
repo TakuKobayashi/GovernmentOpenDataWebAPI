@@ -1164,7 +1164,8 @@ async function convertApiJsonRoutine(
             example: text,
           },
           data: {
-            example: apiObjs[0],
+            type: 'array',
+            example: [apiObjs[0]],
           },
         },
       },
@@ -1195,7 +1196,8 @@ async function convertApiJsonRoutine(
                 example: text,
               },
               data: {
-                example: provinceCityApiObjs[0],
+                type: 'array',
+                example: [provinceCityApiObjs[0]],
               },
             },
           },
