@@ -402,6 +402,9 @@ dataCommand
             willUpdateCrawlerObj.need_manual_edit = true;
             willUpdateCrawlerObj.origin_file_size = response.data.length;
           }
+          if (crawlerModel.state === 'STANDBY') {
+            crawlerModel.state = 'DOWNLOADED';
+          }
           willUpdateCrawlerObj.last_updated_at = new Date();
           willUpdateCrawlerObj.checksum = crypto.createHash('sha512').update(response.data.buffer.toString('hex')).digest('hex');
           await prismaClient.crawler.updateMany({
