@@ -545,6 +545,10 @@ sqlCommand
 program.addCommand(sqlCommand);
 
 const openApi = OpenApi.loadYaml(fs.readFileSync('swagger.yml', 'utf-8'));
+openApi.putServer({
+  url: `https://takukobayashi.github.io/GovernmentOpenDataWebAPI/api/${API_VERSION_NAME}`,
+  description: 'APIの既定となるURL',
+});
 
 program
   .command('build')
@@ -1153,7 +1157,7 @@ async function convertApiJsonRoutine(
     const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, dirPrefix, text, 'list.json');
     const apiObjs = textExportObj[text];
     openApi.addApiPath({
-      apiPath: ['api', API_VERSION_NAME, dirPrefix, text, 'list.json'].join('/'),
+      apiPath: [dirPrefix, text, 'list.json'].join('/'),
       status: 200,
       method: 'get',
       example: {
@@ -1185,7 +1189,7 @@ async function convertApiJsonRoutine(
         const provinceCityApiObjs = cityApiObjs[city];
         const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, province, city, `${text}.json`);
         openApi.addApiPath({
-          apiPath: ['api', API_VERSION_NAME, province, city, `${text}.json`].join('/'),
+          apiPath: [province, city, `${text}.json`].join('/'),
           status: 200,
           method: 'get',
           example: {
