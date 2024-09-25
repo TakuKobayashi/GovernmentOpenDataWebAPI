@@ -18,9 +18,17 @@ interface ApiPathFormat {
   [method: string]: {
     summary?: string;
     description?: string;
-    parameters?: any;
+    parameters: ParameterFromat[];
     responses?: { [status: number]: ApiResponseFormat };
   };
+}
+
+interface ParameterFromat {
+  in: string;
+  name: string;
+  required?: boolean;
+  schema: any;
+  description?: string;
 }
 
 interface ApiResponseFormat {
@@ -85,12 +93,14 @@ export class OpenApi implements OpenApiFormat {
     apiPath,
     method = 'get',
     status = 200,
+    parameters = [],
     example = { type: 'object', properties: {} },
   }: {
     apiPath: string;
     method: Method;
     status: number;
-    example: ExampleSchemaFormat;
+    parameters: ParameterFromat[];
+    example?: ExampleSchemaFormat;
   }) {
     this.paths = {
       ...this.paths,
@@ -105,6 +115,7 @@ export class OpenApi implements OpenApiFormat {
               },
             },
           },
+          parameters: parameters,
         },
       },
     };
