@@ -1,5 +1,6 @@
 import YAML from 'yaml';
 import { Method } from 'axios';
+import _ from 'lodash';
 
 export interface OpenApiFormat {
   openapi: string;
@@ -62,12 +63,7 @@ export class OpenApi implements OpenApiFormat {
   } = {
     version: '1.0.0',
   };
-  servers?: { url: string; description?: string }[] = [
-    {
-      url: 'https://takukobayashi.github.io/GovernmentOpenDataWebAPI/',
-      description: '',
-    },
-  ];
+  servers?: { url: string; description?: string }[] = [];
   paths?: { [path: string]: ApiPathFormat } = {};
 
   private constructor(openApiFormat: OpenApiFormat) {
@@ -75,6 +71,14 @@ export class OpenApi implements OpenApiFormat {
     this.info = openApiFormat.info;
     this.servers = openApiFormat.servers;
     this.paths = openApiFormat.paths;
+  }
+
+  putServer({ url, description = '' }: { url: string; description: string }) {
+    const currentUrlServers = _.keyBy(this.servers || [], (server) => server.url);
+    currentUrlServers[url] = { url: url, description: description };
+    this.servers = Object.keys(currentUrlServers).map((url) => {
+      return currentUrlServers[url];
+    });
   }
 
   addApiPath({
