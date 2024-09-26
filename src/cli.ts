@@ -1158,7 +1158,6 @@ async function convertApiJsonRoutine(
   const exampleProvinceCityApiObjs: any[] = [];
   const texts = Object.keys(textExportObj);
   for (const text of texts) {
-    const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, dirPrefix, text, 'list.json');
     const apiObjs = textExportObj[text];
     const apiResponseTemplateObj = { [dirPrefix]: text, data: apiObjs };
     if (exampleApiObjs.length <= 0) {
@@ -1166,6 +1165,7 @@ async function convertApiJsonRoutine(
         exampleApiObjs.push(apiObj);
       }
     }
+    const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, dirPrefix, text, 'list.json');
     saveToLocalFileFromString(willSaveFilePath, JSON.stringify(apiResponseTemplateObj));
     const provinceApiObj = _.groupBy(apiObjs, (apiObj) => apiObj.province);
     for (const province of Object.keys(provinceApiObj)) {
@@ -1185,6 +1185,7 @@ async function convertApiJsonRoutine(
             exampleProvinceCityApiObjs.push(provinceCityApiObj);
           }
         }
+        const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, province, city, `${text}.json`);
         saveToLocalFileFromString(willSaveFilePath, JSON.stringify(provinceCityApiTemplateObj));
       }
     }
