@@ -20,6 +20,7 @@ const candidateFemalesCountKeys = ['女性トイレ数', '女性トイレ_総数
 const multipurposesCountKeys = ['バリアフリートイレ数', '多機能トイレ_数', '多機能トイレ数'];
 
 export interface PlaceInterface {
+  id?: number;
   name: string;
   hashcode: string;
   province?: string;
@@ -31,6 +32,7 @@ export interface PlaceInterface {
 }
 
 export class PlaceModel implements PlaceInterface {
+  id?: number;
   name: string = '';
   hashcode: string = '';
   province?: string;
@@ -375,4 +377,22 @@ export async function loadResourceFileAndBuildPlaceModels(filePath: string): Pro
       reject(error);
     }
   });
+}
+
+export function convertToApiFormatDataObjs(placeData: PlaceInterface): {
+  name: string;
+  province?: string;
+  city?: string;
+  address?: string;
+  lat?: number;
+  lon?: number;
+} {
+  return {
+    name: placeData.name,
+    province: placeData.province,
+    city: placeData.city,
+    address: placeData.address,
+    lat: placeData.lat,
+    lon: placeData.lon,
+  };
 }
