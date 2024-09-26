@@ -9,16 +9,16 @@ import _ from 'lodash';
 import Encoding from 'encoding-japanese';
 import nodeHtmlParser from 'node-html-parser';
 import romajiConv from '@koozaki/romaji-conv';
-import { PlaceModel, loadResourceFileAndBuildPlaceModels } from './models/place';
+import { PlaceModel, loadResourceFileAndBuildPlaceModels, convertToApiFormatDataObjs, PlaceInterface } from './models/place';
 import { importGsiMuni } from './models/gsimuni';
 import { prismaClient, findInBatches } from './utils/prisma-common';
 import { saveToLocalFileFromString, saveToLocalFileFromBuffer, loadSpreadSheetRowObject } from './utils/util';
 import { exportToInsertSQL } from './utils/data-exporters';
 import { requestKeyphrase, requestAnalysisParse } from './utils/yahoo-api';
 import { sleep } from './utils/util';
+import { OpenApi } from './utils/open-api';
 import { config } from 'dotenv';
 import { CrawlerState } from '@prisma/client';
-import { OpenApi } from './utils/open-api';
 config();
 
 program.storeOptionsAsProperties(false);
@@ -1147,7 +1147,7 @@ async function convertApiJsonRoutine(
   for (const placeModel of placeModels) {
     const text = placeIdText[placeModel.id];
     const extraInfo = placeIdExtraInfo[placeModel.id] || {};
-    const categoryApiObjs = convertToApiFormatDataObjs(placeModel);
+    const categoryApiObjs = convertToApiFormatDataObjs(placeModel as PlaceInterface);
     if (!textExportObj[text]) {
       textExportObj[text] = [];
     }
@@ -1292,24 +1292,6 @@ async function convertApiJsonRoutine(
       },
     });
   }
-}
-
-function convertToApiFormatDataObjs(placeModel: any): {
-  name: string;
-  province?: string;
-  city?: string;
-  address: string;
-  lat: number;
-  lon: number;
-} {
-  return {
-    name: placeModel.name,
-    province: placeModel.province,
-    city: placeModel.city,
-    address: placeModel.address,
-    lat: placeModel.lat,
-    lon: placeModel.lon,
-  };
 }
 
 program.parse(process.argv);
