@@ -1164,7 +1164,7 @@ async function convertApiJsonRoutine(
         required: true,
         schema: {
           type: 'string',
-          enum: ['[', Object.keys(textExportObj).join(','), ']'].join(''),
+          enum: Object.keys(textExportObj),
         },
         description: `${dirPrefix}データの一覧`,
       },
@@ -1200,7 +1200,7 @@ async function convertApiJsonRoutine(
         required: true,
         schema: {
           type: 'string',
-          enum: ['[', Object.keys(textExportObj).join(','), ']'].join(''),
+          enum: Object.keys(textExportObj),
         },
         description: `${dirPrefix}データの一覧`,
       },
