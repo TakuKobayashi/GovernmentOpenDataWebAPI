@@ -1,5 +1,4 @@
 import YAML from 'yaml';
-import { Method } from 'axios';
 import _ from 'lodash';
 
 export interface OpenApiFormat {
@@ -89,35 +88,10 @@ export class OpenApi implements OpenApiFormat {
     });
   }
 
-  addApiPath({
-    apiPath,
-    method = 'get',
-    status = 200,
-    parameters = [],
-    example = { type: 'object', properties: {} },
-  }: {
-    apiPath: string;
-    method: Method;
-    status: number;
-    parameters: ParameterFromat[];
-    example?: ExampleSchemaFormat;
-  }) {
+  addApiPath(pathApiFormat: { [path: string]: ApiPathFormat }) {
     this.paths = {
       ...this.paths,
-      [apiPath]: {
-        [method]: {
-          responses: {
-            [status]: {
-              content: {
-                'application/json': {
-                  schema: example,
-                },
-              },
-            },
-          },
-          parameters: parameters,
-        },
-      },
+      ...pathApiFormat,
     };
   }
 
