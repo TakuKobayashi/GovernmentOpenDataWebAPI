@@ -1153,64 +1153,20 @@ async function convertApiJsonRoutine(
     }
     textExportObj[text].push({ ...categoryApiObjs, ...(extraInfo as object) });
   }
-  openApi.addApiPath({
-    apiPath: [dirPrefix, `{${dirPrefix}}`, 'list.json'].join('/'),
-    status: 200,
-    method: 'get',
-    parameters: [
-      {
-        in: 'path',
-        name: dirPrefix,
-        required: true,
-        schema: {
-          type: 'string',
-          enum: Object.keys(textExportObj),
-        },
-        description: `${dirPrefix}データの一覧`,
-      },
-    ],
-  });
 
-  openApi.addApiPath({
-    apiPath: [`{province}`, `{city}`, `{${dirPrefix}}.json`].join('/'),
-    status: 200,
-    method: 'get',
-    parameters: [
-      {
-        in: 'path',
-        name: 'province',
-        required: true,
-        schema: {
-          type: 'string',
-        },
-        description: '都道府県',
-      },
-      {
-        in: 'path',
-        name: 'city',
-        required: true,
-        schema: {
-          type: 'string',
-        },
-        description: '市区町村',
-      },
-      {
-        in: 'path',
-        name: dirPrefix,
-        required: true,
-        schema: {
-          type: 'string',
-          enum: Object.keys(textExportObj),
-        },
-        description: `${dirPrefix}データの一覧`,
-      },
-    ],
-  });
-
-  for (const text of Object.keys(textExportObj)) {
+  const exampleApiObjs: any[] = [];
+  const exampleProvinceCityApiObjs: any[] = [];
+  const texts = Object.keys(textExportObj);
+  for (const text of texts) {
     const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, dirPrefix, text, 'list.json');
     const apiObjs = textExportObj[text];
-    saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ [dirPrefix]: text, data: apiObjs }));
+    const apiResponseTemplateObj = { [dirPrefix]: text, data: apiObjs };
+    if (exampleApiObjs.length <= 0) {
+      for (const apiObj of apiObjs) {
+        exampleApiObjs.push(apiObj);
+      }
+    }
+    saveToLocalFileFromString(willSaveFilePath, JSON.stringify(apiResponseTemplateObj));
     const provinceApiObj = _.groupBy(apiObjs, (apiObj) => apiObj.province);
     for (const province of Object.keys(provinceApiObj)) {
       if (!province) {
@@ -1223,9 +1179,117 @@ async function convertApiJsonRoutine(
           continue;
         }
         const provinceCityApiObjs = cityApiObjs[city];
-        saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ [dirPrefix]: text, data: provinceCityApiObjs }));
+        const provinceCityApiTemplateObj = { [dirPrefix]: text, data: provinceCityApiObjs };
+        if (exampleProvinceCityApiObjs.length <= 0) {
+          for (const provinceCityApiObj of provinceCityApiObjs) {
+            exampleProvinceCityApiObjs.push(provinceCityApiObj);
+          }
+        }
+        saveToLocalFileFromString(willSaveFilePath, JSON.stringify(provinceCityApiTemplateObj));
       }
     }
+  }
+
+  if (texts.length > 0) {
+    const apiPath = [dirPrefix, `{${dirPrefix}}`, 'list.json'].join('/');
+    openApi.addApiPath({
+      [apiPath]: {
+        get: {
+          responses: {
+            200: {
+              content: {
+                'application/json': {
+                  schema: {
+                    type: 'object',
+                    properties: {
+                      [dirPrefix]: {
+                        type: 'string',
+                        example: texts[0],
+                      },
+                      data: {
+                        type: 'array',
+                        example: exampleApiObjs.slice(0, 2),
+                      },
+                    },
+                  },
+                },
+              },
+            },
+          },
+          parameters: [
+            {
+              in: 'path',
+              name: dirPrefix,
+              required: true,
+              schema: {
+                type: 'string',
+                enum: Object.keys(textExportObj),
+              },
+              description: `${dirPrefix}データの一覧`,
+            },
+          ],
+        },
+      },
+    });
+
+    const provinceCityApiPath = [`{province}`, `{city}`, `{${dirPrefix}}.json`].join('/');
+    openApi.addApiPath({
+      [provinceCityApiPath]: {
+        get: {
+          responses: {
+            200: {
+              content: {
+                'application/json': {
+                  schema: {
+                    type: 'object',
+                    properties: {
+                      [dirPrefix]: {
+                        type: 'string',
+                        example: texts[0],
+                      },
+                      data: {
+                        type: 'array',
+                        example: exampleProvinceCityApiObjs.slice(0, 2),
+                      },
+                    },
+                  },
+                },
+              },
+            },
+          },
+          parameters: [
+            {
+              in: 'path',
+              name: 'province',
+              required: true,
+              schema: {
+                type: 'string',
+              },
+              description: '都道府県',
+            },
+            {
+              in: 'path',
+              name: 'city',
+              required: true,
+              schema: {
+                type: 'string',
+              },
+              description: '市区町村',
+            },
+            {
+              in: 'path',
+              name: dirPrefix,
+              required: true,
+              schema: {
+                type: 'string',
+                enum: Object.keys(textExportObj),
+              },
+              description: `${dirPrefix}データの一覧`,
+            },
+          ],
+        },
+      },
+    });
   }
 }
 

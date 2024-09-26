@@ -14,7 +14,30 @@ paths:
             application/json:
               schema:
                 type: object
-                properties: {}
+                properties:
+                  category:
+                    type: string
+                    example: toilet
+                  data:
+                    type: array
+                    example:
+                      - &a1
+                        name: 野塩地域市民センター
+                        province: 東京都
+                        city: 清瀬市
+                        address: 東京都清瀬市野塩1丁目322-2
+                        lat: 35.77918046
+                        lon: 139.49942443
+                      - &a2
+                        name: 清瀬上宮保育園
+                        province: 東京都
+                        city: 清瀬市
+                        address: 東京都清瀬市竹丘3丁目8-1
+                        lat: 35.7663543
+                        lon: 139.50205496
+                        males_count: 0
+                        females_count: 0
+                        multipurposes_count: 0
       parameters:
         - in: path
           name: category
@@ -34,7 +57,15 @@ paths:
             application/json:
               schema:
                 type: object
-                properties: {}
+                properties:
+                  category:
+                    type: string
+                    example: toilet
+                  data:
+                    type: array
+                    example:
+                      - *a1
+                      - *a2
       parameters:
         - in: path
           name: province
@@ -66,7 +97,27 @@ paths:
             application/json:
               schema:
                 type: object
-                properties: {}
+                properties:
+                  keyword:
+                    type: string
+                    example: 包括
+                  data:
+                    type: array
+                    example:
+                      - &a3
+                        name: 地域包括支援センター　つつじケ丘
+                        province: 東京都
+                        city: 調布市
+                        address: 東京都調布市東つつじケ丘1丁目5-2
+                        lat: 35.65966264
+                        lon: 139.57605267
+                      - &a4
+                        name: 地域包括支援センター　仙川
+                        province: 東京都
+                        city: 調布市
+                        address: 東京都調布市若葉町2丁目22-2
+                        lat: 35.65607722
+                        lon: 139.58863778
       parameters:
         - in: path
           name: keyword
@@ -389,7 +440,15 @@ paths:
             application/json:
               schema:
                 type: object
-                properties: {}
+                properties:
+                  keyword:
+                    type: string
+                    example: 包括
+                  data:
+                    type: array
+                    example:
+                      - *a3
+                      - *a4
       parameters:
         - in: path
           name: province
