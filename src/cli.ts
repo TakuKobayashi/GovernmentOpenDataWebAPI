@@ -376,8 +376,12 @@ dataCommand
           }
           let saveData: Buffer;
           const detectedEncoding = Encoding.detect(response.data);
-          if (!detectedEncoding || detectedEncoding === 'UTF32') {
+          if (!detectedEncoding || detectedEncoding === 'UTF32' || detectedEncoding === 'UTF16') {
             saveData = response.data;
+          } else if (detectedEncoding === 'SJIS' && crawlerModel.origin_file_ext === '.csv') {
+            const textData = new TextDecoder('shift-jis').decode(response.data.buffer);
+            saveData = Buffer.from(textData, 'utf8');
+            willUpdateCrawlerObj.origin_file_encoder = detectedEncoding.toString();
           } else if (detectedEncoding === 'UNICODE') {
             const textData = Encoding.convert(response.data, {
               to: 'UTF8',
