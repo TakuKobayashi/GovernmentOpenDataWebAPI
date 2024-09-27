@@ -374,31 +374,31 @@ dataCommand
           if (!response?.data) {
             continue;
           }
-          let saveData: Buffer;
           const detectedEncoding = Encoding.detect(response.data);
-          if (!detectedEncoding || detectedEncoding === 'UTF32' || detectedEncoding === 'UTF16') {
-            saveData = response.data;
-          } else if (detectedEncoding === 'SJIS' && crawlerModel.origin_file_ext === '.csv') {
-            const textData = new TextDecoder('shift-jis').decode(response.data.buffer);
-            saveData = Buffer.from(textData, 'utf8');
-            willUpdateCrawlerObj.origin_file_encoder = detectedEncoding.toString();
-          } else if (detectedEncoding === 'UNICODE') {
-            const textData = Encoding.convert(response.data, {
-              to: 'UTF8',
-              from: 'SJIS',
-            });
-            saveData = Buffer.from(textData, 'utf8');
-            willUpdateCrawlerObj.origin_file_encoder = detectedEncoding.toString();
-          } else {
-            const textData = Encoding.convert(response.data, {
-              to: 'UTF8',
-              from: detectedEncoding,
-            });
-            saveData = Buffer.from(textData, 'utf8');
+          if (detectedEncoding) {
             willUpdateCrawlerObj.origin_file_encoder = detectedEncoding.toString();
           }
           // 100MB以上のファイルはGitに乗らないのでダウンロードしない
           if (response.data.length < 99900000) {
+            let saveData: Buffer;
+            if (!detectedEncoding || detectedEncoding === 'UTF32' || detectedEncoding === 'UTF16') {
+              saveData = response.data;
+            } else if (detectedEncoding === 'SJIS' && crawlerModel.origin_file_ext === '.csv') {
+              const textData = new TextDecoder('shift-jis').decode(response.data.buffer);
+              saveData = Buffer.from(textData, 'utf8');
+            } else if (detectedEncoding === 'UNICODE') {
+              const textData = Encoding.convert(response.data, {
+                to: 'UTF8',
+                from: 'SJIS',
+              });
+              saveData = Buffer.from(textData, 'utf8');
+            } else {
+              const textData = Encoding.convert(response.data, {
+                to: 'UTF8',
+                from: detectedEncoding,
+              });
+              saveData = Buffer.from(textData, 'utf8');
+            }
             saveToLocalFileFromBuffer(willSaveFilePath, saveData);
             const stat = fs.statSync(willSaveFilePath);
             willUpdateCrawlerObj.origin_file_size = stat.size;
