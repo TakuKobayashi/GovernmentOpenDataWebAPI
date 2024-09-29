@@ -6,7 +6,7 @@ servers:
   - url: https://takukobayashi.github.io/GovernmentOpenDataWebAPI/api/v1
     description: APIの既定となるURL
 paths:
-  category/{category}/list.json:
+  /category/{category}/list.json:
     get:
       responses:
         "200":
@@ -49,7 +49,7 @@ paths:
               - park
               - wireless
           description: categoryデータの一覧
-  "{province}/{city}/{category}.json":
+  /{province}/{city}/{category}.json:
     get:
       responses:
         "200":
@@ -89,7 +89,7 @@ paths:
               - park
               - wireless
           description: categoryデータの一覧
-  keyword/{keyword}/list.json:
+  /keyword/{keyword}/list.json:
     get:
       responses:
         "200":
@@ -432,7 +432,7 @@ paths:
               - パス
               - 声
           description: keywordデータの一覧
-  "{province}/{city}/{keyword}.json":
+  /{province}/{city}/{keyword}.json:
     get:
       responses:
         "200":
