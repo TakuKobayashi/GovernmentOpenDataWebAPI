@@ -1196,7 +1196,7 @@ async function convertApiJsonRoutine(
   }
 
   if (texts.length > 0) {
-    const apiPath = [dirPrefix, `{${dirPrefix}}`, 'list.json'].join('/');
+    const apiPath = ['', dirPrefix, `{${dirPrefix}}`, 'list.json'].join('/');
     openApi.addApiPath({
       [apiPath]: {
         get: {
@@ -1237,7 +1237,7 @@ async function convertApiJsonRoutine(
       },
     });
 
-    const provinceCityApiPath = [`{province}`, `{city}`, `{${dirPrefix}}.json`].join('/');
+    const provinceCityApiPath = ['', `{province}`, `{city}`, `{${dirPrefix}}.json`].join('/');
     openApi.addApiPath({
       [provinceCityApiPath]: {
         get: {
