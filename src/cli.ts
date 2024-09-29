@@ -1,6 +1,5 @@
 import { program, Command } from 'commander';
 import packageJson from '../package.json';
-import XLSX, { WorkBook } from 'xlsx';
 import path from 'path';
 import fs from 'fs';
 import axios from 'axios';
@@ -10,15 +9,16 @@ import _ from 'lodash';
 import Encoding from 'encoding-japanese';
 import nodeHtmlParser from 'node-html-parser';
 import romajiConv from '@koozaki/romaji-conv';
-import { buildPlacesDataFromWorkbook, PlaceModel } from './models/place';
+import { PlaceModel, loadResourceFileAndBuildPlaceModels, convertToApiFormatDataObjs, PlaceInterface } from './models/place';
 import { importGsiMuni } from './models/gsimuni';
-import { prismaClient } from './utils/prisma-common';
+import { prismaClient, findInBatches } from './utils/prisma-common';
 import { saveToLocalFileFromString, saveToLocalFileFromBuffer, loadSpreadSheetRowObject } from './utils/util';
 import { exportToInsertSQL } from './utils/data-exporters';
 import { requestKeyphrase, requestAnalysisParse } from './utils/yahoo-api';
 import { sleep } from './utils/util';
+import { OpenApi } from './utils/open-api';
 import { config } from 'dotenv';
-import { CrawlerState, PrismaClient } from '@prisma/client';
+import { CrawlerState } from '@prisma/client';
 config();
 
 program.storeOptionsAsProperties(false);
@@ -68,7 +68,7 @@ dataCommand
       need_manual_edit?: boolean;
     }[] = [];
     const alreadyExistOriginUrlSet: Set<string> = new Set();
-    await crawlerFindInBatches({}, 1000, async (crawlers) => {
+    await findInBatches('crawler', {}, 1000, async (crawlers) => {
       for (const crawler of crawlers) {
         alreadyExistOriginUrlSet.add(crawler.origin_url);
       }
@@ -197,7 +197,8 @@ dataCommand
   .command('generate:keywords')
   .description('')
   .action(async (options: any) => {
-    await crawlerFindInBatches(
+    await findInBatches(
+      'crawler',
       {
         origin_title: { not: null },
         state: { in: ['STANDBY', 'DOWNLOADED'] },
@@ -221,11 +222,11 @@ dataCommand
         );
         for (const crawlerModel of checkCrawlerModels) {
           const keyphrase = await requestKeyphrase(crawlerModel.origin_title!!.normalize('NFKC'), crawlerModel.id);
-          await sleep(200);
+          await sleep(100);
           const wordScores: { [word: string]: number } = {};
           for (const phrase of keyphrase.result.phrases) {
             const analysis = await requestAnalysisParse(phrase.text, crawlerModel.id);
-            await sleep(200);
+            await sleep(100);
             for (const token of analysis.result.tokens) {
               if (token[3] !== '名詞' || token[4] === '数詞') {
                 continue;
@@ -311,7 +312,8 @@ dataCommand
   .command('download')
   .description('')
   .action(async (options: any) => {
-    await crawlerFindInBatches(
+    await findInBatches(
+      'crawler',
       {
         need_manual_edit: false,
         state: { in: ['STANDBY', 'KEYWORD_GENERATED'] },
@@ -342,7 +344,6 @@ dataCommand
           },
         });
         const crawlerIdcrawlerKeywords = _.groupBy(crawlerKeywords, (crawlerKeyword) => crawlerKeyword.crawler_id);
-
         for (const crawlerModel of crawlerModels) {
           const willUpdateCrawlerObj: {
             need_manual_edit: boolean;
@@ -355,7 +356,11 @@ dataCommand
             origin_file_size: 0,
           };
           const willSaveFilePath: string = path.join(
-            ...getSaveOriginFilePathParts(crawlerModel, undefined, crawlerIdCrawlerCategory[crawlerModel.id]),
+            ...getSaveOriginFilePathParts(
+              crawlerModel,
+              crawlerIdcrawlerKeywords[crawlerModel.id],
+              crawlerIdCrawlerCategory[crawlerModel.id],
+            ),
           );
           const response = await axios.get(crawlerModel.origin_url, { responseType: 'arraybuffer' }).catch(async (error) => {
             willUpdateCrawlerObj.need_manual_edit = true;
@@ -369,33 +374,40 @@ dataCommand
           if (!response?.data) {
             continue;
           }
-          let saveData: Buffer;
           const detectedEncoding = Encoding.detect(response.data);
-          if (!detectedEncoding || detectedEncoding === 'UTF32') {
-            saveData = response.data;
-          } else if (detectedEncoding === 'UNICODE') {
-            const textData = Encoding.convert(response.data, {
-              to: 'UTF8',
-              from: 'SJIS',
-            });
-            saveData = Buffer.from(textData, 'utf8');
-            willUpdateCrawlerObj.origin_file_encoder = detectedEncoding.toString();
-          } else {
-            const textData = Encoding.convert(response.data, {
-              to: 'UTF8',
-              from: detectedEncoding,
-            });
-            saveData = Buffer.from(textData, 'utf8');
+          if (detectedEncoding) {
             willUpdateCrawlerObj.origin_file_encoder = detectedEncoding.toString();
           }
           // 100MB以上のファイルはGitに乗らないのでダウンロードしない
           if (response.data.length < 99900000) {
+            let saveData: Buffer;
+            if (!detectedEncoding || detectedEncoding === 'UTF32' || detectedEncoding === 'UTF16') {
+              saveData = response.data;
+            } else if (detectedEncoding === 'SJIS' && crawlerModel.origin_file_ext === '.csv') {
+              const textData = new TextDecoder('shift-jis').decode(response.data.buffer);
+              saveData = Buffer.from(textData, 'utf8');
+            } else if (detectedEncoding === 'UNICODE') {
+              const textData = Encoding.convert(response.data, {
+                to: 'UTF8',
+                from: 'SJIS',
+              });
+              saveData = Buffer.from(textData, 'utf8');
+            } else {
+              const textData = Encoding.convert(response.data, {
+                to: 'UTF8',
+                from: detectedEncoding,
+              });
+              saveData = Buffer.from(textData, 'utf8');
+            }
             saveToLocalFileFromBuffer(willSaveFilePath, saveData);
             const stat = fs.statSync(willSaveFilePath);
             willUpdateCrawlerObj.origin_file_size = stat.size;
           } else {
             willUpdateCrawlerObj.need_manual_edit = true;
             willUpdateCrawlerObj.origin_file_size = response.data.length;
+          }
+          if (crawlerModel.state === 'STANDBY') {
+            crawlerModel.state = 'DOWNLOADED';
           }
           willUpdateCrawlerObj.last_updated_at = new Date();
           willUpdateCrawlerObj.checksum = crypto.createHash('sha512').update(response.data.buffer.toString('hex')).digest('hex');
@@ -414,39 +426,49 @@ dataCommand
   .command('import:origin')
   .description('')
   .action(async (options: any) => {
-    const crawlerFilePathSet: Set<string> = new Set();
-    await crawlerFindInBatches(
+    await findInBatches(
+      'crawler',
       {
         checksum: { not: null },
         last_updated_at: { not: null },
+        state: { in: ['STANDBY', 'DOWNLOADED', 'KEYWORD_GENERATED'] },
         origin_file_ext: {
           in: ['.xlsx', '.xls'],
         },
       },
       1000,
       async (crawlerModels) => {
-        for (const crawlerModel of crawlerModels) {
-          const originUrl = new URL(crawlerModel.origin_url);
-          crawlerFilePathSet.add(originUrl.pathname);
-        }
         await importOriginRoutine(crawlerModels);
       },
     );
-    await crawlerFindInBatches(
+    await findInBatches(
+      'crawler',
       {
         checksum: { not: null },
         last_updated_at: { not: null },
+        state: { in: ['STANDBY', 'DOWNLOADED', 'KEYWORD_GENERATED'] },
         origin_file_ext: {
           in: ['.csv'],
         },
       },
       1000,
       async (crawlerModels) => {
-        const csvCrawlerModels = crawlerModels.filter((crawlerModel) => {
-          const originUrl = new URL(crawlerModel.origin_url);
-          return !crawlerFilePathSet.has(originUrl.pathname);
-        });
-        await importOriginRoutine(csvCrawlerModels);
+        await importOriginRoutine(crawlerModels);
+      },
+    );
+    await findInBatches(
+      'crawler',
+      {
+        checksum: { not: null },
+        last_updated_at: { not: null },
+        state: { in: ['STANDBY', 'DOWNLOADED', 'KEYWORD_GENERATED'] },
+        origin_file_ext: {
+          in: ['.json', '.geojson'],
+        },
+      },
+      1000,
+      async (crawlerModels) => {
+        await importOriginRoutine(crawlerModels);
       },
     );
   });
@@ -458,7 +480,7 @@ dataCommand
     const downloadInfoFilePath = path.join('resources', 'master-data', 'download-file-info.csv');
     const downloadFileInfoCsvStream = fs.createWriteStream(downloadInfoFilePath);
     downloadFileInfoCsvStream.write(['url', 'categoryTitle', 'title', 'needManualEdit'].join(','));
-    await crawlerFindInBatches({}, 1000, async (crawlerModels) => {
+    await findInBatches('crawler', {}, 1000, async (crawlerModels) => {
       const crawlerCategories = await prismaClient.crawlerCategory.findMany({
         where: {
           crawler_id: {
@@ -487,28 +509,29 @@ dataCommand
     });
     downloadFileInfoCsvStream.end();
 
-    const crawlerRootModels = await prismaClient.crawlerRoot.findMany();
-    const crawlerRootCategories = await prismaClient.crawlerCategory.findMany({
-      where: {
-        crawler_id: {
-          in: crawlerRootModels.map((crawlerRootModel) => crawlerRootModel.id),
-        },
-        crawler_type: 'CrawlerRoot',
-      },
-      include: {
-        category: true,
-      },
-    });
-    const crawlerRootIdCrawlerCategory = _.keyBy(crawlerRootCategories, (crawlerCategory) => crawlerCategory.crawler_id);
     const downloadRootInfoFilePath = path.join('resources', 'master-data', 'download-root-info.csv');
     const downloadRootInfoCsvStream = fs.createWriteStream(downloadRootInfoFilePath);
     downloadRootInfoCsvStream.write(['url', 'categoryTitle'].join(','));
-    for (const crawlerRootModel of crawlerRootModels) {
-      const crawlerCategory = crawlerRootIdCrawlerCategory[crawlerRootModel.id];
-      const categoryTitle = crawlerCategory?.category?.title || '';
-      downloadRootInfoCsvStream.write('\n');
-      downloadRootInfoCsvStream.write([crawlerRootModel.url, categoryTitle].join(','));
-    }
+    await findInBatches('crawlerRoot', {}, 1000, async (crawlerRootModels) => {
+      const crawlerRootCategories = await prismaClient.crawlerCategory.findMany({
+        where: {
+          crawler_id: {
+            in: crawlerRootModels.map((crawlerRootModel) => crawlerRootModel.id),
+          },
+          crawler_type: 'CrawlerRoot',
+        },
+        include: {
+          category: true,
+        },
+      });
+      const crawlerRootIdCrawlerCategory = _.keyBy(crawlerRootCategories, (crawlerCategory) => crawlerCategory.crawler_id);
+      for (const crawlerRootModel of crawlerRootModels) {
+        const crawlerCategory = crawlerRootIdCrawlerCategory[crawlerRootModel.id];
+        const categoryTitle = crawlerCategory?.category?.title || '';
+        downloadRootInfoCsvStream.write('\n');
+        downloadRootInfoCsvStream.write([crawlerRootModel.url, categoryTitle].join(','));
+      }
+    });
     downloadRootInfoCsvStream.end();
   });
 
@@ -525,64 +548,71 @@ sqlCommand
 
 program.addCommand(sqlCommand);
 
+const openApi = OpenApi.loadYaml(fs.readFileSync('swagger.yml', 'utf-8'));
+openApi.putServer({
+  url: `https://takukobayashi.github.io/GovernmentOpenDataWebAPI/api/${API_VERSION_NAME}`,
+  description: 'APIの既定となるURL',
+});
+
 program
   .command('build')
   .description('')
   .action(async (options: any) => {
-    const categories = await prismaClient.category.findMany({
-      include: {
-        data_categories: true,
-      },
-    });
-    for (const categoryModel of categories) {
-      const placeCategories = categoryModel.data_categories.filter((placeCategoryModel) => placeCategoryModel.source_type === 'Place');
-      const placeModels = await prismaClient.place.findMany({
+    const placeIdCategoryTitle: { [placeId: number]: string } = {};
+    const placeIdExtraInfo: { [placeId: number]: any } = {};
+    await findInBatches('category', {}, 100, async (categories) => {
+      const dataCategories = await prismaClient.dataCategory.findMany({
         where: {
-          id: {
-            in: placeCategories.map((placeCategoryModel) => placeCategoryModel.source_id),
+          category_id: {
+            in: categories.map((category) => category.id),
           },
         },
       });
-      const categoryApiObjs = placeModels.map((placeModel) => convertToApiFormatDataObjs(placeModel));
-      const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, 'category', categoryModel.title, 'list.json');
-      saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ category: categoryModel.title, data: categoryApiObjs }));
-      const provincePlaceModels = _.groupBy(placeModels, (placeModel) => placeModel.province);
-      for (const province of Object.keys(provincePlaceModels)) {
-        const provincePlaces = provincePlaceModels[province];
-        const cityPlaceModels = _.groupBy(provincePlaces, (placeModel) => placeModel.city);
-        for (const city of Object.keys(cityPlaceModels)) {
-          const provinceCityApiObjs = cityPlaceModels[city].map((placeModel) => convertToApiFormatDataObjs(placeModel));
-          const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, province, city, `${categoryModel.title}.json`);
-          saveToLocalFileFromString(willSaveFilePath, JSON.stringify({ category: categoryModel.title, data: provinceCityApiObjs }));
+      const categoryIdDataCategory = _.groupBy(dataCategories, (dataCategory) => dataCategory.category_id);
+      for (const categoryModel of categories) {
+        const dataCategories = categoryIdDataCategory[categoryModel.id] || [];
+        for (const dataCategory of dataCategories) {
+          if (dataCategory.source_type === 'Place') {
+            placeIdCategoryTitle[dataCategory.source_id] = categoryModel.title;
+            placeIdExtraInfo[dataCategory.source_id] = dataCategory.extra_info;
+          }
         }
       }
-    }
+    });
+    await convertApiJsonRoutine('category', placeIdCategoryTitle, placeIdExtraInfo);
 
-    const originXlsFilePathes = fg.sync(['resources', 'origin-data', '**', '*.xls'].join('/'))
-    const originXlsxFilePathes = fg.sync(['resources', 'origin-data', '**', '*.xlsx'].join('/'))
-    const originCsvFilePathes = fg.sync(['resources', 'origin-data', '**', '*.csv'].join('/'))
-    for(const dataFilePath of [...originXlsFilePathes, ...originXlsxFilePathes,...originCsvFilePathes]){
-      let workbook
-      try {
-        if (path.extname(dataFilePath) === '.csv') {
-          const readFileData = fs.readFileSync(dataFilePath, 'utf8');
-          workbook = XLSX.read(readFileData, { type: 'string' });
-        } else if (['.xlsx', '.xls'].includes(path.extname(dataFilePath))) {
-          workbook = XLSX.readFile(dataFilePath);
+    const placeIdKeyword: { [placeId: number]: string } = {};
+    await findInBatches('keyword', {}, 100, async (keywords) => {
+      const crawlerKeywords = await prismaClient.crawlerKeyword.findMany({
+        where: {
+          keyword_id: {
+            in: keywords.map((keyword) => keyword.id),
+          },
+        },
+        include: {
+          crawler: {
+            include: {
+              import_crawler_data: true,
+            },
+          },
+        },
+      });
+      const keywordIdCrawlerKeywords = _.groupBy(crawlerKeywords, (crawlerKeyword) => crawlerKeyword.keyword_id);
+      for (const keywordModel of keywords) {
+        const crawlerKeywords = keywordIdCrawlerKeywords[keywordModel.id] || [];
+        for (const crawlerKeywordModel of crawlerKeywords) {
+          const importCrawlerData = crawlerKeywordModel.crawler.import_crawler_data;
+          for (const importCrawler of importCrawlerData) {
+            if (importCrawler.source_type === 'Place') {
+              placeIdKeyword[importCrawler.source_id] = keywordModel.word;
+              placeIdExtraInfo[importCrawler.source_id] = importCrawler.extra_info;
+            }
+          }
         }
-      } catch (error: any) {
-        continue;
       }
-
-      const urlFilePathParts = dataFilePath.split('/');
-      urlFilePathParts.splice(0, 3);
-      const sheetNames = Object.keys(workbook.Sheets);
-      for (const sheetName of sheetNames) {
-        const themeRows: any[] = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName]);
-        const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, 'origin', ...urlFilePathParts, sheetName, `${sheetName}.json`);
-        saveToLocalFileFromString(willSaveFilePath, JSON.stringify(themeRows));
-      }
-    }
+    });
+    await convertApiJsonRoutine('keyword', placeIdKeyword, placeIdExtraInfo);
+    fs.writeFileSync('swagger.yml', openApi.toYaml());
   });
 
 const crawlCommand = new Command('crawl');
@@ -791,19 +821,9 @@ async function importOriginRoutine(
   const crawlerIdcrawlerKeywords = _.groupBy(crawlerKeywords, (crawlerKeyword) => crawlerKeyword.crawler_id);
   for (const crawlerModel of crawlerModels) {
     const crawlerCategory = crawlerIdCrawlerCategory[crawlerModel.id];
-    const filePathes = fg.sync(
-      getSaveOriginFilePathParts(crawlerModel, crawlerIdcrawlerKeywords[crawlerModel.id], crawlerCategory).join('/'),
-    );
+    const filePathes = fg.sync(getSaveOriginFilePathParts(crawlerModel, undefined, crawlerCategory).join('/'));
     for (const filePath of filePathes) {
-      let workbook: WorkBook | undefined;
-      try {
-        if (path.extname(filePath) === '.csv') {
-          const readFileData = fs.readFileSync(filePath, 'utf8');
-          workbook = XLSX.read(readFileData, { type: 'string' });
-        } else if (['.xlsx', '.xls'].includes(path.extname(filePath))) {
-          workbook = XLSX.readFile(filePath);
-        }
-      } catch (error: any) {
+      const buildPlaceModels = await loadResourceFileAndBuildPlaceModels(filePath).catch(async (error) => {
         await prismaClient.$transaction([
           prismaClient.importFailLog.create({
             data: {
@@ -825,36 +845,11 @@ async function importOriginRoutine(
             },
           }),
         ]);
+      });
+      if (!buildPlaceModels) {
         continue;
       }
-      if (workbook) {
-        const buildPlaceModels = buildPlacesDataFromWorkbook(workbook);
-        const failLogs: any[][] = [];
-        for (const buildPlaceModel of buildPlaceModels) {
-          failLogs.push(buildPlaceModel.getImportInvalidLogs());
-        }
-        if (failLogs.length <= 0) {
-          // 問題のないデータもあるのでここでは記録するだけにとどめておく
-          await prismaClient.$transaction([
-            prismaClient.crawler.updateMany({
-              where: {
-                id: crawlerModel.id,
-              },
-              data: {
-                need_manual_edit: true,
-              },
-            }),
-            prismaClient.importFailLog.create({
-              data: {
-                crawl_url: crawlerModel.origin_url,
-                file_path: filePath,
-                to_source_type: 'Place',
-                fail_logs: failLogs.flat(),
-              },
-            }),
-          ]);
-          failLogs.splice(0);
-        }
+      if (buildPlaceModels.length > 0) {
         const hashcodes = _.compact(buildPlaceModels.map((placeModel) => placeModel.hashcode));
         if (hashcodes.length <= 0) {
           await updateCrawlerState(prismaClient, crawlerModel.id, 'IMPORT_FAILED');
@@ -871,22 +866,32 @@ async function importOriginRoutine(
           },
         });
         const currentHashCodeSet: Set<string> = new Set(currentPlaceModels.map((currentPlaceModel) => currentPlaceModel.hashcode));
-        const newPlaceModels = buildPlaceModels.filter((placeModel) => placeModel.hashcode && !currentHashCodeSet.has(placeModel.hashcode));
-        if (newPlaceModels.length <= 0) {
-          await updateCrawlerState(prismaClient, crawlerModel.id, 'IMPORT_FAILED');
-          continue;
+        const [newPlaceModels, errorPlaceModels] = _.partition(
+          buildPlaceModels,
+          (placeModel) => placeModel.hashcode && !currentHashCodeSet.has(placeModel.hashcode),
+        );
+        if (newPlaceModels.length > 0) {
+          await Promise.all(newPlaceModels.map((newPlaceModel) => newPlaceModel.setLocationInfo()));
         }
-        await Promise.all(newPlaceModels.map((newPlaceModel) => newPlaceModel.setLocationInfo()));
         const willSavePlaces: PlaceModel[] = [];
+        const failLogs: Set<any> = new Set();
+        for (const errorPlaceModel of errorPlaceModels) {
+          const logs = errorPlaceModel.getImportInvalidLogs();
+          for (const log of logs) {
+            failLogs.add(log);
+          }
+        }
         for (const newPlaceModel of newPlaceModels) {
           const logs = newPlaceModel.getImportInvalidLogs();
           if (logs.length > 0) {
-            failLogs.push(logs);
+            for (const log of logs) {
+              failLogs.add(log);
+            }
           } else {
             willSavePlaces.push(newPlaceModel);
           }
         }
-        if (failLogs.length <= 0) {
+        if (failLogs.size > 0) {
           // 問題のないデータもあるのでここでは記録するだけにとどめておく
           await prismaClient.$transaction([
             prismaClient.crawler.updateMany({
@@ -902,7 +907,7 @@ async function importOriginRoutine(
                 crawl_url: crawlerModel.origin_url,
                 file_path: filePath,
                 to_source_type: 'Place',
-                fail_logs: failLogs.flat(),
+                fail_logs: Array.from(failLogs),
               },
             }),
           ]);
@@ -948,10 +953,12 @@ async function importOriginRoutine(
             data: createdPlaces
               .filter((place) => !currentSourceIdSet.has(place.id))
               .map((place) => {
+                const willSavePlace = willSavePlaces.find((willSavePlace) => willSavePlace.hashcode === place.hashcode);
                 return {
                   crawl_url: crawlerModel.origin_url,
                   source_id: place.id,
                   source_type: 'Place',
+                  extra_info: willSavePlace?.getStashExtraInfo(),
                 };
               }),
           });
@@ -1111,51 +1118,6 @@ async function crawlRootUrlFromDataset(
   }
 }
 
-async function crawlerFindInBatches(
-  filter: { [columnName: string]: any } = {},
-  batchSize: number = 1000,
-  inBatches: (
-    models: {
-      id: number;
-      origin_url: string;
-      origin_file_ext: string;
-      origin_title: string | null;
-      origin_file_size: bigint;
-      origin_file_encoder: string | null;
-      checksum: string | null;
-      need_manual_edit: boolean;
-      last_updated_at: Date | null;
-    }[],
-  ) => Promise<void>,
-) {
-  const filterObj = {
-    id: {
-      gt: 0,
-    },
-    ...filter,
-  };
-  while (true) {
-    const crawlerModels = await prismaClient.crawler.findMany({
-      where: filterObj,
-      take: batchSize,
-      orderBy: [
-        {
-          id: 'asc',
-        },
-      ],
-    });
-    const maxId = _.maxBy(crawlerModels, (crawlerModel) => crawlerModel.id)?.id;
-    if (maxId) {
-      filterObj.id = {
-        gt: maxId,
-      };
-    } else {
-      break;
-    }
-    await inBatches(crawlerModels);
-  }
-}
-
 function getSaveOriginFilePathParts(
   crawlerModel: {
     origin_url: string;
@@ -1165,22 +1127,175 @@ function getSaveOriginFilePathParts(
 ): string[] {
   const downloadUrl = new URL(crawlerModel.origin_url);
   const crawlerKeywordModel = _.maxBy(keywords, (cKeyword) => {
-    return cKeyword.keyword.appear_count * cKeyword.score;
+    return cKeyword.score * cKeyword.keyword.word.length * 0.75;
   });
   const dirTitle = crawlerKeywordModel?.keyword?.word || crawlerCategory?.category?.title || 'unknown';
   return ['resources', 'origin-data', dirTitle, downloadUrl.hostname, ...downloadUrl.pathname.split('/')];
 }
 
-function convertToApiFormatDataObjs(placeModel: any): any {
-  return {
-    name: placeModel.name,
-    province: placeModel.province,
-    city: placeModel.city,
-    address: placeModel.address,
-    lat: placeModel.lat,
-    lon: placeModel.lon,
-    ...(placeModel.extra_info as object),
-  };
+async function convertApiJsonRoutine(
+  dirPrefix: string,
+  placeIdText: { [placeId: number]: string },
+  placeIdExtraInfo: { [placeId: number]: any },
+) {
+  const placeIds = _.uniq(Object.keys(placeIdText).map(Number));
+  const placeModels = await prismaClient.place.findMany({
+    where: {
+      id: {
+        in: placeIds,
+      },
+    },
+  });
+
+  const textExportObj: { [title: string]: any[] } = {};
+  for (const placeModel of placeModels) {
+    const text = placeIdText[placeModel.id];
+    const extraInfo = placeIdExtraInfo[placeModel.id] || {};
+    const categoryApiObjs = convertToApiFormatDataObjs(placeModel as PlaceInterface);
+    if (!textExportObj[text]) {
+      textExportObj[text] = [];
+    }
+    textExportObj[text].push({ ...categoryApiObjs, ...(extraInfo as object) });
+  }
+
+  const exampleApiObjs: any[] = [];
+  const exampleProvinceCityApiObjs: any[] = [];
+  const texts = Object.keys(textExportObj);
+  for (const text of texts) {
+    const apiObjs = textExportObj[text];
+    const apiResponseTemplateObj = { [dirPrefix]: text, data: apiObjs };
+    if (exampleApiObjs.length <= 0) {
+      for (const apiObj of apiObjs) {
+        exampleApiObjs.push(apiObj);
+      }
+    }
+    const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, dirPrefix, text, 'list.json');
+    saveToLocalFileFromString(willSaveFilePath, JSON.stringify(apiResponseTemplateObj));
+    const provinceApiObj = _.groupBy(apiObjs, (apiObj) => apiObj.province);
+    for (const province of Object.keys(provinceApiObj)) {
+      if (!province) {
+        continue;
+      }
+      const provincePlaces = provinceApiObj[province];
+      const cityApiObjs = _.groupBy(provincePlaces, (apiObj) => apiObj.city);
+      for (const city of Object.keys(cityApiObjs)) {
+        if (!city) {
+          continue;
+        }
+        const provinceCityApiObjs = cityApiObjs[city];
+        const provinceCityApiTemplateObj = { [dirPrefix]: text, data: provinceCityApiObjs };
+        if (exampleProvinceCityApiObjs.length <= 0) {
+          for (const provinceCityApiObj of provinceCityApiObjs) {
+            exampleProvinceCityApiObjs.push(provinceCityApiObj);
+          }
+        }
+        const willSaveFilePath: string = path.join('build', 'api', API_VERSION_NAME, province, city, `${text}.json`);
+        saveToLocalFileFromString(willSaveFilePath, JSON.stringify(provinceCityApiTemplateObj));
+      }
+    }
+  }
+
+  if (texts.length > 0) {
+    const apiPath = [dirPrefix, `{${dirPrefix}}`, 'list.json'].join('/');
+    openApi.addApiPath({
+      [apiPath]: {
+        get: {
+          responses: {
+            200: {
+              content: {
+                'application/json': {
+                  schema: {
+                    type: 'object',
+                    properties: {
+                      [dirPrefix]: {
+                        type: 'string',
+                        example: texts[0],
+                      },
+                      data: {
+                        type: 'array',
+                        example: exampleApiObjs.slice(0, 2),
+                      },
+                    },
+                  },
+                },
+              },
+            },
+          },
+          parameters: [
+            {
+              in: 'path',
+              name: dirPrefix,
+              required: true,
+              schema: {
+                type: 'string',
+                enum: Object.keys(textExportObj),
+              },
+              description: `${dirPrefix}データの一覧`,
+            },
+          ],
+        },
+      },
+    });
+
+    const provinceCityApiPath = [`{province}`, `{city}`, `{${dirPrefix}}.json`].join('/');
+    openApi.addApiPath({
+      [provinceCityApiPath]: {
+        get: {
+          responses: {
+            200: {
+              content: {
+                'application/json': {
+                  schema: {
+                    type: 'object',
+                    properties: {
+                      [dirPrefix]: {
+                        type: 'string',
+                        example: texts[0],
+                      },
+                      data: {
+                        type: 'array',
+                        example: exampleProvinceCityApiObjs.slice(0, 2),
+                      },
+                    },
+                  },
+                },
+              },
+            },
+          },
+          parameters: [
+            {
+              in: 'path',
+              name: 'province',
+              required: true,
+              schema: {
+                type: 'string',
+              },
+              description: '都道府県',
+            },
+            {
+              in: 'path',
+              name: 'city',
+              required: true,
+              schema: {
+                type: 'string',
+              },
+              description: '市区町村',
+            },
+            {
+              in: 'path',
+              name: dirPrefix,
+              required: true,
+              schema: {
+                type: 'string',
+                enum: Object.keys(textExportObj),
+              },
+              description: `${dirPrefix}データの一覧`,
+            },
+          ],
+        },
+      },
+    });
+  }
 }
 
 program.parse(process.argv);
