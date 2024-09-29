@@ -5,11 +5,12 @@
   "scripts": {
     "format": "prettier --config .prettierrc --write \"src/**/*.{ts,js}\"",
     "docs": "typedoc --tsconfig tsconfig.json --entryPoints src/**/*.ts --out docs/",
+    "redocly": "redocly",
     "ts-node": "ts-node",
     "prisma": "prisma",
     "commander": "ts-node src/cli.ts",
     "build": "ts-node src/cli.ts build",
-    "deploy": "ts-node src/cli.ts build & gh-pages -d build"
+    "deploy": "ts-node src/cli.ts build & redocly build-docs swagger.yml --output=build/index.html & gh-pages -d build"
   },
   "prisma": {
     "seed": "ts-node prisma/seed.ts"
@@ -17,6 +18,7 @@
   "author": "TakuKobayashi",
   "private": false,
   "dependencies": {
+    "@geolonia/normalize-japanese-addresses": "^2.10.1",
     "@koozaki/romaji-conv": "^2.0.30",
     "@prisma/client": "5.18.0",
     "adm-zip": "^0.5.16",
@@ -28,12 +30,15 @@
     "node-html-parser": "^6.1.13",
     "prisma": "^5.18.0",
     "puppeteer": "^23.3.0",
-    "simple-git": "^3.26.0"
+    "simple-git": "^3.27.0",
+    "yaml": "^2.5.1"
   },
   "devDependencies": {
+    "@redocly/cli": "^1.25.2",
     "@types/axios": "^0.14.0",
     "@types/cheerio": "^0.22.35",
     "@types/encoding-japanese": "^2.2.1",
+    "@types/geojson": "^7946.0.14",
     "@types/lodash": "^4.17.0",
     "@types/node": "^22.5.1",
     "commander": "^12.0.0",

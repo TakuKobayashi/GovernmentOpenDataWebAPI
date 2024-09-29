@@ -1,0 +1,6 @@
+[submodule "origin-data"]
+	path = resources/origin-data/
+	url = https://github.com/TakuKobayashi/GovernmentOpenDataOrigin.git
+[submodule "resources/origin-data"]
+	path = resources/origin-data
+	url = git@github.com:TakuKobayashi/GovernmentOpenDataOrigin.git

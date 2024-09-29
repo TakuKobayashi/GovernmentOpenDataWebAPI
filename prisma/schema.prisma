@@ -71,8 +71,8 @@ model Crawler {
 
 model ImportFailLog {
   id             Int        @id @default(autoincrement())
-  crawl_url      String
-  file_path      String?
+  crawl_url      String     @db.VarChar(255)
+  file_path      String?    @db.VarChar(255)
   to_source_type SourceType
   fail_logs      Json?
   crawler        Crawler    @relation(fields: [crawl_url], references: [origin_url])
@@ -85,7 +85,7 @@ model ImportCrawlerData {
   id          Int        @id @default(autoincrement())
   source_id   Int
   source_type SourceType
-  crawl_url   String
+  crawl_url   String     @db.VarChar(255)
   extra_info  Json?
   place       Place      @relation("ImportCrawlerPlaceSource", fields: [source_id], references: [id], map: "import_crawler_place_source_id")
   crawler     Crawler    @relation(fields: [crawl_url], references: [origin_url])

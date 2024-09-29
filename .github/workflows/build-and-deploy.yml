@@ -2,10 +2,6 @@ on:
   push:
     branches:
       - master
-    paths:
-      - resources/sqls/**/*.sql
-      - prisma/**/*.sql
-      - src/**/*.ts
 
 name: JSON Build And Deploy
 jobs:
@@ -59,8 +55,10 @@ jobs:
       run: yarn run prisma generate
     - name: prisma migrate
       run: yarn run prisma migrate reset --force
-    - name: build to json
+    - name: build to json and swagger.yml
       run: yarn run build
+    - name: build to apidocs
+      run: yarn run redocly build-docs swagger.yml --output=build/index.html
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
       with:
